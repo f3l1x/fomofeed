@@ -10,6 +10,7 @@ archive/
 # output (only public/feeds/ is tracked — see public/.gitignore)
 web/.astro
 web/dist
+public/
 
 # wrangler files
 .wrangler
