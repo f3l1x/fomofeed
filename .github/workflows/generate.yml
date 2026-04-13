@@ -2,7 +2,9 @@ name: Generate Feeds
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    # 06:00, 08:00, 10:00, 16:00, 18:00, 20:00 Europe/Prague (CEST, UTC+2).
+    # GitHub Actions cron is UTC-only; times shift by 1h during CET (winter).
+    - cron: "0 4,6,8,14,16,18 * * *"
   workflow_dispatch:
 
 concurrency:
