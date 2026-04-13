@@ -9,7 +9,6 @@ make install          # bun install
 make generate         # generate all feeds
 make generate FEED=id # generate single feed
 make generate-full    # generate with --full
-make serve            # start server on :3000
 make test             # run tests
 make typecheck        # type check
 make lint             # eslint
@@ -22,8 +21,7 @@ make clean            # rm feeds/ cache/
 
 ```
 src/
-  cli.ts             # CLI entry (generate / serve / list)
-  server.ts          # Bun.serve(), renders index dynamically
+  cli.ts             # CLI entry (generate / list / debug)
   lib/
     types.ts         # FeedSource + FeedItem interfaces
     constants.ts     # Shared paths (FEEDS_DIR, CACHE_DIR, ARCHIVE_DIR)

@@ -79,10 +79,6 @@ make generate FEED=anthropic-news
 # Full regeneration (clears cache)
 make generate-full
 
-# Start the web server
-make serve
-make serve PORT=8080
-
 # Run tests
 make test
 ```

@@ -4,1384 +4,1384 @@
         <description><![CDATA[RSS feed for Paul Graham Essays]]></description>
         <link>https://www.paulgraham.com/articles.html</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 15:24:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 15:58:35 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/paulgraham.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 15:24:23 GMT</pubDate>
+        <pubDate>Tue, 29 Dec 2020 17:35:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[How to Do Great Work]]></title>
             <link>https://www.paulgraham.com/greatwork.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/greatwork.html</guid>
-            <pubDate>Tue, 09 Dec 2025 01:47:23 GMT</pubDate>
+            <pubDate>Thu, 27 Aug 2020 09:47:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Having Kids]]></title>
             <link>https://www.paulgraham.com/kids.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/kids.html</guid>
-            <pubDate>Tue, 29 Jul 2025 09:12:23 GMT</pubDate>
+            <pubDate>Thu, 16 Apr 2020 18:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Lose Time and Money]]></title>
             <link>https://www.paulgraham.com/selfindulgence.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/selfindulgence.html</guid>
-            <pubDate>Wed, 01 Apr 2026 21:55:23 GMT</pubDate>
+            <pubDate>Sat, 19 Dec 2020 06:55:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Brand Age]]></title>
             <link>https://www.paulgraham.com/brandage.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/brandage.html</guid>
-            <pubDate>Fri, 20 Jun 2025 15:47:23 GMT</pubDate>
+            <pubDate>Mon, 09 Mar 2020 00:47:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Shape of the Essay Field]]></title>
             <link>https://www.paulgraham.com/field.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/field.html</guid>
-            <pubDate>Wed, 08 Oct 2025 21:41:23 GMT</pubDate>
+            <pubDate>Sat, 27 Jun 2020 06:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Good Writing]]></title>
             <link>https://www.paulgraham.com/goodwriting.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/goodwriting.html</guid>
-            <pubDate>Mon, 20 Oct 2025 16:46:23 GMT</pubDate>
+            <pubDate>Thu, 09 Jul 2020 01:46:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What to Do]]></title>
             <link>https://www.paulgraham.com/do.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/do.html</guid>
-            <pubDate>Thu, 02 Apr 2026 03:50:23 GMT</pubDate>
+            <pubDate>Sat, 19 Dec 2020 12:50:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Origins of Wokeness]]></title>
             <link>https://www.paulgraham.com/woke.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/woke.html</guid>
-            <pubDate>Wed, 28 May 2025 11:07:23 GMT</pubDate>
+            <pubDate>Fri, 14 Feb 2020 20:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Writes and Write-Nots]]></title>
             <link>https://www.paulgraham.com/writes.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/writes.html</guid>
-            <pubDate>Sun, 08 Jun 2025 20:31:23 GMT</pubDate>
+            <pubDate>Wed, 26 Feb 2020 05:31:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[When To Do What You Love]]></title>
             <link>https://www.paulgraham.com/when.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/when.html</guid>
-            <pubDate>Sun, 27 Jul 2025 16:19:23 GMT</pubDate>
+            <pubDate>Wed, 15 Apr 2020 01:19:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Founder Mode]]></title>
             <link>https://www.paulgraham.com/foundermode.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/foundermode.html</guid>
-            <pubDate>Wed, 16 Apr 2025 23:09:23 GMT</pubDate>
+            <pubDate>Sat, 04 Jan 2020 08:09:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Right Kind of Stubborn]]></title>
             <link>https://www.paulgraham.com/persistence.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/persistence.html</guid>
-            <pubDate>Mon, 29 Sep 2025 02:34:23 GMT</pubDate>
+            <pubDate>Wed, 17 Jun 2020 11:34:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Reddits]]></title>
             <link>https://www.paulgraham.com/reddits.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/reddits.html</guid>
-            <pubDate>Tue, 02 Sep 2025 23:52:23 GMT</pubDate>
+            <pubDate>Fri, 22 May 2020 08:52:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Start Google]]></title>
             <link>https://www.paulgraham.com/google.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/google.html</guid>
-            <pubDate>Fri, 19 Sep 2025 02:28:23 GMT</pubDate>
+            <pubDate>Sun, 07 Jun 2020 11:28:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Best Essay]]></title>
             <link>https://www.paulgraham.com/best.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/best.html</guid>
-            <pubDate>Tue, 03 Mar 2026 23:01:23 GMT</pubDate>
+            <pubDate>Fri, 20 Nov 2020 07:01:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Superlinear Returns]]></title>
             <link>https://www.paulgraham.com/superlinear.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/superlinear.html</guid>
-            <pubDate>Wed, 04 Jun 2025 05:33:23 GMT</pubDate>
+            <pubDate>Fri, 21 Feb 2020 14:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Get New Ideas]]></title>
             <link>https://www.paulgraham.com/getideas.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/getideas.html</guid>
-            <pubDate>Sun, 01 Feb 2026 08:29:23 GMT</pubDate>
+            <pubDate>Tue, 20 Oct 2020 16:29:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Need to Read]]></title>
             <link>https://www.paulgraham.com/read.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/read.html</guid>
-            <pubDate>Fri, 25 Apr 2025 19:35:23 GMT</pubDate>
+            <pubDate>Mon, 13 Jan 2020 04:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What You (Want to)* Want]]></title>
             <link>https://www.paulgraham.com/want.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/want.html</guid>
-            <pubDate>Sat, 21 Feb 2026 03:51:23 GMT</pubDate>
+            <pubDate>Mon, 09 Nov 2020 11:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Alien Truth]]></title>
             <link>https://www.paulgraham.com/alien.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/alien.html</guid>
-            <pubDate>Fri, 06 Feb 2026 23:26:23 GMT</pubDate>
+            <pubDate>Mon, 26 Oct 2020 07:26:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What I've Learned from Users]]></title>
             <link>https://www.paulgraham.com/users.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/users.html</guid>
-            <pubDate>Thu, 11 Sep 2025 14:29:23 GMT</pubDate>
+            <pubDate>Sat, 30 May 2020 23:29:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Heresy]]></title>
             <link>https://www.paulgraham.com/heresy.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/heresy.html</guid>
-            <pubDate>Sun, 26 Oct 2025 21:33:23 GMT</pubDate>
+            <pubDate>Wed, 15 Jul 2020 05:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Putting Ideas into Words]]></title>
             <link>https://www.paulgraham.com/words.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/words.html</guid>
-            <pubDate>Sat, 17 May 2025 17:08:23 GMT</pubDate>
+            <pubDate>Tue, 04 Feb 2020 02:08:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Is There Such a Thing as Good Taste?]]></title>
             <link>https://www.paulgraham.com/goodtaste.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/goodtaste.html</guid>
-            <pubDate>Wed, 02 Jul 2025 11:33:23 GMT</pubDate>
+            <pubDate>Fri, 20 Mar 2020 20:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Beyond Smart]]></title>
             <link>https://www.paulgraham.com/smart.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/smart.html</guid>
-            <pubDate>Sat, 10 Jan 2026 16:32:23 GMT</pubDate>
+            <pubDate>Tue, 29 Sep 2020 00:32:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Weird Languages]]></title>
             <link>https://www.paulgraham.com/weird.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/weird.html</guid>
-            <pubDate>Tue, 10 Mar 2026 10:04:23 GMT</pubDate>
+            <pubDate>Thu, 26 Nov 2020 18:04:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Work Hard]]></title>
             <link>https://www.paulgraham.com/hwh.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hwh.html</guid>
-            <pubDate>Mon, 08 Dec 2025 08:16:23 GMT</pubDate>
+            <pubDate>Wed, 26 Aug 2020 16:16:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Project of One's Own]]></title>
             <link>https://www.paulgraham.com/own.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/own.html</guid>
-            <pubDate>Fri, 16 Jan 2026 14:59:23 GMT</pubDate>
+            <pubDate>Sun, 04 Oct 2020 22:59:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Fierce Nerds]]></title>
             <link>https://www.paulgraham.com/fn.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/fn.html</guid>
-            <pubDate>Sat, 13 Dec 2025 18:41:23 GMT</pubDate>
+            <pubDate>Tue, 01 Sep 2020 02:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Crazy New Ideas]]></title>
             <link>https://www.paulgraham.com/newideas.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/newideas.html</guid>
-            <pubDate>Sun, 08 Jun 2025 00:17:23 GMT</pubDate>
+            <pubDate>Tue, 25 Feb 2020 09:17:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[An NFT That Saves Lives]]></title>
             <link>https://www.paulgraham.com/nft.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/nft.html</guid>
-            <pubDate>Wed, 22 Oct 2025 10:57:23 GMT</pubDate>
+            <pubDate>Fri, 10 Jul 2020 19:57:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Real Reason to End the Death Penalty]]></title>
             <link>https://www.paulgraham.com/real.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/real.html</guid>
-            <pubDate>Fri, 16 Jan 2026 19:33:23 GMT</pubDate>
+            <pubDate>Mon, 05 Oct 2020 03:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How People Get Rich Now]]></title>
             <link>https://www.paulgraham.com/richnow.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/richnow.html</guid>
-            <pubDate>Mon, 23 Mar 2026 21:35:23 GMT</pubDate>
+            <pubDate>Thu, 10 Dec 2020 05:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Write Simply]]></title>
             <link>https://www.paulgraham.com/simply.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/simply.html</guid>
-            <pubDate>Thu, 12 Feb 2026 11:09:23 GMT</pubDate>
+            <pubDate>Sat, 31 Oct 2020 19:09:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Donate Unrestricted]]></title>
             <link>https://www.paulgraham.com/donate.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/donate.html</guid>
-            <pubDate>Wed, 27 Aug 2025 16:10:23 GMT</pubDate>
+            <pubDate>Sat, 16 May 2020 01:10:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What I Worked On]]></title>
             <link>https://www.paulgraham.com/worked.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/worked.html</guid>
-            <pubDate>Wed, 10 Dec 2025 16:25:23 GMT</pubDate>
+            <pubDate>Sat, 29 Aug 2020 00:25:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Earnestness]]></title>
             <link>https://www.paulgraham.com/earnest.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/earnest.html</guid>
-            <pubDate>Fri, 28 Nov 2025 20:11:23 GMT</pubDate>
+            <pubDate>Mon, 17 Aug 2020 04:11:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Billionaires Build]]></title>
             <link>https://www.paulgraham.com/ace.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ace.html</guid>
-            <pubDate>Fri, 16 May 2025 18:50:23 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2020 03:50:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Airbnbs]]></title>
             <link>https://www.paulgraham.com/airbnbs.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/airbnbs.html</guid>
-            <pubDate>Tue, 17 Feb 2026 07:26:23 GMT</pubDate>
+            <pubDate>Thu, 05 Nov 2020 15:26:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Think for Yourself]]></title>
             <link>https://www.paulgraham.com/think.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/think.html</guid>
-            <pubDate>Fri, 15 Aug 2025 05:01:23 GMT</pubDate>
+            <pubDate>Sun, 03 May 2020 14:01:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Early Work]]></title>
             <link>https://www.paulgraham.com/early.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/early.html</guid>
-            <pubDate>Tue, 24 Mar 2026 06:50:23 GMT</pubDate>
+            <pubDate>Thu, 10 Dec 2020 14:50:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Modeling a Wealth Tax]]></title>
             <link>https://www.paulgraham.com/wtax.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/wtax.html</guid>
-            <pubDate>Thu, 29 Jan 2026 11:55:23 GMT</pubDate>
+            <pubDate>Sat, 17 Oct 2020 19:55:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Four Quadrants of Conformism]]></title>
             <link>https://www.paulgraham.com/conformism.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/conformism.html</guid>
-            <pubDate>Wed, 30 Apr 2025 21:36:23 GMT</pubDate>
+            <pubDate>Sat, 18 Jan 2020 06:36:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Orthodox Privilege]]></title>
             <link>https://www.paulgraham.com/orth.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/orth.html</guid>
-            <pubDate>Sun, 11 May 2025 09:54:23 GMT</pubDate>
+            <pubDate>Tue, 28 Jan 2020 18:54:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Coronavirus and Credibility]]></title>
             <link>https://www.paulgraham.com/cred.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/cred.html</guid>
-            <pubDate>Tue, 22 Jul 2025 16:09:23 GMT</pubDate>
+            <pubDate>Fri, 10 Apr 2020 01:09:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Write Usefully]]></title>
             <link>https://www.paulgraham.com/useful.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/useful.html</guid>
-            <pubDate>Fri, 25 Jul 2025 18:57:23 GMT</pubDate>
+            <pubDate>Mon, 13 Apr 2020 03:57:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Being a Noob]]></title>
             <link>https://www.paulgraham.com/noob.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/noob.html</guid>
-            <pubDate>Tue, 06 Jan 2026 22:45:23 GMT</pubDate>
+            <pubDate>Fri, 25 Sep 2020 06:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Haters]]></title>
             <link>https://www.paulgraham.com/fh.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/fh.html</guid>
-            <pubDate>Wed, 18 Feb 2026 15:35:23 GMT</pubDate>
+            <pubDate>Fri, 06 Nov 2020 23:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Two Kinds of Moderate]]></title>
             <link>https://www.paulgraham.com/mod.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/mod.html</guid>
-            <pubDate>Sat, 28 Mar 2026 19:37:23 GMT</pubDate>
+            <pubDate>Tue, 15 Dec 2020 03:37:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Fashionable Problems]]></title>
             <link>https://www.paulgraham.com/fp.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/fp.html</guid>
-            <pubDate>Fri, 21 Nov 2025 11:43:23 GMT</pubDate>
+            <pubDate>Sun, 09 Aug 2020 19:43:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Lesson to Unlearn]]></title>
             <link>https://www.paulgraham.com/lesson.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/lesson.html</guid>
-            <pubDate>Wed, 19 Nov 2025 06:41:23 GMT</pubDate>
+            <pubDate>Fri, 07 Aug 2020 14:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Novelty and Heresy]]></title>
             <link>https://www.paulgraham.com/nov.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/nov.html</guid>
-            <pubDate>Sat, 16 Aug 2025 19:36:23 GMT</pubDate>
+            <pubDate>Tue, 05 May 2020 04:36:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Bus Ticket Theory of Genius]]></title>
             <link>https://www.paulgraham.com/genius.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/genius.html</guid>
-            <pubDate>Fri, 13 Feb 2026 04:30:23 GMT</pubDate>
+            <pubDate>Sun, 01 Nov 2020 12:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[General and Surprising]]></title>
             <link>https://www.paulgraham.com/sun.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/sun.html</guid>
-            <pubDate>Mon, 13 Oct 2025 05:21:23 GMT</pubDate>
+            <pubDate>Wed, 01 Jul 2020 14:21:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Charisma / Power]]></title>
             <link>https://www.paulgraham.com/pow.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/pow.html</guid>
-            <pubDate>Sun, 29 Mar 2026 21:41:23 GMT</pubDate>
+            <pubDate>Wed, 16 Dec 2020 06:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Risk of Discovery]]></title>
             <link>https://www.paulgraham.com/disc.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/disc.html</guid>
-            <pubDate>Wed, 18 Mar 2026 04:28:23 GMT</pubDate>
+            <pubDate>Fri, 04 Dec 2020 12:28:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Make Pittsburgh a Startup Hub]]></title>
             <link>https://www.paulgraham.com/pgh.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/pgh.html</guid>
-            <pubDate>Sat, 15 Nov 2025 23:20:23 GMT</pubDate>
+            <pubDate>Tue, 04 Aug 2020 07:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Life is Short]]></title>
             <link>https://www.paulgraham.com/vb.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/vb.html</guid>
-            <pubDate>Tue, 08 Jul 2025 22:57:23 GMT</pubDate>
+            <pubDate>Fri, 27 Mar 2020 07:57:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Economic Inequality]]></title>
             <link>https://www.paulgraham.com/ineq.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ineq.html</guid>
-            <pubDate>Mon, 08 Sep 2025 10:20:23 GMT</pubDate>
+            <pubDate>Wed, 27 May 2020 19:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Refragmentation]]></title>
             <link>https://www.paulgraham.com/re.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/re.html</guid>
-            <pubDate>Fri, 07 Nov 2025 06:34:23 GMT</pubDate>
+            <pubDate>Sun, 26 Jul 2020 14:34:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Jessica Livingston]]></title>
             <link>https://www.paulgraham.com/jessica.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/jessica.html</guid>
-            <pubDate>Sat, 01 Nov 2025 11:15:23 GMT</pubDate>
+            <pubDate>Mon, 20 Jul 2020 19:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Way to Detect Bias]]></title>
             <link>https://www.paulgraham.com/bias.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/bias.html</guid>
-            <pubDate>Tue, 29 Apr 2025 12:36:23 GMT</pubDate>
+            <pubDate>Thu, 16 Jan 2020 21:36:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Write Like You Talk]]></title>
             <link>https://www.paulgraham.com/talk.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/talk.html</guid>
-            <pubDate>Tue, 12 Aug 2025 01:37:23 GMT</pubDate>
+            <pubDate>Thu, 30 Apr 2020 10:37:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Default Alive or Default Dead?]]></title>
             <link>https://www.paulgraham.com/aord.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/aord.html</guid>
-            <pubDate>Thu, 26 Mar 2026 19:53:23 GMT</pubDate>
+            <pubDate>Sun, 13 Dec 2020 03:53:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why It's Safe for Founders to Be Nice]]></title>
             <link>https://www.paulgraham.com/safe.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/safe.html</guid>
-            <pubDate>Wed, 12 Nov 2025 20:44:23 GMT</pubDate>
+            <pubDate>Sat, 01 Aug 2020 04:44:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Change Your Name]]></title>
             <link>https://www.paulgraham.com/name.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/name.html</guid>
-            <pubDate>Fri, 26 Sep 2025 16:02:23 GMT</pubDate>
+            <pubDate>Mon, 15 Jun 2020 01:02:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Microsoft Is this the Altair Basic of?]]></title>
             <link>https://www.paulgraham.com/altair.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/altair.html</guid>
-            <pubDate>Mon, 20 Oct 2025 23:56:23 GMT</pubDate>
+            <pubDate>Thu, 09 Jul 2020 08:56:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Ronco Principle]]></title>
             <link>https://www.paulgraham.com/ronco.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ronco.html</guid>
-            <pubDate>Mon, 26 Jan 2026 10:20:23 GMT</pubDate>
+            <pubDate>Wed, 14 Oct 2020 18:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Doesn't Seem Like Work?]]></title>
             <link>https://www.paulgraham.com/work.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/work.html</guid>
-            <pubDate>Mon, 28 Jul 2025 00:12:23 GMT</pubDate>
+            <pubDate>Wed, 15 Apr 2020 09:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Don't Talk to Corp Dev]]></title>
             <link>https://www.paulgraham.com/corpdev.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/corpdev.html</guid>
-            <pubDate>Mon, 24 Nov 2025 22:54:23 GMT</pubDate>
+            <pubDate>Thu, 13 Aug 2020 06:54:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Let the Other 95% of Great Programmers In]]></title>
             <link>https://www.paulgraham.com/95.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/95.html</guid>
-            <pubDate>Sun, 19 Oct 2025 06:09:23 GMT</pubDate>
+            <pubDate>Tue, 07 Jul 2020 15:09:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Be an Expert in a Changing World]]></title>
             <link>https://www.paulgraham.com/ecw.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ecw.html</guid>
-            <pubDate>Thu, 12 Feb 2026 16:16:23 GMT</pubDate>
+            <pubDate>Sun, 01 Nov 2020 00:16:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How You Know]]></title>
             <link>https://www.paulgraham.com/know.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/know.html</guid>
-            <pubDate>Tue, 30 Dec 2025 09:34:23 GMT</pubDate>
+            <pubDate>Thu, 17 Sep 2020 17:34:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Fatal Pinch]]></title>
             <link>https://www.paulgraham.com/pinch.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/pinch.html</guid>
-            <pubDate>Wed, 10 Dec 2025 02:23:23 GMT</pubDate>
+            <pubDate>Fri, 28 Aug 2020 10:23:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Mean People Fail]]></title>
             <link>https://www.paulgraham.com/mean.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/mean.html</guid>
-            <pubDate>Fri, 02 Jan 2026 21:48:23 GMT</pubDate>
+            <pubDate>Mon, 21 Sep 2020 05:48:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Before the Startup]]></title>
             <link>https://www.paulgraham.com/before.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/before.html</guid>
-            <pubDate>Sun, 08 Feb 2026 13:10:23 GMT</pubDate>
+            <pubDate>Tue, 27 Oct 2020 21:10:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Raise Money]]></title>
             <link>https://www.paulgraham.com/fr.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/fr.html</guid>
-            <pubDate>Thu, 30 Oct 2025 04:45:23 GMT</pubDate>
+            <pubDate>Sat, 18 Jul 2020 12:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Investor Herd Dynamics]]></title>
             <link>https://www.paulgraham.com/herd.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/herd.html</guid>
-            <pubDate>Fri, 19 Sep 2025 12:14:23 GMT</pubDate>
+            <pubDate>Sun, 07 Jun 2020 21:14:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Convince Investors]]></title>
             <link>https://www.paulgraham.com/convince.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/convince.html</guid>
-            <pubDate>Tue, 16 Sep 2025 12:02:23 GMT</pubDate>
+            <pubDate>Thu, 04 Jun 2020 21:02:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Do Things that Don't Scale]]></title>
             <link>https://www.paulgraham.com/ds.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ds.html</guid>
-            <pubDate>Fri, 16 May 2025 17:46:23 GMT</pubDate>
+            <pubDate>Mon, 03 Feb 2020 02:46:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Startup Investing Trends]]></title>
             <link>https://www.paulgraham.com/invtrend.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/invtrend.html</guid>
-            <pubDate>Mon, 19 Jan 2026 19:41:23 GMT</pubDate>
+            <pubDate>Thu, 08 Oct 2020 03:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Get Startup Ideas]]></title>
             <link>https://www.paulgraham.com/startupideas.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/startupideas.html</guid>
-            <pubDate>Thu, 19 Jun 2025 19:06:23 GMT</pubDate>
+            <pubDate>Sun, 08 Mar 2020 04:06:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Hardware Renaissance]]></title>
             <link>https://www.paulgraham.com/hw.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hw.html</guid>
-            <pubDate>Fri, 31 Oct 2025 12:54:23 GMT</pubDate>
+            <pubDate>Sun, 19 Jul 2020 20:54:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Startup = Growth]]></title>
             <link>https://www.paulgraham.com/growth.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/growth.html</guid>
-            <pubDate>Wed, 28 Jan 2026 22:26:23 GMT</pubDate>
+            <pubDate>Sat, 17 Oct 2020 06:26:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Black Swan Farming]]></title>
             <link>https://www.paulgraham.com/swan.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/swan.html</guid>
-            <pubDate>Wed, 06 Aug 2025 14:20:23 GMT</pubDate>
+            <pubDate>Fri, 24 Apr 2020 23:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Top of My Todo List]]></title>
             <link>https://www.paulgraham.com/todo.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/todo.html</guid>
-            <pubDate>Tue, 30 Sep 2025 03:19:23 GMT</pubDate>
+            <pubDate>Thu, 18 Jun 2020 12:19:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Writing and Speaking]]></title>
             <link>https://www.paulgraham.com/speak.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/speak.html</guid>
-            <pubDate>Fri, 22 Aug 2025 14:05:23 GMT</pubDate>
+            <pubDate>Sun, 10 May 2020 23:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Y Combinator Started]]></title>
             <link>https://www.paulgraham.com/ycstart.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ycstart.html</guid>
-            <pubDate>Mon, 24 Nov 2025 16:49:23 GMT</pubDate>
+            <pubDate>Thu, 13 Aug 2020 00:49:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Defining Property]]></title>
             <link>https://www.paulgraham.com/property.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/property.html</guid>
-            <pubDate>Fri, 03 Apr 2026 18:32:23 GMT</pubDate>
+            <pubDate>Mon, 21 Dec 2020 03:32:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Frighteningly Ambitious Startup Ideas]]></title>
             <link>https://www.paulgraham.com/ambitious.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ambitious.html</guid>
-            <pubDate>Sat, 16 Aug 2025 09:12:23 GMT</pubDate>
+            <pubDate>Mon, 04 May 2020 18:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Word to the Resourceful]]></title>
             <link>https://www.paulgraham.com/word.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/word.html</guid>
-            <pubDate>Sun, 09 Nov 2025 12:49:23 GMT</pubDate>
+            <pubDate>Tue, 28 Jul 2020 20:49:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Schlep Blindness]]></title>
             <link>https://www.paulgraham.com/schlep.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/schlep.html</guid>
-            <pubDate>Sat, 03 Jan 2026 20:26:23 GMT</pubDate>
+            <pubDate>Tue, 22 Sep 2020 04:26:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Snapshot: Viaweb, June 1998]]></title>
             <link>https://www.paulgraham.com/vw.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/vw.html</guid>
-            <pubDate>Sat, 27 Sep 2025 00:28:23 GMT</pubDate>
+            <pubDate>Mon, 15 Jun 2020 09:28:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why Startup Hubs Work]]></title>
             <link>https://www.paulgraham.com/hubs.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hubs.html</guid>
-            <pubDate>Sun, 02 Nov 2025 14:35:23 GMT</pubDate>
+            <pubDate>Tue, 21 Jul 2020 22:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Patent Pledge]]></title>
             <link>https://www.paulgraham.com/patentpledge.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/patentpledge.html</guid>
-            <pubDate>Mon, 20 Oct 2025 19:24:23 GMT</pubDate>
+            <pubDate>Thu, 09 Jul 2020 04:24:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Subject: Airbnb]]></title>
             <link>https://www.paulgraham.com/airbnb.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/airbnb.html</guid>
-            <pubDate>Fri, 20 Jun 2025 12:23:23 GMT</pubDate>
+            <pubDate>Sun, 08 Mar 2020 21:23:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Founder Control]]></title>
             <link>https://www.paulgraham.com/control.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/control.html</guid>
-            <pubDate>Mon, 30 Jun 2025 16:16:23 GMT</pubDate>
+            <pubDate>Thu, 19 Mar 2020 01:16:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tablets]]></title>
             <link>https://www.paulgraham.com/tablets.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/tablets.html</guid>
-            <pubDate>Sat, 02 Aug 2025 13:20:23 GMT</pubDate>
+            <pubDate>Mon, 20 Apr 2020 22:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What We Look for in Founders]]></title>
             <link>https://www.paulgraham.com/founders.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/founders.html</guid>
-            <pubDate>Sun, 22 Jun 2025 10:07:23 GMT</pubDate>
+            <pubDate>Tue, 10 Mar 2020 19:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The New Funding Landscape]]></title>
             <link>https://www.paulgraham.com/superangels.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/superangels.html</guid>
-            <pubDate>Mon, 16 Mar 2026 07:00:23 GMT</pubDate>
+            <pubDate>Wed, 02 Dec 2020 15:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Where to See Silicon Valley]]></title>
             <link>https://www.paulgraham.com/seesv.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/seesv.html</guid>
-            <pubDate>Wed, 19 Nov 2025 00:19:23 GMT</pubDate>
+            <pubDate>Fri, 07 Aug 2020 08:19:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[High Resolution Fundraising]]></title>
             <link>https://www.paulgraham.com/hiresfund.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hiresfund.html</guid>
-            <pubDate>Mon, 10 Nov 2025 16:27:23 GMT</pubDate>
+            <pubDate>Thu, 30 Jul 2020 00:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Happened to Yahoo]]></title>
             <link>https://www.paulgraham.com/yahoo.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/yahoo.html</guid>
-            <pubDate>Wed, 19 Nov 2025 14:33:23 GMT</pubDate>
+            <pubDate>Fri, 07 Aug 2020 22:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Future of Startup Funding]]></title>
             <link>https://www.paulgraham.com/future.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/future.html</guid>
-            <pubDate>Fri, 16 Jan 2026 15:22:23 GMT</pubDate>
+            <pubDate>Sun, 04 Oct 2020 23:22:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Acceleration of Addictiveness]]></title>
             <link>https://www.paulgraham.com/addiction.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/addiction.html</guid>
-            <pubDate>Wed, 17 Sep 2025 18:06:23 GMT</pubDate>
+            <pubDate>Sat, 06 Jun 2020 03:06:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Top Idea in Your Mind]]></title>
             <link>https://www.paulgraham.com/top.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/top.html</guid>
-            <pubDate>Fri, 25 Apr 2025 08:48:23 GMT</pubDate>
+            <pubDate>Sun, 12 Jan 2020 17:48:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Organic Startup Ideas]]></title>
             <link>https://www.paulgraham.com/organic.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/organic.html</guid>
-            <pubDate>Mon, 02 Feb 2026 09:06:23 GMT</pubDate>
+            <pubDate>Wed, 21 Oct 2020 17:06:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Apple's Mistake]]></title>
             <link>https://www.paulgraham.com/apple.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/apple.html</guid>
-            <pubDate>Mon, 04 Aug 2025 14:43:23 GMT</pubDate>
+            <pubDate>Wed, 22 Apr 2020 23:43:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Startups Are Really Like]]></title>
             <link>https://www.paulgraham.com/really.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/really.html</guid>
-            <pubDate>Sun, 29 Mar 2026 16:38:23 GMT</pubDate>
+            <pubDate>Wed, 16 Dec 2020 01:38:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Persuade xor Discover]]></title>
             <link>https://www.paulgraham.com/discover.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/discover.html</guid>
-            <pubDate>Wed, 25 Feb 2026 11:12:23 GMT</pubDate>
+            <pubDate>Fri, 13 Nov 2020 19:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Post-Medium Publishing]]></title>
             <link>https://www.paulgraham.com/publishing.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/publishing.html</guid>
-            <pubDate>Sun, 18 Jan 2026 18:50:23 GMT</pubDate>
+            <pubDate>Wed, 07 Oct 2020 02:50:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The List of N Things]]></title>
             <link>https://www.paulgraham.com/nthings.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/nthings.html</guid>
-            <pubDate>Sun, 21 Sep 2025 12:42:23 GMT</pubDate>
+            <pubDate>Tue, 09 Jun 2020 21:42:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Anatomy of Determination]]></title>
             <link>https://www.paulgraham.com/determination.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/determination.html</guid>
-            <pubDate>Sat, 11 Apr 2026 02:38:23 GMT</pubDate>
+            <pubDate>Mon, 28 Dec 2020 11:38:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Kate Saw in Silicon Valley]]></title>
             <link>https://www.paulgraham.com/kate.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/kate.html</guid>
-            <pubDate>Sun, 01 Feb 2026 00:30:23 GMT</pubDate>
+            <pubDate>Tue, 20 Oct 2020 08:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Trouble with the Segway]]></title>
             <link>https://www.paulgraham.com/segway.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/segway.html</guid>
-            <pubDate>Wed, 25 Mar 2026 02:55:23 GMT</pubDate>
+            <pubDate>Fri, 11 Dec 2020 10:55:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ramen Profitable]]></title>
             <link>https://www.paulgraham.com/ramenprofitable.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ramenprofitable.html</guid>
-            <pubDate>Sun, 15 Feb 2026 15:56:23 GMT</pubDate>
+            <pubDate>Tue, 03 Nov 2020 23:56:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Maker's Schedule, Manager's Schedule]]></title>
             <link>https://www.paulgraham.com/makersschedule.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/makersschedule.html</guid>
-            <pubDate>Wed, 26 Nov 2025 04:51:23 GMT</pubDate>
+            <pubDate>Fri, 14 Aug 2020 12:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Local Revolution?]]></title>
             <link>https://www.paulgraham.com/revolution.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/revolution.html</guid>
-            <pubDate>Wed, 11 Mar 2026 10:40:23 GMT</pubDate>
+            <pubDate>Fri, 27 Nov 2020 18:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why Twitter is a Big Deal]]></title>
             <link>https://www.paulgraham.com/twitter.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/twitter.html</guid>
-            <pubDate>Fri, 18 Apr 2025 02:02:23 GMT</pubDate>
+            <pubDate>Sun, 05 Jan 2020 11:02:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Founder Visa]]></title>
             <link>https://www.paulgraham.com/foundervisa.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/foundervisa.html</guid>
-            <pubDate>Mon, 30 Mar 2026 11:09:23 GMT</pubDate>
+            <pubDate>Wed, 16 Dec 2020 20:09:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Five Founders]]></title>
             <link>https://www.paulgraham.com/5founders.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/5founders.html</guid>
-            <pubDate>Mon, 20 Oct 2025 16:52:23 GMT</pubDate>
+            <pubDate>Thu, 09 Jul 2020 01:52:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Relentlessly Resourceful]]></title>
             <link>https://www.paulgraham.com/relres.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/relres.html</guid>
-            <pubDate>Tue, 09 Sep 2025 01:10:23 GMT</pubDate>
+            <pubDate>Thu, 28 May 2020 10:10:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Be an Angel Investor]]></title>
             <link>https://www.paulgraham.com/angelinvesting.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/angelinvesting.html</guid>
-            <pubDate>Tue, 03 Feb 2026 22:27:23 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2020 06:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why TV Lost]]></title>
             <link>https://www.paulgraham.com/convergence.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/convergence.html</guid>
-            <pubDate>Sun, 01 Mar 2026 06:48:23 GMT</pubDate>
+            <pubDate>Tue, 17 Nov 2020 14:48:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Can You Buy a Silicon Valley?  Maybe.]]></title>
             <link>https://www.paulgraham.com/maybe.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/maybe.html</guid>
-            <pubDate>Sun, 12 Apr 2026 08:35:23 GMT</pubDate>
+            <pubDate>Tue, 29 Dec 2020 17:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What I've Learned from Hacker News]]></title>
             <link>https://www.paulgraham.com/hackernews.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hackernews.html</guid>
-            <pubDate>Fri, 06 Jun 2025 05:48:23 GMT</pubDate>
+            <pubDate>Sun, 23 Feb 2020 14:48:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Startups in 13 Sentences]]></title>
             <link>https://www.paulgraham.com/13sentences.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/13sentences.html</guid>
-            <pubDate>Wed, 23 Apr 2025 02:07:23 GMT</pubDate>
+            <pubDate>Fri, 10 Jan 2020 11:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Keep Your Identity Small]]></title>
             <link>https://www.paulgraham.com/identity.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/identity.html</guid>
-            <pubDate>Sun, 14 Dec 2025 16:11:23 GMT</pubDate>
+            <pubDate>Wed, 02 Sep 2020 00:11:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[After Credentials]]></title>
             <link>https://www.paulgraham.com/credentials.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/credentials.html</guid>
-            <pubDate>Wed, 04 Jun 2025 08:49:23 GMT</pubDate>
+            <pubDate>Fri, 21 Feb 2020 17:49:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Could VC be a Casualty of the Recession?]]></title>
             <link>https://www.paulgraham.com/divergence.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/divergence.html</guid>
-            <pubDate>Wed, 01 Oct 2025 03:59:23 GMT</pubDate>
+            <pubDate>Fri, 19 Jun 2020 12:59:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The High-Res Society]]></title>
             <link>https://www.paulgraham.com/highres.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/highres.html</guid>
-            <pubDate>Thu, 24 Apr 2025 19:27:23 GMT</pubDate>
+            <pubDate>Sun, 12 Jan 2020 04:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Other Half of "Artists Ship"]]></title>
             <link>https://www.paulgraham.com/artistsship.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/artistsship.html</guid>
-            <pubDate>Fri, 23 May 2025 02:11:23 GMT</pubDate>
+            <pubDate>Sun, 09 Feb 2020 11:11:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why to Start a Startup in a Bad Economy]]></title>
             <link>https://www.paulgraham.com/badeconomy.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/badeconomy.html</guid>
-            <pubDate>Sun, 04 Jan 2026 00:16:23 GMT</pubDate>
+            <pubDate>Tue, 22 Sep 2020 08:16:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Fundraising Survival Guide]]></title>
             <link>https://www.paulgraham.com/fundraising.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/fundraising.html</guid>
-            <pubDate>Wed, 11 Feb 2026 13:47:23 GMT</pubDate>
+            <pubDate>Fri, 30 Oct 2020 21:47:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Pooled-Risk Company Management Company]]></title>
             <link>https://www.paulgraham.com/prcmc.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/prcmc.html</guid>
-            <pubDate>Mon, 12 Jan 2026 19:58:23 GMT</pubDate>
+            <pubDate>Thu, 01 Oct 2020 03:58:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Cities and Ambition]]></title>
             <link>https://www.paulgraham.com/cities.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/cities.html</guid>
-            <pubDate>Fri, 13 Mar 2026 11:12:23 GMT</pubDate>
+            <pubDate>Sun, 29 Nov 2020 19:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Disconnecting Distraction]]></title>
             <link>https://www.paulgraham.com/distraction.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/distraction.html</guid>
-            <pubDate>Sat, 18 Oct 2025 00:43:23 GMT</pubDate>
+            <pubDate>Mon, 06 Jul 2020 09:43:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Lies We Tell Kids]]></title>
             <link>https://www.paulgraham.com/lies.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/lies.html</guid>
-            <pubDate>Tue, 11 Nov 2025 03:14:23 GMT</pubDate>
+            <pubDate>Thu, 30 Jul 2020 11:14:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Be Good]]></title>
             <link>https://www.paulgraham.com/good.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/good.html</guid>
-            <pubDate>Mon, 09 Mar 2026 02:20:23 GMT</pubDate>
+            <pubDate>Wed, 25 Nov 2020 10:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why There Aren't More Googles]]></title>
             <link>https://www.paulgraham.com/googles.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/googles.html</guid>
-            <pubDate>Fri, 02 Jan 2026 22:07:23 GMT</pubDate>
+            <pubDate>Mon, 21 Sep 2020 06:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Some Heroes]]></title>
             <link>https://www.paulgraham.com/heroes.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/heroes.html</guid>
-            <pubDate>Wed, 11 Jun 2025 14:59:23 GMT</pubDate>
+            <pubDate>Fri, 28 Feb 2020 23:59:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Disagree]]></title>
             <link>https://www.paulgraham.com/disagree.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/disagree.html</guid>
-            <pubDate>Tue, 07 Apr 2026 02:33:23 GMT</pubDate>
+            <pubDate>Thu, 24 Dec 2020 11:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[You Weren't Meant to Have a Boss]]></title>
             <link>https://www.paulgraham.com/boss.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/boss.html</guid>
-            <pubDate>Sat, 27 Dec 2025 10:36:23 GMT</pubDate>
+            <pubDate>Mon, 14 Sep 2020 18:36:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A New Venture Animal]]></title>
             <link>https://www.paulgraham.com/ycombinator.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ycombinator.html</guid>
-            <pubDate>Mon, 17 Nov 2025 22:04:23 GMT</pubDate>
+            <pubDate>Thu, 06 Aug 2020 06:04:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Trolls]]></title>
             <link>https://www.paulgraham.com/trolls.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/trolls.html</guid>
-            <pubDate>Wed, 04 Mar 2026 14:17:23 GMT</pubDate>
+            <pubDate>Fri, 20 Nov 2020 22:17:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Six Principles for Making New Things]]></title>
             <link>https://www.paulgraham.com/newthings.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/newthings.html</guid>
-            <pubDate>Fri, 11 Jul 2025 17:12:23 GMT</pubDate>
+            <pubDate>Mon, 30 Mar 2020 02:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why to Move to a Startup Hub]]></title>
             <link>https://www.paulgraham.com/startuphubs.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/startuphubs.html</guid>
-            <pubDate>Mon, 25 Aug 2025 01:26:23 GMT</pubDate>
+            <pubDate>Wed, 13 May 2020 10:26:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Future of Web Startups]]></title>
             <link>https://www.paulgraham.com/webstartups.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/webstartups.html</guid>
-            <pubDate>Sun, 12 Oct 2025 09:07:23 GMT</pubDate>
+            <pubDate>Tue, 30 Jun 2020 18:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Do Philosophy]]></title>
             <link>https://www.paulgraham.com/philosophy.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/philosophy.html</guid>
-            <pubDate>Thu, 14 Aug 2025 03:24:23 GMT</pubDate>
+            <pubDate>Sat, 02 May 2020 12:24:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[News from the Front]]></title>
             <link>https://www.paulgraham.com/colleges.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/colleges.html</guid>
-            <pubDate>Thu, 02 Oct 2025 21:43:23 GMT</pubDate>
+            <pubDate>Sun, 21 Jun 2020 06:43:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Not to Die]]></title>
             <link>https://www.paulgraham.com/die.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/die.html</guid>
-            <pubDate>Tue, 23 Dec 2025 04:07:23 GMT</pubDate>
+            <pubDate>Thu, 10 Sep 2020 12:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Holding a Program in One's Head]]></title>
             <link>https://www.paulgraham.com/head.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/head.html</guid>
-            <pubDate>Fri, 08 Aug 2025 05:15:23 GMT</pubDate>
+            <pubDate>Sun, 26 Apr 2020 14:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Stuff]]></title>
             <link>https://www.paulgraham.com/stuff.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/stuff.html</guid>
-            <pubDate>Sun, 20 Apr 2025 23:43:23 GMT</pubDate>
+            <pubDate>Wed, 08 Jan 2020 08:43:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Equity Equation]]></title>
             <link>https://www.paulgraham.com/equity.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/equity.html</guid>
-            <pubDate>Wed, 24 Dec 2025 06:20:23 GMT</pubDate>
+            <pubDate>Fri, 11 Sep 2020 14:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[An Alternative Theory of Unions]]></title>
             <link>https://www.paulgraham.com/unions.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/unions.html</guid>
-            <pubDate>Wed, 11 Feb 2026 07:01:23 GMT</pubDate>
+            <pubDate>Fri, 30 Oct 2020 15:01:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Hacker's Guide to Investors]]></title>
             <link>https://www.paulgraham.com/guidetoinvestors.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/guidetoinvestors.html</guid>
-            <pubDate>Fri, 01 Aug 2025 01:13:23 GMT</pubDate>
+            <pubDate>Sun, 19 Apr 2020 10:13:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Two Kinds of Judgement]]></title>
             <link>https://www.paulgraham.com/judgement.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/judgement.html</guid>
-            <pubDate>Tue, 21 Oct 2025 18:24:23 GMT</pubDate>
+            <pubDate>Fri, 10 Jul 2020 03:24:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Microsoft is Dead]]></title>
             <link>https://www.paulgraham.com/microsoft.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/microsoft.html</guid>
-            <pubDate>Mon, 06 Oct 2025 21:51:23 GMT</pubDate>
+            <pubDate>Thu, 25 Jun 2020 06:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why to Not Not Start a Startup]]></title>
             <link>https://www.paulgraham.com/notnot.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/notnot.html</guid>
-            <pubDate>Fri, 07 Nov 2025 18:31:23 GMT</pubDate>
+            <pubDate>Mon, 27 Jul 2020 02:31:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Is It Worth Being Wise?]]></title>
             <link>https://www.paulgraham.com/wisdom.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/wisdom.html</guid>
-            <pubDate>Thu, 09 Oct 2025 21:32:23 GMT</pubDate>
+            <pubDate>Sun, 28 Jun 2020 06:32:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Learning from Founders]]></title>
             <link>https://www.paulgraham.com/foundersatwork.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/foundersatwork.html</guid>
-            <pubDate>Sat, 14 Jun 2025 08:05:23 GMT</pubDate>
+            <pubDate>Mon, 02 Mar 2020 17:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Art Can Be Good]]></title>
             <link>https://www.paulgraham.com/goodart.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/goodart.html</guid>
-            <pubDate>Thu, 18 Sep 2025 09:05:23 GMT</pubDate>
+            <pubDate>Sat, 06 Jun 2020 18:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The 18 Mistakes That Kill Startups]]></title>
             <link>https://www.paulgraham.com/startupmistakes.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/startupmistakes.html</guid>
-            <pubDate>Thu, 01 Jan 2026 23:51:23 GMT</pubDate>
+            <pubDate>Sun, 20 Sep 2020 07:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Student's Guide to Startups]]></title>
             <link>https://www.paulgraham.com/mit.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/mit.html</guid>
-            <pubDate>Mon, 30 Jun 2025 22:11:23 GMT</pubDate>
+            <pubDate>Thu, 19 Mar 2020 07:11:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Present to Investors]]></title>
             <link>https://www.paulgraham.com/investors.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/investors.html</guid>
-            <pubDate>Tue, 18 Nov 2025 00:14:23 GMT</pubDate>
+            <pubDate>Thu, 06 Aug 2020 08:14:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Copy What You Like]]></title>
             <link>https://www.paulgraham.com/copy.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/copy.html</guid>
-            <pubDate>Sun, 09 Nov 2025 00:52:23 GMT</pubDate>
+            <pubDate>Tue, 28 Jul 2020 08:52:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Island Test]]></title>
             <link>https://www.paulgraham.com/island.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/island.html</guid>
-            <pubDate>Mon, 18 Aug 2025 21:12:23 GMT</pubDate>
+            <pubDate>Thu, 07 May 2020 06:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Power of the Marginal]]></title>
             <link>https://www.paulgraham.com/marginal.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/marginal.html</guid>
-            <pubDate>Tue, 07 Apr 2026 13:08:23 GMT</pubDate>
+            <pubDate>Thu, 24 Dec 2020 22:08:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why Startups Condense in America]]></title>
             <link>https://www.paulgraham.com/america.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/america.html</guid>
-            <pubDate>Tue, 03 Jun 2025 22:23:23 GMT</pubDate>
+            <pubDate>Fri, 21 Feb 2020 07:23:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Be Silicon Valley]]></title>
             <link>https://www.paulgraham.com/siliconvalley.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/siliconvalley.html</guid>
-            <pubDate>Sat, 29 Nov 2025 21:15:23 GMT</pubDate>
+            <pubDate>Tue, 18 Aug 2020 05:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Hardest Lessons for Startups to Learn]]></title>
             <link>https://www.paulgraham.com/startuplessons.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/startuplessons.html</guid>
-            <pubDate>Sat, 09 Aug 2025 04:09:23 GMT</pubDate>
+            <pubDate>Mon, 27 Apr 2020 13:09:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[See Randomness]]></title>
             <link>https://www.paulgraham.com/randomness.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/randomness.html</guid>
-            <pubDate>Mon, 21 Apr 2025 14:11:23 GMT</pubDate>
+            <pubDate>Wed, 08 Jan 2020 23:11:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Are Software Patents Evil?]]></title>
             <link>https://www.paulgraham.com/softwarepatents.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/softwarepatents.html</guid>
-            <pubDate>Tue, 28 Oct 2025 06:29:23 GMT</pubDate>
+            <pubDate>Thu, 16 Jul 2020 14:29:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[6,631,372]]></title>
             <link>https://www.paulgraham.com/6631327.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/6631327.html</guid>
-            <pubDate>Fri, 24 Oct 2025 06:11:23 GMT</pubDate>
+            <pubDate>Sun, 12 Jul 2020 15:11:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why YC]]></title>
             <link>https://www.paulgraham.com/whyyc.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/whyyc.html</guid>
-            <pubDate>Sun, 19 Oct 2025 22:19:23 GMT</pubDate>
+            <pubDate>Wed, 08 Jul 2020 07:19:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Do What You Love]]></title>
             <link>https://www.paulgraham.com/love.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/love.html</guid>
-            <pubDate>Mon, 17 Nov 2025 01:59:23 GMT</pubDate>
+            <pubDate>Wed, 05 Aug 2020 09:59:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Good and Bad Procrastination]]></title>
             <link>https://www.paulgraham.com/procrastination.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/procrastination.html</guid>
-            <pubDate>Wed, 15 Oct 2025 15:33:23 GMT</pubDate>
+            <pubDate>Sat, 04 Jul 2020 00:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Web 2.0]]></title>
             <link>https://www.paulgraham.com/web20.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/web20.html</guid>
-            <pubDate>Thu, 26 Mar 2026 01:59:23 GMT</pubDate>
+            <pubDate>Sat, 12 Dec 2020 09:59:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Fund a Startup]]></title>
             <link>https://www.paulgraham.com/startupfunding.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/startupfunding.html</guid>
-            <pubDate>Mon, 01 Dec 2025 07:51:23 GMT</pubDate>
+            <pubDate>Wed, 19 Aug 2020 15:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Venture Capital Squeeze]]></title>
             <link>https://www.paulgraham.com/vcsqueeze.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/vcsqueeze.html</guid>
-            <pubDate>Thu, 17 Apr 2025 02:32:23 GMT</pubDate>
+            <pubDate>Sat, 04 Jan 2020 11:32:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ideas for Startups]]></title>
             <link>https://www.paulgraham.com/ideas.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ideas.html</guid>
-            <pubDate>Wed, 08 Apr 2026 04:07:23 GMT</pubDate>
+            <pubDate>Fri, 25 Dec 2020 13:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What I Did this Summer]]></title>
             <link>https://www.paulgraham.com/sfp.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/sfp.html</guid>
-            <pubDate>Tue, 27 Jan 2026 11:56:23 GMT</pubDate>
+            <pubDate>Thu, 15 Oct 2020 19:56:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Inequality and Risk]]></title>
             <link>https://www.paulgraham.com/inequality.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/inequality.html</guid>
-            <pubDate>Mon, 12 Jan 2026 22:02:23 GMT</pubDate>
+            <pubDate>Thu, 01 Oct 2020 06:02:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[After the Ladder]]></title>
             <link>https://www.paulgraham.com/ladder.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ladder.html</guid>
-            <pubDate>Tue, 20 May 2025 05:49:23 GMT</pubDate>
+            <pubDate>Thu, 06 Feb 2020 14:49:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Business Can Learn from Open Source]]></title>
             <link>https://www.paulgraham.com/opensource.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/opensource.html</guid>
-            <pubDate>Sun, 18 May 2025 12:16:23 GMT</pubDate>
+            <pubDate>Tue, 04 Feb 2020 21:16:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Hiring is Obsolete]]></title>
             <link>https://www.paulgraham.com/hiring.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hiring.html</guid>
-            <pubDate>Fri, 06 Mar 2026 07:36:23 GMT</pubDate>
+            <pubDate>Sun, 22 Nov 2020 15:36:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Submarine]]></title>
             <link>https://www.paulgraham.com/submarine.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/submarine.html</guid>
-            <pubDate>Fri, 23 Jan 2026 14:17:23 GMT</pubDate>
+            <pubDate>Sun, 11 Oct 2020 22:17:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why Smart People Have Bad Ideas]]></title>
             <link>https://www.paulgraham.com/bronze.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/bronze.html</guid>
-            <pubDate>Sat, 06 Dec 2025 14:41:23 GMT</pubDate>
+            <pubDate>Mon, 24 Aug 2020 22:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Return of the Mac]]></title>
             <link>https://www.paulgraham.com/mac.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/mac.html</guid>
-            <pubDate>Mon, 20 Oct 2025 14:34:23 GMT</pubDate>
+            <pubDate>Wed, 08 Jul 2020 23:34:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Writing,  Briefly]]></title>
             <link>https://www.paulgraham.com/writing44.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/writing44.html</guid>
-            <pubDate>Mon, 04 Aug 2025 03:29:23 GMT</pubDate>
+            <pubDate>Wed, 22 Apr 2020 12:29:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Undergraduation]]></title>
             <link>https://www.paulgraham.com/college.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/college.html</guid>
-            <pubDate>Thu, 04 Sep 2025 20:02:23 GMT</pubDate>
+            <pubDate>Sun, 24 May 2020 05:02:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Unified Theory of VC Suckage]]></title>
             <link>https://www.paulgraham.com/venturecapital.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/venturecapital.html</guid>
-            <pubDate>Wed, 10 Sep 2025 09:52:23 GMT</pubDate>
+            <pubDate>Fri, 29 May 2020 18:52:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Start a Startup]]></title>
             <link>https://www.paulgraham.com/start.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/start.html</guid>
-            <pubDate>Sun, 19 Oct 2025 04:59:23 GMT</pubDate>
+            <pubDate>Tue, 07 Jul 2020 13:59:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What You'll Wish You'd Known]]></title>
             <link>https://www.paulgraham.com/hs.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hs.html</guid>
-            <pubDate>Tue, 16 Sep 2025 21:58:23 GMT</pubDate>
+            <pubDate>Fri, 05 Jun 2020 06:58:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Made in USA]]></title>
             <link>https://www.paulgraham.com/usa.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/usa.html</guid>
-            <pubDate>Tue, 04 Nov 2025 22:50:23 GMT</pubDate>
+            <pubDate>Fri, 24 Jul 2020 06:50:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[It's Charisma, Stupid]]></title>
             <link>https://www.paulgraham.com/charisma.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/charisma.html</guid>
-            <pubDate>Wed, 03 Dec 2025 06:03:23 GMT</pubDate>
+            <pubDate>Fri, 21 Aug 2020 14:03:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Bradley's Ghost]]></title>
             <link>https://www.paulgraham.com/polls.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/polls.html</guid>
-            <pubDate>Mon, 01 Sep 2025 06:39:23 GMT</pubDate>
+            <pubDate>Wed, 20 May 2020 15:39:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Version 1.0]]></title>
             <link>https://www.paulgraham.com/laundry.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/laundry.html</guid>
-            <pubDate>Mon, 23 Mar 2026 08:52:23 GMT</pubDate>
+            <pubDate>Wed, 09 Dec 2020 16:52:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What the Bubble Got Right]]></title>
             <link>https://www.paulgraham.com/bubble.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/bubble.html</guid>
-            <pubDate>Thu, 14 Aug 2025 20:17:23 GMT</pubDate>
+            <pubDate>Sun, 03 May 2020 05:17:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Age of the Essay]]></title>
             <link>https://www.paulgraham.com/essay.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/essay.html</guid>
-            <pubDate>Thu, 26 Jun 2025 22:40:23 GMT</pubDate>
+            <pubDate>Sun, 15 Mar 2020 07:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Python Paradox]]></title>
             <link>https://www.paulgraham.com/pypar.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/pypar.html</guid>
-            <pubDate>Mon, 23 Jun 2025 00:51:23 GMT</pubDate>
+            <pubDate>Wed, 11 Mar 2020 09:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Great Hackers]]></title>
             <link>https://www.paulgraham.com/gh.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/gh.html</guid>
-            <pubDate>Mon, 08 Sep 2025 14:36:23 GMT</pubDate>
+            <pubDate>Wed, 27 May 2020 23:36:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Mind the Gap]]></title>
             <link>https://www.paulgraham.com/gap.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/gap.html</guid>
-            <pubDate>Wed, 04 Jun 2025 01:27:23 GMT</pubDate>
+            <pubDate>Fri, 21 Feb 2020 10:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Make Wealth]]></title>
             <link>https://www.paulgraham.com/wealth.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/wealth.html</guid>
-            <pubDate>Tue, 13 Jan 2026 07:24:23 GMT</pubDate>
+            <pubDate>Thu, 01 Oct 2020 15:24:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Word "Hacker"]]></title>
             <link>https://www.paulgraham.com/gba.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/gba.html</guid>
-            <pubDate>Sat, 07 Mar 2026 17:33:23 GMT</pubDate>
+            <pubDate>Tue, 24 Nov 2020 01:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What You Can't Say]]></title>
             <link>https://www.paulgraham.com/say.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/say.html</guid>
-            <pubDate>Fri, 30 Jan 2026 20:46:23 GMT</pubDate>
+            <pubDate>Mon, 19 Oct 2020 04:46:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Filters that Fight Back]]></title>
             <link>https://www.paulgraham.com/ffb.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/ffb.html</guid>
-            <pubDate>Sat, 21 Mar 2026 00:07:23 GMT</pubDate>
+            <pubDate>Mon, 07 Dec 2020 08:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Hackers and Painters]]></title>
             <link>https://www.paulgraham.com/hp.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hp.html</guid>
-            <pubDate>Fri, 13 Feb 2026 00:31:23 GMT</pubDate>
+            <pubDate>Sun, 01 Nov 2020 08:31:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[If Lisp is So Great]]></title>
             <link>https://www.paulgraham.com/iflisp.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/iflisp.html</guid>
-            <pubDate>Fri, 25 Jul 2025 03:34:23 GMT</pubDate>
+            <pubDate>Sun, 12 Apr 2020 12:34:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Hundred-Year Language]]></title>
             <link>https://www.paulgraham.com/hundred.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/hundred.html</guid>
-            <pubDate>Mon, 12 May 2025 09:35:23 GMT</pubDate>
+            <pubDate>Wed, 29 Jan 2020 18:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why Nerds are Unpopular]]></title>
             <link>https://www.paulgraham.com/nerds.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/nerds.html</guid>
-            <pubDate>Fri, 01 Aug 2025 21:57:23 GMT</pubDate>
+            <pubDate>Mon, 20 Apr 2020 06:57:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Better Bayesian Filtering]]></title>
             <link>https://www.paulgraham.com/better.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/better.html</guid>
-            <pubDate>Mon, 15 Sep 2025 10:05:23 GMT</pubDate>
+            <pubDate>Wed, 03 Jun 2020 19:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Design and Research]]></title>
             <link>https://www.paulgraham.com/desres.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/desres.html</guid>
-            <pubDate>Thu, 26 Feb 2026 00:27:23 GMT</pubDate>
+            <pubDate>Sat, 14 Nov 2020 08:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Plan for Spam]]></title>
             <link>https://www.paulgraham.com/spam.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/spam.html</guid>
-            <pubDate>Sun, 12 Apr 2026 08:04:23 GMT</pubDate>
+            <pubDate>Tue, 29 Dec 2020 17:04:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Revenge of the Nerds]]></title>
             <link>https://www.paulgraham.com/icad.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/icad.html</guid>
-            <pubDate>Fri, 11 Jul 2025 18:24:23 GMT</pubDate>
+            <pubDate>Mon, 30 Mar 2020 03:24:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Succinctness is Power]]></title>
             <link>https://www.paulgraham.com/power.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/power.html</guid>
-            <pubDate>Mon, 28 Apr 2025 16:00:23 GMT</pubDate>
+            <pubDate>Thu, 16 Jan 2020 01:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Languages Fix]]></title>
             <link>https://www.paulgraham.com/fix.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/fix.html</guid>
-            <pubDate>Fri, 28 Nov 2025 16:44:23 GMT</pubDate>
+            <pubDate>Mon, 17 Aug 2020 00:44:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Taste for Makers]]></title>
             <link>https://www.paulgraham.com/taste.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/taste.html</guid>
-            <pubDate>Wed, 25 Feb 2026 06:38:23 GMT</pubDate>
+            <pubDate>Fri, 13 Nov 2020 14:38:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why Arc Isn't Especially Object-Oriented]]></title>
             <link>https://www.paulgraham.com/noop.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/noop.html</guid>
-            <pubDate>Sun, 03 Aug 2025 20:59:23 GMT</pubDate>
+            <pubDate>Wed, 22 Apr 2020 05:59:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Made Lisp Different]]></title>
             <link>https://www.paulgraham.com/diff.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/diff.html</guid>
-            <pubDate>Sun, 22 Mar 2026 17:40:23 GMT</pubDate>
+            <pubDate>Wed, 09 Dec 2020 01:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Other Road Ahead]]></title>
             <link>https://www.paulgraham.com/road.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/road.html</guid>
-            <pubDate>Sun, 06 Jul 2025 18:35:23 GMT</pubDate>
+            <pubDate>Wed, 25 Mar 2020 03:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Roots of Lisp]]></title>
             <link>https://www.paulgraham.com/rootsoflisp.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/rootsoflisp.html</guid>
-            <pubDate>Fri, 06 Jun 2025 11:23:23 GMT</pubDate>
+            <pubDate>Sun, 23 Feb 2020 20:23:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Five Questions about Language Design]]></title>
             <link>https://www.paulgraham.com/langdes.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/langdes.html</guid>
-            <pubDate>Mon, 26 May 2025 17:45:23 GMT</pubDate>
+            <pubDate>Thu, 13 Feb 2020 02:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Being Popular]]></title>
             <link>https://www.paulgraham.com/popular.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/popular.html</guid>
-            <pubDate>Mon, 06 Apr 2026 07:48:23 GMT</pubDate>
+            <pubDate>Wed, 23 Dec 2020 16:48:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Java's Cover]]></title>
             <link>https://www.paulgraham.com/javacover.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/javacover.html</guid>
-            <pubDate>Mon, 17 Nov 2025 19:24:23 GMT</pubDate>
+            <pubDate>Thu, 06 Aug 2020 03:24:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Beating the Averages]]></title>
             <link>https://www.paulgraham.com/avg.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/avg.html</guid>
-            <pubDate>Fri, 15 Aug 2025 19:07:23 GMT</pubDate>
+            <pubDate>Mon, 04 May 2020 04:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Lisp for Web-Based Applications]]></title>
             <link>https://www.paulgraham.com/lwba.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/lwba.html</guid>
-            <pubDate>Sat, 11 Apr 2026 10:11:23 GMT</pubDate>
+            <pubDate>Mon, 28 Dec 2020 19:11:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Programming Bottom-Up]]></title>
             <link>https://www.paulgraham.com/progbot.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/progbot.html</guid>
-            <pubDate>Tue, 02 Dec 2025 14:20:23 GMT</pubDate>
+            <pubDate>Thu, 20 Aug 2020 22:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[This Year We Can End the Death Penalty in California]]></title>
             <link>https://www.paulgraham.com/prop62.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/prop62.html</guid>
-            <pubDate>Sat, 11 Oct 2025 13:34:23 GMT</pubDate>
+            <pubDate>Mon, 29 Jun 2020 22:34:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

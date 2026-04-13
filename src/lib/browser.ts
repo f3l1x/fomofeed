@@ -85,7 +85,3 @@ export async function fetchWithBrowser(
     await context.close();
   }
 }
-
-export async function fetchRenderedHTML(url: string): Promise<string> {
-  return fetchWithBrowser(url, { waitSelector: "body" });
-}

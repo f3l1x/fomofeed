@@ -4,76 +4,76 @@
         <description><![CDATA[RSS feed for Claude Blog]]></description>
         <link>https://claude.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 15:24:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 15:53:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/claude-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 15:24:24 GMT</pubDate>
+        <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Claude Managed Agents: get to production 10x faster]]></title>
             <link>https://claude.com/blog/claude-managed-agents</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents</guid>
-            <pubDate>Wed, 23 Jul 2025 03:03:24 GMT</pubDate>
+            <pubDate>Fri, 10 Apr 2020 12:03:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Harnessing Claude’s intelligence]]></title>
             <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
             <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
-            <pubDate>Tue, 22 Jul 2025 05:12:24 GMT</pubDate>
+            <pubDate>Thu, 09 Apr 2020 14:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude now creates interactive charts, diagrams and visualizations]]></title>
             <link>https://claude.com/blog/claude-builds-visuals</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-builds-visuals</guid>
-            <pubDate>Sun, 30 Nov 2025 20:12:24 GMT</pubDate>
+            <pubDate>Wed, 19 Aug 2020 04:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How enterprises are building AI agents in 2026]]></title>
             <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
             <guid isPermaLink="false">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
-            <pubDate>Tue, 17 Feb 2026 01:30:24 GMT</pubDate>
+            <pubDate>Thu, 05 Nov 2020 09:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Improving frontend design through Skills]]></title>
             <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
             <guid isPermaLink="false">https://claude.com/blog/improving-frontend-design-through-skills</guid>
-            <pubDate>Sun, 25 May 2025 15:12:24 GMT</pubDate>
+            <pubDate>Wed, 12 Feb 2020 00:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building AI agents for financial services]]></title>
             <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
             <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
-            <pubDate>Fri, 10 Apr 2026 03:05:24 GMT</pubDate>
+            <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude Code on the web]]></title>
             <link>https://claude.com/blog/claude-code-on-the-web</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-code-on-the-web</guid>
-            <pubDate>Wed, 27 Aug 2025 19:41:24 GMT</pubDate>
+            <pubDate>Sat, 16 May 2020 04:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude and Slack]]></title>
             <link>https://claude.com/blog/claude-and-slack</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-and-slack</guid>
-            <pubDate>Tue, 22 Jul 2025 16:45:24 GMT</pubDate>
+            <pubDate>Fri, 10 Apr 2020 01:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Piloting Claude in Chrome]]></title>
             <link>https://claude.com/blog/claude-for-chrome</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-for-chrome</guid>
-            <pubDate>Tue, 06 May 2025 00:19:24 GMT</pubDate>
+            <pubDate>Thu, 23 Jan 2020 09:19:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Anthropic teams use Claude Code]]></title>
             <link>https://claude.com/blog/how-anthropic-teams-use-claude-code</link>
             <guid isPermaLink="false">https://claude.com/blog/how-anthropic-teams-use-claude-code</guid>
-            <pubDate>Thu, 24 Apr 2025 00:39:24 GMT</pubDate>
+            <pubDate>Sat, 11 Jan 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Preparing your security program for AI-accelerated offense]]></title>
             <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
             <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
-            <pubDate>Tue, 27 May 2025 02:18:24 GMT</pubDate>
+            <pubDate>Thu, 13 Feb 2020 11:18:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

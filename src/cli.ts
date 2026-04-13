@@ -4,7 +4,6 @@ import { appendToArchive } from "./lib/archive.ts";
 import { loadCache } from "./lib/cache.ts";
 import { closeBrowser } from "./lib/browser.ts";
 import { CACHE_DIR } from "./lib/constants.ts";
-import { config } from "./lib/config.ts";
 import type { FeedItem, FeedSource } from "./lib/types.ts";
 import { rm } from "node:fs/promises";
 
@@ -165,7 +164,6 @@ FomoFeed - RSS feed generator
 
 Commands:
   generate [--feed=ID] [--full]   Generate feeds (--full clears cache first)
-  serve [--port=N]                Start web server (default: 3000)
   list                            List all feeds
   debug --feed=ID                 Dump raw HTML for a feed (for debugging)
 `.trim();
@@ -177,16 +175,6 @@ async function main(): Promise<void> {
     case "generate":
       await generate(flags["feed"], flags["full"] === "true");
       break;
-    case "serve": {
-      const port = parseInt(flags["port"] ?? String(config.port), 10);
-      if (isNaN(port) || port < 1 || port > 65535) {
-        console.error("Invalid port.");
-        process.exit(1);
-      }
-      const { startServer } = await import("./server.ts");
-      startServer(port);
-      break;
-    }
     case "list":
       list();
       break;

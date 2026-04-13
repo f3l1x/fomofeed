@@ -11,6 +11,11 @@ function cleanDescription(s: string | undefined): string | null {
   return clean || null;
 }
 
+// Fixed epoch so pubDates derived from a URL hash are truly stable across runs.
+// Do NOT change this without a migration plan — shifting it rewrites every
+// undated item's pubDate, which makes readers re-surface old posts as new.
+const STABLE_EPOCH = Date.UTC(2020, 0, 1);
+
 function stableDate(url: string): Date {
   // Deterministic date from URL hash — gives undated posts a stable pubDate
   // so RSS readers don't re-surface them on every generation run.
@@ -19,10 +24,17 @@ function stableDate(url: string): Date {
     hash = (hash << 5) - hash + url.charCodeAt(i);
     hash |= 0;
   }
-  const base = new Date();
-  base.setFullYear(base.getFullYear() - 1);
-  base.setMinutes(Math.abs(hash) % 525600);
-  return base;
+  // 525600 minutes = 1 year; spread hashes across a 1-year window from epoch.
+  return new Date(STABLE_EPOCH + (Math.abs(hash) % 525600) * 60_000);
+}
+
+function latestItemDate(items: FeedItem[]): Date | undefined {
+  let latest: Date | undefined;
+  for (const item of items) {
+    const d = item.date ?? stableDate(item.link);
+    if (!latest || d.getTime() > latest.getTime()) latest = d;
+  }
+  return latest;
 }
 
 export function generateRSS(source: FeedSource, items: FeedItem[]): string {
@@ -32,7 +44,7 @@ export function generateRSS(source: FeedSource, items: FeedItem[]): string {
     feed_url: `${baseUrl()}/feeds/${source.category}/${source.id}.xml`,
     site_url: source.url,
     language: "en",
-    pubDate: new Date(),
+    pubDate: latestItemDate(items),
     ttl: 60,
   });
 
@@ -85,7 +97,7 @@ export async function writeAggregatedFeed(
     feed_url: `${baseUrl()}/feeds/${category}.xml`,
     site_url: `${baseUrl()}/feeds/${category}/`,
     language: "en",
-    pubDate: new Date(),
+    pubDate: latestItemDate(allItems),
     ttl: 60,
   });
 
@@ -159,7 +171,7 @@ export async function writeCompanyFeed(
     feed_url: `${baseUrl()}/feeds/company/${company}.xml`,
     site_url: `${baseUrl()}/feeds/company/`,
     language: "en",
-    pubDate: new Date(),
+    pubDate: latestItemDate(allItems),
     ttl: 60,
   });
 

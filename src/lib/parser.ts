@@ -21,7 +21,7 @@ export function extractText(
   return "";
 }
 
-export function extractAttr(
+function extractAttr(
   $: CheerioAPI,
   selector: string,
   attr: string,
@@ -51,14 +51,6 @@ export function parseDate(dateStr: string): Date | undefined {
   const parsed = new Date(dateStr);
   if (isNaN(parsed.getTime())) return undefined;
   return parsed;
-}
-
-export function resolveUrl(href: string, baseUrl: string): string {
-  try {
-    return new URL(href, baseUrl).href;
-  } catch {
-    return href;
-  }
 }
 
 /**

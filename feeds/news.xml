@@ -4,9 +4,9 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 15:24:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 15:53:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 15:24:39 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
@@ -354,86 +354,86 @@
             <title><![CDATA[Claude Managed Agents: get to production 10x faster]]></title>
             <link>https://claude.com/blog/claude-managed-agents</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents</guid>
-            <pubDate>Wed, 23 Jul 2025 03:03:39 GMT</pubDate>
+            <pubDate>Fri, 10 Apr 2020 12:03:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Harnessing Claude’s intelligence]]></title>
             <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
             <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
-            <pubDate>Tue, 22 Jul 2025 05:12:39 GMT</pubDate>
+            <pubDate>Thu, 09 Apr 2020 14:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude now creates interactive charts, diagrams and visualizations]]></title>
             <link>https://claude.com/blog/claude-builds-visuals</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-builds-visuals</guid>
-            <pubDate>Sun, 30 Nov 2025 20:12:39 GMT</pubDate>
+            <pubDate>Wed, 19 Aug 2020 04:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How enterprises are building AI agents in 2026]]></title>
             <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
             <guid isPermaLink="false">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
-            <pubDate>Tue, 17 Feb 2026 01:30:39 GMT</pubDate>
+            <pubDate>Thu, 05 Nov 2020 09:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Improving frontend design through Skills]]></title>
             <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
             <guid isPermaLink="false">https://claude.com/blog/improving-frontend-design-through-skills</guid>
-            <pubDate>Sun, 25 May 2025 15:12:39 GMT</pubDate>
+            <pubDate>Wed, 12 Feb 2020 00:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building AI agents for financial services]]></title>
             <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
             <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
-            <pubDate>Fri, 10 Apr 2026 03:05:39 GMT</pubDate>
+            <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude Code on the web]]></title>
             <link>https://claude.com/blog/claude-code-on-the-web</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-code-on-the-web</guid>
-            <pubDate>Wed, 27 Aug 2025 19:41:39 GMT</pubDate>
+            <pubDate>Sat, 16 May 2020 04:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude and Slack]]></title>
             <link>https://claude.com/blog/claude-and-slack</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-and-slack</guid>
-            <pubDate>Tue, 22 Jul 2025 16:45:39 GMT</pubDate>
+            <pubDate>Fri, 10 Apr 2020 01:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Piloting Claude in Chrome]]></title>
             <link>https://claude.com/blog/claude-for-chrome</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-for-chrome</guid>
-            <pubDate>Tue, 06 May 2025 00:19:39 GMT</pubDate>
+            <pubDate>Thu, 23 Jan 2020 09:19:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Anthropic teams use Claude Code]]></title>
             <link>https://claude.com/blog/how-anthropic-teams-use-claude-code</link>
             <guid isPermaLink="false">https://claude.com/blog/how-anthropic-teams-use-claude-code</guid>
-            <pubDate>Thu, 24 Apr 2025 00:39:39 GMT</pubDate>
+            <pubDate>Sat, 11 Jan 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Preparing your security program for AI-accelerated offense]]></title>
             <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
             <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
-            <pubDate>Tue, 27 May 2025 02:18:39 GMT</pubDate>
+            <pubDate>Thu, 13 Feb 2020 11:18:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>
             <link>https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</guid>
-            <pubDate>Wed, 13 Aug 2025 00:39:39 GMT</pubDate>
+            <pubDate>Fri, 01 May 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
             <description><![CDATA[Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.]]></description>
             <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
-            <pubDate>Sun, 01 Mar 2026 15:58:39 GMT</pubDate>
+            <pubDate>Tue, 17 Nov 2020 23:58:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Scaling Managed Agents: Decoupling the brain from the hands]]></title>
             <link>https://www.anthropic.com/engineering/managed-agents</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
-            <pubDate>Wed, 03 Sep 2025 23:46:39 GMT</pubDate>
+            <pubDate>Sat, 23 May 2020 08:46:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Assessing Claude Mythos Preview’s cybersecurity capabilities]]></title>
@@ -448,7 +448,7 @@
                         defenses.]]></description>
             <link>https://red.anthropic.com/2026/mythos-preview/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/mythos-preview/</guid>
-            <pubDate>Sun, 11 May 2025 20:51:39 GMT</pubDate>
+            <pubDate>Wed, 29 Jan 2020 05:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Reverse engineering Claude's CVE-2026-2796 exploit]]></title>
@@ -456,7 +456,7 @@
                         Firefox.]]></description>
             <link>https://red.anthropic.com/2026/exploit/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/exploit/</guid>
-            <pubDate>Thu, 19 Jun 2025 02:33:39 GMT</pubDate>
+            <pubDate>Sat, 07 Mar 2020 11:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Partnering with Mozilla to improve Firefox’s security]]></title>
@@ -464,7 +464,7 @@
                         4.6 discovered 22 Firefox vulnerabilities over the course of two weeks.]]></description>
             <link>https://red.anthropic.com/2026/firefox/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/firefox/</guid>
-            <pubDate>Wed, 23 Apr 2025 13:49:39 GMT</pubDate>
+            <pubDate>Fri, 10 Jan 2020 22:49:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[LLM-discovered 0-days]]></title>
@@ -472,7 +472,7 @@
                     defenders. We're now using Claude to find and help fix vulnerabilities in open source software.]]></description>
             <link>https://red.anthropic.com/2026/zero-days/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/zero-days/</guid>
-            <pubDate>Mon, 05 May 2025 20:56:39 GMT</pubDate>
+            <pubDate>Thu, 23 Jan 2020 05:56:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[AI Models on Realistic Cyber Ranges]]></title>
@@ -481,7 +481,7 @@
                     instead of the custom tools needed by previous generations.]]></description>
             <link>https://red.anthropic.com/2026/cyber-toolkits-update/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/cyber-toolkits-update/</guid>
-            <pubDate>Sun, 05 Oct 2025 13:37:39 GMT</pubDate>
+            <pubDate>Tue, 23 Jun 2020 22:37:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Finding Bugs with Claude and Property-based Testing]]></title>
@@ -492,7 +492,7 @@
                     bugs in top Python packages to their developers, several of which have already been patched.]]></description>
             <link>https://red.anthropic.com/2026/property-based-testing/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/property-based-testing/</guid>
-            <pubDate>Sun, 08 Feb 2026 09:36:39 GMT</pubDate>
+            <pubDate>Tue, 27 Oct 2020 17:36:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Experimenting with AI to Defend Critical Infrastructure]]></title>
@@ -505,7 +505,7 @@
                 for national security.]]></description>
             <link>https://red.anthropic.com/2026/critical-infrastructure-defense/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/critical-infrastructure-defense/</guid>
-            <pubDate>Fri, 27 Jun 2025 05:52:39 GMT</pubDate>
+            <pubDate>Sun, 15 Mar 2020 14:52:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Project Vend: Phase Two]]></title>
@@ -515,7 +515,7 @@
                 'capable' and 'completely robust' remains wide.]]></description>
             <link>https://red.anthropic.com/2025/project-vend-2/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend-2/</guid>
-            <pubDate>Mon, 01 Dec 2025 15:29:39 GMT</pubDate>
+            <pubDate>Wed, 19 Aug 2020 23:29:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[AI Agents Find Smart Contract Exploits]]></title>
@@ -525,7 +525,7 @@
                 finding that underscores the need for proactive adoption of AI for defense.]]></description>
             <link>https://red.anthropic.com/2025/smart-contracts/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/smart-contracts/</guid>
-            <pubDate>Sun, 29 Mar 2026 05:28:39 GMT</pubDate>
+            <pubDate>Tue, 15 Dec 2020 14:28:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Project Fetch]]></title>
@@ -534,7 +534,7 @@
                 complex tasks with a robot dog.]]></description>
             <link>https://red.anthropic.com/2025/project-fetch/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-fetch/</guid>
-            <pubDate>Thu, 08 Jan 2026 13:15:39 GMT</pubDate>
+            <pubDate>Sat, 26 Sep 2020 21:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building AI for Cyber Defenders]]></title>
@@ -545,7 +545,7 @@
                     experimenting with AI will be key for defenders to keep pace.]]></description>
             <link>https://red.anthropic.com/2025/ai-for-cyber-defenders/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/ai-for-cyber-defenders/</guid>
-            <pubDate>Tue, 17 Mar 2026 20:06:39 GMT</pubDate>
+            <pubDate>Fri, 04 Dec 2020 04:06:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[LLMs and Biorisk]]></title>
@@ -558,7 +558,7 @@
                 of responsible AI development.]]></description>
             <link>https://red.anthropic.com/2025/biorisk/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/biorisk/</guid>
-            <pubDate>Sun, 15 Jun 2025 15:42:39 GMT</pubDate>
+            <pubDate>Wed, 04 Mar 2020 00:42:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Developing Nuclear Safeguards for AI]]></title>
@@ -569,7 +569,7 @@
                     nuclear-related conversations with high accuracy in preliminary testing.]]></description>
             <link>https://red.anthropic.com/2025/nuclear-safeguards/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/nuclear-safeguards/</guid>
-            <pubDate>Wed, 04 Jun 2025 17:35:39 GMT</pubDate>
+            <pubDate>Sat, 22 Feb 2020 02:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude Does Cyber Competitions]]></title>
@@ -579,7 +579,7 @@
                 25% of competitors. However, it lagged behind the best human teams at the toughest challenges.]]></description>
             <link>https://red.anthropic.com/2025/cyber-competitions/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-competitions/</guid>
-            <pubDate>Fri, 30 Jan 2026 01:15:39 GMT</pubDate>
+            <pubDate>Sun, 18 Oct 2020 09:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Cyber Evaluations of Claude 4]]></title>
@@ -588,7 +588,7 @@
                 Sonnet 4, with Opus demonstrating especially notable improvement over previous models.]]></description>
             <link>https://red.anthropic.com/2025/claude-4-cyber/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/claude-4-cyber/</guid>
-            <pubDate>Sun, 07 Sep 2025 04:32:39 GMT</pubDate>
+            <pubDate>Tue, 26 May 2020 13:32:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Project Vend]]></title>
@@ -597,7 +597,7 @@
                 autonomously running things in the real economy.]]></description>
             <link>https://red.anthropic.com/2025/project-vend/index.html</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend/index.html</guid>
-            <pubDate>Sun, 14 Sep 2025 00:47:39 GMT</pubDate>
+            <pubDate>Tue, 02 Jun 2020 09:47:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Cyber Toolkits for LLMs]]></title>
@@ -605,7 +605,7 @@
                 attacks on networks with dozens of hosts when equipped with a novel toolkit.]]></description>
             <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
-            <pubDate>Fri, 14 Nov 2025 15:23:39 GMT</pubDate>
+            <pubDate>Sun, 02 Aug 2020 23:23:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

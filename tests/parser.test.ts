@@ -1,5 +1,5 @@
 import { describe, test, expect } from "bun:test";
-import { parseHTML, extractText, extractLink, parseDate, resolveUrl } from "../src/lib/parser.ts";
+import { parseHTML, extractText, extractLink, parseDate } from "../src/lib/parser.ts";
 
 const sampleHTML = `
 <html>
@@ -59,10 +59,5 @@ describe("parser", () => {
   test("parseDate returns undefined for invalid dates", () => {
     expect(parseDate("")).toBeUndefined();
     expect(parseDate("not a date")).toBeUndefined();
-  });
-
-  test("resolveUrl handles relative and absolute URLs", () => {
-    expect(resolveUrl("/path", "https://example.com")).toBe("https://example.com/path");
-    expect(resolveUrl("https://other.com/page", "https://example.com")).toBe("https://other.com/page");
   });
 });

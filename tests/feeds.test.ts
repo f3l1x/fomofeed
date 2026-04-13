@@ -2,8 +2,8 @@ import { describe, test, expect } from "bun:test";
 import { allFeeds } from "../src/feeds/index.ts";
 
 describe("feed registry", () => {
-  test("has 29 feeds registered", () => {
-    expect(allFeeds).toHaveLength(29);
+  test("has 26 feeds registered", () => {
+    expect(allFeeds).toHaveLength(26);
   });
 
   test("all feeds have required fields", () => {
@@ -12,7 +12,7 @@ describe("feed registry", () => {
       expect(feed.name).toBeTruthy();
       expect(feed.url).toBeTruthy();
       expect(["static", "paginated", "browser", "github-release"]).toContain(feed.strategy);
-      expect(["news", "blogs", "changelogs", "releases"]).toContain(feed.category);
+      expect(["news", "blogs", "changelogs"]).toContain(feed.category);
       expect(typeof feed.generate).toBe("function");
     }
   });
@@ -36,7 +36,7 @@ describe("feed registry", () => {
     expect(strategies.has("github-release")).toBe(true);
   });
 
-  test("has all four category types", () => {
+  test("has all three category types", () => {
     const categories = new Set(allFeeds.map((f) => f.category));
     expect(categories.has("news")).toBe(true);
     expect(categories.has("blogs")).toBe(true);

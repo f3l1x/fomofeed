@@ -1,4 +1,4 @@
-.PHONY: install clean generate generate-full debug serve test lint typecheck fmt ci web web-dev web-install
+.PHONY: install clean generate generate-full debug test lint typecheck fmt ci web web-dev web-install
 
 # Setup
 install:
@@ -30,10 +30,6 @@ web:
 
 web-dev:
 	cd web && bun run dev
-
-# Server
-serve:
-	bun run src/cli.ts serve $(if $(PORT),--port=$(PORT),)
 
 # Development
 test:

@@ -7,7 +7,6 @@
   "scripts": {
     "generate": "bun run src/cli.ts generate",
     "generate:full": "bun run src/cli.ts generate --full",
-    "serve": "bun run src/cli.ts serve",
     "list": "bun run src/cli.ts list",
     "test": "bun test",
     "typecheck": "bun x tsc --noEmit",
