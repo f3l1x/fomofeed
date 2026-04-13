@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 15:53:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 16:31:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 12 Apr 2026 22:59:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -17,55 +17,6 @@
             <pubDate>Sun, 12 Apr 2026 22:59:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.20.6-rc1]]></title>
-            <description><![CDATA[<p>gemma4: be less strict about whitespace before bare keys (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4242725329" data-permission-text="Title is private" data-url="https://github.com/ollama/ollama/issues/15494" data-hovercard-type="pull_request" data-hovercard-url="/ollama/ollama/pull/15494/hovercard" href="https://github.com/ollama/ollama/pull/15494">#15494</a>)</p>]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.20.6-rc1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.6-rc1</guid>
-            <pubDate>Sat, 11 Apr 2026 23:30:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.20.6-rc0: gemma4: update renderer to match new jinja template (#15490)]]></title>
-            <description><![CDATA[<ul>
-<li>gemma4: update renderer to match new jinja template</li>
-</ul>
-<p>Google has updated their jinja template for gemma4, and so this change<br>
-gives us parity with the new template. The parsing also slightly changed<br>
-upstream, so we make a small change to our parser as well.</p>
-<p>I've also corrected a few probably existing edge cases, especially<br>
-around type unions. The upstream output format is weird (a stringified<br>
-array), but in practice the models seem to understand it well.</p>
-<ul>
-<li>gemma4: special case simple <code>AnyOf</code>s</li>
-</ul>
-<p>The upstream template doesn't handle <code>AnyOf</code>s, but since in the previous<br>
-commit we saw type unions work reasonably well, I'm now treating very<br>
-simple <code>AnyOf</code>s as type unions to help in cases where they might be used</p>
-<ul>
-<li>
-<p>fix lint</p>
-</li>
-<li>
-<p>gemma4: prefer empty instead of <code>None</code></p>
-</li>
-</ul>
-<p>We can't currently distinguish between a result being not-present vs.<br>
-empty. The empty case seems more important (e.g., a legitimately empty<br>
-tool call)</p>
-<ul>
-<li>gemma4: be more careful for tool results with missing IDs</li>
-</ul>]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.20.6-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.6-rc0</guid>
-            <pubDate>Fri, 10 Apr 2026 22:45:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.20.5-rc2]]></title>
-            <description><![CDATA[<p>launch: update openclaw channel message (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4235111034" data-permission-text="Title is private" data-url="https://github.com/ollama/ollama/issues/15463" data-hovercard-type="pull_request" data-hovercard-url="/ollama/ollama/pull/15463/hovercard" href="https://github.com/ollama/ollama/pull/15463">#15463</a>)</p>]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.20.5-rc2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.5-rc2</guid>
-            <pubDate>Thu, 09 Apr 2026 22:20:30 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.20.5]]></title>
             <description><![CDATA[## OpenClaw channel setup with ollama launch ## What's Changed - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through ollama launch openclaw - Enable flash attention for Gemma 4 on compatible GPUs - ollama launch opencode now detects curl-based OpenCode installs at ~/.opencode/bin - Fix /save command for models imported from safetensors ## New Contributors * @sjhddh made their first contribution in https://github.com/ollama/ollama/pull/15424 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.4...v0.20.5]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.20.5</link>
@@ -73,46 +24,11 @@ tool call)</p>
             <pubDate>Thu, 09 Apr 2026 18:11:20 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.20.5-rc1]]></title>
-            <description><![CDATA[<p>launch: add re-run hint to dependency error message (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4228612790" data-permission-text="Title is private" data-url="https://github.com/ollama/ollama/issues/15439" data-hovercard-type="pull_request" data-hovercard-url="/ollama/ollama/pull/15439/hovercard" href="https://github.com/ollama/ollama/pull/15439">#15439</a>)</p>]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.20.5-rc1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.5-rc1</guid>
-            <pubDate>Thu, 09 Apr 2026 16:51:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.20.5-rc0]]></title>
-            <description><![CDATA[<p>fix: improve error message for unknown input item type in responses A…</p>]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.20.5-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.5-rc0</guid>
-            <pubDate>Thu, 09 Apr 2026 00:41:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.20.4-rc2: gemma4: Disable FA on older GPUs where it doesn&#39;t work (#15403)]]></title>
-            <description><![CDATA[<p>CUDA older than 7.5 lack the support to enable flash attention for the model.</p>]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.20.4-rc2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.4-rc2</guid>
-            <pubDate>Tue, 07 Apr 2026 21:54:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.20.4]]></title>
             <description><![CDATA[## What's Changed * mlx: Improve M5 performance with NAX * gemma4: enable flash attention **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.3...v0.20.4]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.20.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.4</guid>
             <pubDate>Tue, 07 Apr 2026 17:57:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.20.4-rc1: gemma4: add missing file (#15394)]]></title>
-            <description><![CDATA[<p>File accidentally omitted from <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4215175652" data-permission-text="Title is private" data-url="https://github.com/ollama/ollama/issues/15378" data-hovercard-type="pull_request" data-hovercard-url="/ollama/ollama/pull/15378/hovercard" href="https://github.com/ollama/ollama/pull/15378">#15378</a></p>]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.20.4-rc1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.4-rc1</guid>
-            <pubDate>Tue, 07 Apr 2026 16:18:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.20.4-rc0]]></title>
-            <description><![CDATA[<p>create:  Clean up experimental paths, fix create from existing safete…</p>]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.20.4-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.4-rc0</guid>
-            <pubDate>Tue, 07 Apr 2026 15:12:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.20.3]]></title>

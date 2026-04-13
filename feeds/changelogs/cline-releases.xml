@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 15:53:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 16:31:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 10 Apr 2026 20:40:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -17,45 +17,11 @@
             <pubDate>Fri, 10 Apr 2026 20:40:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v2.14.0-cli: Changelog and version bump for release (#10227)]]></title>
-            <description><![CDATA[<ul>
-<li>
-<p>Update changelog files for release</p>
-</li>
-<li>
-<p>Version bump for release</p>
-</li>
-<li>
-<p>Update cli/CHANGELOG.md</p>
-</li>
-</ul>
-<p>Co-authored-by: greptile-apps[bot] &lt;165735046+greptile-apps[bot]@users.noreply.github.com&gt;</p>
-<hr>
-<p>Co-authored-by: greptile-apps[bot] &lt;165735046+greptile-apps[bot]@users.noreply.github.com&gt;</p>]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v2.14.0-cli</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v2.14.0-cli</guid>
-            <pubDate>Fri, 10 Apr 2026 19:48:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.13.0-cli]]></title>
-            <description><![CDATA[<p>Bump version from 2.12.0 to 2.13.0</p>]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v2.13.0-cli</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v2.13.0-cli</guid>
-            <pubDate>Thu, 02 Apr 2026 03:09:42 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v3.77.0]]></title>
             <description><![CDATA[### Added - Add "Lazy Teammate Mode" experimental toggle - read_file tool now supports chunked reading for targeted file access ### Fixed - Exclude new_task tool from system prompt in yolo/headless mode - Fix Kanban demo video formatting ### Changed - Polish Notification hook functionality **Full Changelog**: https://github.com/cline/cline/compare/v3.76.0...v3.77.0]]></description>
             <link>https://github.com/cline/cline/releases/tag/v3.77.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.77.0</guid>
             <pubDate>Wed, 01 Apr 2026 17:26:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.12.0-cli]]></title>
-            <description><![CDATA[<p>Update changelog and release version (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4188263357" data-permission-text="Title is private" data-url="https://github.com/cline/cline/issues/10085" data-hovercard-type="pull_request" data-hovercard-url="/cline/cline/pull/10085/hovercard" href="https://github.com/cline/cline/pull/10085">#10085</a>)</p>]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v2.12.0-cli</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v2.12.0-cli</guid>
-            <pubDate>Wed, 01 Apr 2026 17:02:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v3.76.0]]></title>
@@ -65,42 +31,11 @@
             <pubDate>Thu, 26 Mar 2026 15:17:50 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v2.11.0-cli: fix(cli): replace --tui hint with kanban description in migration view]]></title>
-            <description><![CDATA[<p>The migration announcement didn't explain what Kanban is. Swap the<br>
-"run cline --tui" line for a one-liner describing the product so users<br>
-know what they're opting into. The --tui escape hatch is still<br>
-discoverable via the Exit menu item.</p>]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v2.11.0-cli</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v2.11.0-cli</guid>
-            <pubDate>Thu, 26 Mar 2026 05:52:22 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v3.75.0]]></title>
             <description><![CDATA[### Added - Latency improvements for remote workspaces ### Fixed - Stabilize flaky hooks tests ### Changed - Remove example hooks in favor of reading the docs **Full Changelog**: https://github.com/cline/cline/compare/v2.9.0-cli...v3.75.0]]></description>
             <link>https://github.com/cline/cline/releases/tag/v3.75.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.75.0</guid>
             <pubDate>Fri, 20 Mar 2026 23:27:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.9.0-cli]]></title>
-            <description><![CDATA[<p>Changelog and version bump for release (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4110352354" data-permission-text="Title is private" data-url="https://github.com/cline/cline/issues/9910" data-hovercard-type="pull_request" data-hovercard-url="/cline/cline/pull/9910/hovercard" href="https://github.com/cline/cline/pull/9910">#9910</a>)</p>]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v2.9.0-cli</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v2.9.0-cli</guid>
-            <pubDate>Fri, 20 Mar 2026 22:29:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.8.2-cli: fix(cli): use kanban@latest to always fetch newest version (#9898)]]></title>
-            <description><![CDATA[<ul>
-<li>fix(cli): use kanban@latest to always fetch newest version</li>
-</ul>
-<p>npx -y kanban may use a cached version. Using <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/latest/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/latest">@latest</a> ensures<br>
-users always get the most recent kanban release.</p>
-<ul>
-<li>chore(cli): bump version to 2.8.2 and update changelog</li>
-</ul>]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v2.8.2-cli</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v2.8.2-cli</guid>
-            <pubDate>Fri, 20 Mar 2026 02:37:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v3.74.0]]></title>
