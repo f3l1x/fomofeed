@@ -11,7 +11,9 @@
     "test": "bun test",
     "typecheck": "bun x tsc --noEmit",
     "fmt": "bun x prettier --write 'src/**/*.ts' 'tests/**/*.ts'",
-    "lint": "bun x eslint 'src/**/*.ts'"
+    "lint": "bun x eslint 'src/**/*.ts'",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "dependencies": {
     "cheerio": "1.0.0",
@@ -20,7 +22,8 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/rss": "^0.0.32"
+    "@types/rss": "^0.0.32",
+    "wrangler": "^4.82.1"
   },
   "peerDependencies": {
     "typescript": "^5"
