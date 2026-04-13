@@ -2,11 +2,20 @@ import { chromium, type Browser } from "playwright";
 
 const DEFAULT_TIMEOUT = 60_000;
 
+// Pin to a recent Chrome UA so sites that gate on UA (or run basic Cloudflare
+// bot checks) don't serve us an interstitial.
+const USER_AGENT =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
+  "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
 let _browser: Browser | null = null;
 
 async function getBrowser(): Promise<Browser> {
   if (!_browser || !_browser.isConnected()) {
-    _browser = await chromium.launch({ headless: true });
+    _browser = await chromium.launch({
+      headless: true,
+      args: ["--disable-blink-features=AutomationControlled"],
+    });
   }
   return _browser;
 }
@@ -35,7 +44,12 @@ export async function fetchWithBrowser(
   } = options;
 
   const browser = await getBrowser();
-  const page = await browser.newPage();
+  const context = await browser.newContext({
+    userAgent: USER_AGENT,
+    viewport: { width: 1440, height: 900 },
+    locale: "en-US",
+  });
+  const page = await context.newPage();
   page.setDefaultTimeout(timeout);
 
   try {
@@ -68,6 +82,7 @@ export async function fetchWithBrowser(
     return await page.content();
   } finally {
     await page.close();
+    await context.close();
   }
 }
 

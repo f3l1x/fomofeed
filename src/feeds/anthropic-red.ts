@@ -10,6 +10,7 @@ export const anthropicRed: FeedSource = {
   category: "news",
   company: "anthropic",
   strategy: "browser",
+  waitSelector: "a.note",
 
   async generate() {
     const html = await fetchWithBrowser(this.url, {

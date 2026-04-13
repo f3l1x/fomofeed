@@ -7,6 +7,9 @@ export interface FeedSource {
   category: FeedCategory;
   company?: string;
   strategy: "static" | "paginated" | "browser" | "github-release";
+  // Optional selector the `debug` CLI uses when fetching via browser, so the
+  // dumped HTML reflects what generate() actually sees.
+  waitSelector?: string;
   generate(): Promise<FeedItem[]>;
 }
 

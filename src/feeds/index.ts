@@ -17,8 +17,6 @@ import { anthropicNews } from "./anthropic-news.ts";
 import { anthropicEngineering } from "./anthropic-engineering.ts";
 import { anthropicResearch } from "./anthropic-research.ts";
 import { anthropicRed } from "./anthropic-red.ts";
-import { claudeCodeChangelog } from "./claude-code-changelog.ts";
-import { xaiNews } from "./xai-news.ts";
 import {
   claudeCodeReleases,
   openCodeReleases,
@@ -49,8 +47,6 @@ export {
   anthropicEngineering,
   anthropicResearch,
   anthropicRed,
-  claudeCodeChangelog,
-  xaiNews,
   claudeCodeReleases,
   openCodeReleases,
   clineReleases,
@@ -104,8 +100,6 @@ export const allFeeds: FeedSource[] = [
   anthropicEngineering,
   anthropicResearch,
   anthropicRed,
-  claudeCodeChangelog,
-  xaiNews,
   claudeCodeReleases,
   openCodeReleases,
   clineReleases,

@@ -10,6 +10,7 @@ export const windsurfBlog: FeedSource = {
   category: "blogs",
   company: "windsurf",
   strategy: "browser",
+  waitSelector: "a[href^='/blog/']",
 
   async generate() {
     const html = await fetchWithBrowser(this.url, {
@@ -23,7 +24,7 @@ export const windsurfBlog: FeedSource = {
         baseUrl: "https://windsurf.com",
         titleSelectors: ["h3", "h2", ".subheading2"],
         descriptionSelectors: ["p.body3", "p.line-clamp-3"],
-        dateSelectors: ["p.caption1", "time", ".date"],
+        dateSelectors: ["p.caption1:not(.line-clamp-3)", "time", ".date"],
       }),
     );
   },

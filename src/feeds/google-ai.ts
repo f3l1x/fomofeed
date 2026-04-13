@@ -18,21 +18,17 @@ export const googleAi: FeedSource = {
     const items: FeedItem[] = [];
     const seen = new Set<string>();
 
-    // Google dev blog uses .search-result cards.
-    // Skip the first one (it's the filter control panel).
-    $("[class*='search-result']").each((i, el) => {
-      if (i === 0) return; // skip filter panel
-
+    $("li.search-result").each((_, el) => {
       const $el = $(el);
       const link = extractLink($, "a", BASE_URL, $el);
       if (!link || link === BASE_URL || seen.has(link)) return;
       seen.add(link);
 
       // Card text: "DATE / CATEGORY\n  Title\n  Description"
-      const title = extractText($, ["h3", "h2", "h4", "[class*='title']"], $el);
+      const title = extractText($, [".search-result__title", "h3", "h2", "h4"], $el);
       if (!title) return;
 
-      const desc = extractText($, ["p", "[class*='description']", "[class*='snippet']"], $el);
+      const desc = extractText($, [".search-result__summary", "[class*='snippet']"], $el);
       const dateStr = $el.text().match(/((?:JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+\d{1,2},\s+\d{4})/i)?.[1] ?? "";
 
       items.push({

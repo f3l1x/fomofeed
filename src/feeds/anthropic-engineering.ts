@@ -10,6 +10,7 @@ export const anthropicEngineering: FeedSource = {
   category: "news",
   company: "anthropic",
   strategy: "browser",
+  waitSelector: "a[href*='/engineering/']",
 
   async generate() {
     const html = await fetchWithBrowser(this.url, { waitSelector: "a[href*='/engineering/']" });

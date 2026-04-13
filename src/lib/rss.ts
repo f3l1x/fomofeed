@@ -4,6 +4,12 @@ import { writeFile, mkdir } from "node:fs/promises";
 import { join } from "node:path";
 import { FEEDS_DIR } from "./constants.ts";
 import { baseUrl } from "./config.ts";
+import { stripHtml } from "./parser.ts";
+
+function cleanDescription(s: string | undefined): string | null {
+  const clean = stripHtml(s);
+  return clean || null;
+}
 
 function stableDate(url: string): Date {
   // Deterministic date from URL hash — gives undated posts a stable pubDate
@@ -106,9 +112,9 @@ export async function writeJsonIndex(
 ): Promise<string> {
   const feeds = sources.map((source) => {
     const items = (itemsByFeed.get(source.id) ?? []).map((item) => ({
-      title: item.title,
+      title: stripHtml(item.title),
       link: item.link,
-      description: item.description ?? null,
+      description: cleanDescription(item.description),
       date: item.date?.toISOString() ?? null,
     }));
     return {

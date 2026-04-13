@@ -1,5 +1,5 @@
 import { fetchPage } from "../lib/fetcher.ts";
-import { parseHTML, extractText, extractLink, parseDate } from "../lib/parser.ts";
+import { parseHTML, extractText, extractLink } from "../lib/parser.ts";
 import type { FeedSource, FeedItem } from "../lib/types.ts";
 
 const BASE_URL = "https://hamel.dev";
@@ -22,11 +22,13 @@ export const hamel: FeedSource = {
       const link = extractLink($, ".listing-title, td a", BASE_URL, $el);
       if (!title || !link) return;
 
-      items.push({
-        title,
-        link,
-        date: parseDate(extractText($, [".listing-date", "td:first-child"], $el)),
-      });
+      // Quarto exposes a Unix-ms timestamp on the row; the visible date uses
+      // an ambiguous M/D/YY format that Date() parses into the 1900s.
+      const sortAttr = $el.attr("data-listing-date-sort");
+      const ts = sortAttr ? Number(sortAttr) : NaN;
+      const date = Number.isFinite(ts) ? new Date(ts) : undefined;
+
+      items.push({ title, link, date });
     });
 
     return items;

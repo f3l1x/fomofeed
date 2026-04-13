@@ -60,3 +60,37 @@ export function resolveUrl(href: string, baseUrl: string): string {
     return href;
   }
 }
+
+/**
+ * Strip HTML/Markdown noise from text. Handles HTML tags, HTML entities,
+ * markdown code fences/inline code/links, and collapses whitespace.
+ */
+export function stripHtml(input: string | null | undefined): string {
+  if (!input) return "";
+  return input
+    // HTML comments
+    .replace(/<!--[\s\S]*?-->/g, "")
+    // script/style blocks
+    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, "")
+    // any HTML tag
+    .replace(/<\/?[a-zA-Z][^>]*>/g, " ")
+    // trailing unterminated tag (e.g., body truncated mid-attribute)
+    .replace(/<\/?[a-zA-Z][^<]*$/g, " ")
+    // markdown fenced code
+    .replace(/```[\s\S]*?```/g, " ")
+    // markdown inline code
+    .replace(/`([^`]*)`/g, "$1")
+    // markdown links [text](url) -> text
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    // common HTML entities
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    // collapse whitespace
+    .replace(/\s+/g, " ")
+    .trim();
+}

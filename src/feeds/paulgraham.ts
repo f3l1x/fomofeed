@@ -13,19 +13,23 @@ export const paulgraham: FeedSource = {
     const $ = parseHTML(await fetchPage(this.url));
     const items: FeedItem[] = [];
 
+    const seen = new Set<string>();
+    const EXCLUDE = new Set(["index.html", "rss.html"]);
+
     $("a[href]").each((_, el) => {
       const $el = $(el);
       const href = $el.attr("href") ?? "";
-      if (!href.endsWith(".html") || href === "index.html" || href.startsWith("http")) return;
+      if (!href.endsWith(".html") || EXCLUDE.has(href) || href.startsWith("http")) return;
       if ($el.find("img").length && !$el.text().trim()) return;
 
       const title = $el.text().trim();
       if (!title) return;
 
-      items.push({
-        title,
-        link: new URL(href, "https://www.paulgraham.com").href,
-      });
+      const link = new URL(href, "https://www.paulgraham.com").href;
+      if (seen.has(link)) return;
+      seen.add(link);
+
+      items.push({ title, link });
     });
 
     return items;

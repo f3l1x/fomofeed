@@ -3,8 +3,11 @@
     "allow": [
       "Bash(bun add:*)",
       "Bash(bunx playwright:*)",
-      "Bash(make typecheck:*)",
+      "Bash(make debug:*)",
       "Bash(make generate:*)",
+      "Bash(make typecheck:*)",
+      "Bash(make web:*)",
+      "WebFetch(domain:docs.astro.build)",
       "WebSearch"
     ]
   }

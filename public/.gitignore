@@ -1,0 +1,5 @@
+# Build output — ignore everything except the generated feeds/
+*
+!.gitignore
+!feeds/
+!feeds/**

@@ -1,0 +1,119 @@
+---
+import Layout from "../layouts/Layout.astro";
+import feedsData from "../../../feeds/data.json";
+
+type RawFeed = {
+  id: string;
+  name: string;
+  url: string;
+  category: string;
+  company: string | null;
+  items: unknown[];
+};
+
+type FeedEntry = {
+  id: string;
+  name: string;
+  source: string;
+  category: string;
+  itemCount: number;
+  feedPath: string;
+};
+
+const feeds = (feedsData.feeds as RawFeed[]).map<FeedEntry>((f) => ({
+  id: f.id,
+  name: f.name,
+  source: f.url,
+  category: f.category,
+  itemCount: f.items.length,
+  feedPath: `/feeds/${f.category}/${f.id}.xml`,
+}));
+
+const categoryOrder = ["news", "blogs", "changelogs", "releases"] as const;
+const categories = [...new Set(feeds.map((f) => f.category))].sort(
+  (a, b) => categoryOrder.indexOf(a as any) - categoryOrder.indexOf(b as any),
+);
+
+const grouped = categories.map((cat) => ({
+  category: cat,
+  aggregatePath: `/feeds/${cat}.xml`,
+  feeds: feeds
+    .filter((f) => f.category === cat)
+    .sort((a, b) => a.name.localeCompare(b.name)),
+}));
+
+const generated = feedsData.generated as string;
+---
+
+<Layout title="FomoFeed — Feeds">
+  <div class="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12">
+    <header class="mb-8 text-center">
+      <h1 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        Feeds
+      </h1>
+      <p class="mt-1 text-sm text-text-secondary">
+        Copy any RSS URL into your feed reader
+      </p>
+      <p class="mt-4 text-xs text-text-muted">
+        <a href="/" class="text-accent-green hover:underline">← Back to articles</a>
+      </p>
+    </header>
+
+    <div class="space-y-8">
+      {grouped.map(({ category, aggregatePath, feeds: catFeeds }) => (
+        <section>
+          <div class="mb-3 flex items-baseline justify-between gap-2">
+            <h2 class="text-lg font-semibold capitalize text-text-primary">
+              {category}
+              <span class="ml-2 text-xs font-normal text-text-muted">
+                ({catFeeds.length})
+              </span>
+            </h2>
+            <a
+              href={aggregatePath}
+              class="text-xs font-medium text-accent-green hover:underline"
+            >
+              all {category}.xml →
+            </a>
+          </div>
+
+          <ul class="divide-y divide-border/50 overflow-hidden rounded-lg border border-border bg-surface-1">
+            {catFeeds.map((f) => (
+              <li class="flex flex-col gap-1.5 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+                <div class="min-w-0">
+                  <div class="flex items-center gap-2">
+                    <span class="truncate text-sm font-medium text-text-primary">
+                      {f.name}
+                    </span>
+                    <span class="shrink-0 rounded bg-surface-2 px-1.5 py-0.5 text-[0.65rem] text-text-muted">
+                      {f.itemCount}
+                    </span>
+                  </div>
+                  <a
+                    href={f.source}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="block truncate text-xs text-text-muted hover:text-text-secondary"
+                  >
+                    {f.source}
+                  </a>
+                </div>
+                <a
+                  href={f.feedPath}
+                  class="shrink-0 self-start rounded-md border border-border bg-surface-2 px-2.5 py-1 font-mono text-[0.7rem] text-accent-purple hover:border-accent-purple-border hover:bg-accent-purple-bg sm:self-center"
+                >
+                  {f.feedPath}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+
+    <footer class="mt-10 border-t border-border/50 pt-6 text-center text-xs text-text-muted">
+      {feeds.length} feeds &middot;
+      updated <time datetime={generated}>{new Date(generated).toUTCString()}</time>
+    </footer>
+  </div>
+</Layout>

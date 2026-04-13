@@ -10,12 +10,14 @@ export const anthropicResearch: FeedSource = {
   category: "news",
   company: "anthropic",
   strategy: "browser",
+  waitSelector: "a[href*='/research/']:not([href*='/research/team/'])",
 
   async generate() {
-    const html = await fetchWithBrowser(this.url, { waitSelector: "a[href*='/research/']" });
+    const selector = "a[href*='/research/']:not([href*='/research/team/'])";
+    const html = await fetchWithBrowser(this.url, { waitSelector: selector });
     const $ = parseHTML(html);
     const items = scrapeArticles($, {
-      linkSelector: "a[href*='/research/']",
+      linkSelector: selector,
       baseUrl: "https://www.anthropic.com",
     });
     return withCache(this.id, items);

@@ -1,4 +1,4 @@
-import { parseDate } from "./parser.ts";
+import { parseDate, stripHtml } from "./parser.ts";
 import type { FeedItem } from "./types.ts";
 
 const PER_PAGE = 100;
@@ -37,7 +37,7 @@ export async function fetchGitHubReleases(
   return releases.map((r) => ({
     title: r.name || r.tag_name,
     link: r.html_url,
-    description: r.body?.slice(0, 2000) || undefined,
+    description: stripHtml(r.body) || undefined,
     date: parseDate(r.published_at ?? "") || undefined,
   }));
 }

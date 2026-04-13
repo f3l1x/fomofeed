@@ -4,6 +4,14 @@ import type { FeedSource, FeedItem } from "../lib/types.ts";
 
 const BASE_URL = "https://www.deeplearning.ai";
 
+// Tag links use "apr-10-2026" style slugs which Date() can't parse directly.
+// Convert to "Apr 10 2026" so parseDate() handles them.
+function normalizeTagDate(s: string): string {
+  const m = s.match(/^([a-z]{3})-(\d{1,2})-(\d{4})$/i);
+  if (!m) return s;
+  return `${m[1]} ${m[2]} ${m[3]}`;
+}
+
 export const theBatch: FeedSource = {
   id: "the-batch",
   name: "The Batch - DeepLearning.AI",
@@ -40,7 +48,8 @@ export const theBatch: FeedSource = {
       if (!link || link === `${BASE_URL}/the-batch/` || seen.has(link)) return;
       seen.add(link);
 
-      const dateStr = $el.find("a[href*='/tag/']").first().text().trim()
+      const tagText = $el.find("a[href*='/tag/']").first().text().trim();
+      const dateStr = normalizeTagDate(tagText)
         || extractText($, ["time", ".date"], $el);
 
       items.push({

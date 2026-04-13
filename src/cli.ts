@@ -1,6 +1,7 @@
 import { allFeeds, ALL_CATEGORIES, CATEGORY_LABELS, feedsByCategory, allCompanies, feedsByCompany } from "./feeds/index.ts";
 import { writeFeed, writeAggregatedFeed, writeCompanyFeed, writeJsonIndex } from "./lib/rss.ts";
 import { appendToArchive } from "./lib/archive.ts";
+import { loadCache } from "./lib/cache.ts";
 import { closeBrowser } from "./lib/browser.ts";
 import { CACHE_DIR } from "./lib/constants.ts";
 import { config } from "./lib/config.ts";
@@ -106,7 +107,13 @@ async function generate(feedId?: string, full?: boolean): Promise<void> {
     console.log(`${total} items (${Date.now() - t}ms) -> ${path}`);
   }
 
-  // Generate JSON index for web app
+  // Generate JSON index for web app. For feeds not generated in this run,
+  // fall back to cached items so the index reflects the full catalog.
+  for (const feed of allFeeds) {
+    if (itemsByFeed.has(feed.id)) continue;
+    const cached = await loadCache(feed.id);
+    if (cached.length > 0) itemsByFeed.set(feed.id, cached);
+  }
   const jsonPath = await writeJsonIndex(allFeeds, itemsByFeed);
   console.log(`\nJSON index -> ${jsonPath}`);
 
@@ -143,7 +150,7 @@ async function debug(feedId: string): Promise<void> {
   let html: string;
   if (feed.strategy === "browser") {
     const { fetchWithBrowser } = await import("./lib/browser.ts");
-    html = await fetchWithBrowser(feed.url);
+    html = await fetchWithBrowser(feed.url, { waitSelector: feed.waitSelector });
     await closeBrowser();
   } else {
     const { fetchPage } = await import("./lib/fetcher.ts");

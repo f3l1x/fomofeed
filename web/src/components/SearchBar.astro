@@ -1,0 +1,36 @@
+---
+---
+
+<div class="relative">
+  <svg
+    class="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-text-muted"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+  >
+    <circle cx="11" cy="11" r="8"></circle>
+    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+  <input
+    type="text"
+    x-model="search"
+    placeholder="Search articles..."
+    class="w-full rounded-lg border border-border bg-surface-1 py-2.5 pl-10 pr-4 text-sm text-text-primary placeholder-text-muted outline-none transition-colors focus:border-border-hover"
+  />
+  <div
+    x-show="search.length > 0"
+    x-transition
+    class="absolute right-3 top-1/2 -translate-y-1/2"
+  >
+    <button
+      @click="search = ''"
+      class="rounded p-0.5 text-text-muted transition-colors hover:text-text-secondary"
+    >
+      <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+</div>

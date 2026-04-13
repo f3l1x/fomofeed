@@ -34,7 +34,8 @@ export const cursorBlog: FeedSource = {
 
       const desc = $el.find("p").eq(1).text().trim();
       const dateStr = $el.find("time").first().text().trim();
-      const category = $el.find("span").first().text().trim();
+      // First <span> is a "·" separator; the category sits in the second one.
+      const category = $el.find("span").eq(1).text().trim();
 
       items.push({
         title,

@@ -1,0 +1,21 @@
+---
+---
+
+<div>
+  <div class="mb-2 text-[0.65rem] font-semibold uppercase tracking-wider text-text-muted">
+    Sources
+  </div>
+  <div class="flex flex-wrap gap-1.5">
+    <template x-for="feed in visibleFeeds" :key="feed.id">
+      <button
+        class="rounded-md border px-2 py-1 text-[0.7rem] font-medium transition-all"
+        :class="activeFeeds.has(feed.id)
+          ? 'border-accent-purple-border bg-accent-purple-bg text-accent-purple'
+          : 'border-border bg-surface-1 text-text-muted hover:border-border-hover hover:text-text-secondary'"
+        @click="toggleFeed(feed.id)"
+        x-text="feed.name"
+      >
+      </button>
+    </template>
+  </div>
+</div>

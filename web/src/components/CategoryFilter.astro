@@ -1,0 +1,25 @@
+---
+---
+
+<div class="flex flex-wrap gap-2">
+  <button
+    class="rounded-lg border px-3 py-1.5 text-xs font-medium transition-all"
+    :class="activeCategory === 'all'
+      ? 'border-accent-green-border bg-accent-green-bg text-accent-green'
+      : 'border-border bg-surface-1 text-text-secondary hover:border-border-hover hover:text-text-primary'"
+    @click="activeCategory = 'all'; activeFeeds = new Set()"
+  >
+    All
+  </button>
+  <template x-for="cat in categories" :key="cat">
+    <button
+      class="rounded-lg border px-3 py-1.5 text-xs font-medium transition-all"
+      :class="activeCategory === cat
+        ? 'border-accent-green-border bg-accent-green-bg text-accent-green'
+        : 'border-border bg-surface-1 text-text-secondary hover:border-border-hover hover:text-text-primary'"
+      @click="activeCategory = cat; activeFeeds = new Set()"
+      x-text="capitalize(cat)"
+    >
+    </button>
+  </template>
+</div>

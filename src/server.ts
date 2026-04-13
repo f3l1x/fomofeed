@@ -1,4 +1,4 @@
-import { join, resolve, normalize } from "node:path";
+import { join, resolve, normalize, extname } from "node:path";
 import { allFeeds, ALL_CATEGORIES, CATEGORY_LABELS, feedsByCategory } from "./feeds/index.ts";
 import { FEEDS_DIR } from "./lib/constants.ts";
 import type { FeedCategory, FeedSource } from "./lib/types.ts";
@@ -8,8 +8,18 @@ const PUBLIC_DIR = resolve(import.meta.dirname ?? ".", "../public");
 const SECURITY_HEADERS: Record<string, string> = {
   "X-Content-Type-Options": "nosniff",
   "X-Frame-Options": "DENY",
-  "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-eval' https://cdn.jsdelivr.net; connect-src 'self'; img-src 'self'",
   "Referrer-Policy": "no-referrer",
+};
+
+const MIME_TYPES: Record<string, string> = {
+  ".html": "text/html; charset=utf-8",
+  ".css": "text/css; charset=utf-8",
+  ".js": "application/javascript; charset=utf-8",
+  ".json": "application/json; charset=utf-8",
+  ".svg": "image/svg+xml",
+  ".png": "image/png",
+  ".ico": "image/x-icon",
+  ".xml": "application/rss+xml; charset=utf-8",
 };
 
 function withHeaders(response: Response): Response {
@@ -23,7 +33,7 @@ function notFound(): Response {
   return withHeaders(new Response("Not Found", { status: 404, headers: { "Content-Type": "text/plain" } }));
 }
 
-function renderIndex(): string {
+function renderRssIndex(): string {
   const rssIcon = `<svg class="rss-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg>`;
 
   const sections = ALL_CATEGORIES
@@ -60,7 +70,7 @@ ${items}
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FomoFeed</title>
+  <title>FomoFeed — RSS Directory</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #0f0f0f; color: #e0e0e0; line-height: 1.6; min-height: 100vh; }
@@ -112,7 +122,20 @@ function escapeHtml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-let indexCache: string | null = null;
+let rssIndexCache: string | null = null;
+
+async function serveStaticFile(filePath: string, cacheControl = "public, max-age=3600"): Promise<Response | null> {
+  const resolved = resolve(filePath);
+  const file = Bun.file(resolved);
+  if (!(await file.exists())) return null;
+
+  const ext = extname(resolved);
+  const contentType = MIME_TYPES[ext] ?? "application/octet-stream";
+
+  return withHeaders(new Response(file, {
+    headers: { "Content-Type": contentType, "Cache-Control": cacheControl },
+  }));
+}
 
 export function startServer(port: number): void {
   Bun.serve({
@@ -121,67 +144,59 @@ export function startServer(port: number): void {
     async fetch(req: Request): Promise<Response> {
       const pathname = new URL(req.url).pathname;
 
-      if (pathname === "/app" || pathname === "/app/") {
-        const file = Bun.file(join(PUBLIC_DIR, "index.html"));
-        if (await file.exists()) {
-          return withHeaders(new Response(file, {
-            headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=300" },
-          }));
-        }
-      }
-
-      if (pathname === "/" || pathname === "/index.html") {
-        indexCache ??= renderIndex();
-        return withHeaders(new Response(indexCache, {
+      // RSS directory page
+      if (pathname === "/rss" || pathname === "/rss/") {
+        rssIndexCache ??= renderRssIndex();
+        return withHeaders(new Response(rssIndexCache, {
           headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=300" },
         }));
       }
 
+      // Health check
       if (pathname === "/health") {
         return withHeaders(new Response(JSON.stringify({ status: "ok" }), {
           headers: { "Content-Type": "application/json" },
         }));
       }
 
+      // Feed data JSON
       if (pathname === "/feeds/data.json") {
-        const file = Bun.file(join(FEEDS_DIR, "data.json"));
-        if (await file.exists()) {
-          return withHeaders(new Response(file, {
-            headers: {
-              "Content-Type": "application/json; charset=utf-8",
-              "Cache-Control": "public, max-age=300",
-              "Access-Control-Allow-Origin": "*",
-            },
-          }));
+        const resp = await serveStaticFile(join(FEEDS_DIR, "data.json"), "public, max-age=300");
+        if (resp) {
+          resp.headers.set("Access-Control-Allow-Origin", "*");
+          return resp;
         }
         return notFound();
       }
 
+      // XML feeds
       if (pathname.startsWith("/feeds/") && pathname.endsWith(".xml")) {
-        // Supports: /feeds/{category}.xml and /feeds/{category}/{id}.xml
         const relative = pathname.slice("/feeds/".length);
         if (relative.includes("..") || relative.includes("\\") || relative.includes("\0")) {
           return notFound();
         }
 
-        // Allow at most one slash (category/file.xml)
         const parts = relative.split("/");
         if (parts.length > 2) return notFound();
 
         const resolvedPath = resolve(FEEDS_DIR, relative);
         if (!resolvedPath.startsWith(normalize(FEEDS_DIR) + "/")) return notFound();
 
-        const file = Bun.file(resolvedPath);
-        if (await file.exists()) {
-          return withHeaders(new Response(file, {
-            headers: {
-              "Content-Type": "application/rss+xml; charset=utf-8",
-              "Cache-Control": "public, max-age=3600",
-            },
-          }));
-        }
-        return notFound();
+        const resp = await serveStaticFile(resolvedPath, "public, max-age=3600");
+        return resp ?? notFound();
       }
+
+      // Astro static files from public/
+      // Try exact path first, then index.html for SPA-like routing
+      if (pathname !== "/") {
+        const safePath = pathname.replace(/\.\./g, "");
+        const resp = await serveStaticFile(join(PUBLIC_DIR, safePath), "public, max-age=3600");
+        if (resp) return resp;
+      }
+
+      // Serve index.html for / and any unmatched route (SPA fallback)
+      const indexResp = await serveStaticFile(join(PUBLIC_DIR, "index.html"), "public, max-age=300");
+      if (indexResp) return indexResp;
 
       return notFound();
     },
