@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun add:*)",
+      "Bash(bunx playwright:*)",
+      "Bash(make typecheck:*)",
+      "Bash(make generate:*)",
+      "WebSearch"
+    ]
+  }
+}

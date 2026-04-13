@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FomoFeed</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #0f0f0f; color: #e0e0e0; line-height: 1.6; min-height: 100vh;
+    }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    header { text-align: center; margin-bottom: 2rem; }
+    h1 { font-size: 2.25rem; font-weight: 700; color: #fff; margin-bottom: 0.25rem; letter-spacing: -0.02em; }
+    header p { color: #888; font-size: 1rem; }
+
+    /* Search */
+    .search-bar {
+      position: relative; margin-bottom: 1.25rem;
+    }
+    .search-bar input {
+      width: 100%; padding: 0.65rem 1rem 0.65rem 2.5rem;
+      background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px;
+      color: #e0e0e0; font-size: 0.9rem; outline: none; transition: border-color 0.15s;
+    }
+    .search-bar input:focus { border-color: #444; }
+    .search-bar input::placeholder { color: #555; }
+    .search-bar svg {
+      position: absolute; left: 0.75rem; top: 50%; transform: translateY(-50%);
+      width: 16px; height: 16px; color: #555;
+    }
+
+    /* Filters */
+    .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
+    .filter-btn {
+      padding: 0.3rem 0.75rem; font-size: 0.78rem; font-weight: 500;
+      background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 6px;
+      color: #888; cursor: pointer; transition: all 0.15s; white-space: nowrap;
+    }
+    .filter-btn:hover { border-color: #444; color: #ccc; }
+    .filter-btn.active { background: #1e3a2f; border-color: #2d5a45; color: #4ade80; }
+
+    .feed-filters { margin-bottom: 1.5rem; }
+    .feed-filters-label {
+      font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.1em; color: #555; margin-bottom: 0.5rem;
+    }
+    .feed-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .feed-tag {
+      padding: 0.2rem 0.55rem; font-size: 0.72rem; font-weight: 500;
+      background: #151515; border: 1px solid #222; border-radius: 5px;
+      color: #666; cursor: pointer; transition: all 0.15s;
+    }
+    .feed-tag:hover { border-color: #444; color: #aaa; }
+    .feed-tag.active { background: #1a1a2e; border-color: #2a2a4e; color: #818cf8; }
+
+    /* Items */
+    .item-count {
+      font-size: 0.78rem; color: #555; margin-bottom: 0.75rem;
+    }
+
+    .items-list { display: flex; flex-direction: column; gap: 1px; }
+
+    .item {
+      display: flex; align-items: baseline; gap: 0.75rem;
+      padding: 0.6rem 0.75rem; border-radius: 6px;
+      transition: background 0.15s; text-decoration: none; color: inherit;
+    }
+    .item:hover { background: #1a1a1a; }
+
+    .item-date {
+      flex-shrink: 0; font-size: 0.72rem; color: #555;
+      font-variant-numeric: tabular-nums; width: 5.5rem; text-align: right;
+    }
+
+    .item-body { min-width: 0; flex: 1; }
+
+    .item-title {
+      font-size: 0.9rem; font-weight: 500; color: #f0f0f0;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .item:hover .item-title { color: #fff; }
+
+    .item-meta {
+      font-size: 0.72rem; color: #444; margin-top: 0.1rem;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .item-feed-badge {
+      display: inline-block; padding: 0.05rem 0.4rem; border-radius: 3px;
+      background: #181818; border: 1px solid #222; font-size: 0.68rem; color: #666;
+    }
+
+    .item-desc {
+      font-size: 0.78rem; color: #777; margin-top: 0.15rem;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+
+    /* Loading */
+    .loading { text-align: center; padding: 3rem; color: #555; }
+
+    /* Empty state */
+    .empty { text-align: center; padding: 3rem; color: #444; font-size: 0.9rem; }
+
+    footer {
+      text-align: center; margin-top: 2rem; padding-top: 1.5rem;
+      border-top: 1px solid #1a1a1a; color: #333; font-size: 0.78rem;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 1.5rem 1rem; }
+      h1 { font-size: 1.75rem; }
+      .item { flex-direction: column; gap: 0.1rem; }
+      .item-date { text-align: left; width: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" x-data="feedApp()" x-init="init()">
+    <header>
+      <h1>FomoFeed</h1>
+      <p>RSS feeds for sites that don't have them</p>
+    </header>
+
+    <template x-if="loading">
+      <div class="loading">Loading feeds...</div>
+    </template>
+
+    <template x-if="!loading">
+      <div>
+        <!-- Search -->
+        <div class="search-bar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" x-model="search" placeholder="Search articles..." />
+        </div>
+
+        <!-- Category filters -->
+        <div class="filters">
+          <button class="filter-btn" :class="{ active: activeCategory === 'all' }" @click="activeCategory = 'all'">
+            All
+          </button>
+          <template x-for="cat in categories" :key="cat">
+            <button class="filter-btn" :class="{ active: activeCategory === cat }" @click="activeCategory = cat" x-text="capitalize(cat)"></button>
+          </template>
+        </div>
+
+        <!-- Feed source filters -->
+        <div class="feed-filters">
+          <div class="feed-filters-label">Sources</div>
+          <div class="feed-tags">
+            <template x-for="feed in visibleFeeds" :key="feed.id">
+              <span
+                class="feed-tag"
+                :class="{ active: activeFeeds.has(feed.id) }"
+                @click="toggleFeed(feed.id)"
+                x-text="feed.name"
+              ></span>
+            </template>
+          </div>
+        </div>
+
+        <!-- Item count -->
+        <div class="item-count">
+          <span x-text="filteredItems.length"></span> articles
+          <template x-if="activeFeeds.size > 0">
+            <span> from <span x-text="activeFeeds.size"></span> source(s)</span>
+          </template>
+        </div>
+
+        <!-- Items list -->
+        <div class="items-list">
+          <template x-for="item in filteredItems.slice(0, visibleCount)" :key="item.link">
+            <a class="item" :href="item.link" target="_blank" rel="noopener">
+              <div class="item-date" x-text="formatDate(item.date)"></div>
+              <div class="item-body">
+                <div class="item-title" x-text="item.title"></div>
+                <div class="item-meta">
+                  <span class="item-feed-badge" x-text="item.feedName"></span>
+                </div>
+                <template x-if="item.description">
+                  <div class="item-desc" x-text="item.description"></div>
+                </template>
+              </div>
+            </a>
+          </template>
+        </div>
+
+        <template x-if="filteredItems.length === 0">
+          <div class="empty">No articles match your filters.</div>
+        </template>
+
+        <template x-if="visibleCount < filteredItems.length">
+          <div style="text-align: center; margin-top: 1rem;">
+            <button class="filter-btn" @click="visibleCount += 50" style="padding: 0.5rem 1.5rem;">
+              Show more (<span x-text="filteredItems.length - visibleCount"></span> remaining)
+            </button>
+          </div>
+        </template>
+      </div>
+    </template>
+
+    <footer>
+      <p>FomoFeed &mdash; updated hourly</p>
+    </footer>
+  </div>
+
+  <script>
+    function feedApp() {
+      return {
+        loading: true,
+        search: '',
+        activeCategory: 'all',
+        activeFeeds: new Set(),
+        feeds: [],
+        allItems: [],
+        categories: [],
+        visibleCount: 50,
+
+        async init() {
+          try {
+            const res = await fetch('/feeds/data.json');
+            const data = await res.json();
+            this.feeds = data.feeds;
+            this.categories = [...new Set(data.feeds.map(f => f.category))];
+
+            // Flatten all items with feed metadata
+            this.allItems = data.feeds.flatMap(feed =>
+              feed.items.map(item => ({
+                ...item,
+                feedId: feed.id,
+                feedName: feed.name,
+                category: feed.category,
+              }))
+            );
+
+            // Sort by date descending, undated last
+            this.allItems.sort((a, b) => {
+              if (!a.date && !b.date) return 0;
+              if (!a.date) return 1;
+              if (!b.date) return -1;
+              return new Date(b.date) - new Date(a.date);
+            });
+          } catch (e) {
+            console.error('Failed to load feeds:', e);
+          }
+          this.loading = false;
+        },
+
+        get visibleFeeds() {
+          if (this.activeCategory === 'all') return this.feeds;
+          return this.feeds.filter(f => f.category === this.activeCategory);
+        },
+
+        get filteredItems() {
+          const q = this.search.toLowerCase().trim();
+          return this.allItems.filter(item => {
+            // Category filter
+            if (this.activeCategory !== 'all' && item.category !== this.activeCategory) return false;
+            // Feed filter
+            if (this.activeFeeds.size > 0 && !this.activeFeeds.has(item.feedId)) return false;
+            // Search filter
+            if (q && !item.title.toLowerCase().includes(q) &&
+                !(item.description || '').toLowerCase().includes(q) &&
+                !item.feedName.toLowerCase().includes(q)) return false;
+            return true;
+          });
+        },
+
+        toggleFeed(id) {
+          if (this.activeFeeds.has(id)) {
+            this.activeFeeds.delete(id);
+          } else {
+            this.activeFeeds.add(id);
+          }
+          // Force Alpine reactivity
+          this.activeFeeds = new Set(this.activeFeeds);
+          this.visibleCount = 50;
+        },
+
+        capitalize(s) {
+          return s.charAt(0).toUpperCase() + s.slice(1);
+        },
+
+        formatDate(iso) {
+          if (!iso) return '';
+          const d = new Date(iso);
+          const now = new Date();
+          const diffMs = now - d;
+          const diffDays = Math.floor(diffMs / 86400000);
+
+          if (diffDays === 0) return 'Today';
+          if (diffDays === 1) return 'Yesterday';
+          if (diffDays < 7) return `${diffDays}d ago`;
+
+          return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        },
+      };
+    }
+  </script>
+</body>
+</html>

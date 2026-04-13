@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Cline Releases]]></title>
+        <description><![CDATA[RSS feed for Cline Releases]]></description>
+        <link>https://github.com/cline/cline/releases</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:29:02 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:29:02 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v3.78.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add a dedicated "Spend Limit Reached" error UI when spend caps are hit
+- Docs updates
+
+### Fixed
+
+- Show actual `read_file` line ranges in chat UI
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.13.0-cli...v3.78.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.78.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.78.0</guid>
+            <pubDate>Fri, 10 Apr 2026 20:40:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.77.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add "Lazy Teammate Mode" experimental toggle
+- `read_file` tool now supports chunked reading for targeted file access
+
+### Fixed
+
+- Exclude `new_task` tool from system prompt in yolo/headless mode
+- Fix Kanban demo video formatting
+
+### Changed
+
+- Polish `Notification` hook functionality
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.76.0...v3.77.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.77.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.77.0</guid>
+            <pubDate>Wed, 01 Apr 2026 17:26:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.76.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add Cline Kanban launch modal in webview; CLI now launches Kanban by default with a migration view
+- Add toggle to disable feature tips in chat
+- Add repeated tool call loop detection to prevent infinite loops wasting tokens
+
+### Fixed
+
+- Fix CLI Kanban spawn on Windows by enabling shell mode for `npx.cmd`
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.11.0-cli...v3.76.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.76.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.76.0</guid>
+            <pubDate>Thu, 26 Mar 2026 15:17:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.75.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Latency improvements for remote workspaces
+
+### Fixed
+
+- Stabilize flaky hooks tests
+
+### Changed
+
+- Remove example hooks in favor of reading the docs
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.9.0-cli...v3.75.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.75.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.75.0</guid>
+            <pubDate>Fri, 20 Mar 2026 23:27:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.74.0]]></title>
+            <description><![CDATA[
+### Added
+- Implement dynamic free model detection for Cline API
+- Add file read deduplication cache to prevent repeated reads
+- Add feature tips tooltip during thinking state
+
+### Fixed
+- Replace error message when not logged in to Cline
+- Align ClineRulesToggleModal padding with ServersToggleModal
+- Skip WebP for GLM and Devstral models running through llama.cpp
+- Respect user-configured context window in LiteLLM getModel()
+- Honor explicit model IDs outside static catalog in W&B provider
+- Add missing Fireworks serverless models and pricing
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.8.0-cli...v3.74.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.74.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.74.0</guid>
+            <pubDate>Thu, 19 Mar 2026 02:31:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.73.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Added W&B Inference by CoreWeave as a new API provider with 17 models
+- Improved parallel tool calling support for OpenRouter and Cline providers
+
+### Fixed
+
+- Claude Code Provider: handle rate limit events, empty content arrays, error results, and unknown content types without crashing
+- Tool handlers (`read_file`, `list_files`, `list_code_definition_names`, `search_files`) now return graceful errors instead of crashing
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.7.1-cli...v3.73.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.73.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.73.0</guid>
+            <pubDate>Mon, 16 Mar 2026 21:00:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.72.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Added Anthropic Opus 4.6 fast mode variants
+
+### Fixed
+
+- Resolved native tool placeholder interpolation in prompts
+- Gemini: capped Flash output tokens to 8192 across providers
+- Fixed Windows unit test path normalization
+- Fixed flaky hooks tests on Windows
+- Bedrock: handle thinking and redacted_thinking blocks correctly in message conversion and streaming
+- Prevent crash when `list_files` or `list_code_definition_names` receives a file path
+
+### Changed
+
+- Updated Jupyter Notebook GIFs
+- Markdown image loading now requires user consent
+- Added `.github/copilot-instructions.md` for coding agents
+- Hooks: reintroduced feature toggle
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.6.1-cli...v3.72.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.72.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.72.0</guid>
+            <pubDate>Thu, 12 Mar 2026 00:53:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.71.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Added GPT-5.4 models for ChatGPT subscription users
+- Hooks: Added a `Notification` hook for attention and completion boundaries
+
+### Fixed
+
+- Handle streamable HTTP MCP reconnects more reliably after disconnects
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.6.0-cli...v3.71.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.71.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.71.0</guid>
+            <pubDate>Fri, 06 Mar 2026 18:32:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.70.0]]></title>
+            <description><![CDATA[
+### Added
+
+- New Cline API docs: Getting Started, Auth, Chat Completions, Models, Errors, and SDK Examples
+- Hook payloads now include `model.provider` and `model.slug` 
+- Token/cost updates now happen immediately as usage chunks arrive, not after tool execution
+
+### Fixed
+
+- Improve subagent context compaction logic
+- Subagent stream retry delay increased to reduce noise from transient failures
+- State serialization errors are now caught and logged instead of crashing
+- Removed incorrect `max_tokens` from OpenRouter requests
+
+### Changed
+
+- Windows test cleanup now retries on locked files and applies per-test timeouts
+- Updated hooks docs 
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.5.2-cli...v3.70.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.70.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.70.0</guid>
+            <pubDate>Wed, 04 Mar 2026 22:07:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.69.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add `User-Agent` header to requests sent to the Cline backend
+- Add default auto-tag workflow for publish release flow
+- Show Cline SDK docs on the Cline page
+
+### Fixed
+
+- Retry nested git restore and prevent silent `.git_disabled` leftovers in checkpoints
+- Prevent Chinese filename escaping in diff view
+- Trigger auto-compaction on OpenRouter context overflow errors
+- Restore GPT-OSS native file editing on OpenAI-compatible models
+
+### Changed
+
+- Update Cline SDK docs
+- Improve hooks support for Windows PowerShell
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.5.1-cli...v3.69.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.69.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.69.0</guid>
+            <pubDate>Tue, 03 Mar 2026 00:25:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.68.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add dynamic Cline provider model fetching from Cline endpoint
+- Add additional Markdown formatting in CLI
+- Add focus indicator on action buttons in extension
+
+### Fixed
+
+- Clear all OCA secrets on auth refresh failure to prevent re-auth loops
+- Resolve "Could not find the file context" error in Explain Changes
+- Use `JSON_SCHEMA` for `yaml.load` to prevent unsafe deserialization
+- Fetch model info from API in CLI headless auth for Cline and Vercel providers
+- Generate commit message from staged changes only when staging exists
+- Update stale `maxTokens` values for Claude 3.7+ models across Anthropic, Bedrock, Vertex, and SAP AI Core
+- Use `model.info.maxTokens` for OpenRouter instead of hardcoded `8192`
+
+### Changed
+
+- Increase timeout for a flaky test to reduce short-term test instability
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.5.0-cli...v3.68.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.68.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.68.0</guid>
+            <pubDate>Fri, 27 Feb 2026 00:23:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.67.1]]></title>
+            <description><![CDATA[
+### Added
+
+- Added Cline SDK API interface for programmatic access to Cline features and tools, enabling integration into custom applications.
+- Added Codex 5.3 model support
+
+### Fixed
+
+- Fix OpenAI Codex by setting `store` to `false`
+- Use `isLocatedInPath()` instead of string matching for path containment checks
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.4.3-cli...v3.67.1
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.67.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.67.1</guid>
+            <pubDate>Tue, 24 Feb 2026 22:33:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.67.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add support for skills and optional modelId in subagent configuration
+- Add AgentConfigLoader for file-based agent configs
+- Add Responses API support for OpenAI native provider
+- Preconnect websocket to reduce response latency
+- Fetch featured models from backend with local fallback
+- Add /q command to quit CLI
+- Add MCP enterprise configuration details
+- Pull Cline's recommended models from internal endpoint
+- Add dynamic flag to adjust banner cache duration
+
+### Fixed
+
+- Fix reasoning delta crash on usage-only stream chunks
+- Fix OpenAI tool ID transformation restricted to native provider only
+- Fix auth check for ACP mode
+- Fix CLI yolo mode to not persist yolo setting to disk
+- Fix inline focus-chain slider within its feature row
+- Fix Gemini 3.1 Pro compatibility
+- Fix Cline auth with ACP flag
+
+### Changed
+
+- Move PR skill to .agents/skills
+- SambaNova provider: update models list
+- Remove changeset-converter GitHub Action and npm run changeset
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.4.2-cli...v3.67.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.67.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.67.0</guid>
+            <pubDate>Tue, 24 Feb 2026 02:22:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.66.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Gemini-3.1 Pro Preview
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.4.1-cli...v3.66.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.66.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.66.0</guid>
+            <pubDate>Thu, 19 Feb 2026 20:18:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.65.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add /skills slash command to CLI for viewing and managing installed skills
+
+### Fixed
+
+- Fix aggressive context compaction caused by accidental clicks on the context window progress bar silently setting a very low auto-condense threshold
+- Fix infinite retry loop when write_to_file fails with missing content parameter.
+- Fixed default claude model
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.4.0-cli...v3.65.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.65.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.65.0</guid>
+            <pubDate>Wed, 18 Feb 2026 20:51:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.64.0]]></title>
+            <description><![CDATA[
+### Added
+
+- added zai GLM 5 Free promo
+
+### Fixed
+
+- Restore reasoning trace visibility in chat and improve the thinking row UX so reasoning is visible, then collapsible after completion.
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.2.3-cli...v3.64.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.64.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.64.0</guid>
+            <pubDate>Tue, 17 Feb 2026 19:33:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.63.0]]></title>
+            <description><![CDATA[
+### Added
+
+- added zai GLM 5 Free promo
+
+### Fixed
+
+- Restore reasoning trace visibility in chat and improve the thinking row UX so reasoning is visible, then collapsible after completion.
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.62.0...v3.63.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.63.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.63.0</guid>
+            <pubDate>Mon, 16 Feb 2026 21:26:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.62.0]]></title>
+            <description><![CDATA[
+### Fixed
+- Banners now display immediately when opening the extension instead of requiring user interaction first
+- Resolved 17 security vulnerabilities including high-severity DoS issues in dependencies (body-parser, axios, qs, tar, and others)
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.61.0...v3.62.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.62.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.62.0</guid>
+            <pubDate>Fri, 13 Feb 2026 23:31:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.61.0]]></title>
+            <description><![CDATA[
+- UI/UX fixes with minimax model family
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.2.2-cli...v3.61.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.61.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.61.0</guid>
+            <pubDate>Fri, 13 Feb 2026 18:52:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.60.0]]></title>
+            <description><![CDATA[
+- Fixes for Minimax model family
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.2.1-cli...v3.60.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.60.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.60.0</guid>
+            <pubDate>Fri, 13 Feb 2026 17:20:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.59.0]]></title>
+            <description><![CDATA[
+- Added Minimax 2.5 Free Promo
+- Fixed Response chaining for OpenAI's Responses API 
+
+**Full Changelog**: https://github.com/cline/cline/compare/cli-build-024bb65...v3.59.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.59.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.59.0</guid>
+            <pubDate>Thu, 12 Feb 2026 18:45:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Build (024bb65)]]></title>
+            <description><![CDATA[Automated CLI build from commit 024bb65
+
+Install with:
+```bash
+npm install -g https://github.com/cline/cline/releases/download/cli-build-024bb65/cline-2.2.0.tgz
+```]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-build-024bb65</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-build-024bb65</guid>
+            <pubDate>Thu, 12 Feb 2026 01:27:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.58.0]]></title>
+            <description><![CDATA[
+### Added
+- Subagent: replace legacy subagents with the native `use_subagents` tool
+- Bundle `endpoints.json` support so packaged distributions can ship required endpoints out-of-the-box
+- Amazon Bedrock: support parallel tool calling
+- New "double-check completion" experimental feature to verify work before marking tasks complete
+- CLI: new task controls/flags including custom `--thinking` token budget and `--max-consecutive-mistakes` for yolo runs
+- Remote config: new UI/options (including connection/test buttons) and support for syncing deletion of remotely configured MCP servers
+- Vertex / Claude Code: add 1M context model options for Claude Opus 4.6
+- ZAI/GLM: add GLM-5
+
+### Fixed
+- CLI: handle stdin redirection correctly in CI/headless environments
+- CLI: preserve OAuth callback paths during auth redirects
+- VS Code Web: generate auth callback URLs via `vscode.env.asExternalUri` (OAuth callback reliability)
+- Terminal: surface command exit codes in results and improve long-running `execute_command` timeout behavior
+- UI: add loading indicator and fix `api_req_started` rendering
+- Task streaming: prevent duplicate streamed text rows after completion
+- API: preserve selected Vercel model when model metadata is missing
+- Telemetry: route PostHog networking through proxy-aware shared fetch and ensure telemetry flushes on shutdown
+- CI: increase Windows E2E test timeout to reduce flakiness
+
+### Changed
+- Settings/model UX: move "reasoning effort" into model configuration and expose it in settings
+- CLI provider selection: limit provider list to those remotely configured
+- UI: consolidate ViewHeader component/styling across views
+- Tools: add auto-approval support for `attempt_completion` commands
+- Remotely configured MCP server schema now supports custom headers
+
+**Full Changelog**: https://github.com/cline/cline/compare/cli-build-6278382...v3.58.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.58.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.58.0</guid>
+            <pubDate>Thu, 12 Feb 2026 01:13:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.57.1]]></title>
+            <description><![CDATA[
+### Fixed
+
+- Fixed Opus 4.6 for bedrock provider
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.57.0...v3.57.1
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.57.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.57.1</guid>
+            <pubDate>Thu, 05 Feb 2026 21:51:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.57.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Cline CLI 2.0 now available. Install with `npm install -g cline`
+- Anthopic Opus 4.6 
+- Minimax-2.1 and Kimi-k2.5 now available for free for a limited time promo
+- Codex-5.3 through ChatGPT subscription
+
+### Fixed
+
+- Fix read file tool to support reading large files
+- Fix decimal input crash in OpenAI Compatible price fields (#8129)
+- Fix build complete handlers when updating the api config
+- Fixed missing provider from list
+- Fixed Favorite Icon / Star from getting clipped in the task history view
+
+### Changed
+
+- Make skills always enabled and remove feature toggle setting
+
+**Full Changelog**: https://github.com/cline/cline/compare/v2.0.5-cli...v3.57.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.57.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.57.0</guid>
+            <pubDate>Thu, 05 Feb 2026 20:52:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.56.2]]></title>
+            <description><![CDATA[
+### Added
+
+- __CLI authentication:__ Added Vercel AI Gateway and Cline API key provider support for headless CI/automation workflows
+- __New model:__ Added Kimi-K2.5 model to Moonshot provider (262K context, image support, prompt caching)
+- __Prompt variant:__ Added Trinity Large prompt variant for improved tool-calling support
+- __OpenTelemetry:__ Added support for custom headers on metrics and logs endpoints
+- __Social links:__ Added community icons (X, Discord, GitHub, Reddit, LinkedIn) to the What's New modal
+
+### Fixed
+
+- __LiteLLM:__ Fixed thinking configuration not appearing for reasoning-capable models
+- __OpenTelemetry:__ Fixed endpoint path handling (no longer incorrectly appends `/v1/logs` or `/v1/metrics`) and ensured logs are sent regardless of VSCode telemetry settings
+- __CLI auth:__ Fixed `cline auth` displaying incorrect provider information after configuration
+
+### Changed
+
+- __Hooks:__ Hook scripts now run from the workspace repository root instead of filesystem root
+- __Default settings:__ Enabled multi-root workspaces, parallel tool calling, and skills by default; disabled strict plan mode by default
+- __Settings UI:__ Refreshed feature settings section with collapsible design
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.56.1...v3.56.2
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.56.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.56.2</guid>
+            <pubDate>Fri, 30 Jan 2026 22:15:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.56.1]]></title>
+            <description><![CDATA[
+### Added
+
+- __CLI authentication:__ Added Vercel AI Gateway and Cline API key provider support for headless CI/automation workflows
+- __New model:__ Added Kimi-K2.5 model to Moonshot provider (262K context, image support, prompt caching)
+- __Prompt variant:__ Added Trinity Large prompt variant for improved tool-calling support
+- __OpenTelemetry:__ Added support for custom headers on metrics and logs endpoints
+- __Social links:__ Added community icons (X, Discord, GitHub, Reddit, LinkedIn) to the What's New modal
+
+### Fixed
+
+- __LiteLLM:__ Fixed thinking configuration not appearing for reasoning-capable models
+- __OpenTelemetry:__ Fixed endpoint path handling (no longer incorrectly appends `/v1/logs` or `/v1/metrics`) and ensured logs are sent regardless of VSCode telemetry settings
+- __CLI auth:__ Fixed `cline auth` displaying incorrect provider information after configuration
+
+### Changed
+
+- __Hooks:__ Hook scripts now run from the workspace repository root instead of filesystem root
+- __Default settings:__ Enabled multi-root workspaces, parallel tool calling, and skills by default; disabled strict plan mode by default
+- __Settings UI:__ Refreshed feature settings section with collapsible design
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.56.0...v3.56.1
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.56.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.56.1</guid>
+            <pubDate>Fri, 30 Jan 2026 05:16:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.56.0]]></title>
+            <description><![CDATA[
+### Added
+
+- __CLI authentication:__ Added Vercel AI Gateway and Cline API key provider support for headless CI/automation workflows
+- __New model:__ Added Kimi-K2.5 model to Moonshot provider (262K context, image support, prompt caching)
+- __Prompt variant:__ Added Trinity Large prompt variant for improved tool-calling support
+- __OpenTelemetry:__ Added support for custom headers on metrics and logs endpoints
+- __Social links:__ Added community icons (X, Discord, GitHub, Reddit, LinkedIn) to the What's New modal
+
+### Fixed
+
+- __LiteLLM:__ Fixed thinking configuration not appearing for reasoning-capable models
+- __OpenTelemetry:__ Fixed endpoint path handling (no longer incorrectly appends `/v1/logs` or `/v1/metrics`) and ensured logs are sent regardless of VSCode telemetry settings
+- __CLI auth:__ Fixed `cline auth` displaying incorrect provider information after configuration
+
+### Changed
+
+- __Hooks:__ Hook scripts now run from the workspace repository root instead of filesystem root
+- __Default settings:__ Enabled multi-root workspaces, parallel tool calling, and skills by default; disabled strict plan mode by default
+- __Settings UI:__ Refreshed feature settings section with collapsible design
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.55.0...v3.56.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.56.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.56.0</guid>
+            <pubDate>Fri, 30 Jan 2026 03:52:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.55.0]]></title>
+            <description><![CDATA[
+- Add new model: Arcee Trinity Large Preview
+- Add new model: Moonshot Kimi K2.5
+- Add MCP prompts support - prompts from connected MCP servers now appear in slash command autocomplete as `/mcp:<server>:<prompt>`
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.54.0...v3.55.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.55.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.55.0</guid>
+            <pubDate>Wed, 28 Jan 2026 03:28:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.54.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Native tool calls support for Ollama provider
+- Sonnet 4.5 is now the default Amazon Bedrock model id
+
+### Fixed
+
+- Prevent infinite retry loops when replace_in_file fails repeatedly. The system now detects repeated failures and provides better guidance to break out of retry cycles.
+- Skip diff error UI handling during streaming to prevent flickering. Error handling is deferred until streaming completes.
+- Strip notebook cell outputs when extracting text content from Jupyter notebooks, significantly reducing context size sent to the LLM.
+- Throttle diff view updates during streaming to reduce UI flickering and improve performance.
+
+### Changed
+
+- Removed Mistral's Devstral-2512 free from the free models list
+- Removed deprecated zai-glm-4.6 model from Cerebras provider
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.53.1...v3.54.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.54.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.54.0</guid>
+            <pubDate>Tue, 27 Jan 2026 15:57:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.53.1]]></title>
+            <description><![CDATA[
+### Fixed
+ - Bug in responses API
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.53.0...v3.53.1
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.53.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.53.1</guid>
+            <pubDate>Sat, 24 Jan 2026 00:03:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.53.0]]></title>
+            <description><![CDATA[
+### Fixed
+ - Removed grok model from free tier
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.52.0...v3.53.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.53.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.53.0</guid>
+            <pubDate>Fri, 23 Jan 2026 21:30:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.51.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Adding OpenAI gpt-5.2-codex  model to the model picker
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.50.0...v3.51.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.51.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.51.0</guid>
+            <pubDate>Thu, 15 Jan 2026 20:53:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.50.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add gpt-5.2-codex OpenAI model support
+- Add create-pull-request skill
+
+### Fixed
+
+- Fix the selection of remotely configured providers
+- Fix act_mode_respond to prevent consecutive calls
+- Fix invalid tool call IDs when switching between model formats
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.49.1...v3.50.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.50.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.50.0</guid>
+            <pubDate>Wed, 14 Jan 2026 23:39:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.49.1]]></title>
+            <description><![CDATA[
+### Added
+
+- Add telemetry to track usage of skills feature
+- Add version headers to Cline backend requests
+- Phase in Responses API usage instead of defaulting for every supported model
+
+### Fixed
+
+- Fix workflow slash command search to be case-insensitive
+- Fix model display in ModelPickerModal when using LiteLLM
+- Fix LiteLLM model fetching with default base URL
+- Fix crash when OpenAI-compatible APIs send usage chunks with empty or null choices arrays at end of streaming
+- Fix model ID for Kat Coder Pro Free model
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.49.0...v3.49.1
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.49.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.49.1</guid>
+            <pubDate>Tue, 13 Jan 2026 23:31:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.49.0]]></title>
+            <description><![CDATA[
+- Enable configuring an OTEL collector at runtime
+- Removing Minimax-2.1 from free model list as the free trial has ended
+- Improved image display in MCP responses
+- Auto-sync remote MCP servers from remote config to local settings
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.48.0...v3.49.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.49.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.49.0</guid>
+            <pubDate>Sat, 10 Jan 2026 05:04:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.48.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Add Skills system for reusable, on-demand agent instructions
+- Add new websearch tooling in Cline provider
+- Add zai-glm-4.7 to Cerebras model list
+- Add model refresh and improve reasoning support for Vercel AI Gateway
+
+### Fixed
+
+- Revert #8341 due to regressions in diff view/document truncation (see #8423, #8429)
+- Fixed extension crash when using context menu selector
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.47.0...v3.48.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.48.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.48.0</guid>
+            <pubDate>Fri, 09 Jan 2026 19:36:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.47.0]]></title>
+            <description><![CDATA[
+### Added
+- Added experimental support for Background Edits (allows editing files in background without opening the diff view)
+- Updated free model to MiniMax M2.1 (replacing MiniMax M2)
+- Added support for Azure based identity authentication in OpenAI Compatible provider and Azure OpenAI
+- Add `supportsReasoning` property to Baseten models
+
+### Fixed
+
+- Prevent expired token usage in authenticated requests
+- Exclude binary files without extensions from diffs
+- Preserve file endings and trailing newlines
+- Fix Cerebras rate limiting
+- Fix Auto Compact for Claude Code provider
+- Make Workspace and Favorites history filters independent
+- Fix remote MCP server connection failures (404 response handling)
+- Disable native tool calling for Deepseek 3.2 speciale
+- Show notification instead of opening sidebar on update
+- Fix Baseten model selector
+
+### Refactored
+
+- Modify prompts for parallel tool usage in Claude and Gemini 3 models
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.46.1...v3.47.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.47.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.47.0</guid>
+            <pubDate>Tue, 06 Jan 2026 21:09:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.46.1]]></title>
+            <description><![CDATA[
+### Fixed
+
+- Remove GLM 4.6 from free models
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.46.0...v3.46.1
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.46.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.46.1</guid>
+            <pubDate>Mon, 22 Dec 2025 22:11:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.46.0]]></title>
+            <description><![CDATA[
+### Added
+
+- Added GLM 4.7 model
+- Enhanced background terminal execution with command tracking, log file output, zombie process prevention (10-minute timeout), and clickable log paths in UI
+- Apply Patch tool for GPT-5+ models (replacing current diff edit tools)
+
+### Fixed
+
+- Duplicate error messages during streaming for Diff Edit tool when Parallel Tool Calling is not enabled
+- Banner carousel styling and dismiss functionality
+- Typos in Gemini system prompt overrides
+- Model picker favorites ordering, star toggle, and keyboard navigation for OpenRouter and Vercel AI Gateway providers
+- Fetch remote config values from the cache
+
+### Refactored
+
+- Anthropic handler to use metadata for reasoning support
+- Bedrock provider to use metadata for reasoning support
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.45.0...v3.46.0
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.46.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.46.0</guid>
+            <pubDate>Mon, 22 Dec 2025 21:20:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.45.1]]></title>
+            <description><![CDATA[- Fixed MCP settings race condition where toggling auto-approve or changing timeout settings would cause the UI to flash and revert
+
+**Full Changelog**: https://github.com/cline/cline/compare/...v3.45.1
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.45.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.45.1</guid>
+            <pubDate>Sat, 20 Dec 2025 15:22:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.45.0]]></title>
+            <description><![CDATA[## What's Changed
+* feat: add new model configuration by @abeatrix in https://github.com/cline/cline/pull/8142
+* feat: add Gemini 3 Flash Preview model to model picker and banner by @arafatkatze in https://github.com/cline/cline/pull/8160
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/8159
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.44.2...v3.45.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.45.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.45.0</guid>
+            <pubDate>Wed, 17 Dec 2025 17:03:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.44.2]]></title>
+            <description><![CDATA[## What's Changed
+
+- Polished the model picker UI with checkmarks for selected models, tooltips on Plan/Act tabs, and consistent arrow pointers across all popup modals
+- Improved WhatsNew modal responsiveness and cleaned up redundant UI elements
+- Fixed GLM models outputting garbled text in thinking tags—reasoning is now properly disabled for these models
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.44.1...v3.44.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.44.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.44.2</guid>
+            <pubDate>Wed, 17 Dec 2025 15:02:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.44.1]]></title>
+            <description><![CDATA[## What's Changed
+
+- Fixed a critical bug where local MCP servers stopped connecting after v3.42.0—all user-configured stdio-based MCP servers should now work again
+- Fixed remotely configured API keys not being extracted correctly for enterprise users
+- Added support for dynamic tool instructions that adapt based on runtime context, laying groundwork for future context-aware features
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.44.0...v3.44.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.44.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.44.1</guid>
+            <pubDate>Wed, 17 Dec 2025 06:08:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.44.0]]></title>
+            <description><![CDATA[## What's Changed
+* feat: update banner for version 3.44.0 by @arafatkatze in https://github.com/cline/cline/pull/8139
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.43.1...v3.44.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.44.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.44.0</guid>
+            <pubDate>Tue, 16 Dec 2025 22:19:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.43.1]]></title>
+            <description><![CDATA[## What's Changed
+
+### Added
+
+- GLM-4.6
+- kat-coder-pro
+- Add parsing of env variable patterns to the mcpconfig.json
+
+### Fixed
+
+- updated OpenRouter model ID from zai to z-ai for GLM-4.6 by @arafatkatze in https://github.com/cline/cline/pull/8138
+- TLS Proxy support issues for VSCode
+- Add supportsReasoning flag to OpenAI reasoning models
+- Fix thinking not available for some models in the OpenAI provider
+- Fix invalid signature field issues when switching between Gemini and Anthropic providers
+- Extract OpenRouter model filtering into reusable utility and use it in different model pickers
+- Fix a11y for auto approve checkbox
+- Improve ModelPickerModal provider list layout
+
+### Refactored
+
+- Migrate WhatsNewModal to new shared dialogue component
+
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.43.0...v3.43.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.43.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.43.1</guid>
+            <pubDate>Tue, 16 Dec 2025 21:42:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.42.0]]></title>
+            <description><![CDATA[## What's Changed
+* Refactor Terminal Module  by @arafatkatze in https://github.com/cline/cline/pull/7966
+* expose a getAvailableSlashCommands rpc endpoint in cline core by @maxpaulus43 in https://github.com/cline/cline/pull/8024
+* feat: Make extension use new banner api, keep providers for extension side rules eval by @cryptoque in https://github.com/cline/cline/pull/8022
+* chore: make expanding/collapsing ui components accessible by @jgellin-sf in https://github.com/cline/cline/pull/7828
+* accessibility: screen reader support for slash and context menus by @mingxuanzhangsfdx in https://github.com/cline/cline/pull/7832
+* fix: extract OpenRouter model filtering into reusable utility and use it different model pickers by @arafatkatze in https://github.com/cline/cline/pull/8064
+* fix: update OpenRouter model ID and filter logic for devstral-2512 by @arafatkatze in https://github.com/cline/cline/pull/8065
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/8052
+
+## New Contributors
+* @jgellin-sf made their first contribution in https://github.com/cline/cline/pull/7828
+* @mingxuanzhangsfdx made their first contribution in https://github.com/cline/cline/pull/7832
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.41.0...v3.42.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.42.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.42.0</guid>
+            <pubDate>Fri, 12 Dec 2025 23:34:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.41.0]]></title>
+            <description><![CDATA[## What's Changed
+* feat(prompt): add command output limiting guidance to capabilities by @saoudrizwan in https://github.com/cline/cline/pull/7884
+* remote config - add litellm provider by @celestial-vault in https://github.com/cline/cline/pull/7775
+* Prevent simultaneous refreshes when restoring auth info by @BarreiroT in https://github.com/cline/cline/pull/7835
+* feat: remove mcp enable setting for individual users by @cryptoque in https://github.com/cline/cline/pull/7879
+* feat: enable native tool calling for deepseek 3.2 [AI-27] by @abeatrix in https://github.com/cline/cline/pull/7877
+* Revert "feat(prompt): add command output limiting guidance to capabilities" by @saoudrizwan in https://github.com/cline/cline/pull/7909
+* feat: add OpenAI Response API support and Codex model compatibility [CLIENTS-24] by @abeatrix in https://github.com/cline/cline/pull/7912
+* fix(ollama): abort streaming requests when task is cancelled by @robinnewhouse in https://github.com/cline/cline/pull/7907
+* fix context rewriting for native tool call format by @0xToshii in https://github.com/cline/cline/pull/7882
+* docs: add contributing guide for model family [CLIENTS-32] by @abeatrix in https://github.com/cline/cline/pull/7916
+* context rewriting test cases by @0xToshii in https://github.com/cline/cline/pull/7923
+* removing unused legacy context manager by @0xToshii in https://github.com/cline/cline/pull/7924
+* JB Integration Workflow: use pull_request_target to support remote remote PRs by @Garoth in https://github.com/cline/cline/pull/7917
+* Redesign model settings page with compact info and Advanced section by @nickbaumann98 in https://github.com/cline/cline/pull/7862
+* dev: add stories for all UI components by @abeatrix in https://github.com/cline/cline/pull/7905
+* cleanup taskhistory recovery by @celestial-vault in https://github.com/cline/cline/pull/7889
+* feat: remove mcp marketplace enable setting from cli by @cryptoque in https://github.com/cline/cline/pull/7911
+* docs(hooks): ]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.41.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.41.0</guid>
+            <pubDate>Thu, 11 Dec 2025 20:19:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.40.2]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.40.1...v3.40.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.40.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.40.2</guid>
+            <pubDate>Wed, 10 Dec 2025 19:00:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.40.1]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.40.0...v3.40.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.40.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.40.1</guid>
+            <pubDate>Sat, 06 Dec 2025 00:13:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.40.0]]></title>
+            <description><![CDATA[## What's Changed
+* remove unused sentry dependency by @celestial-vault in https://github.com/cline/cline/pull/7823
+* add atomic file write by @celestial-vault in https://github.com/cline/cline/pull/7754
+* feat: set default thinking level for Gemini 3 Pro models by @abeatrix in https://github.com/cline/cline/pull/7831
+* set the cli's 'ide version' to just the cli version rather than being blank, to make environment_history work for CLI by @Garoth in https://github.com/cline/cline/pull/7712
+* feat: add mode and token metrics info to storage messages [CLIENTS-26] by @abeatrix in https://github.com/cline/cline/pull/7795
+* fix(bedrock): add sts client userAgentAppId by @jackrein in https://github.com/cline/cline/pull/7719
+* correctly handle new and old tool call formats for context rewriting by @0xToshii in https://github.com/cline/cline/pull/7809
+* feat: apply_patch auto approve by @canvrno in https://github.com/cline/cline/pull/7777
+* Don't log otel events to the console because they are really spammy by @sjf in https://github.com/cline/cline/pull/7841
+* added subpages and content to hooks by @jl-codes in https://github.com/cline/cline/pull/7797
+* fix: OpenAI Response API message format by @abeatrix in https://github.com/cline/cline/pull/7842
+* markdown styling fix by @pashpashpash in https://github.com/cline/cline/pull/7840
+* Fix changeset converter by @arafatkatze in https://github.com/cline/cline/pull/7851
+* docs: remove Advanced Patterns and Testing & Debugging from Hooks docs by @jl-codes in https://github.com/cline/cline/pull/7869
+* Revert "readTaskHistory - don't return empty array on parse failure" by @saoudrizwan in https://github.com/cline/cline/pull/7874
+* support multi-index search over inner messages to find file mentions for context rewriting by @0xToshii in https://github.com/cline/cline/pull/7850
+* feat: add auto-recovery for corrupted task history state by @abeatrix in https://github.com/cline/cline/pull/7875
+* fix: consolidate successive error retry ]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.40.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.40.0</guid>
+            <pubDate>Thu, 04 Dec 2025 05:09:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.39.2]]></title>
+            <description><![CDATA[## What's Changed
+* Skip reasoning_details on microwave model by @canvrno in https://github.com/cline/cline/pull/7825
+* feat(cerebras): add X-Cerebras-3rd-Party-Integration header by @sebastiand-cerebras in https://github.com/cline/cline/pull/7824
+* v3.39.2 Release Notes by @canvrno in https://github.com/cline/cline/pull/7829
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.39.1...v3.39.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.39.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.39.2</guid>
+            <pubDate>Tue, 02 Dec 2025 19:01:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.39.1]]></title>
+            <description><![CDATA[## What's Changed
+* feat: enable ModelInfoView in OpenRouterModelPicker by @arafatkatze in https://github.com/cline/cline/pull/7817
+* v3.39.1 Release Notes by @arafatkatze in https://github.com/cline/cline/pull/7818
+* fix(changesets): remove quotes from claude-dev package name by @arafatkatze in https://github.com/cline/cline/pull/7822
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.39.0...v3.39.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.39.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.39.1</guid>
+            <pubDate>Tue, 02 Dec 2025 15:48:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.39.0]]></title>
+            <description><![CDATA[## What's Changed
+* fix: unblock opening a task when using cline account by @saoudrizwan in https://github.com/cline/cline/pull/7715
+* Add Claude Code GitHub Workflow by @saoudrizwan in https://github.com/cline/cline/pull/7717
+* Check for API key and base URL before fetching LiteLLM models.  by @celestial-vault in https://github.com/cline/cline/pull/7713
+* View remote rules and workflows in the editor by @celestial-vault in https://github.com/cline/cline/pull/7702
+* Add fixed header to ClineRulesToggleModal by @celestial-vault in https://github.com/cline/cline/pull/7729
+* Asksage usage fetch models by @luna-asksage in https://github.com/cline/cline/pull/7329
+* Fix API request badge causing text to wrap when hidden by @saoudrizwan in https://github.com/cline/cline/pull/7739
+* Add shell option for cmd.exe to prevent double quote escaping by @dltechy in https://github.com/cline/cline/pull/7630
+* Add sticky user message header for better navigation by @saoudrizwan in https://github.com/cline/cline/pull/7749
+* Allow slash commands anywhere in message input by @saoudrizwan in https://github.com/cline/cline/pull/7760
+* Add find-pr-reviewers and address-pr-comments workflows by @saoudrizwan in https://github.com/cline/cline/pull/7761
+* Instruct AI to prefer non-interactive commands by @saoudrizwan in https://github.com/cline/cline/pull/7762
+* add case for skipping autoCondense in truncation function call by @0xToshii in https://github.com/cline/cline/pull/7763
+* readTaskHistory - don't return empty array on parse failure by @celestial-vault in https://github.com/cline/cline/pull/7773
+* feat(cli): add active task check before entering follow mode by @arafatkatze in https://github.com/cline/cline/pull/7745
+* Docs/task history recovery by @juanpflores in https://github.com/cline/cline/pull/7776
+* fix(ui): Add bottom padding for last message item [ENG-1354] by @abeatrix in https://github.com/cline/cline/pull/7787
+* fix(ui): memoize highlighted text [ENG-1355] by @abeatrix in ht]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.39.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.39.0</guid>
+            <pubDate>Tue, 02 Dec 2025 13:35:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.38.3]]></title>
+            <description><![CDATA[## What's Changed
+* feat: add support for Responses API for openai-native provider [ENG-1227] [ENG-1311] by @abeatrix in https://github.com/cline/cline/pull/7504
+* fix: rules modal positioning by @abeatrix in https://github.com/cline/cline/pull/7546
+* fix: await presentAssistantMessage calls to prevent race condition by @abeatrix in https://github.com/cline/cline/pull/7548
+* feat(hooks): Implement `TaskComplete` hook by @candieduniverse in https://github.com/cline/cline/pull/7510
+* fix(task): update UI with final usage after stream completion by @abeatrix in https://github.com/cline/cline/pull/7552
+* feat: Enable native tool calling for Baseten and Kimi K2 models by @abeatrix in https://github.com/cline/cline/pull/7562
+* feat: add kimi-k2-thinking and kimi-k2-thinking-turbo by @CellenLee in https://github.com/cline/cline/pull/7386
+* fix(api): attach reasoning details to tool blocks  by @abeatrix in https://github.com/cline/cline/pull/7567
+* cleaning up webfetch handler in cli by @0xToshii in https://github.com/cline/cline/pull/7571
+* chore: clear onboarding models on deactivate by @abeatrix in https://github.com/cline/cline/pull/7569
+* ApiHandler - Openrouter - Automatically derive modelInfo by @celestial-vault in https://github.com/cline/cline/pull/7568
+* fix: disable switch for remote disabled rules [CLINE-154] by @abeatrix in https://github.com/cline/cline/pull/7580
+* added Kimi K2 Thinking to static models list and set as default by @AlexKer in https://github.com/cline/cline/pull/7511
+* fix: parse mentions/commands in tool results and before auto-condense by @abeatrix in https://github.com/cline/cline/pull/7575
+* Add thinking level setting for Gemini 3.0 Pro by @canvrno in https://github.com/cline/cline/pull/7539
+* updated baseten docs to include kimi instructions and updated location by @AlexKer in https://github.com/cline/cline/pull/7588
+* feat(storybook): add OnboardingView story  by @abeatrix in https://github.com/cline/cline/pull/7578
+* feat: replace robot ]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.38.3</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.38.3</guid>
+            <pubDate>Thu, 27 Nov 2025 00:15:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.38.2]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.38.1...v3.38.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.38.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.38.2</guid>
+            <pubDate>Mon, 24 Nov 2025 20:42:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.38.1]]></title>
+            <description><![CDATA[## What's Changed
+* refactor: replace custom UI toggle with shadcn Switch component by @abeatrix in https://github.com/cline/cline/pull/7308
+* fix: Remove 'signature' from sanitizeAnthropicContentBlock by @abeatrix in https://github.com/cline/cline/pull/7543
+* v3.38.1 Release Notes by @arafatkatze in https://github.com/cline/cline/pull/7544
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.38.0...v3.38.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.38.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.38.1</guid>
+            <pubDate>Tue, 18 Nov 2025 22:46:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.38.0]]></title>
+            <description><![CDATA[## What's Changed
+* adding state variable for clineWebToolsEnabled (noop) by @0xToshii in https://github.com/cline/cline/pull/7455
+* feat: upgrade sap ai-sdk-js packages major version by @yuvalman in https://github.com/cline/cline/pull/6547
+* Retire firebase authentication by @tseglevskiy in https://github.com/cline/cline/pull/7362
+* Fix: Added stronger prompting around the use of act_mode_respond by @canvrno in https://github.com/cline/cline/pull/7448
+* fix:SAP provider type error - See PR #6547 by @canvrno in https://github.com/cline/cline/pull/7475
+* feat: support feature flag payload & remote dynamic onboarding model list by @abeatrix in https://github.com/cline/cline/pull/7454
+* fix(hooks): Reorder the UI elements so that `PreToolUse` appears above tool by @candieduniverse in https://github.com/cline/cline/pull/7449
+* Maint: package updates by @canvrno in https://github.com/cline/cline/pull/7477
+* Remove new_task from system prompts by @canvrno in https://github.com/cline/cline/pull/7350
+* refactor(api): unify provider message type with ClineStorageMessage by @abeatrix in https://github.com/cline/cline/pull/7478
+* fix(hooks): Honor `"cancel": true` in hook JSON output by @candieduniverse in https://github.com/cline/cline/pull/7479
+* fix openrouter defaulting modelId when modelInfo is not present by @celestial-vault in https://github.com/cline/cline/pull/7482
+* fix(account): memoize credits history table component by @abeatrix in https://github.com/cline/cline/pull/7439
+* fix: improve layout and styling in OnboardingView component for small width viewport by @saoudrizwan in https://github.com/cline/cline/pull/7391
+* Fix: Vercel provider token usage by @arafatkatze in https://github.com/cline/cline/pull/7481
+* fix(hooks): Fix two minor cancel-resume issues by @candieduniverse in https://github.com/cline/cline/pull/7502
+* fix: correct TaskTimeline height by @abeatrix in https://github.com/cline/cline/pull/7520
+* fix: do not add MCP tool with invalid names as nativ]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.38.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.38.0</guid>
+            <pubDate>Tue, 18 Nov 2025 20:34:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.37.1]]></title>
+            <description><![CDATA[## What's Changed
+* fix(hooks): Run `PreToolUse` only after approval by @candieduniverse in https://github.com/cline/cline/pull/7446
+* fix(hooks): Prevent `PreToolUse` hook from running before `attempt_completion` tool by @candieduniverse in https://github.com/cline/cline/pull/7450
+* feat(models): Add free minimax/mimax-m2 model to the model picker by @saoudrizwan in https://github.com/cline/cline/pull/7453
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/7451
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.37.0...v3.37.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.37.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.37.1</guid>
+            <pubDate>Fri, 14 Nov 2025 01:59:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.37.0]]></title>
+            <description><![CDATA[## What's Changed
+* Use staging endpoint for MCP marketplace (in staging) by @sjf in https://github.com/cline/cline/pull/7348
+* simplify updateApiConfiguration calls by @celestial-vault in https://github.com/cline/cline/pull/7299
+* refactor(ui): simplify flexible SettingsView by @abeatrix in https://github.com/cline/cline/pull/7352
+* feat: new onboarding flow [ENG-1128] by @abeatrix in https://github.com/cline/cline/pull/7088
+* Add LiteLLM to the remote config by @BarreiroT in https://github.com/cline/cline/pull/7307
+* fix(models): ensure thinking config has default maxBudget value by @abeatrix in https://github.com/cline/cline/pull/7319
+* Reduce next-gen model context window anxiety by @canvrno in https://github.com/cline/cline/pull/7345
+* Removing Minimax M2 from free models list in onboarding by @arafatkatze in https://github.com/cline/cline/pull/7359
+* fix: CLI quick auth issue in docker environments by @canvrno in https://github.com/cline/cline/pull/7256
+* Add Remote MCP Servers Schema to the remote config by @BarreiroT in https://github.com/cline/cline/pull/7357
+* Removing deprecated Fireworks Models by @arafatkatze in https://github.com/cline/cline/pull/7268
+* api config - make field mask a string array by @celestial-vault in https://github.com/cline/cline/pull/7364
+* feat(task): cancel active background command during task abort by @arafatkatze in https://github.com/cline/cline/pull/7363
+* fix: JetBrains/CLI: Use system certificates for TLS, use proxies in more places by @dominiccooney in https://github.com/cline/cline/pull/7328
+* docs: add missing proto generation step in CONTRIBUTING.md by @johnny-rice in https://github.com/cline/cline/pull/7336
+* Improved Focus Chain prompting, emphasis on next-gen models. by @canvrno in https://github.com/cline/cline/pull/7340
+* Fix Standalone Terminal Background Transition Issues by @arafatkatze in https://github.com/cline/cline/pull/7390
+* Model-family specific variants for deep-planning slash command by @canvrno in ht]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.37.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.37.0</guid>
+            <pubDate>Thu, 13 Nov 2025 20:49:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.36.1]]></title>
+            <description><![CDATA[## What's Changed
+* fix: removes reasoning_details field from Anthropic and Gemini providers by @abeatrix in https://github.com/cline/cline/pull/7282
+* fix: refactor APPLY_PATCH tool [ENG-1174] by @abeatrix in https://github.com/cline/cline/pull/7189
+* Share provider information by @BarreiroT in https://github.com/cline/cline/pull/7331
+* fix(aihubmix): Fix the problem where the model cannot be selected from the dropdown menu by @DDU1222 in https://github.com/cline/cline/pull/7324
+* fix: exclude grok-code from Grok-4 model family check by @abeatrix in https://github.com/cline/cline/pull/7338
+* fix: Remove Gemini and XAI from next-gen model providers by @abeatrix in https://github.com/cline/cline/pull/7341
+* fix:  function declarations tool converter for native tool calling by @abeatrix in https://github.com/cline/cline/pull/7342
+* Add MCP tool usage to GLM prompt by @canvrno in https://github.com/cline/cline/pull/7347
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/7317
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.36.0...v3.36.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.36.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.36.1</guid>
+            <pubDate>Fri, 07 Nov 2025 03:10:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.36.0]]></title>
+            <description><![CDATA[## What's Changed
+* Use context-aware task manager for quick auth by @canvrno in https://github.com/cline/cline/pull/7255
+* feat: add new provider AIhubmix by @DDU1222 in https://github.com/cline/cline/pull/7259
+* Small timeout increase in diff.test by @canvrno in https://github.com/cline/cline/pull/7270
+* fix: flaky e2e test for slash commands by @abeatrix in https://github.com/cline/cline/pull/7206
+* filter mcp marketplace results based on remote config by @celestial-vault in https://github.com/cline/cline/pull/7277
+* Remote config - add info banner for mcp marketplace lockdown state by @celestial-vault in https://github.com/cline/cline/pull/7278
+* fix(task): prevent empty assistant messages in conversation history by @abeatrix in https://github.com/cline/cline/pull/7280
+* fix(settings): restore Native Tool Call setting option by @abeatrix in https://github.com/cline/cline/pull/7284
+* fix(navbar): align navbar tooltip buttons with new shadcn component by @abeatrix in https://github.com/cline/cline/pull/7283
+* Fix Bedrock user agent to report full SDK details by @ajjuaire in https://github.com/cline/cline/pull/7273
+* Fixes Hicap model selector dropdown display by @techbrewboss in https://github.com/cline/cline/pull/7285
+* feat(telemetry): add native tool call tracking by @abeatrix in https://github.com/cline/cline/pull/7279
+* fix: Fixing token refresh logic for oca on startup by @nihar-oracle in https://github.com/cline/cline/pull/7209
+* Complete telemetry attribution for model/provider tracking by @nickbaumann98 in https://github.com/cline/cline/pull/7230
+* Fix: Use http_proxy, https_proxy, no_proxy in standalone mode by @dominiccooney in https://github.com/cline/cline/pull/7263
+* Fix openai compatible auth issue in CLI by @canvrno in https://github.com/cline/cline/pull/7291
+* Add GCP Vertex provider to remote config schema by @sjf in https://github.com/cline/cline/pull/7200
+* Fix vercel gateway thinking and model list by @saoudrizwan in https://github.com/cline/c]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.36.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.36.0</guid>
+            <pubDate>Thu, 06 Nov 2025 02:33:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.35.1]]></title>
+            <description><![CDATA[## What's Changed
+* 🪝Hooks: Gorgeous UI [ENG-994] by @candieduniverse in https://github.com/cline/cline/pull/7126
+* fix: react-remark rendering in ModelDescriptionMarkdown by @abeatrix in https://github.com/cline/cline/pull/7205
+* 🪝Hooks: Exclude .clinerules/hooks/ files from Rules feature by @candieduniverse in https://github.com/cline/cline/pull/7202
+* Add global rules and workflows to the remote config schema by @sjf in https://github.com/cline/cline/pull/7198
+* Add provider field to tool usage telemetry events by @nickbaumann98 in https://github.com/cline/cline/pull/7214
+* feat: Add support for Claude 4.5 Sonnet in SAP AI Core provider by @wahajahmedkhan in https://github.com/cline/cline/pull/7217
+* cli polish ahead of release - disable doctor, better node errors, log sorting, change update cache file path by @Garoth in https://github.com/cline/cline/pull/7215
+* fix: Support interleaved thinking for miniMax provider by @arafatkatze in https://github.com/cline/cline/pull/7162
+* Remove orphaned tool_results after truncation by @canvrno in https://github.com/cline/cline/pull/7225
+* Enable Terminal Timeouts by defualt by @arafatkatze in https://github.com/cline/cline/pull/7171
+* fix: context mentions are positioned incorrectly by @saoudrizwan in https://github.com/cline/cline/pull/7248
+* Hicap integration as new provider by @MarcoChavez1940 in https://github.com/cline/cline/pull/6988
+* Fix empty content field issue by @canvrno in https://github.com/cline/cline/pull/7247
+* fix: enable Add Header button in OpenAICompatibleProvider by @abeatrix in https://github.com/cline/cline/pull/7246
+* try to fix flaky slash commands e2e test by @celestial-vault in https://github.com/cline/cline/pull/7063
+* remote config - configure multiple providers by @celestial-vault in https://github.com/cline/cline/pull/7250
+* Add a field mask to the new updateApiConfiguration RPC by @celestial-vault in https://github.com/cline/cline/pull/7197
+* Changeset version bump by @github-actions[bot]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.35.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.35.1</guid>
+            <pubDate>Tue, 04 Nov 2025 04:23:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.35.0]]></title>
+            <description><![CDATA[## What's Changed
+* glm-4.6 system prompt adjustments by @canvrno in https://github.com/cline/cline/pull/7121
+* GPT5 system prompt snapshots + small adjustment. by @canvrno in https://github.com/cline/cline/pull/7120
+* Replace HeroUI Tooltip with shadcn by @abeatrix in https://github.com/cline/cline/pull/6872
+* feat: Set default OpenTelemetry exporters to console,otlp by @NightTrek in https://github.com/cline/cline/pull/7129
+* fix: stop event propagation on task header button clicks by @abeatrix in https://github.com/cline/cline/pull/7139
+* Revise tip for opening Cline on the right by @saoudrizwan in https://github.com/cline/cline/pull/7122
+* Add Cerebras GLM 4.6 model support and set as default by @kevint-cerebras in https://github.com/cline/cline/pull/7143
+* refactor: replace HeroUI Alert with shadcn Alert component by @abeatrix in https://github.com/cline/cline/pull/7137
+* Feat/nturumel/proto-python by @nihar-oracle in https://github.com/cline/cline/pull/7090
+* Package updates Pt. 2 by @canvrno in https://github.com/cline/cline/pull/7001
+* native tool calling by @abeatrix in https://github.com/cline/cline/pull/6921
+* refactor: migrate ModelDescriptionMarkdown to Tailwind CSS by @abeatrix in https://github.com/cline/cline/pull/7145
+* update: use diff edit tools for gpt-5 by @abeatrix in https://github.com/cline/cline/pull/7147
+* Support <think> tags by @canvrno in https://github.com/cline/cline/pull/7144
+* Add headers to the remote OTEL settings by @BarreiroT in https://github.com/cline/cline/pull/7149
+* Add MCP settings to the remote config by @BarreiroT in https://github.com/cline/cline/pull/7123
+* fix: Removing language selection from voice mode to support aqua voice by @arafatkatze in https://github.com/cline/cline/pull/7086
+* feat: Add banner api calls and evaluate banner display rule sets locally by @cryptoque in https://github.com/cline/cline/pull/7087
+* fix: improve CheckpointError layout and Alert component flex behavior by @abeatrix in https://github.com]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.35.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.35.0</guid>
+            <pubDate>Fri, 31 Oct 2025 02:00:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.34.1]]></title>
+            <description><![CDATA[## What's Changed
+* fix: Removing Eslint from package lock json by @arafatkatze in https://github.com/cline/cline/pull/7047
+* Claude docs update and fixing missing images by @juanpflores in https://github.com/cline/cline/pull/7041
+* Fixed proto name issue by @canvrno in https://github.com/cline/cline/pull/7054
+* Remove apiConfiguration conversion function from updateApiConfiguration by @celestial-vault in https://github.com/cline/cline/pull/7045
+* Support Feature Flags default values by @BarreiroT in https://github.com/cline/cline/pull/7027
+* Updating trending model list by @canvrno in https://github.com/cline/cline/pull/7018
+* Add linter check for proto files and add auto-formatting by @sjf in https://github.com/cline/cline/pull/7066
+* update e2e evals to use cline cli by @0xToshii in https://github.com/cline/cline/pull/6977
+* feat: Adding oracle code assist to the cli by @nihar-oracle in https://github.com/cline/cline/pull/7004
+* Support OpenRouter presets entry by @canvrno in https://github.com/cline/cline/pull/7083
+* fix(scripts): fix proto-lint script execution on Windows by @abeatrix in https://github.com/cline/cline/pull/7089
+* fix: error_retry message breaking browser session row flow by @saoudrizwan in https://github.com/cline/cline/pull/7106
+* Feat: Add MiniMax AI provider by @Maosghoul in https://github.com/cline/cline/pull/7094
+* Remove old models by @arafatkatze in https://github.com/cline/cline/pull/7118
+* feat(settings): allow Minimax models with :free suffix for Cline provider by @arafatkatze in https://github.com/cline/cline/pull/7119
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/7061
+
+## New Contributors
+* @Maosghoul made their first contribution in https://github.com/cline/cline/pull/7094
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.34.0...v3.34.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.34.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.34.1</guid>
+            <pubDate>Mon, 27 Oct 2025 21:17:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.34.0]]></title>
+            <description><![CDATA[## What's Changed
+* 🪝Hooks: `TaskStart` hook [ENG-1001] by @candieduniverse in https://github.com/cline/cline/pull/6895
+* Oops.  Putting back a small detail that I accidentally removed. by @candieduniverse in https://github.com/cline/cline/pull/6920
+* auto update for cli root command by @pashpashpash in https://github.com/cline/cline/pull/6914
+* Docs upgrade by @juanpflores in https://github.com/cline/cline/pull/6907
+* show cli version in banner instead of core version by @pashpashpash in https://github.com/cline/cline/pull/6915
+* Add the cline provider to the remote config schema by @sjf in https://github.com/cline/cline/pull/6908
+* feat(config): add runtime environment switching support by @abeatrix in https://github.com/cline/cline/pull/6621
+* Enhance documentation: Add supported model providers and installation… by @juanpflores in https://github.com/cline/cline/pull/6925
+* partially update autoApprovalSettings by @celestial-vault in https://github.com/cline/cline/pull/6929
+* Remove unneeded test that's slowing down the test suite by @candieduniverse in https://github.com/cline/cline/pull/6932
+* fixing bug where yolo mode didnt output body in plan mode by @pashpashpash in https://github.com/cline/cline/pull/6940
+* Updated banner to add that Linux is supported in Cline CLI by @canvrno in https://github.com/cline/cline/pull/6922
+* fix: Disable subagents for jetbrains by @arafatkatze in https://github.com/cline/cline/pull/6933
+* fixing duplicate ask headers for tool approvals, and fixing ask state… by @pashpashpash in https://github.com/cline/cline/pull/6945
+* chore: remove unnecessary debug logs for cline env by @abeatrix in https://github.com/cline/cline/pull/6960
+* add auto approve option to interactive by @celestial-vault in https://github.com/cline/cline/pull/6937
+* remove unused ApiConfiguration proto message by @celestial-vault in https://github.com/cline/cline/pull/6941
+* Fixing banner to not show CLI release for windows users by @arafatkatze in https://git]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.34.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.34.0</guid>
+            <pubDate>Thu, 23 Oct 2025 02:51:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.33.1]]></title>
+            <description><![CDATA[## What's Changed
+* draft cli docs ready for review by @csells in https://github.com/cline/cline/pull/6836
+* fix: Copy link for CLI installation by @arafatkatze in https://github.com/cline/cline/pull/6919
+
+## New Contributors
+* @csells made their first contribution in https://github.com/cline/cline/pull/6836
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.33.0...v3.33.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.33.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.33.1</guid>
+            <pubDate>Thu, 16 Oct 2025 17:33:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.33.0]]></title>
+            <description><![CDATA[## What's Changed
+* add codeowner for storage folder by @celestial-vault in https://github.com/cline/cline/pull/6717
+* markdown streaming support for plan mode respond tool by @pashpashpash in https://github.com/cline/cline/pull/6719
+* reorganize protos and add secrets proto message by @celestial-vault in https://github.com/cline/cline/pull/6720
+* Make changes to the remote config schema by @sjf in https://github.com/cline/cline/pull/6725
+* added missing cli host stubs by @pashpashpash in https://github.com/cline/cline/pull/6716
+* updateApiConfigurationPartial proto by @canvrno in https://github.com/cline/cline/pull/6731
+* rpc for updateSettings CLI by @celestial-vault in https://github.com/cline/cline/pull/6733
+* adding config command line arg by @0xToshii in https://github.com/cline/cline/pull/6735
+* remove dynamic state key cline:clineAccountId by @celestial-vault in https://github.com/cline/cline/pull/6718
+* add config set command by @celestial-vault in https://github.com/cline/cline/pull/6736
+* Update plan mode response with latest content and `partial = false` in yolo mode by @saoudrizwan in https://github.com/cline/cline/pull/6737
+* fixed plan mode respond reading from memory in cli by @pashpashpash in https://github.com/cline/cline/pull/6738
+* cli config set secrets by @celestial-vault in https://github.com/cline/cline/pull/6739
+* adding config list command with renderer by @0xToshii in https://github.com/cline/cline/pull/6741
+* reusing ensureConfigManager inside of setCommand by @0xToshii in https://github.com/cline/cline/pull/6743
+* ci: add workflow to auto-label JetBrains plugin issues by @arafatkatze in https://github.com/cline/cline/pull/6664
+* Add hooks feature flag by @candieduniverse in https://github.com/cline/cline/pull/6734
+* webfetch listdefinitions search and more tools added to cli rendering by @pashpashpash in https://github.com/cline/cline/pull/6740
+* Add auto-retry with exponential backof for failed API requests by @saoudrizwan in https://gi]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.33.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.33.0</guid>
+            <pubDate>Thu, 16 Oct 2025 16:48:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.32.8]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.32.7...v3.32.8]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.8</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.8</guid>
+            <pubDate>Wed, 15 Oct 2025 19:03:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cline CLI v0.0.2-cli]]></title>
+            <description><![CDATA[## Installation
+
+Install Cline CLI with a single command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/cline/cline/main/scripts/install.sh | bash
+```
+
+### Platform-Specific Downloads
+
+- **macOS (Intel)**: `cline-v0.0.2-cli-darwin-x64.tar.gz`
+- **macOS (Apple Silicon)**: `cline-v0.0.2-cli-darwin-arm64.tar.gz`
+- **Linux (x64)**: `cline-v0.0.2-cli-linux-x64.tar.gz`
+
+### Manual Installation
+
+1. Download the appropriate package for your platform
+2. Extract: `tar -xzf cline-*.tar.gz`
+3. Move to installation directory: `mv cline-* ~/.cline`
+4. Add to PATH: `export PATH="$HOME/.cline/bin:$PATH"`
+
+### What's Included
+
+- ✅ Node.js v22.15.0 (bundled)
+- ✅ Cline CLI binary
+- ✅ Cline Host bridge
+- ✅ Cline Core (TypeScript compiled)
+- ✅ Ripgrep v14.1.1 (for file searching)
+- ✅ All dependencies
+
+### Getting Started
+
+```bash
+# Verify installation
+cline version
+
+# Sign in
+cline auth login
+
+# Get help
+cline --help
+```
+
+### Documentation
+
+- [Installation Guide](https://docs.cline.bot/getting-started/installing-cline)
+- [CLI Documentation](https://docs.cline.bot/exploring-clines-tools/cline-tools-guide)
+- [GitHub Repository](https://github.com/cline/cline)
+
+
+## What's Changed
+* fixing terminalapp rendering of input forms by @pashpashpash in https://github.com/cline/cline/pull/6807
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v0.0.1-cli...v0.0.2-cli]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v0.0.2-cli</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v0.0.2-cli</guid>
+            <pubDate>Mon, 13 Oct 2025 18:51:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cline CLI v0.0.1-cli]]></title>
+            <description><![CDATA[## Installation
+
+Install Cline CLI with a single command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/cline/cline/main/scripts/install.sh | bash
+```
+
+### Platform-Specific Downloads
+
+- **macOS (Intel)**: `cline-v0.0.1-cli-darwin-x64.tar.gz`
+- **macOS (Apple Silicon)**: `cline-v0.0.1-cli-darwin-arm64.tar.gz`
+- **Linux (x64)**: `cline-v0.0.1-cli-linux-x64.tar.gz`
+
+### Manual Installation
+
+1. Download the appropriate package for your platform
+2. Extract: `tar -xzf cline-*.tar.gz`
+3. Move to installation directory: `mv cline-* ~/.cline`
+4. Add to PATH: `export PATH="$HOME/.cline/bin:$PATH"`
+
+### What's Included
+
+- ✅ Node.js v22.15.0 (bundled)
+- ✅ Cline CLI binary
+- ✅ Cline Host bridge
+- ✅ Cline Core (TypeScript compiled)
+- ✅ Ripgrep v14.1.1 (for file searching)
+- ✅ All dependencies
+
+### Getting Started
+
+```bash
+# Verify installation
+cline version
+
+# Sign in
+cline auth login
+
+# Get help
+cline --help
+```
+
+### Documentation
+
+- [Installation Guide](https://docs.cline.bot/getting-started/installing-cline)
+- [CLI Documentation](https://docs.cline.bot/exploring-clines-tools/cline-tools-guide)
+- [GitHub Repository](https://github.com/cline/cline)
+
+
+## What's Changed
+* Fix CLI installation script by @arafatkatze in https://github.com/cline/cline/pull/6760
+* CLI config list changes by @canvrno in https://github.com/cline/cline/pull/6765
+* Hooks: Initial implementation of hooks foundation logic [ENG-1011, ENG-985] by @candieduniverse in https://github.com/cline/cline/pull/6755
+* function to fetch remote config by @celestial-vault in https://github.com/cline/cline/pull/6756
+* tui help wanted notice by @pashpashpash in https://github.com/cline/cline/pull/6751
+* Add getCwdHash proto by @canvrno in https://github.com/cline/cline/pull/6773
+* remote config state setting by @celestial-vault in https://github.com/cline/cline/pull/6776
+* Add subscribeToCheckpoints proto by @canvrno in https://github.com/cline/cline/pull/6770
+* Auto-cleanup stale default instance config by @canvrn]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v0.0.1-cli</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v0.0.1-cli</guid>
+            <pubDate>Mon, 13 Oct 2025 18:01:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cline CLI v3.32.6-cli]]></title>
+            <description><![CDATA[## Installation
+
+Install Cline CLI with a single command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/cline/cline/main/scripts/install.sh | bash
+```
+
+### Platform-Specific Downloads
+
+- **macOS (Intel)**: `cline-v3.32.6-cli-darwin-x64.tar.gz`
+- **macOS (Apple Silicon)**: `cline-v3.32.6-cli-darwin-arm64.tar.gz`
+- **Linux (x64)**: `cline-v3.32.6-cli-linux-x64.tar.gz`
+
+### Manual Installation
+
+1. Download the appropriate package for your platform
+2. Extract: `tar -xzf cline-*.tar.gz`
+3. Move to installation directory: `mv cline-* ~/.cline`
+4. Add to PATH: `export PATH="$HOME/.cline/bin:$PATH"`
+
+### What's Included
+
+- ✅ Node.js v22.15.0 (bundled)
+- ✅ Cline CLI binary
+- ✅ Cline Host bridge
+- ✅ Cline Core (TypeScript compiled)
+- ✅ All dependencies
+
+### Getting Started
+
+```bash
+# Verify installation
+cline version
+
+# Sign in
+cline auth login
+
+# Get help
+cline --help
+```
+
+### Documentation
+
+- [Installation Guide](https://docs.cline.bot/getting-started/installing-cline)
+- [CLI Documentation](https://docs.cline.bot/exploring-clines-tools/cline-tools-guide)
+- [GitHub Repository](https://github.com/cline/cline)
+
+
+## What's Changed
+* add codeowner for storage folder by @celestial-vault in https://github.com/cline/cline/pull/6717
+* markdown streaming support for plan mode respond tool by @pashpashpash in https://github.com/cline/cline/pull/6719
+* reorganize protos and add secrets proto message by @celestial-vault in https://github.com/cline/cline/pull/6720
+* Make changes to the remote config schema by @sjf in https://github.com/cline/cline/pull/6725
+* added missing cli host stubs by @pashpashpash in https://github.com/cline/cline/pull/6716
+* updateApiConfigurationPartial proto by @canvrno in https://github.com/cline/cline/pull/6731
+* rpc for updateSettings CLI by @celestial-vault in https://github.com/cline/cline/pull/6733
+* adding config command line arg by @0xToshii in https://github.com/cline/cline/pull/6735
+* remove dynamic state key cline:clineAccountId by @celestial]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.6-cli</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.6-cli</guid>
+            <pubDate>Sat, 11 Oct 2025 02:09:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.32.7]]></title>
+            <description><![CDATA[## What's Changed
+* Log env vars in cline-core by @sjf in https://github.com/cline/cline/pull/6595
+* feat(focus-chain): Render checklist items as markdown by @NightTrek in https://github.com/cline/cline/pull/6452
+* Update scripts/runclinecore.sh to include platform specific node module path by @sjf in https://github.com/cline/cline/pull/6618
+* Remove duplicate statemanager in migration by @celestial-vault in https://github.com/cline/cline/pull/6614
+* Added checkpoints warning for multiroot scenarios by @canvrno in https://github.com/cline/cline/pull/6615
+* Update local models docs & remove emojis from Docs by @nickbaumann98 in https://github.com/cline/cline/pull/6624
+* cli <--> main sync by @pashpashpash in https://github.com/cline/cline/pull/6576
+* feat: feature flag for cline auth provider by @abeatrix in https://github.com/cline/cline/pull/6629
+* Make statemanager global singleton by @celestial-vault in https://github.com/cline/cline/pull/6619
+* Bug Fix: replace featureFlagsService with isMultiRootEnabled utility by @arafatkatze in https://github.com/cline/cline/pull/6631
+* Make the results of the GH test workflow easier to understand & fix windows tests by @sjf in https://github.com/cline/cline/pull/6628
+* cline cli super alpha by @pashpashpash in https://github.com/cline/cline/pull/6644
+* add logout reason tracking and improve cleanup handling by @tseglevskiy in https://github.com/cline/cline/pull/6657
+* adding send as a top level command by @0xToshii in https://github.com/cline/cline/pull/6661
+* Add watch build script by @celestial-vault in https://github.com/cline/cline/pull/6655
+* refactor: Support Multiple Telemetry providers by @NightTrek in https://github.com/cline/cline/pull/6582
+* Multiroot mentions support by @canvrno in https://github.com/cline/cline/pull/6627
+* Provider scripts by @canvrno in https://github.com/cline/cline/pull/6668
+* adding checkpoint restore to cli by @0xToshii in https://github.com/cline/cline/pull/6669
+* removing the duplicate er]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.7</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.7</guid>
+            <pubDate>Wed, 08 Oct 2025 23:32:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cline CLI v3.32.6]]></title>
+            <description><![CDATA[## Installation
+
+Install Cline CLI with a single command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/cline/cline/main/scripts/install.sh | bash
+```
+
+### Platform-Specific Downloads
+
+- **macOS (Intel)**: `cline-v3.32.6-darwin-x64.tar.gz`
+- **macOS (Apple Silicon)**: `cline-v3.32.6-darwin-arm64.tar.gz`
+- **Linux (x64)**: `cline-v3.32.6-linux-x64.tar.gz`
+
+### Manual Installation
+
+1. Download the appropriate package for your platform
+2. Extract: `tar -xzf cline-*.tar.gz`
+3. Move to installation directory: `mv cline-* ~/.cline`
+4. Add to PATH: `export PATH="$HOME/.cline/bin:$PATH"`
+
+### What's Included
+
+- ✅ Node.js v22.15.0 (bundled)
+- ✅ Cline CLI binary
+- ✅ Cline Host bridge
+- ✅ Cline Core (TypeScript compiled)
+- ✅ All dependencies
+
+### Getting Started
+
+```bash
+# Verify installation
+cline version
+
+# Sign in
+cline auth login
+
+# Get help
+cline --help
+```
+
+### Documentation
+
+- [Installation Guide](https://docs.cline.bot/getting-started/installing-cline)
+- [CLI Documentation](https://docs.cline.bot/exploring-clines-tools/cline-tools-guide)
+- [GitHub Repository](https://github.com/cline/cline)
+]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.6</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.6</guid>
+            <pubDate>Wed, 01 Oct 2025 23:44:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.32.5]]></title>
+            <description><![CDATA[## What's Changed
+* Updating .github codeowners by @JicLotus in https://github.com/cline/cline/pull/6539
+* fix: Fixing refresh logic by @nihar-oracle in https://github.com/cline/cline/pull/6542
+* fix: update vercel provider cost note and sign-up url by @shaper in https://github.com/cline/cline/pull/6551
+* Fix repeated API error 400 in SAP AI Core provider by @lcs-bdr in https://github.com/cline/cline/pull/6537
+* docs: update documentation for Claude Sonnet 4.5 release by @nickbaumann98 in https://github.com/cline/cline/pull/6556
+* Add documentation for changes introduced in 3.30 by @juanpflores in https://github.com/cline/cline/pull/6512
+* make task constructor typed object by @celestial-vault in https://github.com/cline/cline/pull/6558
+
+## New Contributors
+* @juanpflores made their first contribution in https://github.com/cline/cline/pull/6512
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.32.4...v3.32.5]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.5</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.5</guid>
+            <pubDate>Tue, 30 Sep 2025 01:30:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.32.4]]></title>
+            <description><![CDATA[## What's Changed
+* fix: returning undefined when URL is not valid by @requesty-JohnCosta27 in https://github.com/cline/cline/pull/6377
+* Reduce Test Workflow Time by 45% and Enable Qlty Coverage on Main by @JicLotus in https://github.com/cline/cline/pull/6374
+* feat: Add Amazon Bedrock us-west-1 support by @ajjuaire in https://github.com/cline/cline/pull/6550
+
+## New Contributors
+* @ajjuaire made their first contribution in https://github.com/cline/cline/pull/6550
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.32.3...v3.32.4]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.4</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.4</guid>
+            <pubDate>Mon, 29 Sep 2025 21:28:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.32.3]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.32.2...v3.32.3]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.3</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.3</guid>
+            <pubDate>Mon, 29 Sep 2025 19:08:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.32.2]]></title>
+            <description><![CDATA[## What's Changed
+* Add /task deep link handler by @saoudrizwan in https://github.com/cline/cline/pull/6513
+* fix: command execution not sending output to webview and incorrectly showing 'Proceed while Running' when finished by @saoudrizwan in https://github.com/cline/cline/pull/6522
+* remove getCurrentMode function in favor of state manager by @celestial-vault in https://github.com/cline/cline/pull/6418
+* Don't show VS Code LM provider on non-VSCode platforms by @sjf in https://github.com/cline/cline/pull/6523
+* [disk.ts] Replace uses of context.globalStorageUri with HostProvider.get().globalStorageFsPath by @sjf in https://github.com/cline/cline/pull/6507
+* Handle quotes and other special chars in the curl request by @sjf in https://github.com/cline/cline/pull/6525
+* Replace VSCode API with Host Provider by @sjf in https://github.com/cline/cline/pull/6527
+* ref: Move getGlobalStorageDir out of the HostProvider into disk.ts by @sjf in https://github.com/cline/cline/pull/6530
+* Replace VSCode API with the host bridge. by @sjf in https://github.com/cline/cline/pull/6529
+* Add Claude Sonnet 4.5 by @saoudrizwan in https://github.com/cline/cline/pull/6544
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6511
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.32.1...v3.32.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.2</guid>
+            <pubDate>Mon, 29 Sep 2025 18:07:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.32.1]]></title>
+            <description><![CDATA[## What's Changed
+* force no proxy for hostbridge connection by @tseglevskiy in https://github.com/cline/cline/pull/6474
+* fix: add retry logic to SAP AI Core provider by @lcs-bdr in https://github.com/cline/cline/pull/6453
+* Only show the info banner messages about the right sidebar in VSCode by @sjf in https://github.com/cline/cline/pull/6492
+* Enable thinking by default for models that support it to reduce text verbosity in chat by @saoudrizwan in https://github.com/cline/cline/pull/6493
+* feat: preserve reasoning traces for cline/openrouter/anthropic providers to maintain conversation integrity by @saoudrizwan in https://github.com/cline/cline/pull/6495
+* CLINE_ACTIVE usage by @tseglevskiy in https://github.com/cline/cline/pull/6471
+* Fix problem compiling integration tests by @sjf in https://github.com/cline/cline/pull/6498
+* Use StateManager for enableCheckpoints on Task class by @celestial-vault in https://github.com/cline/cline/pull/6491
+* [Tasks directory] Replace uses of context.globalStorageUri with HostProvider.get().globalStorageFsPath by @sjf in https://github.com/cline/cline/pull/6420
+* fix: cline accounts using stale id token at refresh response by @BarreiroT in https://github.com/cline/cline/pull/6509
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6488
+
+## New Contributors
+* @lcs-bdr made their first contribution in https://github.com/cline/cline/pull/6453
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.32.0...v3.32.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.1</guid>
+            <pubDate>Sun, 28 Sep 2025 07:25:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.32.0]]></title>
+            <description><![CDATA[## What's Changed
+* feat(chat): add scroll to top functionality by @abeatrix in https://github.com/cline/cline/pull/6423
+* feat: add HeroTooltip to conversation history button by @celestial-vault in https://github.com/cline/cline/pull/6466
+* test: skip API request failure check to prevent Windows timeout by @abeatrix in https://github.com/cline/cline/pull/6468
+* Update E2E Test for Chat input by @abeatrix in https://github.com/cline/cline/pull/6470
+* add code-supernova-1m by @pashpashpash in https://github.com/cline/cline/pull/6458
+* Empty PR to bump changeset by @arafatkatze in https://github.com/cline/cline/pull/6485
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6487
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.31.1...v3.32.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.32.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.0</guid>
+            <pubDate>Fri, 26 Sep 2025 18:10:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.31.1]]></title>
+            <description><![CDATA[## What's Changed
+* Add CLI tools detection to environment details by @domdomegg in https://github.com/cline/cline/pull/5471
+* Rename MCP tab 'Installed' to 'Configure' by @saoudrizwan in https://github.com/cline/cline/pull/5966
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6451
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.31.0...v3.31.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.31.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.31.1</guid>
+            <pubDate>Thu, 25 Sep 2025 06:39:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.31.0]]></title>
+            <description><![CDATA[## What's Changed
+* fix: Fixing oca provider utils by @nihar-oracle in https://github.com/cline/cline/pull/6359
+* Checkpoints/Multiroot - accept array of workspaces by @canvrno in https://github.com/cline/cline/pull/6320
+* Dependency updates by @canvrno in https://github.com/cline/cline/pull/6096
+* Run Testing platform within Test workflow [shadow] by @JicLotus in https://github.com/cline/cline/pull/6273
+* fix: remove temperature settings in z.ai models by @ZeroAurora in https://github.com/cline/cline/pull/6311
+* Remove duplicate settings references in Task class by @celestial-vault in https://github.com/cline/cline/pull/6336
+* Testing platform coverage by @JicLotus in https://github.com/cline/cline/pull/6332
+* Improve the error messaging when Cline receives empty or unparsable responses from API providers  by @arafatkatze in https://github.com/cline/cline/pull/6385
+* Update SAP AI Core Provider Anthropic input token calculation by @tjandy98 in https://github.com/cline/cline/pull/6363
+* refactor: append stealth models on readOpenRouterModels & refreshOpenRouterModels by @abeatrix in https://github.com/cline/cline/pull/6384
+* Adding voice mode to Cline by @arafatkatze in https://github.com/cline/cline/pull/6208
+* Adding Search tool for multi root workspace by @arafatkatze in https://github.com/cline/cline/pull/6288
+* Update dependencies by @canvrno in https://github.com/cline/cline/pull/6390
+* Update dependencies by @canvrno in https://github.com/cline/cline/pull/6393
+* feat: add configurable auto-condense threshold setting by @abeatrix in https://github.com/cline/cline/pull/6391
+* feat: Cline Auth Provider by @abeatrix in https://github.com/cline/cline/pull/6131
+* feat: new Task Header UI with configurable auto condense threshold by @abeatrix in https://github.com/cline/cline/pull/6049
+* Add a workflow that will trigger the Jetbrains tests for PRs in the cline repo. by @sjf in https://github.com/cline/cline/pull/6402
+* Update CODEOWNERS to remove dcbartlett by @saou]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.31.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.31.0</guid>
+            <pubDate>Thu, 25 Sep 2025 01:51:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.30.3]]></title>
+            <description><![CDATA[## What's Changed
+* adding yolo mode telemetry by @0xToshii in https://github.com/cline/cline/pull/6348
+* feat(oca-ui): add OCA provider with model picker and auth integration by @nihar-oracle in https://github.com/cline/cline/pull/6339
+* Empty PR to bump changeset by @arafatkatze in https://github.com/cline/cline/pull/6351
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6352
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.30.2...v3.30.3]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.30.3</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.30.3</guid>
+            <pubDate>Sat, 20 Sep 2025 01:34:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.30.2]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.30.1...v3.30.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.30.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.30.2</guid>
+            <pubDate>Fri, 19 Sep 2025 22:05:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.30.0]]></title>
+            <description><![CDATA[## What's Changed
+* added baseten link to docs.json by @AlexKer in https://github.com/cline/cline/pull/6312
+* feat: OCA provider by @nihar-oracle in https://github.com/cline/cline/pull/5075
+* Add code-supernova stealth model by @saoudrizwan in https://github.com/cline/cline/pull/6327
+* v3.30.0 Release Notes by @github-actions[bot] in https://github.com/cline/cline/pull/6338
+
+## New Contributors
+* @nihar-oracle made their first contribution in https://github.com/cline/cline/pull/5075
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.29.2...v3.30.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.30.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.30.0</guid>
+            <pubDate>Fri, 19 Sep 2025 19:29:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.29.2]]></title>
+            <description><![CDATA[## What's Changed
+* Update runclinecore.sh script by @sjf in https://github.com/cline/cline/pull/6300
+* Consolidate duplicated code in BrowserSession and UrlContextFetcher by @sjf in https://github.com/cline/cline/pull/6289
+* Enhance Testing Framework - Improve non-deterministic scenarios + fix flag by @JicLotus in https://github.com/cline/cline/pull/6244
+* Improve standalone startup times by @JicLotus in https://github.com/cline/cline/pull/6272
+* use consolidated type parameters for getter functions in state-helpers by @celestial-vault in https://github.com/cline/cline/pull/6262
+* Set telemetry env vars for JetBrains builds [esbuild] by @sjf in https://github.com/cline/cline/pull/6299
+* Pass max_tokens to moonshot provider by @canvrno in https://github.com/cline/cline/pull/6316
+* Revert "fix: configure HeroUI setup (#6279)" by @abeatrix in https://github.com/cline/cline/pull/6323
+* Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6315
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.29.1...v3.29.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.29.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.29.2</guid>
+            <pubDate>Thu, 18 Sep 2025 23:11:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.29.1]]></title>
+            <description><![CDATA[## What's Changed
+* Announcement banner update
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.29.0...v3.29.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.29.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.29.1</guid>
+            <pubDate>Thu, 18 Sep 2025 03:33:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.29.0]]></title>
+            <description><![CDATA[## What's Changed
+* Updated Baseten provider to fetch models from server
+* Fix: Updated insufficient balance URL for easy Cline balance top-ups
+* Accessibility: Improvements to screen readers in MCP, Cline Rules, workflows, and history views.
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.28.4...v3.29.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.29.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.29.0</guid>
+            <pubDate>Wed, 17 Sep 2025 19:23:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.28.6]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.28.5...v3.28.6]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.28.6</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.6</guid>
+            <pubDate>Tue, 16 Sep 2025 18:52:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.28.5]]></title>
+            <description><![CDATA[## What's Changed
+
+- Fixed issue with telemetry connection (for users with telemetry enabled).
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.28.4...v3.28.5]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.28.5</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.5</guid>
+            <pubDate>Mon, 15 Sep 2025 23:30:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.28.4]]></title>
+            <description><![CDATA[## What's Changed
+
+- Fix bug where some Windows machines had API request hanging
+- Fix bug where 'Proceed while running' action button would be disabled after running an interactive command
+- Fix prompt cache info not being displayed in History
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.28.3...v3.28.4]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.28.4</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.4</guid>
+            <pubDate>Mon, 15 Sep 2025 04:19:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.28.3]]></title>
+            <description><![CDATA[## What's Changed
+- Fixed issue with start new task button
+- Feature to generate commit message for staged changes, with unstaged as fallback
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.28.2...v3.28.3]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.28.3</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.3</guid>
+            <pubDate>Sat, 13 Sep 2025 01:59:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.28.2]]></title>
+            <description><![CDATA[## What's Changed
+- Fix for focus chain settings
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.28.1...v3.28.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.28.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.2</guid>
+            <pubDate>Fri, 12 Sep 2025 21:08:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.28.1]]></title>
+            <description><![CDATA[## What's Changed
+- Requesty: use base URL to get models and API keys
+- Removed focus chain feature flag
+
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.28.0...v3.28.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.28.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.1</guid>
+            <pubDate>Fri, 12 Sep 2025 19:06:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.28.0]]></title>
+            <description><![CDATA[## What's Changed
+- Synchronized Task History: Real-time task history synchronization across all Cline instances
+- Optimized GPT-5 Integration: Fine-tuned system prompts for improved performance with GPT-5 model family
+- Deep Planning Improvements: Optimized prompts for Windows/PowerShell environments and dependency exclusion
+- Streamlined UI Experience: ESC key navigation, cleaner approve/reject buttons, and improved editor panel focus
+- Smart Provider Search: Improved search functionality in API provider dropdown for faster model selection
+- Added per-provider thinking tokens configurability
+- Added Ollama custom prompt options
+- Enhanced SAP AI Core Provider: Orchestration mode support and improved model visibility
+- Added Dify.ai API Integration
+- SambaNova Updates: Added DeepSeek-V3.1 model
+- Better Gemini rate limit handling
+- OpenAI Reasoning Effort: Minimal reasoning effort configuration for OpenAI models
+- Fixed LiteLLM Caching: Anthropic caching compatibility when using LiteLLM
+- Fixed Ollama default endpoint connections
+- Fixed AutoApprove menu overflow
+- Fixed extended thinking token issue with Anthropic models
+- Fixed issue with slash commands removing text from prompt
+
+## New Contributors
+* @ciekawy made their first contribution in https://github.com/cline/cline/pull/5793
+* @willhs made their first contribution in https://github.com/cline/cline/pull/5852
+* @JicLotus made their first contribution in https://github.com/cline/cline/pull/5944
+* @weichensw made their first contribution in https://github.com/cline/cline/pull/5884
+* @arman-sambanova made their first contribution in https://github.com/cline/cline/pull/6001
+* @dnoggle made their first contribution in https://github.com/cline/cline/pull/6120
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.26.6...v3.28.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.28.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.0</guid>
+            <pubDate>Thu, 11 Sep 2025 23:21:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.27.2]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.27.1...v3.27.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.27.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.27.2</guid>
+            <pubDate>Tue, 09 Sep 2025 22:36:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.27.1]]></title>
+            <description><![CDATA[- Add new Kimi K2 model to Groq and Moonshot providers
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.27.0...v3.27.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.27.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.27.1</guid>
+            <pubDate>Fri, 05 Sep 2025 03:19:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.27.0]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.26.7...v3.27.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.27.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.27.0</guid>
+            <pubDate>Mon, 01 Sep 2025 12:49:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.26.7]]></title>
+            <description><![CDATA[- Add 200k context window variant for Claude Sonnet 4 to OpenRouter and Cline providers
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.26.6...v3.26.7]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.26.7</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.26.7</guid>
+            <pubDate>Fri, 29 Aug 2025 22:44:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.26.6]]></title>
+            <description><![CDATA[## What's Changed
+* remove middle out for gpt5 by @0xToshii in https://github.com/cline/cline/pull/5786
+* add gpt-5 to recommended list by @pashpashpash in https://github.com/cline/cline/pull/5789
+* Feature/Qwen Code CLI API Support with OAuth by @evinelias in https://github.com/cline/cline/pull/5766
+* fix: provider options by @BarreiroT in https://github.com/cline/cline/pull/5204
+* fix: 'disable checkpoints' button font size does not match surrounding text by @saoudrizwan in https://github.com/cline/cline/pull/5787
+* Use VS Code CSS variables for markdown/codeblock styling by @celestial-vault in https://github.com/cline/cline/pull/5783
+
+## New Contributors
+* @evinelias made their first contribution in https://github.com/cline/cline/pull/5766
+
+**Full Changelog**: https://github.com/cline/cline/compare/v3.26.5...v3.26.6]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.26.6</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.26.6</guid>
+            <pubDate>Thu, 28 Aug 2025 19:05:47 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

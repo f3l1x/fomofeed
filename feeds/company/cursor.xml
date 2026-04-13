@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[FomoFeed — Cursor]]></title>
+        <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
+        <link>https://fomofeed.f3l1x.app/feeds/company/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:29:59 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:29:59 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Bugbot now self-improves with learned rules]]></title>
+            <link>https://cursor.com/blog/bugbot-learning</link>
+            <guid isPermaLink="false">https://cursor.com/blog/bugbot-learning</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Tue, 07 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Better MoE model inference with warp decode]]></title>
+            <link>https://cursor.com/blog/warp-decode</link>
+            <guid isPermaLink="false">https://cursor.com/blog/warp-decode</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Meet the new Cursor]]></title>
+            <description><![CDATA[Cursor 3 is a unified workspace for building software with agents.]]></description>
+            <link>https://cursor.com/blog/cursor-3</link>
+            <guid isPermaLink="false">https://cursor.com/blog/cursor-3</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Wed, 01 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A technical report on Composer 2]]></title>
+            <link>https://cursor.com/blog/composer-2-technical-report</link>
+            <guid isPermaLink="false">https://cursor.com/blog/composer-2-technical-report</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Thu, 26 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Improving Composer through real-time RL]]></title>
+            <link>https://cursor.com/blog/real-time-rl-for-composer</link>
+            <guid isPermaLink="false">https://cursor.com/blog/real-time-rl-for-composer</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Wed, 25 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Run cloud agents in your own infrastructure]]></title>
+            <link>https://cursor.com/blog/self-hosted-cloud-agents</link>
+            <guid isPermaLink="false">https://cursor.com/blog/self-hosted-cloud-agents</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Tue, 24 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fast regex search: indexing text for agent tools]]></title>
+            <link>https://cursor.com/blog/fast-regex-search</link>
+            <guid isPermaLink="false">https://cursor.com/blog/fast-regex-search</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Composer 2]]></title>
+            <description><![CDATA[Frontier-level coding with strong CursorBench results, higher token efficiency, and a faster default variant.]]></description>
+            <link>https://cursor.com/blog/composer-2</link>
+            <guid isPermaLink="false">https://cursor.com/blog/composer-2</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Training Composer for longer horizons]]></title>
+            <link>https://cursor.com/blog/self-summarization</link>
+            <guid isPermaLink="false">https://cursor.com/blog/self-summarization</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Mon, 16 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Securing our codebase with autonomous agents]]></title>
+            <link>https://cursor.com/blog/security-agents</link>
+            <guid isPermaLink="false">https://cursor.com/blog/security-agents</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Sun, 15 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How we compare model quality in Cursor]]></title>
+            <description><![CDATA[We use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do.]]></description>
+            <link>https://cursor.com/blog/cursorbench</link>
+            <guid isPermaLink="false">https://cursor.com/blog/cursorbench</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Tue, 10 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Over 30 new plugins join the Cursor Marketplace]]></title>
+            <link>https://cursor.com/blog/new-plugins</link>
+            <guid isPermaLink="false">https://cursor.com/blog/new-plugins</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Tue, 10 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PlanetScale protects production reliability with Bugbot]]></title>
+            <link>https://cursor.com/blog/planetscale</link>
+            <guid isPermaLink="false">https://cursor.com/blog/planetscale</guid>
+            <pubDate>Sun, 01 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The third era of AI software development]]></title>
+            <description><![CDATA[A third era of AI software development is emerging as autonomous cloud agents take on larger tasks over longer timescales.]]></description>
+            <link>https://cursor.com/blog/third-era</link>
+            <guid isPermaLink="false">https://cursor.com/blog/third-era</guid>
+            <category><![CDATA[·]]></category>
+            <pubDate>Wed, 25 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Box chooses Cursor for enterprise-grade quality, security, and control]]></title>
+            <link>https://cursor.com/blog/box</link>
+            <guid isPermaLink="false">https://cursor.com/blog/box</guid>
+            <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIA commits 3x more code across 30,000 developers with Cursor]]></title>
+            <link>https://cursor.com/blog/nvidia</link>
+            <guid isPermaLink="false">https://cursor.com/blog/nvidia</guid>
+            <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Salesforce accelerates velocity by over 30% and ships higher-quality code with Cursor]]></title>
+            <link>https://cursor.com/blog/salesforce</link>
+            <guid isPermaLink="false">https://cursor.com/blog/salesforce</guid>
+            <pubDate>Tue, 20 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Tabby Releases]]></title>
+        <description><![CDATA[RSS feed for Tabby Releases]]></description>
+        <link>https://github.com/TabbyML/tabby/releases</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:29:04 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/tabby-releases.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:29:04 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[next-alpha]]></title>
+            <description><![CDATA[This is an alpha version for Tabby dev,
+This is only intended to be used internally.]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/next-alpha</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/next-alpha</guid>
+            <pubDate>Mon, 09 Feb 2026 10:49:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.32.0]]></title>
+            <description><![CDATA[## 🚀 Features
+
+* Add support for mistral/embedding api kind. [#4380](https://github.com/TabbyML/tabby/pull/4380)
+* Add generic OAuth support. [#4325](https://github.com/TabbyML/tabby/pull/4325)
+* Add support for indexing multiple branches. [#4419](https://github.com/TabbyML/tabby/pull/4419)
+
+## 🧰 Fixed and Improvements
+
+* Include email in invitation link and disable email editing when opening the link. [#4417](https://github.com/TabbyML/tabby/pull/4417)]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.32.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.32.0</guid>
+            <pubDate>Sun, 25 Jan 2026 17:07:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.32.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.32.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.32.0-rc.1</guid>
+            <pubDate>Thu, 22 Jan 2026 04:58:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.32.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.32.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.32.0-rc.0</guid>
+            <pubDate>Mon, 12 Jan 2026 11:38:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.31.2]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.31.0) for 0.31.
+
+## 🧰 Fixed and Improvements
+
+* Added environment variable `TABBY_INDEX_REPO_IN_SHARD` to enable hourly sharded indexing when repository count exceeds 20. [#4366](https://github.com/TabbyML/tabby/pull/4366)]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.2</guid>
+            <pubDate>Thu, 25 Sep 2025 16:26:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.31.2-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.2-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.2-rc.0</guid>
+            <pubDate>Thu, 25 Sep 2025 05:41:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.31.1]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.31.0) for 0.31.
+
+## 🧰 Fixed and Improvements
+
+* Optimize the SQLite connection parameters to improve stability. [#4350](https://github.com/TabbyML/tabby/pull/4350)]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.1</guid>
+            <pubDate>Tue, 26 Aug 2025 17:58:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.31.1-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.1-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.1-rc.0</guid>
+            <pubDate>Tue, 26 Aug 2025 17:36:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.31.0]]></title>
+            <description><![CDATA[## 🚀 Features
+
+* Add support for custom branding with name and logo (Available Exclusively with an Enterprise License). [#4334](https://github.com/TabbyML/tabby/pull/4334)
+]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.0</guid>
+            <pubDate>Tue, 19 Aug 2025 19:04:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.31.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.0-rc.2</guid>
+            <pubDate>Tue, 19 Aug 2025 06:37:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.31.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.0-rc.1</guid>
+            <pubDate>Mon, 18 Aug 2025 07:36:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.31.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.0-rc.0</guid>
+            <pubDate>Fri, 08 Aug 2025 11:42:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.2]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.30.0) for 0.30.
+
+## 🧰 Fixed and Improvements
+
+* Use 0.7.3 sqlx to avoid database pool timeout. [#4328](https://github.com/TabbyML/tabby/pull/4328)
+* Bump llama.cpp to b6047. [#4330](https://github.com/TabbyML/tabby/pull/4330)
+* Expose the Flash Attention LLAMA flag as an environment variable. [#4323](https://github.com/TabbyML/tabby/pull/4323)
+]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.30.2</guid>
+            <pubDate>Thu, 07 Aug 2025 09:13:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.2-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.2-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.30.2-rc.2</guid>
+            <pubDate>Fri, 01 Aug 2025 15:45:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.1]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.30.0) for 0.30.
+
+## 🧰 Fixed and Improvements
+
+* Downgrade CUDA base image to version 12.4.1 to enhance compatibility. [#4314](https://github.com/TabbyML/tabby/pull/4314)]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.30.1</guid>
+            <pubDate>Sat, 12 Jul 2025 18:36:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.1-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.1-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.30.1-rc.1</guid>
+            <pubDate>Sat, 12 Jul 2025 15:20:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.1-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.1-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.30.1-rc.0</guid>
+            <pubDate>Fri, 11 Jul 2025 04:30:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.0]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* The Tabby Docker image now requires an NVIDIA GPU. For CPU-only environments, use the Linux binary.
+
+## 🚀 Features
+
+* Support indexing GitLab Merge Request as Context. [#4227](https://github.com/TabbyML/tabby/pull/4227)
+
+## 🧰 Fixed and Improvements
+
+* Use CUDA 12 image as base image by default. [#4235](https://github.com/TabbyML/tabby/pull/4235)
+* Leverage the Answer Engine logic to enrich the context when generating new pages, improving page quality. [#4237](https://github.com/TabbyML/tabby/pull/4237)
+* Improve the model configuration details on the System page. [#4236](https://github.com/TabbyML/tabby/pull/4236)
+* Resolve the flickering of buttons within code snippets in a chat response during answer generation. [#4233](https://github.com/TabbyML/tabby/pull/4233)
+* Set the member filter bar always fixed at the top of the Reports page.[#4232](https://github.com/TabbyML/tabby/pull/4232)
+* Resolve the issue when loading a multi-part model from local.[#4302](https://github.com/TabbyML/tabby/pull/4302)
+
+## 💫 New Contributors
+
+* @petarjuki7 made their first contribution in [#4265](https://github.com/TabbyML/tabby/pull/4265)
+
+**Full Changelog**: https://github.com/TabbyML/tabby/compare/v0.29.0...v0.30.0
+]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.30.0</guid>
+            <pubDate>Wed, 02 Jul 2025 07:58:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.30.0-rc.2</guid>
+            <pubDate>Wed, 02 Jul 2025 03:40:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.30.0-rc.0</guid>
+            <pubDate>Wed, 11 Jun 2025 12:23:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.29.0]]></title>
+            <description><![CDATA[## 🚀 Features
+
+* Add RESTful APIs for ingesting custom documents and facilitating their removal. ([#4171](https://github.com/TabbyML/tabby/pull/4171)) ([#4203](https://github.com/TabbyML/tabby/pull/4203)) ([#4196](https://github.com/TabbyML/tabby/pull/4196))
+
+## 🧰 Fixed and Improvements
+
+* Enhance error details in Notification Inbox. ([#4184](https://github.com/TabbyML/tabby/pull/4184))
+* Add support for Automatic Jobs status polling. ([#4172](https://github.com/TabbyML/tabby/pull/4172))
+* Bump llama.cpp to b2500. ([#4200](https://github.com/TabbyML/tabby/pull/4200))
+
+## 💫 New Contributors
+
+@roman0yurin made their first contribution in #4080
+@NarwhalChen made their first contribution in #4146
+
+**Full Changelog**: https://github.com/TabbyML/tabby/compare/v0.28.0...v0.29.0]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.29.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.29.0</guid>
+            <pubDate>Mon, 19 May 2025 15:13:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.29.0-rc.4]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.29.0-rc.4</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.29.0-rc.4</guid>
+            <pubDate>Mon, 19 May 2025 05:17:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.29.0-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.29.0-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.29.0-rc.3</guid>
+            <pubDate>Fri, 16 May 2025 17:37:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.29.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.29.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.29.0-rc.2</guid>
+            <pubDate>Thu, 15 May 2025 10:28:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.14.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.14.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.14.0-rc.2</guid>
+            <pubDate>Wed, 14 May 2025 12:09:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.29.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.29.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.29.0-rc.1</guid>
+            <pubDate>Fri, 09 May 2025 17:17:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.14.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.14.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.14.0-rc.1</guid>
+            <pubDate>Tue, 06 May 2025 07:16:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.28.0]]></title>
+            <description><![CDATA[## 📰 Highlight
+
+In this release, Tabby introduced `Convert to Page` feature, which can transform Answer Engine messages into persistent, shareable, organized Pages, showcased in this example: [View an Example Page](https://demo.tabbyml.com/pages/tabbys-indexing-of-issues-and-pull-requests-QN7p13)
+
+![CleanShot 2025-04-28 at 21 33 47@2x](https://github.com/user-attachments/assets/ded6906d-889b-4b59-8ced-f4a5fa8a9142)
+
+
+## 🚀 Features
+
+* Add support to convert Answer Engine messages into Pages. ([#4194](https://github.com/TabbyML/tabby/pull/4194))
+* Add support for Doc Query in Chat Panel, allowing Dev Docs to be included as context. ([#4095](https://github.com/TabbyML/tabby/pull/4095))
+
+## 🧰 Fixed and Improvements
+
+* Enhance background task logging to boost performance and enrich user experience. ([#4066](https://github.com/TabbyML/tabby/pull/4066)) ([#4145](https://github.com/TabbyML/tabby/pull/4145))
+* Enhance the display of thinking processes in Answer Engine and Chat Panel. ([#4091](https://github.com/TabbyML/tabby/pull/4091))
+
+**Full Changelog**: https://github.com/TabbyML/tabby/compare/v0.27.1...v0.28.0]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.28.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.28.0</guid>
+            <pubDate>Mon, 28 Apr 2025 06:23:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.28.0-rc.5]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.5</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.5</guid>
+            <pubDate>Sun, 27 Apr 2025 11:02:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.28.0-rc.4]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.4</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.4</guid>
+            <pubDate>Sun, 27 Apr 2025 09:19:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.28.0-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.3</guid>
+            <pubDate>Mon, 21 Apr 2025 15:06:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.28.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.2</guid>
+            <pubDate>Fri, 18 Apr 2025 05:22:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.28.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.1</guid>
+            <pubDate>Wed, 16 Apr 2025 16:53:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.28.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.28.0-rc.0</guid>
+            <pubDate>Mon, 14 Apr 2025 18:03:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.1]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.27.0) for 0.27.
+
+## 🧰 Fixed and Improvements
+
+* Resolved an issue where certain escaped characters could cause plugin crashes on Windows systems. ([#4114](https://github.com/TabbyML/tabby/pull/4114))
+* Resolved an issue where the Tabby server could hang while waiting for the registry file to download in offline environments. ([#4120](https://github.com/TabbyML/tabby/pull/4120))
+* Improved handling of file mentions from different sources in the Chat Panel. ([#4116](https://github.com/TabbyML/tabby/pull/4116))]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.1</guid>
+            <pubDate>Fri, 11 Apr 2025 02:29:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.1-rc.4]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.1-rc.4</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.1-rc.4</guid>
+            <pubDate>Thu, 10 Apr 2025 07:14:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.1-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.1-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.1-rc.3</guid>
+            <pubDate>Tue, 08 Apr 2025 17:05:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.1-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.1-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.1-rc.1</guid>
+            <pubDate>Tue, 08 Apr 2025 08:13:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.13.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.13.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.13.0</guid>
+            <pubDate>Mon, 31 Mar 2025 16:08:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.13.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.13.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.13.0-rc.1</guid>
+            <pubDate>Mon, 31 Mar 2025 15:53:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.0]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* Prepare for the 1.0 release. Starting with this release, extensions version upgrades will maintain backward compatibility with the Tabby server.
+
+## 🚀 Features
+
+* Add support for the ability to execute shell commands within Chat Panel. ([#3979](https://github.com/TabbyML/tabby/pull/3979))
+* Add support for `@changes` within Chat Panel to include uncommitted changes as contexts. ([#3988](https://github.com/TabbyML/tabby/pull/3988))
+* Add security option to hide password login in frontend. When enabled, the password login can be revealed by appending the URL search parameter `passwordSignIn=true`. ([#3996](https://github.com/TabbyML/tabby/pull/3996)) ([#4015](https://github.com/TabbyML/tabby/pull/4015))
+
+## 🧰 Fixed and Improvements
+
+* Store background job logs on disk to prevent disruptions during processing of large repositories. ([#3994](https://github.com/TabbyML/tabby/pull/3994))
+* Track chat usage frequency and display it in Reports page. ([#4025](https://github.com/TabbyML/tabby/pull/4025)) ([#4042](https://github.com/TabbyML/tabby/pull/4042))
+* Resolve the chat functionality issue involving OpenAI reasoning models such as `o3-mini` and `o1-mini`. ([#4049](https://github.com/TabbyML/tabby/pull/4049))
+
+**Full Changelog**: https://github.com/TabbyML/tabby/compare/v0.26.0...v0.27.0]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.0</guid>
+            <pubDate>Mon, 31 Mar 2025 14:35:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.0-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.3</guid>
+            <pubDate>Fri, 28 Mar 2025 18:02:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.13.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.13.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.13.0-rc.0</guid>
+            <pubDate>Fri, 28 Mar 2025 11:18:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.2</guid>
+            <pubDate>Mon, 24 Mar 2025 13:31:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.1</guid>
+            <pubDate>Mon, 24 Mar 2025 10:06:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.0</guid>
+            <pubDate>Fri, 21 Mar 2025 04:04:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.12.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.12.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.12.0</guid>
+            <pubDate>Sun, 16 Mar 2025 05:20:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.26.0]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+Bump minimum katana version to 1.1.2
+
+## 🚀 Features
+
+* Enable the Answer Engine to access the repository's commit history as needed. ([#3916](https://github.com/TabbyML/tabby/pull/3916))
+* Support the display of user chat history on Homepage and Chat Side Panel. ([#3897](https://github.com/TabbyML/tabby/pull/3897))
+
+## 🧰 Fixed and Improvements
+
+* Facilitate the crawling of developer documentation from llms-full.txt when available. ([#3880](https://github.com/TabbyML/tabby/pull/3880))
+
+
+## 💫 New Contributors
+
+@ifelsefi made their first contribution in #3909
+@Azenki made their first contribution in #3869
+
+**Full Changelog**: https://github.com/TabbyML/tabby/compare/v0.25.0...v0.26.0
+]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.26.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.26.0</guid>
+            <pubDate>Sun, 16 Mar 2025 05:05:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.26.0-rc.4]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.4</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.4</guid>
+            <pubDate>Sat, 15 Mar 2025 09:09:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.26.0-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.3</guid>
+            <pubDate>Fri, 14 Mar 2025 09:36:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.26.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.2</guid>
+            <pubDate>Wed, 12 Mar 2025 15:52:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.12.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.12.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.12.0-rc.1</guid>
+            <pubDate>Tue, 11 Mar 2025 11:17:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.26.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.1</guid>
+            <pubDate>Mon, 10 Mar 2025 13:19:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.12.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.12.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.12.0-rc.0</guid>
+            <pubDate>Fri, 07 Mar 2025 04:12:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.26.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.26.0-rc.0</guid>
+            <pubDate>Thu, 06 Mar 2025 16:10:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.2-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.2-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.2-rc.0</guid>
+            <pubDate>Thu, 27 Feb 2025 02:29:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.1]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.25.0) for 0.25.
+
+## 🧰 Fixed and Improvements
+
+* Refine the UI details in Answer Engine. ([#3888](https://github.com/TabbyML/tabby/pull/3888)) ([#3889](https://github.com/TabbyML/tabby/pull/3889)) ([#3891](https://github.com/TabbyML/tabby/pull/3891))]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.1</guid>
+            <pubDate>Tue, 25 Feb 2025 11:04:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.1-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.1-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.1-rc.0</guid>
+            <pubDate>Mon, 24 Feb 2025 10:31:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.0]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+Significant changes have been implemented in this release; please consider adjusting them to fit your specific use case.
+
+* The default parallelism has been increased from 1 to 4, which might increase VRAM usage. ([#3832](https://github.com/TabbyML/tabby/pull/3832))
+* Introduce a new embedding kind `llama.cpp/before_b4356_embedding` for llamafile or other embedding services utilizing the legacy llama.cpp embedding API. ([#3828](https://github.com/TabbyML/tabby/pull/3828))
+
+## 🚀 Features
+
+* Expose thinking process of Answer Engine to the answers in thread message. ([#3785](https://github.com/TabbyML/tabby/pull/3785)) ([#3672](https://github.com/TabbyML/tabby/pull/3672))
+* Enable the Answer Engine to access the repository's directory file list as needed.  ([#3796](https://github.com/TabbyML/tabby/pull/3796))
+* Enable the use of `@` to mention a symbol in Chat Sidebar. ([#3778](https://github.com/TabbyML/tabby/pull/3778))
+* Provide default question recommendations that are repository-aware on Answer Engine. ([#3815](https://github.com/TabbyML/tabby/pull/3815))
+
+## 🧰 Fixed and Improvements
+
+* Provide a configuration to truncate text content prior to dispatching it to embedding service.. ([#3816](https://github.com/TabbyML/tabby/pull/3816))
+* Bump llama.cpp version to b4651. ([#3798](https://github.com/TabbyML/tabby/pull/3798))
+* Automatically retry embedding when the service occasionally fails due to issues with llama.cpp. ([#3805](https://github.com/TabbyML/tabby/pull/3805))
+* Enhance the user interface experience for Answer Engine. ([#3845](https://github.com/TabbyML/tabby/pull/3845)) ([#3794](https://github.com/TabbyML/tabby/pull/3794))
+* Resolve the deserialization issue related to `finish_reason` in chat response from LiteLLM Proxy Server.([#3882](https://github.com/TabbyML/tabby/pull/3882))
+
+## 💫 New Contributors
+
+@zhanba made their first contribution in #3675
+@faceCutWall made their first contribution in #3812
+
+**Full C]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.0</guid>
+            <pubDate>Thu, 20 Feb 2025 15:23:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.0-rc.5]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.5</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.5</guid>
+            <pubDate>Thu, 20 Feb 2025 14:26:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.11.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.11.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.11.0</guid>
+            <pubDate>Thu, 20 Feb 2025 11:56:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.11.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.11.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.11.0-rc.0</guid>
+            <pubDate>Thu, 20 Feb 2025 02:12:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.10.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.10.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.10.1</guid>
+            <pubDate>Tue, 18 Feb 2025 09:55:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.0-rc.4]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.4</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.4</guid>
+            <pubDate>Mon, 17 Feb 2025 10:36:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.0-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.3</guid>
+            <pubDate>Sat, 15 Feb 2025 16:42:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.2</guid>
+            <pubDate>Thu, 13 Feb 2025 14:04:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.10.1-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.10.1-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.10.1-rc.0</guid>
+            <pubDate>Thu, 13 Feb 2025 12:46:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.25.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.25.0-rc.1</guid>
+            <pubDate>Tue, 11 Feb 2025 03:14:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.24.0]]></title>
+            <description><![CDATA[## 🚀 Features
+
+* Implement LDAP Authentication Integration. ([#3650](https://github.com/TabbyML/tabby/pull/3650)) ([#3625](https://github.com/TabbyML/tabby/pull/3625))
+* Add Notifications for unsuccessful background jobs. ([#3713](https://github.com/TabbyML/tabby/pull/3713))
+
+## 🧰 Fixed and Improvements
+
+* Fixed a bug that prevented the client code context in historical messages from being added to the prompt. ([#3673](https://github.com/TabbyML/tabby/pull/3673))
+* Retain the job run and user event history only for the past three months. ([#3640](https://github.com/TabbyML/tabby/pull/3640))
+* Resolved an issue that caused integration errors with recent versions of Jan AI. ([#3649](https://github.com/TabbyML/tabby/pull/3649))
+* Resolved an issue where repositories specified in config.toml were not synchronizing correctly. ([#3703](https://github.com/TabbyML/tabby/pull/3703))
+* Set the active text tab as default context in Code Browser chat. ([#3729](https://github.com/TabbyML/tabby/pull/3729))
+* Resolved an issue that caused models download failures due to changes in HuggingFace API. ([#3772](https://github.com/TabbyML/tabby/pull/3772))
+* Omit indexing of GitHub Pull Request diffs that exceed 300 files. ([#3779](https://github.com/TabbyML/tabby/pull/3779))
+
+## 💫 New Contributors
+
+@HigherOrderLogic made their first contribution in #3699
+@zhanba made their first contribution in #3675
+
+**Full Changelog**: https://github.com/TabbyML/tabby/compare/v0.23.0...v0.24.0]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.24.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.24.0</guid>
+            <pubDate>Wed, 05 Feb 2025 05:23:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.24.0-rc.6]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.6</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.6</guid>
+            <pubDate>Tue, 04 Feb 2025 11:26:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.23.1]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.23.0) for 0.23.0.
+
+## 🧰 Fixed and Improvements
+
+* Fix the issue of being unable to download remote models due to changes in HuggingFace API. ([#3772](https://github.com/TabbyML/tabby/pull/3772))]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.23.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.23.1</guid>
+            <pubDate>Fri, 31 Jan 2025 11:37:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.23.1-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.23.1-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.23.1-rc.1</guid>
+            <pubDate>Fri, 31 Jan 2025 09:52:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.24.0-rc.4]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.4</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.4</guid>
+            <pubDate>Sun, 26 Jan 2025 18:14:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.24.0-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.3</guid>
+            <pubDate>Sun, 26 Jan 2025 13:17:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.24.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.2</guid>
+            <pubDate>Thu, 23 Jan 2025 07:42:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.24.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.1</guid>
+            <pubDate>Mon, 20 Jan 2025 18:17:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.24.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.24.0-rc.0</guid>
+            <pubDate>Fri, 17 Jan 2025 10:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.23.0]]></title>
+            <description><![CDATA[## 🚀 Features
+
+* Add commit hash to code attachments, allowing redirection to the specific commit in code browser. ([#3627](https://github.com/TabbyML/tabby/pull/3627)) ([#3577](https://github.com/TabbyML/tabby/pull/3577))
+* Display the connection status of the gitUrl repository in the chat side panel. ([#3550](https://github.com/TabbyML/tabby/pull/3550))
+
+## 🧰 Fixed and Improvements
+
+* Perform database backups only when there are pending schema migrations. ([#3620](https://github.com/TabbyML/tabby/pull/3620))
+* Add repository selection and remove '#' mentions in the Answer Engine. ([#3619](https://github.com/TabbyML/tabby/pull/3619))
+
+## 💫 New Contributors
+@TimmyOVO made their first contribution in https://github.com/TabbyML/tabby/pull/3606
+
+Full Changelog: https://github.com/TabbyML/tabby/compare/v0.22.0...v0.23.0]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.23.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.23.0</guid>
+            <pubDate>Thu, 09 Jan 2025 06:54:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.10.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.10.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.10.0</guid>
+            <pubDate>Wed, 08 Jan 2025 13:35:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.10.0-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.10.0-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.10.0-rc.0</guid>
+            <pubDate>Tue, 07 Jan 2025 16:09:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.23.0-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.23.0-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.23.0-rc.3</guid>
+            <pubDate>Mon, 06 Jan 2025 06:56:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.23.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.23.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.23.0-rc.2</guid>
+            <pubDate>Sat, 04 Jan 2025 17:50:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.23.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.23.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.23.0-rc.1</guid>
+            <pubDate>Fri, 03 Jan 2025 07:28:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.23.0-rc0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.23.0-rc0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.23.0-rc0</guid>
+            <pubDate>Tue, 31 Dec 2024 03:08:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.22.0]]></title>
+            <description><![CDATA[## 🚀 Features
+
+* Introduce notification inbox on homepage and license expiration check. ([#3541](https://github.com/TabbyML/tabby/pull/3541)) ([#3566](https://github.com/TabbyML/tabby/pull/3566))
+* Display author information for issues / pull requests in Answer Engine context card ([#3513](https://github.com/TabbyML/tabby/pull/3513))
+
+## 🧰 Fixed and Improvements
+
+* Refactors the pull request indexing process to enhance the speed of incremental indexing for pull docs. ([#3538](https://github.com/TabbyML/tabby/pull/3538))
+* Optimize the rate limiter on the HTTP-powered model backend to reduce errors. ([#3567](https://github.com/TabbyML/tabby/pull/3567))
+* Introduce rate limiting at 60 requests per minute in the tabby-webserver. ([#3484](https://github.com/TabbyML/tabby/pull/3484))
+* Validate model capability prior to download. ([#3565](https://github.com/TabbyML/tabby/pull/3565))
+* Fix broken tree view on Windows in CodeBrowser. ([#3528](https://github.com/TabbyML/tabby/pull/3528))
+* Upgrade all Tabby Linux base images to manylinux_2_28. ([#3536](https://github.com/TabbyML/tabby/pull/3536))
+
+## 💫 New Contributors
+
+@aand18 made their first contribution in https://github.com/TabbyML/tabby/pull/3563
+
+**Full Changelog**: https://github.com/TabbyML/tabby/compare/v0.21.2...v0.22.0]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.22.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.22.0</guid>
+            <pubDate>Tue, 24 Dec 2024 05:39:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.22.0-rc.4]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.22.0-rc.4</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.22.0-rc.4</guid>
+            <pubDate>Mon, 23 Dec 2024 11:13:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.22.0-rc.3]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.22.0-rc.3</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.22.0-rc.3</guid>
+            <pubDate>Thu, 19 Dec 2024 17:35:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.22.0-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.22.0-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.22.0-rc.2</guid>
+            <pubDate>Thu, 19 Dec 2024 03:52:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.2]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.21.1) for 0.21.1.
+
+## 🧰 Fixed and Improvements
+
+* Adapt extension side changes in new versions.
+  - VSCode: 1.16.0
+  - IntelliJ Platform: 1.9.1]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.21.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.21.2</guid>
+            <pubDate>Wed, 18 Dec 2024 08:24:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.9.1]]></title>
+            <description><![CDATA[## 1.9.1
+
+### Fixes & Improvements
+
+- Updated the chat panel to be compatible with Tabby server versions 0.21.2, 0.22.0, and later.
+]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1</guid>
+            <pubDate>Wed, 18 Dec 2024 07:18:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.9.1-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1-rc.1</guid>
+            <pubDate>Wed, 18 Dec 2024 06:33:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intellij@1.9.1-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1-rc.0</guid>
+            <pubDate>Tue, 17 Dec 2024 05:47:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.2-rc.5]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.21.2-rc.5</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.21.2-rc.5</guid>
+            <pubDate>Mon, 16 Dec 2024 04:05:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.22.0-rc.1]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.22.0-rc.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.22.0-rc.1</guid>
+            <pubDate>Mon, 16 Dec 2024 03:52:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.2-rc.4]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.21.2-rc.4</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.21.2-rc.4</guid>
+            <pubDate>Fri, 13 Dec 2024 08:52:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.2-rc.2]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.21.2-rc.2</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.21.2-rc.2</guid>
+            <pubDate>Mon, 09 Dec 2024 10:03:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.1]]></title>
+            <description><![CDATA[## ⚠️ Notice
+
+* This is a patch release, please also check [the full release note](https://github.com/TabbyML/tabby/releases/tag/v0.21.0) for 0.21.
+
+## 🧰 Fixed and Improvements
+
+* Fixed Gitlab Context Provider.]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.21.1</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.21.1</guid>
+            <pubDate>Fri, 06 Dec 2024 09:08:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.1-rc.0]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.21.1-rc.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.21.1-rc.0</guid>
+            <pubDate>Fri, 06 Dec 2024 07:35:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.0]]></title>
+            <description><![CDATA[##  ⚠️ Notice
+
+* Due to changes in the indexing format, the `~/.tabby/index` directory will be automatically removed before any further indexing jobs are run. It is expected that the indexing jobs will be re-run (instead of incrementally) after the upgrade.
+
+## 🚀 Features
+
+* Support connecting to llamafile model backend.
+* Display **Open** / **Closed** state for issues / pull requests in Answer Engine context card.
+* Support deleting the entire thread in Answer Engine.
+* Add rate limiter options for HTTP-powered model backends.
+
+## 🧰 Fixed and Improvements
+
+* Fixed a panic that occurred when specifying a local model ([#3464](https://github.com/TabbyML/tabby/issues/3464))
+* Add pagination to Answer Engine threads.
+* Fix Vulkan binary distributions.
+* Improve the retry logic for chunk embedding computation in indexing job.
+
+## 💫 New Contributors
+* @emmanuel-ferdman made their first contribution in https://github.com/TabbyML/tabby/pull/3459
+
+**Full Changelog**: https://github.com/TabbyML/tabby/compare/v0.20.0...v0.21.0]]></description>
+            <link>https://github.com/TabbyML/tabby/releases/tag/v0.21.0</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.21.0</guid>
+            <pubDate>Tue, 03 Dec 2024 09:49:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <link>https://github.com/TabbyML/tabby/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/nightly</guid>
+            <pubDate>Fri, 08 Sep 2023 01:39:25 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

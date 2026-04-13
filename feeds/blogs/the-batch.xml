@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[The Batch - DeepLearning.AI]]></title>
+        <description><![CDATA[RSS feed for The Batch - DeepLearning.AI]]></description>
+        <link>https://www.deeplearning.ai/the-batch/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:28:50 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/the-batch.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:28:50 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Anthropic’s Claude Mythos Problem, Dark DNA Unveiled, Pitfalls for Assistive Models, Simulating Fluid Dynamics]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-348/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-348/</guid>
+            <pubDate>Thu, 09 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing DeepLearning.AI Pro]]></title>
+            <link>https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro/</guid>
+            <pubDate>Thu, 30 Oct 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer Use Gains Momentum, Fine Control of Fine-Tuning]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-286/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-286/</guid>
+            <pubDate>Tue, 28 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s o1]]></title>
+            <link>https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/</guid>
+            <pubDate>Tue, 21 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code’s Source Leaks, OpenAI Exits Video Generation, Gemini Adds Music Generation, LLMs Learn at Inference]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-347/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-347/</guid>
+            <pubDate>Thu, 02 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nvidia’s Open Salvo, OpenAI’s Amazon Deal, Grok Cuts Video Prices, Recursive Language Models]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-346/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-346/</guid>
+            <pubDate>Thu, 26 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Attacks On Data Centers, Qwen3.5 In All Sizes, DeepSeek’s Huawei Play, Apple’s Multimodal Tokenizer]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-345/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-345/</guid>
+            <pubDate>Thu, 19 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GPT-5.4 Makes A Splash, AI’s Growth on Mobile, Data Centers Go Off-Grid, Apple’s Diffusion Research]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-344/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-344/</guid>
+            <pubDate>Thu, 12 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic vs. the U.S. Government, Nano Banana’s Makeover, Frontier Agent Management, Google’s Mathematics Solutions]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-343/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-343/</guid>
+            <pubDate>Thu, 05 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gemini Seizes the Lead, Investors Panic Over Agentic AI, Optimism at Global AI Summit, Local Versus Cloud]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-342/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-342/</guid>
+            <pubDate>Thu, 26 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The New Open-Weights Leader, Big AI’s Political Influence, Predicting Illness, Faster Reasoning]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-341/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-341/</guid>
+            <pubDate>Thu, 19 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Opus 4.6 Thinks Smarter, xAI Joins SpaceX, AI Outperforms Doctors, Standardized AI Audits]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-340/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-340/</guid>
+            <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[OpenClaw Runs Amok, Kimi’s Open Model, Ministral Distilled, Wikipedia’s Partners]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-339/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-339/</guid>
+            <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Agents Go Shopping, Intelligence Redefined, Better Text in Pictures, Higher Engagement Means Worse Alignment]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-338/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-338/</guid>
+            <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Self-Driving Reasoning Models, ChatGPT Adds Ads, Apple’s Deal with Google, 3D Generation Pronto]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-337/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-337/</guid>
+            <pubDate>Thu, 22 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Governments vs. Grok, Meta Buys Agent Tech, Healthcare Chatbots, Limits of AI-Powered Retrieval]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-336/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-336/</guid>
+            <pubDate>Thu, 15 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LLMs Go To Confession, Automated Scientific Research, What Copilot Users Want, Reasoning For Less]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-335/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-335/</guid>
+            <pubDate>Thu, 08 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[New Year Special! Hopes for 2026 from David Cox, Adji Bousso Dieng, Juan M. Lavista Ferres, Tanmay Gupta, Pengtao Xie, Sharon Zhou]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-334/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-334/</guid>
+            <pubDate>Thu, 01 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Top Stories of 2025! Big AI Poaches Talent, Reasoning Models Boost Performance, Agents Write Code, Data Centers Drive GDP, China Turns the Tables]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-333/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-333/</guid>
+            <pubDate>Thu, 25 Dec 2025 23:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

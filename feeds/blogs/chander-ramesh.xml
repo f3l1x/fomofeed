@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Chander Ramesh Writing]]></title>
+        <description><![CDATA[RSS feed for Chander Ramesh Writing]]></description>
+        <link>https://chanderramesh.com/writing</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:28:48 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/chander-ramesh.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:28:48 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Golden Ages]]></title>
+            <description><![CDATA[Every industry has a golden era. And once it ends, it is impossible to break through. Why do Golden Ages begin, and why do they end?]]></description>
+            <link>https://chanderramesh.com/writing/golden-ages</link>
+            <guid isPermaLink="false">https://chanderramesh.com/writing/golden-ages</guid>
+            <pubDate>Wed, 11 Jun 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Everything You Call Life]]></title>
+            <description><![CDATA["Life can be much broader, once you discover one simple fact, and that is that everything around you that you call ‘life’ was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use." - Steve Jobs]]></description>
+            <link>https://chanderramesh.com/writing/everything-you-call-life</link>
+            <guid isPermaLink="false">https://chanderramesh.com/writing/everything-you-call-life</guid>
+            <pubDate>Fri, 07 Feb 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Core Values]]></title>
+            <description><![CDATA[Institutions rot. Empires decay. And companies that once seemed like behemoths wither and die. The average age of a company in the S&P 500 is only 21 years. But why is this?]]></description>
+            <link>https://chanderramesh.com/writing/core-values</link>
+            <guid isPermaLink="false">https://chanderramesh.com/writing/core-values</guid>
+            <pubDate>Sun, 02 Feb 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How London Lost Fashion]]></title>
+            <description><![CDATA[London was the epicenter of fashion nearly all of history. In one century, Paris usurped the title. How did this come to be, and what lessons can America apply today?]]></description>
+            <link>https://chanderramesh.com/writing/how-london-lost-fashion</link>
+            <guid isPermaLink="false">https://chanderramesh.com/writing/how-london-lost-fashion</guid>
+            <pubDate>Tue, 31 Dec 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why Are Startups Hard?]]></title>
+            <description><![CDATA[It's not the hours - many jobs require insane hours. It's not the stress - there are many stressful jobs. So what makes startups so uniquely challenging?]]></description>
+            <link>https://chanderramesh.com/writing/why-are-startups-hard</link>
+            <guid isPermaLink="false">https://chanderramesh.com/writing/why-are-startups-hard</guid>
+            <pubDate>Thu, 14 Nov 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Product Market Fit]]></title>
+            <description><![CDATA[If your company cannot withstand a competitor giving away your product FOR FREE, you do not have product market fit.]]></description>
+            <link>https://chanderramesh.com/writing/pmf</link>
+            <guid isPermaLink="false">https://chanderramesh.com/writing/pmf</guid>
+            <pubDate>Sun, 29 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[On Venting]]></title>
+            <description><![CDATA[Contrary to modern psychobabble, venting your feelings is not good for you. In fact, it is the greatest thing holding you back. Here is why I will never tolerate or listen to it.]]></description>
+            <link>https://chanderramesh.com/writing/on-venting</link>
+            <guid isPermaLink="false">https://chanderramesh.com/writing/on-venting</guid>
+            <pubDate>Mon, 24 Jun 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stop Thinking with IF Statements!]]></title>
+            <description><![CDATA[The most common mistake junior engineers make is a lack of systems thinking. And no where is this more obvious than their prolific use of if statements.]]></description>
+            <link>https://chanderramesh.com/writing/stop-if-statements</link>
+            <guid isPermaLink="false">https://chanderramesh.com/writing/stop-if-statements</guid>
+            <pubDate>Sun, 31 Dec 2023 23:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

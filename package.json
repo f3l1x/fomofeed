@@ -1,0 +1,29 @@
+{
+  "name": "fomofeed",
+  "version": "1.0.0",
+  "module": "src/cli.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "bun run src/cli.ts generate",
+    "generate:full": "bun run src/cli.ts generate --full",
+    "serve": "bun run src/cli.ts serve",
+    "list": "bun run src/cli.ts list",
+    "test": "bun test",
+    "typecheck": "bun x tsc --noEmit",
+    "fmt": "bun x prettier --write 'src/**/*.ts' 'tests/**/*.ts'",
+    "lint": "bun x eslint 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "playwright": "^1.59.1",
+    "rss": "1.2.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/rss": "^0.0.32"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

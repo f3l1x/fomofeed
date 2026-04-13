@@ -1,0 +1,45 @@
+name: Generate Feeds
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: generate-feeds
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TZ: Europe/Prague
+  FOMOFEED_DOMAIN: ${{ vars.FOMOFEED_DOMAIN || 'fomofeed.f3l1x.app' }}
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Install Playwright Chromium
+        run: bunx playwright install --with-deps chromium
+
+      - name: Generate all feeds
+        run: make generate
+
+      - name: Commit and push feeds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/
+          git diff --staged --quiet || (git commit -m "chore: update feeds" && git push)

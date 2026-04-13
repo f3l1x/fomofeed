@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Hamel Husain's Blog]]></title>
+        <description><![CDATA[RSS feed for Hamel Husain's Blog]]></description>
+        <link>https://hamel.dev</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:28:49 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/hamel.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:28:49 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The Revenge of the Data Scientist]]></title>
+            <link>https://hamel.dev/blog/posts/revenge/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/revenge/index.html</guid>
+            <pubDate>Wed, 25 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Evals Skills for Coding Agents]]></title>
+            <link>https://hamel.dev/blog/posts/evals-skills/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-skills/index.html</guid>
+            <pubDate>Sun, 01 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why I Stopped Using nbdev]]></title>
+            <link>https://hamel.dev/blog/posts/ai-stack/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/ai-stack/index.html</guid>
+            <pubDate>Sat, 17 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LLM Evals: Everything You Need to Know]]></title>
+            <link>https://hamel.dev/blog/posts/evals-faq/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-faq/index.html</guid>
+            <pubDate>Wed, 14 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Selecting The Right AI Evals Tool]]></title>
+            <link>https://hamel.dev/blog/posts/eval-tools/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/eval-tools/index.html</guid>
+            <pubDate>Tue, 30 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stop Saying RAG Is Dead]]></title>
+            <link>https://hamel.dev/notes/llm/rag/not_dead.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/llm/rag/not_dead.html</guid>
+            <pubDate>Thu, 10 Jul 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Inspect AI, An OSS Python Library For LLM Evals]]></title>
+            <link>https://hamel.dev/notes/llm/evals/inspect.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/llm/evals/inspect.html</guid>
+            <pubDate>Sun, 22 Jun 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A Field Guide to Rapidly Improving AI Products]]></title>
+            <link>https://hamel.dev/blog/posts/field-guide/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/field-guide/index.html</guid>
+            <pubDate>Sun, 23 Mar 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Thoughts On A Month With Devin]]></title>
+            <link>https://www.answer.ai/posts/2025-01-08-devin.html</link>
+            <guid isPermaLink="false">https://www.answer.ai/posts/2025-01-08-devin.html</guid>
+            <pubDate>Sat, 18 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nbsanity - Share Notebooks as Polished Web Pages in Seconds]]></title>
+            <link>https://www.answer.ai/posts/2024-12-13-nbsanity.html</link>
+            <guid isPermaLink="false">https://www.answer.ai/posts/2024-12-13-nbsanity.html</guid>
+            <pubDate>Thu, 12 Dec 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building an Audience Through Technical Writing: Strategies and Mistakes]]></title>
+            <link>https://hamel.dev/blog/posts/audience/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/audience/index.html</guid>
+            <pubDate>Fri, 29 Nov 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Using LLM-as-a-Judge For Evaluation: A Complete Guide]]></title>
+            <link>https://hamel.dev/blog/posts/llm-judge/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/llm-judge/index.html</guid>
+            <pubDate>Mon, 28 Oct 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Concurrency Foundations For FastHTML]]></title>
+            <link>https://hamel.dev/notes/fasthtml/concurrency.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/fasthtml/concurrency.html</guid>
+            <pubDate>Wed, 09 Oct 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An Open Course on LLMs, Led by Practitioners]]></title>
+            <link>https://hamel.dev/blog/posts/course/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/course/index.html</guid>
+            <pubDate>Sun, 28 Jul 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What We’ve Learned From A Year of Building with LLMs]]></title>
+            <link>https://applied-llms.org/</link>
+            <guid isPermaLink="false">https://applied-llms.org/</guid>
+            <pubDate>Fri, 31 May 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Debugging AI With Adversarial Validation]]></title>
+            <link>https://hamel.dev/blog/posts/drift/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/drift/index.html</guid>
+            <pubDate>Thu, 11 Apr 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Your AI Product Needs Evals]]></title>
+            <link>https://hamel.dev/blog/posts/evals/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/evals/index.html</guid>
+            <pubDate>Thu, 28 Mar 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Is Fine-Tuning Still Valuable?]]></title>
+            <link>https://hamel.dev/blog/posts/fine_tuning_valuable.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/fine_tuning_valuable.html</guid>
+            <pubDate>Tue, 26 Mar 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fuck You, Show Me The Prompt.]]></title>
+            <link>https://hamel.dev/blog/posts/prompt/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/prompt/index.html</guid>
+            <pubDate>Tue, 13 Feb 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How To Debug Axolotl]]></title>
+            <link>https://hamel.dev/blog/posts/axolotl/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/axolotl/index.html</guid>
+            <pubDate>Wed, 10 Jan 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dokku: my favorite personal serverless platform]]></title>
+            <link>https://hamel.dev/blog/posts/dokku/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/dokku/index.html</guid>
+            <pubDate>Mon, 08 Jan 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tokenization Gotchas]]></title>
+            <link>https://hamel.dev/notes/llm/finetuning/tokenizer_gotchas.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/llm/finetuning/tokenizer_gotchas.html</guid>
+            <pubDate>Sat, 16 Dec 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tools for curating LLM Data]]></title>
+            <link>https://hamel.dev/notes/llm/finetuning/data_cleaning.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/llm/finetuning/data_cleaning.html</guid>
+            <pubDate>Tue, 14 Nov 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vLLM & Large Models]]></title>
+            <link>https://hamel.dev/notes/llm/inference/big_inference.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/llm/inference/big_inference.html</guid>
+            <pubDate>Fri, 27 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Optimizing LLM latency]]></title>
+            <link>https://hamel.dev/notes/llm/inference/inference.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/llm/inference/inference.html</guid>
+            <pubDate>Sat, 14 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[On commercializing nbdev]]></title>
+            <link>https://hamel.dev/blog/posts/nbdev/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/nbdev/index.html</guid>
+            <pubDate>Mon, 29 May 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why Should ML Engineers Learn Kubernetes?]]></title>
+            <link>https://hamel.dev/blog/posts/k8s/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/k8s/index.html</guid>
+            <pubDate>Sun, 15 Jan 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nbdev + Quarto: A new secret weapon for productivity]]></title>
+            <link>https://www.fast.ai/2022/07/28/nbdev-v2/</link>
+            <guid isPermaLink="false">https://www.fast.ai/2022/07/28/nbdev-v2/</guid>
+            <pubDate>Wed, 27 Jul 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Notebooks in production with Metaflow]]></title>
+            <link>https://outerbounds.com/blog/notebooks-in-production-with-metaflow/</link>
+            <guid isPermaLink="false">https://outerbounds.com/blog/notebooks-in-production-with-metaflow/</guid>
+            <pubDate>Tue, 08 Feb 2022 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ghapi, a new third-party Python client for the GitHub API]]></title>
+            <link>https://github.blog/2020-12-18-learn-about-ghapi-a-new-third-party-python-client-for-the-github-api/</link>
+            <guid isPermaLink="false">https://github.blog/2020-12-18-learn-about-ghapi-a-new-third-party-python-client-for-the-github-api/</guid>
+            <pubDate>Thu, 17 Dec 2020 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nbdev: A literate programming environment that democratizes software engineering best practices]]></title>
+            <link>https://github.blog/2020-11-20-nbdev-a-literate-programming-environment-that-democratizes-software-engineering-best-practices/</link>
+            <guid isPermaLink="false">https://github.blog/2020-11-20-nbdev-a-literate-programming-environment-that-democratizes-software-engineering-best-practices/</guid>
+            <pubDate>Thu, 19 Nov 2020 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fastcore: An Underrated Python Library]]></title>
+            <link>https://fastpages.fast.ai/fastcore</link>
+            <guid isPermaLink="false">https://fastpages.fast.ai/fastcore</guid>
+            <pubDate>Mon, 31 Aug 2020 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Data Science Meets Devops: MLOps with Jupyter, Git, & Kubernetes]]></title>
+            <link>https://blog.kubeflow.org/mlops/</link>
+            <guid isPermaLink="false">https://blog.kubeflow.org/mlops/</guid>
+            <pubDate>Mon, 31 Aug 2020 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Actions: Providing Data Scientists With New Superpowers.]]></title>
+            <link>https://fastpages.fast.ai/actions/markdown/2020/03/06/fastpages-actions.html</link>
+            <guid isPermaLink="false">https://fastpages.fast.ai/actions/markdown/2020/03/06/fastpages-actions.html</guid>
+            <pubDate>Thu, 05 Mar 2020 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing fastpages, An easy to use blogging platform with extra features for Jupyter Notebooks.]]></title>
+            <link>https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html</link>
+            <guid isPermaLink="false">https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html</guid>
+            <pubDate>Thu, 20 Feb 2020 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python Concurrency: The Tricky Bits]]></title>
+            <link>https://python.hamel.dev/concurrency/</link>
+            <guid isPermaLink="false">https://python.hamel.dev/concurrency/</guid>
+            <pubDate>Tue, 04 Feb 2020 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CodeSearchNet Challenge: Evaluating the State of Semantic Code Search]]></title>
+            <link>https://arxiv.org/abs/1909.09436</link>
+            <guid isPermaLink="false">https://arxiv.org/abs/1909.09436</guid>
+            <pubDate>Thu, 19 Sep 2019 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Automate Tasks on GitHub With Machine Learning for Fun and Profit]]></title>
+            <link>https://medium.com/@hamelhusain/mlapp-419f90e8f007?source=friends_link&amp;sk=760e18a2d6e60999d7eb2887352a92a8</link>
+            <guid isPermaLink="false">https://medium.com/@hamelhusain/mlapp-419f90e8f007?source=friends_link&amp;sk=760e18a2d6e60999d7eb2887352a92a8</guid>
+            <pubDate>Tue, 09 Apr 2019 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How To Create Natural Language Semantic Search for Arbitrary Objects With Deep Learning]]></title>
+            <link>https://medium.com/@hamelhusain/semantic-code-search-3cd6d244a39c</link>
+            <guid isPermaLink="false">https://medium.com/@hamelhusain/semantic-code-search-3cd6d244a39c</guid>
+            <pubDate>Mon, 28 May 2018 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How To Create Magical Data Products Using Sequence-to-Sequence Models]]></title>
+            <link>https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</link>
+            <guid isPermaLink="false">https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</guid>
+            <pubDate>Wed, 17 Jan 2018 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Docker Can Help You Become A More Effective Data Scientist]]></title>
+            <link>https://medium.com/towards-data-science/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5</link>
+            <guid isPermaLink="false">https://medium.com/towards-data-science/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5</guid>
+            <pubDate>Fri, 15 Dec 2017 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb]]></title>
+            <link>https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8</link>
+            <guid isPermaLink="false">https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8</guid>
+            <pubDate>Tue, 09 May 2017 22:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

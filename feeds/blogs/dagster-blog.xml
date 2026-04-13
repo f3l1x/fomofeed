@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Dagster Blog]]></title>
+        <description><![CDATA[RSS feed for Dagster Blog]]></description>
+        <link>https://dagster.io/blog</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:28:51 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/dagster-blog.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:28:51 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Dagster 1.13: Octopus's Garden]]></title>
+            <description><![CDATA[Dagster skills, partitioned asset checks, state backed components, virtual assets, and stronger integrations.]]></description>
+            <link>https://dagster.io/blog/dagster-1-13-octopuss-garden</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-13-octopuss-garden</guid>
+            <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Monorepos, the hub-and-spoke model, and Copybara]]></title>
+            <description><![CDATA[How we configure Copybara for bi-directional syncing to enable a hub-and-spoke model for Git repositories]]></description>
+            <link>https://dagster.io/blog/monorepos-the-hub-and-spoke-model-and-copybara</link>
+            <guid isPermaLink="false">https://dagster.io/blog/monorepos-the-hub-and-spoke-model-and-copybara</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Thu, 02 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Making Dagster Easier to Contribute to in an AI-Driven World]]></title>
+            <description><![CDATA[AI has made contributing to open source easier but reviewing contributions is still hard. At Dagster, we’re improving the contributor experience with smarter review tooling, clearer guidelines, and a focus on contributions that are easier to evaluate, merge, and maintain.]]></description>
+            <link>https://dagster.io/blog/making-dagster-easier-to-contribute</link>
+            <guid isPermaLink="false">https://dagster.io/blog/making-dagster-easier-to-contribute</guid>
+            <category><![CDATA[Product]]></category>
+            <pubDate>Tue, 31 Mar 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DataOps with Dagster: A Practical Guide to Building a Reliable Data Platform]]></title>
+            <description><![CDATA[DataOps is about building a system that provides visibility into what's happening and control over how it behaves]]></description>
+            <link>https://dagster.io/blog/dataops-with-dagster-a-practical-guide-to-building-a-reliable-data-platform</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dataops-with-dagster-a-practical-guide-to-building-a-reliable-data-platform</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Mon, 16 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unlocking the Full Value of Your Databricks]]></title>
+            <description><![CDATA[Standardizing on Databricks is a smart strategic move, but consolidation alone does not create a working operating model across teams, tools, and downstream systems. By pairing Databricks and Unity Catalog with Dagster, enterprises can add the coordination layer needed for dependency visibility, end-to-end lineage, and faster, more confident delivery at scale.]]></description>
+            <link>https://dagster.io/blog/unlocking-the-full-value-of-your-databricks</link>
+            <guid isPermaLink="false">https://dagster.io/blog/unlocking-the-full-value-of-your-databricks</guid>
+            <category><![CDATA[Product]]></category>
+            <pubDate>Wed, 11 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing AI Driven Data Engineering]]></title>
+            <description><![CDATA[AI coding agents are changing how data engineers work. This Dagster University course shows how to build a production-ready ELT pipeline from prompts while learning practical patterns for reliable AI-assisted development.]]></description>
+            <link>https://dagster.io/blog/announcing-ai-driven-data-engineering</link>
+            <guid isPermaLink="false">https://dagster.io/blog/announcing-ai-driven-data-engineering</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[When to Move from Dagster OSS to Dagster+]]></title>
+            <description><![CDATA[Dagster OSS is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster+ and shift your focus back to building data products.]]></description>
+            <link>https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</guid>
+            <category><![CDATA[Product]]></category>
+            <pubDate>Wed, 25 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sample-Level Versioning for ML Pipelines with Dagster and Metaxy]]></title>
+            <description><![CDATA[Learn how Metaxy can be used to build multimodal data pipelines with sample-level granularity on Dagster]]></description>
+            <link>https://dagster.io/blog/building-real-time-interactive-avatars-with-metaxy</link>
+            <guid isPermaLink="false">https://dagster.io/blog/building-real-time-interactive-avatars-with-metaxy</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Evaluating Skills]]></title>
+            <description><![CDATA[We built a light weight evaluation framework to quantiatively measure the effectiveness of the Dagster Skills, and these are our findings.]]></description>
+            <link>https://dagster.io/blog/evaluating-agent-skills</link>
+            <guid isPermaLink="false">https://dagster.io/blog/evaluating-agent-skills</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Great Infrastructure Needs Great Stories: Designing our Children’s Book]]></title>
+            <description><![CDATA[We set out to explain Dagster assets in the simplest possible way: as living characters that wait, react, and change with their dependencies. By designing a children’s book with warmth, visuals, and motion, we rediscovered what makes assets compelling in the first place.]]></description>
+            <link>https://dagster.io/blog/great-infrastructure-needs-great-stories</link>
+            <guid isPermaLink="false">https://dagster.io/blog/great-infrastructure-needs-great-stories</guid>
+            <category><![CDATA[Product]]></category>
+            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Closing the DataOps Loop: Why We Built Compass for Dagster+]]></title>
+            <description><![CDATA[Detection isn't the bottleneck anymore. Understanding is. Compass closes the loop by turning Dagster+ operational data into a conversation.]]></description>
+            <link>https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</guid>
+            <category><![CDATA[Product]]></category>
+            <pubDate>Mon, 02 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pytest for Agent-Generated Code: Concrete Testing Strategies to Put Into Practice]]></title>
+            <description><![CDATA[When agents write tests, intent matters as much as correctness. By defining clear testing levels, preferred patterns, and explicit anti-patterns, we give agents the structure they need to produce fast, reliable Pytest suites that scale with automation.]]></description>
+            <link>https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</link>
+            <guid isPermaLink="false">https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Sun, 25 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster + Snowflake: Building Production AI Pipelines with Cortex]]></title>
+            <description><![CDATA[Snowflake handles AI compute while Dagster handles orchestration, observability, and the operational patterns that turn AI experiments into reliable production pipelines.]]></description>
+            <link>https://dagster.io/blog/dagster-snowflake-cortex</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-snowflake-cortex</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Tue, 20 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

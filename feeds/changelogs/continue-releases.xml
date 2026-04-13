@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Continue Releases]]></title>
+        <description><![CDATA[RSS feed for Continue Releases]]></description>
+        <link>https://github.com/continuedev/continue/releases</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:29:03 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/continue-releases.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:29:03 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.2.22-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix: ensure config.yaml exists and is populated when accessed by @RomneyDa in https://github.com/continuedev/continue/pull/11915
+* chore: jb-67-vs-38 by @RomneyDa in https://github.com/continuedev/continue/pull/11916
+* chore(deps-dev): bump happy-dom from 20.0.2 to 20.8.9 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11910
+* chore(deps): bump handlebars from 4.7.8 to 4.7.9 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11911
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/llm-info by @dependabot[bot] in https://github.com/continuedev/continue/pull/11912
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/config-yaml by @dependabot[bot] in https://github.com/continuedev/continue/pull/11913
+* chore(deps-dev): bump brace-expansion from 1.1.12 to 1.1.13 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11931
+* chore(deps-dev): bump brace-expansion from 1.1.12 to 1.1.13 in /binary by @dependabot[bot] in https://github.com/continuedev/continue/pull/11930
+* feat: filter session history by workspace directory by @mvanhorn in https://github.com/continuedev/continue/pull/11813
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/fetch by @dependabot[bot] in https://github.com/continuedev/continue/pull/11936
+* chore(deps): bump path-to-regexp from 0.1.12 to 0.1.13 in /packages/continue-sdk by @dependabot[bot] in https://github.com/continuedev/continue/pull/11937
+* feat: add .continue/configs support by @RomneyDa in https://github.com/continuedev/continue/pull/11935
+
+
+
+**Full Changelog**: https://github.com/continuedev/continue/compare/v1.2.21-vscode...v1.2.22-vscode]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.22-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.22-vscode</guid>
+            <pubDate>Fri, 27 Mar 2026 21:25:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.38-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix: ensure config.yaml exists and is populated when accessed by @RomneyDa in https://github.com/continuedev/continue/pull/11915
+* chore: jb-67-vs-38 by @RomneyDa in https://github.com/continuedev/continue/pull/11916
+* chore(deps-dev): bump happy-dom from 20.0.2 to 20.8.9 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11910
+* chore(deps): bump handlebars from 4.7.8 to 4.7.9 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11911
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/llm-info by @dependabot[bot] in https://github.com/continuedev/continue/pull/11912
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/config-yaml by @dependabot[bot] in https://github.com/continuedev/continue/pull/11913
+* chore(deps-dev): bump brace-expansion from 1.1.12 to 1.1.13 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11931
+* chore(deps-dev): bump brace-expansion from 1.1.12 to 1.1.13 in /binary by @dependabot[bot] in https://github.com/continuedev/continue/pull/11930
+* feat: filter session history by workspace directory by @mvanhorn in https://github.com/continuedev/continue/pull/11813
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/fetch by @dependabot[bot] in https://github.com/continuedev/continue/pull/11936
+* chore(deps): bump path-to-regexp from 0.1.12 to 0.1.13 in /packages/continue-sdk by @dependabot[bot] in https://github.com/continuedev/continue/pull/11937
+* feat: add .continue/configs support by @RomneyDa in https://github.com/continuedev/continue/pull/11935
+
+**Full Changelog**: https://github.com/continuedev/continue/compare/v1.3.37-vscode...v1.3.38-vscode]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.38-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.38-vscode</guid>
+            <pubDate>Fri, 27 Mar 2026 21:23:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.67-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* fix: redirect Winston logger to stderr to prevent IPC stream corruption + fix binary tests by @RomneyDa in https://github.com/continuedev/continue/pull/11914
+* fix: ensure config.yaml exists and is populated when accessed by @RomneyDa in https://github.com/continuedev/continue/pull/11915
+* chore: jb-67-vs-38 by @RomneyDa in https://github.com/continuedev/continue/pull/11916
+* chore(deps-dev): bump happy-dom from 20.0.2 to 20.8.9 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11910
+* chore(deps): bump handlebars from 4.7.8 to 4.7.9 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11911
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/llm-info by @dependabot[bot] in https://github.com/continuedev/continue/pull/11912
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/config-yaml by @dependabot[bot] in https://github.com/continuedev/continue/pull/11913
+* chore(deps-dev): bump brace-expansion from 1.1.12 to 1.1.13 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11931
+* chore(deps-dev): bump brace-expansion from 1.1.12 to 1.1.13 in /binary by @dependabot[bot] in https://github.com/continuedev/continue/pull/11930
+* feat: filter session history by workspace directory by @mvanhorn in https://github.com/continuedev/continue/pull/11813
+* chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/fetch by @dependabot[bot] in https://github.com/continuedev/continue/pull/11936
+* chore(deps): bump path-to-regexp from 0.1.12 to 0.1.13 in /packages/continue-sdk by @dependabot[bot] in https://github.com/continuedev/continue/pull/11937
+* feat: add .continue/configs support by @RomneyDa in https://github.com/continuedev/continue/pull/11935
+
+
+
+**Full Changelog**: https://github.com/continuedev/continue/compare/v1.0.66-jetbrains...v1.0.67-jetbrains]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.67-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.67-jetbrains</guid>
+            <pubDate>Fri, 27 Mar 2026 21:22:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.21-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* chore: jb-66-vs-37 by @RomneyDa in https://github.com/continuedev/continue/pull/11909
+* fix: remove Ollama template-based tool support gate by @RomneyDa in https://github.com/continuedev/continue/pull/11905
+
+
+**Full Changelog**: https://github.com/continuedev/continue/compare/v1.2.20-vscode...v1.2.21-vscode]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.21-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.21-vscode</guid>
+            <pubDate>Thu, 26 Mar 2026 23:55:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.37-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* chore: jb-66-vs-37 by @RomneyDa in https://github.com/continuedev/continue/pull/11909
+* fix: remove Ollama template-based tool support gate by @RomneyDa in https://github.com/continuedev/continue/pull/11905
+
+**Full Changelog**: https://github.com/continuedev/continue/compare/v1.3.36-vscode...v1.3.37-vscode]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.37-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.37-vscode</guid>
+            <pubDate>Thu, 26 Mar 2026 23:53:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.66-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* chore: jb-66-vs-37 by @RomneyDa in https://github.com/continuedev/continue/pull/11909
+* fix: remove Ollama template-based tool support gate by @RomneyDa in https://github.com/continuedev/continue/pull/11905
+
+
+**Full Changelog**: https://github.com/continuedev/continue/compare/v1.0.65-jetbrains...v1.0.66-jetbrains]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.66-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.66-jetbrains</guid>
+            <pubDate>Thu, 26 Mar 2026 23:52:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[main]]></title>
+            <link>https://github.com/continuedev/continue/releases/tag/main</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/main</guid>
+            <pubDate>Thu, 26 Mar 2026 22:55:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.20-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix: add ModelDescription type to binary test callbacks by @RomneyDa in https://github.com/continuedev/continue/pull/11888
+* Fix StringIndexOutOfBoundsException in readRangeInFile by @ivanlen in https://github.com/continuedev/continue/pull/11881
+* fix: resolve critical and high security vulnerabilities by @RomneyDa in https://github.com/continuedev/continue/pull/11848
+* chore: jetbrains 65, vs code 36 by @RomneyDa in https://github.com/continuedev/continue/pull/11892
+* fix(openai-adapter): map max_tokens to max_completion_tokens for DeepSeek reasoner by @RomneyDa in https://github.com/continuedev/continue/pull/11889
+* fix: harden JetBrains remote config sync to prevent IDE freezes by @RomneyDa in https://github.com/continuedev/continue/pull/11891
+* vscode 1.3.36 by @RomneyDa in https://github.com/continuedev/continue/pull/11898
+* fix: update JetBrains binary test expected files by @RomneyDa in https://github.com/continuedev/continue/pull/11890
+* fix: resolve crashes in DiffStreamHandler — unsafe cast and negative line numbers by @RomneyDa in https://github.com/continuedev/continue/pull/11893
+* fix: add guard for disposed JCEF browser in sendToWebview by @RomneyDa in https://github.com/continuedev/continue/pull/11897
+* chore(deps): bump brace-expansion from 5.0.4 to 5.0.5 in /packages/continue-sdk by @dependabot[bot] in https://github.com/continuedev/continue/pull/11903
+* fix: sync message type pass-through lists between core and JetBrains by @RomneyDa in https://github.com/continuedev/continue/pull/11902
+* fix: resolve SideEffectNotAllowedException in intention previews by @RomneyDa in https://github.com/continuedev/continue/pull/11894
+* fix: prevent responseListeners memory leak in CoreMessenger by @RomneyDa in https://github.com/continuedev/continue/pull/11901
+* fix: chunk large JCEF messages to prevent JetBrains sidebar freezes by @RomneyDa in https://github.com/continuedev/continue/pull/11899
+* fix(intellij): handle square bra]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.20-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.20-vscode</guid>
+            <pubDate>Thu, 26 Mar 2026 22:43:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.65-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* chore: jetbrains 65, vs code 36 by @RomneyDa in https://github.com/continuedev/continue/pull/11892
+* fix(openai-adapter): map max_tokens to max_completion_tokens for DeepSeek reasoner by @RomneyDa in https://github.com/continuedev/continue/pull/11889
+* fix: harden JetBrains remote config sync to prevent IDE freezes by @RomneyDa in https://github.com/continuedev/continue/pull/11891
+* vscode 1.3.36 by @RomneyDa in https://github.com/continuedev/continue/pull/11898
+* fix: update JetBrains binary test expected files by @RomneyDa in https://github.com/continuedev/continue/pull/11890
+* fix: resolve crashes in DiffStreamHandler — unsafe cast and negative line numbers by @RomneyDa in https://github.com/continuedev/continue/pull/11893
+* fix: add guard for disposed JCEF browser in sendToWebview by @RomneyDa in https://github.com/continuedev/continue/pull/11897
+* chore(deps): bump brace-expansion from 5.0.4 to 5.0.5 in /packages/continue-sdk by @dependabot[bot] in https://github.com/continuedev/continue/pull/11903
+* fix: sync message type pass-through lists between core and JetBrains by @RomneyDa in https://github.com/continuedev/continue/pull/11902
+* fix: resolve SideEffectNotAllowedException in intention previews by @RomneyDa in https://github.com/continuedev/continue/pull/11894
+* fix: prevent responseListeners memory leak in CoreMessenger by @RomneyDa in https://github.com/continuedev/continue/pull/11901
+* fix: chunk large JCEF messages to prevent JetBrains sidebar freezes by @RomneyDa in https://github.com/continuedev/continue/pull/11899
+* fix(intellij): handle square brackets in file paths for autocomplete by @Tarasusrus in https://github.com/continuedev/continue/pull/11474
+
+## New Contributors
+* @Tarasusrus made their first contribution in https://github.com/continuedev/continue/pull/11474
+
+**Full Changelog**: https://github.com/continuedev/continue/compare/v1.0.64-jetbrains...v1.0.65-jetbrains]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.65-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.65-jetbrains</guid>
+            <pubDate>Thu, 26 Mar 2026 22:29:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.36-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix: add ModelDescription type to binary test callbacks by @RomneyDa in https://github.com/continuedev/continue/pull/11888
+* Fix StringIndexOutOfBoundsException in readRangeInFile by @ivanlen in https://github.com/continuedev/continue/pull/11881
+* fix: resolve critical and high security vulnerabilities by @RomneyDa in https://github.com/continuedev/continue/pull/11848
+* chore: jetbrains 65, vs code 36 by @RomneyDa in https://github.com/continuedev/continue/pull/11892
+* fix(openai-adapter): map max_tokens to max_completion_tokens for DeepSeek reasoner by @RomneyDa in https://github.com/continuedev/continue/pull/11889
+* fix: harden JetBrains remote config sync to prevent IDE freezes by @RomneyDa in https://github.com/continuedev/continue/pull/11891
+* vscode 1.3.36 by @RomneyDa in https://github.com/continuedev/continue/pull/11898
+* fix: update JetBrains binary test expected files by @RomneyDa in https://github.com/continuedev/continue/pull/11890
+* fix: resolve crashes in DiffStreamHandler — unsafe cast and negative line numbers by @RomneyDa in https://github.com/continuedev/continue/pull/11893
+* fix: add guard for disposed JCEF browser in sendToWebview by @RomneyDa in https://github.com/continuedev/continue/pull/11897
+* chore(deps): bump brace-expansion from 5.0.4 to 5.0.5 in /packages/continue-sdk by @dependabot[bot] in https://github.com/continuedev/continue/pull/11903
+* fix: sync message type pass-through lists between core and JetBrains by @RomneyDa in https://github.com/continuedev/continue/pull/11902
+* fix: resolve SideEffectNotAllowedException in intention previews by @RomneyDa in https://github.com/continuedev/continue/pull/11894
+* fix: prevent responseListeners memory leak in CoreMessenger by @RomneyDa in https://github.com/continuedev/continue/pull/11901
+* fix: chunk large JCEF messages to prevent JetBrains sidebar freezes by @RomneyDa in https://github.com/continuedev/continue/pull/11899
+* fix(intellij): handle square bra]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.36-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.36-vscode</guid>
+            <pubDate>Thu, 26 Mar 2026 22:28:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.64-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* chore: move .continue/agents to .continue/checks by @sestinj in https://github.com/continuedev/continue/pull/10596
+* Add banner image to README by @TyDunn in https://github.com/continuedev/continue/pull/10605
+* docs: add Improving Your Checks page by @sestinj in https://github.com/continuedev/continue/pull/10604
+* feat: Claude Sonnet and Opus 4.6 updates by @RomneyDa in https://github.com/continuedev/continue/pull/10600
+* feat: integrate ai-sdk provider by @uinstinct in https://github.com/continuedev/continue/pull/10467
+* feat: bash tool execution in background by @uinstinct in https://github.com/continuedev/continue/pull/10285
+* docs: simplify quickstart to continue.dev/check by @Patrick-Erichsen in https://github.com/continuedev/continue/pull/10665
+* feat: model updates and + z.ai by @RomneyDa in https://github.com/continuedev/continue/pull/10638
+* feat: pre-install suggestions CLI in devbox blueprints by @sestinj in https://github.com/continuedev/continue/pull/10734
+* chore: remove feature flagged ai sdk usage by @uinstinct in https://github.com/continuedev/continue/pull/10622
+* chore: upgrade ai sdk to v6 by @uinstinct in https://github.com/continuedev/continue/pull/10642
+* fix: detect embedded 429 errors from Gemini/VertexAI APIs by @RomneyDa in https://github.com/continuedev/continue/pull/10674
+* feat: add turn-level prompt caching + PostHog metrics + live API tests by @sestinj in https://github.com/continuedev/continue/pull/10801
+* Remove NODE_AUTH_TOKEN from stable-release workflow by @sestinj in https://github.com/continuedev/continue/pull/10950
+* feat: use env variable to enable ai sdk by @uinstinct in https://github.com/continuedev/continue/pull/10775
+* feat: ai-sdk support for xai and deepseek by @uinstinct in https://github.com/continuedev/continue/pull/10784
+* feat(cli): quiz answers by @uinstinct in https://github.com/continuedev/continue/pull/10845
+* feat: allow background job perm check by default by @uinstinct ]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.64-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.64-jetbrains</guid>
+            <pubDate>Thu, 26 Mar 2026 17:47:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.19-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix: remove Llama 3.1 405B from Groq provider by @RomneyDa in https://github.com/continuedev/continue/pull/11804
+* fix: add keepAlive to YAML completion options schema by @RomneyDa in https://github.com/continuedev/continue/pull/11801
+* fix(llama.cpp): include model name in completion request body by @RomneyDa in https://github.com/continuedev/continue/pull/11803
+* fix(moonshot): add reasoning_content field support for Kimi models by @RomneyDa in https://github.com/continuedev/continue/pull/11806
+* fix: respect contextLength from YAML model config by @RomneyDa in https://github.com/continuedev/continue/pull/11807
+* fix(gemini): merge consecutive same-role messages to fix ordering errors by @RomneyDa in https://github.com/continuedev/continue/pull/11805
+* chore: prerelease bumps jb 64, vs code 35 by @RomneyDa in https://github.com/continuedev/continue/pull/11834
+* fix: lazy-load Ollama /api/show to reduce unnecessary requests by @RomneyDa in https://github.com/continuedev/continue/pull/11836
+* fix: don't skip installs by default and sync lock file by @RomneyDa in https://github.com/continuedev/continue/pull/11837
+* chore(deps-dev): bump picomatch from 2.3.1 to 2.3.2 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11838
+* chore(deps): bump yaml from 2.8.1 to 2.8.3 in /packages/hub by @dependabot[bot] in https://github.com/continuedev/continue/pull/11839
+* chore(deps-dev): bump picomatch from 2.3.1 to 2.3.2 in /packages/hub by @dependabot[bot] in https://github.com/continuedev/continue/pull/11840
+* chore(deps): bump picomatch from 2.3.1 to 2.3.2 by @dependabot[bot] in https://github.com/continuedev/continue/pull/11842
+* feat: add `useResponsesApi` option to opt out of Responses API by @RomneyDa in https://github.com/continuedev/continue/pull/11809
+* chore(deps-dev): bump picomatch from 2.3.1 to 2.3.2 in /packages/continue-sdk/typescript by @dependabot[bot] in https://github.com/continuedev/contin]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.19-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.19-vscode</guid>
+            <pubDate>Thu, 26 Mar 2026 09:11:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.35-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix: remove Llama 3.1 405B from Groq provider by @RomneyDa in https://github.com/continuedev/continue/pull/11804
+* fix: add keepAlive to YAML completion options schema by @RomneyDa in https://github.com/continuedev/continue/pull/11801
+* fix(llama.cpp): include model name in completion request body by @RomneyDa in https://github.com/continuedev/continue/pull/11803
+* fix(moonshot): add reasoning_content field support for Kimi models by @RomneyDa in https://github.com/continuedev/continue/pull/11806
+* fix: respect contextLength from YAML model config by @RomneyDa in https://github.com/continuedev/continue/pull/11807
+* fix(gemini): merge consecutive same-role messages to fix ordering errors by @RomneyDa in https://github.com/continuedev/continue/pull/11805
+* chore: prerelease bumps jb 64, vs code 35 by @RomneyDa in https://github.com/continuedev/continue/pull/11834
+* fix: lazy-load Ollama /api/show to reduce unnecessary requests by @RomneyDa in https://github.com/continuedev/continue/pull/11836
+* fix: don't skip installs by default and sync lock file by @RomneyDa in https://github.com/continuedev/continue/pull/11837
+* chore(deps-dev): bump picomatch from 2.3.1 to 2.3.2 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11838
+* chore(deps): bump yaml from 2.8.1 to 2.8.3 in /packages/hub by @dependabot[bot] in https://github.com/continuedev/continue/pull/11839
+* chore(deps-dev): bump picomatch from 2.3.1 to 2.3.2 in /packages/hub by @dependabot[bot] in https://github.com/continuedev/continue/pull/11840
+* chore(deps): bump picomatch from 2.3.1 to 2.3.2 by @dependabot[bot] in https://github.com/continuedev/continue/pull/11842
+* feat: add `useResponsesApi` option to opt out of Responses API by @RomneyDa in https://github.com/continuedev/continue/pull/11809
+* chore(deps-dev): bump picomatch from 2.3.1 to 2.3.2 in /packages/continue-sdk/typescript by @dependabot[bot] in https://github.com/continuedev/contin]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.35-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.35-vscode</guid>
+            <pubDate>Thu, 26 Mar 2026 09:07:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.18-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix: harden system message tools and wire toolOverrides to system message path by @shanevcantwell in https://github.com/continuedev/continue/pull/10485
+* [Snyk] Security upgrade undici from 7.18.2 to 7.24.0 by @sestinj in https://github.com/continuedev/continue/pull/11379
+* fix: terminal links open wrong URL for addresses with ports by @shanevcantwell in https://github.com/continuedev/continue/pull/11369
+* refactor: unify AbortError detection with isAbortError utility by @amabito in https://github.com/continuedev/continue/pull/10551
+* fix: remove hardcoded Unix $ prompt prefix from terminal UI by @shanevcantwell in https://github.com/continuedev/continue/pull/11429
+* chore(deps): bump socket.io-parser from 4.2.4 to 4.2.6 in /gui by @dependabot[bot] in https://github.com/continuedev/continue/pull/11603
+* chore(deps): bump JetBrains/qodana-action from 2025.3.1 to 2025.3.2 by @dependabot[bot] in https://github.com/continuedev/continue/pull/11496
+* docs: improve SSL certificate troubleshooting guidance by @fahe1em1 in https://github.com/continuedev/continue/pull/11354
+* chore(deps-dev): bump flatted from 3.3.3 to 3.4.2 by @dependabot[bot] in https://github.com/continuedev/continue/pull/11638
+* docs(cli): cover AskQuestion tool behavior and TUI interaction by @siewcapital in https://github.com/continuedev/continue/pull/11162
+* chore(deps-dev): bump flatted from 3.3.3 to 3.4.2 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11640
+* chore(deps): bump undici from 6.23.0 to 6.24.0 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11401
+* docs: document all CLI slash commands in TUI mode by @fahe1em1 in https://github.com/continuedev/continue/pull/11352
+* feat: add Tensorix as an LLM provider by @shanemort1982 in https://github.com/continuedev/continue/pull/11184
+* chore(deps): bump socket.io-parser from 4.2.4 to 4.2.6 in /core by @dependabot[bot] in https://github.com/continu]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.18-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.18-vscode</guid>
+            <pubDate>Wed, 25 Mar 2026 07:58:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.63-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* fix: harden system message tools and wire toolOverrides to system message path by @shanevcantwell in https://github.com/continuedev/continue/pull/10485
+* [Snyk] Security upgrade undici from 7.18.2 to 7.24.0 by @sestinj in https://github.com/continuedev/continue/pull/11379
+* fix: terminal links open wrong URL for addresses with ports by @shanevcantwell in https://github.com/continuedev/continue/pull/11369
+* refactor: unify AbortError detection with isAbortError utility by @amabito in https://github.com/continuedev/continue/pull/10551
+* fix: remove hardcoded Unix $ prompt prefix from terminal UI by @shanevcantwell in https://github.com/continuedev/continue/pull/11429
+* chore(deps): bump socket.io-parser from 4.2.4 to 4.2.6 in /gui by @dependabot[bot] in https://github.com/continuedev/continue/pull/11603
+* chore(deps): bump JetBrains/qodana-action from 2025.3.1 to 2025.3.2 by @dependabot[bot] in https://github.com/continuedev/continue/pull/11496
+* docs: improve SSL certificate troubleshooting guidance by @fahe1em1 in https://github.com/continuedev/continue/pull/11354
+* chore(deps-dev): bump flatted from 3.3.3 to 3.4.2 by @dependabot[bot] in https://github.com/continuedev/continue/pull/11638
+* docs(cli): cover AskQuestion tool behavior and TUI interaction by @siewcapital in https://github.com/continuedev/continue/pull/11162
+* chore(deps-dev): bump flatted from 3.3.3 to 3.4.2 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11640
+* chore(deps): bump undici from 6.23.0 to 6.24.0 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11401
+* docs: document all CLI slash commands in TUI mode by @fahe1em1 in https://github.com/continuedev/continue/pull/11352
+* feat: add Tensorix as an LLM provider by @shanemort1982 in https://github.com/continuedev/continue/pull/11184
+* chore(deps): bump socket.io-parser from 4.2.4 to 4.2.6 in /core by @dependabot[bot] in https://github.com/continu]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.63-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.63-jetbrains</guid>
+            <pubDate>Wed, 25 Mar 2026 07:55:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.34-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix: harden system message tools and wire toolOverrides to system message path by @shanevcantwell in https://github.com/continuedev/continue/pull/10485
+* [Snyk] Security upgrade undici from 7.18.2 to 7.24.0 by @sestinj in https://github.com/continuedev/continue/pull/11379
+* fix: terminal links open wrong URL for addresses with ports by @shanevcantwell in https://github.com/continuedev/continue/pull/11369
+* refactor: unify AbortError detection with isAbortError utility by @amabito in https://github.com/continuedev/continue/pull/10551
+* fix: remove hardcoded Unix $ prompt prefix from terminal UI by @shanevcantwell in https://github.com/continuedev/continue/pull/11429
+* chore(deps): bump socket.io-parser from 4.2.4 to 4.2.6 in /gui by @dependabot[bot] in https://github.com/continuedev/continue/pull/11603
+* chore(deps): bump JetBrains/qodana-action from 2025.3.1 to 2025.3.2 by @dependabot[bot] in https://github.com/continuedev/continue/pull/11496
+* docs: improve SSL certificate troubleshooting guidance by @fahe1em1 in https://github.com/continuedev/continue/pull/11354
+* chore(deps-dev): bump flatted from 3.3.3 to 3.4.2 by @dependabot[bot] in https://github.com/continuedev/continue/pull/11638
+* docs(cli): cover AskQuestion tool behavior and TUI interaction by @siewcapital in https://github.com/continuedev/continue/pull/11162
+* chore(deps-dev): bump flatted from 3.3.3 to 3.4.2 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11640
+* chore(deps): bump undici from 6.23.0 to 6.24.0 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11401
+* docs: document all CLI slash commands in TUI mode by @fahe1em1 in https://github.com/continuedev/continue/pull/11352
+* feat: add Tensorix as an LLM provider by @shanemort1982 in https://github.com/continuedev/continue/pull/11184
+* chore(deps): bump socket.io-parser from 4.2.4 to 4.2.6 in /core by @dependabot[bot] in https://github.com/continu]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.34-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.34-vscode</guid>
+            <pubDate>Wed, 25 Mar 2026 07:54:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.17-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* chore: move .continue/agents to .continue/checks by @sestinj in https://github.com/continuedev/continue/pull/10596
+* Add banner image to README by @TyDunn in https://github.com/continuedev/continue/pull/10605
+* docs: add Improving Your Checks page by @sestinj in https://github.com/continuedev/continue/pull/10604
+* feat: Claude Sonnet and Opus 4.6 updates by @RomneyDa in https://github.com/continuedev/continue/pull/10600
+* feat: integrate ai-sdk provider by @uinstinct in https://github.com/continuedev/continue/pull/10467
+* feat: bash tool execution in background by @uinstinct in https://github.com/continuedev/continue/pull/10285
+* docs: simplify quickstart to continue.dev/check by @Patrick-Erichsen in https://github.com/continuedev/continue/pull/10665
+* feat: model updates and + z.ai by @RomneyDa in https://github.com/continuedev/continue/pull/10638
+* feat: pre-install suggestions CLI in devbox blueprints by @sestinj in https://github.com/continuedev/continue/pull/10734
+* chore: remove feature flagged ai sdk usage by @uinstinct in https://github.com/continuedev/continue/pull/10622
+* chore: upgrade ai sdk to v6 by @uinstinct in https://github.com/continuedev/continue/pull/10642
+* fix: detect embedded 429 errors from Gemini/VertexAI APIs by @RomneyDa in https://github.com/continuedev/continue/pull/10674
+* feat: add turn-level prompt caching + PostHog metrics + live API tests by @sestinj in https://github.com/continuedev/continue/pull/10801
+* Remove NODE_AUTH_TOKEN from stable-release workflow by @sestinj in https://github.com/continuedev/continue/pull/10950
+* feat: use env variable to enable ai sdk by @uinstinct in https://github.com/continuedev/continue/pull/10775
+* feat: ai-sdk support for xai and deepseek by @uinstinct in https://github.com/continuedev/continue/pull/10784
+* feat(cli): quiz answers by @uinstinct in https://github.com/continuedev/continue/pull/10845
+* feat: allow background job perm check by default by @uinstinct ]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.17-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.17-vscode</guid>
+            <pubDate>Fri, 13 Mar 2026 19:49:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.62-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* chore: move .continue/agents to .continue/checks by @sestinj in https://github.com/continuedev/continue/pull/10596
+* Add banner image to README by @TyDunn in https://github.com/continuedev/continue/pull/10605
+* docs: add Improving Your Checks page by @sestinj in https://github.com/continuedev/continue/pull/10604
+* feat: Claude Sonnet and Opus 4.6 updates by @RomneyDa in https://github.com/continuedev/continue/pull/10600
+* feat: integrate ai-sdk provider by @uinstinct in https://github.com/continuedev/continue/pull/10467
+* feat: bash tool execution in background by @uinstinct in https://github.com/continuedev/continue/pull/10285
+* docs: simplify quickstart to continue.dev/check by @Patrick-Erichsen in https://github.com/continuedev/continue/pull/10665
+* feat: model updates and + z.ai by @RomneyDa in https://github.com/continuedev/continue/pull/10638
+* feat: pre-install suggestions CLI in devbox blueprints by @sestinj in https://github.com/continuedev/continue/pull/10734
+* chore: remove feature flagged ai sdk usage by @uinstinct in https://github.com/continuedev/continue/pull/10622
+* chore: upgrade ai sdk to v6 by @uinstinct in https://github.com/continuedev/continue/pull/10642
+* fix: detect embedded 429 errors from Gemini/VertexAI APIs by @RomneyDa in https://github.com/continuedev/continue/pull/10674
+* feat: add turn-level prompt caching + PostHog metrics + live API tests by @sestinj in https://github.com/continuedev/continue/pull/10801
+* Remove NODE_AUTH_TOKEN from stable-release workflow by @sestinj in https://github.com/continuedev/continue/pull/10950
+* feat: use env variable to enable ai sdk by @uinstinct in https://github.com/continuedev/continue/pull/10775
+* feat: ai-sdk support for xai and deepseek by @uinstinct in https://github.com/continuedev/continue/pull/10784
+* feat(cli): quiz answers by @uinstinct in https://github.com/continuedev/continue/pull/10845
+* feat: allow background job perm check by default by @uinstinct ]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.62-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.62-jetbrains</guid>
+            <pubDate>Fri, 13 Mar 2026 19:46:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.33-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* chore: move .continue/agents to .continue/checks by @sestinj in https://github.com/continuedev/continue/pull/10596
+* Add banner image to README by @TyDunn in https://github.com/continuedev/continue/pull/10605
+* docs: add Improving Your Checks page by @sestinj in https://github.com/continuedev/continue/pull/10604
+* feat: Claude Sonnet and Opus 4.6 updates by @RomneyDa in https://github.com/continuedev/continue/pull/10600
+* feat: integrate ai-sdk provider by @uinstinct in https://github.com/continuedev/continue/pull/10467
+* feat: bash tool execution in background by @uinstinct in https://github.com/continuedev/continue/pull/10285
+* docs: simplify quickstart to continue.dev/check by @Patrick-Erichsen in https://github.com/continuedev/continue/pull/10665
+* feat: model updates and + z.ai by @RomneyDa in https://github.com/continuedev/continue/pull/10638
+* feat: pre-install suggestions CLI in devbox blueprints by @sestinj in https://github.com/continuedev/continue/pull/10734
+* chore: remove feature flagged ai sdk usage by @uinstinct in https://github.com/continuedev/continue/pull/10622
+* chore: upgrade ai sdk to v6 by @uinstinct in https://github.com/continuedev/continue/pull/10642
+* fix: detect embedded 429 errors from Gemini/VertexAI APIs by @RomneyDa in https://github.com/continuedev/continue/pull/10674
+* feat: add turn-level prompt caching + PostHog metrics + live API tests by @sestinj in https://github.com/continuedev/continue/pull/10801
+* Remove NODE_AUTH_TOKEN from stable-release workflow by @sestinj in https://github.com/continuedev/continue/pull/10950
+* feat: use env variable to enable ai sdk by @uinstinct in https://github.com/continuedev/continue/pull/10775
+* feat: ai-sdk support for xai and deepseek by @uinstinct in https://github.com/continuedev/continue/pull/10784
+* feat(cli): quiz answers by @uinstinct in https://github.com/continuedev/continue/pull/10845
+* feat: allow background job perm check by default by @uinstinct ]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.33-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.33-vscode</guid>
+            <pubDate>Fri, 13 Mar 2026 19:45:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Release v1.5.45]]></title>
+            <description><![CDATA[Release v1.5.45 built and published from the main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.45</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.45</guid>
+            <pubDate>Wed, 04 Mar 2026 23:42:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Release v1.5.44]]></title>
+            <description><![CDATA[Release v1.5.44 built and published from the main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.44</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.44</guid>
+            <pubDate>Mon, 02 Mar 2026 00:51:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.16-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* .continue/agents by @sestinj in https://github.com/continuedev/continue/pull/10233
+* .continue/agents p2 by @sestinj in https://github.com/continuedev/continue/pull/10235
+* feat: limited MCP App support by @RomneyDa in https://github.com/continuedev/continue/pull/10132
+* feat(cli): curl/irl installation scripts and docs by @RomneyDa in https://github.com/continuedev/continue/pull/9835
+* feat: add cn checks CLI command by @sestinj in https://github.com/continuedev/continue/pull/10330
+* feat: enable agent mode support for LM Studio models by @veeceey in https://github.com/continuedev/continue/pull/10327
+* docs: update default model to Claude Opus 4.6 by @BekahHW in https://github.com/continuedev/continue/pull/10270
+* [Snyk] Fix for 1 vulnerabilities by @sestinj in https://github.com/continuedev/continue/pull/10386
+* fix: validate unicode in model apikey or headers by @uinstinct in https://github.com/continuedev/continue/pull/10380
+* docs: add GitHub trigger event types for workflows by @BekahHW in https://github.com/continuedev/continue/pull/10213
+* docs: Update Workflows docs - MVP by @BekahHW in https://github.com/continuedev/continue/pull/10369
+* fix: generalize Windows remote detection for terminal commands by @shanevcantwell in https://github.com/continuedev/continue/pull/10391
+* [Snyk] Security upgrade axios from 1.13.2 to 1.13.5 by @sestinj in https://github.com/continuedev/continue/pull/10423
+* [Snyk] Security upgrade @openapitools/openapi-generator-cli from 2.27.0 to 2.28.3 by @sestinj in https://github.com/continuedev/continue/pull/10421
+* feat: consolidate react best practices by @RomneyDa in https://github.com/continuedev/continue/pull/10417
+* Revert "[Snyk] Fix for 1 vulnerabilities" by @RomneyDa in https://github.com/continuedev/continue/pull/10424
+* feat: make create/read rule tools disabled by default by @RomneyDa in https://github.com/continuedev/continue/pull/10543
+* chore: prerelease bumps vscode 32 jetbrains 61]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.16-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.16-vscode</guid>
+            <pubDate>Tue, 17 Feb 2026 20:54:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.61-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* .continue/agents by @sestinj in https://github.com/continuedev/continue/pull/10233
+* .continue/agents p2 by @sestinj in https://github.com/continuedev/continue/pull/10235
+* feat: limited MCP App support by @RomneyDa in https://github.com/continuedev/continue/pull/10132
+* feat(cli): curl/irl installation scripts and docs by @RomneyDa in https://github.com/continuedev/continue/pull/9835
+* feat: add cn checks CLI command by @sestinj in https://github.com/continuedev/continue/pull/10330
+* feat: enable agent mode support for LM Studio models by @veeceey in https://github.com/continuedev/continue/pull/10327
+* docs: update default model to Claude Opus 4.6 by @BekahHW in https://github.com/continuedev/continue/pull/10270
+* [Snyk] Fix for 1 vulnerabilities by @sestinj in https://github.com/continuedev/continue/pull/10386
+* fix: validate unicode in model apikey or headers by @uinstinct in https://github.com/continuedev/continue/pull/10380
+* docs: add GitHub trigger event types for workflows by @BekahHW in https://github.com/continuedev/continue/pull/10213
+* docs: Update Workflows docs - MVP by @BekahHW in https://github.com/continuedev/continue/pull/10369
+* fix: generalize Windows remote detection for terminal commands by @shanevcantwell in https://github.com/continuedev/continue/pull/10391
+* [Snyk] Security upgrade axios from 1.13.2 to 1.13.5 by @sestinj in https://github.com/continuedev/continue/pull/10423
+* [Snyk] Security upgrade @openapitools/openapi-generator-cli from 2.27.0 to 2.28.3 by @sestinj in https://github.com/continuedev/continue/pull/10421
+* feat: consolidate react best practices by @RomneyDa in https://github.com/continuedev/continue/pull/10417
+* Revert "[Snyk] Fix for 1 vulnerabilities" by @RomneyDa in https://github.com/continuedev/continue/pull/10424
+* feat: make create/read rule tools disabled by default by @RomneyDa in https://github.com/continuedev/continue/pull/10543
+* chore: prerelease bumps vscode 32 jetbrains 61]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.61-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.61-jetbrains</guid>
+            <pubDate>Tue, 17 Feb 2026 20:35:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.32-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* .continue/agents by @sestinj in https://github.com/continuedev/continue/pull/10233
+* .continue/agents p2 by @sestinj in https://github.com/continuedev/continue/pull/10235
+* feat: limited MCP App support by @RomneyDa in https://github.com/continuedev/continue/pull/10132
+* feat(cli): curl/irl installation scripts and docs by @RomneyDa in https://github.com/continuedev/continue/pull/9835
+* feat: add cn checks CLI command by @sestinj in https://github.com/continuedev/continue/pull/10330
+* feat: enable agent mode support for LM Studio models by @veeceey in https://github.com/continuedev/continue/pull/10327
+* docs: update default model to Claude Opus 4.6 by @BekahHW in https://github.com/continuedev/continue/pull/10270
+* [Snyk] Fix for 1 vulnerabilities by @sestinj in https://github.com/continuedev/continue/pull/10386
+* fix: validate unicode in model apikey or headers by @uinstinct in https://github.com/continuedev/continue/pull/10380
+* docs: add GitHub trigger event types for workflows by @BekahHW in https://github.com/continuedev/continue/pull/10213
+* docs: Update Workflows docs - MVP by @BekahHW in https://github.com/continuedev/continue/pull/10369
+* fix: generalize Windows remote detection for terminal commands by @shanevcantwell in https://github.com/continuedev/continue/pull/10391
+* [Snyk] Security upgrade axios from 1.13.2 to 1.13.5 by @sestinj in https://github.com/continuedev/continue/pull/10423
+* [Snyk] Security upgrade @openapitools/openapi-generator-cli from 2.27.0 to 2.28.3 by @sestinj in https://github.com/continuedev/continue/pull/10421
+* feat: consolidate react best practices by @RomneyDa in https://github.com/continuedev/continue/pull/10417
+* Revert "[Snyk] Fix for 1 vulnerabilities" by @RomneyDa in https://github.com/continuedev/continue/pull/10424
+* feat: make create/read rule tools disabled by default by @RomneyDa in https://github.com/continuedev/continue/pull/10543
+* chore: prerelease bumps vscode 32 jetbrains 61]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.32-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.32-vscode</guid>
+            <pubDate>Tue, 17 Feb 2026 20:35:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.15-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* docs: update /info command description with usage statistics by @continue[bot] in https://github.com/continuedev/continue/pull/9071
+* chore(deps): bump undici from 7.16.0 to 7.18.2 in /binary by @dependabot[bot] in https://github.com/continuedev/continue/pull/9534
+* fix: add GH_TOKEN to continue-agents workflow by @ThanhNguyxn in https://github.com/continuedev/continue/pull/9497
+* chore: bump prerelease versions by @RomneyDa in https://github.com/continuedev/continue/pull/9536
+* Filter out .md files when loading agent configs by @RomneyDa in https://github.com/continuedev/continue/pull/9537
+* feat: subagents by @uinstinct in https://github.com/continuedev/continue/pull/9128
+* Update docs index page with new inbox card and copy changes by @BekahHW in https://github.com/continuedev/continue/pull/9533
+* docs: Add documentation for running agents locally by @bdougie in https://github.com/continuedev/continue/pull/9507
+* feat: agent skills by @uinstinct in https://github.com/continuedev/continue/pull/9353
+* chore(deps): bump diff from 7.0.0 to 8.0.3 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9552
+* [Snyk] Upgrade @c15t/react from 1.8.1 to 1.8.2 by @sestinj in https://github.com/continuedev/continue/pull/9540
+* Refactor info command into separate functions and add usage statistics by @sestinj in https://github.com/continuedev/continue/pull/9070
+* [Snyk] Upgrade posthog-js from 1.297.2 to 1.310.1 by @sestinj in https://github.com/continuedev/continue/pull/9541
+* Allow MCP/Bash tools by default in headless mode by @RomneyDa in https://github.com/continuedev/continue/pull/9538
+* docs: fix title case in documentation headers by @sestinj in https://github.com/continuedev/continue/pull/9543
+* fix: simplify config error by @uinstinct in https://github.com/continuedev/continue/pull/9556
+* chore(deps): bump undici from 6.21.3 to 6.23.0 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.15-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.15-vscode</guid>
+            <pubDate>Wed, 04 Feb 2026 23:12:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.60-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* fix(cli): flaky hub loader tests by @uinstinct in https://github.com/continuedev/continue/pull/9923
+* [Snyk] Upgrade @tiptap/extension-text from 2.26.1 to 2.27.1 by @sestinj in https://github.com/continuedev/continue/pull/9915
+* chore(deps): bump tar from 7.4.3 to 7.5.7 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9985
+* chore(deps): bump hono from 4.11.4 to 4.11.7 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9959
+* fix: Local setup screen input text is black on dark background by @sarthakNITT in https://github.com/continuedev/continue/pull/9967
+* [Snyk] Upgrade ws from 8.18.0 to 8.19.0 by @sestinj in https://github.com/continuedev/continue/pull/9946
+* [Snyk] Upgrade systeminformation from 5.27.14 to 5.30.0 by @sestinj in https://github.com/continuedev/continue/pull/9945
+* fix: pass GITHUB_TOKEN to vscode e2e tests for ripgrep download by @RomneyDa in https://github.com/continuedev/continue/pull/9929
+* feat: indicate excluded tools in MCP server # tools badge by @RomneyDa in https://github.com/continuedev/continue/pull/9970
+* docs: remove on-prem from secrets page by @RomneyDa in https://github.com/continuedev/continue/pull/9972
+* fix: use underlying provider name for stream errors by @RomneyDa in https://github.com/continuedev/continue/pull/9963
+* chore: hub.continue.dev -> continue.dev by @RomneyDa in https://github.com/continuedev/continue/pull/10049
+* docs: link changelog to changelog.continue.dev by @sestinj in https://github.com/continuedev/continue/pull/10021
+* [Snyk] Security upgrade @aws-sdk/client-sagemaker-runtime from 3.777.0 to 3.894.0 by @sestinj in https://github.com/continuedev/continue/pull/10052
+* fix: pass pre-read content to RegistryClient for WSL compatibility by @shanevcantwell in https://github.com/continuedev/continue/pull/9739
+* fix: detect WSL remote for shell PATH resolution by @shanevcantwell in https://github.com/continuedev/continue/pull/]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.60-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.60-jetbrains</guid>
+            <pubDate>Wed, 04 Feb 2026 23:07:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.31-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* fix(cli): flaky hub loader tests by @uinstinct in https://github.com/continuedev/continue/pull/9923
+* [Snyk] Upgrade @tiptap/extension-text from 2.26.1 to 2.27.1 by @sestinj in https://github.com/continuedev/continue/pull/9915
+* chore(deps): bump tar from 7.4.3 to 7.5.7 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9985
+* chore(deps): bump hono from 4.11.4 to 4.11.7 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9959
+* fix: Local setup screen input text is black on dark background by @sarthakNITT in https://github.com/continuedev/continue/pull/9967
+* [Snyk] Upgrade ws from 8.18.0 to 8.19.0 by @sestinj in https://github.com/continuedev/continue/pull/9946
+* [Snyk] Upgrade systeminformation from 5.27.14 to 5.30.0 by @sestinj in https://github.com/continuedev/continue/pull/9945
+* fix: pass GITHUB_TOKEN to vscode e2e tests for ripgrep download by @RomneyDa in https://github.com/continuedev/continue/pull/9929
+* feat: indicate excluded tools in MCP server # tools badge by @RomneyDa in https://github.com/continuedev/continue/pull/9970
+* docs: remove on-prem from secrets page by @RomneyDa in https://github.com/continuedev/continue/pull/9972
+* fix: use underlying provider name for stream errors by @RomneyDa in https://github.com/continuedev/continue/pull/9963
+* chore: hub.continue.dev -> continue.dev by @RomneyDa in https://github.com/continuedev/continue/pull/10049
+* docs: link changelog to changelog.continue.dev by @sestinj in https://github.com/continuedev/continue/pull/10021
+* [Snyk] Security upgrade @aws-sdk/client-sagemaker-runtime from 3.777.0 to 3.894.0 by @sestinj in https://github.com/continuedev/continue/pull/10052
+* fix: pass pre-read content to RegistryClient for WSL compatibility by @shanevcantwell in https://github.com/continuedev/continue/pull/9739
+* fix: detect WSL remote for shell PATH resolution by @shanevcantwell in https://github.com/continuedev/continue/pull/]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.31-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.31-vscode</guid>
+            <pubDate>Wed, 04 Feb 2026 23:06:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.43-beta.20260203]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.43-beta.20260203</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.43-beta.20260203</guid>
+            <pubDate>Tue, 03 Feb 2026 09:13:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[@continuedev/config-yaml@1.42.0]]></title>
+            <description><![CDATA[# [1.42.0](https://github.com/continuedev/continue/compare/@continuedev/config-yaml@1.41.0...@continuedev/config-yaml@1.42.0) (2026-02-03)
+
+
+### Bug Fixes
+
+* add reasoning content field support in chat body ([ac93dd9](https://github.com/continuedev/continue/commit/ac93dd9381021989507b1c724205780074898786))
+* add reasoning content field support in chat body ([#10027](https://github.com/continuedev/continue/issues/10027)) ([6c56210](https://github.com/continuedev/continue/commit/6c56210f1c4cf52a15bf95325738d2dfb8637b51))
+* **cli:** add SSL verification option for client transports  ([#9551](https://github.com/continuedev/continue/issues/9551)) ([0b6937a](https://github.com/continuedev/continue/commit/0b6937a3b8b0a6c56bbbe3b6ecaceb9869123508))
+* retrieve reasoning toggle from local storage ([#9688](https://github.com/continuedev/continue/issues/9688)) ([2c1a856](https://github.com/continuedev/continue/commit/2c1a85683c515b5a19c7d8a84ac1af8357d7d6dc))
+* show error for blank inputs when using hub blocks in local config ([20a069e](https://github.com/continuedev/continue/commit/20a069e87e7b62f94150240071193676d423f6ca))
+
+
+### Features
+
+* add Nous Research Hermes models as provider ([1ba9a66](https://github.com/continuedev/continue/commit/1ba9a669d6f9c432a3f17e2f6aa045442458df90))
+* Add OpenRouter Provider Support with Dynamic Model Loading ([#8738](https://github.com/continuedev/continue/issues/8738)) ([9ac154d](https://github.com/continuedev/continue/commit/9ac154d2a0690f7541b5b7727a472508e39a03f2))
+
+
+
+]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.42.0</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.42.0</guid>
+            <pubDate>Tue, 03 Feb 2026 08:16:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[@continuedev/config-yaml@1.41.0]]></title>
+            <description><![CDATA[# [1.41.0](https://github.com/continuedev/continue/compare/@continuedev/config-yaml@1.40.0...@continuedev/config-yaml@1.41.0) (2026-02-03)
+
+
+### Bug Fixes
+
+* detect WSL remote for shell PATH resolution ([939b44b](https://github.com/continuedev/continue/commit/939b44b39fbe1eeea0d4c501e820f23ea5079c87)), closes [#9737](https://github.com/continuedev/continue/issues/9737)
+* detect WSL remote for shell PATH resolution ([#9934](https://github.com/continuedev/continue/issues/9934)) ([895632c](https://github.com/continuedev/continue/commit/895632c0a5cea5a032b31df7e5fcc5a60e3136e4)), closes [#9737](https://github.com/continuedev/continue/issues/9737)
+* OpenAI Responses API parallel tool calls losing call_ids ([#9659](https://github.com/continuedev/continue/issues/9659)) ([dcac626](https://github.com/continuedev/continue/commit/dcac6260a7c33dc09b740507f3a93424b8afa047))
+* **resource-monitoring:** prevent file descriptor count leak by adding caching ([a99288f](https://github.com/continuedev/continue/commit/a99288f25a1ff0939fa7b6581d8d22a9fa75e4fd))
+* **ResourceMonitoringService:** initialize fd check time and count on start ([df83e66](https://github.com/continuedev/continue/commit/df83e66d5ce97cfcf28c1a815d567090cceda622))
+* **ResourceMonitoringService:** prevent negative file descriptor counts and remove test cases ([676e31d](https://github.com/continuedev/continue/commit/676e31d28edd634307e289ee103ec6f42a40f416))
+* simplify file descriptor count calculation ([056622f](https://github.com/continuedev/continue/commit/056622faa01779b2dd0c99fe5ea758951454822a))
+* upgrade @openapitools/openapi-generator-cli from 2.25.1 to 2.27.0 ([1420644](https://github.com/continuedev/continue/commit/142064476870ed6b462dcbb8c651db7991942aec))
+
+
+### Features
+
+* add tool prompt override support in .continuerc.json ([#9314](https://github.com/continuedev/continue/issues/9314)) ([d80845c](https://github.com/continuedev/continue/commit/d80845c403db83686d140c72c04616348731fdbf))
+
+
+
+]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.41.0</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.41.0</guid>
+            <pubDate>Tue, 03 Feb 2026 05:57:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.43]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.43 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.43</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.43</guid>
+            <pubDate>Mon, 02 Feb 2026 19:23:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.42]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.42 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.42</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.42</guid>
+            <pubDate>Mon, 02 Feb 2026 10:20:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.41]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.41 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.41</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.41</guid>
+            <pubDate>Mon, 02 Feb 2026 09:29:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.40-beta.20260202]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.40-beta.20260202</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.40-beta.20260202</guid>
+            <pubDate>Mon, 02 Feb 2026 09:17:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.40]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.40 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.40</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.40</guid>
+            <pubDate>Mon, 02 Feb 2026 08:53:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.39-beta.20260201]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260201</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260201</guid>
+            <pubDate>Sun, 01 Feb 2026 09:09:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[@continuedev/config-yaml@1.40.0]]></title>
+            <description><![CDATA[# [1.40.0](https://github.com/continuedev/continue/compare/@continuedev/config-yaml@1.39.0...@continuedev/config-yaml@1.40.0) (2026-01-31)
+
+
+### Bug Fixes
+
+* account for different tokenizers ([b4bc3ae](https://github.com/continuedev/continue/commit/b4bc3aedaa2e44149a1898c609405ebb80ca91b2))
+* add missing cancelStream call and return for non-retryable errors ([c391353](https://github.com/continuedev/continue/commit/c391353709ad4367fb333680190e0ba73c868ef0))
+* also show underlying provider for open github issue ([0b7fe48](https://github.com/continuedev/continue/commit/0b7fe4813c996aa416843bbda7d1c784b49e65b4))
+* **cli:** flaky hub loader tests ([2fb8830](https://github.com/continuedev/continue/commit/2fb88307caeb6e72979396f70de17af087a27536))
+* command fixed in contributing file ([#9715](https://github.com/continuedev/continue/issues/9715)) ([a21eb15](https://github.com/continuedev/continue/commit/a21eb151d30969c292e290523941ebb520c61151))
+* compact conversation with dangling tool calls ([b33b8a4](https://github.com/continuedev/continue/commit/b33b8a4dadb821cab67d517223cb9ab19268d173))
+* compaction updates part 2 ([d18c6f0](https://github.com/continuedev/continue/commit/d18c6f04ad6ca518f849a78ab6cb8938e8ea1c24))
+* core/package.json to reduce vulnerabilities ([8ca79b9](https://github.com/continuedev/continue/commit/8ca79b9a5adefa401b6bd7cc62e72e1597cb0012))
+* duplicate tool messages ([77a2f12](https://github.com/continuedev/continue/commit/77a2f1274a6183bf43cb8df3d84e8e58762b1442))
+* eslint ([50adea3](https://github.com/continuedev/continue/commit/50adea309b6635b125e55a13bb99b0a91827956f))
+* eslint import unresolved ([ccd0b74](https://github.com/continuedev/continue/commit/ccd0b74dc544687b3ec9439ee9a814efbacc5752))
+* linting issue mising parallel count ([c0a9309](https://github.com/continuedev/continue/commit/c0a930919fe93ce7ad6a0eaf3546a956dee02383))
+* Local setup screen input text is black on dark background ([363292b](https://github.com/continuedev/continue/commit/3]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.40.0</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.40.0</guid>
+            <pubDate>Sat, 31 Jan 2026 23:21:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.39-beta.20260131]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260131</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260131</guid>
+            <pubDate>Sat, 31 Jan 2026 09:08:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.39-beta.20260130]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260130</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260130</guid>
+            <pubDate>Fri, 30 Jan 2026 09:13:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.39-beta.20260129]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260129</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260129</guid>
+            <pubDate>Thu, 29 Jan 2026 09:15:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.39-beta.20260128]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260128</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260128</guid>
+            <pubDate>Wed, 28 Jan 2026 09:11:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.39-beta.20260127]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260127</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260127</guid>
+            <pubDate>Tue, 27 Jan 2026 09:10:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.59-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* docs: update /info command description with usage statistics by @continue[bot] in https://github.com/continuedev/continue/pull/9071
+* feat: subagents by @uinstinct in https://github.com/continuedev/continue/pull/9128
+* Update docs index page with new inbox card and copy changes by @BekahHW in https://github.com/continuedev/continue/pull/9533
+* docs: Add documentation for running agents locally by @bdougie in https://github.com/continuedev/continue/pull/9507
+* feat: agent skills by @uinstinct in https://github.com/continuedev/continue/pull/9353
+* chore(deps): bump diff from 7.0.0 to 8.0.3 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9552
+* [Snyk] Upgrade @c15t/react from 1.8.1 to 1.8.2 by @sestinj in https://github.com/continuedev/continue/pull/9540
+* Refactor info command into separate functions and add usage statistics by @sestinj in https://github.com/continuedev/continue/pull/9070
+* [Snyk] Upgrade posthog-js from 1.297.2 to 1.310.1 by @sestinj in https://github.com/continuedev/continue/pull/9541
+* Allow MCP/Bash tools by default in headless mode by @RomneyDa in https://github.com/continuedev/continue/pull/9538
+* docs: fix title case in documentation headers by @sestinj in https://github.com/continuedev/continue/pull/9543
+* fix: simplify config error by @uinstinct in https://github.com/continuedev/continue/pull/9556
+* chore(deps): bump undici from 6.21.3 to 6.23.0 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9565
+* fix: duplicate tool messages added by @RomneyDa in https://github.com/continuedev/continue/pull/9596
+* [Snyk] Upgrade react-hook-form from 7.62.0 to 7.69.0 by @sestinj in https://github.com/continuedev/continue/pull/9588
+* [Snyk] Upgrade @tiptap/extension-mention from 2.26.1 to 2.27.1 by @sestinj in https://github.com/continuedev/continue/pull/9589
+* fix: prevent waiting for the session to load from history by @uinstinct in https://github.com/continuedev]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.59-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.59-jetbrains</guid>
+            <pubDate>Mon, 26 Jan 2026 21:02:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.30-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* docs: update /info command description with usage statistics by @continue[bot] in https://github.com/continuedev/continue/pull/9071
+* feat: subagents by @uinstinct in https://github.com/continuedev/continue/pull/9128
+* Update docs index page with new inbox card and copy changes by @BekahHW in https://github.com/continuedev/continue/pull/9533
+* docs: Add documentation for running agents locally by @bdougie in https://github.com/continuedev/continue/pull/9507
+* feat: agent skills by @uinstinct in https://github.com/continuedev/continue/pull/9353
+* chore(deps): bump diff from 7.0.0 to 8.0.3 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9552
+* [Snyk] Upgrade @c15t/react from 1.8.1 to 1.8.2 by @sestinj in https://github.com/continuedev/continue/pull/9540
+* Refactor info command into separate functions and add usage statistics by @sestinj in https://github.com/continuedev/continue/pull/9070
+* [Snyk] Upgrade posthog-js from 1.297.2 to 1.310.1 by @sestinj in https://github.com/continuedev/continue/pull/9541
+* Allow MCP/Bash tools by default in headless mode by @RomneyDa in https://github.com/continuedev/continue/pull/9538
+* docs: fix title case in documentation headers by @sestinj in https://github.com/continuedev/continue/pull/9543
+* fix: simplify config error by @uinstinct in https://github.com/continuedev/continue/pull/9556
+* chore(deps): bump undici from 6.21.3 to 6.23.0 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/9565
+* fix: duplicate tool messages added by @RomneyDa in https://github.com/continuedev/continue/pull/9596
+* [Snyk] Upgrade react-hook-form from 7.62.0 to 7.69.0 by @sestinj in https://github.com/continuedev/continue/pull/9588
+* [Snyk] Upgrade @tiptap/extension-mention from 2.26.1 to 2.27.1 by @sestinj in https://github.com/continuedev/continue/pull/9589
+* fix: prevent waiting for the session to load from history by @uinstinct in https://github.com/continuedev]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.30-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.30-vscode</guid>
+            <pubDate>Mon, 26 Jan 2026 21:00:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.39-beta.20260126]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260126</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260126</guid>
+            <pubDate>Mon, 26 Jan 2026 09:10:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.39]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.39 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.39</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39</guid>
+            <pubDate>Mon, 26 Jan 2026 07:35:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[@continuedev/fetch@1.9.0]]></title>
+            <description><![CDATA[# [1.9.0](https://github.com/continuedev/continue/compare/@continuedev/fetch@1.8.0...@continuedev/fetch@1.9.0) (2026-01-26)
+
+
+### Bug Fixes
+
+* Replace console.debug with logger in exit tool ([b65f440](https://github.com/continuedev/continue/commit/b65f44027a9c36d02e930ed2be41bac274ceb312))
+* Set isComplete metadata when agents finish execution ([65a1e15](https://github.com/continuedev/continue/commit/65a1e1500b112de4e24364eff890bd9b4fcac895))
+* support object-type arguments in tool call parsing ([82f6f69](https://github.com/continuedev/continue/commit/82f6f6952202924952af6b9c84df42e5fd204bc3))
+* upgrade @huggingface/jinja from 0.1.3 to 0.5.3 ([e5afc41](https://github.com/continuedev/continue/commit/e5afc41492f1c837156a37e3427c3cc27db93ab5))
+* upgrade @tiptap/extension-paragraph from 2.26.1 to 2.27.1 ([43a759d](https://github.com/continuedev/continue/commit/43a759d72ded5c67eca9f175a83cc6579aba0c1f))
+
+
+### Features
+
+* **cli:** detect wsl and spawn appropriate shell ([a9ae420](https://github.com/continuedev/continue/commit/a9ae4205e12c7974d5b6c0feea964af9b97e1630))
+
+
+
+]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/%40continuedev/fetch%401.9.0</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/%40continuedev/fetch%401.9.0</guid>
+            <pubDate>Mon, 26 Jan 2026 06:06:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.38]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.38 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.38</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.38</guid>
+            <pubDate>Mon, 26 Jan 2026 04:47:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.37]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.37 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.37</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.37</guid>
+            <pubDate>Mon, 26 Jan 2026 00:15:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.36-beta.20260125]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.36-beta.20260125</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.36-beta.20260125</guid>
+            <pubDate>Sun, 25 Jan 2026 09:05:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.36-beta.20260124]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.36-beta.20260124</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.36-beta.20260124</guid>
+            <pubDate>Sat, 24 Jan 2026 09:05:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.36]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.36 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.36</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.36</guid>
+            <pubDate>Fri, 23 Jan 2026 20:30:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.35-beta.20260123]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.35-beta.20260123</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.35-beta.20260123</guid>
+            <pubDate>Fri, 23 Jan 2026 09:08:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[@continuedev/fetch@1.8.0]]></title>
+            <description><![CDATA[# [1.8.0](https://github.com/continuedev/continue/compare/@continuedev/fetch@1.7.0...@continuedev/fetch@1.8.0) (2026-01-22)
+
+
+### Bug Fixes
+
+* account for different tokenizers ([b4bc3ae](https://github.com/continuedev/continue/commit/b4bc3aedaa2e44149a1898c609405ebb80ca91b2))
+* add GH_TOKEN to continue-agents workflow ([dd93919](https://github.com/continuedev/continue/commit/dd939190701be55917d4d224f012017e8ea17be9)), closes [#9493](https://github.com/continuedev/continue/issues/9493)
+* add missing cancelStream call and return for non-retryable errors ([c391353](https://github.com/continuedev/continue/commit/c391353709ad4367fb333680190e0ba73c868ef0))
+* add missing hub mock rejection in test ([53a9fa4](https://github.com/continuedev/continue/commit/53a9fa4cb34d97a9f3e2af1f26a02b10bbd0a9a1))
+* also use env vars in Write job summary step ([8969f42](https://github.com/continuedev/continue/commit/8969f422619f63becf2f778c4465cf192ee83e18))
+* **anthropic:** support Azure-hosted Anthropic endpoints ([9e8bfcd](https://github.com/continuedev/continue/commit/9e8bfcd9396b9abf7643c79bb53f7263da8138c6))
+* break circular dependency by extracting tool names ([6a5f80b](https://github.com/continuedev/continue/commit/6a5f80b0fc739ed36448b62bd036c01476b91d49))
+* change 'Agent:' to 'Config:' in intro message and update tests ([c1e4668](https://github.com/continuedev/continue/commit/c1e466836acd0b2a5e81f2925c5d2e14691543d9))
+* clarify can't edit in parallel with itself either ([46b31af](https://github.com/continuedev/continue/commit/46b31af330aa669d93c777d5fa577b2ca7c72225))
+* **cli:** compaction for missing tool results ([0792b94](https://github.com/continuedev/continue/commit/0792b949bdf629fd14dac45478b2027962b77454))
+* **cli:** expand model capability detection to include Llama, Nemotron, and Mistral ([#8845](https://github.com/continuedev/continue/issues/8845)) ([528a8ab](https://github.com/continuedev/continue/commit/528a8abceb69a6afb12e0a32ea5eb8acbc1e8241)), closes [#1](https://gi]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/%40continuedev/fetch%401.8.0</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/%40continuedev/fetch%401.8.0</guid>
+            <pubDate>Thu, 22 Jan 2026 22:58:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.35-beta.20260122]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.35-beta.20260122</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.35-beta.20260122</guid>
+            <pubDate>Thu, 22 Jan 2026 09:10:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.35-beta.20260121]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.35-beta.20260121</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.35-beta.20260121</guid>
+            <pubDate>Wed, 21 Jan 2026 09:09:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.35-beta.20260120]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.35-beta.20260120</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.35-beta.20260120</guid>
+            <pubDate>Tue, 20 Jan 2026 09:10:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.35]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.35 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.35</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.35</guid>
+            <pubDate>Tue, 20 Jan 2026 05:58:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.34-beta.20260119]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260119</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260119</guid>
+            <pubDate>Mon, 19 Jan 2026 09:10:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.34-beta.20260118]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260118</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260118</guid>
+            <pubDate>Sun, 18 Jan 2026 09:05:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.34-beta.20260117]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260117</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260117</guid>
+            <pubDate>Sat, 17 Jan 2026 09:05:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.34-beta.20260116]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260116</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260116</guid>
+            <pubDate>Fri, 16 Jan 2026 09:07:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.34]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.34 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.34</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.34</guid>
+            <pubDate>Thu, 15 Jan 2026 22:53:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.33]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.33 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.33</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.33</guid>
+            <pubDate>Thu, 15 Jan 2026 22:43:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.32-beta.20260115]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.32-beta.20260115</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.32-beta.20260115</guid>
+            <pubDate>Thu, 15 Jan 2026 09:08:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[@continuedev/config-yaml@1.39.0]]></title>
+            <description><![CDATA[# [1.39.0](https://github.com/continuedev/continue/compare/@continuedev/config-yaml@1.38.0...@continuedev/config-yaml@1.39.0) (2026-01-15)
+
+
+### Bug Fixes
+
+* add GH_TOKEN to continue-agents workflow ([dd93919](https://github.com/continuedev/continue/commit/dd939190701be55917d4d224f012017e8ea17be9)), closes [#9493](https://github.com/continuedev/continue/issues/9493)
+* break circular dependency by extracting tool names ([6a5f80b](https://github.com/continuedev/continue/commit/6a5f80b0fc739ed36448b62bd036c01476b91d49))
+* **cli:** compaction for missing tool results ([0792b94](https://github.com/continuedev/continue/commit/0792b949bdf629fd14dac45478b2027962b77454))
+* context length error detection ([1bfb72e](https://github.com/continuedev/continue/commit/1bfb72edf3f6c0eccb66454eb9e3ad423f58bee5))
+* correct built-in tool names list ([26bef77](https://github.com/continuedev/continue/commit/26bef77a8859788b870e42036e0958bdbaa9d93a))
+* correct import order in ToolPermissionService ([2003128](https://github.com/continuedev/continue/commit/2003128f084517bdf5343d6e2205edc85db8ff64))
+* decode URI-encoded pathname for WSL workspace paths ([074a6c7](https://github.com/continuedev/continue/commit/074a6c74baf35b98e0092f0e6b37027bb6561eba))
+* merge yaml.schemas settings ([a0729bd](https://github.com/continuedev/continue/commit/a0729bd6ec7f5a7b8cdf187baac8abf3156b9f75)), closes [#7080](https://github.com/continuedev/continue/issues/7080)
+* properly resolve WSL2 workspace paths in runTerminalCommand ([eab2ac1](https://github.com/continuedev/continue/commit/eab2ac1e045f2e4ba994cb7371b8e3a8e8aaf4b7))
+* resolve circular dependency in subagent executor ([87fd9b6](https://github.com/continuedev/continue/commit/87fd9b67df4661a261881a2cb028ab651c695128))
+* resolve circular dependency in subagent tool ([1c448c4](https://github.com/continuedev/continue/commit/1c448c479d1e2f4c50c586d494288d6b8889c178))
+* upgrade @sentry/profiling-node from 9.46.0 to 9.47.1 ([9448930](https://github.com/continu]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.39.0</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.39.0</guid>
+            <pubDate>Thu, 15 Jan 2026 04:39:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.14-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* docs: Add YT to footer by @BekahHW in https://github.com/continuedev/continue/pull/8566
+* chore(deps): bump actions/upload-artifact from 4 to 5 by @dependabot[bot] in https://github.com/continuedev/continue/pull/8459
+* Add description truncation for slash commands in CLI UI by @sestinj in https://github.com/continuedev/continue/pull/8172
+* docs: change Configs sidebar icon from robot to book by @continue[bot] in https://github.com/continuedev/continue/pull/8543
+* docs: Embed YouTube video in understanding-configs guide by @continue[bot] in https://github.com/continuedev/continue/pull/8425
+* feat: upgrade grok code fast 1 by @RomneyDa in https://github.com/continuedev/continue/pull/8475
+* Throw error and exit on MCP failure in headless mode by @continue[bot] in https://github.com/continuedev/continue/pull/8559
+* update docs header text by @TyDunn in https://github.com/continuedev/continue/pull/8570
+* feat(cli): skip checking for updates in dev mode by @uinstinct in https://github.com/continuedev/continue/pull/8564
+* Add snyk-bot to CLA allowlist by @sestinj in https://github.com/continuedev/continue/pull/8571
+* [Snyk] Upgrade @continuedev/config-yaml from 1.14.0 to 1.26.0 by @sestinj in https://github.com/continuedev/continue/pull/8505
+* fix: CLI context pollution between sessions by @continue[bot] in https://github.com/continuedev/continue/pull/8420
+* feat(cli): always show context percentage by @uinstinct in https://github.com/continuedev/continue/pull/8563
+* docs: README agents update by @TyDunn in https://github.com/continuedev/continue/pull/8572
+* docs: Update JetBrains README for agents by @TyDunn in https://github.com/continuedev/continue/pull/8573
+* docs: Update VS Code README for agents by @TyDunn in https://github.com/continuedev/continue/pull/8574
+* fix: instant reject all for VS Code by @RomneyDa in https://github.com/continuedev/continue/pull/8489
+* feat: show mcp warning message with configured mcps by @uinstinct in]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.14-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.14-vscode</guid>
+            <pubDate>Wed, 14 Jan 2026 23:24:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.29-vscode]]></title>
+            <description><![CDATA[## What's Changed
+* move updated telemetry page to correct location by @TyDunn in https://github.com/continuedev/continue/pull/9146
+* docs: add tip callout about agent model selection by @continue[bot] in https://github.com/continuedev/continue/pull/9166
+* Add PostHog, Atlassian, and Netlify integration documentation by @continue[bot] in https://github.com/continuedev/continue/pull/8962
+* chore(deps): bump actions/upload-artifact from 5 to 6 by @dependabot[bot] in https://github.com/continuedev/continue/pull/9162
+* chore(deps): bump actions/download-artifact from 6 to 7 by @dependabot[bot] in https://github.com/continuedev/continue/pull/9161
+* chore(deps): bump JetBrains/qodana-action from 2025.2.3 to 2025.2.4 by @dependabot[bot] in https://github.com/continuedev/continue/pull/9139
+* chore(deps): bump actions/cache from 3 to 5 by @dependabot[bot] in https://github.com/continuedev/continue/pull/9138
+* fix: overzealous 'token' and 'credential' security regexps by @rossigee in https://github.com/continuedev/continue/pull/9085
+* [Snyk] Upgrade mocha from 11.7.1 to 11.7.5 by @sestinj in https://github.com/continuedev/continue/pull/9111
+* feat: Continue CLI Git AI integration for tracking AI-authored code by @svarlamov in https://github.com/continuedev/continue/pull/9083
+* Add integrations reference links to docs by @continue[bot] in https://github.com/continuedev/continue/pull/9195
+* docs: Add changelog by @BekahHW in https://github.com/continuedev/continue/pull/9193
+* fix: don't fallback to relative path if not markdown file by @RomneyDa in https://github.com/continuedev/continue/pull/9266
+* docs: simplify integration documentation by @BekahHW in https://github.com/continuedev/continue/pull/9225
+* Handle unhandled errors by exiting with non-zero code by @sestinj in https://github.com/continuedev/continue/pull/9275
+* Refactor metadata updates to track completion state and changes by @sestinj in https://github.com/continuedev/continue/pull/9285
+* Fix npm ]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.29-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.29-vscode</guid>
+            <pubDate>Wed, 14 Jan 2026 23:01:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.0.58-jetbrains]]></title>
+            <description><![CDATA[## What's Changed
+* Add Puppeteer executable path environment variable to runloop blueprint by @sestinj in https://github.com/continuedev/continue/pull/9073
+* Dallin/posthog mcp tweaks by @RomneyDa in https://github.com/continuedev/continue/pull/9110
+* Nate/vercel ai sdk by @sestinj in https://github.com/continuedev/continue/pull/9099
+* Add worktree copy configuration and ignore copy status files by @sestinj in https://github.com/continuedev/continue/pull/9124
+* move updated telemetry page to correct location by @TyDunn in https://github.com/continuedev/continue/pull/9146
+* docs: add tip callout about agent model selection by @continue[bot] in https://github.com/continuedev/continue/pull/9166
+* Add PostHog, Atlassian, and Netlify integration documentation by @continue[bot] in https://github.com/continuedev/continue/pull/8962
+* chore(deps): bump actions/upload-artifact from 5 to 6 by @dependabot[bot] in https://github.com/continuedev/continue/pull/9162
+* chore(deps): bump actions/download-artifact from 6 to 7 by @dependabot[bot] in https://github.com/continuedev/continue/pull/9161
+* chore(deps): bump JetBrains/qodana-action from 2025.2.3 to 2025.2.4 by @dependabot[bot] in https://github.com/continuedev/continue/pull/9139
+* chore(deps): bump actions/cache from 3 to 5 by @dependabot[bot] in https://github.com/continuedev/continue/pull/9138
+* fix: overzealous 'token' and 'credential' security regexps by @rossigee in https://github.com/continuedev/continue/pull/9085
+* [Snyk] Upgrade mocha from 11.7.1 to 11.7.5 by @sestinj in https://github.com/continuedev/continue/pull/9111
+* feat: Continue CLI Git AI integration for tracking AI-authored code by @svarlamov in https://github.com/continuedev/continue/pull/9083
+* Add integrations reference links to docs by @continue[bot] in https://github.com/continuedev/continue/pull/9195
+* docs: Add changelog by @BekahHW in https://github.com/continuedev/continue/pull/9193
+* fix: don't fallback to relative path if not mar]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.0.58-jetbrains</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.0.58-jetbrains</guid>
+            <pubDate>Wed, 14 Jan 2026 23:00:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[@continuedev/openai-adapters@1.37.0]]></title>
+            <description><![CDATA[# [1.37.0](https://github.com/continuedev/continue/compare/@continuedev/openai-adapters@1.36.0...@continuedev/openai-adapters@1.37.0) (2026-01-14)
+
+
+### Bug Fixes
+
+* add missing hub mock rejection in test ([53a9fa4](https://github.com/continuedev/continue/commit/53a9fa4cb34d97a9f3e2af1f26a02b10bbd0a9a1))
+* also use env vars in Write job summary step ([8969f42](https://github.com/continuedev/continue/commit/8969f422619f63becf2f778c4465cf192ee83e18))
+* change 'Agent:' to 'Config:' in intro message and update tests ([c1e4668](https://github.com/continuedev/continue/commit/c1e466836acd0b2a5e81f2925c5d2e14691543d9))
+* clarify can't edit in parallel with itself either ([46b31af](https://github.com/continuedev/continue/commit/46b31af330aa669d93c777d5fa577b2ca7c72225))
+* **cli:** compaction for missing tool results ([0792b94](https://github.com/continuedev/continue/commit/0792b949bdf629fd14dac45478b2027962b77454))
+* **cli:** restart cli for manual update ([595986a](https://github.com/continuedev/continue/commit/595986a6fb46ccd4e023078e9e3a8aeb911629c7))
+* context length error detection ([1bfb72e](https://github.com/continuedev/continue/commit/1bfb72edf3f6c0eccb66454eb9e3ad423f58bee5))
+* context length fixes, truncation, etc ([613ffb8](https://github.com/continuedev/continue/commit/613ffb8ca9847fcb3ff99beec6f191b25cd85f9b))
+* don't fallback to relative path if not markdown file ([d93b432](https://github.com/continuedev/continue/commit/d93b4321a550acf7151949d1fee1c436945e2ee0))
+* env stubs for cli platform tests ([6b3c0be](https://github.com/continuedev/continue/commit/6b3c0be2f1443e47db3e985560cb859b8e42f6a9))
+* fix lint error and update tests for markdown-only fallback ([4c0c532](https://github.com/continuedev/continue/commit/4c0c53257baf7edb943c76155fa6b0bde79b554f))
+* inject blocks tests for cli secret resolution ([219f566](https://github.com/continuedev/continue/commit/219f5661c9999daa5e185740dd2fa1d24f0187b2))
+* packages/continue-sdk/package.json & packages/continue-sdk]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/%40continuedev/openai-adapters%401.37.0</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/%40continuedev/openai-adapters%401.37.0</guid>
+            <pubDate>Wed, 14 Jan 2026 19:34:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.32-beta.20260114]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.32-beta.20260114</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.32-beta.20260114</guid>
+            <pubDate>Wed, 14 Jan 2026 09:08:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.32]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.32 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.32</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.32</guid>
+            <pubDate>Wed, 14 Jan 2026 08:30:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.31]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.31 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.31</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.31</guid>
+            <pubDate>Tue, 13 Jan 2026 19:47:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[@continuedev/config-yaml@1.38.0]]></title>
+            <description><![CDATA[# [1.38.0](https://github.com/continuedev/continue/compare/@continuedev/config-yaml@1.37.0...@continuedev/config-yaml@1.38.0) (2026-01-13)
+
+
+### Bug Fixes
+
+* add case insensitive match strategy for find and replace ([ac476cc](https://github.com/continuedev/continue/commit/ac476cc02884bf6d3dd52adf67a0c6eb89ab9d0a))
+* add missing hub mock rejection in test ([53a9fa4](https://github.com/continuedev/continue/commit/53a9fa4cb34d97a9f3e2af1f26a02b10bbd0a9a1))
+* also use env vars in Write job summary step ([8969f42](https://github.com/continuedev/continue/commit/8969f422619f63becf2f778c4465cf192ee83e18))
+* **anthropic:** support Azure-hosted Anthropic endpoints ([9e8bfcd](https://github.com/continuedev/continue/commit/9e8bfcd9396b9abf7643c79bb53f7263da8138c6))
+* change 'Agent:' to 'Config:' in intro message and update tests ([c1e4668](https://github.com/continuedev/continue/commit/c1e466836acd0b2a5e81f2925c5d2e14691543d9))
+* clarify can't edit in parallel with itself either ([46b31af](https://github.com/continuedev/continue/commit/46b31af330aa669d93c777d5fa577b2ca7c72225))
+* **cli:** expand model capability detection to include Llama, Nemotron, and Mistral ([#8845](https://github.com/continuedev/continue/issues/8845)) ([528a8ab](https://github.com/continuedev/continue/commit/528a8abceb69a6afb12e0a32ea5eb8acbc1e8241)), closes [#1](https://github.com/continuedev/continue/issues/1)
+* **cli:** fix test expectations and import path for uriUtils ([3ccaa09](https://github.com/continuedev/continue/commit/3ccaa092e65fdd520e3e8b157feaf0eb3d18ba25))
+* **cli:** path to uri and vice versa conversion ([d09b3e2](https://github.com/continuedev/continue/commit/d09b3e2126d7349f23e50e90107e154838bc06ae))
+* **cli:** resolve circular dependency in uploadArtifact tool ([b5da44d](https://github.com/continuedev/continue/commit/b5da44ddd665d571b9669a9832e2d5b34a9f743c))
+* **cli:** restart cli for manual update ([595986a](https://github.com/continuedev/continue/commit/595986a6fb46ccd4e023078e9e3a8a]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.38.0</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/%40continuedev/config-yaml%401.38.0</guid>
+            <pubDate>Tue, 13 Jan 2026 19:44:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.30-beta.20260113]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260113</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260113</guid>
+            <pubDate>Tue, 13 Jan 2026 09:08:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.30-beta.20260112]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260112</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260112</guid>
+            <pubDate>Mon, 12 Jan 2026 09:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.30-beta.20260111]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260111</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260111</guid>
+            <pubDate>Sun, 11 Jan 2026 09:05:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.30-beta.20260110]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260110</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260110</guid>
+            <pubDate>Sat, 10 Jan 2026 09:05:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.30]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.30 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.30</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.30</guid>
+            <pubDate>Sat, 10 Jan 2026 01:46:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260109]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260109</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260109</guid>
+            <pubDate>Fri, 09 Jan 2026 09:08:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260108]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260108</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260108</guid>
+            <pubDate>Thu, 08 Jan 2026 09:08:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260107]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260107</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260107</guid>
+            <pubDate>Wed, 07 Jan 2026 09:09:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260106]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260106</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260106</guid>
+            <pubDate>Tue, 06 Jan 2026 09:07:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260105]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260105</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260105</guid>
+            <pubDate>Mon, 05 Jan 2026 09:09:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260104]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260104</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260104</guid>
+            <pubDate>Sun, 04 Jan 2026 09:05:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260103]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260103</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260103</guid>
+            <pubDate>Sat, 03 Jan 2026 09:05:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260102]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260102</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260102</guid>
+            <pubDate>Fri, 02 Jan 2026 09:06:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20260101]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260101</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260101</guid>
+            <pubDate>Thu, 01 Jan 2026 09:07:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251231]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251231</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251231</guid>
+            <pubDate>Wed, 31 Dec 2025 09:07:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251230]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251230</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251230</guid>
+            <pubDate>Tue, 30 Dec 2025 09:07:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251229]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251229</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251229</guid>
+            <pubDate>Mon, 29 Dec 2025 09:08:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251228]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251228</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251228</guid>
+            <pubDate>Sun, 28 Dec 2025 09:05:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251227]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251227</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251227</guid>
+            <pubDate>Sat, 27 Dec 2025 09:05:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251226]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251226</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251226</guid>
+            <pubDate>Fri, 26 Dec 2025 09:06:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251225]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251225</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251225</guid>
+            <pubDate>Thu, 25 Dec 2025 09:06:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251224]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251224</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251224</guid>
+            <pubDate>Wed, 24 Dec 2025 09:07:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.29]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.29 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29</guid>
+            <pubDate>Wed, 24 Dec 2025 03:01:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.28]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.28 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.28</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.28</guid>
+            <pubDate>Tue, 23 Dec 2025 18:39:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Beta Release v1.5.27-beta.20251223]]></title>
+            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.27-beta.20251223</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.27-beta.20251223</guid>
+            <pubDate>Tue, 23 Dec 2025 09:07:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI Stable Release v1.5.27]]></title>
+            <description><![CDATA[Direct stable release from main branch. Version 1.5.27 built and published directly from the latest main branch.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.5.27</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.27</guid>
+            <pubDate>Mon, 22 Dec 2025 20:55:05 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

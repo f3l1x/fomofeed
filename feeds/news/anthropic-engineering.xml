@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Anthropic Engineering]]></title>
+        <description><![CDATA[RSS feed for Anthropic Engineering]]></description>
+        <link>https://www.anthropic.com/engineering</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:29:53 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-engineering.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:29:53 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude Code auto mode: a safer way to skip permissions]]></title>
+            <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-auto-mode</guid>
+            <pubDate>Tue, 24 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Harness design for long-running application development]]></title>
+            <link>https://www.anthropic.com/engineering/harness-design-long-running-apps</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/harness-design-long-running-apps</guid>
+            <pubDate>Mon, 23 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Eval awareness in Claude Opus 4.6’s BrowseComp performance]]></title>
+            <link>https://www.anthropic.com/engineering/eval-awareness-browsecomp</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/eval-awareness-browsecomp</guid>
+            <pubDate>Thu, 05 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building a C compiler with a team of parallel Claudes]]></title>
+            <link>https://www.anthropic.com/engineering/building-c-compiler</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/building-c-compiler</guid>
+            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Designing AI-resistant technical evaluations]]></title>
+            <link>https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</guid>
+            <pubDate>Tue, 20 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Demystifying evals for AI agents]]></title>
+            <link>https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</guid>
+            <pubDate>Thu, 08 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Effective harnesses for long-running agents]]></title>
+            <link>https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</guid>
+            <pubDate>Tue, 25 Nov 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing advanced tool use on the Claude Developer Platform]]></title>
+            <link>https://www.anthropic.com/engineering/advanced-tool-use</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/advanced-tool-use</guid>
+            <pubDate>Sun, 23 Nov 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Code execution with MCP: Building more efficient agents]]></title>
+            <link>https://www.anthropic.com/engineering/code-execution-with-mcp</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/code-execution-with-mcp</guid>
+            <pubDate>Mon, 03 Nov 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Beyond permission prompts: making Claude Code more secure and autonomous]]></title>
+            <link>https://www.anthropic.com/engineering/claude-code-sandboxing</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-sandboxing</guid>
+            <pubDate>Sun, 19 Oct 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Effective context engineering for AI agents]]></title>
+            <link>https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</guid>
+            <pubDate>Sun, 28 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A postmortem of three recent issues]]></title>
+            <link>https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues</guid>
+            <pubDate>Tue, 16 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Writing effective tools for agents — with agents]]></title>
+            <link>https://www.anthropic.com/engineering/writing-tools-for-agents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/writing-tools-for-agents</guid>
+            <pubDate>Wed, 10 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Desktop Extensions: One-click MCP server installation for Claude Desktop]]></title>
+            <link>https://www.anthropic.com/engineering/desktop-extensions</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/desktop-extensions</guid>
+            <pubDate>Wed, 25 Jun 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How we built our multi-agent research system]]></title>
+            <link>https://www.anthropic.com/engineering/multi-agent-research-system</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/multi-agent-research-system</guid>
+            <pubDate>Thu, 12 Jun 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code: Best practices for agentic coding]]></title>
+            <link>https://www.anthropic.com/engineering/claude-code-best-practices</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
+            <pubDate>Thu, 17 Apr 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The "think" tool: Enabling Claude to stop and think in complex tool use situations]]></title>
+            <link>https://www.anthropic.com/engineering/claude-think-tool</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-think-tool</guid>
+            <pubDate>Wed, 19 Mar 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet]]></title>
+            <link>https://www.anthropic.com/engineering/swe-bench-sonnet</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/swe-bench-sonnet</guid>
+            <pubDate>Sun, 05 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building effective agents]]></title>
+            <link>https://www.anthropic.com/engineering/building-effective-agents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/building-effective-agents</guid>
+            <pubDate>Wed, 18 Dec 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Contextual Retrieval]]></title>
+            <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/contextual-retrieval</guid>
+            <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
+            <description><![CDATA[Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.]]></description>
+            <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
+            <pubDate>Sun, 01 Mar 2026 12:58:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Managed Agents: Decoupling the brain from the hands]]></title>
+            <link>https://www.anthropic.com/engineering/managed-agents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
+            <pubDate>Wed, 03 Sep 2025 20:46:53 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

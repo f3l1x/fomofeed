@@ -1,0 +1,2297 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Ollama Releases]]></title>
+        <description><![CDATA[RSS feed for Ollama Releases]]></description>
+        <link>https://github.com/ollama/ollama/releases</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Apr 2026 12:29:05 GMT</lastBuildDate>
+        <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:29:05 GMT</pubDate>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.20.6]]></title>
+            <description><![CDATA[## What's Changed
+* Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes
+* Parallel tool calling improved for streaming responses 
+* [Hermes agent](https://docs.ollama.com/integrations/hermes) Ollama integration guide is now available
+* Ollama app is updated to fix image attachment errors 
+
+## New Contributors
+
+@matteocelani made their first contribution in [#15272](https://github.com/ollama/ollama/pull/15272)
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.5...v0.20.6]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.6</guid>
+            <pubDate>Sun, 12 Apr 2026 22:59:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.20.5]]></title>
+            <description><![CDATA[## OpenClaw channel setup with `ollama launch`
+<img width="2292" height="1694" alt="CleanShot 2026-04-09 at 15 45 10@2x" src="https://github.com/user-attachments/assets/3a6882c4-5c6e-4724-8f6e-56ff2df39f6f" />
+
+## What's Changed
+  - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through `ollama launch openclaw`
+  - Enable flash attention for Gemma 4 on compatible GPUs
+  - `ollama launch opencode` now detects curl-based OpenCode installs at `~/.opencode/bin`
+  - Fix `/save` command for models imported from safetensors
+
+## New Contributors
+* @sjhddh made their first contribution in https://github.com/ollama/ollama/pull/15424
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.4...v0.20.5]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.5</guid>
+            <pubDate>Thu, 09 Apr 2026 18:11:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.20.4]]></title>
+            <description><![CDATA[## What's Changed
+* mlx: Improve M5 performance with NAX
+* gemma4: enable flash attention 
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.3...v0.20.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.4</guid>
+            <pubDate>Tue, 07 Apr 2026 17:57:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.20.3]]></title>
+            <description><![CDATA[## What's Changed
+* Gemma 4 Tool Calling improvements
+* Added latest models to Ollama App
+* OpenClaw fixes for launching TUI
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.2...v0.20.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.3</guid>
+            <pubDate>Tue, 07 Apr 2026 05:19:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.20.2]]></title>
+            <description><![CDATA[## What's Changed
+* app: default app home view to new chat instead of launch by @jmorganca in https://github.com/ollama/ollama/pull/15312
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.1...v0.20.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.2</guid>
+            <pubDate>Sat, 04 Apr 2026 06:22:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.20.1]]></title>
+            <description><![CDATA[## What's Changed
+* bench: add prompt calibration, context size flag, and NumCtx reporting by @dhiltgen in https://github.com/ollama/ollama/pull/15158
+* model/parsers: fix gemma4 arg parsing when quoted strings contain " by @drifkin in https://github.com/ollama/ollama/pull/15254
+* ggml: skip cublasGemmBatchedEx during graph reservation by @jessegross in https://github.com/ollama/ollama/pull/15301
+* gemma4: enable flash attention by @dhiltgen in https://github.com/ollama/ollama/pull/15296
+* ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper by @jessegross in https://github.com/ollama/ollama/pull/15305
+* model/parsers: rework gemma4 tool call handling by @drifkin in https://github.com/ollama/ollama/pull/15306
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.0...v0.20.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.1</guid>
+            <pubDate>Fri, 03 Apr 2026 22:37:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.20.0]]></title>
+            <description><![CDATA[<img width="3748" height="1290" alt="Gemma 4" src="https://github.com/user-attachments/assets/c4727579-47b1-4c7b-8aa2-28eda15b71f5" />
+
+## Gemma 4 
+
+**Effective 2B (E2B)**
+```
+ollama run gemma4:e2b
+```
+
+**Effective 4B (E4B)**
+```
+ollama run gemma4:e4b
+```
+
+**26B (Mixture of Experts model with 4B active parameters)**
+```
+ollama run gemma4:26b
+```
+
+**31B (Dense)**
+```
+ollama run gemma4:31b
+```
+
+## What's Changed
+* docs: update pi docs by @ParthSareen in https://github.com/ollama/ollama/pull/15152
+* mlx: respect tokenizer add_bos_token setting in pipeline by @dhiltgen in https://github.com/ollama/ollama/pull/15185
+* tokenizer: add SentencePiece-style BPE support by @dhiltgen in https://github.com/ollama/ollama/pull/15162
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.19.0...v0.20.0-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.0</guid>
+            <pubDate>Thu, 02 Apr 2026 16:54:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.19.0]]></title>
+            <description><![CDATA[<img width="480" alt="image" src="https://github.com/user-attachments/assets/1b5ca980-b9d5-490e-99b9-f0f7b9af2c32" />
+
+## Ollama is now powered by MLX on Apple Silicon in preview
+
+Ollama on Apple silicon [is now built](https://ollama.com/blog/mlx) on top of Apple’s machine learning framework, MLX, to take advantage of its unified memory architecture.
+
+https://github.com/user-attachments/assets/600297b0-3167-46a5-8e3a-fefda3a51b84
+
+Read more: https://ollama.com/blog/mlx
+
+## What's Changed
+* Ollama's app will now no longer incorrectly show "model is out of date"
+* `ollama launch pi` now includes web search plugin that uses Ollama's web search
+* Improved KV cache hit rate when using the Anthropic-compatible API
+* Fixed tool call parsing issue with Qwen3.5 where tool calls would be output in thinking
+* MLX runner will now create periodic snapshots during prompt processing
+* Fixed KV cache snapshot memory leak in MLX runner
+* Fixed issue where flash attention would be incorrectly enabled for `grok` models
+* Fixed `qwen3-next:80b` not loading in Ollama
+
+## New Contributors
+* @amatas made their first contribution in https://github.com/ollama/ollama/pull/15022
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.18.3...v0.19.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.19.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.19.0</guid>
+            <pubDate>Fri, 27 Mar 2026 17:07:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.18.4]]></title>
+            <description><![CDATA[## What's Changed
+* ggml: force flash attention off for grok by @rick-github in https://github.com/ollama/ollama/pull/15050
+* mlx: fix KV cache snapshot memory leak by @jessegross in https://github.com/ollama/ollama/pull/15065
+* mlxrunner: schedule periodic snapshots during prefill by @jessegross in https://github.com/ollama/ollama/pull/15058
+* doc: update vscode doc by @hoyyeva in https://github.com/ollama/ollama/pull/15064
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.18.3...v0.18.4-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.18.4-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.18.4-rc0</guid>
+            <pubDate>Thu, 26 Mar 2026 23:11:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.18.3]]></title>
+            <description><![CDATA[## Visual Studio Code 
+
+Microsoft Visual Studio Code now directly integrates with Ollama via GitHub Copilot.
+
+If you have Ollama installed, any local or cloud model from Ollama can be selected for use within visual studio code. 
+
+<img width="3410" height="2076" alt="Ollama screenshot 2026-03-26 at 01 43 57@2x" src="https://github.com/user-attachments/assets/4f9edc73-af3d-475c-924e-93334a4d88c5" />
+
+## What's Changed
+* GLM parser improvements for tool calls
+* OpenClaw integration improvements for gateway checks
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.18.2...v0.18.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.18.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.18.3</guid>
+            <pubDate>Wed, 25 Mar 2026 03:00:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.18.2]]></title>
+            <description><![CDATA[## What's Changed
+* Add extra check to ensure `npm` and `git` are installed before installing OpenClaw
+* Claude Code will now be faster when run locally, due to preventing cache breakages
+* Fix to correctly support `ollama launch openclaw --model <model>`
+* Register Ollama's websearch package correctly for OpenClaw
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.18.1...v0.18.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.18.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.18.2</guid>
+            <pubDate>Wed, 18 Mar 2026 09:02:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.18.1]]></title>
+            <description><![CDATA[### Web Search and Fetch in OpenClaw
+
+Ollama now ships with web search and web fetch plugin for OpenClaw. This allows Ollama's models (local or cloud) to search the web for the latest content and news. This also allows OpenClaw with Ollama to be able to fetch the web and extract readable content for processing. This feature does not execute JavaScript.
+
+When using local models with web search in OpenClaw, ensure you are signed into Ollama with `ollama signin`
+
+```
+ollama launch openclaw
+```
+
+You can install web search directly into OpenClaw as a plugin if you already have OpenClaw configured and working:
+
+### Ollama web search plugin
+```
+openclaw plugins install @ollama/openclaw-web-search
+```
+### Non-interactive (headless) mode for ollama launch
+
+`ollama launch` can now run in non-interactive mode.
+
+Perfect for:
+
+- Docker/containers: spin up an integration as a pipeline step to run evals, test prompts, or validate model behavior as part of your build. Tear it down when the job ends.
+
+- CI/CD: Generate code reviews, security checks, and other tasks within your CI                              
+
+- Scripts/automation: Kick off automated tasks with Ollama and claude code
+
+- `--model`  must be specified to run in headless mode         
+-  `--yes` flag will auto-pull the model and skip any selectors
+
+Try with: `ollama launch claude --model kimi-k2.5:cloud --yes -- -p "how does this repository work?"`
+
+### Use non-interactive mode in OpenClaw
+
+You can ask your OpenClaw to run tasks using claude with subagents:
+```
+ollama launch claude --model kimi-k2.5:cloud --yes -- -p "how does this repository work?" using a subagent
+```
+
+## What's Changed
+* `ollama launch openclaw` will now use the official Ollama auth and model provider for OpenClaw
+* Improvements to Ollama's benchmarking tool in `./cmd/bench`
+* `ollama launch openclaw` will now skip `--install-daemon` when systemd is unavailable
+
+
+**Full Changelog**: https://github.com/oll]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.18.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.18.1</guid>
+            <pubDate>Tue, 17 Mar 2026 00:21:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.18.0]]></title>
+            <description><![CDATA[Ollama 0.18 includes improved performance for OpenClaw and Ollama’s [cloud models](https://ollama.com/search?c=cloud), including the new Nemotron-3-Super model by NVIDIA designed for high-performance agentic reasoning tasks.
+
+### Improved OpenClaw performance with Kimi-K2.5
+
+This release of Ollama improves performance of cloud models and their reliability.
+
+- Up to 2x faster speeds with Kimi-K2.5
+- Tool calling accuracy has been improved
+
+```
+ollama launch openclaw --model kimi-k2.5
+```
+
+### Ollama is now a provider in OpenClaw
+
+Ollama can now be selected as an authentication and model provider during OpenClaw onboarding (thanks @BruceMacD for contributing and @steipete for reviewing!)
+
+```
+openclaw onboard --auth-choice ollama
+```
+
+More information: [https://docs.openclaw.ai/providers/ollama](https://docs.openclaw.ai/providers/ollama)
+
+### Nemotron-3-Super
+
+[Nemotron-3-Super](https://ollama.com/library/nemotron-3-super): is a new 122B parameter model with strong reasoning and tool calling capability, while having top performance when run on modern hardware:
+
+- `ollama run nemotron-3-super:cloud`
+- `ollama run nemotron-3-super` to run locally (requires 96GB+ of VRAM)
+
+Nemotron-3-Super scores highest of any open model on PinchBench, a benchmark suite that measures how successful models are at completing tasks when used with OpenClaw.
+
+```
+ollama launch openclaw --model nemotron-3-super:cloud
+```
+
+Or using OpenClaw’s onboarding:
+
+```
+openclaw onboard \
+	--auth-choice ollama \
+	--custom-model-id nemotron-3-super:cloud
+```
+
+### Non-interactive task support
+
+`ollama launch` now supports non-interactive tasks by passing in `--yes`. This enables using Claude, Codex, Pi and more in scripts, GitHub Actions, and other non-interactive environments.
+
+```
+ollama launch claude \
+	--model glm-5:cloud \
+	--yes \
+	-- "Do a quick code review of this pull request and respond on GitHub with a comment summarizing your feedback."
+```
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.18.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.18.0</guid>
+            <pubDate>Sat, 14 Mar 2026 00:37:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.8]]></title>
+            <description><![CDATA[## What's Changed
+* parsers: repair unclosed arg_value tags in GLM tool calls by @BruceMacD in https://github.com/ollama/ollama/pull/14656
+* Reapply "don't require pulling stubs for cloud models" again by @jmorganca in https://github.com/ollama/ollama/pull/14608
+* docs: format compat docs by @mxyng in https://github.com/ollama/ollama/pull/14678
+* create: fix localhost handling by @dhiltgen in https://github.com/ollama/ollama/pull/14681
+* build: smarter docker parallelism by @dhiltgen in https://github.com/ollama/ollama/pull/14653
+* mlx: int4 groupsize 64 by @pdevine in https://github.com/ollama/ollama/pull/14682
+* cloud_proxy: handle stream disconnects gracefully by @drifkin in https://github.com/ollama/ollama/pull/14685
+* x/mlxrunner: replace sampler interface chain with single stateful Sampler by @pdevine in https://github.com/ollama/ollama/pull/14652
+* rocm: update linux to v7.2 by @dhiltgen in https://github.com/ollama/ollama/pull/14391
+* app: fix reset to defaults disabling auto-update by @hoyyeva in https://github.com/ollama/ollama/pull/14741
+* mlx: get parameters from modelfile during model creation by @pdevine in https://github.com/ollama/ollama/pull/14747
+* MLX: add header vendoring and remove go build tag by @dhiltgen in https://github.com/ollama/ollama/pull/14642
+* ci: Fix windows build by @dhiltgen in https://github.com/ollama/ollama/pull/14754
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.17.7...v0.17.8-rc1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.8-rc4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.8-rc4</guid>
+            <pubDate>Tue, 10 Mar 2026 03:30:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.7]]></title>
+            <description><![CDATA[## What's Changed
+* Allow thinking levels such as `"medium"` to correctly interpreted in Ollama's API for all thinking models
+* Add context length to support compaction when using `ollama launch`
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.17.6...v0.17.7]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.7</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.7</guid>
+            <pubDate>Thu, 05 Mar 2026 05:51:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.6]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed issue where GLM-OCR would not work due to incorrect prompt rendering
+* Fixed tool calling parsing and rendering for Qwen 3.5 models
+
+## New Contributors
+* @Victor-Quqi made their first contribution in https://github.com/ollama/ollama/pull/14584
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.17.5...v0.17.6]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.6</guid>
+            <pubDate>Wed, 04 Mar 2026 07:28:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.5]]></title>
+            <description><![CDATA[## New models
+- [Qwen3.5](https://ollama.com/library/qwen3.5): the small Qwen 3.5 model series is now available in 0.8B, 2B, 4B and 9B parameter sizes.
+
+## What's Changed
+* Fixed crash in Qwen 3.5 models when split over GPU & CPU
+* Fixed issue where Qwen 3.5 models would repeat themselves due to no presence penalty (note: you may have to redownload the `qwen3.5` models:  `ollama pull qwen3.5:35b` for example)
+* `ollama run --verbose` will now show peak memory usage when using Ollama's MLX engine
+* Fixed memory issues and crashes in MLX runner
+* Fixed issue where Ollama would not be able to run models imported from Qwen3.5 GGUF files
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.17.4...v0.17.5
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.5</guid>
+            <pubDate>Mon, 02 Mar 2026 05:59:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.4]]></title>
+            <description><![CDATA[## New models
+- [Qwen 3.5](https://ollama.com/library/qwen3.5): a family of open-source multimodal models that delivers exceptional utility and performance.
+- [LFM 2](https://ollama.com/library/lfm2): LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.
+
+> Note: for users on 0.17.1, this version will not automatically update. [Re-downloading](https://ollama.com/download) is required to receive the latest version of Ollama.
+
+## What's Changed
+* Tool call indices will now be included in parallel tool calls
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.17.3...v0.17.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.4</guid>
+            <pubDate>Fri, 27 Feb 2026 03:47:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.3]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed issue where tool calls in the Qwen 3 and Qwen 3.5 model families would not be parsed correctly if emitted during thinking
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.17.2...v0.17.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.3</guid>
+            <pubDate>Fri, 27 Feb 2026 02:21:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.2]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed issue where Ollama's app on Windows would crash when a new update has been downloaded
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.17.1...v0.17.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.2</guid>
+            <pubDate>Thu, 26 Feb 2026 22:41:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.1]]></title>
+            <description><![CDATA[## What's Changed
+* Nemotron architecture support in Ollama's engine
+* MLX engine now has improved memory usage
+* Ollama's app will now allow models that support tools to use web search capabilities
+* Improved LFM2 and LFM2.5 models in Ollama's engine
+* `ollama create` will no longer default to affine quantization for unquantized models when using the MLX engine
+* Added configuration for disabling automatic update downloading
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.17.0...v0.17.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.1</guid>
+            <pubDate>Tue, 24 Feb 2026 15:00:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.17.0]]></title>
+            <description><![CDATA[## OpenClaw
+
+OpenClaw can now be installed and configured automatically via Ollama, making it the easiest way to get up and running with OpenClaw with open models like Kimi-K2.5, GLM-5, and Minimax-M2.5.
+
+### Get started
+
+`ollama launch openclaw`
+
+<img width="2368" height="1830" alt="oc1" src="https://github.com/user-attachments/assets/cb9443d6-92cc-4c13-b26b-87e5f6c09b4e" />
+
+### Web search in OpenClaw
+
+When using cloud models, websearch is enabled - allowing OpenClaw to search the internet.
+
+<img width="2368" height="1830" alt="oc3" src="https://github.com/user-attachments/assets/a4400e6d-e4c4-485b-bd11-823a624962a2" />
+
+
+## What's Changed
+* Improved tokenizer performance
+* Ollama's macOS and Windows apps will now default to a context length based on available VRAM
+
+## New Contributors
+* @natl-set made their first contribution in https://github.com/ollama/ollama/pull/14322
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.16.3...v0.17.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.17.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.17.0</guid>
+            <pubDate>Sat, 21 Feb 2026 06:40:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.16.3]]></title>
+            <description><![CDATA[## What's Changed
+*  New `ollama launch cline` added for the Cline CLI
+* `ollama launch <integration>` will now always show the model picker
+* Added Gemma 3, Llama and Qwen 3 architectures to MLX runner
+
+## New Contributors
+* @hellosaumil made their first contribution in https://github.com/ollama/ollama/pull/14271
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.16.2...v0.16.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.16.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.16.3</guid>
+            <pubDate>Thu, 19 Feb 2026 22:11:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.16.2]]></title>
+            <description><![CDATA[## What's Changed
+* `ollama launch claude` now supports searching the web when using `:cloud` models
+* Fixed rendering issue when running `ollama` in PowerShell
+* New setting in Ollama's app makes it easier to disable cloud models for sensitive and private tasks where data cannot leave your computer. For Linux or when running `ollama serve` manually, set `OLLAMA_NO_CLOUD=1`.
+* Fixed issue where experimental image generation models would not run in 0.16.0 and 0.16.1
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.16.1...v0.16.2-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.16.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.16.2</guid>
+            <pubDate>Sat, 14 Feb 2026 08:43:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.16.1]]></title>
+            <description><![CDATA[## What's Changed
+* Installing Ollama via the `curl` install script on macOS will now only prompt for your password if its required
+* Installing Ollama via the `iem` install script in Windows will now show progress
+* Image generation models will now respect the `OLLAMA_LOAD_TIMEOUT` variable
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.16.0...v0.16.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.16.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.16.1</guid>
+            <pubDate>Thu, 12 Feb 2026 23:40:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.16.0]]></title>
+            <description><![CDATA[## New models
+* [GLM-5](https://ollama.com/library/glm-5): A strong reasoning and agentic model from Z.ai with 744B total parameters (40B active), built for complex systems engineering and long-horizon tasks.
+* [MiniMax-M2.5](https://ollama.com/library/minimax-m2.5): a new state-of-the-art large language model designed for real-world productivity and coding tasks.
+
+## New `ollama`
+
+The new `ollama` command makes it easy to launch your favorite apps with models using Ollama
+
+<img width="1504" height="1114" alt="Ollama screenshot 2026-02-12 at 04 48 55@2x" src="https://github.com/user-attachments/assets/d693134d-5e80-471e-9d2d-5e1e26381beb" />
+
+## What's Changed
+* Launch Pi with `ollama launch pi`
+* Improvements to Ollama's MLX runner to support GLM-4.7-Flash
+* Ctrl+G will now allow for editing text prompts in a text editor when running a model
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.6...v0.16.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.16.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.16.0</guid>
+            <pubDate>Thu, 12 Feb 2026 01:19:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.15.6]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed context limits when running `ollama launch droid`
+* `ollama launch` will now download missing models instead of erroring
+* Fixed bug where `ollama launch claude` would cause context compaction when providing images
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.5...v0.15.6]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.15.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.6</guid>
+            <pubDate>Sat, 07 Feb 2026 03:58:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.15.5]]></title>
+            <description><![CDATA[## New models
+- [Qwen3-Coder-Next](https://ollama.com/library/qwen3-coder-next): a coding-focused language model from Alibaba's Qwen team, optimized for agentic coding workflows and local development.
+- [GLM-OCR](https://ollama.com/library/glm-ocr): GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture.
+
+## Improvements to `ollama launch`
+* `ollama launch` can now be provided arguments, for example `ollama launch claude -- --resume`
+* `ollama launch` will now work run subagents when using `ollama launch claude`
+* Ollama will now set context limits for a set of models when using `ollama launch opencode`
+
+## What's Changed
+* Sub-agent support for `ollama launch` for planning, deep research, and similar tasks
+* `ollama signin` will now open a browser window to make signing in easier
+* Ollama will now default to the following context lengths based on VRAM:
+  * < 24 GiB VRAM: 4,096 context
+  * 24-48 GiB VRAM: 32,768 context
+  * &gt;= 48 GiB VRAM: 262,144 context
+* GLM-4.7-Flash support on Ollama's experimental MLX engine
+* `ollama signin` will now open the browser to the connect page
+* Fixed off by one error when using `num_predict` in the API
+* Fixed issue where tokens from a previous sequence would be returned when hitting `num_predict`
+
+## New Contributors
+* @avukmirovich made their first contribution in https://github.com/ollama/ollama/pull/13934
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.4...v0.15.5]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.15.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.5</guid>
+            <pubDate>Tue, 03 Feb 2026 01:21:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.15.4]]></title>
+            <description><![CDATA[## What's Changed
+* `ollama launch openclaw` will now enter the standard OpenClaw onboarding flow if this has not yet been completed.
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.3...v0.15.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.15.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.4</guid>
+            <pubDate>Sun, 01 Feb 2026 23:13:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.15.3]]></title>
+            <description><![CDATA[## What's Changed
+* Renamed `ollama launch clawdbot` to `ollama launch openclaw` to reflect the project's new name
+* Improved tool calling for Ministral models
+* docs: add clawdbot by @ParthSareen in https://github.com/ollama/ollama/pull/13925
+* cmd/config: Use envconfig.Host() for base API in launch config packages by @gabe-l-hart in https://github.com/ollama/ollama/pull/13937
+* `ollama launch` will now use the value of `OLLAMA_HOST` when running it
+
+## New Contributors
+* @MBerguer made their first contribution in https://github.com/ollama/ollama/pull/13971
+* @taronsung made their first contribution in https://github.com/ollama/ollama/pull/13965
+* @noureldin-azzab made their first contribution in https://github.com/ollama/ollama/pull/13961
+* @dhirajlochib made their first contribution in https://github.com/ollama/ollama/pull/13645
+* @ThanhNguyxn made their first contribution in https://github.com/ollama/ollama/pull/13979
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.2...v0.15.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.15.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.3</guid>
+            <pubDate>Sun, 01 Feb 2026 01:29:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.15.2]]></title>
+            <description><![CDATA[<img width="1916" height="976" alt="Ollama screenshot 2026-01-26 at 17 53 40@2x (1)" src="https://github.com/user-attachments/assets/7937e607-e16e-46f5-a280-5cf9ce088a68" />
+
+
+## What's Changed
+* New `ollama launch clawdbot` command for launching Clawdbot using Ollama models
+
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.1...v0.15.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.15.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.2</guid>
+            <pubDate>Tue, 27 Jan 2026 00:52:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.15.1]]></title>
+            <description><![CDATA[## What's Changed
+* GLM-4.7-Flash performance and correctness improvements, fixing repetitive answers and tool calling quality
+* Fixed performance issues on macOS and arm64 Linux
+* Fixed issue where `ollama launch` would not detect `claude` and would incorrectly update `opencode` configurations
+
+## New Contributors
+* @stillhart made their first contribution in https://github.com/ollama/ollama/pull/13855
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.0...v0.15.1
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.15.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.1</guid>
+            <pubDate>Sat, 24 Jan 2026 23:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.15.0]]></title>
+            <description><![CDATA[<img width="4502" height="2222" alt="An image of Ollama building rapidly on the computer. Build with Ollama!" src="https://github.com/user-attachments/assets/0810fb5c-6727-400a-b711-4ffc349d0bb5" />
+
+## `ollama launch`
+
+A new `ollama launch` command to use Ollama's models with Claude Code, Codex, OpenCode, and Droid without separate configuration.
+
+## What's Changed
+* New `ollama launch` command for Claude Code, Codex, OpenCode, and Droid 
+* Fixed issue where creating multi-line strings with `"""` would not work when using `ollama run`
+* <kbd>Ctrl</kbd>+<kbd>J</kbd> and <kbd>Shift</kbd>+<kbd>Enter</kbd> now work for inserting newlines in `ollama run`
+* Reduced memory usage for GLM-4.7-Flash models]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.15.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.0</guid>
+            <pubDate>Wed, 21 Jan 2026 22:40:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.14.3]]></title>
+            <description><![CDATA[<img width="2904" height="1420" alt="Ollama screenshot 2026-01-20 at 23 41 54@2x" src="https://github.com/user-attachments/assets/ae16dbc5-5b2b-45fd-ae03-ba15f2721c3c" />
+
+* [Z-Image Turbo](https://ollama.com/x/z-image-turbo): 6 billion parameter text-to-image model from Alibaba’s Tongyi Lab. It generates high-quality photorealistic images.
+* [Flux.2 Klein](https://ollama.com/x/flux2-klein): Black Forest Labs’ fastest image-generation models to date.
+
+## New models
+* [GLM-4.7-Flash](https://ollama.com/library/glm-4.7-flash): As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.
+* [LFM2.5-1.2B-Thinking](https://ollama.com/library/lfm2.5-thinking): LFM2.5 is a new family of hybrid models designed for on-device deployment. 
+
+## What's Changed
+* Fixed issue where Ollama's macOS app would interrupt system shutdown
+* Fixed `ollama create` and `ollama show` commands for experimental models
+* The `/api/generate` API can now be used for image generation
+* Fixed minor issues in Nemotron-3-Nano tool parsing
+* Fixed issue where removing an image generation model would cause it to first load
+* Fixed issue where `ollama rm` would only stop the first model in the list if it were running
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.14.2...v0.14.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.14.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.3</guid>
+            <pubDate>Fri, 16 Jan 2026 19:53:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.14.2]]></title>
+            <description><![CDATA[## New models
+
+- [TranslateGemma](https://ollama.com/library/translategemma): A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.
+
+## What's Changed
+* <kbd>Shift</kbd> + <kbd>Enter</kbd> (or <kbd>Ctrl</kbd> + <kbd>j</kbd>) will now enter a newline in Ollama's CLI
+* Improve `/v1/responses` API to better confirm to OpenResponses specification
+
+## New Contributors
+* @yuhongsun96 made their first contribution in https://github.com/ollama/ollama/pull/13135
+* @koaning made their first contribution in https://github.com/ollama/ollama/pull/13326
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.14.1...v0.14.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.14.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.2</guid>
+            <pubDate>Fri, 16 Jan 2026 00:50:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.14.1]]></title>
+            <description><![CDATA[## Image generation models (experimental)
+
+Experimental image generation models are available for **macOS** and **Linux (CUDA)** in Ollama:
+
+### Available models
+
+- [Z-Image-Turbo](https://ollama.com/x/z-image-turbo)
+
+```
+ollama run x/z-image-turbo
+```
+
+> **Note**: [`x`](https://ollama.com/x) is a username on ollama.com where experimental models are uploaded
+
+More models coming soon:
+
+1. Qwen-Image-2512
+2. Qwen-Image-Edit-2511
+3. GLM-Image
+
+## What's Changed
+* fix macOS auto-update signature verification failure
+
+## New Contributors
+* @joshxfi made their first contribution in https://github.com/ollama/ollama/pull/13711
+* @maternion made their first contribution in https://github.com/ollama/ollama/pull/13709
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.14.0...v0.14.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.14.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.1</guid>
+            <pubDate>Wed, 14 Jan 2026 19:02:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.14.0]]></title>
+            <description><![CDATA[## What's Changed
+* `ollama run --experimental` CLI will now open a new Ollama CLI that includes an agent loop and the `bash` tool
+* Anthropic API compatibility: support for the `/v1/messages` API
+* A new `REQUIRES` command for the `Modelfile` allows declaring which version of Ollama is required for the model
+* For older models, Ollama will avoid an integer underflow on low VRAM systems during memory estimation
+* More accurate VRAM measurements for AMD iGPUs
+* Ollama's app will now highlight swift source code
+* An error will now return when embeddings return `NaN` or `-Inf`
+* Ollama's Linux install bundles files now use `zst` compression
+* New experimental support for image generation models, powered by MLX
+
+## New Contributors
+* @Vallabh-1504 made their first contribution in https://github.com/ollama/ollama/pull/13550
+* @majiayu000 made their first contribution in https://github.com/ollama/ollama/pull/13596
+* @harrykiselev made their first contribution in https://github.com/ollama/ollama/pull/13615
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.5...v0.14.0-rc2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.14.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.0</guid>
+            <pubDate>Sat, 10 Jan 2026 08:33:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.13.5]]></title>
+            <description><![CDATA[## New Models
+* Google's [FunctionGemma](https://ollama.com/library/functiongemma) a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling.
+
+## What's Changed
+* `bert` architecture models now run on Ollama's engine
+* Added built-in renderer & tool parsing capabilities for DeepSeek-V3.1
+* Fixed issue where nested properties in tools may not have been rendered properly
+
+## New Contributors
+* @familom made their first contribution in https://github.com/ollama/ollama/pull/13220
+* @nathannewyen made their first contribution in https://github.com/ollama/ollama/pull/13469
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.4...v0.13.5]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.13.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.5</guid>
+            <pubDate>Thu, 18 Dec 2025 16:39:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.13.4]]></title>
+            <description><![CDATA[## New Models 
+* [Nemotron 3 Nano](https://ollama.com/library/nemotron-3-nano): A new Standard for Efficient, Open, and Intelligent Agentic Models
+* [Olmo 3](https://ollama.com/library/olmo-3) and [Olmo 3.1](https://ollama.com/library/olmo-3.1): A series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.
+
+## What's Changed
+* Enable Flash Attention automatically for models by default
+* Fixed handling of long contexts with Gemma 3 models
+* Fixed issue that would occur with Gemma 3 QAT models or other models imported with the Gemma 3 architecture
+
+## New Contributors
+* @familom made their first contribution in https://github.com/ollama/ollama/pull/13220
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.3...v0.13.4-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.13.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.4</guid>
+            <pubDate>Sat, 13 Dec 2025 09:24:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.13.3]]></title>
+            <description><![CDATA[## New models 
+* [Devstral-Small-2](https://ollama.com/library/devstral-small-2): 24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.
+* [rnj-1](https://ollama.com/library/rnj-1): Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.
+* [nomic-embed-text-v2](https://ollama.com/library/nomic-embed-text-v2-moe): nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.
+
+## What's Changed
+* Improved truncation logic when using `/api/embed` and `/v1/embeddings`
+* Extend Gemma 3 architecture to support rnj-1 model
+* Fix error that would occur when running qwen2.5vl with image input
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.2...v0.13.3
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.13.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.3</guid>
+            <pubDate>Tue, 09 Dec 2025 02:14:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.13.2]]></title>
+            <description><![CDATA[## New models
+- [Qwen3-Next](https://ollama.com/library/qwen3-next): The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.
+
+## What's Changed
+* Flash attention is now enabled by default for vision models such as `mistral-3`, `gemma3`, `qwen3-vl` and more. This improves memory utilization and performance when providing images as input.
+* Fixed GPU detection on multi-GPU CUDA machines
+* Fixed issue where `deepseek-v3.1` would always think even with thinking is disabled in Ollama's app
+
+## New Contributors
+* @chengcheng84 made their first contribution in https://github.com/ollama/ollama/pull/13265
+* @nathan-hook made their first contribution in https://github.com/ollama/ollama/pull/13256
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.1...v0.13.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.13.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.2</guid>
+            <pubDate>Thu, 04 Dec 2025 04:39:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.13.1]]></title>
+            <description><![CDATA[## New models
+- [Ministral-3](https://ollama.com/library/ministral-3): The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.
+- [Mistral-Large-3](https://ollama.com/library/mistral-large-3): A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.
+
+## What's Changed
+* `nomic-embed-text` will now use Ollama's engine by default
+* Tool calling support for `cogito-v2.1`
+* Fixed issues with CUDA VRAM discovery
+* Fixed link to docs in Ollama's app
+* Fixed issue where models would be evicted on CPU-only systems
+* Ollama will now better render errors instead of showing `Unmarshal:` errors
+* Fixed issue where CUDA GPUs would fail to be detected with older GPUs
+* Added thinking and tool parsing for cogito-v2.1
+
+## New Contributors
+* @EntropyYue made their first contribution in https://github.com/ollama/ollama/pull/13237
+* @kokes made their first contribution in https://github.com/ollama/ollama/pull/13231
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.0...v0.13.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.13.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.1</guid>
+            <pubDate>Thu, 27 Nov 2025 02:48:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.13.0]]></title>
+            <description><![CDATA[## New models
+* [DeepSeek-OCR](https://ollama.com/library/deepseek-ocr): DeepSeek-OCR uses optical 2D mapping to compress long contexts, achieving high OCR precision with reduced vision tokens and demonstrating practical value in document processing.
+* [Cogito-V2.1](https://ollama.com/library/cogito-2.1): instruction tuned generative models, currently the best open-weight LLM by a US company
+
+## DeepSeek-OCR
+
+DeepSeek-OCR is now available on Ollama. Example inputs:
+
+```
+ollama run deepseek-ocr "/path/to/image\n<|grounding|>Given the layout of the image."
+```
+```
+ollama run deepseek-ocr "/path/to/image\nFree OCR."
+```
+```
+ollama run deepseek-ocr "/path/to/image\nParse the figure."
+```
+```
+ollama run deepseek-ocr "/path/to/image\nExtract the text in the image."
+```
+```
+ollama run deepseek-ocr "/path/to/image\n<|grounding|>Convert the document to markdown."
+```
+
+## New `bench` tool
+
+Ollama's GitHub repo now includes a `bench` tool that can be used to test model performance. For the time being this is a separate tool that can be built in the Ollama GitHub repository:
+
+First, install [Go](https://go.dev/doc/install). Then from the root of the Ollama repository run:
+
+```
+go run ./cmd/bench -model gpt-oss:20b
+```
+
+For more information see the tool's [documentation](https://github.com/ollama/ollama/tree/main/cmd/bench)
+
+## What's Changed
+* DeepSeek-OCR is now supported 
+* DeepSeek-V3.1 architecture is now supported in Ollama's engine
+* Fixed performance issues that arose in Ollama 0.12.11 on CUDA
+* Fixed issue where Linux install packages were missing required Vulkan libraries
+* Improved CPU and memory detection while in containers/cgroups
+* Improved VRAM information detection for AMD GPUs
+* Improved KV cache performance to no longer require defragmentation
+
+## New Contributors
+* @lnicola made their first contribution in https://github.com/ollama/ollama/pull/13096
+* @vignesh1507 made their first contribution in https://github.c]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.13.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.0</guid>
+            <pubDate>Wed, 19 Nov 2025 14:16:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.11]]></title>
+            <description><![CDATA[## Logprobs
+
+Ollama's API and OpenAI-compatible API now support [log probabilities](https://cookbook.openai.com/examples/using_logprobs). Log probabilities of output tokens indicate the likelihood of each token occurring in the sequence given the context.  This is useful for different use cases:
+
+1. Classification tasks
+2. Retrieval (Q&A) evaluation
+3. Autocomplete
+4. Token highlighting and outputting bytes
+5. Calculating perplexity
+
+To enable Logprobs, provide `"logprobs": true` to Ollama's API:
+
+```shell
+curl http://localhost:11434/api/generate -d '{
+  "model": "gemma3",
+  "prompt": "Why is the sky blue?",
+  "logprobs": true
+}'
+```
+
+When log probabilities are requested, response chunks will now include a `"logprobs"` field with the token, log probability and raw bytes (for partial unicode).
+
+```json
+{
+  "model": "gemma3",
+  "created_at": "2025-11-14T22:17:56.598562Z",
+  "response": "Okay",
+  "done": false,
+  "logprobs": [
+    {
+      "token": "Okay",
+      "logprob": -1.3434503078460693,
+      "bytes": [
+        79,
+        107,
+        97,
+        121
+      ]
+    }
+  ]
+}
+```
+
+### `top_logprobs`
+
+When setting `"top_logprobs"`, a number of most-likely tokens are also provided, making it possible to introspect alternative tokens. Below is an example request.
+
+```shell
+curl http://localhost:11434/api/generate -d '{
+  "model": "gemma3",
+  "prompt": "Why is the sky blue?",
+  "logprobs": true,
+  "top_logprobs": 3
+}'
+```
+
+This will generate a stream of response chunks with the following fields:
+
+```json
+{
+  "model": "gemma3",
+  "created_at": "2025-11-14T22:26:10.466324Z",
+  "response": "The",
+  "done": false,
+  "logprobs": [
+    {
+      "token": "The",
+      "logprob": -0.8361086845397949,
+      "bytes": [
+        84,
+        104,
+        101
+      ],
+      "top_logprobs": [
+        {
+          "token": "The",
+          "logprob": -0.8361086845397949,
+          "bytes": [
+            84,
+     ]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.11</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.11</guid>
+            <pubDate>Wed, 12 Nov 2025 20:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.10]]></title>
+            <description><![CDATA[## `ollama run` now works with embedding models
+
+`ollama run` can now run embedding models to generate vector embeddings from text:
+
+```
+ollama run embeddinggemma "Hello world"
+```
+
+Content can also be provided to `ollama run` via standard input:
+
+```
+echo "Hello world" | ollama run embeddinggemma
+```
+
+## What's Changed
+* Fixed errors when running `qwen3-vl:235b` and `qwen3-vl:235b-instruct`
+* Enable flash attention for Vulkan (currently needs to be built from source)
+* Add Vulkan memory detection for Intel GPU using DXGI+PDH
+* Ollama will now return tool call IDs from the `/api/chat` API
+* Fixed hanging due to CPU discovery
+* Ollama will now show login instructions when switching to a cloud model in interactive mode
+* Fix reading stale VRAM data
+* `ollama run` now works with embedding models
+
+## New Contributors
+* @ryanycoleman made their first contribution in https://github.com/ollama/ollama/pull/11740
+* @Rajathbail made their first contribution in https://github.com/ollama/ollama/pull/12929
+* @virajwad made their first contribution in https://github.com/ollama/ollama/pull/12664
+* @AXYZdong made their first contribution in https://github.com/ollama/ollama/pull/8601
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.9...v0.12.10]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.10</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.10</guid>
+            <pubDate>Wed, 05 Nov 2025 21:41:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.9]]></title>
+            <description><![CDATA[## What's Changed
+* Fix performance regression on CPU-only systems
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.8...v0.12.9]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.9</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.9</guid>
+            <pubDate>Fri, 31 Oct 2025 23:33:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.8]]></title>
+            <description><![CDATA[<img width="512" height="512" alt="Ollama_halloween_background" src="https://github.com/user-attachments/assets/ac1f37c5-c81a-446f-8e99-97ef5ebd7d05" />
+
+
+## What's Changed
+* `qwen3-vl` performance improvements, including flash attention support by default
+* `qwen3-vl` will now output less leading whitespace in the response when thinking
+* Fixed issue where `deepseek-v3.1` thinking could not be disabled in Ollama's new app
+* Fixed issue where `qwen3-vl` would fail to interpret images with transparent backgrounds
+* Ollama will now stop running a model before removing it via `ollama rm`
+* Fixed issue where prompt processing would be slower on Ollama's engine
+* Ignore unsupported iGPUs when doing device discovery on Windows
+
+## New Contributors
+* @athshh made their first contribution in https://github.com/ollama/ollama/pull/12822
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.7...v0.12.8]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.8</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.8</guid>
+            <pubDate>Thu, 30 Oct 2025 23:22:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.7]]></title>
+            <description><![CDATA[<img width="600" alt="Ollama screenshot 2025-10-29 at 13 56 55@2x" src="https://github.com/user-attachments/assets/4fea0b30-5d31-4da2-b99c-7f38606fc0a2" />
+
+## New models
+
+- [Qwen3-VL](https://ollama.com/library/qwen3-vl): Qwen3-VL is now available in all parameter sizes ranging from 2B to 235B
+- [MiniMax-M2](https://ollama.com/library/minimax-m2): a 230 Billion parameter model built for coding & agentic workflows available on Ollama's cloud
+
+## Add files and adjust thinking levels in Ollama's new app
+
+Ollama's new app now includes a way to **add one or many files** when prompting the model:
+
+<img width="912" height="712" alt="Screenshot 2025-10-29 at 2 16 55 PM" src="https://github.com/user-attachments/assets/60b5fff7-8fab-4433-8183-06696a96042f" />
+
+For better responses, **thinking levels** can now be adjusted for the gpt-oss models:
+
+<img width="954" height="712" alt="Screenshot 2025-10-29 at 2 12 33 PM" src="https://github.com/user-attachments/assets/7025dcfb-51eb-421c-af2d-fd6f0524955c" />
+
+## New API documentation
+
+New API documentation is available for Ollama's API: [https://docs.ollama.com/api](https://docs.ollama.com/api)
+
+<img width="1539" height="814" alt="Screenshot 2025-10-29 at 4 02 53 PM" src="https://github.com/user-attachments/assets/ccc33800-baec-4b4b-a288-213a582ac213" />
+
+## What's Changed
+* Model load failures now include more information on Windows
+* Fixed embedding results being incorrect when running `embeddinggemma`
+* Fixed gemma3n on Vulkan backend
+* Increased time allocated for ROCm to discover devices
+* Fixed truncation error when generating embeddings
+* Fixed request status code when running cloud models
+* The OpenAI-compatible `/v1/embeddings` endpoint now supports `encoding_format` parameter
+* Ollama will now parse tool calls that don't conform to `{"name": name, "arguments": args}` (thanks @rick-github!)
+* Fixed prompt processing reporting in the llama runner
+* Increase speed when scheduling models
+* ]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.7</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.7</guid>
+            <pubDate>Wed, 29 Oct 2025 02:07:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.6]]></title>
+            <description><![CDATA[## What's Changed
+* Ollama's app now supports searching when running DeepSeek-V3.1, Qwen3 and other models that support tool calling.
+* Flash attention is now enabled by default for Gemma 3, improving performance and memory utilization
+* Fixed issue where Ollama would hang while generating responses
+* Fixed issue where `qwen3-coder` would act in raw mode when using `/api/generate` or `ollama run qwen3-coder <prompt>`
+* Fixed `qwen3-embedding` providing invalid results
+* Ollama will now evict models correctly when `num_gpu` is set
+* Fixed issue where `tool_index` with a value of `0` would not be sent to the model
+
+## Experimental Vulkan Support
+Experimental support for Vulkan is now available when you build locally from source.  This will enable additional GPUs from AMD, and Intel which are not currently supported by Ollama.  To build locally, install the [Vulkan SDK](https://vulkan.lunarg.com/) and set VULKAN_SDK in your environment, then follow the [developer instructions](https://github.com/ollama/ollama/blob/main/docs/development.md).  In a future release, Vulkan support will be included in the binary release as well.  Please file issues if you run into any problems.
+
+## New Contributors
+* @yajianggroup made their first contribution in https://github.com/ollama/ollama/pull/12377
+* @inforithmics made their first contribution in https://github.com/ollama/ollama/pull/11835
+* @sbhavani made their first contribution in https://github.com/ollama/ollama/pull/12619
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.5...v0.12.6]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.6</guid>
+            <pubDate>Wed, 15 Oct 2025 23:02:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.5]]></title>
+            <description><![CDATA[## What's Changed
+* Thinking models now support structured outputs when using the `/api/chat` API
+* Ollama's app will now wait until Ollama is running to allow for a conversation to be started
+* Fixed issue where `"think": false` would show an error instead of being silently ignored
+* Fixed `deepseek-r1` output issues
+* macOS 12 Monterey and macOS 13 Ventura are no longer supported
+* AMD gfx900 and gfx906 (MI50, MI60, etc) GPUs are no longer supported via ROCm. We're working to support these GPUs via Vulkan in a future release.
+
+
+## New Contributors
+* @shengxinjing made their first contribution in https://github.com/ollama/ollama/pull/12415
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.4...v0.12.5-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.5</guid>
+            <pubDate>Fri, 10 Oct 2025 16:30:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.4]]></title>
+            <description><![CDATA[## What's Changed
+* Flash attention is now enabled by default for Qwen 3 and Qwen 3 Coder
+* Fixed minor memory estimation issues when scheduling models on NVIDIA GPUs
+* Fixed an issue where `keep_alive` in the API would accept different values for the `/api/chat` and `/api/generate` endpoints
+* Fixed tool calling rendering with `qwen3-coder`
+* More reliable and accurate VRAM detection
+* `OLLAMA_FLASH_ATTENTION` can now be overridden to `0` for models that have flash attention enabled by default
+* macOS 12 Monterey and macOS 13 Ventura are no longer supported
+* Fixed crash where templates were not correctly defined
+* Fix memory calculations on NVIDIA iGPUs
+* AMD gfx900 and gfx906 (MI50, MI60, etc) GPUs are no longer supported via ROCm. We're working to support these GPUs via Vulkan in a future release.
+
+
+## New Contributors
+* @Fachep made their first contribution in https://github.com/ollama/ollama/pull/12412
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.3...v0.12.4-rc3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.4</guid>
+            <pubDate>Fri, 03 Oct 2025 16:38:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.3]]></title>
+            <description><![CDATA[## New models
+
+- [DeepSeek-V3.1-Terminus](https://ollama.com/library/deepseek-v3.1): DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode. It delivers more stable & reliable outputs across benchmarks compared to the previous version:
+
+  Run on [Ollama's cloud](https://ollama.com/cloud):
+  
+  ```
+  ollama run deepseek-v3.1:671b-cloud
+  ```
+  
+  Run locally (requires 500GB+ of VRAM)
+  
+  ```
+  ollama run deepseek-v3.1
+  ```
+
+- [Kimi-K2-Instruct-0905](https://ollama.com/library/kimi-k2): Kimi K2-Instruct-0905 is the latest, most capable version of Kimi K2. It is a state-of-the-art mixture-of-experts (MoE) language model, featuring 32 billion activated parameters and a total of 1 trillion parameters.
+
+  ```
+  ollama run kimi-k2:1t-cloud
+  ```
+
+## What's Changed
+* Fixed issue where tool calls provided as stringified JSON would not be parsed correctly
+* `ollama push` will now provide a URL to follow to sign in
+* Fixed issues where qwen3-coder would output unicode characters incorrectly
+* Fix issue where loading a model with `/load` would crash
+
+## New Contributors
+* @gr4ceG made their first contribution in https://github.com/ollama/ollama/pull/12385
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.2...v0.12.3
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.3</guid>
+            <pubDate>Fri, 26 Sep 2025 05:08:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.2]]></title>
+            <description><![CDATA[## Web search
+
+<img width="512" alt="ollama_web_search" src="https://github.com/user-attachments/assets/fc49a8bc-7a3f-462c-901c-5a9625c082c3" />
+
+[A new web search API](https://ollama.com/blog/web-search) is now available in Ollama. Ollama provides a generous free tier of web searches for individuals to use, and higher rate limits are available via [Ollama’s cloud](https://ollama.com/cloud). This web search capability can augment models with the latest information from the web to reduce hallucinations and improve accuracy.
+
+
+## What's Changed
+* Models with Qwen3's architecture including MoE now run in Ollama's new engine
+* Fixed issue where built-in tools for gpt-oss were not being rendered correctly
+* Support multi-regex pretokenizers in Ollama's new engine
+* Ollama's new engine can now load tensors by matching a prefix or suffix
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.1...v0.12.2
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.2</guid>
+            <pubDate>Wed, 24 Sep 2025 21:19:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.1]]></title>
+            <description><![CDATA[## New models
+- [Qwen3 Embedding](https://ollama.com/library/qwen3-embedding): state of the art open embedding model by the Qwen team
+
+## What's Changed
+* Qwen3-Coder now supports tool calling
+* Ollama's app will now longer show "connection lost" in error when connecting to cloud models
+* Fixed issue where Gemma3 QAT models would not output correct tokens
+* Fix issue where `&` characters in Qwen3-Coder would not be parsed correctly when function calling
+* Fixed issues where `ollama signin` would not work properly on Linux
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.0...v0.12.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.1</guid>
+            <pubDate>Sun, 21 Sep 2025 23:19:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.12.0]]></title>
+            <description><![CDATA[## Cloud models
+
+<img width="512" alt="Ollama_cloud_background" src="https://github.com/user-attachments/assets/7f36e60c-dd33-4eac-babd-a2b7df89bc2f" />
+
+[Cloud models](https://ollama.com/blog/cloud-models) are now available in preview, allowing you to run a group of larger models with fast, datacenter-grade hardware.
+
+To run a cloud model, use:
+
+```
+ollama run qwen3-coder:480b-cloud
+```
+
+* [View all](https://ollama.com/search?c=cloud) cloud models
+* [Blog post](https://ollama.com/blog/cloud-models)
+
+## What's Changed
+* Models with the Bert architecture now run on Ollama's engine
+* Models with the Qwen 3 architecture now run on Ollama's engine
+* Fix issue where older NVIDIA GPUs would not be detected if newer drivers were installed
+* Fixed issue where models would not be imported correctly with `ollama create`
+* Ollama will skip parsing the initial `<think>` if provided in the prompt for /api/generate by @rick-github
+
+## New Contributors
+* @egyptianbman made their first contribution in https://github.com/ollama/ollama/pull/12300
+* @russcoss made their first contribution in https://github.com/ollama/ollama/pull/12280
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.11...v0.12.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.12.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.0</guid>
+            <pubDate>Thu, 18 Sep 2025 17:29:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.11]]></title>
+            <description><![CDATA[## What's Changed
+* Support for CUDA 13
+* Improved memory usage when using gpt-oss in Ollama's app
+* Better scrolling better in Ollama's app when submitting long prompts
+* Cmd +/- will now zoom and shrink text in Ollama's app
+* Assistant messages can now by copied in Ollama's app
+* Fixed error that would occur when attempting to import satefensor files  by @rick-github in https://github.com/ollama/ollama/pull/12176
+* Improved memory estimates for hybrid and recurrent models by @gabe-l-hart in https://github.com/ollama/ollama/pull/12186
+* Fixed error that would occur when when batch size was greater than context length
+* Flash attention & KV cache quantization validation fixes by @jessegross in https://github.com/ollama/ollama/pull/12231
+* Add `dimensions` field to embed requests by @mxyng in https://github.com/ollama/ollama/pull/12242
+* Enable new memory estimates in Ollama's new engine by default by @jessegross in https://github.com/ollama/ollama/pull/12252
+* Ollama will no longer load split vision models in the Ollama engine by @jessegross in https://github.com/ollama/ollama/pull/12241
+
+## New Contributors
+* @KashyapTan made their first contribution in https://github.com/ollama/ollama/pull/12188
+* @carbonatedWaterOrg made their first contribution in https://github.com/ollama/ollama/pull/12230
+* @fengyuchuanshen made their first contribution in https://github.com/ollama/ollama/pull/12249
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.10...v0.11.11]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.11</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.11</guid>
+            <pubDate>Thu, 11 Sep 2025 21:02:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.10]]></title>
+            <description><![CDATA[## New models
+- [EmbeddingGemma](https://ollama.com/library/embeddinggemma) a new open embedding model that delivers best-in-class performance for its size
+
+## What's Changed
+* Support for EmbeddingGemma
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.9...v0.11.10]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.10</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.10</guid>
+            <pubDate>Thu, 04 Sep 2025 17:27:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.9]]></title>
+            <description><![CDATA[## What's Changed
+* Improved performance via overlapping GPU and CPU computations
+* Fixed issues where unrecognized AMD GPU would cause an error
+* Reduce crashes due to unhandled errors in some Mac and Linux installations of Ollama
+
+## New Contributors
+* @alpha-nerd-nomyo made their first contribution in https://github.com/ollama/ollama/pull/12129
+* @pxwanglu made their first contribution in https://github.com/ollama/ollama/pull/12123
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.8...v0.11.9-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.9</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.9</guid>
+            <pubDate>Tue, 02 Sep 2025 20:14:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.8]]></title>
+            <description><![CDATA[## What's Changed
+* `gpt-oss` now has flash attention enabled by default for systems that support it
+* Improved load times for `gpt-oss`
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.7...v0.11.8]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.8</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.8</guid>
+            <pubDate>Wed, 27 Aug 2025 18:43:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.7]]></title>
+            <description><![CDATA[## DeepSeek-V3.1
+
+[DeepSeek-V3.1](https://ollama.com/library/deepseek-v3.1) is now available to run via Ollama.
+
+This model supports hybrid thinking, meaning thinking can be enabled or disabled by setting `think` in Ollama's API:
+
+```
+curl http://localhost:11434/api/chat -d '{
+  "model": "deepseek-v3.1",
+  "messages": [
+    {
+      "role": "user",
+      "content": "why is the sky blue?"
+    }
+  ],
+  "think": true
+}'
+
+```
+
+In Ollama's CLI, thinking can be enabled or disabled by running the `/set think` or `/set nothink` commands.
+
+## Turbo (in preview)
+
+DeepSeek-V3.1 has over 671B parameters, and so a large amount of VRAM is required to run it. Ollama's [Turbo mode](https://ollama.com/turbo) (in preview) provides access to powerful hardware in the cloud you can use to run the model.
+
+### Turbo via Ollama's app
+
+<img width="1131" height="712" alt="Screenshot 2025-08-25 at 1 23 37 PM" src="https://github.com/user-attachments/assets/e5e8d626-c935-4dfd-87bc-b0bebb0361be" />
+
+
+1. Download Ollama for macOS or Windows
+2. Select `deepseek-v3.1:671b` from the model selector
+3. Enable Turbo
+
+### Turbo via Ollama's CLI and libraries
+1. Create an account on [ollama.com/signup](https://ollama.com/signup)
+2. Follow the [docs for Ollama's CLI](https://github.com/ollama/ollama/blob/main/docs/turbo.md#ollamas-cli) to upload authenticate your Ollama installation
+3. Run the following:
+
+```
+OLLAMA_HOST=ollama.com ollama run deepseek-v3.1
+```
+
+For instructions on using Turbo with Ollama's Python and JavaScript library, see the [docs](https://github.com/ollama/ollama/blob/main/docs/turbo.md)
+
+
+## What's Changed
+* Fixed issue where multiple models would not be loaded on CPU-only systems
+* Ollama will now work with models who skip outputting the initial`<think>` tag (e.g. DeepSeek-V3.1)
+* Fixed issue where text would be emitted when there is no opening `<think>` tag from a model
+* Fixed issue where tool calls containing `{` or `}` would not]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.7</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.7</guid>
+            <pubDate>Mon, 25 Aug 2025 18:04:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.6]]></title>
+            <description><![CDATA[## What's Changed
+* Ollama's app will now switch between chats faster
+* Improved layout of messages in Ollama's app
+* Fixed issue where command prompt would show when Ollama's app detected an old version of Ollama running
+* Improved performance when using flash attention
+* Fixed boundary case when encoding text using BPE
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.5...v0.11.6
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.6</guid>
+            <pubDate>Wed, 20 Aug 2025 21:00:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.5]]></title>
+            <description><![CDATA[## What's Changed
+* Performance improvements for the `gpt-oss` models
+* New memory management: this release of Ollama includes improved memory management for scheduling models on GPUs, leading to better VRAM utilization, model performance and less out of memory errors. These new memory estimations can be enabled with `OLLAMA_NEW_ESTIMATES=1 ollama serve` and will soon be enabled by default.
+* Improved multi-GPU scheduling and reduced VRAM allocation when using more than 2 GPUs
+* Ollama's new app will now remember default selections for default model, Turbo and Web Search between restarts
+* Fix error when parsing bad harmony tool calls
+* `OLLAMA_FLASH_ATTENTION=1` will also enable flash attention for pure-CPU models
+* Fixed OpenAI-compatible API not supporting `reasoning_effort`
+* Reduced size of installation on Windows and Linux
+
+## New Contributors
+* @vorburger made their first contribution in https://github.com/ollama/ollama/pull/11755
+* @dan-and made their first contribution in https://github.com/ollama/ollama/pull/10678
+* @youzichuan made their first contribution in https://github.com/ollama/ollama/pull/11880
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.4...v0.11.5]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.5</guid>
+            <pubDate>Fri, 15 Aug 2025 02:38:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.4]]></title>
+            <description><![CDATA[## What's Changed
+* openai: allow for content _and_ tool calls in the same message by @drifkin in https://github.com/ollama/ollama/pull/11759
+* openai: when converting role=tool messages, propagate the tool name by @drifkin in https://github.com/ollama/ollama/pull/11761
+* openai: always provide reasoning by @drifkin in https://github.com/ollama/ollama/pull/11765
+
+## New Contributors
+* @gao-feng made their first contribution in https://github.com/ollama/ollama/pull/11170
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.3...v0.11.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.4</guid>
+            <pubDate>Thu, 07 Aug 2025 17:17:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.3]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed issue where `gpt-oss` would consume too much VRAM when split across GPU & CPU or multiple GPUs
+* Statically link C++ libraries on windows for better compatibility
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.2...v0.11.3
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.3</guid>
+            <pubDate>Wed, 06 Aug 2025 01:29:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.2]]></title>
+            <description><![CDATA[## What's Changed
+* Fix crash in gpt-oss when using kv cache quanitization
+* Fix gpt-oss bug with "currentDate" not defined
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.1...v0.11.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.2</guid>
+            <pubDate>Tue, 05 Aug 2025 21:18:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.11.0]]></title>
+            <description><![CDATA[<img alt="ollama OpenAI gpt-oss" src="https://github.com/user-attachments/assets/7f8f75ec-f712-4daa-b5d9-959bf1032384" />
+
+## Welcome OpenAI's gpt-oss models 
+
+Ollama partners with OpenAI to bring its latest state-of-the-art open weight models to Ollama. The two models, 20B and 120B, bring a whole new local chat experience, and are designed for powerful reasoning, agentic tasks, and versatile developer use cases. 
+
+### Feature highlights 
+
+- **Agentic capabilities:** Use the models’ native capabilities for function calling, web browsing (Ollama is providing a built-in web search that can be optionally enabled to augment the model with the latest information), python tool calls, and structured outputs.
+- **Full chain-of-thought:** Gain complete access to the model's reasoning process, facilitating easier debugging and increased trust in outputs.
+- **Configurable reasoning effort:** Easily adjust the reasoning effort (low, medium, high) based on your specific use case and latency needs.
+- **Fine-tunable:** Fully customize models to your specific use case through parameter fine-tuning.
+- **Permissive Apache 2.0 license:** Build freely without copyleft restrictions or patent risk—ideal for experimentation, customization, and commercial deployment.
+
+### Quantization - MXFP4 format
+
+OpenAI utilizes quantization to reduce the memory footprint of the gpt-oss models. The models are post-trained with quantization of the mixture-of-experts (MoE) weights to MXFP4 format, where the weights are quantized to 4.25 bits per parameter. The MoE weights are responsible for 90+% of the total parameter count, and quantizing these to MXFP4 enables the smaller model to run on systems with as little as 16GB memory, and the larger model to fit on a single 80GB GPU. 
+
+Ollama is supporting the MXFP4 format natively without additional quantizations or conversions. New kernels are developed for Ollama’s new engine to support the MXFP4 format. 
+
+Ollama collaborated with OpenAI]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.11.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.0</guid>
+            <pubDate>Tue, 05 Aug 2025 16:56:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.10.1]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed unicode character input for Japanese and other languages in Ollama's new app
+* Fixed AMD download URL in the logs for `ollama serve`
+
+## New Contributors
+* @skools-here made their first contribution in https://github.com/ollama/ollama/pull/11579
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.10.0...v0.10.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.10.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.10.1</guid>
+            <pubDate>Thu, 31 Jul 2025 04:39:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.10.0]]></title>
+            <description><![CDATA[## Ollama's new app
+
+Ollama's new app is available for macOS and Windows: [Download Ollama](https://ollama.com/download)
+
+<img alt="ollama's new app" src="https://github.com/user-attachments/assets/d99a2830-58d9-413c-b54c-db1fb95416b8" />
+
+## What's Changed
+* `ollama ps` will now show the context length of loaded models
+* Improved performance in `gemma3n` models by 2-3x
+* Parallel request processing now defaults to 1. For more details, see the [FAQ](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-does-ollama-handle-concurrent-requests)
+* Fixed issue where tool calling would not work correctly with `granite3.3` and `mistral-nemo` models
+* Fixed issue where Ollama's tool calling would not work correctly if a tool's name was part of of another one, such as `add` and `get_address`
+* Improved performance when using multiple GPUs by 10-30%
+* Ollama's OpenAI-compatible API will now support WebP images
+* Fixed issue where `ollama show` would report an error
+* `ollama run` will more gracefully display errors
+
+## New Contributors
+* @sncix made their first contribution in https://github.com/ollama/ollama/pull/11189
+* @mfornet made their first contribution in https://github.com/ollama/ollama/pull/11425
+* @haiyuewa made their first contribution in https://github.com/ollama/ollama/pull/11427
+* @warting made their first contribution in https://github.com/ollama/ollama/pull/11461
+* @ycomiti made their first contribution in https://github.com/ollama/ollama/pull/11462
+* @minxinyi made their first contribution in https://github.com/ollama/ollama/pull/11502
+* @ruyut made their first contribution in https://github.com/ollama/ollama/pull/11528
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.6...v0.10.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.10.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.10.0</guid>
+            <pubDate>Fri, 18 Jul 2025 00:23:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.6]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed styling issue in launch screen
+* `tool_name` can now be provided in messages with `"role": "tool"` using the `/api/chat` endpoint
+
+## New Contributors
+* @vrampal made their first contribution in https://github.com/ollama/ollama/pull/9681
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.5...v0.9.6-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.9.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.6</guid>
+            <pubDate>Tue, 08 Jul 2025 01:26:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.5]]></title>
+            <description><![CDATA[## Updates to Ollama for macOS and Windows
+
+A new version of Ollama's macOS and Windows applications are now available. New improvements to the apps will be introduced over the coming releases:
+
+* [Download for macOS](https://github.com/ollama/ollama/releases/download/v0.9.5/Ollama.dmg)
+* [Download for Windows](https://github.com/ollama/ollama/releases/download/v0.9.5/OllamaSetup.exe)
+
+<img width="1145" alt="Screenshot 2025-07-01 at 9 53 31 AM" src="https://github.com/user-attachments/assets/be71e7f7-95b5-41fc-bcef-c8011ff2decd" />
+
+### New features
+
+#### Expose Ollama on the network
+
+Ollama can now be exposed on the network, allowing others to access Ollama on other devices or even over the internet. This is useful for having Ollama running on a powerful Mac, PC or Linux computer while making it accessible to less powerful devices.
+
+#### Model directory
+
+The directory in which models are stored can now be modified! This allows models to be stored on external hard disks or alternative directories than the default.
+
+#### Smaller footprint and faster starting on macOS
+
+The macOS app is now a native application and starts much faster while requiring a much smaller installation.
+
+## Additional changes in 0.9.5
+* Fixed issue where the `ollama` CLI would not be installed by Ollama on macOS on startup
+* Fixed issue where files in `ollama-darwin.tgz` were not notarized
+* Add NativeMind to Community Integrations by @xukecheng in https://github.com/ollama/ollama/pull/11242
+* Ollama for macOS now requires version 12 (Monterey) or newer
+
+## New Contributors
+* @xukecheng made their first contribution in https://github.com/ollama/ollama/pull/11242]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.9.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.5</guid>
+            <pubDate>Wed, 02 Jul 2025 18:39:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.4]]></title>
+            <description><![CDATA[## Updates to Ollama for macOS and Windows
+
+A new version of Ollama's macOS and Windows applications are now available. New improvements to the apps will be introduced over the coming releases:
+
+* [Download for macOS](https://github.com/ollama/ollama/releases/download/v0.9.4/Ollama.dmg)
+* [Download for Windows](https://github.com/ollama/ollama/releases/download/v0.9.4/OllamaSetup.exe)
+
+<img width="1145" alt="Screenshot 2025-07-01 at 9 53 31 AM" src="https://github.com/user-attachments/assets/be71e7f7-95b5-41fc-bcef-c8011ff2decd" />
+
+### New features
+
+#### Expose Ollama on the network
+
+Ollama can now be exposed on the network, allowing others to access Ollama on other devices or even over the internet. This is useful for having Ollama running on a powerful Mac, PC or Linux computer while making it accessible to less powerful devices.
+
+#### Model directory
+
+The directory in which models are stored can now be modified! This allows models to be stored on external hard disks or alternative directories than the default.
+
+#### Smaller footprint and faster starting on macOS
+
+The macOS app is now a native application and starts much faster while requiring a much smaller installation.
+
+## What's Changed
+* Reduced download size and startup time for Ollama on macOS
+* Tool calling with empty parameters will now work correctly
+* Fixed issue when quantizing models with the Gemma 3n architecture
+* Ollama for macOS should not longer ask for root privileges when updating unless required
+* Ollama for macOS now requires version 12 (Monterey) or newer
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.3...v0.9.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.9.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.4</guid>
+            <pubDate>Fri, 27 Jun 2025 02:45:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.3]]></title>
+            <description><![CDATA[[![Gemma 3n](https://github.com/user-attachments/assets/73ef5b45-4018-4db6-8885-3475e6a0bac0)](https://ollama.com/library/gemma3n)
+
+## Gemma 3n 
+Ollama now supports [Gemma 3n](https://ollama.com/library/gemma3n).
+
+Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones. These models were trained with data in over 140 spoken languages. 
+
+### Effective 2B
+```
+ollama run gemma3n:e2b
+```
+
+### Effective 4B
+```
+ollama run gemma3n:e4b
+```
+
+## What's Changed
+* Fixed issue where errors would not be properly reported on Apple Silicon Macs
+* Ollama will now limit context length to what the model was trained against to avoid strange overflow behavior
+
+## New Contributors
+* @Aj-Seven made their first contribution in https://github.com/ollama/ollama/pull/11169
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.2...v0.9.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.9.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.3</guid>
+            <pubDate>Wed, 25 Jun 2025 16:55:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.2]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed issue where tool calls without parameters would not be returned correctly
+* Fixed `does not support generate` errors
+* Fixed issue where some special tokens would not be tokenized properly for some model architectures
+
+## New Contributors
+* @NGC13009 made their first contribution in https://github.com/ollama/ollama/pull/11080
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.1...v0.9.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.9.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.2</guid>
+            <pubDate>Wed, 18 Jun 2025 14:29:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.1]]></title>
+            <description><![CDATA[## Tool calling improvements
+
+### New tool calling support
+
+The following models now support tool calling:
+* [DeepSeek-R1-2508](https://ollama.com/library/deepseek-r1:671b) (671B model)
+* [Magistral](https://ollama.com/library/magistral)
+
+Tool calling reliability has also been improved for the following models:
+* [Llama 4](https://ollama.com/library/llama4)
+* [Mistral](https://ollama.com/library/mistral)
+
+To re-download the models, use `ollama pull`.
+
+## New Ollama for macOS and Windows preview
+
+A new version of Ollama's macOS and Windows applications are available to test for early feedback. New improvements to the apps will be introduced over the coming releases:
+
+* [Download for macOS](https://github.com/ollama/ollama/releases/download/v0.9.1/Ollama-Preview.dmg)
+* [Download for Windows](https://github.com/ollama/ollama/releases/download/v0.9.1/OllamaSetup-Preview.exe)
+
+If you have feedback, please create an issue on GitHub with the `app` label. These apps will automatically update themselves to future versions of Ollama, so you may have to redownload new preview versions in the future.
+
+<img width="1073" alt="Screenshot 2025-06-17 at 11 41 43 AM" src="https://github.com/user-attachments/assets/fe69e299-3d62-49c1-a16f-65b6ac426c83" />
+
+### New features
+
+#### Expose Ollama on the network
+
+Ollama can now be exposed on the network, allowing others to access Ollama on other devices or even over the internet. This is useful for having Ollama running on a powerful Mac, PC or Linux computer while making it accessible to less powerful devices.
+
+#### Allow local browser access
+
+Enabling this allows websites to access your local installation of Ollama. This is handy for developing browser-based applications using Ollama's [JavaScript library](https://github.com/ollama/ollama-js).
+
+#### Model directory
+
+The directory in which models are stored can now be modified! This allows models to be stored on external hard disks or alternative direc]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.9.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.1</guid>
+            <pubDate>Mon, 09 Jun 2025 17:18:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.0]]></title>
+            <description><![CDATA[![ollama thinking](https://github.com/user-attachments/assets/312b121c-4261-44a5-a3a0-4883c1704bcf)
+
+## New models
+
+- [DeepSeek-R1-2508](https://ollama.com/library/deepseek-r1): DeepSeek-R1 has received a minor version upgrade to DeepSeek-R1-0528 for the 8 billion parameter distilled model and the full 671 billion parameter model. In this update, DeepSeek R1 has significantly improved its reasoning and inference capabilities.
+
+## Thinking
+
+Ollama now has the ability to enable or disable thinking. This gives users the flexibility to choose the model’s thinking behavior for different applications and use cases.
+
+When thinking is enabled, the output will separate the model’s thinking from the model’s output. When thinking is disabled, the model will not think and directly output the content.
+
+Models that support thinking:
+
+- [DeepSeek R1](https://ollama.com/library/deepseek-r1)
+- [Qwen 3](https://ollama.com/library/qwen3)
+- more will be added under thinking models.
+
+When running a model that supports thinking, Ollama will now display the model's thoughts:
+
+```
+% ollama run deepseek-r1
+>>> How many Rs are in strawberry
+Thinking...
+First, I need to understand what the question is asking. It's asking how many letters 'R' are present in the word "strawberry."
+
+Next, I'll examine each letter in the word individually.
+
+I'll start from the beginning and count every occurrence of the letter 'R.'
+
+After reviewing all the letters, I determine that there are three instances where the letter 'R' appears in the word "strawberry."
+...done thinking.
+
+There are three **Rs** in the word **"strawberry"**.
+```
+
+In Ollama's API, a model's thinking is now returned as a separate `thinking` field for easy parsing:
+
+```
+{
+  "message": {
+    "role": "assistant",
+    "thinking": "First, I need to understand what the question is asking. It's asking how many letters 'R' are present in the word "strawberry...",
+    "content": "There are **3** instances of]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.9.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.0</guid>
+            <pubDate>Thu, 29 May 2025 05:41:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.0]]></title>
+            <description><![CDATA[![image of ollama with a bigger and better tool](https://github.com/user-attachments/assets/9f40cd4a-cbbf-4006-9b6a-7e5b903c83b8)
+
+## What's Changed
+* Ollama will now stream responses with tool calls [blog post](https://ollama.com/blog/streaming-tool)
+* Logs will now include better memory estimate debug information when running models in Ollama's engine.
+
+## New Contributors
+* @hellotunamayo made their first contribution in https://github.com/ollama/ollama/pull/10790
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.7.1...v0.8.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.8.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.8.0</guid>
+            <pubDate>Tue, 27 May 2025 19:55:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.1]]></title>
+            <description><![CDATA[## What's Changed
+
+* Improved model memory management to allocate sufficient memory to prevent crashes when running multimodal models in certain situations
+* Enhanced memory estimation for models to prevent unintended memory offloading
+* `ollama show` will now show `...` when data is truncated
+* Fixed crash that would occur with `qwen2.5vl` 
+* Fixed crash on Nvidia's CUDA for `llama3.2-vision`
+* Support for Alibaba's Qwen 3 and Qwen 2 architectures in Ollama's new [multimodal engine](https://ollama.com/blog/multimodal-models)
+
+## New Contributors
+* @ronxldwilson made their first contribution in https://github.com/ollama/ollama/pull/10763
+* @DarkCaster made their first contribution in https://github.com/ollama/ollama/pull/10779
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.7.0...v0.7.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.7.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.7.1</guid>
+            <pubDate>Wed, 21 May 2025 22:17:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.0]]></title>
+            <description><![CDATA[![multimodality-uncompressed](https://github.com/user-attachments/assets/a255d9c7-12b8-41dd-a24d-f0e09d0a5259)
+
+Ollama now supports multimodal models via Ollama’s new engine, starting with new vision multimodal models: 
+
+- [Meta Llama 4](https://ollama.com/library/llama4)
+- [Google Gemma 3](https://ollama.com/library/gemma3)
+- [Qwen 2.5 VL](https://ollama.com/library/qwen2.5vl)
+- [Mistral Small 3.1](https://ollama.com/library/mistral-small3.1)
+- and more [vision models](https://ollama.com/search?c=vision).
+
+## What's Changed
+* Ollama now supports providing WebP images as input to multimodal models
+* Fixed issue where a blank terminal window would appear when runnings models on Windows
+* Fixed error that would occur when running `llama4` on NVIDIA GPUs
+* Reduced log level of `key not found` message
+* Ollama will now correct remove quotes from image paths when sending images as input with `ollama run`
+* Improved performance of importing safetensors models via `ollama create`
+* Improved prompt processing speeds of Qwen3 MoE on macOS
+* Fixed issue where providing large JSON schemas in structured output requests would result in an error
+* Ollama's API will now return code 405 instead of 404 for methods that are not allowed
+* Fixed issue where `ollama` processes would continue to run after a model was unloaded
+
+## New Contributors
+* @ashokgelal made their first contribution in https://github.com/ollama/ollama/pull/8668
+* @Aharon-Bensadoun made their first contribution in https://github.com/ollama/ollama/pull/9719
+* @HardCodeDev777 made their first contribution in https://github.com/ollama/ollama/pull/10664
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.8...v0.7.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.7.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.7.0</guid>
+            <pubDate>Tue, 13 May 2025 00:10:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.8]]></title>
+            <description><![CDATA[## What's Changed
+* Performance improvements for [Qwen 3](https://ollama.com/library/qwen3) MoE models (`30b-a3b` and `235b-a22b`) on NVIDIA and AMD GPUs
+* Fixed `GGML_ASSERT(tensor->op == GGML_OP_UNARY) failed` issue caused by conflicting installations
+* Fixed a memory leak that occurred when providing images as input
+* `ollama show` will now correctly label older vision models such as `llava`
+* Reduced out of memory errors by improving worst-case memory estimations
+* Fix issue that resulted in a `context canceled` error
+
+## New Contributors
+* @AliAhmedNada made their first contribution in https://github.com/ollama/ollama/pull/10522
+* @HarshNevse made their first contribution in https://github.com/ollama/ollama/pull/10465
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.7...v0.6.8]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.8</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.8</guid>
+            <pubDate>Sat, 03 May 2025 22:56:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.7]]></title>
+            <description><![CDATA[## New models
+
+- [Qwen 3](https://ollama.com/library/qwen3): Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.
+- [Phi 4 reasoning](https://ollama.com/library/phi4-reasoning) and [Phi-4-mini-reasoning](https://ollama.com/library/phi4-mini-reasoning): New state-of-the-art reasoning models from Microsoft
+- [Llama 4](https://ollama.com/library/llama4): state-of-the-art multi-modal models from Meta
+
+## What's Changed
+* Add support for Meta's [Llama 4](https://ollama.com/library/llama4) multimodal models
+* Add support for Microsoft's [Phi 4 reasoning](https://ollama.com/library/phi4-reasoning) models, and [Phi 4 mini reasoning](https://ollama.com/library/phi4-mini-reasoning) model
+* Increased default context window to 4096 tokens
+* Fixed issue where image paths would not be recognized with `~` when being provided to `ollama run`
+* Improved output quality when using JSON mode in certain scenarios
+* Fixed `tensor->op == GGML_OP_UNARY` errors when running a model due to conflicting inference libraries
+* Fixed issue where model would be stuck in the `Stopping...` state
+
+## New Contributors
+* @greengrass821 made their first contribution in https://github.com/ollama/ollama/pull/10339
+* @richardshiue made their first contribution in https://github.com/ollama/ollama/pull/10335
+* @aduermael made their first contribution in https://github.com/ollama/ollama/pull/10386
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.6...v0.6.7
+]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.7</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.7</guid>
+            <pubDate>Sat, 26 Apr 2025 09:16:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.6]]></title>
+            <description><![CDATA[## New models
+- [IBM Granite 3.3](https://ollama.com/library/granite3.3): 2B and 8B models with 128K context length that have been fine-tuned for improved reasoning and instruction-following capabilities.
+- [DeepCoder](https://ollama.com/library/deepcoder): a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.
+
+## What's Changed
+* **New, faster model downloading**: `OLLAMA_EXPERIMENT=client2 ollama serve` will run Ollama using a new downloader with improved performance and reliability when running `ollama pull`. Please share feedback [here](https://github.com/ollama/ollama/issues/10331)!
+* Fixed memory leak issues when running Gemma 3, Mistral Small 3.1 and other models on Ollama
+* Improved performance of `ollama create` when importing models from Safetensors
+* Ollama will now allow tool function parameters with either a single type or an array of types by @rozgo
+* Fixed certain out of memory issues from not reserving enough memory at startup
+* Fix nondeterministic model unload order by @IreGaddr
+* Include the `items` and `$defs` fields to properly handle `array` types in the API by @sheffler
+* `OpenAI-Beta` headers are now included in the CORS safelist by @drifkin
+* Fixed issue where model tensor data would be corrupted when importing models from Safetensors
+
+## New Contributors
+* @drifkin made their first contribution in https://github.com/ollama/ollama/pull/10169
+* @rozgo made their first contribution in https://github.com/ollama/ollama/pull/9434
+* @qwerty108109 made their first contribution in https://github.com/ollama/ollama/pull/10168
+* @IreGaddr made their first contribution in https://github.com/ollama/ollama/pull/10185
+* @sheffler made their first contribution in https://github.com/ollama/ollama/pull/10091
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.5...v0.6.6]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.6</guid>
+            <pubDate>Thu, 17 Apr 2025 04:34:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.5]]></title>
+            <description><![CDATA[## New models
+- [Mistral Small 3.1](https://ollama.com/library/mistral-small3.1): the best performing vision model in its weight class.
+
+## What's Changed
+* Support for Mistral Small 3.1
+* Improved model loading times for Gemma 3 on network-backed filesystems such as Google Cloud Storage FUSE
+
+## New Contributors
+* @danhipke made their first contribution in https://github.com/ollama/ollama/pull/10133
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.4...v0.6.5]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.5</guid>
+            <pubDate>Sun, 06 Apr 2025 00:15:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.4]]></title>
+            <description><![CDATA[## What's Changed
+* `/api/show` will now include model capabilities such as `vision`
+* Fixed certain out-of-memory errors that would occur with parallel requests with Gemma 3
+* Gemma 3 will now properly understand and output certain multilingual characters
+* Fixed context shifting issues with models using the DeepSeek architecture
+* Fixed issues with 0.6.3 where Gemma 3's output quality would worsen after 512 or 1024 tokens
+* Added AMD RDNA4 support on Linux
+
+## New Contributors
+* @saman-amd made their first contribution in https://github.com/ollama/ollama/pull/9878
+* @leandroBorgesFerreira made their first contribution in https://github.com/ollama/ollama/pull/10042
+* @Abyss-c0re made their first contribution in https://github.com/ollama/ollama/pull/9955
+* @uggrock made their first contribution in https://github.com/ollama/ollama/pull/9983
+* @IsAurora6 made their first contribution in https://github.com/ollama/ollama/pull/10057
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.3...v0.6.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.4</guid>
+            <pubDate>Wed, 02 Apr 2025 22:14:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.3]]></title>
+            <description><![CDATA[## What's Changed
+* New sliding window attention optimizations for Gemma 3, improving inference speed and memory allocation for long context windows.
+* Improved loading speed of Gemma 3
+* `ollama create` will now return the name of unsupported architectures
+* Fixed error `talloc->buffer_id >= 0` when running a model
+* Fixed `(int)sched->hash_set.size >= graph->n_nodes + graph->n_leafs` error when running a model
+* `ollama create` will now automatically select the right template when importing Gemma 3 from safetensors
+* `ollama show -v` will now correctly render boolean values as `true` or `false`
+
+## New Contributors
+* @rylativity made their first contribution in https://github.com/ollama/ollama/pull/9874
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.2...v0.6.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.3</guid>
+            <pubDate>Sat, 22 Mar 2025 02:56:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.2]]></title>
+            <description><![CDATA[## What's Changed
+* Multiple images are now supported in Gemma 3
+* Fixed issue where running Gemma 3 would consume a large amount of system memory
+* `ollama create --quantize` now works when converting Gemma 3 from safetensors
+* Fixed issue where `/save` would not work if running a model with `/` in the name
+* Add support for AMD Strix Halo GPUs
+
+## New Contributors
+* @zeozeozeo made their first contribution in https://github.com/ollama/ollama/pull/9800
+* @louis030195 made their first contribution in https://github.com/ollama/ollama/pull/9786
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.1...v0.6.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.2</guid>
+            <pubDate>Tue, 18 Mar 2025 03:11:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.1]]></title>
+            <description><![CDATA[## New models
+- [Command A](https://ollama.com/library/command-a): 111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI.
+
+## What's Changed
+* Fixed issues where `gemma3` would crash with "out of memory (OOM)" errors by improving memory estimation
+* Loading an invalid model with `/load` will no longer exit `ollama run`
+* Added Ctrl+P and Ctrl+N hotkeys for `ollama run`
+* New `ollama show -v` or `ollama show --verbose` that will print additional model data
+* Improved sampling parameters such as `temperature` and `top_k` to behave similar to other implementations
+
+## New Contributors
+* @Shane-XB-Qian made their first contribution in https://github.com/ollama/ollama/pull/9136
+* @13rac1 made their first contribution in https://github.com/ollama/ollama/pull/9643
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.0...v0.6.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.1</guid>
+            <pubDate>Fri, 14 Mar 2025 02:58:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.0]]></title>
+            <description><![CDATA[![Gemma 3 with Ollama](https://github.com/user-attachments/assets/3b0f6a6e-86b7-4bf9-8de0-2e8ee4b346c8)
+
+## New Model 
+* [Gemma 3](https://ollama.com/library/gemma3): Google Gemma 3 model is now available in 1B, 4B, 12B, and 27B parameter sizes.
+
+## What's Changed
+* Fixed error that would occur when running `snowflake-arctic-embed` and `snowflake-arctic-embed2` models
+
+## New Contributors
+* @iBreaker made their first contribution in https://github.com/ollama/ollama/pull/9565
+* @zhu-xiaowei made their first contribution in https://github.com/ollama/ollama/pull/9540
+* @dwt made their first contribution in https://github.com/ollama/ollama/pull/9569
+* @vincentkoc made their first contribution in https://github.com/ollama/ollama/pull/9626
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.13...v0.6.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.6.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.0</guid>
+            <pubDate>Tue, 11 Mar 2025 23:37:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.13]]></title>
+            <description><![CDATA[## New models
+
+* [Phi-4-Mini](https://ollama.com/library/phi4-mini): Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.
+* [Granite-3.2-Vision](https://ollama.com/library/granite3.2-vision): A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.
+* [Command R7B Arabic](https://ollama.com/library/command-r7b-arabic): A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.
+
+## What's Changed
+* The default context length can now be set with a new `OLLAMA_CONTEXT_LENGTH` environment variable. For example, to set the default context length to 8K, use: `OLLAMA_CONTEXT_LENGTH=8192 ollama serve`
+* Ollama is now compiled for NVIDIA Blackwell
+* Fixed issue where bf16 GGUF files could not be imported
+* Ollama is now be able to accept requests from Visual Studio Code and Cursor by accepting requests from origins beginning with `vscode-file://`
+* Fixed a series of `permission denied` issues when installing Ollama on Linux
+
+> Note: Ubuntu 20.04, Debian 10 and RHEL 8+ or later are required to run Ollama on Linux
+
+## New Contributors
+* @prusnak made their first contribution in https://github.com/ollama/ollama/pull/8567
+* @ChuanhuiLiu made their first contribution in https://github.com/ollama/ollama/pull/9346
+* @Pekkari made their first contribution in https://github.com/ollama/ollama/pull/8211
+* @eriestrisnadi made their first contribution in https://github.com/ollama/ollama/pull/9313
+* @stevenh made their first contribution in https://github.com/ollama/ollama/pull/9360
+* @wanghe-fit2cloud made their first contribution in https://github.com/ollama/ollama/pull/9312
+* @Soulter made t]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.13</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.13</guid>
+            <pubDate>Thu, 27 Feb 2025 18:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.12]]></title>
+            <description><![CDATA[## New models
+
+- [Perplexity R1 1776](https://ollama.com/library/r1-1776): A version of the DeepSeek-R1 model that has been post trained to remove its refusal to respond to some sensitive topics.
+
+## What's Changed
+* The OpenAI-compatible API will now return `tool_calls` if the model called a tool
+* Performance on certain Intel Xeon processors should now be restored
+* Fixed permission denied issues after installing Ollama on Linux
+* Fixed issue where additional CPU libraries were included in the `arm64` Linux install
+* The progress bar will no longer flicker when running `ollama pull`
+* Fixed issue where running a model would fail on Linux if Ollama was installed in a path with UTF-8 characters
+* `X-Stainless-Timeout` will now be accepted as a header in the OpenAI API endpoints
+
+## New Contributors
+* @buiducnhat made their first contribution in https://github.com/ollama/ollama/pull/9075
+* @James-William-Kincaid-III made their first contribution in https://github.com/ollama/ollama/pull/9098
+* @innightwolfsleep made their first contribution in https://github.com/ollama/ollama/pull/9150
+* @ismdeep made their first contribution in https://github.com/ollama/ollama/pull/9108
+* @benhaotang made their first contribution in https://github.com/ollama/ollama/pull/9138
+* @jeremyschlatter made their first contribution in https://github.com/ollama/ollama/pull/9079
+* @maninhill made their first contribution in https://github.com/ollama/ollama/pull/9212
+* @xuzeyu91 made their first contribution in https://github.com/ollama/ollama/pull/9214
+* @yuiseki made their first contribution in https://github.com/ollama/ollama/pull/9146
+* @lucasthahn made their first contribution in https://github.com/ollama/ollama/pull/9237
+* @danielekp made their first contribution in https://github.com/ollama/ollama/pull/9251
+* @RockChinQ made their first contribution in https://github.com/ollama/ollama/pull/9272
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.12</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.12</guid>
+            <pubDate>Thu, 20 Feb 2025 17:32:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.11]]></title>
+            <description><![CDATA[## What's Changed
+- Fixed `The system cannot find the path specified` errors when running models in some cases on Windows
+- Fixed issue where running `ollama serve` on Intel Macs would not use CPU acceleration
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.10...v0.5.11]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.11</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.11</guid>
+            <pubDate>Fri, 14 Feb 2025 08:25:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.10]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed issue on multi-GPU Windows and Linux machines where memory estimations would be incorrect
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.9...v0.5.10]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.10</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.10</guid>
+            <pubDate>Fri, 14 Feb 2025 04:14:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.9]]></title>
+            <description><![CDATA[## New models
+
+- [DeepScaleR](https://ollama.com/library/deepscaler): A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.
+- [OpenThinker](https://ollama.com/library/openthinker): A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.
+
+## What's Changed
+* Fixed `llama runner process has terminated` that would occur on Windows due to permissions issues
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.8...v0.5.9]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.9</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.9</guid>
+            <pubDate>Wed, 12 Feb 2025 02:33:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.8]]></title>
+            <description><![CDATA[## What's Changed
+* Ollama will now use AVX-512 instructions where available for additional CPU acceleration
+* NVIDIA and AMD GPUs can now be used with CPUs without AVX instructions
+* Ollama will now use AVX2 instructions with NVIDIA and AMD GPUs
+* New `ollama-darwin.tgz` package for macOS that replaces the previous `ollama-darwin` standalone binary.
+* Fixed indexing error that would occur when downloading a model with `ollama run` or `ollama pull`
+* Fixes cases where download progress would reverse
+
+> [!NOTE]  
+> The steps to build Ollama with GPU acceleration from source have changed. Please see the [development](https://github.com/ollama/ollama/blob/main/docs/development.md) documentation for more information.
+
+## New Contributors
+* @jannikmaierhoefer made their first contribution in https://github.com/ollama/ollama/pull/8455
+* @EndoTheDev made their first contribution in https://github.com/ollama/ollama/pull/8487
+* @danielpunkass made their first contribution in https://github.com/ollama/ollama/pull/8524
+* @lofcz made their first contribution in https://github.com/ollama/ollama/pull/8551
+* @XiaofuHuang made their first contribution in https://github.com/ollama/ollama/pull/8604
+* @anilkay made their first contribution in https://github.com/ollama/ollama/pull/8767
+* @Bert0ns made their first contribution in https://github.com/ollama/ollama/pull/8766
+* @melroy89 made their first contribution in https://github.com/ollama/ollama/pull/8802
+* @TilmanGriesel made their first contribution in https://github.com/ollama/ollama/pull/8803
+* @fallenreaper made their first contribution in https://github.com/ollama/ollama/pull/8746
+* @yashwanth2706 made their first contribution in https://github.com/ollama/ollama/pull/8831
+* @fyvri made their first contribution in https://github.com/ollama/ollama/pull/8692
+* @daniellok-db made their first contribution in https://github.com/ollama/ollama/pull/8811
+* @dpereira made their first contribution in https://githu]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.8</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.8</guid>
+            <pubDate>Wed, 05 Feb 2025 20:40:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.7]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed issue where using two `FROM` commands in `Modelfile`
+* Support importing Command R and Command R+ architectures from safetensors
+
+## New Contributors
+* @Gloryjaw made their first contribution in https://github.com/ollama/ollama/pull/8438
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.6...v0.5.7]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.7</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.7</guid>
+            <pubDate>Thu, 16 Jan 2025 18:17:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.6]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed errors that would occur when running `ollama create` on Windows and when using absolute paths
+
+## New Contributors
+* @steveberdy made their first contribution in https://github.com/ollama/ollama/pull/8352
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.5...v0.5.6]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.6</guid>
+            <pubDate>Wed, 15 Jan 2025 05:50:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.5]]></title>
+            <description><![CDATA[![ollama 2025](https://github.com/user-attachments/assets/d8e8aa47-f7e8-4531-a062-eb48d124b8db)
+
+
+## New models
+- [Phi-4](https://ollama.com/library/phi4): Phi 4 is a 14B parameter, state-of-the-art open model from Microsoft.
+- [Command R7B](https://ollama.com/library/command-r7b): the smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.
+- [DeepSeek-V3](https://ollama.com/library/deepseek-v3): A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.
+- [OLMo 2](https://ollama.com/library/olmo2): a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.
+- [Dolphin 3](https://ollama.com/library/dolphin3): the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.
+- [SmallThinker](https://ollama.com/library/smallthinker): A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.
+- [Granite 3.1 Dense](https://ollama.com/library/granite3.1-dense): 2B and 8B text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.
+- [Granite 3.1 MoE](https://ollama.com/library/granite3.1-moe): 1B and 3B long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.
+
+## What's Changed
+* The `/api/create` API endpoint that powers `ollama create` has been changed to improve conversion time and also accept a JSON object. **Note: this change is not backwards compatible**. If importing models, make sure you're using version `0.5.5` or later for both Olla]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.5</guid>
+            <pubDate>Wed, 08 Jan 2025 22:55:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.4]]></title>
+            <description><![CDATA[## New models
+
+- [Falcon3](https://ollama.com/library/falcon3): A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.
+
+## What's Changed
+* Fixed issue where providing `null` to `format` would result in an error
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.3...v0.5.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.4</guid>
+            <pubDate>Tue, 17 Dec 2024 21:54:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.3]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed runtime errors on older Intel Macs
+* Fixed issue where setting the `format` field to `""` would cause an error
+
+## New Contributors
+* @Askir made their first contribution in https://github.com/ollama/ollama/pull/8028
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.2...v0.5.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.3</guid>
+            <pubDate>Tue, 17 Dec 2024 04:14:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.2]]></title>
+            <description><![CDATA[## New models
+
+- [EXAONE 3.5](https://ollama.com/library/exaone3.5): a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.
+
+## What's Changed
+* Fixed issue where whitespace would get trimmed from prompt when images were provided
+* Improved memory estimation when scheduling models
+* `OLLAMA_ORIGINS` will now check hosts in a case insensitive manner
+
+> Note: the Linux `ollama-linux-amd64.tgz` directory structure has changed – if you manually install Ollama on Linux, make sure to retain the new directory layout and contents of the tar file.
+
+## New Contributors
+* @yannickgloster made their first contribution in https://github.com/ollama/ollama/pull/7960
+* @stweil made their first contribution in https://github.com/ollama/ollama/pull/7021
+* @AidfulAI made their first contribution in https://github.com/ollama/ollama/pull/8024
+* @taozuhong made their first contribution in https://github.com/ollama/ollama/pull/7948
+* @philffm made their first contribution in https://github.com/ollama/ollama/pull/7202
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.1...v0.5.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.2</guid>
+            <pubDate>Wed, 11 Dec 2024 20:43:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.5.1]]></title>
+            <description><![CDATA[## What's Changed
+* Fixed issue where Ollama's API would generate JSON output when specifying `"format": null`
+* Fixed issue where passing `--format json` to `ollama run` would cause an error
+
+**Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.0...v0.5.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.5.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.1</guid>
+            <pubDate>Fri, 06 Dec 2024 23:48:45 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
