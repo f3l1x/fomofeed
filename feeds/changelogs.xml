@@ -4,11 +4,39 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 17:28:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2026 04:57:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 15:34:12 GMT</pubDate>
+        <pubDate>Tue, 14 Apr 2026 00:35:30 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.20.8]]></title>
+            <description><![CDATA[## What's Changed * ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483 * gemma4: fix nothink case renderer by @drifkin in https://github.com/ollama/ollama/pull/15553 * gemma4: fix compiler error on metal by @dhiltgen in https://github.com/ollama/ollama/pull/15550 * gemma4: add nothink renderer tests by @drifkin in https://github.com/ollama/ollama/pull/15554 * mlx: mixed-precision quant and capability detection improvements by @dhiltgen in https://github.com/ollama/ollama/pull/15409 * mlx: add op wrappers for Conv2d, Pad, activations, trig, and masked SDPA by @dhiltgen in https://github.com/ollama/ollama/pull/14913 * Revert "gemma4: add nothink renderer tests" by @drifkin in https://github.com/ollama/ollama/pull/15555 * cgo: suppress deprecated warning to quiet down go build by @dhiltgen in https://github.com/ollama/ollama/pull/15438 * mac: prevent generate on cross-compiles by @dhiltgen in https://github.com/ollama/ollama/pull/15120 * Revert "gemma4: fix nothink case renderer" by @drifkin in https://github.com/ollama/ollama/pull/15556 * launch/opencode: use inline config by @hoyyeva in https://github.com/ollama/ollama/pull/15462 * gemma4: restore e2b-style nothink prompt by @drifkin in https://github.com/ollama/ollama/pull/15560 * Gemma4 on MLX by @dhiltgen in https://github.com/ollama/ollama/pull/15244 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.6...v0.20.8-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.8-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.8-rc0</guid>
+            <pubDate>Tue, 14 Apr 2026 00:35:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.20.7]]></title>
+            <description><![CDATA[## What's Changed * Fix quality of gemma:e2b and gemma:e4b when thinking is disabled * ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.6...v0.20.7]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.20.7</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.7</guid>
+            <pubDate>Mon, 13 Apr 2026 23:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.105]]></title>
+            <description><![CDATA[## What's changed - Added path parameter to the EnterWorktree tool to switch into an existing worktree of the current repository - Added PreCompact hook support: hooks can now block compaction by exiting with code 2 or returning {"decision":"block"} - Added background monitor support for plugins via a top-level monitors manifest key that auto-arms at session start or on skill invoke - /proactive is now an alias for /loop - Improved stalled API stream handling: streams now abort after 5 minutes of no data and retry non-streaming instead of hanging indefinitely - Improved network error messages: connection errors now show a retry message immediately instead of a silent spinner - Improved file write display: long single-line writes (e.g. minified JSON) are now truncated in the UI instead of paginating across many screens - Improved /doctor layout with status icons; press f to have Claude fix reported issues - Improved /config labels and descriptions for clarity - Improved skill description handling: raised the listing cap from 250 to 1,536 characters and added a startup warning when descriptions are truncated - Improved WebFetch to strip and contents from fetched pages so CSS-heavy pages no longer exhaust the content budget before reaching actual text - Improved stale agent worktree cleanup to remove worktrees whose PR was squash-merged instead of keeping them indefinitely - Improved MCP large-output truncation prompt to give format-specific recipes (e.g. jq for JSON, computed Read chunk sizes for text) - Fixed images attached to queued messages (sent while Claude is working) being dropped - Fixed screen going blank when the prompt input wraps to a second line in long conversations - Fixed leading whitespace getting copied when selecting multi-line assistant responses in fullscreen mode - Fixed leading whitespace being trimmed from assistant messages, breaking ASCII art and indented diagrams - Fixed garbled bash output when commands print clickable file links (e.g. Python rich/loguru logging) - Fixed alt+enter not inserting a newline in terminals using ESC-prefix alt encoding, and Ctrl+J not inserting a newline (regression in 2.1.100) - Fixed duplicate "Creating worktree" text in EnterWorktree/ExitWorktree tool display - Fixed queued user prompts disappearing from focus mode - Fixed one-shot scheduled tasks re-firing repeatedly when the file watcher missed the post-fire cleanup - Fixed inbound channel notifications being silently dropped after the first message for Team/Enterprise users - Fixed marketplace plugins with package.json and lockfile not having dependencies installed automatically after install/update - Fixed marketplace auto-update leaving the official marketplace in a broken state when a plugin process holds files open during the update - Fixed "Resume this session with..." hint not printing on exit after /resume, --worktree, or /branch - Fixed feedback survey shortcut keys firing when typed at the end of a longer prompt - Fixed stdio MCP server emitting malformed (non-JSON) output hanging the session instead of failing fast with "Connection closed" - Fixed MCP tools missing on the first turn of headless/remote-trigger sessions when MCP servers connect asynchronously - Fixed /model picker on AWS Bedrock in non-US regions persisting invalid us.* model IDs to settings.json when inference profile discovery is still in-flight - Fixed 429 rate-limit errors showing a raw JSON dump instead of a clean message for API-key, Bedrock, and Vertex users - Fixed crash on resume when session contains malformed text blocks - Fixed /help dropping the tab bar, Shortcuts heading, and footer at short terminal heights - Fixed malformed keybinding entry values in keybindings.json being silently loaded instead of rejected with a clear error - Fixed CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC in one project's settings permanently disabling usage metrics for all projects on the machine - Fixed washed-out 16-color palette when using Ghostty, Kitty, Alacritty, WezTerm, foot, rio, or Contour over SSH/mosh - Fixed Bash tool suggesting acceptEdits permission mode when exiting plan mode would downgrade from a higher permission level]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.105</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.105</guid>
+            <pubDate>Mon, 13 Apr 2026 21:53:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.121.0-alpha.6]]></title>
+            <description><![CDATA[Release 0.121.0-alpha.6]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.6</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.6</guid>
+            <pubDate>Mon, 13 Apr 2026 21:48:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.121.0-alpha.4]]></title>
             <description><![CDATA[Release 0.121.0-alpha.4]]></description>
@@ -1423,13 +1451,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.6</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.6</guid>
             <pubDate>Wed, 11 Mar 2026 19:27:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.115.0-alpha.5]]></title>
-            <description><![CDATA[Release 0.115.0-alpha.5]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.5</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.5</guid>
-            <pubDate>Wed, 11 Mar 2026 18:49:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.73]]></title>
@@ -6301,13 +6322,6 @@
             <pubDate>Fri, 13 Dec 2024 08:52:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.5.2]]></title>
-            <description><![CDATA[## New models - EXAONE 3.5: a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research. ## What's Changed * Fixed issue where whitespace would get trimmed from prompt when images were provided * Improved memory estimation when scheduling models * OLLAMA_ORIGINS will now check hosts in a case insensitive manner > Note: the Linux ollama-linux-amd64.tgz directory structure has changed – if you manually install Ollama on Linux, make sure to retain the new directory layout and contents of the tar file. ## New Contributors * @yannickgloster made their first contribution in https://github.com/ollama/ollama/pull/7960 * @stweil made their first contribution in https://github.com/ollama/ollama/pull/7021 * @AidfulAI made their first contribution in https://github.com/ollama/ollama/pull/8024 * @taozuhong made their first contribution in https://github.com/ollama/ollama/pull/7948 * @philffm made their first contribution in https://github.com/ollama/ollama/pull/7202 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.1...v0.5.2]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.2</guid>
-            <pubDate>Wed, 11 Dec 2024 20:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.1.0 — Cascade Memories]]></title>
             <link>https://windsurf.com/changelog#cascade-memories</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#cascade-memories</guid>
@@ -6325,13 +6339,6 @@
             <link>https://github.com/TabbyML/tabby/releases/tag/v0.21.2-rc.2</link>
             <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.21.2-rc.2</guid>
             <pubDate>Mon, 09 Dec 2024 10:03:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.1]]></title>
-            <description><![CDATA[## What's Changed * Fixed issue where Ollama's API would generate JSON output when specifying "format": null * Fixed issue where passing --format json to ollama run would cause an error **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.0...v0.5.1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.1</guid>
-            <pubDate>Fri, 06 Dec 2024 23:48:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.0.7 — Patch Fixes]]></title>
