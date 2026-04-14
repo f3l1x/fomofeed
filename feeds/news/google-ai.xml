@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Apr 2026 16:25:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2026 18:25:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 06 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off]]></title>
+            <description><![CDATA[The Google Cloud AI Agent Bake-Off highlights a shift from simple prompt engineering to rigorous agentic engineering, emphasizing that production-ready AI requires a modular, multi-agent architecture. The post outlines five key developer tips, including decomposing complex tasks into specialized sub-agents and using deterministic code for execution to prevent probabilistic errors. Furthermore, it advises developers to prioritize multimodality and open-source protocols like MCP to ensure agents are scalable, integrated, and future-proof against rapidly evolving model capabilities.]]></description>
+            <link>https://developers.googleblog.com/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/</guid>
+            <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[TorchTPU: Running PyTorch Natively on TPUs at Google Scale]]></title>
             <description><![CDATA[TorchTPU is a new engineering stack designed to provide a native, high-performance experience for running PyTorch workloads on Google’s TPU infrastructure with minimal code changes. It features an "Eager First" approach with multiple execution modes and utilizes the XLA compiler to optimize distributed training across massive clusters. Moving into 2026, the project aims to further reduce compilation overhead and expand support for dynamic shapes and custom kernels to ensure seamless scalability for the next generation of AI.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/</guid>
             <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Developer’s Guide to AI Agent Protocols]]></title>
-            <description><![CDATA[This blog post introduces a suite of six protocols, such as MCP and A2A, designed to eliminate custom integration code by standardizing how AI agents access data and communicate. Using a "kitchen manager" agent as a practical example, it demonstrates how these tools handle complex tasks like real-time inventory checks, wholesale commerce via UCP, and secure payment authorization through AP2. By leveraging the Agent Development Kit (ADK), developers can also implement A2UI and AG-UI to deliver interactive dashboards and seamless streaming interfaces to users.]]></description>
-            <link>https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/</guid>
-            <pubDate>Tue, 17 Mar 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
