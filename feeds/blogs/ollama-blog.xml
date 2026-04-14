@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Ollama Blog]]></description>
         <link>https://ollama.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Apr 2026 04:57:06 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2026 06:38:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/ollama-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 29 Mar 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
