@@ -4,11 +4,18 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 04:57:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 06:37:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 03:38:15 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 05:46:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.121.0-alpha.12]]></title>
+            <description><![CDATA[Release 0.121.0-alpha.12]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.12</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.12</guid>
+            <pubDate>Wed, 15 Apr 2026 05:46:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.121.0-alpha.11]]></title>
             <description><![CDATA[Release 0.121.0-alpha.11]]></description>
@@ -693,13 +700,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.14</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.14</guid>
             <pubDate>Thu, 12 Mar 2026 22:01:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.115.0-alpha.13]]></title>
-            <description><![CDATA[Release 0.115.0-alpha.13]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.13</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.13</guid>
-            <pubDate>Thu, 12 Mar 2026 19:53:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.115.0-alpha.9]]></title>

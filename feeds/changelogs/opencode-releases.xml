@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 04:57:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 06:36:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 15 Apr 2026 04:25:45 GMT</pubDate>
         <language><![CDATA[en]]></language>
