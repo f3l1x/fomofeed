@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 06:36:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 08:34:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 04:25:45 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 07:26:50 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.4.6]]></title>
+            <description><![CDATA[## Core - Fixed snapshot staging for very long file lists and improved staging performance. - Fixed OTEL header parsing when a header value contains =. ## Desktop - Fixed prompt submission state updates to avoid failed or inconsistent sends. - Improved session title input spacing while editing. **Thank you to 1 community contributor:** - @github-actions[bot]: - Update VOUCHED list]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.6</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.6</guid>
+            <pubDate>Wed, 15 Apr 2026 07:26:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.4.5]]></title>
             <description><![CDATA[## Core - Export AI SDK telemetry spans to OTLP trace backends. - Expose the experimental question API schema and OpenAPI spec from @opencode-ai/server. - Expose a reusable question handler factory for custom question API hosts. ## Desktop - Start desktop shell commands from the home directory. - Avoid bootstrap error popups while global sync initializes.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.18</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.18</guid>
             <pubDate>Tue, 13 Jan 2026 16:45:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.17]]></title>
-            <description><![CDATA[## Core - Remove the symlinkBinary function call that replaces the wrapper script - Fix Homebrew auto-upgrade functionality ## TUI - Prevent question tool keybindings when dialog is open (@zerone0x) ## Desktop - Kill existing OpenCode CLI processes on macOS when launching desktop app (@Brendonovich) - Set serverPassword in desktop app (@Brendonovich) - Provide PTY socket authentication if available from desktop (@Brendonovich) - Tie desktop and CLI to the same Windows JobObject (@Brendonovich) **Thank you to 3 community contributors:** - @zerone0x: - fix(tui): prevent question tool keybindings when dialog is open (#8147) - @Brendonovich: - feat(desktop): Tie desktop & CLI to the same Windows JobObject (#8153) - fix(app): provide pty socket auth if available from desktop (#8210) - fix(desktop): set serverPassword - desktop: macos killall opencode-cli on launch - @OpeOginni: - fix(ui): track memo-based items in useFilteredList without affecting async function based lists (#8216)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.17</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.17</guid>
-            <pubDate>Tue, 13 Jan 2026 15:11:15 GMT</pubDate>
         </item>
     </channel>
 </rss>
