@@ -4,11 +4,53 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Apr 2026 18:25:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 04:57:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Apr 2026 16:45:24 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 04:25:45 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.4.5]]></title>
+            <description><![CDATA[## Core - Export AI SDK telemetry spans to OTLP trace backends. - Expose the experimental question API schema and OpenAPI spec from @opencode-ai/server. - Expose a reusable question handler factory for custom question API hosts. ## Desktop - Start desktop shell commands from the home directory. - Avoid bootstrap error popups while global sync initializes.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.5</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.5</guid>
+            <pubDate>Wed, 15 Apr 2026 04:25:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.109]]></title>
+            <description><![CDATA[## What's changed - Improved the extended-thinking indicator with a rotating progress hint]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.109</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.109</guid>
+            <pubDate>Wed, 15 Apr 2026 04:02:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.121.0-alpha.11]]></title>
+            <description><![CDATA[Release 0.121.0-alpha.11]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.11</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.11</guid>
+            <pubDate>Wed, 15 Apr 2026 03:38:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.4]]></title>
+            <description><![CDATA[## Core - Restored instance and logger context during prompt runs so prompt-time tools and logging behave correctly. - Kept GitHub Copilot compaction requests valid. - Restored the flat reply shape for question API responses. - Persisted MCP OAuth connections that finish immediately, so authenticated servers stay connected. - Prevented duplicate user messages in ACP clients. - Stopped emitting user_message_chunk events during session and prompt turns in ACP clients. (@RAIT-09) - Fixed reasoning summary injection for @ai-sdk/openai-compatible providers. (@nazarhnatyshen) - Added the experimental compaction.autocontinue hook to stop auto-continuing after compaction. - Added Alibaba provider support with cache support. - Snapshots now fully respect .gitignore, including previously tracked files. - Reading images no longer counts against quota. - Sessions can now update project permissions mid-run. (@remorses) - Enabled thinking for zhipuai-coding-plan and fixed Korean IME truncation. (@claudianus) ## TUI - Added opencode export --sanitize to redact PII and confidential transcript data. - Fixed diff line number contrast in built-in themes. - Plugin auth login now asks for an API key when a plugin needs authorization. (@goniz) - Plugin auth no longer asks for an API key when the plugin has no authorize method. (@goniz) ## Desktop - Fixed the Windows desktop backend hanging before shutdown. ## SDK - The JavaScript SDK now throws a clear error when an older server responds with HTML instead of the API. ## Extensions - Plugins can now register custom workspace adaptors that appear in workspace creation. **Thank you to 9 community contributors:** - @claudianus: - fix: enable thinking for zhipuai-coding-plan & prevent Korean IME truncation (#22041) - @remorses: - feat: allow session permission updates (#22070) - @simonklee: - chore(github): vouch simonklee (#22127) - @shafdev: - fix(opencode): remove spurious scripts and randomField from package.json (#22160) - @goniz: - fix(cli): auth login now asks for api key in handlePluginAuth (#21641) - fix(cli): handlePluginAuth asks for api key only if authorize method exists (#22475) - @github-actions[bot]: - Update VOUCHED list - @nazarhnatyshen: - fix(provider): guard reasoningSummary injection for @ai-sdk/openai-compatible providers (#22352) - @RAIT-09: - fix(acp): stop emitting user_message_chunk during session/prompt turn (#21851) - @gigamonster256: - chore(nix): remove external ripgrep (#22482)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.4</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.4</guid>
+            <pubDate>Wed, 15 Apr 2026 00:04:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.121.0-alpha.10]]></title>
+            <description><![CDATA[Release 0.121.0-alpha.10]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.10</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.10</guid>
+            <pubDate>Tue, 14 Apr 2026 23:34:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.108]]></title>
+            <description><![CDATA[## What's changed - Added ENABLE_PROMPT_CACHING_1H env var to opt into 1-hour prompt cache TTL on API key, Bedrock, Vertex, and Foundry (ENABLE_PROMPT_CACHING_1H_BEDROCK is deprecated but still honored), and FORCE_PROMPT_CACHING_5M to force 5-minute TTL - Added recap feature to provide context when returning to a session, configurable in /config and manually invocable with /recap; force with CLAUDE_CODE_ENABLE_AWAY_SUMMARY if telemetry disabled. - The model can now discover and invoke built-in slash commands like /init, /review, and /security-review via the Skill tool - /undo is now an alias for /rewind - Improved /model to warn before switching models mid-conversation, since the next response re-reads the full history uncached - Improved /resume picker to default to sessions from the current directory; press Ctrl+A to show all projects - Improved error messages: server rate limits are now distinguished from plan usage limits; 5xx/529 errors show a link to status.claude.com; unknown slash commands suggest the closest match - Reduced memory footprint for file reads, edits, and syntax highlighting by loading language grammars on demand - Added "verbose" indicator when viewing the detailed transcript (Ctrl+O) - Added a warning at startup when prompt caching is disabled via DISABLE_PROMPT_CACHING* environment variables - Fixed paste not working in the /login code prompt (regression in 2.1.105) - Fixed subscribers who set DISABLE_TELEMETRY falling back to 5-minute prompt cache TTL instead of 1 hour - Fixed Agent tool prompting for permission in auto mode when the safety classifier's transcript exceeded its context window - Fixed Bash tool producing no output when CLAUDE_ENV_FILE (e.g. ~/.zprofile) ends with a # comment line - Fixed claude --resume losing the session's custom name and color set via /rename - Fixed session titles showing placeholder example text when the first message is a short greeting - Fixed terminal escape codes appearing as garbage text in the prompt input after --teleport - Fixed /feedback retry: pressing Enter to resubmit after a failure now works without first editing the description - Fixed --teleport and --resume precondition errors (e.g. dirty git tree, session not found) exiting silently instead of showing the error message - Fixed Remote Control session titles set in the web UI being overwritten by auto-generated titles after the third message - Fixed --resume truncating sessions when the transcript contained a self-referencing message - Fixed transcript write failures (e.g., disk full) being silently dropped instead of being logged - Fixed diacritical marks (accents, umlauts, cedillas) being dropped from responses when the language setting is configured - Fixed policy-managed plugins never auto-updating when running from a different project than where they were first installed]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.108</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.108</guid>
+            <pubDate>Tue, 14 Apr 2026 19:12:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.121.0-alpha.9]]></title>
             <description><![CDATA[Release 0.121.0-alpha.9]]></description>
@@ -1411,20 +1453,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.13</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.13</guid>
             <pubDate>Thu, 12 Mar 2026 19:53:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.115.0-alpha.12]]></title>
-            <description><![CDATA[Release 0.115.0-alpha.12]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.12</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.12</guid>
-            <pubDate>Thu, 12 Mar 2026 17:13:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.115.0-alpha.11]]></title>
-            <description><![CDATA[Release 0.115.0-alpha.11]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.11</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.11</guid>
-            <pubDate>Thu, 12 Mar 2026 07:38:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.115.0-alpha.9]]></title>
@@ -3332,25 +3360,11 @@
             <pubDate>Tue, 13 Jan 2026 09:08:42 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.1.16]]></title>
-            <description><![CDATA[## Core - Handle write errors when updating schema in OpenCode config (@ShoeBoom) - Ensure clear_thinking is disabled for zai model - Improved edit and write tool feedback to prevent confusion about whether changes were successfully applied - Prevent [object Object] error display in console output (@lengmodkx) - Respect agent task permission for nested sub-agents (@malhashemi) - Fix max completion tokens error for Cloudflare provider (@roerohan) - Use reasoningConfig for Anthropic models on Bedrock (@Adam8234) - Store API URL in session metadata (@jkoelker) - Add nova-2 to region prefix models - Tweak truncation directory permissions - Make environment file reads ask user for permission instead of blocking - Use Biome check instead of format to include import sorting (@kynnyhsap) - Ensure plurals are properly handled ## TUI - Support debug tool calling directly in CLI (@Eric-Guo) - Don't submit prompt when switching sessions (@LeonMueller-OneAndOnly) - Await auth.set to prevent race condition when setting API key (@darshkpatel) - Actually modify OpenCode config when adding MCP servers with mcp add command (@paoloricciuti) ## Desktop - Spawn local server with password in desktop app (@Brendonovich) - Add missing args to Windows Tauri CLI spawn (@pschiel) - Implement better dynamic terminal numbering (@OpeOginni) - Add icon button for server removal in dialog select server (@OpeOginni) **Thank you to 15 community contributors:** - @kynnyhsap: - fix(formatter): use biome check instead of format to include import sorting (#8057) - @OpeOginni: - feat(dialog-select-server): add icon button for server removal (#8053) - feat(terminal): implement better dynamic terminal numbering (#8081) - @jkoelker: - fix(session): store api url in metadata (#8090) - @paoloricciuti: - fix: actually modify opencode config with mcp add (#7339) - @jerome-benoit: - fix(nix): initialize hashes.json with per-system format (#8095) - @darshkpatel: - fix: await auth.set to prevent race condition when setting API key (#8075) - @Adam8234: - fix(bedrock): use reasoningConfig for Anthropic models on Bedrock (#8092) - @roerohan: - fix: max completion tokens error for cloudflare (#7970) - @malhashemi: - fix(task): respect agent task permission for nested sub-agents (#8111) - @pschiel: - fix: add missing args to windows tauri cli spawn (#8084) - @lengmodkx: - fix: prevent [object Object] error display in console output (#8116) - @LeonMueller-OneAndOnly: - fix(TUI): dont submit prompt when switching sessions (#8016) - @Eric-Guo: - feat(cli): Support debug tool calling directly in CLI. (#6564) - @ShoeBoom: - fix(config): handle write errors when updating schema in opencode config (#8125) - @Brendonovich: - feat(desktop): spawn local server with password (#8139)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.16</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.16</guid>
-            <pubDate>Tue, 13 Jan 2026 06:29:53 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.6]]></title>
             <description><![CDATA[## What's changed - Added search functionality to /config command for quickly filtering settings - Added Updates section to /doctor showing auto-update channel and available npm versions (stable/latest) - Added date range filtering to /stats command - press r to cycle between Last 7 days, Last 30 days, and All time - Added automatic discovery of skills from nested .claude/skills directories when working with files in subdirectories - Added context_window.used_percentage and context_window.remaining_percentage fields to status line input for easier context window display - Added an error display when the editor fails during Ctrl+G - Fixed permission bypass via shell line continuation that could allow blocked commands to execute - Fixed false "File has been unexpectedly modified" errors when file watchers touch files without changing content - Fixed text styling (bold, colors) getting progressively misaligned in multi-line responses - Fixed the feedback panel closing unexpectedly when typing 'n' in the description field - Fixed rate limit warning appearing at low usage after weekly reset (now requires 70% usage) - Fixed rate limit options menu incorrectly auto-opening when resuming a previous session - Fixed numpad keys outputting escape sequences instead of characters in Kitty keyboard protocol terminals - Fixed Option+Return not inserting newlines in Kitty keyboard protocol terminals - Fixed corrupted config backup files accumulating in the home directory (now only one backup is created per config file) - Fixed mcp list and mcp get commands leaving orphaned MCP server processes - Fixed visual artifacts in ink2 mode when nodes become hidden via display:none - Improved the external CLAUDE.md imports approval dialog to show which files are being imported and from where - Improved the /tasks dialog to go directly to task details when there's only one background task running - Improved @ autocomplete with icons for different suggestion types and single-line formatting - Updated "Help improve Claude" setting fetch to refresh OAuth and retry when it fails due to a stale OAuth token - Changed task notification display to cap at 3 lines with overflow summary when multiple background tasks complete simultaneously - Changed terminal title to "Claude Code" on startup for better window identification - Removed ability to @-mention MCP servers to enable/disable - use /mcp enable instead - [VSCode] Fixed usage indicator not updating after manual compact]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.6</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.6</guid>
             <pubDate>Tue, 13 Jan 2026 02:26:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.15]]></title>
-            <description><![CDATA[## Core - Rename OPENCODE_PASSWORD to OPENCODE_SERVER_PASSWORD for clearer authentication configuration - Fix HTTP exception handling order to prevent NamedError from masking HTTP exceptions - Add password authentication and improve server security - Improve error handling for built-in plugin installation failures - Allow wildcard permissions to match both the command with and without arguments - Fix model selection in title generation to use user's model instead of assistant's ## TUI - Prevent layout jump when toggling tips visibility in TUI (@R44VC0RP) - Add hint for variants toggle in TUI - Fix autocomplete reopening after backspace deletes space in terminal UI (@Raviguntakala) - Rename kvStore to store for consistency in TUI - Redesign tips display on home screen - Redesign tips display on home screen - Remove update complete toast notification from TUI ## Desktop - Disable AppImage build (@Brendonovich) - Improve server detection and connection logic in desktop application (@Brendonovich) - Resolve defaultServerUrl inside AppInterface to improve server URL handling (@Brendonovich) **Thank you to 7 community contributors:** - @Brendonovich: - app: resolve defaultServerUrl inside AppInterface - fix(desktop): improve server detection & connection logic (#7962) - disable appimage - @shubh73: - docs: fix typo (#8041) - @jerome-benoit: - fix(nix): filter optional dependencies by target platform (#8033) - @Raviguntakala: - fix(tui): reopen autocomplete after backspace deletes space (#6031) - @dbpolito: - fix(desktop): Improve User Message Badges for Big Titles and Small Screens (#8037) - @kdcokenny: - docs: fix permission rule ordering in examples (#7010) - @R44VC0RP: - fix(tui): prevent layout jump when toggling tips visibility (#8068)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.15</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.15</guid>
-            <pubDate>Mon, 12 Jan 2026 21:31:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.5]]></title>

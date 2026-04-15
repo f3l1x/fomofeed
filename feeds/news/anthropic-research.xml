@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Apr 2026 18:25:11 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 04:57:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Automated Alignment Researchers: Using large language models to scale scalable oversight]]></title>
+            <link>https://www.anthropic.com/research/automated-alignment-researchers</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/automated-alignment-researchers</guid>
+            <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Trustworthy agents in practice]]></title>
             <link>https://www.anthropic.com/research/trustworthy-agents</link>

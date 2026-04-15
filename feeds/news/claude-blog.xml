@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Claude Blog]]></description>
         <link>https://claude.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Apr 2026 18:25:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 04:57:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/claude-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Redesigning Claude Code on desktop for parallel agents]]></title>
+            <link>https://claude.com/blog/claude-code-desktop-redesign</link>
+            <guid isPermaLink="false">https://claude.com/blog/claude-code-desktop-redesign</guid>
+            <pubDate>Wed, 04 Nov 2020 14:39:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Preparing your security program for AI-accelerated offense]]></title>
             <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
@@ -62,12 +68,6 @@
             <link>https://claude.com/blog/claude-and-slack</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-and-slack</guid>
             <pubDate>Fri, 10 Apr 2020 01:45:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Piloting Claude in Chrome]]></title>
-            <link>https://claude.com/blog/claude-for-chrome</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-for-chrome</guid>
-            <pubDate>Thu, 23 Jan 2020 09:19:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
