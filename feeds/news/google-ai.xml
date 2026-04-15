@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 14:33:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 16:22:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Subagents have arrived in Gemini CLI]]></title>
+            <description><![CDATA[Gemini CLI has introduced subagents, specialized expert agents that handle complex or high-volume tasks in isolated context windows to keep the primary session fast and focused. These agents can be customized via Markdown files, run in parallel to boost productivity, and are easily invoked using the @agent syntax for targeted delegation. This architecture prevents "context rot" by consolidating intricate multi-step executions into concise summaries for the main orchestrator.]]></description>
+            <link>https://developers.googleblog.com/subagents-have-arrived-in-gemini-cli/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/subagents-have-arrived-in-gemini-cli/</guid>
+            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off]]></title>
             <description><![CDATA[The Google Cloud AI Agent Bake-Off highlights a shift from simple prompt engineering to rigorous agentic engineering, emphasizing that production-ready AI requires a modular, multi-agent architecture. The post outlines five key developer tips, including decomposing complex tasks into specialized sub-agents and using deterministic code for execution to prevent probabilistic errors. Furthermore, it advises developers to prioritize multimodality and open-source protocols like MCP to ensure agents are scalable, integrated, and future-proof against rapidly evolving model capabilities.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/</guid>
             <pubDate>Mon, 23 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Build a smart financial assistant with LlamaParse and Gemini 3.1]]></title>
-            <description><![CDATA[This blog post introduces a workflow for extracting high-quality data from complex, unstructured documents by combining LlamaParse with Gemini 3.1 models. It demonstrates an event-driven architecture that uses Gemini 3.1 Pro for agentic parsing of dense financial tables and Gemini 3.1 Flash for cost-effective summarization. By following the provided tutorial, developers can build a personal finance assistant capable of transforming messy brokerage statements into structured, human-readable insights.]]></description>
-            <link>https://developers.googleblog.com/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/</guid>
-            <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
