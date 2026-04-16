@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 18:25:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 05:01:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Windsurf 2.0: Introducing the Agent Command Center and Devin in Windsurf]]></title>
+            <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
+            <link>https://windsurf.com/blog/windsurf-2-0</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-2-0</guid>
+            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Interact with agent-created visualizations in canvases]]></title>
+            <link>https://cursor.com/blog/canvas</link>
+            <guid isPermaLink="false">https://cursor.com/blog/canvas</guid>
+            <category><![CDATA[product]]></category>
+            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Speeding up GPU kernels by 38% with a multi-agent system]]></title>
             <link>https://cursor.com/blog/multi-agent-kernels</link>
@@ -307,13 +321,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/building-real-time-interactive-avatars-with-metaxy</guid>
             <category><![CDATA[Engineering]]></category>
             <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GPT-5.3-Codex-Spark is now available in Windsurf]]></title>
-            <description><![CDATA[OpenAI's GPT-5.3-Codex-Spark, an ultra-fast model optimized for real-time coding, is now available in Windsurf's Arena Mode Fast and Hybrid battle groups.]]></description>
-            <link>https://windsurf.com/blog/gpt-5.3-codex-spark</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-5.3-codex-spark</guid>
-            <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenClaw Runs Amok, Kimi’s Open Model, Ministral Distilled, Wikipedia’s Partners]]></title>

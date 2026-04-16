@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 18:25:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 05:01:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Interact with agent-created visualizations in canvases]]></title>
+            <link>https://cursor.com/blog/canvas</link>
+            <guid isPermaLink="false">https://cursor.com/blog/canvas</guid>
+            <category><![CDATA[product]]></category>
+            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Speeding up GPU kernels by 38% with a multi-agent system]]></title>
             <link>https://cursor.com/blog/multi-agent-kernels</link>

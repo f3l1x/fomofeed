@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Apr 2026 18:25:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 05:01:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Windsurf 2.0: Introducing the Agent Command Center and Devin in Windsurf]]></title>
+            <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
+            <link>https://windsurf.com/blog/windsurf-2-0</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-2-0</guid>
+            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Adaptive: a smarter way to use Windsurf]]></title>
             <description><![CDATA[We're launching multiple updates to Windsurf today: an Adaptive model router, a redesigned model picker with pricing context, and the removal of daily limits for Max.]]></description>
@@ -50,13 +57,6 @@
             <link>https://windsurf.com/blog/glm-5-minimax-m2.5</link>
             <guid isPermaLink="false">https://windsurf.com/blog/glm-5-minimax-m2.5</guid>
             <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GPT-5.3-Codex-Spark is now available in Windsurf]]></title>
-            <description><![CDATA[OpenAI's GPT-5.3-Codex-Spark, an ultra-fast model optimized for real-time coding, is now available in Windsurf's Arena Mode Fast and Hybrid battle groups.]]></description>
-            <link>https://windsurf.com/blog/gpt-5.3-codex-spark</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-5.3-codex-spark</guid>
-            <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
