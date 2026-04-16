@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 08:34:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 14:36:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Claude Opus 4.7]]></title>
+            <description><![CDATA[Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most.]]></description>
+            <link>https://www.anthropic.com/news/claude-opus-4-7</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-7</guid>
+            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors]]></title>
             <link>https://www.anthropic.com/news/narasimhan-board</link>
@@ -64,24 +71,11 @@
             <pubDate>Thu, 26 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Statement from Dario Amodei on our discussions with the Department of War]]></title>
-            <link>https://www.anthropic.com/news/statement-department-of-war</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/statement-department-of-war</guid>
-            <pubDate>Wed, 25 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Introducing Claude Sonnet 4.6]]></title>
             <description><![CDATA[Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.]]></description>
             <link>https://www.anthropic.com/news/claude-sonnet-4-6</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-4-6</guid>
             <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Opus 4.6]]></title>
-            <description><![CDATA[We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.]]></description>
-            <link>https://www.anthropic.com/news/claude-opus-4-6</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-6</guid>
-            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude is a space to think]]></title>

@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 08:34:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 14:36:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Better AI models enable more ambitious work]]></title>
+            <link>https://cursor.com/blog/better-ai-models-ambitious-work</link>
+            <guid isPermaLink="false">https://cursor.com/blog/better-ai-models-ambitious-work</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Interact with agent-created visualizations in canvases]]></title>
             <link>https://cursor.com/blog/canvas</link>
@@ -87,13 +94,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/self-summarization</guid>
             <category><![CDATA[research]]></category>
             <pubDate>Mon, 16 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Securing our codebase with autonomous agents]]></title>
-            <link>https://cursor.com/blog/security-agents</link>
-            <guid isPermaLink="false">https://cursor.com/blog/security-agents</guid>
-            <category><![CDATA[product]]></category>
-            <pubDate>Sun, 15 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How we compare model quality in Cursor]]></title>

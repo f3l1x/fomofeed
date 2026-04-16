@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 08:34:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 14:36:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Better AI models enable more ambitious work]]></title>
+            <link>https://cursor.com/blog/better-ai-models-ambitious-work</link>
+            <guid isPermaLink="false">https://cursor.com/blog/better-ai-models-ambitious-work</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Windsurf 2.0: Introducing the Agent Command Center and Devin in Windsurf]]></title>
             <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
@@ -176,13 +183,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/dataops-with-dagster-a-practical-guide-to-building-a-reliable-data-platform</guid>
             <category><![CDATA[Engineering]]></category>
             <pubDate>Mon, 16 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Securing our codebase with autonomous agents]]></title>
-            <link>https://cursor.com/blog/security-agents</link>
-            <guid isPermaLink="false">https://cursor.com/blog/security-agents</guid>
-            <category><![CDATA[product]]></category>
-            <pubDate>Sun, 15 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[GPT-5.4 Makes A Splash, AI’s Growth on Mobile, Data Centers Go Off-Grid, Apple’s Diffusion Research]]></title>
