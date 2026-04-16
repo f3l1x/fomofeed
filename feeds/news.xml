@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 14:36:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 16:32:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs]]></title>
+            <description><![CDATA[MaxText has introduced new support for Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) on single-host TPU configurations, leveraging JAX and the Tunix library for high-performance model refinement. These features enable developers to easily adapt pre-trained models for specialized tasks and complex reasoning using efficient algorithms like GRPO and GSPO. This update streamlines the post-training workflow, offering a scalable path from single-host setups to larger multi-host configurations.]]></description>
+            <link>https://developers.googleblog.com/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/</guid>
+            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Claude Opus 4.7]]></title>
             <description><![CDATA[Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most.]]></description>
@@ -127,13 +134,6 @@
             <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-auto-mode</guid>
             <pubDate>Tue, 24 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Jump to play: Building with Gemini & MediaPipe]]></title>
-            <description><![CDATA[The provided workflow streamlines motion-controlled game development by using Gemini Canvas to rapidly prototype mechanics like the MediaPipe Pose Landmarker through high-level prompting. Developers can refine these prototypes in Google AI Studio by optimizing for low-latency "lite" models and stable tracking points, such as shoulder landmarks, to ensure responsive gameplay. The process concludes by using Gemini Code Assist to refactor experimental code into a modular, production-ready application capable of supporting various multimodal inputs.]]></description>
-            <link>https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/</guid>
-            <pubDate>Mon, 23 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Harness design for long-running application development]]></title>

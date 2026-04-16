@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 14:36:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 16:32:39 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 10 Apr 2026 20:40:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
