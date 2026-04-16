@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 06:37:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 08:34:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
