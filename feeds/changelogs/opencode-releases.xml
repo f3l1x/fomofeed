@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 06:37:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 14:27:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Apr 2026 21:55:19 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 13:37:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.4.8]]></title>
+            <description><![CDATA[## Core - Fixed a crash when experimental mode was enabled. - Let plugin tools return metadata in execute results. (@jquense) - Show real filenames instead of /dev/null in revert diffs. - Improved workspace session handling when a workspace no longer exists. - Fixed Windows ctrl+z terminal suspend and input undo behavior. - Enabled Azure prompt caching with a default per-session cache key. ## TUI - Preserve prompt input when views unmount and remount. - Keep session list dialogs ordered more consistently within each day. ## Desktop - Fixed desktop workspace loading so ready state persists correctly. - Fixed desktop session syncing when loading project data from query cache. - Added beta desktop settings to hide title bar tools like navigation, search, terminal, status, and file tree. - Improved desktop session change loading in the review panel. **Thank you to 1 community contributor:** - @jquense: - fix: preserve plugin tool metadata in execute result (#22827)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.8</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.8</guid>
+            <pubDate>Fri, 17 Apr 2026 13:37:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.4.7]]></title>
             <description><![CDATA[## Core - GitHub Copilot gpt-5-mini now uses low reasoning effort for better request compatibility. (@thakrarsagar) - Workspaces now receive your auth context, so provider sign-in carries across workspace sessions. - Cloudflare AI Gateway now drops max_tokens for OpenAI reasoning models so GPT-5 and o-series requests stop failing. (@kobicovaldev) - Azure models now default store=true, fixing requests that require stored responses. - Claude Opus 4.7 now supports xhigh adaptive reasoning. (@GrahamCampbell) - Claude Opus 4.7 now shows summarized thinking by default. - TUI plugins now load against the correct project when multiple directories are open. - The bash tool uses less memory on large command output. - Experimental workspaces now wait for sync to finish before returning writes, reducing stale reads and missed updates. - Session restore can now replay a session into another workspace in batches. - Sessions now retry provider 5xx errors even when the provider SDK does not mark them retryable. ## TUI - Pasting files or large text no longer inserts content twice. - --agent on the command line is no longer overwritten by the session's saved agent. (@CarloWood) - Empty LSP, MCP, formatter, and session status responses no longer break TUI sync state. ## Desktop - Desktop builds now show a Beta or Dev badge in the title bar when applicable. **Thank you to 8 community contributors:** - @ariane-emory: - fix(core): Remove dead code and documentation related to the obsolete list tool. (#22672) - @CarloWood: - fix(tui): Don't overwrite the agent that was specified on the command line (#20554) - @jerome-benoit: - fix(nix): add shared package to bun install filters (#22665) - @GrahamCampbell: - feat: Add support for claude opus 4.7 xhigh adaptive reasoning effort (#22833) - @B67687: - fix: align stale bot message with actual 60-day threshold (#22842) - @trbutler4: - fix: add missing glob dependency (#22851) - @kobicovaldev: - fix(opencode): drop max_tokens for OpenAI reasoning models on Cloudflare AI Gateway (#22864) - @thakrarsagar: - fix(opencode): use low reasoning effort for GitHub Copilot gpt-5 models (#22824)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.20</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.20</guid>
             <pubDate>Wed, 14 Jan 2026 14:08:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.19]]></title>
-            <description><![CDATA[## Core - Do not allow agent to ask custom-less questions - Improve prompt for explore agent - Add plugin mocks to provider tests (@vglafirov) - Update User-Agent string to latest Chrome version in webfetch (@AlanThiec) - Add plan mode with enter and exit tools - Add family to GPT 5.2 Codex in Codex plugin - Add GitLab Duo Agentic Chat provider support (@vglafirov) - Delete key from recordsByKey on instance disposal (@sauerdaniel) - Close existing MCP client before reassignment to prevent resource leaks (@sauerdaniel) - Added Ask Question tool support for desktop application (@dbpolito) ## TUI - Tweak external directory permission rendering in TUI - Ensure external directory and Bash tool invocations render working directory details - Fix duplicate radio button icon in MCP auth CLI interface (@dmmulroy) ## Desktop - Handle Shift+Enter before IME check to prevent stuck state in prompt input (@josephbharrison) - Revert provider icon on select model dialog in desktop app (@dbpolito) **Thank you to 8 community contributors:** - @dbpolito: - fix(desktop): Revert provider icon on select model dialog (#8245) - feat(desktop): Ask Question Tool Support (#8232) - @cmdr-chara: - feat: add Undertale and Deltarune built-in themes (#8240) - @sauerdaniel: - fix(mcp): close existing client before reassignment to prevent leaks (#8253) - fix(state): delete key from recordsByKey on instance disposal (#8252) - @zeke: - docs: document ~/.claude/CLAUDE.md compatibility behavior (#8268) - @vglafirov: - feat: Add GitLab Duo Agentic Chat Provider Support (#7333) - fix: Add Plugin Mocks to Provider Tests (#8276) - @dmmulroy: - fix(cli): mcp auth duplicate radio button icon (#8273) - @josephbharrison: - fix(prompt-input): handle Shift+Enter before IME check to prevent stuck state (#8275) - @AlanThiec: - fix: update User-Agent string to latest Chrome version in webfetch (#8284)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.19</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.19</guid>
-            <pubDate>Wed, 14 Jan 2026 01:20:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
