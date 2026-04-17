@@ -4,14 +4,14 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 05:00:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 06:37:41 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 16 Apr 2026 22:00:17 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.21.0]]></title>
-            <description><![CDATA[## What's Changed * launch: skip unchanged integration rewrite configration by @hoyyeva in https://github.com/ollama/ollama/pull/15491 * launch/openclaw: fix --yes flag behaviour to skip channels configuration by @hoyyeva in https://github.com/ollama/ollama/pull/15589 * launch: OpenCode inline config by @hoyyeva in https://github.com/ollama/ollama/pull/15586 * launch: add hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15569 * launch: always list cloud recommendations first by @hoyyeva in https://github.com/ollama/ollama/pull/15593 * cmd/launch: add Copilot CLI integration by @scaryrawr in https://github.com/ollama/ollama/pull/15583 ## New Contributors * @scaryrawr made their first contribution in https://github.com/ollama/ollama/pull/15583 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.8-rc0...v0.21.0-rc0]]></description>
+            <description><![CDATA[## Hermes Agent with Ollama Hermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks. Use Nous Research's self-improving AI agent with Ollama. ## What's Changed * launch: skip unchanged integration rewrite configration by @hoyyeva in https://github.com/ollama/ollama/pull/15491 * launch/openclaw: fix --yes flag behaviour to skip channels configuration by @hoyyeva in https://github.com/ollama/ollama/pull/15589 * launch: OpenCode inline config by @hoyyeva in https://github.com/ollama/ollama/pull/15586 * launch: add hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15569 * launch: always list cloud recommendations first by @hoyyeva in https://github.com/ollama/ollama/pull/15593 * cmd/launch: add Copilot CLI integration by @scaryrawr in https://github.com/ollama/ollama/pull/15583 ## New Contributors * @scaryrawr made their first contribution in https://github.com/ollama/ollama/pull/15583 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.8-rc0...v0.21.0]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.21.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.0</guid>
             <pubDate>Thu, 16 Apr 2026 22:00:17 GMT</pubDate>

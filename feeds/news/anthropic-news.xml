@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 04:59:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 06:37:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
