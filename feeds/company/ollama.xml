@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 16:32:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 05:00:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Apr 2026 00:35:30 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 22:00:17 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.21.0]]></title>
+            <description><![CDATA[## What's Changed * launch: skip unchanged integration rewrite configration by @hoyyeva in https://github.com/ollama/ollama/pull/15491 * launch/openclaw: fix --yes flag behaviour to skip channels configuration by @hoyyeva in https://github.com/ollama/ollama/pull/15589 * launch: OpenCode inline config by @hoyyeva in https://github.com/ollama/ollama/pull/15586 * launch: add hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15569 * launch: always list cloud recommendations first by @hoyyeva in https://github.com/ollama/ollama/pull/15593 * cmd/launch: add Copilot CLI integration by @scaryrawr in https://github.com/ollama/ollama/pull/15583 ## New Contributors * @scaryrawr made their first contribution in https://github.com/ollama/ollama/pull/15583 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.8-rc0...v0.21.0-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.21.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.0</guid>
+            <pubDate>Thu, 16 Apr 2026 22:00:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.20.8]]></title>
             <description><![CDATA[## What's Changed * ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483 * gemma4: fix nothink case renderer by @drifkin in https://github.com/ollama/ollama/pull/15553 * gemma4: fix compiler error on metal by @dhiltgen in https://github.com/ollama/ollama/pull/15550 * gemma4: add nothink renderer tests by @drifkin in https://github.com/ollama/ollama/pull/15554 * mlx: mixed-precision quant and capability detection improvements by @dhiltgen in https://github.com/ollama/ollama/pull/15409 * mlx: add op wrappers for Conv2d, Pad, activations, trig, and masked SDPA by @dhiltgen in https://github.com/ollama/ollama/pull/14913 * Revert "gemma4: add nothink renderer tests" by @drifkin in https://github.com/ollama/ollama/pull/15555 * cgo: suppress deprecated warning to quiet down go build by @dhiltgen in https://github.com/ollama/ollama/pull/15438 * mac: prevent generate on cross-compiles by @dhiltgen in https://github.com/ollama/ollama/pull/15120 * Revert "gemma4: fix nothink case renderer" by @drifkin in https://github.com/ollama/ollama/pull/15556 * launch/opencode: use inline config by @hoyyeva in https://github.com/ollama/ollama/pull/15462 * gemma4: restore e2b-style nothink prompt by @drifkin in https://github.com/ollama/ollama/pull/15560 * Gemma4 on MLX by @dhiltgen in https://github.com/ollama/ollama/pull/15244 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.6...v0.20.8-rc0]]></description>
@@ -869,13 +876,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.5.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.4</guid>
             <pubDate>Tue, 17 Dec 2024 21:54:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.3]]></title>
-            <description><![CDATA[## What's Changed * Fixed runtime errors on older Intel Macs * Fixed issue where setting the format field to "" would cause an error ## New Contributors * @Askir made their first contribution in https://github.com/ollama/ollama/pull/8028 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.2...v0.5.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.3</guid>
-            <pubDate>Tue, 17 Dec 2024 04:14:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Structured outputs]]></title>

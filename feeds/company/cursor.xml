@@ -4,17 +4,17 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 16:32:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 05:00:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Better AI models enable more ambitious work]]></title>
-            <link>https://cursor.com/blog/better-ai-models-ambitious-work</link>
-            <guid isPermaLink="false">https://cursor.com/blog/better-ai-models-ambitious-work</guid>
+            <link>https://cursor.com/blog/better-models-ambitious-work</link>
+            <guid isPermaLink="false">https://cursor.com/blog/better-models-ambitious-work</guid>
             <category><![CDATA[research]]></category>
-            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Interact with agent-created visualizations in canvases]]></title>

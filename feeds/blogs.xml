@@ -4,23 +4,23 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 16:32:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 05:00:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
-        <item>
-            <title><![CDATA[Better AI models enable more ambitious work]]></title>
-            <link>https://cursor.com/blog/better-ai-models-ambitious-work</link>
-            <guid isPermaLink="false">https://cursor.com/blog/better-ai-models-ambitious-work</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[Windsurf 2.0: Introducing the Agent Command Center and Devin in Windsurf]]></title>
             <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
             <link>https://windsurf.com/blog/windsurf-2-0</link>
             <guid isPermaLink="false">https://windsurf.com/blog/windsurf-2-0</guid>
+            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Better AI models enable more ambitious work]]></title>
+            <link>https://cursor.com/blog/better-models-ambitious-work</link>
+            <guid isPermaLink="false">https://cursor.com/blog/better-models-ambitious-work</guid>
+            <category><![CDATA[research]]></category>
             <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

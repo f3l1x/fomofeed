@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 16:32:39 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 04:59:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 10 Apr 2026 20:40:51 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 20:16:59 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v3.79.0]]></title>
+            <description><![CDATA[### Added - Add Claude Opus 4.7 model support - Add Azure Blob Storage as a storage provider - Add globalSkills to remote config - Inline value reuse in user-level remote-config discovery ### Fixed - Fix cache reflection for Cline and Vercel API handlers - Fix stuck command_output ask when terminal command ends unexpectedly - Add use_subagents to system prompt for GLM, Hermes, and XS models - Fix action injection security risk ### Changed - Remove deprecated evals tool **Full Changelog**: https://github.com/cline/cline/compare/v2.14.0-cli...v3.79.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.79.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.79.0</guid>
+            <pubDate>Thu, 16 Apr 2026 20:16:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v3.78.0]]></title>
             <description><![CDATA[### Added - Add a dedicated "Spend Limit Reached" error UI when spend caps are hit - Docs updates ### Fixed - Show actual read_file line ranges in chat UI **Full Changelog**: https://github.com/cline/cline/compare/v2.13.0-cli...v3.78.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.26.7</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.26.7</guid>
             <pubDate>Fri, 29 Aug 2025 22:44:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.26.6]]></title>
-            <description><![CDATA[## What's Changed * remove middle out for gpt5 by @0xToshii in https://github.com/cline/cline/pull/5786 * add gpt-5 to recommended list by @pashpashpash in https://github.com/cline/cline/pull/5789 * Feature/Qwen Code CLI API Support with OAuth by @evinelias in https://github.com/cline/cline/pull/5766 * fix: provider options by @BarreiroT in https://github.com/cline/cline/pull/5204 * fix: 'disable checkpoints' button font size does not match surrounding text by @saoudrizwan in https://github.com/cline/cline/pull/5787 * Use VS Code CSS variables for markdown/codeblock styling by @celestial-vault in https://github.com/cline/cline/pull/5783 ## New Contributors * @evinelias made their first contribution in https://github.com/cline/cline/pull/5766 **Full Changelog**: https://github.com/cline/cline/compare/v3.26.5...v3.26.6]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.26.6</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.26.6</guid>
-            <pubDate>Thu, 28 Aug 2025 19:05:47 GMT</pubDate>
         </item>
     </channel>
 </rss>

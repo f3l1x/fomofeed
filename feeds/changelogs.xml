@@ -4,11 +4,53 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 16:32:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 05:00:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Apr 2026 15:18:45 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 23:47:36 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.122.0-alpha.5]]></title>
+            <description><![CDATA[Release 0.122.0-alpha.5]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.5</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.5</guid>
+            <pubDate>Thu, 16 Apr 2026 23:47:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.0]]></title>
+            <description><![CDATA[## What's Changed * launch: skip unchanged integration rewrite configration by @hoyyeva in https://github.com/ollama/ollama/pull/15491 * launch/openclaw: fix --yes flag behaviour to skip channels configuration by @hoyyeva in https://github.com/ollama/ollama/pull/15589 * launch: OpenCode inline config by @hoyyeva in https://github.com/ollama/ollama/pull/15586 * launch: add hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15569 * launch: always list cloud recommendations first by @hoyyeva in https://github.com/ollama/ollama/pull/15593 * cmd/launch: add Copilot CLI integration by @scaryrawr in https://github.com/ollama/ollama/pull/15583 ## New Contributors * @scaryrawr made their first contribution in https://github.com/ollama/ollama/pull/15583 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.8-rc0...v0.21.0-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.21.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.0</guid>
+            <pubDate>Thu, 16 Apr 2026 22:00:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.7]]></title>
+            <description><![CDATA[## Core - GitHub Copilot gpt-5-mini now uses low reasoning effort for better request compatibility. (@thakrarsagar) - Workspaces now receive your auth context, so provider sign-in carries across workspace sessions. - Cloudflare AI Gateway now drops max_tokens for OpenAI reasoning models so GPT-5 and o-series requests stop failing. (@kobicovaldev) - Azure models now default store=true, fixing requests that require stored responses. - Claude Opus 4.7 now supports xhigh adaptive reasoning. (@GrahamCampbell) - Claude Opus 4.7 now shows summarized thinking by default. - TUI plugins now load against the correct project when multiple directories are open. - The bash tool uses less memory on large command output. - Experimental workspaces now wait for sync to finish before returning writes, reducing stale reads and missed updates. - Session restore can now replay a session into another workspace in batches. - Sessions now retry provider 5xx errors even when the provider SDK does not mark them retryable. ## TUI - Pasting files or large text no longer inserts content twice. - --agent on the command line is no longer overwritten by the session's saved agent. (@CarloWood) - Empty LSP, MCP, formatter, and session status responses no longer break TUI sync state. ## Desktop - Desktop builds now show a Beta or Dev badge in the title bar when applicable. **Thank you to 8 community contributors:** - @ariane-emory: - fix(core): Remove dead code and documentation related to the obsolete list tool. (#22672) - @CarloWood: - fix(tui): Don't overwrite the agent that was specified on the command line (#20554) - @jerome-benoit: - fix(nix): add shared package to bun install filters (#22665) - @GrahamCampbell: - feat: Add support for claude opus 4.7 xhigh adaptive reasoning effort (#22833) - @B67687: - fix: align stale bot message with actual 60-day threshold (#22842) - @trbutler4: - fix: add missing glob dependency (#22851) - @kobicovaldev: - fix(opencode): drop max_tokens for OpenAI reasoning models on Cloudflare AI Gateway (#22864) - @thakrarsagar: - fix(opencode): use low reasoning effort for GitHub Copilot gpt-5 models (#22824)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.7</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.7</guid>
+            <pubDate>Thu, 16 Apr 2026 21:55:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.79.0]]></title>
+            <description><![CDATA[### Added - Add Claude Opus 4.7 model support - Add Azure Blob Storage as a storage provider - Add globalSkills to remote config - Inline value reuse in user-level remote-config discovery ### Fixed - Fix cache reflection for Cline and Vercel API handlers - Fix stuck command_output ask when terminal command ends unexpectedly - Add use_subagents to system prompt for GLM, Hermes, and XS models - Fix action injection security risk ### Changed - Remove deprecated evals tool **Full Changelog**: https://github.com/cline/cline/compare/v2.14.0-cli...v3.79.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.79.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.79.0</guid>
+            <pubDate>Thu, 16 Apr 2026 20:16:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.112]]></title>
+            <description><![CDATA[## What's changed - Fixed "claude-opus-4-7 is temporarily unavailable" for auto mode]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.112</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.112</guid>
+            <pubDate>Thu, 16 Apr 2026 19:55:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.122.0-alpha.3]]></title>
+            <description><![CDATA[Release 0.122.0-alpha.3]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.3</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.3</guid>
+            <pubDate>Thu, 16 Apr 2026 18:09:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.111]]></title>
             <description><![CDATA[## What's changed - Claude Opus 4.7 xhigh is now available! Use /effort to tune speed vs. intelligence - Auto mode is now available for Max subscribers when using Opus 4.7 - Added xhigh effort level for Opus 4.7, sitting between high and max. Available via /effort, --effort, and the model picker; other models fall back to high - /effort now opens an interactive slider when called without arguments, with arrow-key navigation between levels and Enter to confirm - Added "Auto (match terminal)" theme option that matches your terminal's dark/light mode — select it from /theme - Added /less-permission-prompts skill — scans transcripts for common read-only Bash and MCP tool calls and proposes a prioritized allowlist for .claude/settings.json - Added /ultrareview for running comprehensive code review in the cloud using parallel multi-agent analysis and critique — invoke with no arguments to review your current branch, or /ultrareview to fetch and review a specific GitHub PR - Auto mode no longer requires --enable-auto-mode - Windows: PowerShell tool is progressively rolling out. Opt in or out with CLAUDE_CODE_USE_POWERSHELL_TOOL. On Linux and macOS, enable with CLAUDE_CODE_USE_POWERSHELL_TOOL=1 (requires pwsh on PATH) - Read-only bash commands with glob patterns (e.g. ls *.ts) and commands starting with cd && no longer trigger a permission prompt - Suggest the closest matching subcommand when claude is invoked with a near-miss typo (e.g. claude udpate → "Did you mean claude update?") - Plan files are now named after your prompt (e.g. fix-auth-race-snug-otter.md) instead of purely random words - Improved /setup-vertex and /setup-bedrock to show the actual settings.json path when CLAUDE_CONFIG_DIR is set, seed model candidates from existing pins on re-run, and offer a "with 1M context" option for supported models - /skills menu now supports sorting by estimated token count — press t to toggle - Ctrl+U now clears the entire input buffer (previously: delete to start of line); press Ctrl+Y to restore - Ctrl+L now forces a full screen redraw in addition to clearing the prompt input - Transcript view footer now shows [ (dump to scrollback) and v (open in editor) shortcuts - The "+N lines" marker for truncated long pastes is now a full-width rule for easier scanning - Headless --output-format stream-json now includes plugin_errors on the init event when plugins are demoted for unsatisfied dependencies - Added OTEL_LOG_RAW_API_BODIES environment variable to emit full API request and response bodies as OpenTelemetry log events for debugging - Suppressed spurious decompression, network, and transient error messages that could appear in the TUI during normal operation - Reverted the v2.1.110 cap on non-streaming fallback retries — it traded long waits for more outright failures during API overload - Fixed terminal display tearing (random characters, drifting input) in iTerm2 + tmux setups when terminal notifications are sent - Fixed @ file suggestions re-scanning the entire project on every turn in non-git working directories, and showing only config files in freshly-initialized git repos with no tracked files - Fixed LSP diagnostics from before an edit appearing after it, causing the model to re-read files it just edited - Fixed tab-completing /resume immediately resuming an arbitrary titled session instead of showing the session picker - Fixed /context grid rendering with extra blank lines between rows - Fixed /clear dropping the session name set by /rename, causing statusline output to lose session_name - Improved plugin error handling: dependency errors now distinguish conflicting, invalid, and overly complex version requirements; fixed stale resolved versions after plugin update; plugin install now recovers from interrupted prior installs - Fixed Claude calling a non-existent commit skill and showing "Unknown skill: commit" for users without a custom /commit command - Fixed 429 rate-limit errors on Bedrock/Vertex/Foundry referencing status.claude.com (it only covers Anthropic-operated providers) - Fixed feedback surveys appearing back-to-back after dismissing one - Fixed bare URLs in bash/PowerShell/MCP tool output being unclickable when the terminal wraps them across lines - Windows: CLAUDE_ENV_FILE and SessionStart hook environment files now apply (previously a no-op) - Windows: permission rules with drive-letter paths are now correctly root-anchored, and paths differing only by drive-letter case are recognized as the same path]]></description>
@@ -22,6 +64,18 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.110</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.110</guid>
             <pubDate>Wed, 15 Apr 2026 22:07:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.0.50 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
+            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.0.1050 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
+            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.122.0-alpha.1]]></title>
@@ -1474,20 +1528,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.26</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.26</guid>
             <pubDate>Fri, 13 Mar 2026 16:33:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.115.0-alpha.18]]></title>
-            <description><![CDATA[Release 0.115.0-alpha.18]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.18</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.18</guid>
-            <pubDate>Fri, 13 Mar 2026 07:25:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.115.0-alpha.17]]></title>
-            <description><![CDATA[Release 0.115.0-alpha.17]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.17</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.17</guid>
-            <pubDate>Fri, 13 Mar 2026 06:28:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.2.25]]></title>
@@ -3374,13 +3414,6 @@
             <pubDate>Tue, 13 Jan 2026 19:44:43 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.1.18]]></title>
-            <description><![CDATA[## TUI - Add persist-credentials: false to workflow templates to prevent credential exposure (@LeonMueller-OneAndOnly) - Add fullscreen view to permission prompt ## Desktop - Add provider icons to desktop application (@dbpolito) - Correct desktop health check endpoint URL to /global/health (@usvimal) **Thank you to 4 community contributors:** - @usvimal: - fix(desktop): correct health check endpoint URL to /global/health (#8231) - @dbpolito: - feat(desktop): Adding Provider Icons (#8215) - @Brendonovich: - console: reduce desktop download cache ttl to 5 minutes - @LeonMueller-OneAndOnly: - fix(github): add persist-credentials: false to workflow templates (#8202)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.18</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.18</guid>
-            <pubDate>Tue, 13 Jan 2026 16:45:24 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[CLI Beta Release v1.5.30-beta.20260113]]></title>
             <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
             <link>https://github.com/continuedev/continue/releases/tag/v1.5.30-beta.20260113</link>
@@ -4716,13 +4749,6 @@
             <link>https://windsurf.com/changelog#patch-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#patch-fixes</guid>
             <pubDate>Thu, 28 Aug 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.26.6]]></title>
-            <description><![CDATA[## What's Changed * remove middle out for gpt5 by @0xToshii in https://github.com/cline/cline/pull/5786 * add gpt-5 to recommended list by @pashpashpash in https://github.com/cline/cline/pull/5789 * Feature/Qwen Code CLI API Support with OAuth by @evinelias in https://github.com/cline/cline/pull/5766 * fix: provider options by @BarreiroT in https://github.com/cline/cline/pull/5204 * fix: 'disable checkpoints' button font size does not match surrounding text by @saoudrizwan in https://github.com/cline/cline/pull/5787 * Use VS Code CSS variables for markdown/codeblock styling by @celestial-vault in https://github.com/cline/cline/pull/5783 ## New Contributors * @evinelias made their first contribution in https://github.com/cline/cline/pull/5766 **Full Changelog**: https://github.com/cline/cline/compare/v3.26.5...v3.26.6]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.26.6</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.26.6</guid>
-            <pubDate>Thu, 28 Aug 2025 19:05:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.12.108 — Patch Fixes]]></title>
@@ -6337,13 +6363,6 @@
             <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1-rc.0</link>
             <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1-rc.0</guid>
             <pubDate>Tue, 17 Dec 2024 05:47:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.3]]></title>
-            <description><![CDATA[## What's Changed * Fixed runtime errors on older Intel Macs * Fixed issue where setting the format field to "" would cause an error ## New Contributors * @Askir made their first contribution in https://github.com/ollama/ollama/pull/8028 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.2...v0.5.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.3</guid>
-            <pubDate>Tue, 17 Dec 2024 04:14:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.21.2-rc.5]]></title>

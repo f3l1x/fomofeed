@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 16:32:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 05:00:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 07:26:50 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 21:55:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.4.7]]></title>
+            <description><![CDATA[## Core - GitHub Copilot gpt-5-mini now uses low reasoning effort for better request compatibility. (@thakrarsagar) - Workspaces now receive your auth context, so provider sign-in carries across workspace sessions. - Cloudflare AI Gateway now drops max_tokens for OpenAI reasoning models so GPT-5 and o-series requests stop failing. (@kobicovaldev) - Azure models now default store=true, fixing requests that require stored responses. - Claude Opus 4.7 now supports xhigh adaptive reasoning. (@GrahamCampbell) - Claude Opus 4.7 now shows summarized thinking by default. - TUI plugins now load against the correct project when multiple directories are open. - The bash tool uses less memory on large command output. - Experimental workspaces now wait for sync to finish before returning writes, reducing stale reads and missed updates. - Session restore can now replay a session into another workspace in batches. - Sessions now retry provider 5xx errors even when the provider SDK does not mark them retryable. ## TUI - Pasting files or large text no longer inserts content twice. - --agent on the command line is no longer overwritten by the session's saved agent. (@CarloWood) - Empty LSP, MCP, formatter, and session status responses no longer break TUI sync state. ## Desktop - Desktop builds now show a Beta or Dev badge in the title bar when applicable. **Thank you to 8 community contributors:** - @ariane-emory: - fix(core): Remove dead code and documentation related to the obsolete list tool. (#22672) - @CarloWood: - fix(tui): Don't overwrite the agent that was specified on the command line (#20554) - @jerome-benoit: - fix(nix): add shared package to bun install filters (#22665) - @GrahamCampbell: - feat: Add support for claude opus 4.7 xhigh adaptive reasoning effort (#22833) - @B67687: - fix: align stale bot message with actual 60-day threshold (#22842) - @trbutler4: - fix: add missing glob dependency (#22851) - @kobicovaldev: - fix(opencode): drop max_tokens for OpenAI reasoning models on Cloudflare AI Gateway (#22864) - @thakrarsagar: - fix(opencode): use low reasoning effort for GitHub Copilot gpt-5 models (#22824)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.7</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.7</guid>
+            <pubDate>Thu, 16 Apr 2026 21:55:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.4.6]]></title>
             <description><![CDATA[## Core - Fixed snapshot staging for very long file lists and improved staging performance. - Fixed OTEL header parsing when a header value contains =. ## Desktop - Fixed prompt submission state updates to avoid failed or inconsistent sends. - Improved session title input spacing while editing. **Thank you to 1 community contributor:** - @github-actions[bot]: - Update VOUCHED list]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.19</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.19</guid>
             <pubDate>Wed, 14 Jan 2026 01:20:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.18]]></title>
-            <description><![CDATA[## TUI - Add persist-credentials: false to workflow templates to prevent credential exposure (@LeonMueller-OneAndOnly) - Add fullscreen view to permission prompt ## Desktop - Add provider icons to desktop application (@dbpolito) - Correct desktop health check endpoint URL to /global/health (@usvimal) **Thank you to 4 community contributors:** - @usvimal: - fix(desktop): correct health check endpoint URL to /global/health (#8231) - @dbpolito: - feat(desktop): Adding Provider Icons (#8215) - @Brendonovich: - console: reduce desktop download cache ttl to 5 minutes - @LeonMueller-OneAndOnly: - fix(github): add persist-credentials: false to workflow templates (#8202)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.18</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.18</guid>
-            <pubDate>Tue, 13 Jan 2026 16:45:24 GMT</pubDate>
         </item>
     </channel>
 </rss>
