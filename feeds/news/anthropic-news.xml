@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 14:27:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 16:20:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Claude Design by Anthropic Labs]]></title>
+            <description><![CDATA[Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.]]></description>
+            <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
+            <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Claude Opus 4.7]]></title>
             <description><![CDATA[Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most.]]></description>
@@ -63,19 +70,6 @@
             <link>https://www.anthropic.com/news/where-stand-department-war</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/where-stand-department-war</guid>
             <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Statement on the comments from Secretary of War Pete Hegseth]]></title>
-            <link>https://www.anthropic.com/news/statement-comments-secretary-war</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/statement-comments-secretary-war</guid>
-            <pubDate>Thu, 26 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Sonnet 4.6]]></title>
-            <description><![CDATA[Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.]]></description>
-            <link>https://www.anthropic.com/news/claude-sonnet-4-6</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-4-6</guid>
-            <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude is a space to think]]></title>

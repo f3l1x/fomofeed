@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Claude Code Releases]]></description>
         <link>https://github.com/anthropics/claude-code/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 14:27:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 16:20:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/claude-code-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 16 Apr 2026 19:55:41 GMT</pubDate>
         <language><![CDATA[en]]></language>

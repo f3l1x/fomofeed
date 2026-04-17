@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 14:27:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 16:20:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 17 Apr 2026 13:37:31 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 16:20:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.4.9]]></title>
+            <description><![CDATA[## Core - Added LLM Gateway as a provider, including config support and model usage reporting. (@smakosh) - Limited GitHub Copilot Opus 4.7 models to medium reasoning effort to avoid unsupported variants. (@OpeOginni) - Improved remote workspace reconnection with exponential backoff and clearer failure handling. ## TUI - Fixed --session-id so it opens the requested session after app startup. - Fixed light mode detection in Ghostty. ## Desktop - Fixed the beta desktop app so the file tree still appears when enabled in settings. **Thank you to 3 community contributors:** - @OpeOginni: - fix(opencode): rescrict github copilot opus 4.7 variants to "medium" (#23097) - @jenperson: - docs: adding Mistral to docs as a provider (it is already a provider, just docs update) #23070 (#23072) - @smakosh: - feat: add LLM Gateway provider (#7847)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.9</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.9</guid>
+            <pubDate>Fri, 17 Apr 2026 16:20:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.122.0-alpha.7]]></title>
+            <description><![CDATA[Release 0.122.0-alpha.7]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.7</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.7</guid>
+            <pubDate>Fri, 17 Apr 2026 16:19:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.4.8]]></title>
             <description><![CDATA[## Core - Fixed a crash when experimental mode was enabled. - Let plugin tools return metadata in execute results. (@jquense) - Show real filenames instead of /dev/null in revert diffs. - Improved workspace session handling when a workspace no longer exists. - Fixed Windows ctrl+z terminal suspend and input undo behavior. - Enabled Azure prompt caching with a default per-session cache key. ## TUI - Preserve prompt input when views unmount and remount. - Keep session list dialogs ordered more consistently within each day. ## Desktop - Fixed desktop workspace loading so ready state persists correctly. - Fixed desktop session syncing when loading project data from query cache. - Added beta desktop settings to hide title bar tools like navigation, search, terminal, status, and file tree. - Improved desktop session change loading in the review panel. **Thank you to 1 community contributor:** - @jquense: - fix: preserve plugin tool metadata in execute result (#22827)]]></description>
@@ -1494,13 +1508,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.21</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.21</guid>
             <pubDate>Fri, 13 Mar 2026 23:12:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.115.0-alpha.20]]></title>
-            <description><![CDATA[Release 0.115.0-alpha.20]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.20</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.20</guid>
-            <pubDate>Fri, 13 Mar 2026 22:15:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.2.17-vscode]]></title>
@@ -3349,13 +3356,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.14.1</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.1</guid>
             <pubDate>Wed, 14 Jan 2026 19:02:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.20]]></title>
-            <description><![CDATA[## Core - Fixed "load more" button behavior in desktop sidebar (@shanebishop1) - Fix plan mode when not in git worktree - Skip duplicate system prompt for Codex OAuth sessions (@zerone0x) ## TUI - Fixed Docker image after SST rename in tips (@goniz) - Show connected providers in /connect dialog (@AksharP5) - Deduplicate file references in sent prompts (@felixzsh) - Track all timeouts in Footer component to prevent memory leaks (@sauerdaniel) - Make TUI work when OPENCODE_SERVER_PASSWORD is set (@LeonMueller-OneAndOnly) ## SDK - Add missing metadata() and ask() definitions to ToolContext type (@danielmbrasil) **Thank you to 21 community contributors:** - @LeonMueller-OneAndOnly: - fix(TUI): make tui work when OPENCODE_SERVER_PASSWORD is set (#8179) - fix(github): add persist-credentials: false to workflow templates (#8202) - fix(TUI): make tui work when OPENCODE_SERVER_PASSWORD is set (#8179) - @Eduard-Voiculescu: - docs: Update plan mode restrictions (#8290) - docs: Update plan mode restrictions (#8290) - @mthezi: - docs: add 302ai provider (#8142) - docs: add 302ai provider (#8142) - @danielmbrasil: - fix: add missing metadata() and ask() defintions to ToolContext type (#8269) - fix: add missing metadata() and ask() defintions to ToolContext type (#8269) - @sauerdaniel: - fix(tui): track all timeouts in Footer to prevent memory leak (#8255) - fix(mcp): close existing client before reassignment to prevent leaks (#8253) - fix(state): delete key from recordsByKey on instance disposal (#8252) - fix(tui): track all timeouts in Footer to prevent memory leak (#8255) - @felixzsh: - fix: deduplicate file refs in sent prompts (#8303) - fix: deduplicate file refs in sent prompts (#8303) - @usvimal: - fix(desktop): correct health check endpoint URL to /global/health (#8231) - @dbpolito: - feat(desktop): Adding Provider Icons (#8215) - fix(desktop): Revert provider icon on select model dialog (#8245) - feat(desktop): Ask Question Tool Support (#8232) - @Brendonovich: - console: reduce desktop download cache ttl to 5 minutes - @cmdr-chara: - feat: add Undertale and Deltarune built-in themes (#8240) - @zeke: - docs: document ~/.claude/CLAUDE.md compatibility behavior (#8268) - @vglafirov: - feat: Add GitLab Duo Agentic Chat Provider Support (#7333) - fix: Add Plugin Mocks to Provider Tests (#8276) - @dmmulroy: - fix(cli): mcp auth duplicate radio button icon (#8273) - @josephbharrison: - fix(prompt-input): handle Shift+Enter before IME check to prevent stuck state (#8275) - @AlanThiec: - fix: update User-Agent string to latest Chrome version in webfetch (#8284) - @zerone0x: - fix(session): skip duplicate system prompt for Codex OAuth sessions (#8357) - @AksharP5: - feat: show connected providers in /connect dialog (#8351) - @goniz: - fix(opencode): fix docker image after sst rename in tips (#8376) - @neriousy: - fix(app): file listing (#8309) - @ajzbc: - fix(ui): layout-bottom icons (#8330) - @shanebishop1: - fix(desktop): "load more" button behavior in desktop sidebar (#8430)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.20</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.20</guid>
-            <pubDate>Wed, 14 Jan 2026 14:08:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Beta Release v1.5.32-beta.20260114]]></title>

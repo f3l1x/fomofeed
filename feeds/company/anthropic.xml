@@ -4,11 +4,18 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 14:27:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 16:20:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Apr 2026 19:55:41 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Claude Design by Anthropic Labs]]></title>
+            <description><![CDATA[Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.]]></description>
+            <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
+            <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.112]]></title>
             <description><![CDATA[## What's changed - Fixed "claude-opus-4-7 is temporarily unavailable" for auto mode]]></description>
@@ -421,12 +428,6 @@
             <pubDate>Fri, 27 Feb 2026 01:56:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Statement on the comments from Secretary of War Pete Hegseth]]></title>
-            <link>https://www.anthropic.com/news/statement-comments-secretary-war</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/statement-comments-secretary-war</guid>
-            <pubDate>Thu, 26 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.61]]></title>
             <description><![CDATA[## What's changed - Fixed concurrent writes corrupting config file on Windows]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.61</link>
@@ -509,13 +510,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.45</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.45</guid>
             <pubDate>Tue, 17 Feb 2026 18:53:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Sonnet 4.6]]></title>
-            <description><![CDATA[Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.]]></description>
-            <link>https://www.anthropic.com/news/claude-sonnet-4-6</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-4-6</guid>
-            <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.44]]></title>
