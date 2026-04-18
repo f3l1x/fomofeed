@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 16:20:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Apr 2026 04:47:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 17 Apr 2026 16:20:14 GMT</pubDate>
+        <pubDate>Sat, 18 Apr 2026 00:29:42 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.4.11]]></title>
+            <description><![CDATA[## Core - Fixed workspace routing so requests reach the correct workspace instance. - Stopped share sync attempts for sessions that were never shared.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.11</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.11</guid>
+            <pubDate>Sat, 18 Apr 2026 00:29:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.10]]></title>
+            <description><![CDATA[## Core - Restored workspace history on connect so existing sessions catch up before live sync resumes - Passed OTEL exporter settings into managed workspaces so telemetry works there too - Normalized provider metadata defaults so models still load when catalog data is incomplete - Passed EXA_API_KEY to the websearch tool to reduce rate limits (@rasdani) ## TUI - Added a restore flow for sessions whose workspace is unavailable, with clearer workspace status indicators - Fixed agent cycling when no agent is selected and improved prompt key handling **Thank you to 1 community contributor:** - @rasdani: - fix(opencode): pass EXA_API_KEY to websearch tool to avoid rate limits (#16362)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.10</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.10</guid>
+            <pubDate>Fri, 17 Apr 2026 20:13:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.4.9]]></title>
             <description><![CDATA[## Core - Added LLM Gateway as a provider, including config support and model usage reporting. (@smakosh) - Limited GitHub Copilot Opus 4.7 models to medium reasoning effort to avoid unsupported variants. (@OpeOginni) - Improved remote workspace reconnection with exponential backoff and clearer failure handling. ## TUI - Fixed --session-id so it opens the requested session after app startup. - Fixed light mode detection in Ghostty. ## Desktop - Fixed the beta desktop app so the file tree still appears when enabled in settings. **Thank you to 3 community contributors:** - @OpeOginni: - fix(opencode): rescrict github copilot opus 4.7 variants to "medium" (#23097) - @jenperson: - docs: adding Mistral to docs as a provider (it is already a provider, just docs update) #23070 (#23072) - @smakosh: - feat: add LLM Gateway provider (#7847)]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.24</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.24</guid>
             <pubDate>Fri, 16 Jan 2026 21:29:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.23]]></title>
-            <description><![CDATA[## Core - Ensure agent exists before processing title in session summary (@0x404) - More defensive handling of project list to prevent errors - Filter dead worktrees from git worktree list - Load models.dev in development mode - Ensure frontmatter can process same content as other agents - Show toast error message when ConfigMarkdown parsing fails (@vvarp) - Prettify retry duration display in TUI - Handle broken symlinks gracefully in grep tool (@andrew-kramer-inno) - Honor per-server MCP timeouts - Upgrade OpenTUI to v0.1.73, fixing CJK word wrapping and Thai text rendering in non-tmux environments - Add input limit for compaction (@brandon93s) - Fix Codex ID issue - Revert provider-level store option - Allow provider-level store option (@cyhhao) - Make dialog keybinds configurable (@CasualDeveloper) ## TUI - Update black plan selection with light rays effect and mobile styles (@aaroniker) - Use native text truncation for sidebar diff paths - Center the initially selected session in the session list (@ariane-emory) - Restore brand integrity of TUI wordmark (@kitlangton) ## Desktop - Fix sidebar toggle on desktop - Persist workspace branch selection across sessions - Persist workspace order and collapsed state in sidebar - Fix thinking animation opacity and improve design - Fix session icon and name alignment - Show session as busy even when it's the active session - Stop killing opencode-cli process on dev mode restart (@dbpolito) - Update desktop question tools (@dbpolito) - Fix current session background color - Remove the active state from load more button after press - Fix new session tooltip position and add keyboard shortcut - Remove more options tooltip - Fix workspace name color in UI - Hide "View all sessions" button when on active project page - Fix avatar button states - Reduce font size of load more button - Fix recent sessions title color - Fix project dropdown labels and sorting order - Move left panel toggle button to the right - Fix avatar background color - Show project options on hover of row - Increase delay on session list tooltips - Fix tooltip gutter spacing on session items and archive buttons - Archive icon replaces diff count on hover - Fix hover state for recent sessions in gutter - Fix search bar functionality in header - Fixed layout issues in the app - Fix stale sessions in new layout - New app layout - Open external links in system browser instead of webview in desktop app (@turculaurentiu91) **Thank you to 15 community contributors:** - @CasualDeveloper: - feat(tui): make dialog keybinds configurable (#6143) (#6144) - @kitlangton: - fix: restore brand integrity of TUI wordmark (#8584) - @cyhhao: - feat: allow provider-level store option (#8000) - @ariane-emory: - fix(tui): Center the initially selected session in the session_list (resolves #8558) (#8560) - @brandon93s: - fix(opencode): add input limit for compaction (#8465) - @R44VC0RP: - fix: enable sticky header on changelog and download pages (#8556) - @turculaurentiu91: - fix(desktop): open external links in system browser instead of webview (#7360) - @LAG-4: - docs: fix typos in documentation (#8703) - @andrew-kramer-inno: - fix: handle broken symlinks gracefully in grep tool (#8612) - @vvarp: - fix: show toast error message on ConfigMarkdown parse error (#8049) - @dbpolito: - chore(desktop): Question Tools Updates - chore(desktop): Stop Killing opencode-cli on dev - @aaroniker: - feat(console): Update /black plan selection, light rays effect. mobile styles (#8731) - feat(console): Style improvements for /black, View Transition fixes (#8739) - @nathannewyen: - docs: add /thinking command documentation (#8722) - @0x404: - fix(session): ensure agent exists before processing title in session summary (#8662) - @ricardo-valero: - fix: update hix hashes for all systems (#8732)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.23</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.23</guid>
-            <pubDate>Thu, 15 Jan 2026 22:28:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.21]]></title>
-            <description><![CDATA[## Core - Add error message to prompt users to reauthenticate with Copilot - Official Copilot plugin - Adjust LSP wording to better encourage users to fix issues - Fix plan path permissions - Add check in case provider doesn't exist in models list - Adjust GitLab logic in provider configuration - Add AWS Web Identity Token File support for Bedrock (@bainos) - Add Chocolatey and Scoop to OpenCode upgrade methods (@itsrainingmani) - Remove duplicate path import in session module (@CasualDeveloper) ## TUI - Improve question prompt UX in TUI (@kitlangton) **Thank you to 8 community contributors:** - @kitlangton: - feat(tui): improve question prompt UX (#8339) - @R44VC0RP: - fix(homepage): Update FAQ to include desktop and web links (#8453) - docs: update screenshot images (#8479) - feat(console): add /changelog page (#8476) - docs: add Web usage page (#8482) - fix(console): make logo on /black link back to homepage (#8498) - feat(console): add OG image and SEO meta tags for /black page (#8506) - @CasualDeveloper: - fix(session): remove typo'd duplicate path import (#8408) (#8412) - @itsrainingmani: - feat: add choco and scoop to opencode upgrade methods (#8439) - @aaroniker: - feat(console/app): Style changes, view transitions, small improvements (#8481) - @bainos: - feat(opencode): add AWS Web Identity Token File support for Bedrock (#8461) - @samiulsami: - feat(install): respect ZDOTDIR for zsh config detection (#8511) - @IdrisGit: - docs: fix permission system documentation in agents section (#7652)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.21</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.21</guid>
-            <pubDate>Thu, 15 Jan 2026 03:00:47 GMT</pubDate>
         </item>
     </channel>
 </rss>

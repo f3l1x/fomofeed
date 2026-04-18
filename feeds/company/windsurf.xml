@@ -4,11 +4,23 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 16:20:53 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Apr 2026 04:47:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2.0.61 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
+            <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.0.1061 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
+            <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2.0.50 — Bug Fixes and Improvements]]></title>
             <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>

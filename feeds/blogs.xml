@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Apr 2026 16:20:53 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Apr 2026 04:47:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Meta Pivots From Open Weights, Big Pharma Bets On AI, Regulatory Patchwork, Simulating Human Cohorts]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-349/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-349/</guid>
+            <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Windsurf 2.0: Introducing the Agent Command Center and Devin in Windsurf]]></title>
             <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
@@ -456,12 +462,6 @@
             <link>https://www.deeplearning.ai/the-batch/issue-334/</link>
             <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-334/</guid>
             <pubDate>Thu, 01 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Top Stories of 2025! Big AI Poaches Talent, Reasoning Models Boost Performance, Agents Write Code, Data Centers Drive GDP, China Turns the Tables]]></title>
-            <link>https://www.deeplearning.ai/the-batch/issue-333/</link>
-            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-333/</guid>
-            <pubDate>Thu, 25 Dec 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing DeepLearning.AI Pro]]></title>
