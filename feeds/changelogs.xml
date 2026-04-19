@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Apr 2026 06:35:05 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Apr 2026 14:15:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 19 Apr 2026 03:02:16 GMT</pubDate>
+        <pubDate>Sun, 19 Apr 2026 09:36:58 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.18]]></title>
+            <description><![CDATA[## Core - Restore the native ripgrep backend so file search and file listing work reliably again. **Thank you to 1 community contributor:** - @ariane-emory: - docs: document --dangerously-skip-permissions CLI flag (#23371)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.18</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.18</guid>
+            <pubDate>Sun, 19 Apr 2026 09:36:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.17]]></title>
             <description><![CDATA[## Core - Preserve executable permissions before Docker builds when artifacts lose their exec bits. - Fix plugins reinstalling more often than needed. - Use display: summarized by default for Anthropic Bedrock Opus 4.7 requests. - Detect attachment types from file contents so images and PDFs still work with incorrect or missing extensions. - Support OTEL_RESOURCE_ATTRIBUTES for custom telemetry resource tags. - Fix package installs when node_modules is missing. - Fix GitHub Copilot Anthropic Haiku requests by disabling unsupported tool streaming. ## TUI - Add a full-session option when forking from the session dialog. - Show the session ID in the sidebar on non-production channels. **Thank you to 1 community contributor:** - @OpeOginni: - fix(desktop): adjust ui tool diff sticky header offset (#23149)]]></description>
@@ -3258,13 +3265,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.11</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.11</guid>
             <pubDate>Sat, 17 Jan 2026 01:39:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.25]]></title>
-            <description><![CDATA[## Core - Improve wording - Revert tool attachment fix to prevent them being sent as user messages - Reinstall plugins when cache module is missing (@kenryu42) ## Desktop - Remember last opened project in app - Truncate workspace title in app - Handle new session correctly in app - Center dialog on page instead of session **Thank you to 3 community contributors:** - @kenryu42: - fix(bun): reinstall plugins when cache module missing (#8815) - @ariane-emory: - fix: make home/end keys work in menu list modal windows (resolves #7190) (#8347)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.25</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.25</guid>
-            <pubDate>Fri, 16 Jan 2026 22:27:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.14.3]]></title>
