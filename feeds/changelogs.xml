@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Apr 2026 08:45:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Apr 2026 14:35:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 Apr 2026 07:21:48 GMT</pubDate>
+        <pubDate>Mon, 20 Apr 2026 12:30:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.122.0-alpha.13]]></title>
+            <description><![CDATA[Release 0.122.0-alpha.13]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.13</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.13</guid>
+            <pubDate>Mon, 20 Apr 2026 12:30:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.19]]></title>
             <description><![CDATA[## Core - Prevented compiled binaries from failing on startup because of a circular session schema dependency. - Renamed the compaction setting to preserve_recent_tokens for the budget that keeps recent turns verbatim. - Preserved concurrent edits to the same file instead of letting parallel edits overwrite each other. - Fixed managed installs on Windows and added bundled ripgrep support for Windows ARM64. - Added NVIDIA as a built-in provider option, including connection docs and required attribution headers. (@anniesurla) - Kept recent conversation turns verbatim during session compaction so follow-up work keeps more local context. - Fell back to summarizing the full conversation when preserved recent turns include too much media to fit safely. ## Desktop - Reduced loading flicker when opening projects and bringing prompt controls online. - Added a separate terminal font setting and bundled JetBrainsMono Nerd Font Mono. **Thank you to 1 community contributor:** - @anniesurla: - feat(provider): add NVIDIA to popular providers, docs, and attribution headers (#22927)]]></description>
@@ -1541,13 +1548,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.27</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.27</guid>
             <pubDate>Mon, 16 Mar 2026 17:20:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.115.0-alpha.26]]></title>
-            <description><![CDATA[Release 0.115.0-alpha.26]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.26</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.115.0-alpha.26</guid>
-            <pubDate>Mon, 16 Mar 2026 06:35:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.2.27]]></title>
