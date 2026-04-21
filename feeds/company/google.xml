@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Apr 2026 14:35:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Apr 2026 16:25:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 20 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Production-Ready AI Agents: 5 Lessons from Refactoring a Monolith]]></title>
+            <description><![CDATA[The blog post outlines the transition of a brittle sales research prototype into a robust production agent using Google’s Agent Development Kit (ADK). By replacing monolithic scripts with orchestrated sub-agents and structured Pydantic outputs, the developers eliminated silent failures and fragile parsing. Additionally, the post highlights the necessity of dynamic RAG pipelines and OpenTelemetry observability to ensure AI agents are scalable, cost-effective, and transparent in real-world applications.]]></description>
+            <link>https://developers.googleblog.com/production-ready-ai-agents-5-lessons-from-refactoring-a-monolith/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/production-ready-ai-agents-5-lessons-from-refactoring-a-monolith/</guid>
+            <pubDate>Mon, 20 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI]]></title>
             <description><![CDATA[A2UI v0.9 introduces a framework-agnostic standard designed to help AI agents generate real-time, tailored UI widgets using a company’s existing design system. This update simplifies the developer experience with a new Agent SDK for Python, a shared web-core library, and official support for renderers like React, Flutter, and Angular. By decoupling UI intent from specific platforms, the release enables seamless, low-latency streaming of generative interfaces across web and mobile applications. Integrating with broader ecosystems like AG2 and Vercel, A2UI v0.9 aims to move generative UI from experimental demos to production-ready digital products.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/adk-go-10-arrives/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/adk-go-10-arrives/</guid>
             <pubDate>Mon, 30 Mar 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java]]></title>
-            <description><![CDATA[Google has released version 1.0.0 of the Agent Development Kit (ADK) for Java, introducing powerful new features like Google Maps grounding, built-in URL fetching, and a standardized Agent2Agent protocol for cross-framework collaboration. The update enhances agent control through a new "App" and "Plugin" architecture, which allows for global logging, automated context window management via event compaction, and "Human-in-the-Loop" workflows for action confirmations. Additionally, the release provides robust session and memory services using Google Cloud integrations like Firestore and Vertex AI to manage long-term state and large data artifacts.]]></description>
-            <link>https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/</guid>
-            <pubDate>Sun, 29 Mar 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
