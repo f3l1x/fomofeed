@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Apr 2026 04:59:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Apr 2026 06:38:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 19 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -76,13 +76,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/bugbot-learning</guid>
             <category><![CDATA[product]]></category>
             <pubDate>Tue, 07 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Adaptive: a smarter way to use Windsurf]]></title>
-            <description><![CDATA[We're launching multiple updates to Windsurf today: an Adaptive model router, a redesigned model picker with pricing context, and the removal of daily limits for Max.]]></description>
-            <link>https://windsurf.com/blog/windsurf-adaptive</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-adaptive</guid>
-            <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Better MoE model inference with warp decode]]></title>
@@ -183,13 +176,6 @@
             <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing our new Windsurf pricing plans]]></title>
-            <description><![CDATA[We're simplifying Windsurf pricing across Free, Pro, and Teams alongside launching a new Max plan for our power users. The new plans replace the current credit-based system with industry-standard quotas.]]></description>
-            <link>https://windsurf.com/blog/windsurf-pricing-plans</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-pricing-plans</guid>
-            <pubDate>Tue, 17 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Training Composer for longer horizons]]></title>
             <link>https://cursor.com/blog/self-summarization</link>
             <guid isPermaLink="false">https://cursor.com/blog/self-summarization</guid>
@@ -231,13 +217,6 @@
             <link>https://www.deeplearning.ai/the-batch/issue-343/</link>
             <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-343/</guid>
             <pubDate>Thu, 05 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GPT-5.4 is now available in Windsurf]]></title>
-            <description><![CDATA[GPT-5.4 is now available in Windsurf with multiple reasoning effort levels. For a limited time, self serve users enjoy promotional pricing starting at 1x credits.]]></description>
-            <link>https://windsurf.com/blog/gpt-5.4</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-5.4</guid>
-            <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcing AI Driven Data Engineering]]></title>
@@ -295,31 +274,10 @@
             <pubDate>Thu, 19 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Gemini 3.1 Pro is now available in Windsurf]]></title>
-            <description><![CDATA[Gemini 3.1 Pro is now available in Windsurf with Low and High thinking variants. For a limited time, enjoy promotional pricing on credit usage.]]></description>
-            <link>https://windsurf.com/blog/gemini-3.1-pro</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gemini-3.1-pro</guid>
-            <pubDate>Wed, 18 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Sonnet 4.6 is now available in Windsurf]]></title>
-            <description><![CDATA[Claude Sonnet 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users: 2x credits without thinking and 3x credits with thinking.]]></description>
-            <link>https://windsurf.com/blog/sonnet-4.6</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/sonnet-4.6</guid>
-            <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Subagents and web search in Claude Code]]></title>
             <description><![CDATA[Ollama now supports subagents and web search in Claude Code.]]></description>
             <link>https://ollama.com/blog/web-search-subagents-claude-code</link>
             <guid isPermaLink="false">https://ollama.com/blog/web-search-subagents-claude-code</guid>
-            <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GLM-5 and Minimax M2.5 are now available in Windsurf]]></title>
-            <description><![CDATA[GLM-5 from Zhipu AI and Minimax M2.5 are now available in Windsurf with limited-time promotional pricing. Both models are included in Arena Mode's Frontier Arena and Hybrid Arena battle groups.]]></description>
-            <link>https://windsurf.com/blog/glm-5-minimax-m2.5</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/glm-5-minimax-m2.5</guid>
             <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
