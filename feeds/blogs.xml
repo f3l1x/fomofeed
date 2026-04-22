@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Apr 2026 08:35:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 14:34:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The Missing Half of the Enterprise Context Layer]]></title>
+            <description><![CDATA[AI agents that only understand business definitions without knowing whether the underlying pipeline actually succeeded are confidently wrong and operational context from the orchestrator is the missing piece.]]></description>
+            <link>https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</link>
+            <guid isPermaLink="false">https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</guid>
+            <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Cursor partners with SpaceX on model training]]></title>
             <link>https://cursor.com/blog/spacex-model-training</link>
@@ -28,6 +35,7 @@
             <description><![CDATA[Once your pipelines span multiple Databricks workspaces, you're no longer orchestrating a single system you're coordinating a distributed one.]]></description>
             <link>https://dagster.io/blog/how-to-orchestrate-across-multiple-databricks-workspaces-without-losing-your-mind</link>
             <guid isPermaLink="false">https://dagster.io/blog/how-to-orchestrate-across-multiple-databricks-workspaces-without-losing-your-mind</guid>
+            <category><![CDATA[Engineering]]></category>
             <pubDate>Sun, 19 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -397,14 +405,6 @@
             <link>https://www.deeplearning.ai/the-batch/issue-338/</link>
             <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-338/</guid>
             <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Pytest for Agent-Generated Code: Concrete Testing Strategies to Put Into Practice]]></title>
-            <description><![CDATA[When agents write tests, intent matters as much as correctness. By defining clear testing levels, preferred patterns, and explicit anti-patterns, we give agents the structure they need to produce fast, reliable Pytest suites that scale with automation.]]></description>
-            <link>https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</link>
-            <guid isPermaLink="false">https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</guid>
-            <category><![CDATA[Engineering]]></category>
-            <pubDate>Sun, 25 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ollama launch]]></title>

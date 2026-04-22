@@ -4,16 +4,24 @@
         <description><![CDATA[RSS feed for Dagster Blog]]></description>
         <link>https://dagster.io/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Apr 2026 08:34:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 14:34:33 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/dagster-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 19 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The Missing Half of the Enterprise Context Layer]]></title>
+            <description><![CDATA[AI agents that only understand business definitions without knowing whether the underlying pipeline actually succeeded are confidently wrong and operational context from the orchestrator is the missing piece.]]></description>
+            <link>https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</link>
+            <guid isPermaLink="false">https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</guid>
+            <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How to Orchestrate Across Multiple Databricks Workspaces Without Losing Your Mind]]></title>
             <description><![CDATA[Once your pipelines span multiple Databricks workspaces, you're no longer orchestrating a single system you're coordinating a distributed one.]]></description>
             <link>https://dagster.io/blog/how-to-orchestrate-across-multiple-databricks-workspaces-without-losing-your-mind</link>
             <guid isPermaLink="false">https://dagster.io/blog/how-to-orchestrate-across-multiple-databricks-workspaces-without-losing-your-mind</guid>
+            <category><![CDATA[Engineering]]></category>
             <pubDate>Sun, 19 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -103,14 +111,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Mon, 02 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Pytest for Agent-Generated Code: Concrete Testing Strategies to Put Into Practice]]></title>
-            <description><![CDATA[When agents write tests, intent matters as much as correctness. By defining clear testing levels, preferred patterns, and explicit anti-patterns, we give agents the structure they need to produce fast, reliable Pytest suites that scale with automation.]]></description>
-            <link>https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</link>
-            <guid isPermaLink="false">https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</guid>
-            <category><![CDATA[Engineering]]></category>
-            <pubDate>Sun, 25 Jan 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
