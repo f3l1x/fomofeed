@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Apr 2026 16:24:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 18:23:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,18 @@
             <description><![CDATA[Google Cloud has introduced the Agents CLI, a specialized tool designed to bridge the gap between local development and production-grade AI agent deployment. The CLI provides coding assistants with machine-readable access to the full Google Cloud stack, reducing context overload and token waste during the scaffolding process. By streamlining evaluation, infrastructure provisioning, and deployment into a single programmatic backbone, the tool enables developers to move from initial concept to a live service in hours rather than weeks.]]></description>
             <link>https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/</guid>
+            <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing the Anthropic Economic Index Survey]]></title>
+            <link>https://www.anthropic.com/research/economic-index-survey-announcement</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-survey-announcement</guid>
+            <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What 81,000 people told us about the economics of AI]]></title>
+            <link>https://www.anthropic.com/research/81k-economics</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/81k-economics</guid>
             <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -171,12 +183,6 @@
             <link>https://www.anthropic.com/research/vibe-physics</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/vibe-physics</guid>
             <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A “diff” tool for AI: Finding behavioral differences in new models]]></title>
-            <link>https://www.anthropic.com/research/diff-tool</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/diff-tool</guid>
-            <pubDate>Thu, 12 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic invests $100 million into the Claude Partner Network]]></title>
