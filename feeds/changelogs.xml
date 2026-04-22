@@ -4,11 +4,39 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Apr 2026 18:23:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 04:59:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Apr 2026 13:12:23 GMT</pubDate>
+        <pubDate>Wed, 22 Apr 2026 00:18:02 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.21.1]]></title>
+            <description><![CDATA[## What's Changed * docs: update hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15655 * mlx: apply repeat penalties in sampler by @dhiltgen in https://github.com/ollama/ollama/pull/15631 * mlx: fuse sigmoid router head in glm4_moe_lite by @jessegross in https://github.com/ollama/ollama/pull/15659 * launch: add kimi cli integration with installer flow by @ParthSareen in https://github.com/ollama/ollama/pull/15723 * server: apply format when think=false with thinking-capable parser by @ParthSareen in https://github.com/ollama/ollama/pull/15678 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.0...v0.21.1-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.21.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.1</guid>
+            <pubDate>Wed, 22 Apr 2026 00:18:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.117]]></title>
+            <description><![CDATA[## What's changed - Forked subagents can now be enabled on external builds by setting CLAUDE_CODE_FORK_SUBAGENT=1 - Agent frontmatter mcpServers are now loaded for main-thread agent sessions via --agent - Improved /model: selections now persist across restarts even when the project pins a different model, and the startup header shows when the active model comes from a project or managed-settings pin - The /resume command now offers to summarize stale, large sessions before re-reading them, matching the existing --resume behavior - Faster startup when both local and claude.ai MCP servers are configured (concurrent connect now default) - plugin install on an already-installed plugin now installs any missing dependencies instead of stopping at "already installed" - Plugin dependency errors now say "not installed" with an install hint, and claude plugin marketplace add now auto-resolves missing dependencies from configured marketplaces - Managed-settings blockedMarketplaces and strictKnownMarketplaces are now enforced on plugin install, update, refresh, and autoupdate - Advisor Tool (experimental): dialog now carries an "experimental" label, learn-more link, and startup notification when enabled; sessions no longer get stuck with "Advisor tool result content could not be processed" errors on every prompt and /compact - The cleanupPeriodDays retention sweep now also covers ~/.claude/tasks/, ~/.claude/shell-snapshots/, and ~/.claude/backups/ - OpenTelemetry: user_prompt events now include command_name and command_source for slash commands; cost.usage, token.usage, api_request, and api_error now include an effort attribute when the model supports effort levels. Custom/MCP command names are redacted unless OTEL_LOG_TOOL_DETAILS=1 is set - Native builds on macOS and Linux: the Glob and Grep tools are replaced by embedded bfs and ugrep available through the Bash tool — faster searches without a separate tool round-trip (Windows and npm-installed builds unchanged) - Windows: cached where.exe executable lookups per process for faster subprocess launches - Default effort for Pro/Max subscribers on Opus 4.6 and Sonnet 4.6 is now high (was medium) - Fixed Plain-CLI OAuth sessions dying with "Please run /login" when the access token expires mid-session — the token is now refreshed reactively on 401 - Fixed WebFetch hanging on very large HTML pages by truncating input before HTML-to-markdown conversion - Fixed a crash when a proxy returns HTTP 204 No Content — now surfaces a clear error instead of a TypeError - Fixed /login having no effect when launched with CLAUDE_CODE_OAUTH_TOKEN env var and that token expires - Fixed prompt-input undo (Ctrl+_) doing nothing immediately after typing, and skipping a state on each undo step - Fixed NO_PROXY not being respected for remote API requests when running under Bun - Fixed rare spurious escape/return triggers when key names arrive as coalesced text over slow connections - Fixed SDK reload_plugins reconnecting all user MCP servers serially - Fixed Bedrock application-inference-profile requests failing with 400 when backed by Opus 4.7 with thinking disabled - Fixed MCP elicitation/create requests auto-cancelling in print/SDK mode when the server finishes connecting mid-turn - Fixed subagents running a different model than the main agent incorrectly flagging file reads with a malware warning - Fixed idle re-render loop when background tasks are present, reducing memory growth on Linux - [VSCode] Fixed "Manage Plugins" panel breaking when multiple large marketplaces are configured - Fixed Opus 4.7 sessions showing inflated /context percentages and autocompacting too early — Claude Code was computing against a 200K context window instead of Opus 4.7's native 1M]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.117</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.117</guid>
+            <pubDate>Wed, 22 Apr 2026 00:04:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.123.0-alpha.7]]></title>
+            <description><![CDATA[Release 0.123.0-alpha.7]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.123.0-alpha.7</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.123.0-alpha.7</guid>
+            <pubDate>Tue, 21 Apr 2026 21:46:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.20]]></title>
+            <description><![CDATA[## Core - Fixed a system theme regression in the TUI. - Added GET /config to the experimental HTTP API. - Fixed local dynamic imports on Windows when running under Node, improving plugin and tool loading. ## TUI - Fixed permission replies using remote workspaces so they are sent to the correct workspace. ## Desktop - Stopped prompt controls from replaying their fade-in animation on every render. - Added a setting to hide the session progress bar while the agent is working. - Fixed the Select Server dialog layout so the server list and actions size correctly. (@OpeOginni) - Fixed synced project updates so desktop project state changes apply reliably. - Fixed sidebar project avatars to fall back to icon.url when no override is set. (@ysm-dev) ## SDK - Fixed the WorkspaceAdaptor.create type to include the env parameter. (@jamesmurdza) **Thank you to 4 community contributors:** - @heimoshuiyu: - fix(ui): use parentID matching instead of positional scan for assistant messages (#23093) - @ysm-dev: - fix(app): fall back to icon.url in sidebar avatar (#18747) - @jamesmurdza: - fix(plugin): add env parameter to WorkspaceAdaptor.create type (#23235) - @OpeOginni: - fix(desktop): adjust layout properties in DialogSelectServer component (#23589)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.20</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.20</guid>
+            <pubDate>Tue, 21 Apr 2026 19:07:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.123.0-alpha.6]]></title>
             <description><![CDATA[Release 0.123.0-alpha.6]]></description>
@@ -50,6 +78,18 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.116</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.116</guid>
             <pubDate>Mon, 20 Apr 2026 22:18:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.0.67 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
+            <pubDate>Mon, 20 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.0.1067 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
+            <pubDate>Mon, 20 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.122.0]]></title>
@@ -1511,13 +1551,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.116.0-alpha.6</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.116.0-alpha.6</guid>
             <pubDate>Wed, 18 Mar 2026 04:46:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.116.0-alpha.5]]></title>
-            <description><![CDATA[Release 0.116.0-alpha.5]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.116.0-alpha.5</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.116.0-alpha.5</guid>
-            <pubDate>Wed, 18 Mar 2026 00:48:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.78]]></title>
@@ -3221,13 +3254,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.28</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.28</guid>
             <pubDate>Tue, 20 Jan 2026 22:31:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.27]]></title>
-            <description><![CDATA[## Core - Remove filetime assertions from patch tool - Ensure truncation handling applies to MCP servers - Update batch tool definition to outline correct value for max tool calls (@jamesmengo) ## TUI - Add space toggle hint to tool selection prompt (@cjellick) - Fix message history cleanup to prevent memory leaks in TUI ## Desktop - Fixed flash of home page on application start - Fixed localStorage quota handling in app - Persist quota limits to prevent loss on reload - Completely disable pinch to zoom in desktop application (@Brendonovich) - Fix message list overflow and scrolling issues (@neriousy) - Add 8px padding to recent sessions popover - Remove top padding from edit project dialog form - Update session messages popover gutter to 28px - Position session messages popover at top - Retain session hover state when popover is open and update border radius - Update session hover popover styling - Update review session empty state styling - Add ability to select project directory text in web interface (@DNGriffin) **Thank you to 5 community contributors:** - @DNGriffin: - feat(app): Add ability to select project directory text to web (#9344) - @neriousy: - fix(app): message list overflow & scrolling (#9530) - @jamesmengo: - fix(batch): update batch tool definition to outline correct value for max tool calls (#9517) - @cjellick: - fix: add space toggle hint to tool selection prompt (#9535) - @Brendonovich: - fix(desktop): completely disable pinch to zoom]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.27</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.27</guid>
-            <pubDate>Tue, 20 Jan 2026 12:39:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Beta Release v1.5.35-beta.20260120]]></title>
@@ -6401,13 +6427,6 @@
             <link>https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1-rc.0</link>
             <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/intellij%401.9.1-rc.0</guid>
             <pubDate>Tue, 17 Dec 2024 05:47:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.3]]></title>
-            <description><![CDATA[## What's Changed * Fixed runtime errors on older Intel Macs * Fixed issue where setting the format field to "" would cause an error ## New Contributors * @Askir made their first contribution in https://github.com/ollama/ollama/pull/8028 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.2...v0.5.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.3</guid>
-            <pubDate>Tue, 17 Dec 2024 04:14:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.21.2-rc.5]]></title>

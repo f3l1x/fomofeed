@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Apr 2026 18:22:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 04:59:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 Apr 2026 07:21:48 GMT</pubDate>
+        <pubDate>Tue, 21 Apr 2026 19:07:38 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.20]]></title>
+            <description><![CDATA[## Core - Fixed a system theme regression in the TUI. - Added GET /config to the experimental HTTP API. - Fixed local dynamic imports on Windows when running under Node, improving plugin and tool loading. ## TUI - Fixed permission replies using remote workspaces so they are sent to the correct workspace. ## Desktop - Stopped prompt controls from replaying their fade-in animation on every render. - Added a setting to hide the session progress bar while the agent is working. - Fixed the Select Server dialog layout so the server list and actions size correctly. (@OpeOginni) - Fixed synced project updates so desktop project state changes apply reliably. - Fixed sidebar project avatars to fall back to icon.url when no override is set. (@ysm-dev) ## SDK - Fixed the WorkspaceAdaptor.create type to include the env parameter. (@jamesmurdza) **Thank you to 4 community contributors:** - @heimoshuiyu: - fix(ui): use parentID matching instead of positional scan for assistant messages (#23093) - @ysm-dev: - fix(app): fall back to icon.url in sidebar avatar (#18747) - @jamesmurdza: - fix(plugin): add env parameter to WorkspaceAdaptor.create type (#23235) - @OpeOginni: - fix(desktop): adjust layout properties in DialogSelectServer component (#23589)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.20</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.20</guid>
+            <pubDate>Tue, 21 Apr 2026 19:07:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.19]]></title>
             <description><![CDATA[## Core - Prevented compiled binaries from failing on startup because of a circular session schema dependency. - Renamed the compaction setting to preserve_recent_tokens for the budget that keeps recent turns verbatim. - Preserved concurrent edits to the same file instead of letting parallel edits overwrite each other. - Fixed managed installs on Windows and added bundled ripgrep support for Windows ARM64. - Added NVIDIA as a built-in provider option, including connection docs and required attribution headers. (@anniesurla) - Kept recent conversation turns verbatim during session compaction so follow-up work keeps more local context. - Fell back to summarizing the full conversation when preserved recent turns include too much media to fit safely. ## Desktop - Reduced loading flicker when opening projects and bringing prompt controls online. - Added a separate terminal font setting and bundled JetBrainsMono Nerd Font Mono. **Thank you to 1 community contributor:** - @anniesurla: - feat(provider): add NVIDIA to popular providers, docs, and attribution headers (#22927)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.28</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.28</guid>
             <pubDate>Tue, 20 Jan 2026 22:31:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.27]]></title>
-            <description><![CDATA[## Core - Remove filetime assertions from patch tool - Ensure truncation handling applies to MCP servers - Update batch tool definition to outline correct value for max tool calls (@jamesmengo) ## TUI - Add space toggle hint to tool selection prompt (@cjellick) - Fix message history cleanup to prevent memory leaks in TUI ## Desktop - Fixed flash of home page on application start - Fixed localStorage quota handling in app - Persist quota limits to prevent loss on reload - Completely disable pinch to zoom in desktop application (@Brendonovich) - Fix message list overflow and scrolling issues (@neriousy) - Add 8px padding to recent sessions popover - Remove top padding from edit project dialog form - Update session messages popover gutter to 28px - Position session messages popover at top - Retain session hover state when popover is open and update border radius - Update session hover popover styling - Update review session empty state styling - Add ability to select project directory text in web interface (@DNGriffin) **Thank you to 5 community contributors:** - @DNGriffin: - feat(app): Add ability to select project directory text to web (#9344) - @neriousy: - fix(app): message list overflow & scrolling (#9530) - @jamesmengo: - fix(batch): update batch tool definition to outline correct value for max tool calls (#9517) - @cjellick: - fix: add space toggle hint to tool selection prompt (#9535) - @Brendonovich: - fix(desktop): completely disable pinch to zoom]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.27</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.27</guid>
-            <pubDate>Tue, 20 Jan 2026 12:39:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
