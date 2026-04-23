@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Paul Graham Essays]]></description>
         <link>https://www.paulgraham.com/articles.html</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Apr 2026 06:38:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Apr 2026 08:36:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/paulgraham.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 29 Dec 2020 17:35:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
