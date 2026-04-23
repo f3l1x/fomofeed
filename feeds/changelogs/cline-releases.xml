@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Apr 2026 18:23:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Apr 2026 05:00:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Apr 2026 20:16:59 GMT</pubDate>
+        <pubDate>Wed, 22 Apr 2026 18:38:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v3.80.0]]></title>
+            <description><![CDATA[### Added - Wire up remote globalSkills from enterprise remote config with full UI, toggle support, and system prompt integration — enterprise-managed skills now appear under a dedicated "Enterprise Skills" section and support alwaysEnabled enforcement - Onboarding flow now uses dynamically fetched recommended models instead of a hardcoded list, with a fallback to the welcome view on failure - Add dedicated "Quota Exceeded" error message in the chat error UI when Cline account spend caps are hit ### Fixed - Fix OOM crashes during long conversations by setting --max-old-space-size=8192 for the cline-core Node.js process (was defaulting to ~2 GB) - Show detailed error information in the chat error row instead of a generic caught error message - Update axios to 1.15.0 across all packages ### Changed - Remove foreground terminal mode — all task command execution now defaults to background mode, removing the VS Code integrated terminal dependency and related settings UI - Remove old hardcoded announcement banners **Full Changelog**: https://github.com/cline/cline/compare/v2.15.0-cli...v3.80.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.80.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.80.0</guid>
+            <pubDate>Wed, 22 Apr 2026 18:38:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v3.79.0]]></title>
             <description><![CDATA[### Added - Add Claude Opus 4.7 model support - Add Azure Blob Storage as a storage provider - Add globalSkills to remote config - Inline value reuse in user-level remote-config discovery ### Fixed - Fix cache reflection for Cline and Vercel API handlers - Fix stuck command_output ask when terminal command ends unexpectedly - Add use_subagents to system prompt for GLM, Hermes, and XS models - Fix action injection security risk ### Changed - Remove deprecated evals tool **Full Changelog**: https://github.com/cline/cline/compare/v2.14.0-cli...v3.79.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.27.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.27.0</guid>
             <pubDate>Mon, 01 Sep 2025 12:49:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.26.7]]></title>
-            <description><![CDATA[- Add 200k context window variant for Claude Sonnet 4 to OpenRouter and Cline providers **Full Changelog**: https://github.com/cline/cline/compare/v3.26.6...v3.26.7]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.26.7</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.26.7</guid>
-            <pubDate>Fri, 29 Aug 2025 22:44:51 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,14 +4,21 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Apr 2026 18:23:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Apr 2026 05:00:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 22 Apr 2026 00:18:02 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 02:29:24 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
+            <title><![CDATA[v0.21.2]]></title>
+            <description><![CDATA[## What's Changed * docs: Structured outputs and ollama cloud by @madflow in https://github.com/ollama/ollama/pull/15733 * launch: use bundled OpenClaw ollama web search by @ParthSareen in https://github.com/ollama/ollama/pull/15757 ## New Contributors * @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0</guid>
+            <pubDate>Thu, 23 Apr 2026 02:29:24 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[v0.21.1]]></title>
-            <description><![CDATA[## What's Changed * docs: update hermes by @ParthSareen in https://github.com/ollama/ollama/pull/15655 * mlx: apply repeat penalties in sampler by @dhiltgen in https://github.com/ollama/ollama/pull/15631 * mlx: fuse sigmoid router head in glm4_moe_lite by @jessegross in https://github.com/ollama/ollama/pull/15659 * launch: add kimi cli integration with installer flow by @ParthSareen in https://github.com/ollama/ollama/pull/15723 * server: apply format when think=false with thinking-capable parser by @ParthSareen in https://github.com/ollama/ollama/pull/15678 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.0...v0.21.1]]></description>
+            <description><![CDATA[## What's Changed ### Kimi CLI You can now install and run the Kimi CLI through Ollama. Kimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system. * **MLX runner adds logprobs support** for compatible models * **Faster MLX sampling** with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler * **Improved MLX prompt tokenization** by moving tokenization into request handler goroutines * **Better MLX thread safety** for array management * **GLM4 MoE Lite performance improvement** with a fused sigmoid router head * **Fixed model picker showing stale model** after switching chats in the macOS app * **Fixed structured outputs for Gemma 4** when think=false **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.0...v0.21.1]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.21.1</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.1</guid>
             <pubDate>Wed, 22 Apr 2026 00:18:02 GMT</pubDate>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.5.5</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.5</guid>
             <pubDate>Wed, 08 Jan 2025 22:55:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.4]]></title>
-            <description><![CDATA[## New models - Falcon3: A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques. ## What's Changed * Fixed issue where providing null to format would result in an error **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.3...v0.5.4]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.4</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.4</guid>
-            <pubDate>Tue, 17 Dec 2024 21:54:59 GMT</pubDate>
         </item>
     </channel>
 </rss>
