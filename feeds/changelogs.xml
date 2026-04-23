@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Apr 2026 05:01:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Apr 2026 06:38:29 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Apr 2026 02:43:34 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 06:06:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.124.0-alpha.2]]></title>
+            <description><![CDATA[Release 0.124.0-alpha.2]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.124.0-alpha.2</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.124.0-alpha.2</guid>
+            <pubDate>Thu, 23 Apr 2026 06:06:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.21]]></title>
+            <description><![CDATA[## Core - Support pull diagnostics from LSP servers that use them, including C# and Kotlin. - Fix project detection and caching for bare Git repos and worktrees. (@StevenTCramer) - Improve session compaction so long threads keep more useful context when older history is summarized. - Preserve UTF-8 BOMs when files are edited, patched, or rewritten through tools. - Use Roslyn Language Server for C# support instead of csharp-ls. (@jmbryan4) - Add the high reasoning variant for supported Mistral Small models. (@rubdos) - Hide unsupported variants for Kimi models that do not expose them. ## TUI - Fail fast when opening an invalid or missing session instead of starting the TUI in a broken state. - Skip upgrade checks when auto-update is disabled. (@rahuliyer95) ## Desktop - Keep project avatar previews consistent between the sidebar and edit dialog. - Improve project icon overrides so uploaded icons and color fallbacks behave correctly in the edit dialog. - Improve Linux desktop metadata for app listings and categorization. (@NN708) **Thank you to 6 community contributors:** - @rahuliyer95: - fix(tui): don't check for version upgrades if it's disabled by the user (#20089) - @github-actions[bot]: - Update VOUCHED list - @rubdos: - feat: add Mistral Small reasoning variant support (issue #19479) (#23735) - @jmbryan4: - feat: replace csharp-ls with roslyn-language-server (#14463) - @NN708: - fix(desktop): update desktop file and MetaInfo file (#14933) - @StevenTCramer: - fix(project): use git common dir for bare repo project cache (#19054)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.21</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.21</guid>
+            <pubDate>Thu, 23 Apr 2026 05:45:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.124.0-alpha.1]]></title>
             <description><![CDATA[Release 0.124.0-alpha.1]]></description>
@@ -1520,13 +1534,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.116.0</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.116.0</guid>
             <pubDate>Thu, 19 Mar 2026 17:51:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.116.0-alpha.12]]></title>
-            <description><![CDATA[Release 0.116.0-alpha.12]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.116.0-alpha.12</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.116.0-alpha.12</guid>
-            <pubDate>Thu, 19 Mar 2026 16:38:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v3.74.0]]></title>
@@ -3268,13 +3275,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.14</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.14</guid>
             <pubDate>Tue, 20 Jan 2026 23:09:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.28]]></title>
-            <description><![CDATA[## Core - Preserve tool input from running state for MCP tool results (@rynfar) - Pass arguments to commands without explicit placeholders (@remorses) - Adjust Codex prompt to discourage unnecessary questions and encourage more autonomous decision-making - Register OAuth callback before opening browser in MCP (@msvechla) - Support ACP audience by mapping to ignore and synthetic (@noamzbr) - Terminal no longer hangs on exit or Ctrl+D and closes the pane properly (@ProdigyRahul) ## TUI - Prevent sidebar height from overflowing in terminal UI (@IdrisGit) ## Desktop - Refactor Select component to use settings variant for settings modal styling - Show "View all sessions" button for active project and close hovercard on click - Remove close delay on hover cards to prevent overlapping - Fix review empty state font size - Fix race condition when editing project names (@DNGriffin) - Resolve Select children type conflict with ButtonProps - Fix prompt agent button style - Fix type error - Update keyboard shortcuts panel to match general settings styling - Add color scheme preview on hover in appearance dropdown - Update settings panel padding and make content full width - Set 32px spacing between main title and group title - Add fade gradient to settings panel headers - Reset select trigger to default state after selection - Add extra large dialog size and use it for settings modal - Add triggerStyle prop to Select component and apply it to font selector - Render font options in their respective fonts - Wrap settings row groups with styled container - Remove border and background from settings panel headers - Remove subheader from General settings panel - Add keyboard icon and use it for Shortcuts settings tab - Add sliders icon and use it for General settings tab - Update settings tabs layout and spacing - Increase icon letter size to 32px in edit project dialog - Increase session messages popover open delay to 1000ms - Fix end-to-end tests in app package - Add Windows end-to-end tests for the app - Change terminal.new keybind to Ctrl+Alt+T (@ProdigyRahul) - Cleanup PTY exited event listener on component unmount (@ProdigyRahul) - Fix duplicate session loads in app - Add tooltips to sidebar new session and workspace buttons (@ProdigyRahul) - Better pending states for workspace operations - Fix session loading loop in app - Add restart and reload menu items on macOS (@BlankParticle) - Fix broken app functionality - Add settings page to app **Thank you to 13 community contributors:** - @ProdigyRahul: - fix(app): terminal no longer hangs on exit or ctrl + D and closes the pane (#9506) - feat(app): add tooltips to sidebar new session/workspace buttons (#9652) - fix(app): cleanup pty.exited event listener on unmount (#9671) - fix(app): change terminal.new keybind to ctrl+alt+t (#9670) - @BlankParticle: - feat: add restart and reload menu items on macOS (#9212) - @noamzbr: - feat: Support ACP audience by mapping to ignore and synthetic (#9593) - @msvechla: - fix(mcp): register OAuth callback before opening browser (#9646) - @remorses: - fix: pass arguments to commands without explicit placeholders (#9606) - @zerone0x: - fix(ui): show filename in Edit/Write permission titles (#9662) - @MBanucu: - fix(opencode): Allow compatible Bun versions in packageManager field (#9597) - @DRunkPiano114: - fix(ui): prevent Enter key action during IME composition (#9564) - @IdrisGit: - fix(tui): prevent sidebar height from overflowing. (#9689) - @gigamonster256: - fix(opencode): relax bun version requirement (#9682) - @DNGriffin: - fix(app): Edit-project name race condition (#9551) - @rynfar: - fix(opencode): preserve tool input from running state for MCP tool results (#9667) - @kdcokenny: - docs(web): add KDCO plugins to ecosystem (#7694)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.28</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.28</guid>
-            <pubDate>Tue, 20 Jan 2026 22:31:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Beta Release v1.5.35-beta.20260120]]></title>
