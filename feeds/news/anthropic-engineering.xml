@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Engineering]]></description>
         <link>https://www.anthropic.com/engineering</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 08:41:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 14:34:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-engineering.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 24 Mar 2026 23:00:00 GMT</pubDate>
+        <pubDate>Tue, 07 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Scaling Managed Agents: Decoupling the brain from the hands]]></title>
+            <link>https://www.anthropic.com/engineering/managed-agents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
+            <pubDate>Tue, 07 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude Code auto mode: a safer way to skip permissions]]></title>
             <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
@@ -26,6 +32,12 @@
             <link>https://www.anthropic.com/engineering/eval-awareness-browsecomp</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/eval-awareness-browsecomp</guid>
             <pubDate>Thu, 05 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
+            <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
+            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building a C compiler with a team of parallel Claudes]]></title>
@@ -136,23 +148,11 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
-            <description><![CDATA[Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.]]></description>
-            <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
-            <pubDate>Tue, 17 Nov 2020 23:58:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[An update on recent Claude Code quality reports]]></title>
+            <description><![CDATA[We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.]]></description>
             <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/april-23-postmortem</guid>
             <pubDate>Thu, 27 Feb 2020 12:15:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Scaling Managed Agents: Decoupling the brain from the hands]]></title>
-            <link>https://www.anthropic.com/engineering/managed-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
-            <pubDate>Sat, 23 May 2020 08:46:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

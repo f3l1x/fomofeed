@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 08:41:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 14:34:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Apr 2026 15:56:51 GMT</pubDate>
+        <pubDate>Fri, 24 Apr 2026 13:17:15 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.23]]></title>
+            <description><![CDATA[## Core - Respect custom .npmrc registry settings when checking package versions and updates. ## TUI - Render all non-synthetic text in a user message instead of showing only the first text block.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.23</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.23</guid>
+            <pubDate>Fri, 24 Apr 2026 13:17:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.22]]></title>
             <description><![CDATA[## Core - Respect .npmrc settings during npm installs. - Let projects store a custom icon override so the chosen icon persists correctly. ## Desktop - Fix session views and nested session items not getting stuck with stale state when switching between sessions.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.31</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.31</guid>
             <pubDate>Thu, 22 Jan 2026 02:36:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.30]]></title>
-            <description><![CDATA[## Core - Add session list and session fork support to ACP (@remorses) - Fix metadata matching to use model.id instead of model.api.id to support legacy model identifiers - Adjust textVerbosity and reasoningEffort defaults to better align with Codex CLI behavior - Implement home directory expansion for permission patterns using ~ and $HOME prefixes (@Danztee) - Add back todo list tools for OpenAI models - Persist loaded model and mode when loading ACP sessions (@noamzbr) - Update GitLab packages for better self-hosted instance support (@vglafirov) - Make the models.dev domain configurable for offline environments (@bartbroere) ## Desktop - Rename favicon on web again - Improve provider OAuth error handling in app - Fix renaming non-git projects affecting other projects - Tab should select suggestion in the app - Fix type error - Fix terminal issues and regressions - Remove terminal button border to align with close button (@allanhvam) - Fixed navigation issues when working with large sessions in desktop app (@dbpolito) **Thank you to 8 community contributors:** - @bartbroere: - feat: Make the models.dev domain configurable for offline environments (#9258) - @vglafirov: - chore(deps): update GitLab packages for better self-hosted instance support (#9856) - @noamzbr: - fix: Persist loaded model and mode on ACP session load (#9829) - @Danztee: - feat: implement home directory expansion for permission patterns using ~ and $HOME prefixes. (#9813) - @dbpolito: - fix(desktop): Navigation with Big Sessions (#9529) - @allanhvam: - fix(app): remove terminal button border to align with close button (#9874) - @remorses: - feat(acp): add session/list and session/fork support (#7976) - @gigamonster256: - fix: update pre-push hook to allow caret version differences (#9876)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.30</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.30</guid>
-            <pubDate>Wed, 21 Jan 2026 22:10:57 GMT</pubDate>
         </item>
     </channel>
 </rss>

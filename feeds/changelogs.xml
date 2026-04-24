@@ -4,17 +4,38 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 08:41:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 14:34:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 24 Apr 2026 06:35:27 GMT</pubDate>
+        <pubDate>Fri, 24 Apr 2026 13:17:15 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[0.125.0-alpha.1]]></title>
-            <description><![CDATA[Release 0.125.0-alpha.1]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.125.0-alpha.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.125.0-alpha.1</guid>
-            <pubDate>Fri, 24 Apr 2026 06:35:27 GMT</pubDate>
+            <title><![CDATA[v1.14.23]]></title>
+            <description><![CDATA[## Core - Respect custom .npmrc registry settings when checking package versions and updates. ## TUI - Render all non-synthetic text in a user message instead of showing only the first text block.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.23</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.23</guid>
+            <pubDate>Fri, 24 Apr 2026 13:17:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.125.0-alpha.3]]></title>
+            <description><![CDATA[Release 0.125.0-alpha.3]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.125.0-alpha.3</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.125.0-alpha.3</guid>
+            <pubDate>Fri, 24 Apr 2026 12:20:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.21.3]]></title>
+            <description><![CDATA[## What's Changed * api: accept "max" as a think value by @ParthSareen in https://github.com/ollama/ollama/pull/15787 * openai: map responses reasoning effort to think by @ParthSareen in https://github.com/ollama/ollama/pull/15789 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.21.3-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0</guid>
+            <pubDate>Fri, 24 Apr 2026 12:15:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.125.0-alpha.2]]></title>
+            <description><![CDATA[Release 0.125.0-alpha.2]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.125.0-alpha.2</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.125.0-alpha.2</guid>
+            <pubDate>Fri, 24 Apr 2026 11:00:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.119]]></title>
@@ -1528,13 +1549,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.81</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.81</guid>
             <pubDate>Fri, 20 Mar 2026 22:24:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.117.0-alpha.5]]></title>
-            <description><![CDATA[Release 0.117.0-alpha.5]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.5</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.5</guid>
-            <pubDate>Fri, 20 Mar 2026 07:54:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rusty-v8-v146.4.0]]></title>
@@ -3254,13 +3268,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.15.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.0</guid>
             <pubDate>Wed, 21 Jan 2026 22:40:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.30]]></title>
-            <description><![CDATA[## Core - Add session list and session fork support to ACP (@remorses) - Fix metadata matching to use model.id instead of model.api.id to support legacy model identifiers - Adjust textVerbosity and reasoningEffort defaults to better align with Codex CLI behavior - Implement home directory expansion for permission patterns using ~ and $HOME prefixes (@Danztee) - Add back todo list tools for OpenAI models - Persist loaded model and mode when loading ACP sessions (@noamzbr) - Update GitLab packages for better self-hosted instance support (@vglafirov) - Make the models.dev domain configurable for offline environments (@bartbroere) ## Desktop - Rename favicon on web again - Improve provider OAuth error handling in app - Fix renaming non-git projects affecting other projects - Tab should select suggestion in the app - Fix type error - Fix terminal issues and regressions - Remove terminal button border to align with close button (@allanhvam) - Fixed navigation issues when working with large sessions in desktop app (@dbpolito) **Thank you to 8 community contributors:** - @bartbroere: - feat: Make the models.dev domain configurable for offline environments (#9258) - @vglafirov: - chore(deps): update GitLab packages for better self-hosted instance support (#9856) - @noamzbr: - fix: Persist loaded model and mode on ACP session load (#9829) - @Danztee: - feat: implement home directory expansion for permission patterns using ~ and $HOME prefixes. (#9813) - @dbpolito: - fix(desktop): Navigation with Big Sessions (#9529) - @allanhvam: - fix(app): remove terminal button border to align with close button (#9874) - @remorses: - feat(acp): add session/list and session/fork support (#7976) - @gigamonster256: - fix: update pre-push hook to allow caret version differences (#9876)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.30</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.30</guid>
-            <pubDate>Wed, 21 Jan 2026 22:10:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.15]]></title>
@@ -6328,13 +6335,6 @@
             <link>https://windsurf.com/changelog#patch-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#patch-fixes</guid>
             <pubDate>Wed, 08 Jan 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.5]]></title>
-            <description><![CDATA[!ollama 2025 ## New models - Phi-4: Phi 4 is a 14B parameter, state-of-the-art open model from Microsoft. - Command R7B: the smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices. - DeepSeek-V3: A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. - OLMo 2: a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks. - Dolphin 3: the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases. - SmallThinker: A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model. - Granite 3.1 Dense: 2B and 8B text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing. - Granite 3.1 MoE: 1B and 3B long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage. ## What's Changed * The /api/create API endpoint that powers ollama create has been changed to improve conversion time and also accept a JSON object. **Note: this change is not backwards compatible**. If importing models, make sure you're using version 0.5.5 or later for both Ollama and the ollama CLI when running ollama create. If using ollama.create in the Python or JavaScript libraries, make sure to update to the latest version. * Fixed runtime error that would occur when filling the model's context window * Fixed crash that would occur when quotes were used in /save * Fixed errors that would occur when sending x-stainless headers from OpenAI clients ## New Contributors * @Squishedmac made their first contribution in https://github.com/ollama/ollama/pull/8172 * @erusev made their first contribution in https://github.com/ollama/ollama/pull/7950 * @olumolu made their first contribution in https://github.com/ollama/ollama/pull/8227 * @paradoxical-dev made their first contribution in https://github.com/ollama/ollama/pull/8242 * @belfie13 made their first contribution in https://github.com/ollama/ollama/pull/8215 * @Docteur-RS made their first contribution in https://github.com/ollama/ollama/pull/7259 * @anxkhn made their first contribution in https://github.com/ollama/ollama/pull/8082 * @ubaldus made their first contribution in https://github.com/ollama/ollama/pull/8307 * @isamu made their first contribution in https://github.com/ollama/ollama/pull/8343 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.4...v0.5.5]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.5</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.5</guid>
-            <pubDate>Wed, 08 Jan 2025 22:55:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[intellij@1.10.0]]></title>

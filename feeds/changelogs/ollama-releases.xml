@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 08:41:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 14:34:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Apr 2026 02:29:24 GMT</pubDate>
+        <pubDate>Fri, 24 Apr 2026 12:15:38 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.21.3]]></title>
+            <description><![CDATA[## What's Changed * api: accept "max" as a think value by @ParthSareen in https://github.com/ollama/ollama/pull/15787 * openai: map responses reasoning effort to think by @ParthSareen in https://github.com/ollama/ollama/pull/15789 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.21.3-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0</guid>
+            <pubDate>Fri, 24 Apr 2026 12:15:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.21.2]]></title>
             <description><![CDATA[## What's Changed * Improved reliability of the OpenClaw onboarding flow in ollama launch * Recommended models in ollama launch now appear in a fixed, canonical order * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw ## New Contributors * @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733 **Full Changelog:** https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.5.6</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.6</guid>
             <pubDate>Wed, 15 Jan 2025 05:50:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.5]]></title>
-            <description><![CDATA[!ollama 2025 ## New models - Phi-4: Phi 4 is a 14B parameter, state-of-the-art open model from Microsoft. - Command R7B: the smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices. - DeepSeek-V3: A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. - OLMo 2: a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks. - Dolphin 3: the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases. - SmallThinker: A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model. - Granite 3.1 Dense: 2B and 8B text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing. - Granite 3.1 MoE: 1B and 3B long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage. ## What's Changed * The /api/create API endpoint that powers ollama create has been changed to improve conversion time and also accept a JSON object. **Note: this change is not backwards compatible**. If importing models, make sure you're using version 0.5.5 or later for both Ollama and the ollama CLI when running ollama create. If using ollama.create in the Python or JavaScript libraries, make sure to update to the latest version. * Fixed runtime error that would occur when filling the model's context window * Fixed crash that would occur when quotes were used in /save * Fixed errors that would occur when sending x-stainless headers from OpenAI clients ## New Contributors * @Squishedmac made their first contribution in https://github.com/ollama/ollama/pull/8172 * @erusev made their first contribution in https://github.com/ollama/ollama/pull/7950 * @olumolu made their first contribution in https://github.com/ollama/ollama/pull/8227 * @paradoxical-dev made their first contribution in https://github.com/ollama/ollama/pull/8242 * @belfie13 made their first contribution in https://github.com/ollama/ollama/pull/8215 * @Docteur-RS made their first contribution in https://github.com/ollama/ollama/pull/7259 * @anxkhn made their first contribution in https://github.com/ollama/ollama/pull/8082 * @ubaldus made their first contribution in https://github.com/ollama/ollama/pull/8307 * @isamu made their first contribution in https://github.com/ollama/ollama/pull/8343 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.4...v0.5.5]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.5</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.5</guid>
-            <pubDate>Wed, 08 Jan 2025 22:55:42 GMT</pubDate>
         </item>
     </channel>
 </rss>

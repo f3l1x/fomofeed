@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 08:41:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 14:34:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 23 Apr 2026 23:24:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.119</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.119</guid>
             <pubDate>Thu, 23 Apr 2026 23:24:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An update on our election safeguards]]></title>
+            <link>https://www.anthropic.com/news/election-safeguards-update</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/election-safeguards-update</guid>
+            <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce]]></title>
@@ -189,6 +195,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.96</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.96</guid>
             <pubDate>Wed, 08 Apr 2026 04:37:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Managed Agents: Decoupling the brain from the hands]]></title>
+            <link>https://www.anthropic.com/engineering/managed-agents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
+            <pubDate>Tue, 07 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.94]]></title>
@@ -423,12 +435,6 @@
             <pubDate>Fri, 06 Mar 2026 01:20:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Partnering with Mozilla to improve Firefox’s security]]></title>
-            <link>https://www.anthropic.com/news/mozilla-firefox-security</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/mozilla-firefox-security</guid>
-            <pubDate>Thu, 05 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Eval awareness in Claude Opus 4.6’s BrowseComp performance]]></title>
             <link>https://www.anthropic.com/engineering/eval-awareness-browsecomp</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/eval-awareness-browsecomp</guid>
@@ -628,6 +634,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.32</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.32</guid>
             <pubDate>Thu, 05 Feb 2026 17:47:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
+            <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
+            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building a C compiler with a team of parallel Claudes]]></title>
@@ -1013,23 +1025,11 @@
             <pubDate>Fri, 01 May 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
-            <description><![CDATA[Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.]]></description>
-            <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
-            <pubDate>Tue, 17 Nov 2020 23:58:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[An update on recent Claude Code quality reports]]></title>
+            <description><![CDATA[We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.]]></description>
             <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/april-23-postmortem</guid>
             <pubDate>Thu, 27 Feb 2020 12:15:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Scaling Managed Agents: Decoupling the brain from the hands]]></title>
-            <link>https://www.anthropic.com/engineering/managed-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
-            <pubDate>Sat, 23 May 2020 08:46:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Assessing Claude Mythos Preview’s cybersecurity capabilities]]></title>
