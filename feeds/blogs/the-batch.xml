@@ -4,16 +4,16 @@
         <description><![CDATA[RSS feed for The Batch - DeepLearning.AI]]></description>
         <link>https://www.deeplearning.ai/the-batch/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 14:34:13 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 16:20:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/the-batch.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Meta Pivots From Open Weights, Big Pharma Bets On AI, Regulatory Patchwork, Simulating Human Cohorts]]></title>
-            <link>https://www.deeplearning.ai/the-batch/issue-349/</link>
-            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-349/</guid>
-            <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
+            <title><![CDATA[GLM 5.1 Thinks Strategically, Data-Center Revolt Intensifies, When Helpful LLMs Turn Unhelpful, Humanoid Robots Get to Work]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-350/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-350/</guid>
+            <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing DeepLearning.AI Pro]]></title>
@@ -32,6 +32,12 @@
             <link>https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/</link>
             <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1/</guid>
             <pubDate>Tue, 21 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Meta Pivots From Open Weights, Big Pharma Bets On AI, Regulatory Patchwork, Simulating Human Cohorts]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-349/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-349/</guid>
+            <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic’s Claude Mythos Problem, Dark DNA Unveiled, Pitfalls for Assistive Models, Simulating Fluid Dynamics]]></title>
@@ -116,12 +122,6 @@
             <link>https://www.deeplearning.ai/the-batch/issue-335/</link>
             <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-335/</guid>
             <pubDate>Thu, 08 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[New Year Special! Hopes for 2026 from David Cox, Adji Bousso Dieng, Juan M. Lavista Ferres, Tanmay Gupta, Pengtao Xie, Sharon Zhou]]></title>
-            <link>https://www.deeplearning.ai/the-batch/issue-334/</link>
-            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-334/</guid>
-            <pubDate>Thu, 01 Jan 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

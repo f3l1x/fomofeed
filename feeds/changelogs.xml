@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 14:34:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 16:20:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 24 Apr 2026 13:17:15 GMT</pubDate>
+        <pubDate>Fri, 24 Apr 2026 15:53:05 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.24]]></title>
+            <description><![CDATA[## Core - Fixed DeepSeek assistant messages so reasoning is always included, avoiding provider formatting failures. - Fixed inherited model configs so interleaved-capability models keep working when that field falls back to an existing model. (@07akioni) - Added an experimental HTTP API endpoint for MCP server status. - Added experimental HTTP API endpoints to list files, read file contents, and check project file status. **Thank you to 1 community contributor:** - @07akioni: - fix: use existingModel as fallback for interleaved field (#24172)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.24</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.24</guid>
+            <pubDate>Fri, 24 Apr 2026 15:53:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.81.0]]></title>
+            <description><![CDATA[### Added - Add GPT-5.5 model support for OpenAI Codex subscription users. ### Fixed - Remove hardcoded "What’s New" fallback items in webview; only remote-configured welcome banners are shown. ### Changed - Improve cline-core memory diagnostics used by the extension runtime: - enable near-heap-limit heap snapshots - add periodic memory usage logging - log discovered heap snapshots on abnormal exits for easier OOM debugging **Full Changelog**: https://github.com/cline/cline/compare/v2.16.0-cli...v3.81.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.81.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.81.0</guid>
+            <pubDate>Fri, 24 Apr 2026 15:53:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.23]]></title>
             <description><![CDATA[## Core - Respect custom .npmrc registry settings when checking package versions and updates. ## TUI - Render all non-synthetic text in a user message instead of showing only the first text block.]]></description>
@@ -3256,13 +3270,6 @@
             <pubDate>Thu, 22 Jan 2026 04:58:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.1.31]]></title>
-            <description><![CDATA[## Core - Mark subagent sessions as agent-initiated to exclude them from quota limits - Add chat.headers hook and update codex and copilot plugins to use it (thanks to @ananas-viber for catching) ## TUI - Add Gruvbox theme to Web and App (@swolg) ## Desktop - Add Traditional Chinese language support and rename Chinese to Chinese (Simplified) (@alexyaroshuk) - Add Russian language support (@alexyaroshuk) - Polish translations in app (@neriousy) **Thank you to 4 community contributors:** - @neriousy: - feat(app): polish translations (#9884) - @alexyaroshuk: - feat(i18n): add Russian language support (#9882) - feat(i18n): add Traditional Chinese language support & rename 'Chinese' to 'Chinese (Simplified)' (#9887) - @swolg: - feat(ui): add gruvbox theme (Web/App) (#9855) - @R44VC0RP: - feat: add daily Discord recaps for issues and PRs (#9904)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.31</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.31</guid>
-            <pubDate>Thu, 22 Jan 2026 02:36:27 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.15.0]]></title>
             <description><![CDATA[## ollama launch A new ollama launch command to use Ollama's models with Claude Code, Codex, OpenCode, and Droid without separate configuration. ## What's Changed * New ollama launch command for Claude Code, Codex, OpenCode, and Droid * Fixed issue where creating multi-line strings with """ would not work when using ollama run * Ctrl + J and Shift + Enter now work for inserting newlines in ollama run * Reduced memory usage for GLM-4.7-Flash models]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.15.0</link>
@@ -4828,13 +4835,6 @@
             <link>https://windsurf.com/changelog/windsurf-next#patch-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes</guid>
             <pubDate>Mon, 01 Sep 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.27.0]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.26.7...v3.27.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.27.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.27.0</guid>
-            <pubDate>Mon, 01 Sep 2025 12:49:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.12.3 — Patch Fixes]]></title>
