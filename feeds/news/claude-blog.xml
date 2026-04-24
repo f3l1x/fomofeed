@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Claude Blog]]></description>
         <link>https://claude.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Apr 2026 18:23:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 05:02:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/claude-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,12 @@
             <link>https://claude.com/blog/connectors-for-everyday-life</link>
             <guid isPermaLink="false">https://claude.com/blog/connectors-for-everyday-life</guid>
             <pubDate>Sat, 05 Dec 2020 08:37:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Built-in memory for Claude Managed Agents]]></title>
+            <link>https://claude.com/blog/claude-managed-agents-memory</link>
+            <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents-memory</guid>
+            <pubDate>Fri, 11 Sep 2020 05:53:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Redesigning Claude Code on desktop for parallel agents]]></title>
@@ -62,12 +68,6 @@
             <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
             <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
             <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Code on the web]]></title>
-            <link>https://claude.com/blog/claude-code-on-the-web</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-code-on-the-web</guid>
-            <pubDate>Sat, 16 May 2020 04:41:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

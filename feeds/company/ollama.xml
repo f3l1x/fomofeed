@@ -4,16 +4,16 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Apr 2026 18:23:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 05:02:35 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 23 Apr 2026 02:29:24 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.21.2]]></title>
-            <description><![CDATA[## What's Changed * docs: Structured outputs and ollama cloud by @madflow in https://github.com/ollama/ollama/pull/15733 * launch: use bundled OpenClaw ollama web search by @ParthSareen in https://github.com/ollama/ollama/pull/15757 ## New Contributors * @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0</guid>
+            <description><![CDATA[## What's Changed * Improved reliability of the OpenClaw onboarding flow in ollama launch * Recommended models in ollama launch now appear in a fixed, canonical order * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw ## New Contributors * @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733 **Full Changelog:** https://github.com/ollama/ollama/compare/v0.21.1...v0.21.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.21.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.21.2</guid>
             <pubDate>Thu, 23 Apr 2026 02:29:24 GMT</pubDate>
         </item>
         <item>
