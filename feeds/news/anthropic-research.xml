@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Apr 2026 16:20:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 18:15:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -69,13 +69,6 @@
             <link>https://www.anthropic.com/research/vibe-physics</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/vibe-physics</guid>
             <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Labor market impacts of AI: A new measure and early evidence]]></title>
-            <description><![CDATA[In this paper, we present a new framework for understanding AI’s labor market impacts, and test it against early data.]]></description>
-            <link>https://www.anthropic.com/research/labor-market-impacts</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/labor-market-impacts</guid>
-            <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Project Vend: Phase two]]></title>
