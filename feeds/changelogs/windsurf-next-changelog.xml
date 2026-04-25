@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Windsurf Next Changelog]]></description>
         <link>https://windsurf.com/changelog/windsurf-next</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Apr 2026 06:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Apr 2026 08:19:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/windsurf-next-changelog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2.1.1010 — Agent Command Center]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#agent-command-center</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#agent-command-center</guid>
+            <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[GPT-5.5]]></title>
             <description><![CDATA[GPT-5.5 is now available in Windsurf.]]></description>
