@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Apr 2026 18:14:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Apr 2026 05:02:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Apr 2026 14:37:03 GMT</pubDate>
+        <pubDate>Sat, 25 Apr 2026 21:44:26 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.126.0-alpha.2]]></title>
+            <description><![CDATA[Release 0.126.0-alpha.2]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.2</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.2</guid>
+            <pubDate>Sat, 25 Apr 2026 21:44:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.25]]></title>
             <description><![CDATA[## Core - Fixed permission config preserving rule order and exposes full IntelliSense for tool permission keys - LSP permission prompts now include request details like the operation, file, and cursor position - Shell commands keep the correct working directory after login shell startup files run - Added Roslyn LSP support for Razor, .cshtml, and C# script files - GPT-5.5 with OpenAI OAuth now uses the correct context limits to avoid compaction issues **Thank you to 2 community contributors:** - @altendky: - fix(opencode): clarify git amend condition to require verifying commit landed (#19937) - @b0o: - fix(build): add prettier to devDependencies (#23255)]]></description>
@@ -1590,13 +1597,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.8</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.8</guid>
             <pubDate>Sat, 21 Mar 2026 21:27:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.117.0-alpha.7]]></title>
-            <description><![CDATA[Release 0.117.0-alpha.7]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.7</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.7</guid>
-            <pubDate>Sat, 21 Mar 2026 17:53:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v3.75.0]]></title>
