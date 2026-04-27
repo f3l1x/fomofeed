@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Apr 2026 08:51:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Apr 2026 14:42:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Apr 2026 04:23:46 GMT</pubDate>
+        <pubDate>Mon, 27 Apr 2026 13:24:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.126.0-alpha.6]]></title>
+            <description><![CDATA[Release 0.126.0-alpha.6]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.6</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.6</guid>
+            <pubDate>Mon, 27 Apr 2026 13:24:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.28]]></title>
             <description><![CDATA[## Core - Fixed issue with opencode upgrade failing for bun installs unless in a directory with package.json]]></description>
@@ -1604,13 +1611,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.11</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.11</guid>
             <pubDate>Tue, 24 Mar 2026 01:40:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.117.0-alpha.9]]></title>
-            <description><![CDATA[Release 0.117.0-alpha.9]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.9</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.9</guid>
-            <pubDate>Mon, 23 Mar 2026 17:15:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.3.0]]></title>
