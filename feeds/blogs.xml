@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Apr 2026 05:08:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Apr 2026 16:36:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Announcing the Dagster+ Terraform Provider]]></title>
+            <description><![CDATA[The Dagster+ Terraform provider lets platform teams manage deployments, access controls, alerting, and more as code. Define entire environments declaratively, review changes through pull requests, and integrate Dagster+ into your existing infrastructure workflows.]]></description>
+            <link>https://dagster.io/blog/announcing-the-dagster-terraform-provider</link>
+            <guid isPermaLink="false">https://dagster.io/blog/announcing-the-dagster-terraform-provider</guid>
+            <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[GLM 5.1 Thinks Strategically, Data-Center Revolt Intensifies, When Helpful LLMs Turn Unhelpful, Humanoid Robots Get to Work]]></title>
             <link>https://www.deeplearning.ai/the-batch/issue-350/</link>
@@ -26,6 +33,7 @@
             <description><![CDATA[AI agents that only understand business definitions without knowing whether the underlying pipeline actually succeeded are confidently wrong and operational context from the orchestrator is the missing piece.]]></description>
             <link>https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</link>
             <guid isPermaLink="false">https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</guid>
+            <category><![CDATA[Product]]></category>
             <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -390,14 +398,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/great-infrastructure-needs-great-stories</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Closing the DataOps Loop: Why We Built Compass for Dagster+]]></title>
-            <description><![CDATA[Detection isn't the bottleneck anymore. Understanding is. Compass closes the loop by turning Dagster+ operational data into a conversation.]]></description>
-            <link>https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</link>
-            <guid isPermaLink="false">https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</guid>
-            <category><![CDATA[Product]]></category>
-            <pubDate>Mon, 02 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenClaw]]></title>
