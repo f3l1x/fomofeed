@@ -4,16 +4,16 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Apr 2026 16:36:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Apr 2026 18:32:26 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 28 Apr 2026 15:00:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.22.0]]></title>
-            <description><![CDATA[## What's Changed * mlxrunner: batch the sampler across multiple sequences by @jessegross in https://github.com/ollama/ollama/pull/15736 * tokenizer: fix multi-regex BPE offset handling by @dhiltgen in https://github.com/ollama/ollama/pull/15844 * mlx: Support NVIDIA TensorRT Model Optimizer import by @dhiltgen in https://github.com/ollama/ollama/pull/15566 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.3-rc0...v0.22.0-rc1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.22.0-rc1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.22.0-rc1</guid>
+            <description><![CDATA[## New models * NVIDIA's Nemotron 3 Omni * Poolside's first open-weight coding model - Laguna XS.2 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.22.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.22.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.22.0</guid>
             <pubDate>Tue, 28 Apr 2026 15:00:25 GMT</pubDate>
         </item>
         <item>
