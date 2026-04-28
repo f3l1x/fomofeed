@@ -4,11 +4,18 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Apr 2026 16:33:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Apr 2026 05:08:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 26 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2.1.1026 — Devin for Terminal]]></title>
+            <description><![CDATA[Devin is now available for Terminal. All Windsurf users can use this new CLI agent with your existing subscription.]]></description>
+            <link>https://windsurf.com/changelog/windsurf-next#devin-for-terminal</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#devin-for-terminal</guid>
+            <pubDate>Sun, 26 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[GPT-5.5]]></title>
             <description><![CDATA[GPT-5.5 is now available in Windsurf.]]></description>
@@ -17,16 +24,16 @@
             <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[2.1.1010 — Agent Command Center]]></title>
-            <link>https://windsurf.com/changelog/windsurf-next#agent-command-center</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#agent-command-center</guid>
-            <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[GPT-5.5]]></title>
             <description><![CDATA[GPT-5.5 is now available in Windsurf.]]></description>
             <link>https://windsurf.com/changelog/windsurf-next#gpt-55</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#gpt-55</guid>
+            <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.1.1010 — Agent Command Center]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#agent-command-center</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#agent-command-center</guid>
             <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -66,13 +73,6 @@
             <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude Opus 4.7]]></title>
-            <description><![CDATA[Claude Opus 4.7 is now available in Windsurf.]]></description>
-            <link>https://windsurf.com/changelog#claude-opus-47</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#claude-opus-47</guid>
-            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[2.0.50 — Bug Fixes and Improvements]]></title>
             <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
@@ -81,14 +81,21 @@
         <item>
             <title><![CDATA[Claude Opus 4.7]]></title>
             <description><![CDATA[Claude Opus 4.7 is now available in Windsurf.]]></description>
-            <link>https://windsurf.com/changelog/windsurf-next#claude-opus-47</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#claude-opus-47</guid>
+            <link>https://windsurf.com/changelog#claude-opus-47</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#claude-opus-47</guid>
             <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2.0.1050 — Bug Fixes and Improvements]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
+            <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Opus 4.7]]></title>
+            <description><![CDATA[Claude Opus 4.7 is now available in Windsurf.]]></description>
+            <link>https://windsurf.com/changelog/windsurf-next#claude-opus-47</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#claude-opus-47</guid>
             <pubDate>Wed, 15 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -140,13 +147,6 @@
             <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.9600.40 — Adaptive Model Visibility]]></title>
-            <description><![CDATA[We've improved the visibility of the adaptive model in the model picker.]]></description>
-            <link>https://windsurf.com/changelog#adaptive-model-visibility</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#adaptive-model-visibility</guid>
-            <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.9600.38 — Introducing Adaptive]]></title>
             <description><![CDATA[We've made several model packaging changes, with more info here.]]></description>
             <link>https://windsurf.com/changelog#introducing-adaptive</link>
@@ -154,10 +154,10 @@
             <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.9600.1040 — Adaptive Model Visibility]]></title>
+            <title><![CDATA[1.9600.40 — Adaptive Model Visibility]]></title>
             <description><![CDATA[We've improved the visibility of the adaptive model in the model picker.]]></description>
-            <link>https://windsurf.com/changelog/windsurf-next#adaptive-model-visibility</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#adaptive-model-visibility</guid>
+            <link>https://windsurf.com/changelog#adaptive-model-visibility</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#adaptive-model-visibility</guid>
             <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -165,6 +165,13 @@
             <description><![CDATA[We've made several model packaging changes, with more info here.]]></description>
             <link>https://windsurf.com/changelog/windsurf-next#introducing-adaptive</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#introducing-adaptive</guid>
+            <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.9600.1040 — Adaptive Model Visibility]]></title>
+            <description><![CDATA[We've improved the visibility of the adaptive model in the model picker.]]></description>
+            <link>https://windsurf.com/changelog/windsurf-next#adaptive-model-visibility</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#adaptive-model-visibility</guid>
             <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -181,27 +188,27 @@
             <pubDate>Wed, 25 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.9577.43 — Quota Billing]]></title>
-            <link>https://windsurf.com/changelog#quota-billing</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#quota-billing</guid>
-            <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.9577.42 — Bug Fixes and Improvements]]></title>
             <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
             <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.9577.1043 — Quota Billing]]></title>
-            <link>https://windsurf.com/changelog/windsurf-next#quota-billing</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#quota-billing</guid>
+            <title><![CDATA[1.9577.43 — Quota Billing]]></title>
+            <link>https://windsurf.com/changelog#quota-billing</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#quota-billing</guid>
             <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.9577.1042 — Bug Fixes and Improvements]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
+            <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.9577.1043 — Quota Billing]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#quota-billing</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#quota-billing</guid>
             <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
@@ -350,13 +357,6 @@
             <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude Sonnet 4.6]]></title>
-            <description><![CDATA[Claude Sonnet 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:]]></description>
-            <link>https://windsurf.com/changelog#claude-sonnet-46</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#claude-sonnet-46</guid>
-            <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.9552.24 — Bug Fixes and Improvements]]></title>
             <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
@@ -365,14 +365,21 @@
         <item>
             <title><![CDATA[Claude Sonnet 4.6]]></title>
             <description><![CDATA[Claude Sonnet 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:]]></description>
-            <link>https://windsurf.com/changelog/windsurf-next#claude-sonnet-46</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#claude-sonnet-46</guid>
+            <link>https://windsurf.com/changelog#claude-sonnet-46</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#claude-sonnet-46</guid>
             <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.9552.1024 — Bug Fixes and Improvements]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
+            <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Sonnet 4.6]]></title>
+            <description><![CDATA[Claude Sonnet 4.6 is now available in Windsurf with limited-time promotional pricing for self serve users:]]></description>
+            <link>https://windsurf.com/changelog/windsurf-next#claude-sonnet-46</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#claude-sonnet-46</guid>
             <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
@@ -422,12 +429,6 @@
             <pubDate>Mon, 02 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.9544.26 — Bug Fixes and Improvements]]></title>
-            <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
-            <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.9544.24 — Wave 14: Arena Mode]]></title>
             <description><![CDATA[Arena Mode brings side-by-side model comparison directly into your IDE, plus Plan Mode for smarter task planning.]]></description>
             <link>https://windsurf.com/changelog#wave-14-arena-mode</link>
@@ -435,9 +436,16 @@
             <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.9544.1026 — Bug Fixes and Improvements]]></title>
-            <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
+            <title><![CDATA[1.9544.26 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
+            <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.9544.1018 — Wave 14: Arena Mode]]></title>
+            <description><![CDATA[Arena Mode brings side-by-side model comparison directly into your IDE, plus Plan Mode for smarter task planning.]]></description>
+            <link>https://windsurf.com/changelog/windsurf-next#wave-14-arena-mode</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#wave-14-arena-mode</guid>
             <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
@@ -447,10 +455,9 @@
             <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.9544.1018 — Wave 14: Arena Mode]]></title>
-            <description><![CDATA[Arena Mode brings side-by-side model comparison directly into your IDE, plus Plan Mode for smarter task planning.]]></description>
-            <link>https://windsurf.com/changelog/windsurf-next#wave-14-arena-mode</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#wave-14-arena-mode</guid>
+            <title><![CDATA[1.9544.1026 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
             <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
@@ -593,16 +600,16 @@
             <pubDate>Fri, 12 Dec 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[1.12.44 — Patch Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog#patch-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#patch-fixes-and-improvements</guid>
+            <pubDate>Thu, 11 Dec 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[1.12.47 — Features]]></title>
             <description><![CDATA[Added a new "Promo" label to LLM models that are newly available or have special discount pricing]]></description>
             <link>https://windsurf.com/changelog#features</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#features</guid>
-            <pubDate>Thu, 11 Dec 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[1.12.44 — Patch Fixes and Improvements]]></title>
-            <link>https://windsurf.com/changelog#patch-fixes-and-improvements</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#patch-fixes-and-improvements</guid>
             <pubDate>Thu, 11 Dec 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
@@ -705,16 +712,16 @@
             <pubDate>Thu, 13 Nov 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[1.12.149 — GPT-5.1 Priority Mode]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#gpt-51-priority-mode</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#gpt-51-priority-mode</guid>
+            <pubDate>Thu, 13 Nov 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[1.12.150 — Worktree Preview]]></title>
             <description><![CDATA[You can now use Windsurf's AI agent with worktrees to explore and modify code across multiple branches simultaneously.]]></description>
             <link>https://windsurf.com/changelog/windsurf-next#worktree-preview</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#worktree-preview</guid>
-            <pubDate>Thu, 13 Nov 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[1.12.149 — GPT-5.1 Priority Mode]]></title>
-            <link>https://windsurf.com/changelog/windsurf-next#gpt-51-priority-mode</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#gpt-51-priority-mode</guid>
             <pubDate>Thu, 13 Nov 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
@@ -786,15 +793,15 @@
             <pubDate>Tue, 21 Oct 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.12.136 — Patch Fixes and Improvements]]></title>
-            <link>https://windsurf.com/changelog/windsurf-next#patch-fixes-and-improvements</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes-and-improvements</guid>
-            <pubDate>Tue, 21 Oct 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.12.133 — Patch Fixes]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#patch-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes</guid>
+            <pubDate>Tue, 21 Oct 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.12.136 — Patch Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#patch-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes-and-improvements</guid>
             <pubDate>Tue, 21 Oct 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -823,13 +830,13 @@
             <pubDate>Wed, 15 Oct 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.12.130 — Patch Fixes]]></title>
+            <title><![CDATA[1.12.129 — Patch Fixes]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#patch-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes</guid>
             <pubDate>Wed, 15 Oct 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.12.129 — Patch Fixes]]></title>
+            <title><![CDATA[1.12.130 — Patch Fixes]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#patch-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes</guid>
             <pubDate>Wed, 15 Oct 2025 22:00:00 GMT</pubDate>
@@ -963,16 +970,16 @@
             <pubDate>Sun, 07 Sep 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.12.4 — Patch Fixes]]></title>
-            <link>https://windsurf.com/changelog#patch-fixes</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#patch-fixes</guid>
-            <pubDate>Tue, 02 Sep 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.12.3 — Deprecation Notice]]></title>
             <description><![CDATA[The Windsurf Browser will be deprecated on Sept 11. We plan to refactor and release a replacement feature in the coming months. Please use Previews instead.]]></description>
             <link>https://windsurf.com/changelog#deprecation-notice</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#deprecation-notice</guid>
+            <pubDate>Tue, 02 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.12.4 — Patch Fixes]]></title>
+            <link>https://windsurf.com/changelog#patch-fixes</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#patch-fixes</guid>
             <pubDate>Tue, 02 Sep 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -1045,13 +1052,13 @@
             <pubDate>Sun, 03 Aug 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.11.105 — Patch Fixes]]></title>
+            <title><![CDATA[1.11.104 — Patch Fixes]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#patch-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes</guid>
             <pubDate>Thu, 31 Jul 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.11.104 — Patch Fixes]]></title>
+            <title><![CDATA[1.11.105 — Patch Fixes]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#patch-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes</guid>
             <pubDate>Thu, 31 Jul 2025 22:00:00 GMT</pubDate>
@@ -1262,22 +1269,15 @@
             <pubDate>Thu, 08 May 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.8.2 — Cascade Customization]]></title>
-            <link>https://windsurf.com/changelog#cascade-customization</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#cascade-customization</guid>
-            <pubDate>Mon, 05 May 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.8.0 — Teams Features]]></title>
             <link>https://windsurf.com/changelog#teams-features</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#teams-features</guid>
             <pubDate>Mon, 05 May 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.8.105 — Patch Fixes]]></title>
-            <description><![CDATA[Based on the latest release of the Windsurf Editor, v1.8.2]]></description>
-            <link>https://windsurf.com/changelog/windsurf-next#patch-fixes</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes</guid>
+            <title><![CDATA[1.8.2 — Cascade Customization]]></title>
+            <link>https://windsurf.com/changelog#cascade-customization</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#cascade-customization</guid>
             <pubDate>Mon, 05 May 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -1285,6 +1285,13 @@
             <description><![CDATA[Based on the latest release of the Windsurf Editor, v1.8.0]]></description>
             <link>https://windsurf.com/changelog/windsurf-next#teams-features</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#teams-features</guid>
+            <pubDate>Mon, 05 May 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.8.105 — Patch Fixes]]></title>
+            <description><![CDATA[Based on the latest release of the Windsurf Editor, v1.8.2]]></description>
+            <link>https://windsurf.com/changelog/windsurf-next#patch-fixes</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#patch-fixes</guid>
             <pubDate>Mon, 05 May 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -1429,9 +1436,9 @@
             <pubDate>Tue, 01 Apr 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.6.115 — Bug Fixes and Improvements]]></title>
-            <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
+            <title><![CDATA[1.6.113 — April 1st Release]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#april-1st-release</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#april-1st-release</guid>
             <pubDate>Mon, 31 Mar 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -1441,9 +1448,9 @@
             <pubDate>Mon, 31 Mar 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.6.113 — April 1st Release]]></title>
-            <link>https://windsurf.com/changelog/windsurf-next#april-1st-release</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#april-1st-release</guid>
+            <title><![CDATA[1.6.115 — Bug Fixes and Improvements]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
             <pubDate>Mon, 31 Mar 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -1634,15 +1641,15 @@
             <pubDate>Tue, 04 Feb 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[1.2.5 — Patch Fixes]]></title>
-            <link>https://windsurf.com/changelog#patch-fixes</link>
-            <guid isPermaLink="false">https://windsurf.com/changelog#patch-fixes</guid>
-            <pubDate>Thu, 30 Jan 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[1.2.4 — New Models: DeepSeek-R1, DeepSeek-V3 and o3-mini]]></title>
             <link>https://windsurf.com/changelog#new-models-deepseek-r1-deepseek-v3-and-o3-mini</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#new-models-deepseek-r1-deepseek-v3-and-o3-mini</guid>
+            <pubDate>Thu, 30 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.2.5 — Patch Fixes]]></title>
+            <link>https://windsurf.com/changelog#patch-fixes</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#patch-fixes</guid>
             <pubDate>Thu, 30 Jan 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
