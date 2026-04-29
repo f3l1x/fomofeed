@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Apr 2026 18:32:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Apr 2026 05:06:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Apr 2026 04:23:46 GMT</pubDate>
+        <pubDate>Tue, 28 Apr 2026 18:34:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.29]]></title>
+            <description><![CDATA[## Core - Sessions now keep a relative workspace path. - Moonshot and Kimi tool schemas are sanitized to avoid rejected tool calls. - MCP OAuth errors now match the native API more closely. - Provider OAuth authorize errors now match the native API more closely. - Shell cancellations now finish cleanly instead of leaving aborted commands in a bad state. - Creating a session over HTTP now works with an empty request body. - Workspace HTTP API routes are now mounted through the bridge. - Tool streaming now defaults off for non-Anthropic models when using the Anthropic SDK. - DeepSeek OpenAI-compatible setups now keep reasoning_content interleaved by default. - The experimental LSP tool now forwards the workspace symbol query. - Google Vertex now defaults tool call streaming off. ## TUI - Zed context polling stays responsive. - Pressing Enter in dialogs now triggers the dialog instead of leaking through. (@CasualDeveloper) - File context is clearer, can be turned off, and clears after sending. - opencode agent create now writes a valid permissions.deny config. (@21pounder) ## Desktop - Per-workspace icon overrides now stay applied for subdirectories in the same repo. - Sync state loading is more reliable for MCP, LSP, and workspace refreshes. **Thank you to 3 community contributors:** - @21pounder: - fix(opencode): agent create generates permissions field with deny ins… (#24482) - @SeashoreShi: - docs: fix duplicated word in CLI env var table (#24614) - @CasualDeveloper: - fix(tui): consume Enter in dialog useKeyboard handlers (#23390)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.29</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.29</guid>
+            <pubDate>Tue, 28 Apr 2026 18:34:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.28]]></title>
             <description><![CDATA[## Core - Fixed issue with opencode upgrade failing for bun installs unless in a directory with package.json]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.37</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.37</guid>
             <pubDate>Wed, 28 Jan 2026 03:59:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.36]]></title>
-            <description><![CDATA[## Core - Enable thinking for Google Vertex Anthropic models (@MichaelYochpaz) - Make question validation more lax to avoid tool call failures ## TUI - Prevent crash when theme search returns no results (@ishaksebsib) ## Desktop - Visual cleanup in app - Scroll to comment on click in app - Fixed crash when no default model is set - Performance improvements in the app package - Clean up comment component usage in app **Thank you to 5 community contributors:** - @MichaelYochpaz: - fix(provider): enable thinking for google-vertex-anthropic models (#10442) - @ProdigyRahul: - fix(app): cursor on resize (#10293) - @DNGriffin: - fix(app): mobile horizontal scrolling due to session stat btn (#10487) - @ishaksebsib: - fix(tui): prevent crash when theme search returns no results (#10565) - @R44VC0RP: - fix(web): add & fix the download button (#10566)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.36</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.36</guid>
-            <pubDate>Sun, 25 Jan 2026 18:14:15 GMT</pubDate>
         </item>
     </channel>
 </rss>

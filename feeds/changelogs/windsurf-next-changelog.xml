@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Windsurf Next Changelog]]></description>
         <link>https://windsurf.com/changelog/windsurf-next</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Apr 2026 18:32:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Apr 2026 05:06:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/windsurf-next-changelog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2.1.1029 — Devin for Terminal]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#devin-for-terminal</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#devin-for-terminal</guid>
+            <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2.1.1026 — Devin for Terminal]]></title>
             <description><![CDATA[Devin is now available for Terminal. All Windsurf users can use this new CLI agent with your existing subscription.]]></description>

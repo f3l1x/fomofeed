@@ -4,11 +4,60 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Apr 2026 18:32:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Apr 2026 05:06:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Apr 2026 16:08:15 GMT</pubDate>
+        <pubDate>Wed, 29 Apr 2026 03:55:53 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.126.0-alpha.13]]></title>
+            <description><![CDATA[Release 0.126.0-alpha.13]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.13</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.13</guid>
+            <pubDate>Wed, 29 Apr 2026 03:55:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.123]]></title>
+            <description><![CDATA[## What's changed - Fixed OAuth authentication failing with a 401 retry loop when CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1 is set]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.123</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.123</guid>
+            <pubDate>Wed, 29 Apr 2026 03:29:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.126.0-alpha.12]]></title>
+            <description><![CDATA[Release 0.126.0-alpha.12]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.12</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.12</guid>
+            <pubDate>Wed, 29 Apr 2026 00:52:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.126.0-alpha.11]]></title>
+            <description><![CDATA[Release 0.126.0-alpha.11]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.11</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.11</guid>
+            <pubDate>Tue, 28 Apr 2026 22:11:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.122]]></title>
+            <description><![CDATA[## What's changed - Added ANTHROPIC_BEDROCK_SERVICE_TIER environment variable to select a Bedrock service tier (default, flex, or priority), sent as the X-Amzn-Bedrock-Service-Tier header - Pasting a PR URL into the /resume search box now finds the session that created that PR (GitHub, GitHub Enterprise, GitLab, and Bitbucket) - /mcp now shows claude.ai connectors hidden by a manually-added server with the same URL, with a hint to remove the duplicate - Clarified the /mcp message shown when an MCP server is still unauthorized after the browser sign-in flow - OpenTelemetry: numeric attributes on api_request/api_error log events are now emitted as numbers, not strings - OpenTelemetry: added claude_code.at_mention log event for @-mention resolution - Fixed /branch producing forks that fail with "tool_use ids were found without tool_result blocks" when the source session contained entries from rewound timelines - Fixed /model not showing the Effort option for Bedrock application inference profile ARNs, and those ARNs not receiving output_config.effort - Fixed Vertex AI / Bedrock returning invalid_request_error: output_config: Extra inputs are not permitted on session-title generation and other structured-output queries - Fixed Vertex AI count_tokens endpoint returning 400 errors for users behind proxy gateways - Fixed spinnerTipsOverride.excludeDefault not suppressing the time-based spinner tips - Fixed ToolSearch missing MCP tools that connected after session start in nonblocking mode - Fixed !exit / !quit in bash mode terminating the CLI instead of running as a shell command - Fixed images sent to newer models being resized to 2576px per side instead of the correct 2000px maximum - Fixed remote control session idle status redrawing twice per second, which could flood tmux -CC control pipes and pause the terminal - Fixed assistant messages appearing blank in some sessions due to a stale view preference - Fixed a malformed hooks entry in settings.json no longer invalidating the entire file - Voice mode: keybindings bound to Caps Lock now show an error since terminals don't deliver Caps Lock as a key event]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.122</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.122</guid>
+            <pubDate>Tue, 28 Apr 2026 22:05:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.22.1]]></title>
+            <description><![CDATA[## What's Changed * mlxrunner: batch the sampler across multiple sequences by @jessegross in https://github.com/ollama/ollama/pull/15736 * tokenizer: fix multi-regex BPE offset handling by @dhiltgen in https://github.com/ollama/ollama/pull/15844 * mlx: Support NVIDIA TensorRT Model Optimizer import by @dhiltgen in https://github.com/ollama/ollama/pull/15566 * app/server: fix desktop app startup killing active ollama launch sessions by @hoyyeva in https://github.com/ollama/ollama/pull/15657 * Model support for batching by @jessegross in https://github.com/ollama/ollama/pull/15814 * New models by @dhiltgen in https://github.com/ollama/ollama/pull/15861 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.3-rc0...v0.22.1-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.22.1-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.22.1-rc0</guid>
+            <pubDate>Tue, 28 Apr 2026 20:30:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.29]]></title>
+            <description><![CDATA[## Core - Sessions now keep a relative workspace path. - Moonshot and Kimi tool schemas are sanitized to avoid rejected tool calls. - MCP OAuth errors now match the native API more closely. - Provider OAuth authorize errors now match the native API more closely. - Shell cancellations now finish cleanly instead of leaving aborted commands in a bad state. - Creating a session over HTTP now works with an empty request body. - Workspace HTTP API routes are now mounted through the bridge. - Tool streaming now defaults off for non-Anthropic models when using the Anthropic SDK. - DeepSeek OpenAI-compatible setups now keep reasoning_content interleaved by default. - The experimental LSP tool now forwards the workspace symbol query. - Google Vertex now defaults tool call streaming off. ## TUI - Zed context polling stays responsive. - Pressing Enter in dialogs now triggers the dialog instead of leaking through. (@CasualDeveloper) - File context is clearer, can be turned off, and clears after sending. - opencode agent create now writes a valid permissions.deny config. (@21pounder) ## Desktop - Per-workspace icon overrides now stay applied for subdirectories in the same repo. - Sync state loading is more reliable for MCP, LSP, and workspace refreshes. **Thank you to 3 community contributors:** - @21pounder: - fix(opencode): agent create generates permissions field with deny ins… (#24482) - @SeashoreShi: - docs: fix duplicated word in CLI env var table (#24614) - @CasualDeveloper: - fix(tui): consume Enter in dialog useKeyboard handlers (#23390)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.29</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.29</guid>
+            <pubDate>Tue, 28 Apr 2026 18:34:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.126.0-alpha.10]]></title>
             <description><![CDATA[Release 0.126.0-alpha.10]]></description>
@@ -36,6 +85,19 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.121</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.121</guid>
             <pubDate>Tue, 28 Apr 2026 00:31:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.1.29 — Devin for Terminal]]></title>
+            <description><![CDATA[Devin is now available for Terminal. All Windsurf users can use this new CLI agent with your existing subscription.]]></description>
+            <link>https://windsurf.com/changelog#devin-for-terminal</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#devin-for-terminal</guid>
+            <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.1.1029 — Devin for Terminal]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#devin-for-terminal</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#devin-for-terminal</guid>
+            <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.126.0-alpha.8]]></title>
@@ -1585,32 +1647,11 @@
             <pubDate>Wed, 25 Mar 2026 07:54:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.117.0-alpha.17]]></title>
-            <description><![CDATA[Release 0.117.0-alpha.17]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.17</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.17</guid>
-            <pubDate>Wed, 25 Mar 2026 07:45:07 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.83]]></title>
             <description><![CDATA[## What's changed - Added managed-settings.d/ drop-in directory alongside managed-settings.json, letting separate teams deploy independent policy fragments that merge alphabetically - Added CwdChanged and FileChanged hook events for reactive environment management (e.g., direnv) - Added sandbox.failIfUnavailable setting to exit with an error when sandbox is enabled but cannot start, instead of running unsandboxed - Added disableDeepLinkRegistration setting to prevent claude-cli:// protocol handler registration - Added CLAUDE_CODE_SUBPROCESS_ENV_SCRUB=1 to strip Anthropic and cloud provider credentials from subprocess environments (Bash tool, hooks, MCP stdio servers) - Added transcript search — press / in transcript mode (Ctrl+O) to search, n/N to step through matches - Added Ctrl+X Ctrl+E as an alias for opening the external editor (readline-native binding; Ctrl+G still works) - Pasted images now insert an [Image #N] chip at the cursor so you can reference them positionally in your prompt - Agents can now declare initialPrompt in frontmatter to auto-submit a first turn - chat:killAgents and chat:fastMode are now rebindable via ~/.claude/keybindings.json - Fixed mouse tracking escape sequences leaking to shell prompt after exit - Fixed Claude Code hanging on exit on macOS - Fixed screen flashing blank after being idle for a few seconds - Fixed a hang when diffing very large files with few common lines — diffs now time out after 5 seconds and fall back gracefully - Fixed a 1–8 second UI freeze on startup when voice input was enabled, caused by eagerly loading the native audio module - Fixed a startup regression where Claude Code would wait ~3s for claude.ai MCP config fetch before proceeding - Fixed --mcp-config CLI flag bypassing allowedMcpServers/deniedMcpServers managed policy enforcement - Fixed claude.ai MCP connectors (Slack, Gmail, etc.) not being available in single-turn --print mode - Fixed caffeinate process not properly terminating when Claude Code exits, preventing Mac from sleeping - Fixed bash mode not activating when tab-accepting !-prefixed command suggestions - Fixed stale slash command selection showing wrong highlighted command after navigating suggestions - Fixed /config menu showing both the search cursor and list selection at the same time - Fixed background subagents becoming invisible after context compaction, which could cause duplicate agents to be spawned - Fixed background agent tasks staying stuck in "running" state when git or API calls hang during cleanup - Fixed --channels showing "Channels are not currently available" on first launch after upgrade - Fixed uninstalled plugin hooks continuing to fire until the next session - Fixed queued commands flickering during streaming responses - Fixed slash commands being sent to the model as text when submitted while a message is processing - Fixed scrollback jumping when collapsed read/search groups finish after scrolling offscreen - Fixed scrollback jumping to top when the model starts or stops thinking - Fixed SDK session history loss on resume caused by hook progress/attachment messages forking the parentUuid chain - Fixed copy-on-select not firing when you release the mouse outside the terminal window - Fixed ghost characters appearing in height-constrained lists when items overflow - Fixed Ctrl+B interfering with readline backward-char at an idle prompt — it now only fires when a foreground task can be backgrounded - Fixed tool result files never being cleaned up, ignoring the cleanupPeriodDays setting - Fixed space key being swallowed for up to 3 seconds after releasing voice hold-to-talk - Fixed ALSA library errors corrupting the terminal UI when using voice mode on Linux without audio hardware (Docker, headless, WSL1) - Fixed voice mode SoX detection on Termux/Android where spawning which is kernel-restricted - Fixed Remote Control sessions showing as Idle in the web session list while actively running - Fixed footer navigation selecting an invisible Remote Control pill in config-driven mode - Fixed memory leak in remote sessions where tool use IDs accumulate indefinitely - Improved Bedrock SDK cold-start latency by overlapping profile fetch with other boot work - Improved --resume memory usage and startup latency on large sessions - Improved plugin startup — commands, skills, and agents now load from disk cache without re-fetching - Improved Remote Control session titles: AI-generated titles now appear within seconds of the first message - Improved WebFetch to identify as Claude-User so site operators can recognize and allowlist Claude Code traffic via robots.txt - Reduced WebFetch peak memory usage for large pages - Reduced scrollback resets in long sessions from once per turn to once per ~50 messages - Faster claude -p startup with unauthenticated HTTP/SSE MCP servers (~600ms saved) - Bash ghost-text suggestions now include just-submitted commands immediately - Increased non-streaming fallback token cap (21k → 64k) and timeout (120s → 300s local) so fallback requests are less likely to be truncated - Interrupting a prompt before any response now automatically restores your input so you can edit and resubmit - /status now works while Claude is responding, instead of being queued until the turn finishes - Plugin MCP servers that duplicate an org-managed connector are now suppressed instead of running a second connection - Linux: respect XDG_DATA_HOME when registering the claude-cli:// protocol handler - Changed "stop all background agents" keybinding from Ctrl+F to Ctrl+X Ctrl+K to stop shadowing readline forward-char - Deprecated TaskOutput tool in favor of using Read on the background task's output file path - [VSCode] Spinner now turns red with "Not responding" when the backend hasn't responded for 60 seconds - [VSCode] Fixed session history not loading correctly when reopening a session via URL or after restart]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.83</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.83</guid>
             <pubDate>Wed, 25 Mar 2026 06:08:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.117.0-alpha.16]]></title>
-            <description><![CDATA[Release 0.117.0-alpha.16]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.16</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.16</guid>
-            <pubDate>Wed, 25 Mar 2026 05:41:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.117.0-alpha.15]]></title>
-            <description><![CDATA[Release 0.117.0-alpha.15]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.15</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.117.0-alpha.15</guid>
-            <pubDate>Wed, 25 Mar 2026 03:26:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.18.3]]></title>
@@ -3208,13 +3249,6 @@
             <link>https://windsurf.com/changelog/windsurf-next#bug-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes</guid>
             <pubDate>Sun, 25 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.36]]></title>
-            <description><![CDATA[## Core - Enable thinking for Google Vertex Anthropic models (@MichaelYochpaz) - Make question validation more lax to avoid tool call failures ## TUI - Prevent crash when theme search returns no results (@ishaksebsib) ## Desktop - Visual cleanup in app - Scroll to comment on click in app - Fixed crash when no default model is set - Performance improvements in the app package - Clean up comment component usage in app **Thank you to 5 community contributors:** - @MichaelYochpaz: - fix(provider): enable thinking for google-vertex-anthropic models (#10442) - @ProdigyRahul: - fix(app): cursor on resize (#10293) - @DNGriffin: - fix(app): mobile horizontal scrolling due to session stat btn (#10487) - @ishaksebsib: - fix(tui): prevent crash when theme search returns no results (#10565) - @R44VC0RP: - fix(web): add & fix the download button (#10566)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.36</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.36</guid>
-            <pubDate>Sun, 25 Jan 2026 18:14:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.32.0]]></title>
@@ -6357,13 +6391,6 @@
             <link>https://windsurf.com/changelog#cascade-memories-web-search-and-docs</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#cascade-memories-web-search-and-docs</guid>
             <pubDate>Thu, 16 Jan 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.7]]></title>
-            <description><![CDATA[## What's Changed * Fixed issue where using two FROM commands in Modelfile * Support importing Command R and Command R+ architectures from safetensors ## New Contributors * @Gloryjaw made their first contribution in https://github.com/ollama/ollama/pull/8438 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.6...v0.5.7]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.7</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.7</guid>
-            <pubDate>Thu, 16 Jan 2025 18:17:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Aider v0.71.0]]></title>
