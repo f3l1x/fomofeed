@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 29 Apr 2026 18:30:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Apr 2026 06:52:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 28 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench]]></title>
+            <link>https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</guid>
+            <pubDate>Tue, 28 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude for Creative Work]]></title>
             <link>https://www.anthropic.com/news/claude-for-creative-work</link>
@@ -212,12 +218,6 @@
             <title><![CDATA[Long-running Claude for scientific computing]]></title>
             <link>https://www.anthropic.com/research/long-running-Claude</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/long-running-Claude</guid>
-            <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Vibe physics: The AI grad student]]></title>
-            <link>https://www.anthropic.com/research/vibe-physics</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/vibe-physics</guid>
             <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
