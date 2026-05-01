@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Apr 2026 18:29:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 May 2026 05:16:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,12 @@
             <description><![CDATA[Google has announced the general availability of Gemini Embedding 2, a unified model that maps text, images, video, audio, and documents into a single semantic space. This model allows developers to process interleaved multimodal inputs in a single request, significantly improving performance for tasks like agentic RAG, visual search, and content moderation. By supporting over 100 languages and offering features like task-specific prefixes and Matryoshka dimensionality reduction, the model provides a highly efficient and accurate foundation for building complex AI agents.]]></description>
             <link>https://developers.googleblog.com/building-with-gemini-embedding-2/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/building-with-gemini-embedding-2/</guid>
+            <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How people ask Claude for personal guidance]]></title>
+            <link>https://www.anthropic.com/research/claude-personal-guidance</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/claude-personal-guidance</guid>
             <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -212,12 +218,6 @@
             <title><![CDATA[Introducing our Science Blog]]></title>
             <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/introducing-anthropic-science</guid>
-            <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Long-running Claude for scientific computing]]></title>
-            <link>https://www.anthropic.com/research/long-running-Claude</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/long-running-Claude</guid>
             <pubDate>Sun, 22 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
