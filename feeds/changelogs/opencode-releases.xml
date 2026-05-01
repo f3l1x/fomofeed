@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 01 May 2026 05:16:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 May 2026 06:54:33 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Apr 2026 23:33:41 GMT</pubDate>
+        <pubDate>Fri, 01 May 2026 06:13:50 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.31]]></title>
+            <description><![CDATA[## Core - Azure setup now prompts for the resource name when needed and saves it with the API key. - Task child sessions now preserve parent external_dir and deny permissions. (@remorses) - Invalid remote MCP URLs now fail with a clear error instead of breaking setup. ## Desktop - Restoring saved messages no longer crashes the app when a model is missing. **Thank you to 1 community contributor:** - @remorses: - fix(opencode): preserve external_dir and deny parent permissions in task child sessions (#23290)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.31</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.31</guid>
+            <pubDate>Fri, 01 May 2026 06:13:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.30]]></title>
             <description><![CDATA[## Core - Fixed missing sessions in Desktop caused by path mismatches, including recovery for existing stored data. - Fixed Azure Responses defaults to avoid reasoning item ordering errors. - Improved DeepSeek compatibility with providers that vary model naming. - Added Mistral Medium 3.5 with reasoning support. (@rubdos) - Made instruction precedence more predictable by applying global instructions before project and skill instructions. - Reconnected editor context when switching to a session in another directory. - Fixed forked sessions so compacted history stays intact. (@spark4862) - Reduced memory growth in long-running bash tool usage. - Sessions now filter to the current path by default, with a setting to show the whole project. - Kept GitHub Copilot model variants in sync with the latest API capabilities. - Fixed Zed selections with UTF-8 text so editor context uses the right ranges. ## TUI - Added a quick toggle for paste summaries. - Invalid custom themes no longer crash the TUI on startup. **Thank you to 3 community contributors:** - @Vect0rM: - docs: add Atomic Chat provider section (#23069) - @spark4862: - fix(session): remap compaction tail_start_id when forking (#24898) - @rubdos: - feat: add Mistral Medium 3.5 with reasoning support (#24996)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.39</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.39</guid>
             <pubDate>Wed, 28 Jan 2026 07:55:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.38]]></title>
-            <description><![CDATA[## Core - Prevent AGENTS.md from being loaded multiple times during parallel tool execution - Bump plugin version - Ensure unsubscribe from PartUpdated is always called in TaskTool (@goniz) - Restore brand integrity of CLI wordmark (@mynameistito) - Add experimental OpenTUI markdown component to app (@remorses) **Thank you to 4 community contributors:** - @remorses: - feat(app): use opentui markdown component behind experimental flag (#10900) - @jamesmurdza: - docs: add Daytona OpenCode plugin to ecosystem (#10917) - @mynameistito: - fix(cli): restore brand integrity of CLI wordmark (#10912) - @goniz: - fix(opencode): ensure unsub(PartUpdated) is always called in TaskTool (#9992)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.38</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.38</guid>
-            <pubDate>Wed, 28 Jan 2026 07:16:02 GMT</pubDate>
         </item>
     </channel>
 </rss>
