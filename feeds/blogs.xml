@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 01 May 2026 16:21:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 May 2026 18:23:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 30 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[GPT-5.5 Outperforms (and Hallucinates), Kimi K2.6 Leads Open LLMs, AI Strains Climate Pledges, Strategic Thinking in LLMs vs. Humans]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-351/</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-351/</guid>
+            <pubDate>Thu, 30 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Continually improving our agent harness]]></title>
             <link>https://cursor.com/blog/continually-improving-agent-harness</link>
@@ -463,12 +469,6 @@
             <link>https://ollama.com/blog/codex</link>
             <guid isPermaLink="false">https://ollama.com/blog/codex</guid>
             <pubDate>Wed, 14 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[LLMs Go To Confession, Automated Scientific Research, What Copilot Users Want, Reasoning For Less]]></title>
-            <link>https://www.deeplearning.ai/the-batch/issue-335/</link>
-            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-335/</guid>
-            <pubDate>Thu, 08 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing DeepLearning.AI Pro]]></title>
