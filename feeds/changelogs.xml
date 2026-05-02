@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 02 May 2026 14:19:58 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 16:16:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 01 May 2026 16:53:44 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 15:34:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.32]]></title>
+            <description><![CDATA[## Core - Shell mode in the prompt stays editable, so backspace, cursor movement, and other editing keys work again. - Fixed HTTP API workspace adapters losing instance context, which could break workspace create, sync, and routing flows. - Fixed experimental workspace creation requests that omit extra. - Fixed OpenAPI parameter schemas so generated clients match the public API. - Unsupported image formats now fall back to text reads instead of being sent as image attachments. (@zeke) - Agents can use the global temp directory without extra permission prompts. - Fixed Bedrock sessions that include reasoning content when switching models. - Session archive timestamps now reject non-finite values, avoiding invalid JSON in API payloads. ## TUI - Reduced startup theme flashing when using the system theme. - The animated logo now avoids subpixel rendering on terminals without truecolor support. **Thank you to 2 community contributors:** - @luojiyin1987: - fix: correct documentation typos (#25260) - @zeke: - fix(read): prevent unsupported image formats from being sending to provider (#21114)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.32</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.32</guid>
+            <pubDate>Sat, 02 May 2026 15:34:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v3.82.0]]></title>
             <description><![CDATA[### Added - Restore VS Code foreground terminal support and settings. - Add latest OpenAI, SAP AI Core, and Z AI models. ### Fixed - Fix hook template JSON escaping. - Improve ripgrep file search error handling. ### Changed - Remove hardcoded model lists from docs. **Full Changelog**: https://github.com/cline/cline/compare/v2.17.0-cli...v3.82.0]]></description>
@@ -3152,13 +3159,6 @@
             <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260128</link>
             <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260128</guid>
             <pubDate>Wed, 28 Jan 2026 09:11:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.39]]></title>
-            <description><![CDATA[## Core - Ensure Copilot plugin properly sets headers for new messages API]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.39</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.39</guid>
-            <pubDate>Wed, 28 Jan 2026 07:55:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.22]]></title>
