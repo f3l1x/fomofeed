@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Windsurf Next Changelog]]></description>
         <link>https://windsurf.com/changelog/windsurf-next</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 01 May 2026 18:22:58 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 05:02:39 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/windsurf-next-changelog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 30 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2.2.1001 — Settings Improvements]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#settings-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#settings-improvements</guid>
+            <pubDate>Thu, 30 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2.1.1032 — Bug Fixes & Improvements]]></title>
             <link>https://windsurf.com/changelog/windsurf-next#bug-fixes--improvements</link>
