@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 02 May 2026 18:17:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 May 2026 05:08:14 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Apr 2026 20:30:57 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 03:34:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.23.0]]></title>
+            <description><![CDATA[## Claude Desktop with Ollama Launch Claude Desktop is now supported with Ollama Launch. Both Claude Cowork and Claude Code are supported within the Claude Desktop App. Claude Code on the terminal can still be accessed through the CLI with: ## What's Changed * Launch Claude Desktop with ollama launch claude * The Ollama app now surfaces featured models from server-driven recommendations * Fixed OpenClaw gateway timeout on Windows by enforcing IPv4 loopback - @UniquePratham * Hardened Metal initialization to gracefully handle ggml kernel compilation failures ## New Contributors * @UniquePratham made their first contribution in https://github.com/ollama/ollama/pull/15726 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.22.1...v0.23.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.23.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.0</guid>
+            <pubDate>Sun, 03 May 2026 03:34:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.22.1]]></title>
             <description><![CDATA[## What's Changed * Updated the **Gemma 4** renderer for thinking and tool calling improvements * Model recommendations are now updated without updating Ollama * Aligned the desktop app's launch page with ollama launch integrations * Fixed the Poolside integration title in ollama launch **Full Changelog**: https://github.com/ollama/ollama/compare/v0.22.0...v0.22.1]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.5.9</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.9</guid>
             <pubDate>Wed, 12 Feb 2025 02:33:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.8]]></title>
-            <description><![CDATA[## What's Changed * Ollama will now use AVX-512 instructions where available for additional CPU acceleration * NVIDIA and AMD GPUs can now be used with CPUs without AVX instructions * Ollama will now use AVX2 instructions with NVIDIA and AMD GPUs * New ollama-darwin.tgz package for macOS that replaces the previous ollama-darwin standalone binary. * Fixed indexing error that would occur when downloading a model with ollama run or ollama pull * Fixes cases where download progress would reverse > [!NOTE] > The steps to build Ollama with GPU acceleration from source have changed. Please see the development documentation for more information. ## New Contributors * @jannikmaierhoefer made their first contribution in https://github.com/ollama/ollama/pull/8455 * @EndoTheDev made their first contribution in https://github.com/ollama/ollama/pull/8487 * @danielpunkass made their first contribution in https://github.com/ollama/ollama/pull/8524 * @lofcz made their first contribution in https://github.com/ollama/ollama/pull/8551 * @XiaofuHuang made their first contribution in https://github.com/ollama/ollama/pull/8604 * @anilkay made their first contribution in https://github.com/ollama/ollama/pull/8767 * @Bert0ns made their first contribution in https://github.com/ollama/ollama/pull/8766 * @melroy89 made their first contribution in https://github.com/ollama/ollama/pull/8802 * @TilmanGriesel made their first contribution in https://github.com/ollama/ollama/pull/8803 * @fallenreaper made their first contribution in https://github.com/ollama/ollama/pull/8746 * @yashwanth2706 made their first contribution in https://github.com/ollama/ollama/pull/8831 * @fyvri made their first contribution in https://github.com/ollama/ollama/pull/8692 * @daniellok-db made their first contribution in https://github.com/ollama/ollama/pull/8811 * @dpereira made their first contribution in https://github.com/ollama/ollama/pull/8714 * @zyphixor made their first contribution in https://github.com/ollama/ollama/pull/8659 * @abhitrueprogrammer made their first contribution in https://github.com/ollama/ollama/pull/8897 * @oslook made their first contribution in https://github.com/ollama/ollama/pull/8084 * @CosmicEventHorizon made their first contribution in https://github.com/ollama/ollama/pull/8883 * @annilq made their first contribution in https://github.com/ollama/ollama/pull/8877 * @LeisureLinux made their first contribution in https://github.com/ollama/ollama/pull/8905 * @kontactguddu made their first contribution in https://github.com/ollama/ollama/pull/8603 * @dravenk made their first contribution in https://github.com/ollama/ollama/pull/8688 * @qusaismael made their first contribution in https://github.com/ollama/ollama/pull/8953 * @hughcrt made their first contribution in https://github.com/ollama/ollama/pull/8975 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.7...v0.5.8]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.8</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.8</guid>
-            <pubDate>Wed, 05 Feb 2025 20:40:08 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 02 May 2026 18:17:56 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 May 2026 05:08:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 02 May 2026 15:34:14 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 03:34:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.23.0]]></title>
+            <description><![CDATA[## Claude Desktop with Ollama Launch Claude Desktop is now supported with Ollama Launch. Both Claude Cowork and Claude Code are supported within the Claude Desktop App. Claude Code on the terminal can still be accessed through the CLI with: ## What's Changed * Launch Claude Desktop with ollama launch claude * The Ollama app now surfaces featured models from server-driven recommendations * Fixed OpenClaw gateway timeout on Windows by enforcing IPv4 loopback - @UniquePratham * Hardened Metal initialization to gracefully handle ggml kernel compilation failures ## New Contributors * @UniquePratham made their first contribution in https://github.com/ollama/ollama/pull/15726 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.22.1...v0.23.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.23.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.0</guid>
+            <pubDate>Sun, 03 May 2026 03:34:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.33]]></title>
+            <description><![CDATA[## Core - Fix issue with custom agents in plugins not loading **Thank you to 3 community contributors:** - @jerome-benoit: - fix(nix): remove stale packages/shared filter (#24930) - @OpeOginni: - docs: CLI docs for current commands and flags (#25399) - @HyeokjaeLee: - fix(instance): restore InstanceBootstrap init parameter for non-Effec… (#25449)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.33</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.33</guid>
+            <pubDate>Sat, 02 May 2026 19:53:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.32]]></title>
             <description><![CDATA[## Core - Shell mode in the prompt stays editable, so backspace, cursor movement, and other editing keys work again. - Fixed HTTP API workspace adapters losing instance context, which could break workspace create, sync, and routing flows. - Fixed experimental workspace creation requests that omit extra. - Fixed OpenAPI parameter schemas so generated clients match the public API. - Unsupported image formats now fall back to text reads instead of being sent as image attachments. (@zeke) - Agents can use the global temp directory without extra permission prompts. - Fixed Bedrock sessions that include reasoning content when switching models. - Session archive timestamps now reject non-finite values, avoiding invalid JSON in API payloads. ## TUI - Reduced startup theme flashing when using the system theme. - The animated logo now avoids subpixel rendering on terminals without truecolor support. **Thank you to 2 community contributors:** - @luojiyin1987: - fix: correct documentation typos (#25260) - @zeke: - fix(read): prevent unsupported image formats from being sending to provider (#21114)]]></description>
@@ -3145,13 +3159,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.23</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.23</guid>
             <pubDate>Thu, 29 Jan 2026 01:09:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.40]]></title>
-            <description><![CDATA[## Core - Add SubtaskPart with metadata reference (@YangTianz) - Add global configuration support to app - Global configuration updates in app package - Bump plugins ## TUI - Add streaming prop to markdown element (@remorses) ## Desktop - Close review pane when pressing escape key - Enable ctrl+n and ctrl+p for popover navigation in desktop app (@sairajchouhan) - Add Thai locale support (@natt-v) - Add custom provider support to app **Thank you to 4 community contributors:** - @natt-v: - feat(i18n): add th locale support (#10809) - @sairajchouhan: - fix(desktop): enable ctrl+n and ctrl+p for popover navigation (#10777) - @YangTianz: - fix: add SubtaskPart with metadata reference (#10990) - @remorses: - fix(markdown): Add streaming prop to markdown element (#11025)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.40</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.40</guid>
-            <pubDate>Wed, 28 Jan 2026 20:57:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Beta Release v1.5.39-beta.20260128]]></title>
@@ -6303,13 +6310,6 @@
             <link>https://github.com/Aider-AI/aider/releases/tag/v0.74.0</link>
             <guid isPermaLink="false">https://github.com/Aider-AI/aider/releases/tag/v0.74.0</guid>
             <pubDate>Thu, 06 Feb 2025 22:43:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.8]]></title>
-            <description><![CDATA[## What's Changed * Ollama will now use AVX-512 instructions where available for additional CPU acceleration * NVIDIA and AMD GPUs can now be used with CPUs without AVX instructions * Ollama will now use AVX2 instructions with NVIDIA and AMD GPUs * New ollama-darwin.tgz package for macOS that replaces the previous ollama-darwin standalone binary. * Fixed indexing error that would occur when downloading a model with ollama run or ollama pull * Fixes cases where download progress would reverse > [!NOTE] > The steps to build Ollama with GPU acceleration from source have changed. Please see the development documentation for more information. ## New Contributors * @jannikmaierhoefer made their first contribution in https://github.com/ollama/ollama/pull/8455 * @EndoTheDev made their first contribution in https://github.com/ollama/ollama/pull/8487 * @danielpunkass made their first contribution in https://github.com/ollama/ollama/pull/8524 * @lofcz made their first contribution in https://github.com/ollama/ollama/pull/8551 * @XiaofuHuang made their first contribution in https://github.com/ollama/ollama/pull/8604 * @anilkay made their first contribution in https://github.com/ollama/ollama/pull/8767 * @Bert0ns made their first contribution in https://github.com/ollama/ollama/pull/8766 * @melroy89 made their first contribution in https://github.com/ollama/ollama/pull/8802 * @TilmanGriesel made their first contribution in https://github.com/ollama/ollama/pull/8803 * @fallenreaper made their first contribution in https://github.com/ollama/ollama/pull/8746 * @yashwanth2706 made their first contribution in https://github.com/ollama/ollama/pull/8831 * @fyvri made their first contribution in https://github.com/ollama/ollama/pull/8692 * @daniellok-db made their first contribution in https://github.com/ollama/ollama/pull/8811 * @dpereira made their first contribution in https://github.com/ollama/ollama/pull/8714 * @zyphixor made their first contribution in https://github.com/ollama/ollama/pull/8659 * @abhitrueprogrammer made their first contribution in https://github.com/ollama/ollama/pull/8897 * @oslook made their first contribution in https://github.com/ollama/ollama/pull/8084 * @CosmicEventHorizon made their first contribution in https://github.com/ollama/ollama/pull/8883 * @annilq made their first contribution in https://github.com/ollama/ollama/pull/8877 * @LeisureLinux made their first contribution in https://github.com/ollama/ollama/pull/8905 * @kontactguddu made their first contribution in https://github.com/ollama/ollama/pull/8603 * @dravenk made their first contribution in https://github.com/ollama/ollama/pull/8688 * @qusaismael made their first contribution in https://github.com/ollama/ollama/pull/8953 * @hughcrt made their first contribution in https://github.com/ollama/ollama/pull/8975 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.7...v0.5.8]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.8</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.8</guid>
-            <pubDate>Wed, 05 Feb 2025 20:40:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.24.0]]></title>
