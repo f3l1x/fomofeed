@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 04 May 2026 08:50:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 14:45:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -183,12 +183,6 @@
             <link>https://www.anthropic.com/research/emotion-concepts-function</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/emotion-concepts-function</guid>
             <pubDate>Wed, 01 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Australian government and Anthropic sign MOU for AI safety and research]]></title>
-            <link>https://www.anthropic.com/news/australia-MOU</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/australia-MOU</guid>
-            <pubDate>Mon, 30 Mar 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Australia Uses Claude: Findings from the Anthropic Economic Index]]></title>
@@ -420,6 +414,12 @@
             <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
             <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
             <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs]]></title>
+            <link>https://www.anthropic.com/news/enterprise-ai-services-company</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
+            <pubDate>Thu, 21 May 2020 18:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>

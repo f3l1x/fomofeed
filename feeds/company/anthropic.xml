@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 04 May 2026 08:50:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 14:45:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 01 May 2026 02:05:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -307,12 +307,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.89</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.89</guid>
             <pubDate>Wed, 01 Apr 2026 01:07:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Australian government and Anthropic sign MOU for AI safety and research]]></title>
-            <link>https://www.anthropic.com/news/australia-MOU</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/australia-MOU</guid>
-            <pubDate>Mon, 30 Mar 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Australia Uses Claude: Findings from the Anthropic Economic Index]]></title>
@@ -1038,6 +1032,12 @@
             <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
             <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
             <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs]]></title>
+            <link>https://www.anthropic.com/news/enterprise-ai-services-company</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
+            <pubDate>Thu, 21 May 2020 18:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>
