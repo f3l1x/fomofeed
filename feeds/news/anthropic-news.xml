@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 04 May 2026 14:45:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 16:33:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs]]></title>
+            <link>https://www.anthropic.com/news/enterprise-ai-services-company</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
+            <pubDate>Sun, 03 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude for Creative Work]]></title>
             <link>https://www.anthropic.com/news/claude-for-creative-work</link>
@@ -71,12 +77,6 @@
             <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-is-a-space-to-think</guid>
             <pubDate>Tue, 03 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs]]></title>
-            <link>https://www.anthropic.com/news/enterprise-ai-services-company</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
-            <pubDate>Thu, 21 May 2020 18:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>
