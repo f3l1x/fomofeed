@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 05 May 2026 16:36:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 May 2026 18:30:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 May 2026 10:57:54 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 17:13:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.23.1]]></title>
+            <description><![CDATA[## Gemma 4 MTP (Multi-token Processing) for the MLX runner Gemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks. ## What's Changed * Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845 * go: bump to 1.26 by @ParthSareen in https://github.com/ollama/ollama/pull/15904 * Add Gemma 4 MTP speculative decoding by @pdevine in https://github.com/ollama/ollama/pull/15980 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.23.1-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.23.1-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.1-rc0</guid>
+            <pubDate>Tue, 05 May 2026 17:13:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.39]]></title>
             <description><![CDATA[## Desktop ### Bugfixes - Respect HTTP_PROXY and related proxy environment variables in the desktop app. - Return null instead of failing when the desktop app cannot read a stored value.]]></description>
@@ -6291,13 +6298,6 @@
             <link>https://windsurf.com/changelog/windsurf-next#multiple-fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#multiple-fixes</guid>
             <pubDate>Wed, 12 Feb 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.9]]></title>
-            <description><![CDATA[## New models - DeepScaleR: A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations. - OpenThinker: A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1. ## What's Changed * Fixed llama runner process has terminated that would occur on Windows due to permissions issues **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.8...v0.5.9]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.9</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.9</guid>
-            <pubDate>Wed, 12 Feb 2025 02:33:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.25.0-rc.1]]></title>
