@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 05 May 2026 08:44:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 May 2026 16:36:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 May 2026 07:26:52 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 10:57:54 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.39]]></title>
+            <description><![CDATA[## Desktop ### Bugfixes - Respect HTTP_PROXY and related proxy environment variables in the desktop app. - Return null instead of failing when the desktop app cannot read a stored value.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.39</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.39</guid>
+            <pubDate>Tue, 05 May 2026 10:57:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.38]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Embedded UI requests now work with arbitrary connect-src origins under the default CSP. ## Desktop ### Bugfixes - Desktop now trusts system CA certificates for HTTPS connections.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.38</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.38</guid>
+            <pubDate>Tue, 05 May 2026 09:48:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.37]]></title>
             <description><![CDATA[## Core ### Bugfixes - Canceling a task now also cancels child subtask sessions. ### Improvements - Improved v2 session rendering with cleaner tool states, better compaction summaries, and more accurate timing. - Warp a session into another workspace or back to the local project. ## Desktop ### Bugfixes - Run the desktop migration on startup so existing installs transition correctly after the desktop packaging move. - Stabilized the Windows titlebar when changing zoom levels.]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.46</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.46</guid>
             <pubDate>Fri, 30 Jan 2026 19:19:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.45]]></title>
-            <description><![CDATA[## Desktop - Free model layout improvements in app]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.45</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.45</guid>
-            <pubDate>Fri, 30 Jan 2026 14:35:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.44]]></title>
-            <description><![CDATA[No notable changes]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.44</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.44</guid>
-            <pubDate>Fri, 30 Jan 2026 04:46:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
