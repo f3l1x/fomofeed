@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 05 May 2026 06:45:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 May 2026 08:44:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 May 2026 01:04:43 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 07:26:52 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.37]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Canceling a task now also cancels child subtask sessions. ### Improvements - Improved v2 session rendering with cleaner tool states, better compaction summaries, and more accurate timing. - Warp a session into another workspace or back to the local project. ## Desktop ### Bugfixes - Run the desktop migration on startup so existing installs transition correctly after the desktop packaging move. - Stabilized the Windows titlebar when changing zoom levels.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.37</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.37</guid>
+            <pubDate>Tue, 05 May 2026 07:26:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.129.0-alpha.6]]></title>
             <description><![CDATA[Release 0.129.0-alpha.6]]></description>
@@ -3106,13 +3113,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.56.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.56.0</guid>
             <pubDate>Fri, 30 Jan 2026 03:52:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.43]]></title>
-            <description><![CDATA[No notable changes]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.43</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.43</guid>
-            <pubDate>Fri, 30 Jan 2026 00:31:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.9544.24 — Wave 14: Arena Mode]]></title>

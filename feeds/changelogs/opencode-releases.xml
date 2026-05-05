@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 05 May 2026 06:45:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 May 2026 08:44:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 May 2026 01:01:50 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 07:26:52 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.37]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Canceling a task now also cancels child subtask sessions. ### Improvements - Improved v2 session rendering with cleaner tool states, better compaction summaries, and more accurate timing. - Warp a session into another workspace or back to the local project. ## Desktop ### Bugfixes - Run the desktop migration on startup so existing installs transition correctly after the desktop packaging move. - Stabilized the Windows titlebar when changing zoom levels.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.37</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.37</guid>
+            <pubDate>Tue, 05 May 2026 07:26:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.35]]></title>
             <description><![CDATA[## Core ### Bugfixes - Preserve diff patch boundaries so session diffs keep rendering correctly when file contents include diff --git text.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.44</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.44</guid>
             <pubDate>Fri, 30 Jan 2026 04:46:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.43]]></title>
-            <description><![CDATA[No notable changes]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.43</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.43</guid>
-            <pubDate>Fri, 30 Jan 2026 00:31:13 GMT</pubDate>
         </item>
     </channel>
 </rss>
