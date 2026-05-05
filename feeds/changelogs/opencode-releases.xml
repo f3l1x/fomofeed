@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 04 May 2026 18:31:59 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 May 2026 05:04:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 02 May 2026 19:53:08 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 01:01:50 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.35]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Preserve diff patch boundaries so session diffs keep rendering correctly when file contents include diff --git text.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.35</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.35</guid>
+            <pubDate>Tue, 05 May 2026 01:01:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.34]]></title>
+            <description><![CDATA[## Core ### Improvements - Add PTY connection tickets so authenticated terminal websockets work more reliably across clients. - Add v2 session failure events so clients can detect and show failed runs. - Improve shell command handling for Bash, PowerShell, and cmd sessions. ### Bugfixes - Return structured error bodies from the effect HTTP server instead of empty failures. - Reload server auth environment variables correctly for each new HTTP listener. - Stop worktree creation from hanging while bootstrap commands run. - Fix Azure Anthropic model resolution when using the Anthropic SDK. - Fix the web UI proxy so public manifest assets load and proxied responses do not break on transfer-encoding. (@OpeOginni) - Allow Codex Spark models when signing in with Codex OAuth. (@Utkub24) - Fix embedded UI serving from the standalone server build. - Fix PTY websocket connections from Desktop when using the HttpApi server. - Respect custom basic auth usernames in opencode clients. - Prompt browsers for basic auth on protected server logins. (@OpeOginni) - Show real server error messages in the CLI and SDK instead of bare {}. - Prevent large diffs from using unbounded memory. - Fix v2 session API responses to encode optional fields correctly. - Fix pagination Link headers to use the real request host. ## TUI ### Improvements - Add debug info to print environment and diagnostic details. ### Bugfixes - Add a --username option for basic-auth server connections. (@OpeOginni) - Pass server auth through internal ACP connections. - Show provider login errors from stderr instead of swallowing them. ## Desktop ### Bugfixes - Prevent terminal reconnect loops after recovery failures. - Preserve auth-token credentials when reopening the app. **Thank you to 4 community contributors:** - @PanAchy: - chore(opencode): exclude .map files from CLI binary build (#25500) - @OpeOginni: - fix(httpapi): add basic auth challenge for browser login - fix(auth): add username option for basic auth in RunCommand (#25600) - fix(opencode): strip transfer-encoding in UI proxy and allow public manifest assets (#25698) - @Utkub24: - fix: allow Codex Spark with Codex OAuth (#25640) - @cgilly2fast: - chore(docs): rename firmware provider to frogbot (#25453)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.34</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.34</guid>
+            <pubDate>Mon, 04 May 2026 23:26:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.33]]></title>
             <description><![CDATA[## Core - Fix issue with custom agents in plugins not loading **Thank you to 3 community contributors:** - @jerome-benoit: - fix(nix): remove stale packages/shared filter (#24930) - @OpeOginni: - docs: CLI docs for current commands and flags (#25399) - @HyeokjaeLee: - fix(instance): restore InstanceBootstrap init parameter for non-Effec… (#25449)]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.43</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.43</guid>
             <pubDate>Fri, 30 Jan 2026 00:31:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.42]]></title>
-            <description><![CDATA[## Core - Revert to Anthropic completions endpoint to avoid rate limiting issues with copilot - Fix frontmatter adding newlines causing invalid model IDs - Ensure that Kimi doesn't have fake variants available - Add sequential numbering for forked session titles (@ariane-emory) ## TUI - Add additional timeout race condition guards - Guard destroyed input field in timeout callback - Include cache tokens in CLI statistics (@bold84) **Thank you to 2 community contributors:** - @bold84: - feat(cli): include cache tokens in stats (#10582) - @ariane-emory: - feat: Sequential numbering for forked session titles (Issue #10105) (#10321)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.42</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.42</guid>
-            <pubDate>Thu, 29 Jan 2026 13:41:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.41]]></title>
-            <description><![CDATA[## Core - Ensure variants for Copilot models work with maxTokens being set - Fixed maxOutputTokens being accidentally hardcoded to undefined which caused kimi-k2.5 issues on some inference providers (@ideallove) - Include provider ID in SDK cache key to prevent cache collisions (@saba-ch) - Allow media-src data: URL for small audio files in Content Security Policy (@tanapok) - Update experimental environment variables in CLI documentation (@bbabou) - Add ctx.abort to grep tool - Add AbortSignal support to Ripgrep.files() and GlobTool (@goniz) ## Desktop - Make settings more responsive for mobile and small web/desktop (@DNGriffin) - Fixed type errors in app package (@Brendonovich) - Auto scroll to file tabs on open and enable mouse wheel scrolling (@alexyaroshuk) - Remove duplicate keys causing TypeScript failures (@eXamadeus) - Normalize Chinese punctuation for Chinese UI (@MaxMiksa) - Fill missing Chinese translation keys to avoid English fallback (@MaxMiksa) - Fix alignment and padding in dialogs (@alexyaroshuk) **Thank you to 12 community contributors:** - @R44VC0RP: - fix(script): remove highlights template from release notes (#11052) - @zerone0x: - fix(ui): allow KaTeX inline math to be followed by punctuation (#11033) - @alexyaroshuk: - fix(app): alignment and padding in dialogs (#10866) - fix(app): file tabs - auto scroll on open & scroll via mouse wheel (#11070) - @MaxMiksa: - fix(app): fill missing zh keys to avoid English fallback (#10841) - fix(opencode): normalize zh punctuation for Chinese UI (#10842) - fix(ui): improve zh duration display formatting (#10844) - @goniz: - fix(opencode): add AbortSignal support to Ripgrep.files() and GlobTool (#10833) - @eXamadeus: - fix(typescript errors): remove duplicate keys causing typescript failures (#11071) - @Brendonovich: - fix(app): types - @bbabou: - docs: update experimental environment variables in CLI docs (#11030) - @DNGriffin: - fix(app): make settings more responsive for mobile and small web/desktop (#10775) - @tanapok: - fix(opencode): allow media-src data: URL for small audio files (#11082) - @saba-ch: - fix(provider): include providerID in SDK cache key (#11020) - @ideallove: - fix: maxOutputTokens was accidentally hardcoded to undefined (#10995)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.41</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.41</guid>
-            <pubDate>Thu, 29 Jan 2026 04:27:49 GMT</pubDate>
         </item>
     </channel>
 </rss>
