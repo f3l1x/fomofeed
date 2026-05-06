@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 May 2026 14:54:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 May 2026 16:32:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 04 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Higher usage limits for Claude and a compute deal with SpaceX]]></title>
+            <link>https://www.anthropic.com/news/higher-limits-spacex</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/higher-limits-spacex</guid>
+            <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Agents for financial services]]></title>
             <link>https://www.anthropic.com/news/finance-agents</link>
@@ -150,12 +156,6 @@
             <description><![CDATA[The Google Cloud AI Agent Bake-Off highlights a shift from simple prompt engineering to rigorous agentic engineering, emphasizing that production-ready AI requires a modular, multi-agent architecture. The post outlines five key developer tips, including decomposing complex tasks into specialized sub-agents and using deterministic code for execution to prevent probabilistic errors. Furthermore, it advises developers to prioritize multimodality and open-source protocols like MCP to ensure agents are scalable, integrated, and future-proof against rapidly evolving model capabilities.]]></description>
             <link>https://developers.googleblog.com/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/</guid>
-            <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors]]></title>
-            <link>https://www.anthropic.com/news/narasimhan-board</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/narasimhan-board</guid>
             <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -362,6 +362,12 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration]]></title>
+            <link>https://claude.com/blog/new-in-claude-managed-agents</link>
+            <guid isPermaLink="false">https://claude.com/blog/new-in-claude-managed-agents</guid>
+            <pubDate>Fri, 17 Jul 2020 01:50:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[New connectors in Claude for everyday life]]></title>
             <link>https://claude.com/blog/connectors-for-everyday-life</link>
             <guid isPermaLink="false">https://claude.com/blog/connectors-for-everyday-life</guid>
@@ -414,12 +420,6 @@
             <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
             <guid isPermaLink="false">https://claude.com/blog/improving-frontend-design-through-skills</guid>
             <pubDate>Wed, 12 Feb 2020 00:12:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building AI agents for financial services]]></title>
-            <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
-            <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
-            <pubDate>Sun, 27 Dec 2020 12:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>
