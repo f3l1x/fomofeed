@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Editor Changelog]]></description>
         <link>https://windsurf.com/changelog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 May 2026 16:32:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 May 2026 18:44:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/windsurf-changelog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2.2.17 — Devin Review & Quick Review]]></title>
+            <description><![CDATA[All Windsurf IDE users now have access to Devin Review and Quick Review with your existing subscription.]]></description>
+            <link>https://windsurf.com/changelog#devin-review--quick-review</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#devin-review--quick-review</guid>
+            <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2.1.32 — Bug Fixes & Improvements]]></title>
             <link>https://windsurf.com/changelog#bug-fixes--improvements</link>
