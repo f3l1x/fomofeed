@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 May 2026 18:44:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 May 2026 05:08:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Fast and Comprehensive Code Review, Now in Windsurf]]></title>
+            <description><![CDATA[Devin Review and Quick Review bring verification into the same workspace where you write code.]]></description>
+            <link>https://windsurf.com/blog/devin-review-windsurf</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/devin-review-windsurf</guid>
+            <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Windsurf 2.0: Introducing the Agent Command Center and Devin in Windsurf]]></title>
             <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
@@ -50,13 +57,6 @@
             <link>https://windsurf.com/blog/sonnet-4.6</link>
             <guid isPermaLink="false">https://windsurf.com/blog/sonnet-4.6</guid>
             <pubDate>Mon, 16 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GLM-5 and Minimax M2.5 are now available in Windsurf]]></title>
-            <description><![CDATA[GLM-5 from Zhipu AI and Minimax M2.5 are now available in Windsurf with limited-time promotional pricing. Both models are included in Arena Mode's Frontier Arena and Hybrid Arena battle groups.]]></description>
-            <link>https://windsurf.com/blog/glm-5-minimax-m2.5</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/glm-5-minimax-m2.5</guid>
-            <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

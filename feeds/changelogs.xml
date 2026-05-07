@@ -4,11 +4,46 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 May 2026 18:44:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 May 2026 05:08:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 06 May 2026 07:48:13 GMT</pubDate>
+        <pubDate>Thu, 07 May 2026 03:45:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.129.0-alpha.14]]></title>
+            <description><![CDATA[Release 0.129.0-alpha.14]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.129.0-alpha.14</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.129.0-alpha.14</guid>
+            <pubDate>Thu, 07 May 2026 03:45:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.129.0-alpha.13]]></title>
+            <description><![CDATA[Release 0.129.0-alpha.13]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.129.0-alpha.13</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.129.0-alpha.13</guid>
+            <pubDate>Thu, 07 May 2026 02:28:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.40]]></title>
+            <description><![CDATA[## Core ### Improvements - Support .well-known/opencode configs that point to a separate remote config file. ### Bugfixes - Preserve assistant text when replaying signed reasoning blocks. (@edevil) - Return consistent not-found errors for missing sessions. - Apply CORS headers before auth so browser clients can reach legacy server endpoints. - Fix serve, web, and ACP network options triggering runtime re-entry errors. - Only show connected workspaces in warp flows, and carry the new directory into the session after warping. - Restore web terminal CSP allowances. - Sanitize invalid surrogate characters before provider transforms. - Fix Cloudflare AI Gateway provider options for OpenAI-compatible models. (@NathanDrake2406) - Use the current workspace with /new, including local-project warps. - Keep editor selection context stable until it is sent. - Retry server_is_overloaded API errors automatically. - Restore Mistral Medium 3.5 variants so model selection works correctly. - Show compaction summaries before retained tail messages. ## TUI ### Bugfixes - Keep the selected model when model data refreshes. - Fix /agent create to use the /agents path. (@OpeOginni) ## Desktop ### Improvements - Allow trusted app windows to write to the clipboard without permission failures. ### Bugfixes - Ignore broken pipe (EPIPE) errors in desktop console logging. - Stop auto-installing updates when quitting the app. - Silence noisy browser API Sentry reports in production. - Prevent sync bootstrap queries from failing during app startup. **Thank you to 6 community contributors:** - @OpeOginni: - fix(TUI): update agent create target path from "/agent" to "/agents" (#14427) - @NathanDrake2406: - fix(cf-ai-gateway): route provider options through openaiCompatible key (#24432) (#25573) - @imduchuyyy: - docs: update desktop app references from Tauri to Electron (#25965) - @kill74: - docs: fix CLI attach section order (#25749) - @zharinov: - fix(ui): preserve SVG tags in DOMPurify config for KaTeX math rendering (#25866) - @edevil: - fix(provider): preserve assistant message content when reasoning blocks present (#21370)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.40</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.40</guid>
+            <pubDate>Thu, 07 May 2026 00:34:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.132]]></title>
+            <description><![CDATA[## What's changed - Added CLAUDE_CODE_SESSION_ID environment variable to the Bash tool subprocess environment, matching the session_id passed to hooks - Added CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN=1 env var to opt out of the fullscreen alternate-screen renderer and keep the conversation in the terminal's native scrollback - Added a "Pasting…" footer hint while a Ctrl+V image paste is being read from the clipboard - Fixed external SIGINT (e.g. IDE stop button, kill -INT) not running graceful shutdown — terminal modes are now restored and the --resume hint is printed instead of an abrupt exit - Fixed an uncaught exception when the terminal is closed or SSH disconnects mid-session under the native build - Fixed --resume failing with no low surrogate in string when a tool error truncation split an emoji; pre-corrupted sessions are sanitized on load - Fixed --permission-mode flag being ignored when resuming a plan-mode session with -p --continue/--resume, and plan mode not being re-applied after ExitPlanMode within the same session - Fixed fullscreen mode showing a blank screen after laptop sleep/wake or Ctrl+Z/fg until the next keystroke or stream output - Fixed cursor landing mid-grapheme on Ctrl+E/A/K/U/arrow keys when an Indic conjunct or ZWJ emoji wraps across lines - Fixed vim operators corrupting text containing decomposed (NFD) accented characters - Fixed pasting text starting with / silently swallowing the input or triggering an unknown-command reply - Fixed pasting dumping stray escape sequences into the prompt when focus events or mouse-tracking reports interleave with the bracketed paste - Fixed mouse wheel scrolling being too fast in Cursor and VS Code 1.92–1.104 due to an upstream xterm.js bug - Fixed scroll-wheel handling in JetBrains IDE 2025.2 terminals (spurious arrow keys, wrong-direction events, runaway acceleration) - Fixed /usage Ctrl+S hanging when copying the stats screenshot to the clipboard on Linux/X11 - Fixed /terminal-setup showing a contradictory error in Windows Terminal — Shift+Enter is natively supported there - Fixed /effort picker not reflecting the CLAUDE_CODE_EFFORT_LEVEL env var override - Fixed /status showing the wrong default model for some users - Fixed slash command autocomplete popup being capped at ~3–5 visible commands instead of scaling with terminal height - Fixed statusline context_window token counts reflecting cumulative session totals instead of current context usage - Fixed Alt+T (thinking toggle) not working on macOS terminals without "Option as Meta" enabled (iTerm2, Terminal.app defaults) - Fixed dead keyboard input on Windows after re-opening a background session from claude agents - Fixed unbounded memory growth (10GB+ RSS) when a stdio MCP server writes non-protocol data to stdout - Fixed MCP servers that connect but fail tools/list silently showing 0 tools — they now retry once and show "connected · tools fetch failed" in /mcp - Fixed unauthorized claude.ai MCP connectors showing as "failed" instead of "needs auth", and headless -p mode retrying non-transient 4xx connection failures - Improved visual consistency in slash command dialogs and /login, /upgrade, /extra-usage dialog spacing - Updated the /tui fullscreen startup banner to describe additional renderer benefits (lower memory usage, mouse support, auto-copy on select) - Fixed Bedrock and Vertex 400 errors when ENABLE_PROMPT_CACHING_1H is set]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.132</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.132</guid>
+            <pubDate>Wed, 06 May 2026 22:08:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.129.0-alpha.12]]></title>
+            <description><![CDATA[Release 0.129.0-alpha.12]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.129.0-alpha.12</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.129.0-alpha.12</guid>
+            <pubDate>Wed, 06 May 2026 21:40:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.129.0-alpha.10]]></title>
             <description><![CDATA[Release 0.129.0-alpha.10]]></description>
@@ -73,7 +108,7 @@
         </item>
         <item>
             <title><![CDATA[v0.23.1]]></title>
-            <description><![CDATA[## Gemma 4 MTP (Multi-token Processing) for the MLX runner Gemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks. ## What's Changed * Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845 * go: bump to 1.26 by @ParthSareen in https://github.com/ollama/ollama/pull/15904 * Add Gemma 4 MTP speculative decoding by @pdevine in https://github.com/ollama/ollama/pull/15980 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.23.1-rc0]]></description>
+            <description><![CDATA[## Gemma 4 MTP (Multi-token Processing) for the MLX runner Gemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks. ## What's Changed * Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845 * go: bump to 1.26 by @ParthSareen in https://github.com/ollama/ollama/pull/15904 * Add Gemma 4 MTP speculative decoding by @pdevine in https://github.com/ollama/ollama/pull/15980 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.23.1]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.23.1</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.1</guid>
             <pubDate>Tue, 05 May 2026 17:13:31 GMT</pubDate>
@@ -1491,32 +1526,11 @@
             <pubDate>Thu, 02 Apr 2026 23:45:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.119.0-alpha.5]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.5]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.5</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.5</guid>
-            <pubDate>Thu, 02 Apr 2026 20:01:01 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.20.0]]></title>
             <description><![CDATA[## Gemma 4 **Effective 2B (E2B)** **Effective 4B (E4B)** **26B (Mixture of Experts model with 4B active parameters)** **31B (Dense)** ## What's Changed * docs: update pi docs by @ParthSareen in https://github.com/ollama/ollama/pull/15152 * mlx: respect tokenizer add_bos_token setting in pipeline by @dhiltgen in https://github.com/ollama/ollama/pull/15185 * tokenizer: add SentencePiece-style BPE support by @dhiltgen in https://github.com/ollama/ollama/pull/15162 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.19.0...v0.20.0-rc0]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.20.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.0</guid>
             <pubDate>Thu, 02 Apr 2026 16:54:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.4]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.4]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.4</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.4</guid>
-            <pubDate>Thu, 02 Apr 2026 15:33:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.3]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.3]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.3</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.3</guid>
-            <pubDate>Thu, 02 Apr 2026 02:43:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.90]]></title>
@@ -3121,13 +3135,6 @@
             <pubDate>Fri, 30 Jan 2026 20:38:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.1.46]]></title>
-            <description><![CDATA[## Core - Remove unused experimental keys from TUI (@IdrisGit) - Add continuous integration configuration - Remove AI SDK middleware that was preventing think blocks from being sent back as assistant message content ## Desktop - Change language test in app (@neriousy) - Add transitions, spacing improvements, scroll fade effects, and prompt area updates (@aaroniker) **Thank you to 3 community contributors:** - @aaroniker: - feat: Transitions, spacing, scroll fade, prompt area update (#11168) - @neriousy: - test(app): change language test (#11295) - @IdrisGit: - chore(tui): remove unused experimental keys (#11195)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.46</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.46</guid>
-            <pubDate>Fri, 30 Jan 2026 19:19:51 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[CLI Beta Release v1.5.39-beta.20260130]]></title>
             <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
             <link>https://github.com/continuedev/continue/releases/tag/v1.5.39-beta.20260130</link>
@@ -3823,13 +3830,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.1</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.1</guid>
             <pubDate>Wed, 07 Jan 2026 21:31:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.0.76]]></title>
-            <description><![CDATA[## What's changed - Fixed issue with macOS code-sign warning when using Claude in Chrome integration]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.0.76</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.0.76</guid>
-            <pubDate>Wed, 07 Jan 2026 20:37:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Beta Release v1.5.29-beta.20260107]]></title>
