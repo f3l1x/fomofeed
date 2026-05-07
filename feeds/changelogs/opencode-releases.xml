@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 07 May 2026 05:08:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 May 2026 14:57:26 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 May 2026 00:34:11 GMT</pubDate>
+        <pubDate>Thu, 07 May 2026 14:52:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.41]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Restored formatter output handling so formatting still works when formatters write to stdout or stderr. (@ferdinandyb) ### Improvements - Warping a session to another workspace can now carry over your uncommitted file changes. ## TUI ### Bugfixes - Restored custom provider setup in /connect. ## Desktop ### Bugfixes - Added a macOS Settings menu entry. (@jessedi0n) ### Improvements - Moved the desktop app's local server into a separate utility process for more reliable startup and shutdown. ## Extensions ### Improvements - ACP clients now restore the last model, mode, and effort when loading sessions, and can close sessions cleanly. **Thank you to 4 community contributors:** - @carmithersh: - docs: add opencode-jfrog-plugin to ecosystem list for JFrog integration (#26019) - @jessedi0n: - fix(desktop): add macOS settings menu entry (#26081) - @ferdinandyb: - fix(format): restore stdout/stderr ignore for formatter processes (#26037) - @YGoetschel: - fix: guard undefined contents in diff renderer to fix share viewer SSR crash (#21763)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.41</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.41</guid>
+            <pubDate>Thu, 07 May 2026 14:52:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.40]]></title>
             <description><![CDATA[## Core ### Improvements - Support .well-known/opencode configs that point to a separate remote config file. ### Bugfixes - Preserve assistant text when replaying signed reasoning blocks. (@edevil) - Return consistent not-found errors for missing sessions. - Apply CORS headers before auth so browser clients can reach legacy server endpoints. - Fix serve, web, and ACP network options triggering runtime re-entry errors. - Only show connected workspaces in warp flows, and carry the new directory into the session after warping. - Restore web terminal CSP allowances. - Sanitize invalid surrogate characters before provider transforms. - Fix Cloudflare AI Gateway provider options for OpenAI-compatible models. (@NathanDrake2406) - Use the current workspace with /new, including local-project warps. - Keep editor selection context stable until it is sent. - Retry server_is_overloaded API errors automatically. - Restore Mistral Medium 3.5 variants so model selection works correctly. - Show compaction summaries before retained tail messages. ## TUI ### Bugfixes - Keep the selected model when model data refreshes. - Fix /agent create to use the /agents path. (@OpeOginni) ## Desktop ### Improvements - Allow trusted app windows to write to the clipboard without permission failures. ### Bugfixes - Ignore broken pipe (EPIPE) errors in desktop console logging. - Stop auto-installing updates when quitting the app. - Silence noisy browser API Sentry reports in production. - Prevent sync bootstrap queries from failing during app startup. **Thank you to 6 community contributors:** - @OpeOginni: - fix(TUI): update agent create target path from "/agent" to "/agents" (#14427) - @NathanDrake2406: - fix(cf-ai-gateway): route provider options through openaiCompatible key (#24432) (#25573) - @imduchuyyy: - docs: update desktop app references from Tauri to Electron (#25965) - @kill74: - docs: fix CLI attach section order (#25749) - @zharinov: - fix(ui): preserve SVG tags in DOMPurify config for KaTeX math rendering (#25866) - @edevil: - fix(provider): preserve assistant message content when reasoning blocks present (#21370)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.48</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.48</guid>
             <pubDate>Sat, 31 Jan 2026 13:48:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.47]]></title>
-            <description><![CDATA[## Core - I need to see the actual commit message to summarize it. Could you please provide the commit message you'd like me to summarize for the changelog entry?]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.47</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.47</guid>
-            <pubDate>Fri, 30 Jan 2026 21:06:55 GMT</pubDate>
         </item>
     </channel>
 </rss>
