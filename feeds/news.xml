@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 07 May 2026 16:35:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 May 2026 18:37:34 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Natural Language Autoencoders: Turning Claude’s thoughts into text]]></title>
+            <description><![CDATA[AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text.]]></description>
+            <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
+            <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Focus areas for The Anthropic Institute]]></title>
             <link>https://www.anthropic.com/research/anthropic-institute-agenda</link>
@@ -215,12 +222,6 @@
             <pubDate>Mon, 23 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Anthropic Economic Index report: Learning curves]]></title>
-            <link>https://www.anthropic.com/research/economic-index-march-2026-report</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-march-2026-report</guid>
-            <pubDate>Mon, 23 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Eval awareness in Claude Opus 4.6’s BrowseComp performance]]></title>
             <link>https://www.anthropic.com/engineering/eval-awareness-browsecomp</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/eval-awareness-browsecomp</guid>
@@ -335,13 +336,6 @@
             <link>https://www.anthropic.com/engineering/claude-think-tool</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-think-tool</guid>
             <pubDate>Wed, 19 Mar 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Constitutional Classifiers: Defending against universal jailbreaks]]></title>
-            <description><![CDATA[These classifiers filter the overwhelming majority of jailbreaks while maintaining practical deployment. A prototype withstood over 3,000 hours of red teaming with no universal jailbreak discovered.]]></description>
-            <link>https://www.anthropic.com/research/constitutional-classifiers</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/constitutional-classifiers</guid>
-            <pubDate>Sun, 02 Feb 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet]]></title>
