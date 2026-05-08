@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 07 May 2026 18:37:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 May 2026 05:02:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 May 2026 17:13:31 GMT</pubDate>
+        <pubDate>Thu, 07 May 2026 20:23:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.23.2]]></title>
+            <description><![CDATA[## What's Changed * ollama launch no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. * Use ollama launch claude-desktop --restore to restore Claude Desktop to its normal state. * /api/show responses are now cached, improving median latency by **~6.7x** which will increase load speed for integrations like VS Code. * Improved backup workflow when managing launch integrations * Cleaner image generation layout in the MLX runner **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.1...v0.23.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.23.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.2</guid>
+            <pubDate>Thu, 07 May 2026 20:23:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.23.1]]></title>
             <description><![CDATA[## Gemma 4 MTP (Multi-token Processing) for the MLX runner Gemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks. ## What's Changed * Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845 * go: bump to 1.26 by @ParthSareen in https://github.com/ollama/ollama/pull/15904 * Add Gemma 4 MTP speculative decoding by @pdevine in https://github.com/ollama/ollama/pull/15980 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.23.1]]></description>
@@ -869,13 +876,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.5.11</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.11</guid>
             <pubDate>Fri, 14 Feb 2025 08:25:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.10]]></title>
-            <description><![CDATA[## What's Changed * Fixed issue on multi-GPU Windows and Linux machines where memory estimations would be incorrect **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.9...v0.5.10]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.10</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.10</guid>
-            <pubDate>Fri, 14 Feb 2025 04:14:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Structured outputs]]></title>
