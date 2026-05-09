@@ -4,11 +4,18 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 09 May 2026 05:05:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 May 2026 06:43:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 09 May 2026 00:11:04 GMT</pubDate>
+        <pubDate>Sat, 09 May 2026 06:33:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.138]]></title>
+            <description><![CDATA[## What's changed - Internal fixes]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.138</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.138</guid>
+            <pubDate>Sat, 09 May 2026 06:33:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.137]]></title>
             <description><![CDATA[## What's changed - [VSCode] Fixed extension failing to activate on Windows]]></description>
@@ -870,13 +877,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.5</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.5</guid>
             <pubDate>Mon, 12 Jan 2026 18:48:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.4]]></title>
-            <description><![CDATA[## What's changed - Added CLAUDE_CODE_DISABLE_BACKGROUND_TASKS environment variable to disable all background task functionality including auto-backgrounding and the Ctrl+B shortcut - Fixed "Help improve Claude" setting fetch to refresh OAuth and retry when it fails due to a stale OAuth token]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.4</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.4</guid>
-            <pubDate>Sun, 11 Jan 2026 00:28:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Demystifying evals for AI agents]]></title>
