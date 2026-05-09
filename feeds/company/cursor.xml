@@ -4,18 +4,11 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 08 May 2026 18:29:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 May 2026 05:05:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
-        <item>
-            <title><![CDATA[Updates to Bugbot for Teams and Individuals]]></title>
-            <link>https://cursor.com/blog/may-2026-bugbot-changes</link>
-            <guid isPermaLink="false">https://cursor.com/blog/may-2026-bugbot-changes</guid>
-            <category><![CDATA[product]]></category>
-            <pubDate>Thu, 07 May 2026 22:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[Bootstrapping Composer with autoinstall]]></title>
             <link>https://cursor.com/blog/bootstrapping-composer-with-autoinstall</link>
@@ -105,6 +98,13 @@
             <guid isPermaLink="false">https://cursor.com/blog/cursor-3</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Wed, 01 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A technical report on Composer 2]]></title>
+            <link>https://cursor.com/blog/composer-2-technical-report</link>
+            <guid isPermaLink="false">https://cursor.com/blog/composer-2-technical-report</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Thu, 26 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Composer 2]]></title>

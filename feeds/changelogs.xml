@@ -4,11 +4,53 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 08 May 2026 18:29:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 May 2026 05:05:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 08 May 2026 16:08:18 GMT</pubDate>
+        <pubDate>Sat, 09 May 2026 04:36:38 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.131.0-alpha.2]]></title>
+            <description><![CDATA[Release 0.131.0-alpha.2]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.2</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.2</guid>
+            <pubDate>Sat, 09 May 2026 04:36:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.131.0-alpha.1]]></title>
+            <description><![CDATA[Release 0.131.0-alpha.1]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.1</guid>
+            <pubDate>Sat, 09 May 2026 00:30:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.137]]></title>
+            <description><![CDATA[## What's changed - [VSCode] Fixed extension failing to activate on Windows]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.137</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.137</guid>
+            <pubDate>Sat, 09 May 2026 00:11:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.130.0]]></title>
+            <description><![CDATA[## New Features - Plugin details now show bundled hooks, and plugin sharing exposes link metadata plus discoverability controls. (#21447, #21495, #21637) - Added codex remote-control as a simpler entrypoint for starting a headless, remotely controllable app-server. (#21424) - App-server clients can page large threads with unloaded, summary, or full turn item views. (#21566) - Bedrock auth can now use AWS console-login credentials from aws login profiles. (#21623) - view_image can resolve files through the selected environment for multi-environment sessions. (#21143) ## Bug Fixes - Live app-server threads now pick up config changes without requiring a restart. (#21187) - Turn diffs stay accurate across apply-patch operations, including partial failures that still mutated files. (#21180, #21518) - Thread summaries, renames, resume, and fork paths work better through ThreadStore, including threads without local rollout paths. (#21264, #21265, #21266) - Remote compaction now emits response.processed for v2 streams and avoids sending service_tier on API-key compact requests. (#21642, #21676) - Windows sandbox setup now grants sandbox users access to the desktop runtime binary cache. (#21564) - Removed stale “research preview” wording from the codex exec startup banner. (#21683) ## Documentation - Fixed issue templates so CLI reports keep the intended guidance, labels apply correctly, and feature requests link to the right contributing docs. (#21685, #21686, #21688) - Updated install and tooling docs to consistently use cargo install --locked. (#21592) ## Chores - Added a faster Cargo profiling build profile and disabled empty doctest targets to speed up Rust development loops. (#21574, #21584) - Hardened dependency and CI hygiene with fully qualified GitHub Action pins, a Dependabot cooldown, and a cargo-shear upgrade. (#21436, #21547, #21599) - Simplified internal surfaces by removing unused device-key APIs, extra skills roots, the remote thread-store implementation, and string-keyed MCP tool maps. (#21487, #21485, #21596, #21454) - Added configurable OpenTelemetry trace metadata and richer review/feedback analytics for better debugging and triage. (#21556, #18747, #21434, #21498) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.129.0...rust-v0.130.0 - #21494 [codex] fix PluginListParams test initializer @xli-oai - #21447 Show plugin hooks in plugin details @abhinav-oai - #21356 feat: make built-in MCPs first-class runtime servers @jif-oai - #21180 Make turn diff tracking operation backed @jif-oai - #21498 [codex] add account id to feedback uploads @pakrym-oai - #21487 device-key: clean up unused crate @euroelessar - #21518 fix: preserve exact turn diffs after partial apply_patch failures @jif-oai - #18747 [codex-analytics] add tool review event schema @rhan-oai - #21495 feat: Expose plugin share metadata in shareContext @xl-openai - #21454 [codex] Remove string-keyed MCP tool maps @pakrym-oai - #21424 add top-level remote-control command @owenlin0 - #21187 app-server: refresh live threads from latest config snapshot @jif-oai - #21461 [codex] Move tool specs onto handlers @pakrym-oai - #21547 Upgrade cargo-shear to 1.11.2 @charliemarsh-oai - #21264 Move thread name edits to ThreadStore @wiltzius-openai - #21266 [codex] Fix pathless thread summaries @wiltzius-openai - #21265 Route ThreadManager rollout path reads through thread store @wiltzius-openai - #21564 Grant sandbox users access to desktop runtime bin @iceweasel-oai - #21582 Use descriptive names for Cargo profile options @zanie-oai - #21574 Add a Cargo build profile for benchmarking @zanie-oai - #21436 [codex] Fully qualify hash-pins in GitHub Actions @ww-oai - #21592 Ensure all mentions of cargo-install are --locked @gankra-oai - #21584 Disable empty Cargo test targets @charliemarsh-oai - #21566 feat(app-server, threadstore): Thread pagination APIs and ThreadStore contract @owenlin0 - #21556 codex-otel: add configurable trace metadata @bbrown-oai - #21599 [codex] Apply a Dependabot cooldown of 7 days @ww-oai - #21602 Use --locked in cargo build and lint invocations @zanie-oai - #20664 Add stdio exec-server client transport @starr-openai - #21596 [codex] Remove remote thread store implementation @wiltzius-openai - #20665 Make environment providers own default selection @starr-openai - #21143 Route view_image through selected environments @starr-openai - #20666 Add CODEX_HOME environments TOML provider @starr-openai - #21642 Send response.processed after remote compaction v2 @pakrym-oai - #21646 Revert "Use --locked in cargo build and lint invocations" @pakrym-oai - #21434 [codex-analytics] plumb protocol-native review timing @rhan-oai - #21485 Remove skills list extra roots @xli-oai - #21623 feat: enable AWS login credentials for Bedrock auth @celia-oai - #21637 feat: Update plugin share settings with discoverability @xl-openai - #21685 Fix duplicate CLI issue template description @etraut-openai - #21686 Fix issue template labels @etraut-openai - #21688 Fix feature request Contributing link @etraut-openai - #21683 Remove exec research preview banner wording @etraut-openai - #21676 Omit service_tier from remote /responses/compact requests under API auth @aibrahim-oai]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.130.0</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.130.0</guid>
+            <pubDate>Fri, 08 May 2026 23:09:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.130.0-alpha.10]]></title>
+            <description><![CDATA[Release 0.130.0-alpha.10]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.130.0-alpha.10</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.130.0-alpha.10</guid>
+            <pubDate>Fri, 08 May 2026 20:29:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.136]]></title>
+            <description><![CDATA[## What's changed - Added CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry - Added settings.autoMode.hard_deny for auto mode classifier rules that block unconditionally regardless of user intent or allow exceptions - Fixed MCP servers configured in .mcp.json, plugins, and claude.ai connectors silently disappearing after /clear in the VS Code extension, JetBrains plugin, and Agent SDK - Fixed a rare login loop where a concurrent credential write could overwrite a freshly-rotated OAuth token and force re-login - Fixed MCP OAuth refresh tokens being lost when multiple servers refresh concurrently — users with several remote MCP servers should no longer need daily re-authentication - Fixed an API error (400) when extended thinking emitted a redacted thinking block after a tool call - Fixed --resume / --continue not finding sessions when the project path contains underscores - Fixed plan mode not blocking file writes when a matching Edit(...) allow rule exists - WSL2: image paste from Windows clipboard now works via a PowerShell fallback when xclip/wl-paste cannot read image data - Fixed plugin Stop/UserPromptSubmit hooks failing when cache cleanup deletes a version still in use by a running session - Improved visual consistency across slash command dialogs: standardized footer hints, dialog spacing, and arrow-key styling, and the dialog frame now appears immediately during loading instead of popping in after - Fixed colors appearing at wrong positions in bash command output and markdown code blocks - Fixed ReasonML diffs rendering corrupted "undefined" text artifacts at word-diff boundaries - Fixed worktree exit dialog warning about uncommitted files in the wrong directory after worktree removal - Fixed @ file picker not matching files created mid-session in small non-git directories - Fixed @-mention file picker not finding files in directories with more than 100 entries - Fixed failed tool calls not being click-to-expand in fullscreen mode when their output was truncated - Fixed Backspace and Ctrl+Backspace getting swapped after using Ctrl+G to open an external editor on terminals with persistent extended-key modes - Fixed /usage weekly reset showing time of day instead of the calendar date - Fixed welcome banner ellipsis causing column overflow on CJK terminals - Fixed /insights crash when session history contains tool calls with malformed input fields - Fixed a renderer crash when a tool's collapsibility classification changes mid-session - Fixed a skills entry in plugin.json hiding the plugin's default skills/ directory, and listing a file path now shows an error instead of failing silently - Fixed IDE shell-integration lock files not respecting CLAUDE_CONFIG_DIR - Fixed trailing whitespace in copied terminal output during streaming - Fixed plugin uninstall and enable/disable not matching slugs case-insensitively - Fixed tool error truncation marker showing a negative count for surrogate-pair strings - Fixed env vars from CLAUDE_ENV_FILE SessionStart hooks going stale after /resume or /clear - Fixed /branch saving a multi-line session title when given a pasted multi-line name - Fixed a stray leading space on the second line of wrapped text at the column boundary - Fixed Esc not dismissing dialogs in /install-github-app, /desktop, /resume, and /web-setup - Fixed /doctor MCP schema errors not naming the missing field or showing the source file path - Fixed Bash permission prompts showing an internal parser diagnostic instead of a user-readable explanation - Fixed plugin slash commands with spaces (e.g. /myplugin review) not resolving to their namespaced form - Fixed AskUserQuestion discarding multi-select answers when supplied as an array - Fixed /clear not labeling the cleared session for /resume - Fixed CronList output missing qualifiers and the scheduled prompt - Fixed "Jump to bottom" overlay leaving color artifacts on CJK characters in fullscreen mode - Fixed wide markdown tables leaving a stale bordered render in terminal scrollback while streaming - Fixed pasted text being silently dropped when a long prompt with a pasted-text placeholder was auto-truncated - Fixed /release-notes getting stuck on an old version after a failed changelog refresh - Fixed /mcp server list not scrolling when there are more servers than fit in the terminal - Fixed mid-input slash command autocomplete not working after an initial slash command - Fixed scrolling to bottom re-engaging auto-follow with autoScrollEnabled: false - Fixed prompt suggestions being auto-submitted by Enter on an empty input instead of requiring Tab or arrow to accept - Fixed keyboard shortcut hints not reflecting rebound keys from keybindings.json - Fixed /settings language change being reverted on Escape after confirming - Fixed /terminal-setup only appearing in autocomplete on exact name match instead of partial prefixes - Fixed "Chat about this" on an AskUserQuestion dialog erasing the question text - Fixed MCP tool results being invisible when the server returns content blocks - Improved error message when --worktree collides with an existing or stale worktree - Changed plugin marketplace removal key to d (matching delete elsewhere) instead of r which collided with retry]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.136</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.136</guid>
+            <pubDate>Fri, 08 May 2026 18:39:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.130.0-alpha.7]]></title>
             <description><![CDATA[Release 0.130.0-alpha.7]]></description>
@@ -1407,20 +1449,6 @@
             <pubDate>Tue, 07 Apr 2026 21:18:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.119.0-alpha.16]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.16]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.16</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.16</guid>
-            <pubDate>Tue, 07 Apr 2026 20:29:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.15]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.15]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.15</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.15</guid>
-            <pubDate>Tue, 07 Apr 2026 18:31:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.20.4]]></title>
             <description><![CDATA[## What's Changed * mlx: Improve M5 performance with NAX * gemma4: enable flash attention **Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.3...v0.20.4]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.20.4</link>
@@ -1433,20 +1461,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.20.3</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.3</guid>
             <pubDate>Tue, 07 Apr 2026 05:19:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.14]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.14]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.14</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.14</guid>
-            <pubDate>Tue, 07 Apr 2026 03:27:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.13]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.13]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.13</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.13</guid>
-            <pubDate>Tue, 07 Apr 2026 00:32:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.9600.41 — Adaptive Fix]]></title>
@@ -3799,13 +3813,6 @@
             <pubDate>Sat, 10 Jan 2026 01:46:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v2.1.3]]></title>
-            <description><![CDATA[## What's changed - Merged slash commands and skills, simplifying the mental model with no change in behavior - Added release channel (stable or latest) toggle to /config - Added detection and warnings for unreachable permission rules, with warnings in /doctor and after saving rules that include the source of each rule and actionable fix guidance - Fixed plan files persisting across /clear commands, now ensuring a fresh plan file is used after clearing a conversation - Fixed false skill duplicate detection on filesystems with large inodes (e.g., ExFAT) by using 64-bit precision for inode values - Fixed mismatch between background task count in status bar and items shown in tasks dialog - Fixed sub-agents using the wrong model during conversation compaction - Fixed web search in sub-agents using incorrect model - Fixed trust dialog acceptance when running from the home directory not enabling trust-requiring features like hooks during the session - Improved terminal rendering stability by preventing uncontrolled writes from corrupting cursor state - Improved slash command suggestion readability by truncating long descriptions to 2 lines - Changed tool hook execution timeout from 60 seconds to 10 minutes - [VSCode] Added clickable destination selector for permission requests, allowing you to choose where settings are saved (this project, all projects, shared with team, or session only)]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.3</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.3</guid>
-            <pubDate>Fri, 09 Jan 2026 23:32:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v3.48.0]]></title>
             <description><![CDATA[### Added - Add Skills system for reusable, on-demand agent instructions - Add new websearch tooling in Cline provider - Add zai-glm-4.7 to Cerebras model list - Add model refresh and improve reasoning support for Vercel AI Gateway ### Fixed - Revert #8341 due to regressions in diff view/document truncation (see #8423, #8429) - Fixed extension crash when using context menu selector **Full Changelog**: https://github.com/cline/cline/compare/v3.47.0...v3.48.0]]></description>
             <link>https://github.com/cline/cline/releases/tag/v3.48.0</link>
@@ -3818,13 +3825,6 @@
             <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260109</link>
             <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20260109</guid>
             <pubDate>Fri, 09 Jan 2026 09:08:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.2]]></title>
-            <description><![CDATA[## What's changed - Added source path metadata to images dragged onto the terminal, helping Claude understand where images originated - Added clickable hyperlinks for file paths in tool output in terminals that support OSC 8 (like iTerm) - Added support for Windows Package Manager (winget) installations with automatic detection and update instructions - Added Shift+Tab keyboard shortcut in plan mode to quickly select "auto-accept edits" option - Added FORCE_AUTOUPDATE_PLUGINS environment variable to allow plugin autoupdate even when the main auto-updater is disabled - Added agent_type to SessionStart hook input, populated if --agent is specified - Fixed a command injection vulnerability in bash command processing where malformed input could execute arbitrary commands - Fixed a memory leak where tree-sitter parse trees were not being freed, causing WASM memory to grow unbounded over long sessions - Fixed binary files (images, PDFs, etc.) being accidentally included in memory when using @include directives in CLAUDE.md files - Fixed updates incorrectly claiming another installation is in progress - Fixed crash when socket files exist in watched directories (defense-in-depth for EOPNOTSUPP errors) - Fixed remote session URL and teleport being broken when using /tasks command - Fixed MCP tool names being exposed in analytics events by sanitizing user-specific server configurations - Improved Option-as-Meta hint on macOS to show terminal-specific instructions for native CSIu terminals like iTerm2, Kitty, and WezTerm - Improved error message when pasting images over SSH to suggest using scp instead of the unhelpful clipboard shortcut hint - Improved permission explainer to not flag routine dev workflows (git fetch/rebase, npm install, tests, PRs) as medium risk - Changed large bash command outputs to be saved to disk instead of truncated, allowing Claude to read the full content - Changed large tool outputs to be persisted to disk instead of truncated, providing full output access via file references - Changed /plugins installed tab to unify plugins and MCPs with scope-based grouping - Deprecated Windows managed settings path C:\ProgramData\ClaudeCode\managed-settings.json - administrators should migrate to C:\Program Files\ClaudeCode\managed-settings.json - [SDK] Changed minimum zod peer dependency to ^4.0.0 - [VSCode] Fixed usage display not updating after manual compact]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.2</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.2</guid>
-            <pubDate>Fri, 09 Jan 2026 00:04:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.13.107 — New Features and Improvements]]></title>
