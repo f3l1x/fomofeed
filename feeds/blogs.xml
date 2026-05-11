@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 11 May 2026 16:53:35 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2026 18:37:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -17,7 +17,7 @@
             <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[PayPal increases roadmap throughput by 40% with Cursor]]></title>
+            <title><![CDATA[Beyond efficiency: PayPal expands what's possible to build with AI]]></title>
             <link>https://cursor.com/blog/paypal</link>
             <guid isPermaLink="false">https://cursor.com/blog/paypal</guid>
             <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
