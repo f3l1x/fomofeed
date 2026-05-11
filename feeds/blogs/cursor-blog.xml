@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 11 May 2026 09:07:36 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2026 15:04:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[PayPal increases roadmap throughput by 40% with Cursor]]></title>
+            <link>https://cursor.com/blog/paypal</link>
+            <guid isPermaLink="false">https://cursor.com/blog/paypal</guid>
+            <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Bootstrapping Composer with autoinstall]]></title>
             <link>https://cursor.com/blog/bootstrapping-composer-with-autoinstall</link>
@@ -135,12 +141,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/third-era</guid>
             <category><![CDATA[Ideas]]></category>
             <pubDate>Wed, 25 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Box chooses Cursor for enterprise-grade quality, security, and control]]></title>
-            <link>https://cursor.com/blog/box</link>
-            <guid isPermaLink="false">https://cursor.com/blog/box</guid>
-            <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
