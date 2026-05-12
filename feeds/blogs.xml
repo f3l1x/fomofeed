@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 11 May 2026 18:37:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 05:13:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Interaction Models: A Scalable Approach to Human-AI Collaboration]]></title>
+            <link>https://thinkingmachines.ai/blog/interaction-models/</link>
+            <guid isPermaLink="false">https://thinkingmachines.ai/blog/interaction-models/</guid>
+            <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Updates to Bugbot for Teams and Individuals]]></title>
             <link>https://cursor.com/blog/may-2026-bugbot-changes</link>

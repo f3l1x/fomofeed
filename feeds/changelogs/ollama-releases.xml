@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 11 May 2026 18:37:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 05:13:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 May 2026 20:23:10 GMT</pubDate>
+        <pubDate>Tue, 12 May 2026 03:48:08 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.23.3]]></title>
+            <description><![CDATA[## What's Changed * mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431 * test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532 * app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.2...v0.23.3-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.23.3-rc1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.3-rc1</guid>
+            <pubDate>Tue, 12 May 2026 03:48:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.23.2]]></title>
             <description><![CDATA[## What's Changed * ollama launch no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. * Use ollama launch claude-desktop --restore to restore Claude Desktop to its normal state. * /api/show responses are now cached, improving median latency by **~6.7x** which will increase load speed for integrations like VS Code. * Improved backup workflow when managing launch integrations * Cleaner image generation layout in the MLX runner **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.1...v0.23.2]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.5.12</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.12</guid>
             <pubDate>Thu, 20 Feb 2025 17:32:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.11]]></title>
-            <description><![CDATA[## What's Changed - Fixed The system cannot find the path specified errors when running models in some cases on Windows - Fixed issue where running ollama serve on Intel Macs would not use CPU acceleration **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.10...v0.5.11]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.11</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.11</guid>
-            <pubDate>Fri, 14 Feb 2025 08:25:18 GMT</pubDate>
         </item>
     </channel>
 </rss>

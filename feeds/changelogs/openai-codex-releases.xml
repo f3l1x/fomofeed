@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 11 May 2026 18:37:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 05:13:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 May 2026 11:48:21 GMT</pubDate>
+        <pubDate>Tue, 12 May 2026 01:58:34 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.131.0-alpha.7]]></title>
+            <description><![CDATA[Release 0.131.0-alpha.7]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.7</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.7</guid>
+            <pubDate>Tue, 12 May 2026 01:58:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.131.0-alpha.9]]></title>
+            <description><![CDATA[Release 0.131.0-alpha.9]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.9</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.9</guid>
+            <pubDate>Tue, 12 May 2026 01:20:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.131.0-alpha.6]]></title>
             <description><![CDATA[Release 0.131.0-alpha.6]]></description>
@@ -693,20 +707,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.22</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.22</guid>
             <pubDate>Wed, 08 Apr 2026 20:51:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.21]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.21]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.21</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.21</guid>
-            <pubDate>Wed, 08 Apr 2026 18:32:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.20]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.20]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.20</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.20</guid>
-            <pubDate>Wed, 08 Apr 2026 16:38:22 GMT</pubDate>
         </item>
     </channel>
 </rss>
