@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 12 May 2026 18:36:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 May 2026 05:17:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 May 2026 06:40:43 GMT</pubDate>
+        <pubDate>Tue, 12 May 2026 22:29:54 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.0]]></title>
+            <description><![CDATA[Introducing our new Cline CLI built on our new SDK and comes with a snappy new TUI. Install: For nightly builds:]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.0</guid>
+            <pubDate>Tue, 12 May 2026 22:29:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.140]]></title>
+            <description><![CDATA[## What's changed - Improved Agent tool subagent_type matching to accept case- and separator-insensitive values (e.g. "Code Reviewer" resolves to code-reviewer) - Updated agent color palette - Fixed /goal silently hanging when disableAllHooks or allowManagedHooksOnly is set — now shows a clear message instead of an indicator that never resolves - Fixed a regression in settings hot-reload where symlinked settings files caused misattributed change events and spurious ConfigChange hooks - Fixed claude --bg failing with "connection dropped mid-request" when the background service was about to idle-exit - Fixed background service startup failing on machines with enterprise endpoint security by allowing more time - Fixed remote managed settings not retrying on 401 — now retries once with a force-refreshed token - Fixed managed extraKnownMarketplaces auto-update policy not being persisted to known_marketplaces.json - Fixed /loop scheduling redundant wakeups to poll for background tasks that already notify on completion - Fixed a recurring event-loop stall on Windows when a missing executable (e.g. gh) triggered synchronous where.exe re-spawns on every check - Fixed Read tool calls failing validation when offset is passed as a whitespace-padded or +-prefixed string - Fixed native terminal cursor not staying at the input caret when the terminal loses focus - Plugins now warn when a default component folder (e.g. commands/) is silently ignored because plugin.json sets the matching key. Shown in /doctor, claude plugin list, and /plugin.]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.140</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.140</guid>
+            <pubDate>Tue, 12 May 2026 21:09:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.131.0-alpha.8]]></title>
             <description><![CDATA[Release 0.131.0-alpha.8]]></description>
@@ -18,9 +32,9 @@
         </item>
         <item>
             <title><![CDATA[v0.23.3]]></title>
-            <description><![CDATA[## What's Changed * mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431 * test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532 * app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.2...v0.23.3-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.23.3-rc1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.3-rc1</guid>
+            <description><![CDATA[## What's Changed * mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431 * test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532 * app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100 * mlx: update the imagegen runner for mlx thread affinity by @pdevine in https://github.com/ollama/ollama/pull/16096 * mlx: avoid status timeout during inference by @dhiltgen in https://github.com/ollama/ollama/pull/16086 * mlx: fix macOS 26 target leakage in v3 metallib by @dhiltgen in https://github.com/ollama/ollama/pull/16053 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.2...v0.23.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.23.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.3</guid>
             <pubDate>Tue, 12 May 2026 03:48:08 GMT</pubDate>
         </item>
         <item>
@@ -3753,13 +3767,6 @@
             <pubDate>Tue, 13 Jan 2026 09:08:42 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v2.1.6]]></title>
-            <description><![CDATA[## What's changed - Added search functionality to /config command for quickly filtering settings - Added Updates section to /doctor showing auto-update channel and available npm versions (stable/latest) - Added date range filtering to /stats command - press r to cycle between Last 7 days, Last 30 days, and All time - Added automatic discovery of skills from nested .claude/skills directories when working with files in subdirectories - Added context_window.used_percentage and context_window.remaining_percentage fields to status line input for easier context window display - Added an error display when the editor fails during Ctrl+G - Fixed permission bypass via shell line continuation that could allow blocked commands to execute - Fixed false "File has been unexpectedly modified" errors when file watchers touch files without changing content - Fixed text styling (bold, colors) getting progressively misaligned in multi-line responses - Fixed the feedback panel closing unexpectedly when typing 'n' in the description field - Fixed rate limit warning appearing at low usage after weekly reset (now requires 70% usage) - Fixed rate limit options menu incorrectly auto-opening when resuming a previous session - Fixed numpad keys outputting escape sequences instead of characters in Kitty keyboard protocol terminals - Fixed Option+Return not inserting newlines in Kitty keyboard protocol terminals - Fixed corrupted config backup files accumulating in the home directory (now only one backup is created per config file) - Fixed mcp list and mcp get commands leaving orphaned MCP server processes - Fixed visual artifacts in ink2 mode when nodes become hidden via display:none - Improved the external CLAUDE.md imports approval dialog to show which files are being imported and from where - Improved the /tasks dialog to go directly to task details when there's only one background task running - Improved @ autocomplete with icons for different suggestion types and single-line formatting - Updated "Help improve Claude" setting fetch to refresh OAuth and retry when it fails due to a stale OAuth token - Changed task notification display to cap at 3 lines with overflow summary when multiple background tasks complete simultaneously - Changed terminal title to "Claude Code" on startup for better window identification - Removed ability to @-mention MCP servers to enable/disable - use /mcp enable instead - [VSCode] Fixed usage indicator not updating after manual compact]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.6</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.6</guid>
-            <pubDate>Tue, 13 Jan 2026 02:26:03 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.32.0-rc.0]]></title>
             <link>https://github.com/TabbyML/tabby/releases/tag/v0.32.0-rc.0</link>
             <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.32.0-rc.0</guid>
@@ -4947,13 +4954,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.11.11</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.11</guid>
             <pubDate>Thu, 11 Sep 2025 21:02:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.27.2]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.27.1...v3.27.2]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.27.2</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.27.2</guid>
-            <pubDate>Tue, 09 Sep 2025 22:36:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.12.5 — Patch Fixes]]></title>
