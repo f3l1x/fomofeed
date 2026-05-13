@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 13 May 2026 08:59:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 May 2026 15:02:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 May 2026 22:29:54 GMT</pubDate>
+        <pubDate>Wed, 13 May 2026 14:32:54 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.30.0]]></title>
+            <description><![CDATA[This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: * Performance improvements or degradation * Errors or crashes that did not previously occur * Memory utilization improvements or degradation ## Known issues: * laguna-xs.2 is not supported yet on this pre-release * llama3.2-vision is not supported yet on this pre-release ## Installing: **Mac/Linux** **Windows**]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15</guid>
+            <pubDate>Wed, 13 May 2026 14:32:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.0]]></title>
             <description><![CDATA[Introducing our new Cline CLI built on our new SDK and comes with a snappy new TUI. Install: For nightly builds:]]></description>
@@ -6226,13 +6233,6 @@
             <link>https://windsurf.com/changelog/windsurf-next#fixes</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#fixes</guid>
             <pubDate>Thu, 20 Feb 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.12]]></title>
-            <description><![CDATA[## New models - Perplexity R1 1776: A version of the DeepSeek-R1 model that has been post trained to remove its refusal to respond to some sensitive topics. ## What's Changed * The OpenAI-compatible API will now return tool_calls if the model called a tool * Performance on certain Intel Xeon processors should now be restored * Fixed permission denied issues after installing Ollama on Linux * Fixed issue where additional CPU libraries were included in the arm64 Linux install * The progress bar will no longer flicker when running ollama pull * Fixed issue where running a model would fail on Linux if Ollama was installed in a path with UTF-8 characters * X-Stainless-Timeout will now be accepted as a header in the OpenAI API endpoints ## New Contributors * @buiducnhat made their first contribution in https://github.com/ollama/ollama/pull/9075 * @James-William-Kincaid-III made their first contribution in https://github.com/ollama/ollama/pull/9098 * @innightwolfsleep made their first contribution in https://github.com/ollama/ollama/pull/9150 * @ismdeep made their first contribution in https://github.com/ollama/ollama/pull/9108 * @benhaotang made their first contribution in https://github.com/ollama/ollama/pull/9138 * @jeremyschlatter made their first contribution in https://github.com/ollama/ollama/pull/9079 * @maninhill made their first contribution in https://github.com/ollama/ollama/pull/9212 * @xuzeyu91 made their first contribution in https://github.com/ollama/ollama/pull/9214 * @yuiseki made their first contribution in https://github.com/ollama/ollama/pull/9146 * @lucasthahn made their first contribution in https://github.com/ollama/ollama/pull/9237 * @danielekp made their first contribution in https://github.com/ollama/ollama/pull/9251 * @RockChinQ made their first contribution in https://github.com/ollama/ollama/pull/9272 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.11...v0.5.12]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.12</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.12</guid>
-            <pubDate>Thu, 20 Feb 2025 17:32:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.25.0]]></title>
