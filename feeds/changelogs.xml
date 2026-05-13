@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 13 May 2026 15:02:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 May 2026 16:47:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 May 2026 14:32:54 GMT</pubDate>
+        <pubDate>Wed, 13 May 2026 16:27:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.2]]></title>
+            <description><![CDATA[- Fix token count display showing inflated numbers in the TUI. Full Changelog: https://github.com/cline/cline/compare/cli-v3.0.1...cli-v3.0.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.2</guid>
+            <pubDate>Wed, 13 May 2026 16:27:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.1]]></title>
+            <description><![CDATA[- Fix CLI release cleanup scripts so they work correctly on Windows. - Fix the kanban migration notice wording in the TUI. Full Changelog: https://github.com/cline/cline/compare/cli-v3.0.0...cli-v3.0.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.1</guid>
+            <pubDate>Wed, 13 May 2026 15:35:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.30.0]]></title>
             <description><![CDATA[This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: * Performance improvements or degradation * Errors or crashes that did not previously occur * Memory utilization improvements or degradation ## Known issues: * laguna-xs.2 is not supported yet on this pre-release * llama3.2-vision is not supported yet on this pre-release ## Installing: **Mac/Linux** **Windows**]]></description>
@@ -4940,20 +4954,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.28.2</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.2</guid>
             <pubDate>Fri, 12 Sep 2025 21:08:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.28.1]]></title>
-            <description><![CDATA[## What's Changed - Requesty: use base URL to get models and API keys - Removed focus chain feature flag **Full Changelog**: https://github.com/cline/cline/compare/v3.28.0...v3.28.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.28.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.1</guid>
-            <pubDate>Fri, 12 Sep 2025 19:06:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.28.0]]></title>
-            <description><![CDATA[## What's Changed - Synchronized Task History: Real-time task history synchronization across all Cline instances - Optimized GPT-5 Integration: Fine-tuned system prompts for improved performance with GPT-5 model family - Deep Planning Improvements: Optimized prompts for Windows/PowerShell environments and dependency exclusion - Streamlined UI Experience: ESC key navigation, cleaner approve/reject buttons, and improved editor panel focus - Smart Provider Search: Improved search functionality in API provider dropdown for faster model selection - Added per-provider thinking tokens configurability - Added Ollama custom prompt options - Enhanced SAP AI Core Provider: Orchestration mode support and improved model visibility - Added Dify.ai API Integration - SambaNova Updates: Added DeepSeek-V3.1 model - Better Gemini rate limit handling - OpenAI Reasoning Effort: Minimal reasoning effort configuration for OpenAI models - Fixed LiteLLM Caching: Anthropic caching compatibility when using LiteLLM - Fixed Ollama default endpoint connections - Fixed AutoApprove menu overflow - Fixed extended thinking token issue with Anthropic models - Fixed issue with slash commands removing text from prompt ## New Contributors * @ciekawy made their first contribution in https://github.com/cline/cline/pull/5793 * @willhs made their first contribution in https://github.com/cline/cline/pull/5852 * @JicLotus made their first contribution in https://github.com/cline/cline/pull/5944 * @weichensw made their first contribution in https://github.com/cline/cline/pull/5884 * @arman-sambanova made their first contribution in https://github.com/cline/cline/pull/6001 * @dnoggle made their first contribution in https://github.com/cline/cline/pull/6120 **Full Changelog**: https://github.com/cline/cline/compare/v3.26.6...v3.28.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.28.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.0</guid>
-            <pubDate>Thu, 11 Sep 2025 23:21:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.11.11]]></title>
