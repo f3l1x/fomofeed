@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 14 May 2026 16:40:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 18:37:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 May 2026 03:03:25 GMT</pubDate>
+        <pubDate>Thu, 14 May 2026 16:42:33 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.131.0-alpha.16]]></title>
+            <description><![CDATA[Release 0.131.0-alpha.16]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.16</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.16</guid>
+            <pubDate>Thu, 14 May 2026 16:42:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.50]]></title>
             <description><![CDATA[## Core ### Bugfixes - Kept HTTP event streams open after the initial connect event so subscribers continue receiving instance updates. - Returned proper busy errors when a session is already running prompt or shell work. - Let invalid small_model config values fall back cleanly instead of breaking small-model selection. - Improved missing-model errors with suggestions across CLI and typed callers. ## TUI ### Improvements - Restored markdown rendering for session output by default. ## SDK ### Improvements - Added instance.directory and instance.workspace query support to the v2 model and provider calls.]]></description>
@@ -1566,13 +1573,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.97</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.97</guid>
             <pubDate>Wed, 08 Apr 2026 21:52:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.23]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.23]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.23</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.23</guid>
-            <pubDate>Wed, 08 Apr 2026 21:49:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.96]]></title>

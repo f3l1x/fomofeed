@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 14 May 2026 16:40:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 18:37:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 13 May 2026 23:19:16 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -20,6 +20,12 @@
             <title><![CDATA[Anthropic forms $200 million partnership with the Gates Foundation]]></title>
             <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/gates-foundation-partnership</guid>
+            <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2028: Two scenarios for global AI leadership]]></title>
+            <link>https://www.anthropic.com/research/2028-ai-leadership</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/2028-ai-leadership</guid>
             <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -360,12 +366,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.98</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.98</guid>
             <pubDate>Thu, 09 Apr 2026 19:18:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Trustworthy agents in practice]]></title>
-            <link>https://www.anthropic.com/research/trustworthy-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/trustworthy-agents</guid>
-            <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.97]]></title>
