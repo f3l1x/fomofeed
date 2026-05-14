@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 13 May 2026 16:47:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 06:59:39 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 12 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Development environments for your agents]]></title>
+            <link>https://cursor.com/blog/cloud-agent-development-environments</link>
+            <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-development-environments</guid>
+            <category><![CDATA[product]]></category>
+            <pubDate>Tue, 12 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Updates to Bugbot for Teams and Individuals]]></title>
             <link>https://cursor.com/blog/may-2026-bugbot-changes</link>

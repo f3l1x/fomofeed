@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 13 May 2026 16:47:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 06:59:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 May 2026 14:32:54 GMT</pubDate>
+        <pubDate>Thu, 14 May 2026 02:24:24 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.24.0]]></title>
+            <description><![CDATA[## What's Changed * mlx: add memory trace logging by @dhiltgen in https://github.com/ollama/ollama/pull/16131 * launch: codex app integration by @ParthSareen in https://github.com/ollama/ollama/pull/16120 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.4...v0.24.0-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.24.0-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.24.0-rc0</guid>
+            <pubDate>Thu, 14 May 2026 02:24:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.23.4]]></title>
+            <description><![CDATA[## What's Changed * ollama launch opencode now supports vision models with image inputs * Fixed formatting of Claude tool results when using local image paths **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.3...v0.23.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.23.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.23.4</guid>
+            <pubDate>Wed, 13 May 2026 20:40:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.30.0]]></title>
             <description><![CDATA[This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: * Performance improvements or degradation * Errors or crashes that did not previously occur * Memory utilization improvements or degradation ## Known issues: * laguna-xs.2 is not supported yet on this pre-release * llama3.2-vision is not supported yet on this pre-release ## Installing: **Mac/Linux** **Windows**]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.6.1</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.1</guid>
             <pubDate>Fri, 14 Mar 2025 02:58:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.0]]></title>
-            <description><![CDATA[!Gemma 3 with Ollama ## New Model * Gemma 3: Google Gemma 3 model is now available in 1B, 4B, 12B, and 27B parameter sizes. ## What's Changed * Fixed error that would occur when running snowflake-arctic-embed and snowflake-arctic-embed2 models ## New Contributors * @iBreaker made their first contribution in https://github.com/ollama/ollama/pull/9565 * @zhu-xiaowei made their first contribution in https://github.com/ollama/ollama/pull/9540 * @dwt made their first contribution in https://github.com/ollama/ollama/pull/9569 * @vincentkoc made their first contribution in https://github.com/ollama/ollama/pull/9626 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.13...v0.6.0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.0</guid>
-            <pubDate>Tue, 11 Mar 2025 23:37:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.5.13]]></title>
-            <description><![CDATA[## New models * Phi-4-Mini: Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported. * Granite-3.2-Vision: A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more. * Command R7B Arabic: A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa. ## What's Changed * The default context length can now be set with a new OLLAMA_CONTEXT_LENGTH environment variable. For example, to set the default context length to 8K, use: OLLAMA_CONTEXT_LENGTH=8192 ollama serve * Ollama is now compiled for NVIDIA Blackwell * Fixed issue where bf16 GGUF files could not be imported * Ollama is now be able to accept requests from Visual Studio Code and Cursor by accepting requests from origins beginning with vscode-file:// * Fixed a series of permission denied issues when installing Ollama on Linux > Note: Ubuntu 20.04, Debian 10 and RHEL 8+ or later are required to run Ollama on Linux ## New Contributors * @prusnak made their first contribution in https://github.com/ollama/ollama/pull/8567 * @ChuanhuiLiu made their first contribution in https://github.com/ollama/ollama/pull/9346 * @Pekkari made their first contribution in https://github.com/ollama/ollama/pull/8211 * @eriestrisnadi made their first contribution in https://github.com/ollama/ollama/pull/9313 * @stevenh made their first contribution in https://github.com/ollama/ollama/pull/9360 * @wanghe-fit2cloud made their first contribution in https://github.com/ollama/ollama/pull/9312 * @Soulter made their first contribution in https://github.com/ollama/ollama/pull/9442 * @ibrahimcetin made their first contribution in https://github.com/ollama/ollama/pull/9411 * @remarkablemark made their first contribution in https://github.com/ollama/ollama/pull/9456 * @googs1025 made their first contribution in https://github.com/ollama/ollama/pull/9458 * @sunshine0523 made their first contribution in https://github.com/ollama/ollama/pull/9468 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.5.12...v0.5.13]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.5.13</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.5.13</guid>
-            <pubDate>Thu, 27 Feb 2025 18:27:51 GMT</pubDate>
         </item>
     </channel>
 </rss>

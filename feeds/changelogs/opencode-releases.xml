@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 13 May 2026 16:47:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 06:59:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 May 2026 02:07:50 GMT</pubDate>
+        <pubDate>Thu, 14 May 2026 03:03:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.14.50]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Kept HTTP event streams open after the initial connect event so subscribers continue receiving instance updates. - Returned proper busy errors when a session is already running prompt or shell work. - Let invalid small_model config values fall back cleanly instead of breaking small-model selection. - Improved missing-model errors with suggestions across CLI and typed callers. ## TUI ### Improvements - Restored markdown rendering for session output by default. ## SDK ### Improvements - Added instance.directory and instance.workspace query support to the v2 model and provider calls.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.50</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.50</guid>
+            <pubDate>Thu, 14 May 2026 03:03:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.49]]></title>
+            <description><![CDATA[## Core ### Improvements - Added the v2 model and provider listing API. - Added DigitalOcean OAuth and Inference Router support. (@Spherrrical) - Create a global opencode.jsonc automatically when no config exists. - Enable customize-opencode by default with a linked full schema. - Autocomplete configured @mentions in prompts. - Parse fenced Markdown code blocks in patch diffs by default. ### Bugfixes - Fix keymap fallback priority and make TUI config errors clearer. - Restore model suggestions for unloaded providers and missing models. - Preserve layered permission rule order in config merges. (@asuffield) - Preserve attachments returned by custom tools. - Keep recent turns after compaction instead of folding them into the summary. - Fix prompt cursor movement and mentions for wide characters. - Prevent duplicate submits from creating empty phantom sessions. - Keep compacted tail history when forking a session. - Return proper busy-session errors from the HTTP API. ## TUI ### Improvements - Add pinned recent sessions, quick slots, and recent-session cycling. ### Bugfixes - Restore non-interactive run exit behavior. - Make the websearch provider label update reactively. (@NormallyGaussian) - Reduce flicker when switching workspaces. - Fix run --json output draining. - Fix prompt history and line up/down commands. ## Desktop ### Improvements - Add Ctrl/Cmd+number shortcuts to switch projects. - Remember whether the todo dock is collapsed. - Restore AppStream metadata in Linux desktop builds. ### Bugfixes - Show clearer wrapped server errors in the app. (@OpeOginni) - Use the login shell when loading desktop environment variables. (@qwq202) - Remember the selected model variant when switching sessions or projects. - Open the next available project when closing the current one. - Prevent streamed Markdown from being cut off. **Thank you to 5 community contributors:** - @NormallyGaussian: - fix(tui): make websearch provider label reactive (#26943) - @Spherrrical: - feat(plugin): add DigitalOcean OAuth + Inference Routers (#26095) - @asuffield: - fix: preserve permission ordering by accepting a layered array (#23214) - @qwq202: - fix(desktop): resolve login shell when loading env (#26449) - @OpeOginni: - fix(app): enhance error handling by unwrapping SDK-wrapped errors in formatServerError (#27061)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.49</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.49</guid>
+            <pubDate>Wed, 13 May 2026 22:18:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.48]]></title>
             <description><![CDATA[## Core ### Improvements - Preserve original image attachments instead of resizing them before sending them to the model]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.57</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.57</guid>
             <pubDate>Wed, 11 Feb 2026 13:45:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.56]]></title>
-            <description><![CDATA[## Desktop - Task tool rendering fixed in app - Open apps with executables on Windows (@neriousy) - Don't close sidebar on session change **Thank you to 1 community contributor:** - @neriousy: - fix(desktop): open apps with executables on Windows (#13022)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.56</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.56</guid>
-            <pubDate>Tue, 10 Feb 2026 22:12:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.55]]></title>
-            <description><![CDATA[## Core - Increase test timeout to 30s to prevent failures during package installation - Memory leak fixed in platform fetch for events - Show helpful message when free usage limit is exceeded ## Desktop - Disable terminal transparency]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.55</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.55</guid>
-            <pubDate>Tue, 10 Feb 2026 20:22:38 GMT</pubDate>
         </item>
     </channel>
 </rss>
