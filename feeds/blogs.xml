@@ -4,13 +4,13 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 14 May 2026 14:52:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 16:40:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 12 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Development environments for your agents]]></title>
+            <title><![CDATA[Development environments for your cloud agents]]></title>
             <link>https://cursor.com/blog/cloud-agent-development-environments</link>
             <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-development-environments</guid>
             <category><![CDATA[product]]></category>
