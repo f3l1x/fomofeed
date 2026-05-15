@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 15 May 2026 09:02:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 14:49:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 14 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[China Thwarts Meta’s Agentic Ambition, U.S. Evaluates Upcoming Models, AI Diagnoses Mammograms]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-353</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-353</guid>
+            <pubDate>Thu, 14 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Development environments for your cloud agents]]></title>
             <link>https://cursor.com/blog/cloud-agent-development-environments</link>
@@ -442,12 +448,6 @@
             <description><![CDATA[ollama launch is a new command which sets up and runs coding tools like Claude Code, OpenCode, and Codex with local or cloud models. No environment variables or config files needed.]]></description>
             <link>https://ollama.com/blog/launch</link>
             <guid isPermaLink="false">https://ollama.com/blog/launch</guid>
-            <pubDate>Thu, 22 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Self-Driving Reasoning Models, ChatGPT Adds Ads, Apple’s Deal with Google, 3D Generation Pronto]]></title>
-            <link>https://www.deeplearning.ai/the-batch/issue-337</link>
-            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-337</guid>
             <pubDate>Thu, 22 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
