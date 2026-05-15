@@ -4,14 +4,14 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 15 May 2026 16:36:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 18:33:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 14 May 2026 02:24:24 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.24.0]]></title>
-            <description><![CDATA[## Codex App The OpenAI Codex App is now available on Ollama. Use any Ollama model — local or cloud — inside the desktop app to code, browse, and review. ### Built-in browser Codex can spin up local servers and sites in its built-in browser. Annotate directly on the page to request changes. ### Review mode Review code inside the app, leave comments, and iterate without leaving your workspace. ### Choosing a model For difficult coding and agentic tasks: - **kimi-k2.6** (with vision support) - **glm-5.1** For local use without an Ollama Cloud subscription: - **nemotron-3-super** - **gemma4:31b** - **qwen3.6** ### Restore anytime To switch back to OpenAI's default setup: ## What's Changed * Reworked the MLX sampler for improved generation quality on Apple Silicon **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.24.0]]></description>
+            <description><![CDATA[## Codex App Ollama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality. ### Built-in browser Codex can load local servers and sites in its built-in browser, enabling you to directly annotate on the page to request changes. ### Review mode Review code inside the app, leave comments, and iterate without leaving your workspace. ### Choosing a model For difficult coding and agentic tasks: - **kimi-k2.6** (with vision support) - **glm-5.1** For local use without an Ollama Cloud subscription: - **nemotron-3-super** - **gemma4:31b** - **qwen3.6** ### Restore anytime To restore the previous configuration of Codex App, run: ## What's Changed * Reworked the MLX sampler for improved generation quality on Apple Silicon **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.24.0]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.24.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.24.0</guid>
             <pubDate>Thu, 14 May 2026 02:24:24 GMT</pubDate>

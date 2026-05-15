@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 15 May 2026 16:36:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 18:33:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -21,6 +21,12 @@
             <description><![CDATA[Genkit is an open-source framework designed to help developers build production-ready, agentic AI applications using TypeScript, Go, Dart, and Python. The framework utilizes a powerful middleware system that intercepts generation calls to inject custom behaviors like retries, model fallbacks, and human-in-the-loop tool approvals. By attaching hooks at the generate, model, and tool layers, developers can ensure high reliability and deterministic control over model outputs. Furthermore, Genkit allows for the creation and stacking of custom middleware, all of which can be inspected and debugged through a dedicated Developer UI.]]></description>
             <link>https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</guid>
+            <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients]]></title>
+            <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
             <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -420,12 +426,6 @@
             <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
             <guid isPermaLink="false">https://claude.com/blog/improving-frontend-design-through-skills</guid>
             <pubDate>Wed, 12 Feb 2020 00:12:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients]]></title>
-            <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
-            <pubDate>Thu, 26 Nov 2020 16:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>
