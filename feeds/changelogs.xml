@@ -4,11 +4,53 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 14 May 2026 18:37:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 09:02:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 May 2026 16:42:33 GMT</pubDate>
+        <pubDate>Fri, 15 May 2026 05:12:37 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.131.0-alpha.19]]></title>
+            <description><![CDATA[Release 0.131.0-alpha.19]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.19</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.19</guid>
+            <pubDate>Fri, 15 May 2026 05:12:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.0]]></title>
+            <description><![CDATA[## Core ### Improvements - Added an Effect-based core event system for more complete event delivery across sessions and integrations. ### Bugfixes - Ignored invalid exports in custom tool modules instead of failing tool loading. - Ignored project instruction lookup errors so sessions keep loading when project instruction discovery fails. - Fixed versioned event projector lookups so event replay uses the right handlers. ## Desktop ### Improvements - Auto-hide the menu bar on Linux and Windows. (@shi-gg) ### Bugfixes - Fixed archived sessions being reprocessed when their archive state did not change. ## SDK ### Bugfixes - Restored missing event types in the JavaScript SDK, including session and message events. **Thank you to 1 community contributor:** - @shi-gg: - feat(desktop): auto-hide menu bar on Linux and Windows (#27618)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.0</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.0</guid>
+            <pubDate>Fri, 15 May 2026 04:03:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.51]]></title>
+            <description><![CDATA[## Core ### Improvements - Added experimental background subagents so tasks can keep running while you continue working. - Added the required billing origin header for NVIDIA endpoints. (@nv-kasikritc) ### Bugfixes - Fixed worktree creation requests that omitted the POST body. - Fixed sessions getting stuck with interrupted assistant messages after cancellation. - Fixed repeated auto-compaction in sessions after compaction reordered messages. - Updated LiteLLM compatibility to require v1.85.0-rc.2+ for current GPT-5 and tool-call behavior. (@Sameerlite) - Fixed truncated shell output streams closing cleanly. - Stopped exposing internal named defect details from the HTTP API. - Fixed Azure gpt-5.5 requests through the completions API. (@frederiknsgo) - Restored automatic image resizing for oversized image attachments. ## TUI ### Bugfixes - Preserved text selection when clicking question prompt options. (@nikhil-patel-whatnot) ## Desktop ### Improvements - Added MCP connection status for client registration and authentication, with direct re-auth flows in the app. (@OpeOginni) ### Bugfixes - Fixed Windows app detection by reading where output correctly. ## Extensions ### Bugfixes - Fixed DigitalOcean OAuth to request only the GenAI scopes it needs. (@Spherrrical) **Thank you to 7 community contributors:** - @nikhil-patel-whatnot: - fix(tui): preserve text selection on question prompt options (#24988) - @frederiknsgo: - fix: bug encountered when using azure gpt-5.5 w/ completions api (#26222) - @OpeOginni: - feat(desktop): add mcp client registration status and authentication handling (#27525) - @Sameerlite: - fix(provider): remove LiteLLM workarounds ported upstream, requires LiteLLM v1.85.0-rc.2+ (#26819) - @bo-tato: - docs(app): stale reference to removed multi-edit tool (#27579) - @Spherrrical: - fix(plugin): scope digitalocean oauth to genai (#27599) - @nv-kasikritc: - feat(provider): add NVIDIA endpoints origin header (#27394)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.51</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.51</guid>
+            <pubDate>Fri, 15 May 2026 00:39:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.3]]></title>
+            <description><![CDATA[- Add --worktree flag that auto-creates a fresh git worktree under ~/.cline/worktrees/ and runs the task there. Works with --taskId and --continue so you can resume a task in an isolated worktree to try a different approach. - Show session status in the CLI history view and refresh status rows in place while the standalone history TUI is open. - Restore the OpenAI compatible provider in the auth flow and preserve stored model metadata when configuring or migrating OpenAI-compatible providers. - Fix dropped macOS screenshots when pasting them into the TUI or asking the agent to read them: paths containing U+202F (narrow no-break space) and other Unicode variants now resolve to the real file instead of failing with ENOENT. - Accept bearer token auth for AWS Bedrock and map AWS profiles correctly when configuring the Bedrock gateway. - Honor --thinking none for Ollama models that ship with reasoning enabled by default. - Recover from detached hub event errors instead of crashing the session. - Refine the shared system prompt with clearer guidance on tool output formatting, unsupported file reads, long-running shell commands, and final verification before completing a task. Full Changelog: https://github.com/cline/cline/compare/cli-v3.0.2...cli-v3.0.3]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.3</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.3</guid>
+            <pubDate>Thu, 14 May 2026 23:09:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.142]]></title>
+            <description><![CDATA[## What's changed - Added new claude agents flags: --add-dir, --settings, --mcp-config, --plugin-dir, --permission-mode, --model, --effort, and --dangerously-skip-permissions to configure dispatched background sessions - Fast mode now uses Opus 4.7 by default (previously Opus 4.6). Set CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE=1 to pin fast mode to Opus 4.6 - Plugins with a root-level SKILL.md and no skills/ subdirectory are now surfaced as a skill - The /plugin details pane and claude plugin details now show LSP servers a plugin provides - /web-setup warns before replacing an existing GitHub App connection - Fixed MCP_TOOL_TIMEOUT not raising the per-request fetch timeout for remote HTTP and SSE MCP servers, which capped tool calls at 60 seconds regardless of the configured value - Fixed background sessions not recognizing pre-existing git worktrees, blocking Edit while EnterWorktree refused to create a duplicate - Fixed background sessions disappearing and daemon reconnect failing after macOS sleep/wake — the daemon now detects clock jumps instead of treating them as elapsed idle time - Fixed daemon not exiting cleanly after the binary is upgraded (e.g. brew upgrade), causing dispatched agents to crash-loop on the deleted path - Fixed background agents crash-looping when the Claude-in-Chrome extension is connected without a shared tab - Fixed clicking links in an attached claude agents session — the background worker's headless browser shim no longer applies while attached - Fixed claude agents "v to open in editor" using the daemon's default editor instead of your shell's $EDITOR/$VISUAL - Fixed claude agents deadlocking on Windows with network-drive working directories; Ctrl+C now works during startup - Fixed background-color bleed when attaching to a claude agents session from Apple Terminal or other 256-color-only terminals - Fixed claude --bg --dangerously-skip-permissions not persisting across retire/wake - Fixed session titles being derived from the URL when the first message is a link - Fixed redundant set_model requests from remote clients injecting duplicate /model breadcrumbs into the transcript - Fixed plugins using skills: ["./"] showing a false "path escapes plugin directory" error - Fixed plugin cache cleanup deleting the active plugin version directory when no installation metadata is present - Fixed /plugin browse pane showing "0 installs" for newly published plugins - Fixed plugin advisories not naming every plugin.json key that shadows a default folder - Improved reactive compaction: the first summarize attempt now seeds from the original request's overflow size, avoiding a wasted near-full-context retry - Improved hook configuration error: configuring a prompt- or agent-type hook for SessionStart/Setup/SubagentStart now shows a clear "use a command-type hook instead" error - Removed stale /model claude-sonnet-4-20250514 suggestion from Usage Policy refusal messages]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.142</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.142</guid>
+            <pubDate>Thu, 14 May 2026 22:55:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.131.0-alpha.18]]></title>
+            <description><![CDATA[Release 0.131.0-alpha.18]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.18</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.18</guid>
+            <pubDate>Thu, 14 May 2026 21:41:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.131.0-alpha.16]]></title>
             <description><![CDATA[Release 0.131.0-alpha.16]]></description>
@@ -25,9 +67,9 @@
         </item>
         <item>
             <title><![CDATA[v0.24.0]]></title>
-            <description><![CDATA[## What's Changed * mlx: add memory trace logging by @dhiltgen in https://github.com/ollama/ollama/pull/16131 * launch: codex app integration by @ParthSareen in https://github.com/ollama/ollama/pull/16120 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.4...v0.24.0-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.24.0-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.24.0-rc0</guid>
+            <description><![CDATA[## Codex App The OpenAI Codex App is now available on Ollama. Use any Ollama model — local or cloud — inside the desktop app to code, browse, and review. ### Built-in browser Codex can spin up local servers and sites in its built-in browser. Annotate directly on the page to request changes. ### Review mode Review code inside the app, leave comments, and iterate without leaving your workspace. ### Choosing a model For difficult coding and agentic tasks: - **kimi-k2.6** (with vision support) - **glm-5.1** For local use without an Ollama Cloud subscription: - **nemotron-3-super** - **gemma4:31b** - **qwen3.6** ### Restore anytime To switch back to OpenAI's default setup: ## What's Changed * Reworked the MLX sampler for improved generation quality on Apple Silicon **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.24.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.24.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.24.0</guid>
             <pubDate>Thu, 14 May 2026 02:24:24 GMT</pubDate>
         </item>
         <item>
@@ -75,8 +117,8 @@
         <item>
             <title><![CDATA[v0.30.0]]></title>
             <description><![CDATA[This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: * Performance improvements or degradation * Errors or crashes that did not previously occur * Memory utilization improvements or degradation ## Known issues: * laguna-xs.2 is not supported yet on this pre-release * llama3.2-vision is not supported yet on this pre-release ## Installing: **Mac/Linux** **Windows**]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15</guid>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17</guid>
             <pubDate>Wed, 13 May 2026 14:32:54 GMT</pubDate>
         </item>
         <item>
@@ -120,6 +162,20 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.9</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.9</guid>
             <pubDate>Tue, 12 May 2026 01:20:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Opus 4.7 (fast mode)]]></title>
+            <description><![CDATA[Claude Opus 4.7 (fast mode) is now available in Windsurf.]]></description>
+            <link>https://windsurf.com/changelog#claude-opus-47-fast-mode</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#claude-opus-47-fast-mode</guid>
+            <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Opus 4.7 (fast mode)]]></title>
+            <description><![CDATA[Claude Opus 4.7 (fast mode) is now available in Windsurf.]]></description>
+            <link>https://windsurf.com/changelog/windsurf-next#claude-opus-47-fast-mode</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#claude-opus-47-fast-mode</guid>
+            <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.139]]></title>
@@ -1554,20 +1610,6 @@
             <pubDate>Thu, 09 Apr 2026 03:55:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.119.0-alpha.25]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.25]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.25</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.25</guid>
-            <pubDate>Thu, 09 Apr 2026 02:37:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.24]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.24]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.24</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.24</guid>
-            <pubDate>Wed, 08 Apr 2026 23:05:14 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.97]]></title>
             <description><![CDATA[## What's changed - Added focus view toggle (Ctrl+O) in NO_FLICKER mode showing prompt, one-line tool summary with edit diffstats, and final response - Added refreshInterval status line setting to re-run the status line command every N seconds - Added workspace.git_worktree to the status line JSON input, set when the current directory is inside a linked git worktree - Added ● N running indicator in /agents next to agent types with live subagent instances - Added syntax highlighting for Cedar policy files (.cedar, .cedarpolicy) - Fixed --dangerously-skip-permissions being silently downgraded to accept-edits mode after approving a write to a protected path - Fixed and hardened Bash tool permissions, tightening checks around env-var prefixes and network redirects, and reducing false prompts on common commands - Fixed permission rules with names matching JavaScript prototype properties (e.g. toString) causing settings.json to be silently ignored - Fixed managed-settings allow rules remaining active after an admin removed them until process restart - Fixed permissions.additionalDirectories changes in settings not applying mid-session - Fixed removing a directory from settings.permissions.additionalDirectories revoking access to the same directory passed via --add-dir - Fixed MCP HTTP/SSE connections accumulating ~50 MB/hr of unreleased buffers when servers reconnect - Fixed MCP OAuth oauth.authServerMetadataUrl not being honored on token refresh after restart, fixing ADFS and similar IdPs - Fixed 429 retries burning all attempts in ~13 seconds when the server returns a small Retry-After — exponential backoff now applies as a minimum - Fixed rate-limit upgrade options disappearing after context compaction - Fixed several /resume picker issues: --resume opening uneditable, Ctrl+A reload wiping search, empty list swallowing navigation, task-status text replacing conversation summary, and cross-project staleness - Fixed file-edit diffs disappearing on --resume when the edited file was larger than 10KB - Fixed --resume cache misses and lost mid-turn input from attachment messages not being saved to the transcript - Fixed messages typed while Claude is working not being persisted to the transcript - Fixed prompt-type Stop/SubagentStop hooks failing on long sessions, and hook evaluator API errors displaying "JSON validation failed" instead of the actual message - Fixed subagents with worktree isolation or cwd: override leaking their working directory back to the parent session's Bash tool - Fixed compaction writing duplicate multi-MB subagent transcript files on prompt-too-long retries - Fixed claude plugin update reporting "already at the latest version" for git-based marketplace plugins when the remote had newer commits - Fixed slash command picker breaking when a plugin's frontmatter name is a YAML boolean keyword - Fixed copying wrapped URLs in NO_FLICKER mode inserting spaces at line breaks - Fixed scroll rendering artifacts in NO_FLICKER mode when running inside zellij - Fixed a crash in NO_FLICKER mode when hovering over MCP tool results - Fixed a NO_FLICKER mode memory leak where API retries left stale streaming state - Fixed slow mouse-wheel scrolling in NO_FLICKER mode on Windows Terminal - Fixed custom status line not displaying in NO_FLICKER mode on terminals shorter than 24 rows - Fixed Shift+Enter and Alt/Cmd+arrow shortcuts not working in Warp with NO_FLICKER mode - Fixed Korean/Japanese/Unicode text becoming garbled when copied in no-flicker mode on Windows - Fixed Bedrock SigV4 authentication failing when AWS_BEARER_TOKEN_BEDROCK or ANTHROPIC_BEDROCK_BASE_URL are set to empty strings (as GitHub Actions does for unset inputs) - Improved Accept Edits mode to auto-approve filesystem commands prefixed with safe env vars or process wrappers (e.g. LANG=C rm foo, timeout 5 mkdir out) - Improved auto mode and bypass-permissions mode to auto-approve sandbox network access prompts - Improved sandbox: sandbox.network.allowMachLookup now takes effect on macOS - Improved image handling: pasted and attached images are now compressed to the same token budget as images read via the Read tool - Improved slash command and @-mention completion to trigger after CJK sentence punctuation, so Japanese/Chinese input no longer requires a space before / or @ - Improved Bridge sessions to show the local git repo, branch, and working directory on the claude.ai session card - Improved footer layout: indicators (Focus, notifications) now stay on the mode-indicator row instead of wrapping below - Improved context-low warning to show as a transient footer notification instead of a persistent row - Improved markdown blockquotes to show a continuous left bar across wrapped lines - Improved session transcript size by skipping empty hook entries and capping stored pre-edit file copies - Improved transcript accuracy: per-block entries now carry the final token usage instead of the streaming placeholder - Improved Bash tool OTEL tracing: subprocesses now inherit a W3C TRACEPARENT env var when tracing is enabled - Updated /claude-api skill to cover Managed Agents alongside the Claude API]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.97</link>
@@ -2975,20 +3017,6 @@
             <pubDate>Wed, 11 Feb 2026 15:37:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.1.58]]></title>
-            <description><![CDATA[## TUI - Dismiss dialogs with Ctrl+C in TUI (@kitlangton) - Keep /share command available to copy existing share link (@kitlangton) - Add mode-specific input placeholders to improve context-aware prompts (@kitlangton) - Prevent home wordmark corruption in height-constrained terminals (@kitlangton) ## Desktop - Revert WSL backend mode feature for desktop - Notifications enabled on child sessions - Terminal PTY buffer now properly carries over between sessions - Terminal resize functionality fixed in app **Thank you to 1 community contributor:** - @kitlangton: - fix(tui): prevent home wordmark corruption in height-constrained terminals (#13069) - feat(prompt): mode-specific input placeholders (#12388) - fix(tui): keep /share available to copy existing link (#12532) - fix(tui): dismiss dialogs with ctrl+c (#12884)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.58</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.58</guid>
-            <pubDate>Wed, 11 Feb 2026 15:12:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.57]]></title>
-            <description><![CDATA[## Core - Add additional context overflow cases and remove overcorrecting ones - Ensure compaction is more reliable by adding reserve token buffer to provide enough room for input window compaction - Improve /review prompt to detect behavior changes more explicitly - Improve Amazon Bedrock check to include container credentials (@OpeOginni) ## TUI - Default session sidebar to auto ## Desktop - Fixed terminal copy/paste functionality - Copy path button styles fixed in app - Use tracing for logging in desktop application (@Brendonovich) - Enhance Windows app resolution and UI loading states (@neriousy) - Improve desktop app server spawn resilience - Read Wayland preference from store in desktop application (@Brendonovich) - Add WSL backend mode for desktop (@Brendonovich) ## SDK - Encode non-ASCII directory paths in v1 SDK HTTP headers (@MrMushrooooom) **Thank you to 9 community contributors:** - @github-actions[bot]: - Update VOUCHED list - @OpeOginni: - fix(tui): improve amazon-bedrock check to include container credentials (#13037) - @ariane-emory: - docs: remove 'Migrating to 1.0' documentation section (#13076) - @Brendonovich: - feat(desktop): add WSL backend mode (#12914) - fix(desktop): read wayland preference from store (#13081) - desktop: use tracing for logging (#13135) - @webwww123: - fix(docs): avoid footer language selector truncation (#13124) - @Seungjun0906: - docs(ko): improve translations for intro, cli, and commands (#13094) - @neriousy: - feat(desktop): enhance Windows app resolution and UI loading states (#13084) - @MrMushrooooom: - fix: encode non-ASCII directory paths in v1 SDK HTTP headers (#13131) - @taroj1205: - fix(web): prevent language select label truncation (#13100)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.57</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.57</guid>
-            <pubDate>Wed, 11 Feb 2026 13:45:50 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.39]]></title>
             <description><![CDATA[## What's changed - Improved terminal rendering performance - Fixed fatal errors being swallowed instead of displayed - Fixed process hanging after session close - Fixed character loss at terminal screen boundary - Fixed blank lines in verbose transcript view]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.39</link>
@@ -3648,13 +3676,6 @@
             <link>https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260116</link>
             <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.34-beta.20260116</guid>
             <pubDate>Fri, 16 Jan 2026 09:07:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.9]]></title>
-            <description><![CDATA[## What's changed - Added auto:N syntax for configuring the MCP tool search auto-enable threshold, where N is the context window percentage (0-100) - Added plansDirectory setting to customize where plan files are stored - Added external editor support (Ctrl+G) in AskUserQuestion "Other" input field - Added session URL attribution to commits and PRs created from web sessions - Added support for PreToolUse hooks to return additionalContext to the model - Added ${CLAUDE_SESSION_ID} string substitution for skills to access the current session ID - Fixed long sessions with parallel tool calls failing with an API error about orphan tool_result blocks - Fixed MCP server reconnection hanging when cached connection promise never resolves - Fixed Ctrl+Z suspend not working in terminals using Kitty keyboard protocol (Ghostty, iTerm2, kitty, WezTerm)]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.9</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.9</guid>
-            <pubDate>Fri, 16 Jan 2026 02:19:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.14.2]]></title>
@@ -4955,13 +4976,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.28.4</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.4</guid>
             <pubDate>Mon, 15 Sep 2025 04:19:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.28.3]]></title>
-            <description><![CDATA[## What's Changed - Fixed issue with start new task button - Feature to generate commit message for staged changes, with unstaged as fallback **Full Changelog**: https://github.com/cline/cline/compare/v3.28.2...v3.28.3]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.28.3</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.28.3</guid>
-            <pubDate>Sat, 13 Sep 2025 01:59:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.12.112 — Cascade Improvements]]></title>

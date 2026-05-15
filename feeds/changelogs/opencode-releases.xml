@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 14 May 2026 18:36:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 09:02:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 May 2026 03:03:25 GMT</pubDate>
+        <pubDate>Fri, 15 May 2026 04:03:57 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.15.0]]></title>
+            <description><![CDATA[## Core ### Improvements - Added an Effect-based core event system for more complete event delivery across sessions and integrations. ### Bugfixes - Ignored invalid exports in custom tool modules instead of failing tool loading. - Ignored project instruction lookup errors so sessions keep loading when project instruction discovery fails. - Fixed versioned event projector lookups so event replay uses the right handlers. ## Desktop ### Improvements - Auto-hide the menu bar on Linux and Windows. (@shi-gg) ### Bugfixes - Fixed archived sessions being reprocessed when their archive state did not change. ## SDK ### Bugfixes - Restored missing event types in the JavaScript SDK, including session and message events. **Thank you to 1 community contributor:** - @shi-gg: - feat(desktop): auto-hide menu bar on Linux and Windows (#27618)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.0</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.0</guid>
+            <pubDate>Fri, 15 May 2026 04:03:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.51]]></title>
+            <description><![CDATA[## Core ### Improvements - Added experimental background subagents so tasks can keep running while you continue working. - Added the required billing origin header for NVIDIA endpoints. (@nv-kasikritc) ### Bugfixes - Fixed worktree creation requests that omitted the POST body. - Fixed sessions getting stuck with interrupted assistant messages after cancellation. - Fixed repeated auto-compaction in sessions after compaction reordered messages. - Updated LiteLLM compatibility to require v1.85.0-rc.2+ for current GPT-5 and tool-call behavior. (@Sameerlite) - Fixed truncated shell output streams closing cleanly. - Stopped exposing internal named defect details from the HTTP API. - Fixed Azure gpt-5.5 requests through the completions API. (@frederiknsgo) - Restored automatic image resizing for oversized image attachments. ## TUI ### Bugfixes - Preserved text selection when clicking question prompt options. (@nikhil-patel-whatnot) ## Desktop ### Improvements - Added MCP connection status for client registration and authentication, with direct re-auth flows in the app. (@OpeOginni) ### Bugfixes - Fixed Windows app detection by reading where output correctly. ## Extensions ### Bugfixes - Fixed DigitalOcean OAuth to request only the GenAI scopes it needs. (@Spherrrical) **Thank you to 7 community contributors:** - @nikhil-patel-whatnot: - fix(tui): preserve text selection on question prompt options (#24988) - @frederiknsgo: - fix: bug encountered when using azure gpt-5.5 w/ completions api (#26222) - @OpeOginni: - feat(desktop): add mcp client registration status and authentication handling (#27525) - @Sameerlite: - fix(provider): remove LiteLLM workarounds ported upstream, requires LiteLLM v1.85.0-rc.2+ (#26819) - @bo-tato: - docs(app): stale reference to removed multi-edit tool (#27579) - @Spherrrical: - fix(plugin): scope digitalocean oauth to genai (#27599) - @nv-kasikritc: - feat(provider): add NVIDIA endpoints origin header (#27394)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.51</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.51</guid>
+            <pubDate>Fri, 15 May 2026 00:39:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.14.50]]></title>
             <description><![CDATA[## Core ### Bugfixes - Kept HTTP event streams open after the initial connect event so subscribers continue receiving instance updates. - Returned proper busy errors when a session is already running prompt or shell work. - Let invalid small_model config values fall back cleanly instead of breaking small-model selection. - Improved missing-model errors with suggestions across CLI and typed callers. ## TUI ### Improvements - Restored markdown rendering for session output by default. ## SDK ### Improvements - Added instance.directory and instance.workspace query support to the v2 model and provider calls.]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.59</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.59</guid>
             <pubDate>Wed, 11 Feb 2026 15:37:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.58]]></title>
-            <description><![CDATA[## TUI - Dismiss dialogs with Ctrl+C in TUI (@kitlangton) - Keep /share command available to copy existing share link (@kitlangton) - Add mode-specific input placeholders to improve context-aware prompts (@kitlangton) - Prevent home wordmark corruption in height-constrained terminals (@kitlangton) ## Desktop - Revert WSL backend mode feature for desktop - Notifications enabled on child sessions - Terminal PTY buffer now properly carries over between sessions - Terminal resize functionality fixed in app **Thank you to 1 community contributor:** - @kitlangton: - fix(tui): prevent home wordmark corruption in height-constrained terminals (#13069) - feat(prompt): mode-specific input placeholders (#12388) - fix(tui): keep /share available to copy existing link (#12532) - fix(tui): dismiss dialogs with ctrl+c (#12884)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.58</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.58</guid>
-            <pubDate>Wed, 11 Feb 2026 15:12:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.57]]></title>
-            <description><![CDATA[## Core - Add additional context overflow cases and remove overcorrecting ones - Ensure compaction is more reliable by adding reserve token buffer to provide enough room for input window compaction - Improve /review prompt to detect behavior changes more explicitly - Improve Amazon Bedrock check to include container credentials (@OpeOginni) ## TUI - Default session sidebar to auto ## Desktop - Fixed terminal copy/paste functionality - Copy path button styles fixed in app - Use tracing for logging in desktop application (@Brendonovich) - Enhance Windows app resolution and UI loading states (@neriousy) - Improve desktop app server spawn resilience - Read Wayland preference from store in desktop application (@Brendonovich) - Add WSL backend mode for desktop (@Brendonovich) ## SDK - Encode non-ASCII directory paths in v1 SDK HTTP headers (@MrMushrooooom) **Thank you to 9 community contributors:** - @github-actions[bot]: - Update VOUCHED list - @OpeOginni: - fix(tui): improve amazon-bedrock check to include container credentials (#13037) - @ariane-emory: - docs: remove 'Migrating to 1.0' documentation section (#13076) - @Brendonovich: - feat(desktop): add WSL backend mode (#12914) - fix(desktop): read wayland preference from store (#13081) - desktop: use tracing for logging (#13135) - @webwww123: - fix(docs): avoid footer language selector truncation (#13124) - @Seungjun0906: - docs(ko): improve translations for intro, cli, and commands (#13094) - @neriousy: - feat(desktop): enhance Windows app resolution and UI loading states (#13084) - @MrMushrooooom: - fix: encode non-ASCII directory paths in v1 SDK HTTP headers (#13131) - @taroj1205: - fix(web): prevent language select label truncation (#13100)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.57</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.57</guid>
-            <pubDate>Wed, 11 Feb 2026 13:45:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
