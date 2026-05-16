@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 16 May 2026 05:05:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 May 2026 06:46:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 15 May 2026 04:03:57 GMT</pubDate>
+        <pubDate>Sat, 16 May 2026 05:44:46 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.15.1]]></title>
+            <description><![CDATA[## Core ### Improvements - Clarified how to recover when the npm package is installed without its native binary. ### Bugfixes - Avoid duplicate consecutive entries in prompt history. - Show full config validation errors during TUI startup instead of a generic failure. - Fixed npm installs so the CLI can recover and fetch the right native binary on more setups. - Fixed multiline @ mentions in prompts. - Preserved custom tool metadata from Zod schemas. - Preserved custom tool argument descriptions in generated schemas. - Fixed file watching in repos where .git is a symlink. (@kagura-agent) ## TUI ### Improvements - Added a collapsed thinking view that can be expanded inline. - Added pinned sessions with quick-switch slots in the session picker. ### Bugfixes - Fixed thinking mode defaults so reasoning starts collapsed consistently. - Limited session quick-switching to pinned sessions. - Fixed Markdown table rendering in chat output. **Thank you to 1 community contributor:** - @kagura-agent: - fix(watcher): resolve symlinked .git path before subscribing (#27016)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.1</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.1</guid>
+            <pubDate>Sat, 16 May 2026 05:44:46 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.15.0]]></title>
             <description><![CDATA[## Core ### Improvements - Added an Effect-based core event system for more complete event delivery across sessions and integrations. ### Bugfixes - Ignored invalid exports in custom tool modules instead of failing tool loading. - Ignored project instruction lookup errors so sessions keep loading when project instruction discovery fails. - Fixed versioned event projector lookups so event replay uses the right handlers. ## Desktop ### Improvements - Auto-hide the menu bar on Linux and Windows. (@shi-gg) ### Bugfixes - Fixed archived sessions being reprocessed when their archive state did not change. ## SDK ### Bugfixes - Restored missing event types in the JavaScript SDK, including session and message events. **Thank you to 1 community contributor:** - @shi-gg: - feat(desktop): auto-hide menu bar on Linux and Windows (#27618)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.60</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.60</guid>
             <pubDate>Thu, 12 Feb 2026 05:58:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.59]]></title>
-            <description><![CDATA[## Desktop - Add translations support to the application - I don't have access to git commands. Could you provide the full commit message or the PR description for #13166 so I can create an appropriate changelog entry? (@neriousy) - Add more end-to-end tests for the application - Fixed sidebar remounting issue **Thank you to 1 community contributor:** - @neriousy: - Fix/reverception (#13166)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.59</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.59</guid>
-            <pubDate>Wed, 11 Feb 2026 15:37:13 GMT</pubDate>
         </item>
     </channel>
 </rss>
