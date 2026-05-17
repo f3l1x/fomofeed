@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 14:30:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 18:22:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 16 May 2026 22:34:19 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 17:44:52 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.15.4]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Fixed project-scoped bus events so file watcher and update notifications reach the right instance. - Fixed custom LSP servers not sending refresh events after they initialize. - Hid background subagent task instructions unless experimental background mode is enabled. ## TUI ### Improvements - Made Markdown H1 headings easier to distinguish. **Thank you to 1 community contributor:** - @necropheus: - docs: update README.es.md (#27739)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.4</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.4</guid>
+            <pubDate>Sun, 17 May 2026 17:44:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.5]]></title>
             <description><![CDATA[- Show plugin-provided tools and slash commands in the CLI settings dialog by hydrating them through the sandbox. - Preserve hydrated plugin tools and config reload options when toggling settings, so they no longer disappear after a toggle. Full Changelog: https://github.com/cline/cline/compare/cli-v3.0.4...cli-v3.0.5]]></description>
@@ -3002,13 +3009,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.59.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.59.0</guid>
             <pubDate>Thu, 12 Feb 2026 18:45:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.62]]></title>
-            <description><![CDATA[## Core - Return image attachments from webfetch tool - Expose tool arguments in shell hook for plugin visibility ## Desktop - Project icons no longer unload unexpectedly - Preserve undo history for plain-text paste in app (@gitRasheed) - Refactor app for better SolidJS hygiene - More defensive session context metrics handling in app **Thank you to 2 community contributors:** - @dtfiedler: - fix(docs): correct format attribute in StructuredOutputs (#13340) - @gitRasheed: - fix(app): preserve undo history for plain-text paste (#13351)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.62</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.62</guid>
-            <pubDate>Thu, 12 Feb 2026 18:15:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Build (024bb65)]]></title>
