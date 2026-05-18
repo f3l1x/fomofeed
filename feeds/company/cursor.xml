@@ -4,11 +4,19 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 18 May 2026 15:05:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 May 2026 18:36:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Composer 2.5]]></title>
+            <description><![CDATA[A substantial improvement in intelligence and behavior over Composer 2, particularly on long-horizon agentic tasks.]]></description>
+            <link>https://cursor.com/blog/composer-2-5</link>
+            <guid isPermaLink="false">https://cursor.com/blog/composer-2-5</guid>
+            <category><![CDATA[Research]]></category>
+            <pubDate>Sun, 17 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Development environments for your cloud agents]]></title>
             <link>https://cursor.com/blog/cloud-agent-development-environments</link>
@@ -105,13 +113,6 @@
             <pubDate>Tue, 07 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Better MoE model inference with warp decode]]></title>
-            <link>https://cursor.com/blog/warp-decode</link>
-            <guid isPermaLink="false">https://cursor.com/blog/warp-decode</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Meet the new Cursor]]></title>
             <description><![CDATA[Cursor 3 is a unified workspace for building software with agents.]]></description>
             <link>https://cursor.com/blog/cursor-3</link>
@@ -126,14 +127,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/composer-2</guid>
             <category><![CDATA[Research]]></category>
             <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How we compare model quality in Cursor]]></title>
-            <description><![CDATA[We use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do.]]></description>
-            <link>https://cursor.com/blog/cursorbench</link>
-            <guid isPermaLink="false">https://cursor.com/blog/cursorbench</guid>
-            <category><![CDATA[Research]]></category>
-            <pubDate>Tue, 10 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[PlanetScale protects production reliability with Bugbot]]></title>

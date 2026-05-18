@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 18 May 2026 15:05:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 May 2026 18:36:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Anthropic acquires Stainless]]></title>
+            <link>https://www.anthropic.com/news/anthropic-acquires-stainless</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-acquires-stainless</guid>
+            <pubDate>Sun, 17 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Accelerating on-device AI: A look at Arm and Google AI Edge optimization]]></title>
             <description><![CDATA[Integration of Arm Scalable Matrix Extension 2 (SME2) and the Google AI Edge software stack enables high-performance, on-device generative AI by turning the CPU into a powerful matrix-compute accelerator. Using Stability AI’s "stable-audio-open-small" model as a case study, it outlines a streamlined "Convert, Optimize, and Deploy" pipeline that utilizes LiteRT, XNNPACK, and KleidiAI to automate hardware acceleration. The resulting implementation achieves over a 2x speedup in audio generation and a 4x reduction in memory usage while maintaining high audio quality on Arm-powered mobile devices and laptops.]]></description>
@@ -140,12 +146,6 @@
             <title><![CDATA[An update on our election safeguards]]></title>
             <link>https://www.anthropic.com/news/election-safeguards-update</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/election-safeguards-update</guid>
-            <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce]]></title>
-            <link>https://www.anthropic.com/news/anthropic-nec</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-nec</guid>
             <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
