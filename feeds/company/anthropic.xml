@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 May 2026 07:11:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 May 2026 15:04:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 19 May 2026 00:48:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.144</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.144</guid>
             <pubDate>Tue, 19 May 2026 00:48:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance]]></title>
+            <link>https://www.anthropic.com/news/anthropic-kpmg</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-kpmg</guid>
+            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic acquires Stainless]]></title>
@@ -239,12 +245,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.119</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.119</guid>
             <pubDate>Thu, 23 Apr 2026 23:24:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[An update on our election safeguards]]></title>
-            <link>https://www.anthropic.com/news/election-safeguards-update</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/election-safeguards-update</guid>
-            <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.118]]></title>
@@ -994,6 +994,12 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels]]></title>
+            <link>https://claude.com/blog/claude-managed-agents-updates</link>
+            <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents-updates</guid>
+            <pubDate>Thu, 29 Oct 2020 13:42:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration]]></title>
             <link>https://claude.com/blog/new-in-claude-managed-agents</link>
             <guid isPermaLink="false">https://claude.com/blog/new-in-claude-managed-agents</guid>
@@ -1046,12 +1052,6 @@
             <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
             <guid isPermaLink="false">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
             <pubDate>Thu, 05 Nov 2020 09:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Improving frontend design through Skills]]></title>
-            <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
-            <guid isPermaLink="false">https://claude.com/blog/improving-frontend-design-through-skills</guid>
-            <pubDate>Wed, 12 Feb 2020 00:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>

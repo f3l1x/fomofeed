@@ -4,16 +4,24 @@
         <description><![CDATA[RSS feed for Dagster Blog]]></description>
         <link>https://dagster.io/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 May 2026 07:11:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 May 2026 15:04:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/dagster-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The Dagster Almanack: From Complexity to Composability]]></title>
+            <description><![CDATA[A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.]]></description>
+            <link>https://dagster.io/blog/the-dagster-almanack-from-complexity-to-composability</link>
+            <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-from-complexity-to-composability</guid>
+            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Announcing the Dagster+ Terraform Provider]]></title>
             <description><![CDATA[The Dagster+ Terraform provider lets platform teams manage deployments, access controls, alerting, and more as code. Define entire environments declaratively, review changes through pull requests, and integrate Dagster+ into your existing infrastructure workflows.]]></description>
             <link>https://dagster.io/blog/announcing-the-dagster-terraform-provider</link>
             <guid isPermaLink="false">https://dagster.io/blog/announcing-the-dagster-terraform-provider</guid>
+            <category><![CDATA[Product]]></category>
             <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -103,14 +111,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/evaluating-agent-skills</guid>
             <category><![CDATA[Engineering]]></category>
             <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Great Infrastructure Needs Great Stories: Designing our Children’s Book]]></title>
-            <description><![CDATA[We set out to explain Dagster assets in the simplest possible way: as living characters that wait, react, and change with their dependencies. By designing a children’s book with warmth, visuals, and motion, we rediscovered what makes assets compelling in the first place.]]></description>
-            <link>https://dagster.io/blog/great-infrastructure-needs-great-stories</link>
-            <guid isPermaLink="false">https://dagster.io/blog/great-infrastructure-needs-great-stories</guid>
-            <category><![CDATA[Product]]></category>
-            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
