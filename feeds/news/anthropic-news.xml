@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 May 2026 18:37:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 05:21:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Widening the conversation on frontier AI]]></title>
+            <link>https://www.anthropic.com/news/widening-conversation-ai</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/widening-conversation-ai</guid>
+            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance]]></title>
             <link>https://www.anthropic.com/news/anthropic-kpmg</link>
@@ -62,12 +68,6 @@
             <link>https://www.anthropic.com/news/claude-for-creative-work</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-creative-work</guid>
             <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office]]></title>
-            <link>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
-            <pubDate>Sun, 26 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Claude Design by Anthropic Labs]]></title>
