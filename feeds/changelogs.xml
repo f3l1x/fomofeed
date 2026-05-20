@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 20 May 2026 07:12:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 17:03:34 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 May 2026 02:59:50 GMT</pubDate>
+        <pubDate>Wed, 20 May 2026 15:51:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.133.0-alpha.1]]></title>
+            <description><![CDATA[Release 0.133.0-alpha.1]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.133.0-alpha.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.133.0-alpha.1</guid>
+            <pubDate>Wed, 20 May 2026 15:51:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.9]]></title>
             <description><![CDATA[- Speed up CLI startup with plugins by loading sandboxed plugins concurrently and caching plugin tool descriptors per plugin, provider, and model. - Speed up plugin and tool config toggles by updating the TUI optimistically and persisting changes without reloading the full config or reimporting plugins. - Restore fuzzy ranking for the @-mention file picker so the most relevant files appear first. - Keep the interactive CLI session alive after cancelling a task instead of tearing the session down. - Accept dash-prefixed prompts when passed after --, so prompts starting with - are no longer parsed as flags. - Recover from hub abort cleanup failures so a cancel that hits an error no longer crashes the runtime host. - Route GLM thinking through provider metadata so thinking-enabled GLM models behave correctly through the gateway. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.8...cli-v3.0.9]]></description>
@@ -1664,13 +1671,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.78.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.78.0</guid>
             <pubDate>Fri, 10 Apr 2026 20:40:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.119.0-alpha.33]]></title>
-            <description><![CDATA[Release 0.119.0-alpha.33]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.33</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.119.0-alpha.33</guid>
-            <pubDate>Fri, 10 Apr 2026 19:51:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.101]]></title>

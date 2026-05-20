@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 20 May 2026 07:12:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 17:03:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Slop is a choice. Introducing Antidote.]]></title>
+            <description><![CDATA[Antidote: an evaluation framework that grades AI in an old-fashioned way – by experts who actually read the work.]]></description>
+            <link>https://www.surgehq.ai/blog/introducing-antidote</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/introducing-antidote</guid>
+            <pubDate>Sun, 19 Jul 2020 10:22:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[GDP.pdf: Can $100B AI Models Master the Documents that Run the World?]]></title>
             <description><![CDATA[Can frontier models master the documents that run the world? GDP.pdf is a multimodal and reasoning benchmark that takes real-world prompts and PDFs pulled directly from expert professional workflows.]]></description>
@@ -36,13 +43,6 @@
             <link>https://www.surgehq.ai/blog/hemingway-bench-ai-writing-leaderboard</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/hemingway-bench-ai-writing-leaderboard</guid>
             <pubDate>Thu, 26 Nov 2020 17:27:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Slop is a choice. Introducing Antidote.]]></title>
-            <description><![CDATA[Antidote: an evaluation framework that grades AI in an old-fashioned way – by experts who actually read the work.]]></description>
-            <link>https://www.surgehq.ai/blog/introducing-antidote</link>
-            <guid isPermaLink="false">https://www.surgehq.ai/blog/introducing-antidote</guid>
-            <pubDate>Sun, 19 Jul 2020 10:22:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building AdvancedIF: Evolving Instruction Following Beyond IFEval and “Avoid the Letter C”]]></title>
