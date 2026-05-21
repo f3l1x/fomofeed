@@ -4,11 +4,19 @@
         <description><![CDATA[RSS feed for Dagster Blog]]></description>
         <link>https://dagster.io/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 21 May 2026 09:07:01 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 15:06:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/dagster-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[We Tried ty for Performance. It Found Real Bugs]]></title>
+            <description><![CDATA[We adopted Astral’s new Python type checker, ty, to speed up type checking in the Dagster monorepo. The performance gains were dramatic, but the bigger surprise was that ty caught real runtime bugs Pyright missed. Here’s what we learned migrating a large Python codebase incrementally to ty.]]></description>
+            <link>https://dagster.io/blog/we-tried-ty-for-performance-it-found-real-bugs</link>
+            <guid isPermaLink="false">https://dagster.io/blog/we-tried-ty-for-performance-it-found-real-bugs</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[The Dagster Almanack: From Complexity to Composability]]></title>
             <description><![CDATA[A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.]]></description>
@@ -103,14 +111,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/building-real-time-interactive-avatars-with-metaxy</guid>
             <category><![CDATA[Engineering]]></category>
             <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Evaluating Skills]]></title>
-            <description><![CDATA[We built a light weight evaluation framework to quantiatively measure the effectiveness of the Dagster Skills, and these are our findings.]]></description>
-            <link>https://dagster.io/blog/evaluating-agent-skills</link>
-            <guid isPermaLink="false">https://dagster.io/blog/evaluating-agent-skills</guid>
-            <category><![CDATA[Engineering]]></category>
-            <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
