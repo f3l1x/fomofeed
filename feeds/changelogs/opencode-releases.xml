@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 21 May 2026 15:10:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 18:38:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 May 2026 21:44:11 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 15:51:28 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.15.7]]></title>
+            <description><![CDATA[## Core ### Improvements - Added Grok OAuth sign-in, including device-code login. (@Jaaneek) ### Bugfixes - V2 session APIs now return safe UnknownError responses with log reference IDs when stored messages are corrupt. - Generic API 500s no longer expose config details from server errors. - Unknown API errors now include reference IDs so you can match responses to server logs. - V2 session APIs now return 503 ServiceUnavailableError for mutations that are not available yet. - V2 session APIs now return SessionNotFoundError for missing sessions. - Deduped concurrent Codex OAuth refreshes to avoid repeated refresh failures. (@cooper-oai) - Restored native OpenAI OAuth requests. - Tool schema failures now surface as friendly tool errors. - Added PDF attachment support for Grok. - Restored OpenAI reasoning streams. ## TUI ### Bugfixes - Collapsed thinking labels now use clearer punctuation. - New sessions now default to the local project. - Single-select question checkmarks no longer run into option labels. ## Desktop ### Improvements - Added a pinch zoom setting for the desktop app. - Added a new desktop home view, session entry flow, and titlebar. - Refined the new desktop UI and moved app update actions into the titlebar. - Added desktop log export. ## SDK ### Bugfixes - V2 global event streams now include account add, remove, and switch events. **Thank you to 3 community contributors:** - @cooper-oai: - fix(opencode): dedupe concurrent Codex OAuth refreshes (#28236) - @Jaaneek: - feat(opencode): add xAI Grok OAuth (SuperGrok) + device-code login (#28557) - @kagura-agent: - fix(ui): preserve target attribute in DOMPurify config for markdown links (#28598)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.7</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.7</guid>
+            <pubDate>Thu, 21 May 2026 15:51:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.15.6]]></title>
             <description><![CDATA[## Core ### Improvements - Added a diff viewer in the TUI for reviewing changes. - Collapsed single-child directories in the diff viewer file tree. - Added shell mode to the run prompt. - Replaced subagent tabs with an on-demand picker in run. - Plugin file load errors no longer break the rest of plugin loading. - Anthropic API-key models now use the native runtime. - The v2 HTTP API now exposes structured public error schemas. ### Bugfixes - Zed editor context now only activates inside Zed terminals. - The v2 HTTP API now exposes catalog errors. - The v2 HTTP API now exposes request errors. - The v2 OpenAPI spec now preserves endpoint error responses. - opencode login now defaults to https://console.opencode.ai. - Agent and command names now resolve correctly from relative config paths. - Invalid OPENCODE_PERMISSION JSON no longer crashes startup. - Plugin tools with missing args no longer break tool loading. - Restored legacy PgUp and PgDn TUI keybind aliases. - Native runtime now prefers the console provider token for OpenCode models. ## TUI ### Improvements - The diff viewer now focuses the first file automatically. ### Bugfixes - Imported sessions now refresh their directory and relative path fields correctly. (@OpeOginni) ## Desktop ### Improvements - Added initial desktop tabs support. - Added a native app menu on Windows. - Added Ukrainian locale support. (@MYMDO) ### Bugfixes - Custom providers now appear immediately after config updates. (@tianxiaoliang) ## SDK - Updated opentui dependencies to 0.2.15. **Thank you to 4 community contributors:** - @MYMDO: - feat(i18n): add Ukrainian (uk) locale support (#28061) - @StarpTech: - chore(team): add starptech to the team members list (#28320) - chore(docs): remove beta zen go (#28317) - chore(triage): add 'starptech' to core and inference teams (#28376) - @tianxiaoliang: - fix(app): invalidate provider queries after config update to show custom providers immediately (#28313) - @OpeOginni: - fix(opencode): Update directory and path fields of imported session (#27516) - fix(enterprise): message nav hovercard and active state (#23964)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.0</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.0</guid>
             <pubDate>Sat, 14 Feb 2026 05:20:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.65]]></title>
-            <description><![CDATA[## Core - Revert token substitution in OPENCODE_CONFIG_CONTENT - Ensure @-mentioning a directory uses the read tool instead of deprecated list tool - Add tool.definition hook for plugins to modify tool description and parameters (@spoons-and-mirrors) - Remove worktree delete functionality - Resolve ACP hanging indefinitely in thinking state on Windows (@ASidorenkoCode) ## Desktop - Reconnect event stream on disconnect - Toggle all provider models in settings - Clean up desktop loading page (@Brendonovich) - Notification should navigate to session - Fix prompt input behavior quirks - Failed to create store in app - Only show loading window if SQLite migration is necessary (@Brendonovich) **Thank you to 3 community contributors:** - @ASidorenkoCode: - fix: resolve ACP hanging indefinitely in thinking state on Windows (#13222) - @Brendonovich: - desktop: only show loading window if sqlite migration is necessary - cleanup desktop loading page - @spoons-and-mirrors: - feat(hook): add tool.definition hook for plugins to modify tool description and parameters (#4956)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.65</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.65</guid>
-            <pubDate>Fri, 13 Feb 2026 05:51:17 GMT</pubDate>
         </item>
     </channel>
 </rss>
