@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 20 May 2026 18:47:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 05:25:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 18 May 2026 20:57:16 GMT</pubDate>
+        <pubDate>Wed, 20 May 2026 21:44:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.15.6]]></title>
+            <description><![CDATA[## Core ### Improvements - Added a diff viewer in the TUI for reviewing changes. - Collapsed single-child directories in the diff viewer file tree. - Added shell mode to the run prompt. - Replaced subagent tabs with an on-demand picker in run. - Plugin file load errors no longer break the rest of plugin loading. - Anthropic API-key models now use the native runtime. - The v2 HTTP API now exposes structured public error schemas. ### Bugfixes - Zed editor context now only activates inside Zed terminals. - The v2 HTTP API now exposes catalog errors. - The v2 HTTP API now exposes request errors. - The v2 OpenAPI spec now preserves endpoint error responses. - opencode login now defaults to https://console.opencode.ai. - Agent and command names now resolve correctly from relative config paths. - Invalid OPENCODE_PERMISSION JSON no longer crashes startup. - Plugin tools with missing args no longer break tool loading. - Restored legacy PgUp and PgDn TUI keybind aliases. - Native runtime now prefers the console provider token for OpenCode models. ## TUI ### Improvements - The diff viewer now focuses the first file automatically. ### Bugfixes - Imported sessions now refresh their directory and relative path fields correctly. (@OpeOginni) ## Desktop ### Improvements - Added initial desktop tabs support. - Added a native app menu on Windows. - Added Ukrainian locale support. (@MYMDO) ### Bugfixes - Custom providers now appear immediately after config updates. (@tianxiaoliang) ## SDK - Updated opentui dependencies to 0.2.15. **Thank you to 4 community contributors:** - @MYMDO: - feat(i18n): add Ukrainian (uk) locale support (#28061) - @StarpTech: - chore(team): add starptech to the team members list (#28320) - chore(docs): remove beta zen go (#28317) - chore(triage): add 'starptech' to core and inference teams (#28376) - @tianxiaoliang: - fix(app): invalidate provider queries after config update to show custom providers immediately (#28313) - @OpeOginni: - fix(opencode): Update directory and path fields of imported session (#27516) - fix(enterprise): message nav hovercard and active state (#23964)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.6</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.6</guid>
+            <pubDate>Wed, 20 May 2026 21:44:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.15.5]]></title>
             <description><![CDATA[## Core ### Improvements - Preview the native OpenAI runtime path behind an experimental flag - Add --replay and --replay-limit to show recent history when resuming interactive runs ### Bugfixes - Fix plugin tools using ask so tool calls complete correctly - Reduce missed /event updates caused by a subscription race - Sort the v2 session list by most recently updated ## TUI ### Improvements - Refresh the prompt layout after pasting content ### Bugfixes - Keep file references scoped to the current workspace - Preserve pasted prompt content when copying - Collapse very long tool output lines to keep the layout readable - Use a higher-contrast paste summary badge color in some themes (@kagura-agent) ## Desktop ### Improvements - Allow desktop notifications from the renderer - Show free-limit and usage-exceeded dialogs in Desktop - Speed up large session timelines ### Bugfixes - Fix question dock overflow and message layout clipping - Hide the prompt placeholder when the input only contains whitespace (@ShrootBuck) - Sync the PWA status bar color with the active theme (@heimoshuiyu) - Install the newest available desktop update instead of reusing a stale download **Thank you to 4 community contributors:** - @heimoshuiyu: - fix: sync PWA status bar theme-color with app color scheme (#28006) - @ShrootBuck: - fix(app): hide prompt placeholder for whitespace input (#28101) - @kagura-agent: - fix(tui): use contrast-aware foreground for paste summary badge (#27969) - @SpiritChen51: - fix(ui): fallback to execCommand for clipboard copy when navigator.clipboard fails (#27993)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.65</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.65</guid>
             <pubDate>Fri, 13 Feb 2026 05:51:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.64]]></title>
-            <description><![CDATA[## Core - Token substitution in OPENCODE_CONFIG_CONTENT environment variable (@ariane-emory) - Look for recent model in fallback in CLI (@smitchaudhary) - Baseline CPU detection fixed (@Hona) - Windows selection behavior and manual Ctrl+C handling (@Hona) - Terminal PTY isolation for app ## TUI - Do not open console on error ## Desktop - Option to turn off sound effects - Normalize OAuth error messages - Suggestion active state broken - Fixed remote HTTP server connections in the app **Thank you to 4 community contributors:** - @amankalra172: - docs: update STACKIT provider documentation with typo fix (#13357) - @Hona: - feat: windows selection behavior, manual ctrl+c (#13315) - fix: baseline CPU detection (#13371) - @smitchaudhary: - fix: look for recent model in fallback in cli (#12582) - @ariane-emory: - fix: token substitution in OPENCODE_CONFIG_CONTENT (#13384)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.1.64</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.1.64</guid>
-            <pubDate>Thu, 12 Feb 2026 23:18:54 GMT</pubDate>
         </item>
     </channel>
 </rss>

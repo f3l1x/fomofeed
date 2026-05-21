@@ -4,11 +4,18 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 20 May 2026 18:47:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 05:25:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 May 2026 21:31:07 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 01:51:52 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.146]]></title>
+            <description><![CDATA[## What's changed - Renamed /simplify to /code-review with an optional effort level (e.g. /code-review high) - Auto mode no longer suppresses AskUserQuestion when the user or a skill explicitly relies on it - Fixed Windows PowerShell tool failing with "command line is invalid" when pwsh is installed via winget or the Microsoft Store (regression in v2.1.124) - Fixed MCP resources/list, resources/templates/list, and prompts/list dropping items past page 1 on paginating servers - Fixed full-screen strobing in attached background sessions on Windows Terminal while Claude is streaming - Fixed the auto-updater status line not showing your current version when an update fails - Fixed on Windows, removing a background-job worktree no longer follows NTFS junctions into the main repo - Fixed /background refusing sessions whose only typed input was a skill or custom slash command - Fixed backgrounded sessions re-prompting for tool permissions you already granted with "don't ask again" - Fixed /theme color editor and "New custom theme" dialogs not responding to Esc - Fixed an uncaught exception at the end of streaming sessions when running via the Agent SDK - Fixed forceLoginOrgUUID and forceLoginMethod managed-settings policies not being enforced against third-party-provider and API-key sessions - Fixed GNOME Terminal right-click and middle-click paste not inserting text - Fixed CLAUDE_CODE_SUBAGENT_MODEL not being forwarded to child processes in multi-agent sessions - Improved auto-updater reliability: native version checks and downloads now retry transient network failures instead of failing immediately - Improved diff rendering performance for large file edits]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.146</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.146</guid>
+            <pubDate>Thu, 21 May 2026 01:51:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.145]]></title>
             <description><![CDATA[## What's changed - Added claude agents --json to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers) - Added agent_id and parent_agent_id attributes to claude_code.tool OTEL spans, and fixed trace parenting so background subagent spans nest under the dispatching Agent tool span - Status line JSON input now includes GitHub repo and PR information when detected - /plugin Discover and Browse screens now show a plugin's commands, agents, skills, hooks, and MCP/LSP servers before installation - claude agents terminal tab title now shows the awaiting-input count so an alt-tabbed window tells you when an agent needs attention - Slash command and @-mention suggestion list now supports mouse hover and click in fullscreen mode - Stop and SubagentStop hook input now includes background_tasks and session_crons fields - Fixed a permission-prompt bypass where bare variable assignments to non-allowlisted environment variables in Bash commands were auto-approved - Fixed MCP prompt slash commands showing raw server validation errors when a required argument is omitted — the error now names the missing argument and shows expected usage - Fixed the spinner and elapsed-time display freezing until a keypress after the terminal was resized or refocused - Fixed the cross-project resume hint failing in default Windows PowerShell 5.1 — Windows now uses ; as the command separator - Fixed voice push-to-talk not working in the agent view's reply pane - Fixed task lists rendering in random order when several tasks are created at once - Fixed stale "Failed to install Anthropic marketplace" banner showing when the marketplace is already installed - Fixed the PR badge in the footer not updating immediately after gh pr create and other PR-state-changing commands run in-session - Fixed Agent Teams teammates with non-ASCII names failing every API call due to invalid header encoding - Fixed /review using a deprecated projectCards GraphQL query that errored on repos with Classic Projects - Fixed claude plugin validate not flagging skills: entries that point at a file instead of a directory — the error now suggests the parent directory - Fixed an infinite loop where a skill using context: fork could repeatedly re-invoke itself instead of running - Improved the Read tool to return a truncated first page with a "PARTIAL view" notice instead of a hard error when a whole-file read exceeds the token limit]]></description>
@@ -876,13 +883,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.16</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.16</guid>
             <pubDate>Thu, 22 Jan 2026 20:09:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.15]]></title>
-            <description><![CDATA[## What's changed - Added deprecation notification for npm installations - run claude install or see https://docs.anthropic.com/en/docs/claude-code/getting-started for more options - Improved UI rendering performance with React Compiler - Fixed the "Context left until auto-compact" warning not disappearing after running /compact - Fixed MCP stdio server timeout not killing child process, which could cause UI freezes]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.15</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.15</guid>
-            <pubDate>Wed, 21 Jan 2026 22:01:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Designing AI-resistant technical evaluations]]></title>
