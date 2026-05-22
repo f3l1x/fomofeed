@@ -4,11 +4,17 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 21 May 2026 18:38:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2026 07:12:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 16 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2.3.1012 — Fixes for Devin Local]]></title>
+            <link>https://windsurf.com/changelog/windsurf-next#fixes-for-devin-local</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#fixes-for-devin-local</guid>
+            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2.3.9 — Bug Fixes and Improvements]]></title>
             <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
