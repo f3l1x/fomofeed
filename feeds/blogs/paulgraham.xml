@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Paul Graham Essays]]></description>
         <link>https://www.paulgraham.com/articles.html</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 May 2026 15:02:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2026 16:45:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/paulgraham.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 29 Dec 2020 17:35:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -26,6 +26,12 @@
             <link>https://www.paulgraham.com/selfindulgence.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/selfindulgence.html</guid>
             <pubDate>Sat, 19 Dec 2020 06:55:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Convert Between Wealth and Income Tax]]></title>
+            <link>https://www.paulgraham.com/winc.html</link>
+            <guid isPermaLink="false">https://www.paulgraham.com/winc.html</guid>
+            <pubDate>Sat, 12 Sep 2020 10:06:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Brand Age]]></title>
