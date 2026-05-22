@@ -4,11 +4,19 @@
         <description><![CDATA[RSS feed for Anthropic Red Blog]]></description>
         <link>https://red.anthropic.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 May 2026 16:45:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2026 18:36:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-red.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 15 Dec 2020 14:28:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Coordinated Vulnerability Disclosure Dashboard]]></title>
+            <description><![CDATA[A regularly updated record of vulnerabilities found by Anthropic and reported to maintainers
+                        with cryptographic commitments to each finding at the time of disclosure.]]></description>
+            <link>https://red.anthropic.com/2026/cvd/</link>
+            <guid isPermaLink="false">https://red.anthropic.com/2026/cvd/</guid>
+            <pubDate>Thu, 02 Apr 2020 00:15:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Assessing Claude Mythos Preview’s cybersecurity capabilities]]></title>
             <description><![CDATA[Claude Mythos Preview is a new general-purpose language model that is
