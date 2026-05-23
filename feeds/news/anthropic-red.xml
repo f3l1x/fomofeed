@@ -4,11 +4,23 @@
         <description><![CDATA[RSS feed for Anthropic Red Blog]]></description>
         <link>https://red.anthropic.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 May 2026 18:36:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2026 05:15:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-red.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 15 Dec 2020 14:28:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Measuring LLMs' Ability to Develop Exploits]]></title>
+            <description><![CDATA[On two new, challenging academic benchmarks measuring AI models’ ability to develop exploits
+                        (ExploitBench and ExploitGym) and an updated version of the benchmark measuring smart contract
+                        exploitation (SCONE-bench), we have found that Mythos Preview consistently outperforms all other
+                        evaluated models. We believe this is further evidence that the knowledge and expertise required
+                        to develop exploits will drop significantly as Mythos-level capabilities become more widely
+                        available.]]></description>
+            <link>https://red.anthropic.com/2026/exploit-evals/</link>
+            <guid isPermaLink="false">https://red.anthropic.com/2026/exploit-evals/</guid>
+            <pubDate>Sun, 09 Aug 2020 12:59:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Coordinated Vulnerability Disclosure Dashboard]]></title>
             <description><![CDATA[A regularly updated record of vulnerabilities found by Anthropic and reported to maintainers
@@ -51,7 +63,7 @@
         <item>
             <title><![CDATA[LLM-discovered 0-days]]></title>
             <description><![CDATA[AI models can now find high-severity vulnerabilities at scale. This is a moment to empower
-                    defenders. We're now using Claude to find and help fix vulnerabilities in open source software.]]></description>
+                        defenders. We're now using Claude to find and help fix vulnerabilities in open source software.]]></description>
             <link>https://red.anthropic.com/2026/zero-days/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/zero-days/</guid>
             <pubDate>Thu, 23 Jan 2020 05:56:00 GMT</pubDate>
@@ -59,8 +71,8 @@
         <item>
             <title><![CDATA[AI Models on Realistic Cyber Ranges]]></title>
             <description><![CDATA[In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed
-                    at multistage attacks on networks with dozens of hosts using only standard, open-source tools,
-                    instead of the custom tools needed by previous generations.]]></description>
+                        at multistage attacks on networks with dozens of hosts using only standard, open-source tools,
+                        instead of the custom tools needed by previous generations.]]></description>
             <link>https://red.anthropic.com/2026/cyber-toolkits-update/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/cyber-toolkits-update/</guid>
             <pubDate>Tue, 23 Jun 2020 22:37:00 GMT</pubDate>
@@ -68,10 +80,10 @@
         <item>
             <title><![CDATA[Finding Bugs with Claude and Property-based Testing]]></title>
             <description><![CDATA[Ensuring that programs are bug-free is one of the most challenging aspects of software
-                    engineering. We developed an agent that can efficiently identify bugs in large software
-                    projects. Our agent infers general properties of code that should be true, and then applies
-                    property-based testing. After extensive manual validation, we are in the process of reporting
-                    bugs in top Python packages to their developers, several of which have already been patched.]]></description>
+                        engineering. We developed an agent that can efficiently identify bugs in large software
+                        projects. Our agent infers general properties of code that should be true, and then applies
+                        property-based testing. After extensive manual validation, we are in the process of reporting
+                        bugs in top Python packages to their developers, several of which have already been patched.]]></description>
             <link>https://red.anthropic.com/2026/property-based-testing/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/property-based-testing/</guid>
             <pubDate>Tue, 27 Oct 2020 17:36:00 GMT</pubDate>
@@ -79,12 +91,12 @@
         <item>
             <title><![CDATA[Experimenting with AI to Defend Critical Infrastructure]]></title>
             <description><![CDATA[AI could help defenders of critical infrastructure identify the vulnerabilities that attackers
-                might
-                exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest
-                National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the
-                potential of AI-accelerated defense and the value of public-private partnerships in harnessing
-                AI
-                for national security.]]></description>
+                    might
+                    exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest
+                    National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the
+                    potential of AI-accelerated defense and the value of public-private partnerships in harnessing
+                    AI
+                    for national security.]]></description>
             <link>https://red.anthropic.com/2026/critical-infrastructure-defense/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/critical-infrastructure-defense/</guid>
             <pubDate>Sun, 15 Mar 2020 14:52:00 GMT</pubDate>
@@ -92,9 +104,9 @@
         <item>
             <title><![CDATA[Project Vend: Phase Two]]></title>
             <description><![CDATA[In June, we revealed that we'd set up a small shop in our San Francisco office run by an AI
-                shopkeeper. It did not do particularly well. We made some adjustments for phase two of Project Vend.
-                The idea of an AI running a business doesn't seem as far-fetched as it once did. But the gap between
-                'capable' and 'completely robust' remains wide.]]></description>
+                    shopkeeper. It did not do particularly well. We made some adjustments for phase two of Project Vend.
+                    The idea of an AI running a business doesn't seem as far-fetched as it once did. But the gap between
+                    'capable' and 'completely robust' remains wide.]]></description>
             <link>https://red.anthropic.com/2025/project-vend-2/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend-2/</guid>
             <pubDate>Wed, 19 Aug 2020 23:29:00 GMT</pubDate>
@@ -102,9 +114,9 @@
         <item>
             <title><![CDATA[AI Agents Find Smart Contract Exploits]]></title>
             <description><![CDATA[We evaluated AI agents' ability to exploit smart contracts using a new benchmark comprising
-                contracts that were actually exploited. On contracts exploited after the latest knowledge cutoffs,
-                Claude Opus 4.5, Claude Sonnet 4.5, and GPT-5 found vulnerabilities worth a combined $4.6 million, a
-                finding that underscores the need for proactive adoption of AI for defense.]]></description>
+                    contracts that were actually exploited. On contracts exploited after the latest knowledge cutoffs,
+                    Claude Opus 4.5, Claude Sonnet 4.5, and GPT-5 found vulnerabilities worth a combined $4.6 million, a
+                    finding that underscores the need for proactive adoption of AI for defense.]]></description>
             <link>https://red.anthropic.com/2025/smart-contracts/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/smart-contracts/</guid>
             <pubDate>Tue, 15 Dec 2020 14:28:00 GMT</pubDate>
@@ -112,8 +124,8 @@
         <item>
             <title><![CDATA[Project Fetch]]></title>
             <description><![CDATA[How could frontier AI models like Claude reach beyond computers and affect the physical world? One
-                path is through robots. We ran an experiment to see how much Claude helped Anthropic staff perform
-                complex tasks with a robot dog.]]></description>
+                    path is through robots. We ran an experiment to see how much Claude helped Anthropic staff perform
+                    complex tasks with a robot dog.]]></description>
             <link>https://red.anthropic.com/2025/project-fetch/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-fetch/</guid>
             <pubDate>Sat, 26 Sep 2020 21:15:00 GMT</pubDate>
@@ -121,10 +133,10 @@
         <item>
             <title><![CDATA[Building AI for Cyber Defenders]]></title>
             <description><![CDATA[We invested in improving Claude's ability to help defenders detect, analyze, and remediate
-                    vulnerabilities in code and deployed systems. This work allowed Claude Sonnet 4.5 to match
-                    or
-                    eclipse Opus 4.1 in discovering code vulnerabilities and other cyber skills. Adopting and
-                    experimenting with AI will be key for defenders to keep pace.]]></description>
+                        vulnerabilities in code and deployed systems. This work allowed Claude Sonnet 4.5 to match
+                        or
+                        eclipse Opus 4.1 in discovering code vulnerabilities and other cyber skills. Adopting and
+                        experimenting with AI will be key for defenders to keep pace.]]></description>
             <link>https://red.anthropic.com/2025/ai-for-cyber-defenders/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/ai-for-cyber-defenders/</guid>
             <pubDate>Fri, 04 Dec 2020 04:06:00 GMT</pubDate>
@@ -132,12 +144,12 @@
         <item>
             <title><![CDATA[LLMs and Biorisk]]></title>
             <description><![CDATA[Our work at Anthropic is animated by the potential for AI to advance scientific
-                discovery—especially
-                in biology and medicine. At the same time, AI is fundamentally a dual-use technology. This
-                article
-                explains why we believe that evaluating biorisk and safeguarding against it is a critical
-                element
-                of responsible AI development.]]></description>
+                    discovery—especially
+                    in biology and medicine. At the same time, AI is fundamentally a dual-use technology. This
+                    article
+                    explains why we believe that evaluating biorisk and safeguarding against it is a critical
+                    element
+                    of responsible AI development.]]></description>
             <link>https://red.anthropic.com/2025/biorisk/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/biorisk/</guid>
             <pubDate>Wed, 04 Mar 2020 00:42:00 GMT</pubDate>
@@ -145,10 +157,10 @@
         <item>
             <title><![CDATA[Developing Nuclear Safeguards for AI]]></title>
             <description><![CDATA[Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an
-                    AI
-                    system
-                    that automatically categorizes content—that distinguishes between concerning and benign
-                    nuclear-related conversations with high accuracy in preliminary testing.]]></description>
+                        AI
+                        system
+                        that automatically categorizes content—that distinguishes between concerning and benign
+                        nuclear-related conversations with high accuracy in preliminary testing.]]></description>
             <link>https://red.anthropic.com/2025/nuclear-safeguards/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/nuclear-safeguards/</guid>
             <pubDate>Sat, 22 Feb 2020 02:35:00 GMT</pubDate>
@@ -156,9 +168,9 @@
         <item>
             <title><![CDATA[Claude Does Cyber Competitions]]></title>
             <description><![CDATA[Throughout 2025, we have been quietly entering Claude in cybersecurity competitions designed
-                primarily for humans. In many of these competitions Claude did pretty well, often placing in the
-                top
-                25% of competitors. However, it lagged behind the best human teams at the toughest challenges.]]></description>
+                    primarily for humans. In many of these competitions Claude did pretty well, often placing in the
+                    top
+                    25% of competitors. However, it lagged behind the best human teams at the toughest challenges.]]></description>
             <link>https://red.anthropic.com/2025/cyber-competitions/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-competitions/</guid>
             <pubDate>Sun, 18 Oct 2020 09:15:00 GMT</pubDate>
@@ -166,8 +178,8 @@
         <item>
             <title><![CDATA[Cyber Evaluations of Claude 4]]></title>
             <description><![CDATA[We partnered with Pattern Labs on a range of cybersecurity evaluations of Claude Opus 4 and
-                Claude
-                Sonnet 4, with Opus demonstrating especially notable improvement over previous models.]]></description>
+                    Claude
+                    Sonnet 4, with Opus demonstrating especially notable improvement over previous models.]]></description>
             <link>https://red.anthropic.com/2025/claude-4-cyber/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/claude-4-cyber/</guid>
             <pubDate>Tue, 26 May 2020 13:32:00 GMT</pubDate>
@@ -175,8 +187,8 @@
         <item>
             <title><![CDATA[Project Vend]]></title>
             <description><![CDATA[We let Claude manage an automated store in our office as a small business for about a month. We
-                learned a lot about the plausible, strange, not-too-distant future in which AI models are
-                autonomously running things in the real economy.]]></description>
+                    learned a lot about the plausible, strange, not-too-distant future in which AI models are
+                    autonomously running things in the real economy.]]></description>
             <link>https://red.anthropic.com/2025/project-vend/index.html</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend/index.html</guid>
             <pubDate>Tue, 02 Jun 2020 09:47:00 GMT</pubDate>
@@ -184,7 +196,7 @@
         <item>
             <title><![CDATA[Cyber Toolkits for LLMs]]></title>
             <description><![CDATA[Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage
-                attacks on networks with dozens of hosts when equipped with a novel toolkit.]]></description>
+                    attacks on networks with dozens of hosts when equipped with a novel toolkit.]]></description>
             <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
             <pubDate>Sun, 02 Aug 2020 23:23:00 GMT</pubDate>

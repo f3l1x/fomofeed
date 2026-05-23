@@ -4,11 +4,32 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 May 2026 18:36:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2026 05:15:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 22 May 2026 03:29:31 GMT</pubDate>
+        <pubDate>Sat, 23 May 2026 00:48:44 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.13]]></title>
+            <description><![CDATA[- Show a loading dialog while resuming a session from history so the TUI no longer appears frozen during the load. - Speed up the /clear command by deferring new session creation until you send the next prompt, so clearing no longer blocks on spinning up an empty session. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.12...cli-v3.0.13]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.13</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.13</guid>
+            <pubDate>Sat, 23 May 2026 00:48:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.12]]></title>
+            <description><![CDATA[- Show a loading dialog while the config screen switches provider or model so the transition no longer looks frozen. - Render the ask question tool prompt inline with the conversation so the question and suggested answers stay attached to the assistant turn that asked them, instead of appearing in a separate modal. - Allow manual cline update runs to install the latest published version immediately, bypassing the release age gate that delays automatic updates. - Refresh the bundled SDK to 0.0.42, updating the model catalog. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.11...cli-v3.0.12]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.12</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.12</guid>
+            <pubDate>Fri, 22 May 2026 22:17:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.11]]></title>
+            <description><![CDATA[- Fix a regression in the ChatGPT OAuth provider where requests failed with max_output_tokens not supported, by restoring the full output token budget instead of applying an implicit cap. - Hide the Space toggle hint in the config footer when the highlighted row is not toggleable (rules, agents, hooks). - Authenticate Vertex Gemini through Google auth when gcp.projectId is configured, and surface the full Vertex model list instead of only Claude models. - Include tool names in tool result content blocks so message logs and session history consistently track which tool produced each result. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.10...cli-v3.0.11]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.11</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.11</guid>
+            <pubDate>Fri, 22 May 2026 20:07:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.10]]></title>
             <description><![CDATA[- Install plugins from file:// URLs in addition to npm and git sources. - Show Ollama API key note in TUI settings so users know when to provide an API key. - Keep interactive sessions alive when idle or awaiting approval instead of treating them as ended, and stop reading message files for every session when hydrate: false. - Add Poolside as a provider. - Add Gemini 3.5 Flash to the Gemini provider model list. - Auto-detect Telegram bot username from the bot token so the Telegram connector no longer requires it to be configured separately. - Notify connectors when a scheduled execution fails, not just when it succeeds. - Bake OTEL telemetry variables into the CLI at build time so telemetry works in nightly and production builds. - Preserve model output token limits from the SDK model catalog so context window math matches the upstream provider. - Soften the visual treatment of rejected tool calls in the TUI. - Hide the skills tool from the system prompt when skills are disabled, and refresh slash commands after toggling a skill. - Restore AWS Bedrock profile-based auth during legacy config migration so profiles set via awsAuthentication: "profile" are preserved without awsUseProfile. - Cache global settings reads keyed by file mtime so repeated reads skip the JSON parse and zod validation on the hot path. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.9...cli-v3.0.10]]></description>
@@ -687,27 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.32.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.0</guid>
             <pubDate>Fri, 26 Sep 2025 18:10:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.31.1]]></title>
-            <description><![CDATA[## What's Changed * Add CLI tools detection to environment details by @domdomegg in https://github.com/cline/cline/pull/5471 * Rename MCP tab 'Installed' to 'Configure' by @saoudrizwan in https://github.com/cline/cline/pull/5966 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6451 **Full Changelog**: https://github.com/cline/cline/compare/v3.31.0...v3.31.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.31.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.31.1</guid>
-            <pubDate>Thu, 25 Sep 2025 06:39:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.31.0]]></title>
-            <description><![CDATA[## What's Changed * fix: Fixing oca provider utils by @nihar-oracle in https://github.com/cline/cline/pull/6359 * Checkpoints/Multiroot - accept array of workspaces by @canvrno in https://github.com/cline/cline/pull/6320 * Dependency updates by @canvrno in https://github.com/cline/cline/pull/6096 * Run Testing platform within Test workflow [shadow] by @JicLotus in https://github.com/cline/cline/pull/6273 * fix: remove temperature settings in z.ai models by @ZeroAurora in https://github.com/cline/cline/pull/6311 * Remove duplicate settings references in Task class by @celestial-vault in https://github.com/cline/cline/pull/6336 * Testing platform coverage by @JicLotus in https://github.com/cline/cline/pull/6332 * Improve the error messaging when Cline receives empty or unparsable responses from API providers by @arafatkatze in https://github.com/cline/cline/pull/6385 * Update SAP AI Core Provider Anthropic input token calculation by @tjandy98 in https://github.com/cline/cline/pull/6363 * refactor: append stealth models on readOpenRouterModels & refreshOpenRouterModels by @abeatrix in https://github.com/cline/cline/pull/6384 * Adding voice mode to Cline by @arafatkatze in https://github.com/cline/cline/pull/6208 * Adding Search tool for multi root workspace by @arafatkatze in https://github.com/cline/cline/pull/6288 * Update dependencies by @canvrno in https://github.com/cline/cline/pull/6390 * Update dependencies by @canvrno in https://github.com/cline/cline/pull/6393 * feat: add configurable auto-condense threshold setting by @abeatrix in https://github.com/cline/cline/pull/6391 * feat: Cline Auth Provider by @abeatrix in https://github.com/cline/cline/pull/6131 * feat: new Task Header UI with configurable auto condense threshold by @abeatrix in https://github.com/cline/cline/pull/6049 * Add a workflow that will trigger the Jetbrains tests for PRs in the cline repo. by @sjf in https://github.com/cline/cline/pull/6402 * Update CODEOWNERS to remove dcbartlett by @saoudrizwan in https://github.com/cline/cline/pull/6408 * fix: poll feature flags for all users by @abeatrix in https://github.com/cline/cline/pull/6404 * Remove VCS requirement from multiroot checkpoints by @canvrno in https://github.com/cline/cline/pull/6405 * feat: add multi-root workspace setting with feature flag support by @abeatrix in https://github.com/cline/cline/pull/6409 * fix(oca): Paper Cut Fixes by @nihar-oracle in https://github.com/cline/cline/pull/6410 * dev: disable auto-condense threshold configuration in task header by @abeatrix in https://github.com/cline/cline/pull/6407 * initialize compact mode to prevent UI glitching on mount by @abeatrix in https://github.com/cline/cline/pull/6413 * feat: add multi-root workspace support for auto-approve file reads by @arafatkatze in https://github.com/cline/cline/pull/6412 * fix: update fontsource import path to resolve 401 errors by @abeatrix in https://github.com/cline/cline/pull/6414 * add a script to reconstruct taskHistory by @celestial-vault in https://github.com/cline/cline/pull/6403 * Replace vscode context.globalStoragePath with HostProvider.globalStorageFsPath by @sjf in https://github.com/cline/cline/pull/6419 * Update task header and focus chain UI design by @saoudrizwan in https://github.com/cline/cline/pull/6415 * Fix bg color of API configuration in settings by @saoudrizwan in https://github.com/cline/cline/pull/6422 * Add docs for opening cline in right sidebar by @celestial-vault in https://github.com/cline/cline/pull/6292 * Testing Platform - Support partial response validation via meta.expected by @JicLotus in https://github.com/cline/cline/pull/6399 * update CompactTaskButton tooltip content and styling by @abeatrix in https://github.com/cline/cline/pull/6424 * add infobanner by @celestial-vault in https://github.com/cline/cline/pull/6294 * Update colors and width of focus chain by @saoudrizwan in https://github.com/cline/cline/pull/6437 * Revert focus chain design changes by @saoudrizwan in https://github.com/cline/cline/pull/6441 * Enable Voice mode in MacOS only by @arafatkatze in https://github.com/cline/cline/pull/6442 * fix: cline not knowing plan/act mode if compact mode is enabled by @saoudrizwan in https://github.com/cline/cline/pull/6443 * Fixing icons and positioning for UI for voice mode by @arafatkatze in https://github.com/cline/cline/pull/6445 * Saoudrizwan/fix-right-docs by @saoudrizwan in https://github.com/cline/cline/pull/6446 * Update announcement banner content by @saoudrizwan in https://github.com/cline/cline/pull/6448 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6379 ## New Contributors * @ZeroAurora made their first contribution in https://github.com/cline/cline/pull/6311 **Full Changelog**: https://github.com/cline/cline/compare/v3.30.3...v3.31.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.31.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.31.0</guid>
-            <pubDate>Thu, 25 Sep 2025 01:51:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.30.3]]></title>
-            <description><![CDATA[## What's Changed * adding yolo mode telemetry by @0xToshii in https://github.com/cline/cline/pull/6348 * feat(oca-ui): add OCA provider with model picker and auth integration by @nihar-oracle in https://github.com/cline/cline/pull/6339 * Empty PR to bump changeset by @arafatkatze in https://github.com/cline/cline/pull/6351 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6352 **Full Changelog**: https://github.com/cline/cline/compare/v3.30.2...v3.30.3]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.30.3</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.30.3</guid>
-            <pubDate>Sat, 20 Sep 2025 01:34:27 GMT</pubDate>
         </item>
     </channel>
 </rss>

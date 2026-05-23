@@ -4,11 +4,81 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 May 2026 18:36:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2026 05:15:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 22 May 2026 03:29:31 GMT</pubDate>
+        <pubDate>Sat, 23 May 2026 04:03:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.150]]></title>
+            <description><![CDATA[## What's changed - Internal infrastructure improvements (no user-facing changes)]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.150</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.150</guid>
+            <pubDate>Sat, 23 May 2026 04:03:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.134.0-alpha.3]]></title>
+            <description><![CDATA[Release 0.134.0-alpha.3]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.134.0-alpha.3</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.134.0-alpha.3</guid>
+            <pubDate>Sat, 23 May 2026 01:05:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.10]]></title>
+            <description><![CDATA[## Desktop ### Bugfixes - Restored the legacy production desktop flows for opening projects and starting sessions.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.10</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.10</guid>
+            <pubDate>Sat, 23 May 2026 01:04:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.13]]></title>
+            <description><![CDATA[- Show a loading dialog while resuming a session from history so the TUI no longer appears frozen during the load. - Speed up the /clear command by deferring new session creation until you send the next prompt, so clearing no longer blocks on spinning up an empty session. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.12...cli-v3.0.13]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.13</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.13</guid>
+            <pubDate>Sat, 23 May 2026 00:48:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.12]]></title>
+            <description><![CDATA[- Show a loading dialog while the config screen switches provider or model so the transition no longer looks frozen. - Render the ask question tool prompt inline with the conversation so the question and suggested answers stay attached to the assistant turn that asked them, instead of appearing in a separate modal. - Allow manual cline update runs to install the latest published version immediately, bypassing the release age gate that delays automatic updates. - Refresh the bundled SDK to 0.0.42, updating the model catalog. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.11...cli-v3.0.12]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.12</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.12</guid>
+            <pubDate>Fri, 22 May 2026 22:17:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.149]]></title>
+            <description><![CDATA[## What's changed - /usage now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost - /diff detail view can now be scrolled with the keyboard (arrows, j/k, PgUp/PgDn, Space, Home/End) - Markdown output now renders GFM task list checkboxes (- [ ] todo / - [x] done) instead of plain bullets - Enterprise: added the allowAllClaudeAiMcps managed setting to load claude.ai cloud MCP connectors alongside managed-mcp.json - Fixed a PowerShell permission bypass: built-in cd functions (cd.., cd\, cd~, X:) changed the working directory undetected, letting a later command read outside the workspace - Fixed the sandbox write allowlist in git worktrees covering the entire main repository root instead of only the shared .git directory (with hooks/ and config denied) - Fixed PowerShell prefix/wildcard allow rules (e.g. PowerShell(dotnet.exe build *)) not pre-approving native executables and scripts - Fixed a permission-analysis gap where the parser trusted stale variable-tracking values for PWD/OLDPWD/DIRSTACK across cd/pushd/popd - Fixed find in the Bash tool exhausting the macOS system file/vnode table and crashing the host on large directory trees - Fixed the managed-settings approval dialog leaving the terminal frozen after accepting at startup - Fixed /ultraplan and remote session creation failing with "Could not capture uncommitted changes" when the working tree has no real changes - Fixed otelHeadersHelper failing silently when the script path contains spaces; helper failures are now reported in /doctor and the debug log - Fixed the thinking spinner staying amber across tool calls and onto fresh thinking bursts - Fixed collapsed Bash output reporting the wrong hidden-line count for outputs with many short lines - Fixed slash-command argument-hint clipping trailing typed characters when the hint overflows the input box - Fixed argument-hint and progressive arg suggestions not appearing after Tab-completing a skill whose frontmatter name: differs from its directory basename - Fixed the status bar showing the user's baseline /effort setting instead of the effort level applied by skill/agent effort: frontmatter - Fixed Ctrl+O transcript view freezing at the moment it was opened instead of tailing new messages - Fixed editing a recalled prompt-history entry losing the edit when navigating further up/down with arrow keys - Fixed /config exit summary reporting phantom changes to auto-compact and theme when toggling unrelated settings - Fixed /insights crashing when cached session-meta files are missing optional fields - Fixed malformed PowerShell and History tool calls with missing input being misclassified as reads in transcript collapsing - Fixed renaming a Remote Control session from claude.ai or the Claude mobile app not updating the local session name for claude --resume - Fixed a race where a just-submitted prompt could appear twice in the up-arrow history - Fixed tapping the "Jump to bottom" pill in fullscreen mode not dismissing it immediately - Improved /feedback reports to include the conversation that happened before context compaction, making issues from earlier in long sessions easier to triage]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.149</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.149</guid>
+            <pubDate>Fri, 22 May 2026 22:09:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.134.0-alpha.2]]></title>
+            <description><![CDATA[Release 0.134.0-alpha.2]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.134.0-alpha.2</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.134.0-alpha.2</guid>
+            <pubDate>Fri, 22 May 2026 21:32:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.9]]></title>
+            <description><![CDATA[## Core ### Improvements - Redesigned the diff viewer with a file tree and refreshed layout. ### Bugfixes - Return to the previous screen when closing the diff viewer. - Show clearer errors when a default model is invalid or unavailable. - Surface missing PTY session errors instead of failing generically. - Improve diff viewer empty states and context handling. - Show clearer errors when a skill invocation fails as expected. - Show clearer errors when an installation upgrade fails. - Show clearer project not found errors from the HTTP API. - Return PTY error bodies from the HTTP API. - Enable the diff viewer by default. - Return MCP server not found errors from the HTTP API. - Let MCP OAuth configs set a callback port and include configured scopes in client metadata. (@sebin) - Use working Vertex Anthropic endpoints for us and eu multi-region setups. (@JPFrancoia) - Return session busy error bodies from the HTTP API. - Preserve native reasoning continuation metadata across turns. ## TUI ### Improvements - Copy the current worktree path from the command palette. ### Bugfixes - Refine diff viewer keyboard shortcuts. - Restore question prompt key handling. - Keep the spinner color aligned with the active agent. (@OpeOginni) ## Desktop ### Improvements - Move tab navigation into the title bar and tighten session tab shortcuts. - Show session status in the title bar. ### Bugfixes - Extract user codes correctly from callback URLs that contain multiple colons. (@OpeOginni) - Debounce VCS refreshes to reduce session page churn. **Thank you to 4 community contributors:** - @vglafirov: - chore(deps): bump gitlab-ai-provider to 6.7.0 (#28218) - @OpeOginni: - fix(opencode): update spinner color logic (#28032) - fix(desktop): correct user code extraction when URL contains colons (#28837) - @JPFrancoia: - fix(vertex): Vertex (Antropic) provider: use .rep.googleapis.com for continental multi-region endpoints (us, eu) (#28347) - @sebin: - fix(mcp): include scope in clientMetadata and add callbackPort option (#28810)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.9</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.9</guid>
+            <pubDate>Fri, 22 May 2026 21:18:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.11]]></title>
+            <description><![CDATA[- Fix a regression in the ChatGPT OAuth provider where requests failed with max_output_tokens not supported, by restoring the full output token budget instead of applying an implicit cap. - Hide the Space toggle hint in the config footer when the highlighted row is not toggleable (rules, agents, hooks). - Authenticate Vertex Gemini through Google auth when gcp.projectId is configured, and surface the full Vertex model list instead of only Claude models. - Include tool names in tool result content blocks so message logs and session history consistently track which tool produced each result. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.10...cli-v3.0.11]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.11</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.11</guid>
+            <pubDate>Fri, 22 May 2026 20:07:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.134.0-alpha.1]]></title>
+            <description><![CDATA[Release 0.134.0-alpha.1]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.134.0-alpha.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.134.0-alpha.1</guid>
+            <pubDate>Fri, 22 May 2026 19:03:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.10]]></title>
             <description><![CDATA[- Install plugins from file:// URLs in addition to npm and git sources. - Show Ollama API key note in TUI settings so users know when to provide an API key. - Keep interactive sessions alive when idle or awaiting approval instead of treating them as ended, and stop reading message files for every session when hydrate: false. - Add Poolside as a provider. - Add Gemini 3.5 Flash to the Gemini provider model list. - Auto-detect Telegram bot username from the bot token so the Telegram connector no longer requires it to be configured separately. - Notify connectors when a scheduled execution fails, not just when it succeeds. - Bake OTEL telemetry variables into the CLI at build time so telemetry works in nightly and production builds. - Preserve model output token limits from the SDK model catalog so context window math matches the upstream provider. - Soften the visual treatment of rejected tool calls in the TUI. - Hide the skills tool from the system prompt when skills are disabled, and refresh slash commands after toggling a skill. - Restore AWS Bedrock profile-based auth during legacy config migration so profiles set via awsAuthentication: "profile" are preserved without awsUseProfile. - Cache global settings reads keyed by file mtime so repeated reads skip the JSON parse and zod validation on the hot path. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.9...cli-v3.0.10]]></description>
@@ -1680,13 +1750,6 @@
             <pubDate>Mon, 13 Apr 2026 21:48:15 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.121.0-alpha.4]]></title>
-            <description><![CDATA[Release 0.121.0-alpha.4]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.4</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.4</guid>
-            <pubDate>Mon, 13 Apr 2026 15:34:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.104]]></title>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.104</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.104</guid>
@@ -1698,20 +1761,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.20.6</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.20.6</guid>
             <pubDate>Sun, 12 Apr 2026 22:59:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.121.0-alpha.2]]></title>
-            <description><![CDATA[Release 0.121.0-alpha.2]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.2</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.2</guid>
-            <pubDate>Sat, 11 Apr 2026 21:35:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.120.0]]></title>
-            <description><![CDATA[## New Features - Realtime V2 can now stream background agent progress while work is still running and queue follow-up responses until the active response completes (#17264, #17306) - Hook activity in the TUI is easier to scan, with live running hooks shown separately and completed hook output kept only when useful (#17266) - Custom TUI status lines can include the renamed thread title (#17187) - Code-mode tool declarations now include MCP outputSchema details so structured tool results are typed more precisely (#17210) - SessionStart hooks can distinguish sessions created by /clear from fresh startup or resume sessions (#17073) ## Bug Fixes - Fixed Windows elevated sandbox handling for split filesystem policies, including read-only carveouts under writable roots (#14568) - Fixed sandbox permission handling for symlinked writable roots and carveouts, preventing failures in shell and apply_patch workflows (#15981) - Fixed codex --remote wss://... panics by installing the Rustls crypto provider before TLS websocket connections (#17288) - Preserved tool search result ordering instead of alphabetically reordering results (#17263) - Fixed live Stop-hook prompts so they appear immediately instead of only after thread history reloads (#17189) - Fixed app-server MCP cleanup on disconnect so unsubscribed threads and resources are torn down correctly (#17223) ## Documentation - Documented the elevated vs restricted-token Windows sandbox support split in the core README (#14568) - Updated app-server protocol documentation for the new /clear SessionStart source (#17073) ## Chores - Made rollout recording more reliable by retrying failed flushes and surfacing durability failures instead of dropping buffered items (#17214) - Added analytics schemas and metadata wiring for compaction and Guardian review events (#17155, #17055) - Improved Guardian follow-up efficiency by sending transcript deltas instead of repeatedly resending full history (#17269) - Added stable Guardian review IDs across app-server events and internal approval state (#17298) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.119.0...rust-v0.120.0 - #17268 remove windows gate that disables hooks @iceweasel-oai - #17267 Stop Realtime V2 response.done delegation @aibrahim-oai - #14568 fix: support split carveouts in windows elevated sandbox @viyatb-oai - #17263 preserve search results order in tool_search_output @sayan-oai - #17189 Emit live hook prompts before raw-event filtering @abhinav-oai - #17288 Install rustls provider for remote websocket client @etraut-openai - #16969 Option to Notify Workspace Owner When Usage Limit is Reached @richardopenai - #17278 Rename Realtime V2 tool to background_agent @aibrahim-oai - #17280 Extract realtime input task handlers @aibrahim-oai - #17249 adding parent_thread_id in guardian @won-openai - #17264 Stream Realtime V2 background agent progress @aibrahim-oai - #17210 Add output_schema to code mode render @vivi - #16344 feat: move exec-server ownership @jif-oai - #17214 feat: make rollout recorder reliable against errors @jif-oai - #17223 fix: MCP leaks in app-server @jif-oai - #17338 feat: description multi-agent v2 @jif-oai - #17269 feat(guardian): send only transcript deltas on guardian followups @owenlin0 - #17306 Queue Realtime V2 response.create while active @aibrahim-oai - #17352 fix: main @jif-oai - #17363 Strengthen realtime backend delegation prompt @aibrahim-oai - #17155 [codex-analytics] add compaction analytics event @rhan-oai - #17187 Add thread title to configurable TUI status line @canvrno-oai - #17194 add parent-id to guardian context @won-openai - #17266 [codex] Improve hook status rendering @abhinav-oai - #17073 Support clear SessionStart source @abhinav-oai - #17298 fix(guardian, app-server): introduce guardian review ids @owenlin0 - #17391 Revert "Option to Notify Workspace Owner When Usage Limit is Reached" @shijie-oai - #17371 app-server: add pipelined config rpc regression test @euroelessar - #15981 fix(permissions): fix symlinked writable roots in sandbox permissions @viyatb-oai - #17055 feat(analytics): add guardian review event schema @owenlin0]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.120.0</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.120.0</guid>
-            <pubDate>Sat, 11 Apr 2026 02:53:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v3.78.0]]></title>
@@ -3037,20 +3086,6 @@
             <pubDate>Sat, 14 Feb 2026 08:43:11 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.2.1]]></title>
-            <description><![CDATA[v1.2.0 and beyond includes a data migration that will execute on first run. It will migrate all flat files in data directory to a single sqlite database. Depending on how much data you have and speed of computer this can take some time. if anything goes wrong you can retrigger the migration by deleting ~/.local/share/opencode/opencode.db* files (%APPDATA% on windows) If you have any issues with the migration the original data is not yet deleted and downgrading should work. But please open an issue so we can investigate and include sqlite in the issue title. SDK Users We now have a PartDelta event which sends only incremental changes to parts. This avoids sending the full content of text parts over and over when it is updated ## Core - Show all project sessions from any working directory - Tweak websearch tool description date info to avoid cache busts]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.1</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.1</guid>
-            <pubDate>Sat, 14 Feb 2026 06:40:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.0]]></title>
-            <description><![CDATA[This release includes a data migration that will execute on first run. It will migrate all flat files in data directory to a single sqlite database. Depending on how much data you have and speed of computer this can take some time. if anything goes wrong you can retrigger the migration by deleting ~/.local/share/opencode/opencode.db* files (%APPDATA% on windows) If you have any issues with the migration the original data is not yet deleted and downgrading should work. But please open an issue so we can investigate and include sqlite in the issue title. SDK Users We now have a PartDelta event which sends only incremental changes to parts. This avoids sending the full content of text parts over and over when it is updated ## Core - Revert to SQLite database implementation - Move timeout configuration from programmatic API to CLI flag (@yanhao98) - Update AI SDK packages and use adaptive reasoning for Claude Opus 4.6 on Vertex, Bedrock, and Anthropic ## TUI - Prevent crash when tool inputs are malformed during opencode run (@0xK3vin) - Add --dir option to run command (@BlankParticle) ## Desktop - Fix Rust compilation issues in desktop application (@Brendonovich) - Remove OPENCODE_SQLITE environment variable from desktop (@Brendonovich) - Terminal resize handling fixed in app - Use prompt_async endpoint to avoid timeout over VPN/tunnel (@eytans) - Remount SDK and sync tree when server URL changes (@ysm-dev) - Sync docs locale cookie on alias redirects (@Seungjun0906) - Performance optimization for showing large diffs and files in desktop (@neriousy) **Thank you to 12 community contributors:** - @BlankParticle: - feat(cli): add --dir option to run command (#12443) - @neriousy: - fix(desktop): performance optimization for showing large diff & files (#13460) - @Seungjun0906: - fix(web): sync docs locale cookie on alias redirects (#13109) - docs(ko): polish Korean phrasing in acp, agents, config, and custom-tools docs (#13446) - @ysm-dev: - fix(app): remount SDK/sync tree when server URL changes (#13437) - @Annopick: - docs: Fix zh-cn translation mistake in tools.mdx (#13407) - @eytans: - fix(web): use prompt_async endpoint to avoid timeout over VPN/tunnel (#12749) - @G36maid: - docs: add pacman installation option for Arch Linux alongside AUR (#13293) - @yanhao98: - fix(test): move timeout config to CLI flag (#13494) - @niushuai1991: - fix: standardize zh-CN docs character set and terminology (#13500) - @kitlangton: - fix(ui): support cmd-click links in inline code (#12552) - @0xK3vin: - fix: prevent opencode run crash on malformed tool inputs (#13051) - @Brendonovich: - desktop: remote OPENCODE_SQLITE env (#13545) - desktop: fix rust]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.0</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.0</guid>
-            <pubDate>Sat, 14 Feb 2026 05:20:24 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v3.62.0]]></title>
             <description><![CDATA[### Fixed - Banners now display immediately when opening the extension instead of requiring user interaction first - Resolved 17 security vulnerabilities including high-severity DoS issues in dependencies (body-parser, axios, qs, tar, and others) **Full Changelog**: https://github.com/cline/cline/compare/v3.61.0...v3.62.0]]></description>
             <link>https://github.com/cline/cline/releases/tag/v3.62.0</link>
@@ -3507,13 +3542,6 @@
             <pubDate>Tue, 27 Jan 2026 09:10:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v2.1.20]]></title>
-            <description><![CDATA[## What's changed - Added arrow key history navigation in vim normal mode when cursor cannot move further - Added external editor shortcut (Ctrl+G) to the help menu for better discoverability - Added PR review status indicator to the prompt footer, showing the current branch's PR state (approved, changes requested, pending, or draft) as a colored dot with a clickable link - Added support for loading CLAUDE.md files from additional directories specified via --add-dir flag (requires setting CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1) - Added ability to delete tasks via the TaskUpdate tool - Fixed session compaction issues that could cause resume to load full history instead of the compact summary - Fixed agents sometimes ignoring user messages sent while actively working on a task - Fixed wide character (emoji, CJK) rendering artifacts where trailing columns were not cleared when replaced by narrower characters - Fixed JSON parsing errors when MCP tool responses contain special Unicode characters - Fixed up/down arrow keys in multi-line and wrapped text input to prioritize cursor movement over history navigation - Fixed draft prompt being lost when pressing UP arrow to navigate command history - Fixed ghost text flickering when typing slash commands mid-input - Fixed marketplace source removal not properly deleting settings - Fixed duplicate output in some commands like /context - Fixed task list sometimes showing outside the main conversation view - Fixed syntax highlighting for diffs occurring within multiline constructs like Python docstrings - Fixed crashes when cancelling tool use - Improved /sandbox command UI to show dependency status with installation instructions when dependencies are missing - Improved thinking status text with a subtle shimmer animation - Improved task list to dynamically adjust visible items based on terminal height - Improved fork conversation hint to show how to resume the original session - Changed collapsed read/search groups to show present tense ("Reading", "Searching for") while in progress, and past tense ("Read", "Searched for") when complete - Changed teammate messages to render with rich Markdown formatting (bold, code blocks, lists, etc.) instead of plain text - Changed ToolSearch results to appear as a brief notification instead of inline in the conversation - Changed the /commit-push-pr skill to automatically post PR URLs to Slack channels when configured via MCP tools - Changed the /copy command to be available to all users - Changed background agents to prompt for tool permissions before launching - Changed permission rules like Bash(*) to be accepted and treated as equivalent to Bash - Changed config backups to be timestamped and rotated (keeping 5 most recent) to prevent data loss]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.20</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.20</guid>
-            <pubDate>Tue, 27 Jan 2026 01:35:35 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.15.2]]></title>
             <description><![CDATA[## What's Changed * New ollama launch clawdbot command for launching Clawdbot using Ollama models **Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.1...v0.15.2]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.15.2</link>
@@ -3639,13 +3667,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.53.1</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.53.1</guid>
             <pubDate>Sat, 24 Jan 2026 00:03:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.19]]></title>
-            <description><![CDATA[## What's changed - Added env var CLAUDE_CODE_ENABLE_TASKS, set to false to keep the old system temporarily - Added shorthand $0, $1, etc. for accessing individual arguments in custom commands - Fixed crashes on processors without AVX instruction support - Fixed dangling Claude Code processes when terminal is closed by catching EIO errors from process.exit() and using SIGKILL as fallback - Fixed /rename and /tag not updating the correct session when resuming from a different directory (e.g., git worktrees) - Fixed resuming sessions by custom title not working when run from a different directory - Fixed pasted text content being lost when using prompt stash (Ctrl+S) and restore - Fixed agent list displaying "Sonnet (default)" instead of "Inherit (default)" for agents without an explicit model setting - Fixed backgrounded hook commands not returning early, potentially causing the session to wait on a process that was intentionally backgrounded - Fixed file write preview omitting empty lines - Changed skills without additional permissions or hooks to be allowed without requiring approval - Changed indexed argument syntax from $ARGUMENTS.0 to $ARGUMENTS[0] (bracket syntax) - [SDK] Added replay of queued_command attachment messages as SDKUserMessageReplay events when replayUserMessages is enabled - [VSCode] Enabled session forking and rewind functionality for all users]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.19</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.19</guid>
-            <pubDate>Fri, 23 Jan 2026 21:56:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v3.53.0]]></title>
@@ -4910,24 +4931,10 @@
             <pubDate>Thu, 25 Sep 2025 16:26:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v3.31.1]]></title>
-            <description><![CDATA[## What's Changed * Add CLI tools detection to environment details by @domdomegg in https://github.com/cline/cline/pull/5471 * Rename MCP tab 'Installed' to 'Configure' by @saoudrizwan in https://github.com/cline/cline/pull/5966 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6451 **Full Changelog**: https://github.com/cline/cline/compare/v3.31.0...v3.31.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.31.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.31.1</guid>
-            <pubDate>Thu, 25 Sep 2025 06:39:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.31.2-rc.0]]></title>
             <link>https://github.com/TabbyML/tabby/releases/tag/v0.31.2-rc.0</link>
             <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.31.2-rc.0</guid>
             <pubDate>Thu, 25 Sep 2025 05:41:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.31.0]]></title>
-            <description><![CDATA[## What's Changed * fix: Fixing oca provider utils by @nihar-oracle in https://github.com/cline/cline/pull/6359 * Checkpoints/Multiroot - accept array of workspaces by @canvrno in https://github.com/cline/cline/pull/6320 * Dependency updates by @canvrno in https://github.com/cline/cline/pull/6096 * Run Testing platform within Test workflow [shadow] by @JicLotus in https://github.com/cline/cline/pull/6273 * fix: remove temperature settings in z.ai models by @ZeroAurora in https://github.com/cline/cline/pull/6311 * Remove duplicate settings references in Task class by @celestial-vault in https://github.com/cline/cline/pull/6336 * Testing platform coverage by @JicLotus in https://github.com/cline/cline/pull/6332 * Improve the error messaging when Cline receives empty or unparsable responses from API providers by @arafatkatze in https://github.com/cline/cline/pull/6385 * Update SAP AI Core Provider Anthropic input token calculation by @tjandy98 in https://github.com/cline/cline/pull/6363 * refactor: append stealth models on readOpenRouterModels & refreshOpenRouterModels by @abeatrix in https://github.com/cline/cline/pull/6384 * Adding voice mode to Cline by @arafatkatze in https://github.com/cline/cline/pull/6208 * Adding Search tool for multi root workspace by @arafatkatze in https://github.com/cline/cline/pull/6288 * Update dependencies by @canvrno in https://github.com/cline/cline/pull/6390 * Update dependencies by @canvrno in https://github.com/cline/cline/pull/6393 * feat: add configurable auto-condense threshold setting by @abeatrix in https://github.com/cline/cline/pull/6391 * feat: Cline Auth Provider by @abeatrix in https://github.com/cline/cline/pull/6131 * feat: new Task Header UI with configurable auto condense threshold by @abeatrix in https://github.com/cline/cline/pull/6049 * Add a workflow that will trigger the Jetbrains tests for PRs in the cline repo. by @sjf in https://github.com/cline/cline/pull/6402 * Update CODEOWNERS to remove dcbartlett by @saoudrizwan in https://github.com/cline/cline/pull/6408 * fix: poll feature flags for all users by @abeatrix in https://github.com/cline/cline/pull/6404 * Remove VCS requirement from multiroot checkpoints by @canvrno in https://github.com/cline/cline/pull/6405 * feat: add multi-root workspace setting with feature flag support by @abeatrix in https://github.com/cline/cline/pull/6409 * fix(oca): Paper Cut Fixes by @nihar-oracle in https://github.com/cline/cline/pull/6410 * dev: disable auto-condense threshold configuration in task header by @abeatrix in https://github.com/cline/cline/pull/6407 * initialize compact mode to prevent UI glitching on mount by @abeatrix in https://github.com/cline/cline/pull/6413 * feat: add multi-root workspace support for auto-approve file reads by @arafatkatze in https://github.com/cline/cline/pull/6412 * fix: update fontsource import path to resolve 401 errors by @abeatrix in https://github.com/cline/cline/pull/6414 * add a script to reconstruct taskHistory by @celestial-vault in https://github.com/cline/cline/pull/6403 * Replace vscode context.globalStoragePath with HostProvider.globalStorageFsPath by @sjf in https://github.com/cline/cline/pull/6419 * Update task header and focus chain UI design by @saoudrizwan in https://github.com/cline/cline/pull/6415 * Fix bg color of API configuration in settings by @saoudrizwan in https://github.com/cline/cline/pull/6422 * Add docs for opening cline in right sidebar by @celestial-vault in https://github.com/cline/cline/pull/6292 * Testing Platform - Support partial response validation via meta.expected by @JicLotus in https://github.com/cline/cline/pull/6399 * update CompactTaskButton tooltip content and styling by @abeatrix in https://github.com/cline/cline/pull/6424 * add infobanner by @celestial-vault in https://github.com/cline/cline/pull/6294 * Update colors and width of focus chain by @saoudrizwan in https://github.com/cline/cline/pull/6437 * Revert focus chain design changes by @saoudrizwan in https://github.com/cline/cline/pull/6441 * Enable Voice mode in MacOS only by @arafatkatze in https://github.com/cline/cline/pull/6442 * fix: cline not knowing plan/act mode if compact mode is enabled by @saoudrizwan in https://github.com/cline/cline/pull/6443 * Fixing icons and positioning for UI for voice mode by @arafatkatze in https://github.com/cline/cline/pull/6445 * Saoudrizwan/fix-right-docs by @saoudrizwan in https://github.com/cline/cline/pull/6446 * Update announcement banner content by @saoudrizwan in https://github.com/cline/cline/pull/6448 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6379 ## New Contributors * @ZeroAurora made their first contribution in https://github.com/cline/cline/pull/6311 **Full Changelog**: https://github.com/cline/cline/compare/v3.30.3...v3.31.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.31.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.31.0</guid>
-            <pubDate>Thu, 25 Sep 2025 01:51:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.12.2]]></title>
@@ -4968,13 +4975,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.1</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.1</guid>
             <pubDate>Sun, 21 Sep 2025 23:19:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.30.3]]></title>
-            <description><![CDATA[## What's Changed * adding yolo mode telemetry by @0xToshii in https://github.com/cline/cline/pull/6348 * feat(oca-ui): add OCA provider with model picker and auth integration by @nihar-oracle in https://github.com/cline/cline/pull/6339 * Empty PR to bump changeset by @arafatkatze in https://github.com/cline/cline/pull/6351 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6352 **Full Changelog**: https://github.com/cline/cline/compare/v3.30.2...v3.30.3]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.30.3</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.30.3</guid>
-            <pubDate>Sat, 20 Sep 2025 01:34:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.12.0]]></title>

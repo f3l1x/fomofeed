@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 May 2026 18:36:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2026 05:15:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Project Glasswing: An initial update]]></title>
+            <link>https://www.anthropic.com/research/glasswing-initial-update</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/glasswing-initial-update</guid>
+            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2028: Two scenarios for global AI leadership]]></title>
             <link>https://www.anthropic.com/research/2028-ai-leadership</link>
@@ -64,12 +70,6 @@
             <link>https://www.anthropic.com/research/81k-economics</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/81k-economics</guid>
             <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Automated Alignment Researchers: Using large language models to scale scalable oversight]]></title>
-            <link>https://www.anthropic.com/research/automated-alignment-researchers</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/automated-alignment-researchers</guid>
-            <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Project Vend: Phase two]]></title>

@@ -4,17 +4,37 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 May 2026 18:36:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2026 05:15:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 22 May 2026 01:16:52 GMT</pubDate>
+        <pubDate>Sat, 23 May 2026 04:03:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.150]]></title>
+            <description><![CDATA[## What's changed - Internal infrastructure improvements (no user-facing changes)]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.150</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.150</guid>
+            <pubDate>Sat, 23 May 2026 04:03:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.149]]></title>
+            <description><![CDATA[## What's changed - /usage now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost - /diff detail view can now be scrolled with the keyboard (arrows, j/k, PgUp/PgDn, Space, Home/End) - Markdown output now renders GFM task list checkboxes (- [ ] todo / - [x] done) instead of plain bullets - Enterprise: added the allowAllClaudeAiMcps managed setting to load claude.ai cloud MCP connectors alongside managed-mcp.json - Fixed a PowerShell permission bypass: built-in cd functions (cd.., cd\, cd~, X:) changed the working directory undetected, letting a later command read outside the workspace - Fixed the sandbox write allowlist in git worktrees covering the entire main repository root instead of only the shared .git directory (with hooks/ and config denied) - Fixed PowerShell prefix/wildcard allow rules (e.g. PowerShell(dotnet.exe build *)) not pre-approving native executables and scripts - Fixed a permission-analysis gap where the parser trusted stale variable-tracking values for PWD/OLDPWD/DIRSTACK across cd/pushd/popd - Fixed find in the Bash tool exhausting the macOS system file/vnode table and crashing the host on large directory trees - Fixed the managed-settings approval dialog leaving the terminal frozen after accepting at startup - Fixed /ultraplan and remote session creation failing with "Could not capture uncommitted changes" when the working tree has no real changes - Fixed otelHeadersHelper failing silently when the script path contains spaces; helper failures are now reported in /doctor and the debug log - Fixed the thinking spinner staying amber across tool calls and onto fresh thinking bursts - Fixed collapsed Bash output reporting the wrong hidden-line count for outputs with many short lines - Fixed slash-command argument-hint clipping trailing typed characters when the hint overflows the input box - Fixed argument-hint and progressive arg suggestions not appearing after Tab-completing a skill whose frontmatter name: differs from its directory basename - Fixed the status bar showing the user's baseline /effort setting instead of the effort level applied by skill/agent effort: frontmatter - Fixed Ctrl+O transcript view freezing at the moment it was opened instead of tailing new messages - Fixed editing a recalled prompt-history entry losing the edit when navigating further up/down with arrow keys - Fixed /config exit summary reporting phantom changes to auto-compact and theme when toggling unrelated settings - Fixed /insights crashing when cached session-meta files are missing optional fields - Fixed malformed PowerShell and History tool calls with missing input being misclassified as reads in transcript collapsing - Fixed renaming a Remote Control session from claude.ai or the Claude mobile app not updating the local session name for claude --resume - Fixed a race where a just-submitted prompt could appear twice in the up-arrow history - Fixed tapping the "Jump to bottom" pill in fullscreen mode not dismissing it immediately - Improved /feedback reports to include the conversation that happened before context compaction, making issues from earlier in long sessions easier to triage]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.149</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.149</guid>
+            <pubDate>Fri, 22 May 2026 22:09:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.148]]></title>
             <description><![CDATA[## What's changed - Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.148</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.148</guid>
             <pubDate>Fri, 22 May 2026 01:16:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Project Glasswing: An initial update]]></title>
+            <link>https://www.anthropic.com/research/glasswing-initial-update</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/glasswing-initial-update</guid>
+            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.147]]></title>
@@ -262,12 +282,6 @@
             <pubDate>Tue, 28 Apr 2026 00:31:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude for Creative Work]]></title>
-            <link>https://www.anthropic.com/news/claude-for-creative-work</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-creative-work</guid>
-            <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.119]]></title>
             <description><![CDATA[## What's changed - /config settings (theme, editor mode, verbose, etc.) now persist to ~/.claude/settings.json and participate in project/local/policy override precedence - Added prUrlTemplate setting to point the footer PR badge at a custom code-review URL instead of github.com - Added CLAUDE_CODE_HIDE_CWD environment variable to hide the working directory in the startup logo - --from-pr now accepts GitLab merge-request, Bitbucket pull-request, and GitHub Enterprise PR URLs - --print mode now honors the agent's tools: and disallowedTools: frontmatter, matching interactive-mode behavior - --agent now honors the agent definition's permissionMode for built-in agents - PowerShell tool commands can now be auto-approved in permission mode, matching Bash behavior - Hooks: PostToolUse and PostToolUseFailure hook inputs now include duration_ms (tool execution time, excluding permission prompts and PreToolUse hooks) - Subagent and SDK MCP server reconfiguration now connects servers in parallel instead of serially - Plugins pinned by another plugin's version constraint now auto-update to the highest satisfying git tag - Vim mode: Esc in INSERT no longer pulls a queued message back into the input; press Esc again to interrupt - Slash command suggestions now highlight the characters that matched your query - Slash command picker now wraps long descriptions onto a second line instead of truncating - owner/repo#N shorthand links in output now use your git remote's host instead of always pointing at github.com - Security: blockedMarketplaces now correctly enforces hostPattern and pathPattern entries - OpenTelemetry: tool_result and tool_decision events now include tool_use_id; tool_result also includes tool_input_size_bytes - Status line: stdin JSON now includes effort.level and thinking.enabled - Fixed pasting CRLF content (Windows clipboards, Xcode console) inserting an extra blank line between every line - Fixed multi-line paste losing newlines in terminals using kitty keyboard protocol sequences inside bracketed paste - Fixed Glob and Grep tools disappearing on native macOS/Linux builds when the Bash tool is denied via permissions - Fixed scrolling up in fullscreen mode snapping back to the bottom every time a tool finishes - Fixed MCP HTTP connections failing with "Invalid OAuth error response" when servers returned non-JSON bodies for OAuth discovery requests - Fixed Rewind overlay showing "(no prompt)" for messages with image attachments - Fixed auto mode overriding plan mode with conflicting "Execute immediately" instructions - Fixed async PostToolUse hooks that emit no response payload writing empty entries to the session transcript - Fixed spinner staying on when a subagent task notification is orphaned in the queue - Tool search is now disabled by default on Vertex AI to avoid an unsupported beta header error (opt in with ENABLE_TOOL_SEARCH) - Fixed @-file Tab completion replacing the entire prompt when used inside a slash command with an absolute path - Fixed a stray p character appearing at the prompt on startup in macOS Terminal.app via Docker or SSH - Fixed ${ENV_VAR} placeholders in headers for HTTP/SSE/WebSocket MCP servers not being substituted before requests - Fixed MCP OAuth client secret stored via --client-secret not being sent during token exchange for servers requiring client_secret_post - Fixed /skills Enter key closing the dialog instead of pre-filling / in the prompt - Fixed /agents detail view mislabeling built-in tools unavailable to subagents as "Unrecognized" - Fixed MCP servers from plugins not spawning on Windows when the plugin cache was incomplete - Fixed /export showing the current default model instead of the model the conversation actually used - Fixed verbose output setting not persisting after restart - Fixed /usage progress bars overlapping with their "Resets …" labels - Fixed plugin MCP servers failing when ${user_config.*} references an optional field left blank - Fixed list items containing a sentence-final number wrapping the number onto its own line - Fixed /plan and /plan open not acting on the existing plan when entering plan mode - Fixed skills invoked before auto-compaction being re-executed against the next user message - Fixed /reload-plugins and /doctor reporting load errors for disabled plugins - Fixed Agent tool with isolation: "worktree" reusing stale worktrees from prior sessions - Fixed disabled MCP servers appearing as "failed" in /status - Fixed TaskList returning tasks in arbitrary filesystem order instead of sorted by ID - Fixed spurious "GitHub API rate limit exceeded" hints when gh output contained PR titles mentioning "rate limit" - Fixed SDK/bridge read_file not correctly enforcing size cap on growing files - Fixed PR not linked to session when working in a git worktree - Fixed /doctor warning about MCP server entries overridden by a higher-precedence scope - Windows: removed false-positive "Windows requires 'cmd /c' wrapper" MCP config warning - [VSCode] Fixed voice dictation's first recording producing nothing on macOS while the microphone permission prompt is showing]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.119</link>
@@ -376,12 +390,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.107</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.107</guid>
             <pubDate>Tue, 14 Apr 2026 06:11:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Automated Alignment Researchers: Using large language models to scale scalable oversight]]></title>
-            <link>https://www.anthropic.com/research/automated-alignment-researchers</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/automated-alignment-researchers</guid>
-            <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.105]]></title>
@@ -871,20 +879,6 @@
             <pubDate>Wed, 28 Jan 2026 02:25:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v2.1.20]]></title>
-            <description><![CDATA[## What's changed - Added arrow key history navigation in vim normal mode when cursor cannot move further - Added external editor shortcut (Ctrl+G) to the help menu for better discoverability - Added PR review status indicator to the prompt footer, showing the current branch's PR state (approved, changes requested, pending, or draft) as a colored dot with a clickable link - Added support for loading CLAUDE.md files from additional directories specified via --add-dir flag (requires setting CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1) - Added ability to delete tasks via the TaskUpdate tool - Fixed session compaction issues that could cause resume to load full history instead of the compact summary - Fixed agents sometimes ignoring user messages sent while actively working on a task - Fixed wide character (emoji, CJK) rendering artifacts where trailing columns were not cleared when replaced by narrower characters - Fixed JSON parsing errors when MCP tool responses contain special Unicode characters - Fixed up/down arrow keys in multi-line and wrapped text input to prioritize cursor movement over history navigation - Fixed draft prompt being lost when pressing UP arrow to navigate command history - Fixed ghost text flickering when typing slash commands mid-input - Fixed marketplace source removal not properly deleting settings - Fixed duplicate output in some commands like /context - Fixed task list sometimes showing outside the main conversation view - Fixed syntax highlighting for diffs occurring within multiline constructs like Python docstrings - Fixed crashes when cancelling tool use - Improved /sandbox command UI to show dependency status with installation instructions when dependencies are missing - Improved thinking status text with a subtle shimmer animation - Improved task list to dynamically adjust visible items based on terminal height - Improved fork conversation hint to show how to resume the original session - Changed collapsed read/search groups to show present tense ("Reading", "Searching for") while in progress, and past tense ("Read", "Searched for") when complete - Changed teammate messages to render with rich Markdown formatting (bold, code blocks, lists, etc.) instead of plain text - Changed ToolSearch results to appear as a brief notification instead of inline in the conversation - Changed the /commit-push-pr skill to automatically post PR URLs to Slack channels when configured via MCP tools - Changed the /copy command to be available to all users - Changed background agents to prompt for tool permissions before launching - Changed permission rules like Bash(*) to be accepted and treated as equivalent to Bash - Changed config backups to be timestamped and rotated (keeping 5 most recent) to prevent data loss]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.20</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.20</guid>
-            <pubDate>Tue, 27 Jan 2026 01:35:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.19]]></title>
-            <description><![CDATA[## What's changed - Added env var CLAUDE_CODE_ENABLE_TASKS, set to false to keep the old system temporarily - Added shorthand $0, $1, etc. for accessing individual arguments in custom commands - Fixed crashes on processors without AVX instruction support - Fixed dangling Claude Code processes when terminal is closed by catching EIO errors from process.exit() and using SIGKILL as fallback - Fixed /rename and /tag not updating the correct session when resuming from a different directory (e.g., git worktrees) - Fixed resuming sessions by custom title not working when run from a different directory - Fixed pasted text content being lost when using prompt stash (Ctrl+S) and restore - Fixed agent list displaying "Sonnet (default)" instead of "Inherit (default)" for agents without an explicit model setting - Fixed backgrounded hook commands not returning early, potentially causing the session to wait on a process that was intentionally backgrounded - Fixed file write preview omitting empty lines - Changed skills without additional permissions or hooks to be allowed without requiring approval - Changed indexed argument syntax from $ARGUMENTS.0 to $ARGUMENTS[0] (bracket syntax) - [SDK] Added replay of queued_command attachment messages as SDKUserMessageReplay events when replayUserMessages is enabled - [VSCode] Enabled session forking and rewind functionality for all users]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.19</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.19</guid>
-            <pubDate>Fri, 23 Jan 2026 21:56:32 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Designing AI-resistant technical evaluations]]></title>
             <link>https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</guid>
@@ -1067,6 +1061,18 @@
             <pubDate>Thu, 27 Feb 2020 12:15:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Measuring LLMs' Ability to Develop Exploits]]></title>
+            <description><![CDATA[On two new, challenging academic benchmarks measuring AI models’ ability to develop exploits
+                        (ExploitBench and ExploitGym) and an updated version of the benchmark measuring smart contract
+                        exploitation (SCONE-bench), we have found that Mythos Preview consistently outperforms all other
+                        evaluated models. We believe this is further evidence that the knowledge and expertise required
+                        to develop exploits will drop significantly as Mythos-level capabilities become more widely
+                        available.]]></description>
+            <link>https://red.anthropic.com/2026/exploit-evals/</link>
+            <guid isPermaLink="false">https://red.anthropic.com/2026/exploit-evals/</guid>
+            <pubDate>Sun, 09 Aug 2020 12:59:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Coordinated Vulnerability Disclosure Dashboard]]></title>
             <description><![CDATA[A regularly updated record of vulnerabilities found by Anthropic and reported to maintainers
                         with cryptographic commitments to each finding at the time of disclosure.]]></description>
@@ -1108,7 +1114,7 @@
         <item>
             <title><![CDATA[LLM-discovered 0-days]]></title>
             <description><![CDATA[AI models can now find high-severity vulnerabilities at scale. This is a moment to empower
-                    defenders. We're now using Claude to find and help fix vulnerabilities in open source software.]]></description>
+                        defenders. We're now using Claude to find and help fix vulnerabilities in open source software.]]></description>
             <link>https://red.anthropic.com/2026/zero-days/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/zero-days/</guid>
             <pubDate>Thu, 23 Jan 2020 05:56:00 GMT</pubDate>
@@ -1116,8 +1122,8 @@
         <item>
             <title><![CDATA[AI Models on Realistic Cyber Ranges]]></title>
             <description><![CDATA[In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed
-                    at multistage attacks on networks with dozens of hosts using only standard, open-source tools,
-                    instead of the custom tools needed by previous generations.]]></description>
+                        at multistage attacks on networks with dozens of hosts using only standard, open-source tools,
+                        instead of the custom tools needed by previous generations.]]></description>
             <link>https://red.anthropic.com/2026/cyber-toolkits-update/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/cyber-toolkits-update/</guid>
             <pubDate>Tue, 23 Jun 2020 22:37:00 GMT</pubDate>
@@ -1125,10 +1131,10 @@
         <item>
             <title><![CDATA[Finding Bugs with Claude and Property-based Testing]]></title>
             <description><![CDATA[Ensuring that programs are bug-free is one of the most challenging aspects of software
-                    engineering. We developed an agent that can efficiently identify bugs in large software
-                    projects. Our agent infers general properties of code that should be true, and then applies
-                    property-based testing. After extensive manual validation, we are in the process of reporting
-                    bugs in top Python packages to their developers, several of which have already been patched.]]></description>
+                        engineering. We developed an agent that can efficiently identify bugs in large software
+                        projects. Our agent infers general properties of code that should be true, and then applies
+                        property-based testing. After extensive manual validation, we are in the process of reporting
+                        bugs in top Python packages to their developers, several of which have already been patched.]]></description>
             <link>https://red.anthropic.com/2026/property-based-testing/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/property-based-testing/</guid>
             <pubDate>Tue, 27 Oct 2020 17:36:00 GMT</pubDate>
@@ -1136,12 +1142,12 @@
         <item>
             <title><![CDATA[Experimenting with AI to Defend Critical Infrastructure]]></title>
             <description><![CDATA[AI could help defenders of critical infrastructure identify the vulnerabilities that attackers
-                might
-                exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest
-                National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the
-                potential of AI-accelerated defense and the value of public-private partnerships in harnessing
-                AI
-                for national security.]]></description>
+                    might
+                    exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest
+                    National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the
+                    potential of AI-accelerated defense and the value of public-private partnerships in harnessing
+                    AI
+                    for national security.]]></description>
             <link>https://red.anthropic.com/2026/critical-infrastructure-defense/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2026/critical-infrastructure-defense/</guid>
             <pubDate>Sun, 15 Mar 2020 14:52:00 GMT</pubDate>
@@ -1149,9 +1155,9 @@
         <item>
             <title><![CDATA[Project Vend: Phase Two]]></title>
             <description><![CDATA[In June, we revealed that we'd set up a small shop in our San Francisco office run by an AI
-                shopkeeper. It did not do particularly well. We made some adjustments for phase two of Project Vend.
-                The idea of an AI running a business doesn't seem as far-fetched as it once did. But the gap between
-                'capable' and 'completely robust' remains wide.]]></description>
+                    shopkeeper. It did not do particularly well. We made some adjustments for phase two of Project Vend.
+                    The idea of an AI running a business doesn't seem as far-fetched as it once did. But the gap between
+                    'capable' and 'completely robust' remains wide.]]></description>
             <link>https://red.anthropic.com/2025/project-vend-2/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend-2/</guid>
             <pubDate>Wed, 19 Aug 2020 23:29:00 GMT</pubDate>
@@ -1159,9 +1165,9 @@
         <item>
             <title><![CDATA[AI Agents Find Smart Contract Exploits]]></title>
             <description><![CDATA[We evaluated AI agents' ability to exploit smart contracts using a new benchmark comprising
-                contracts that were actually exploited. On contracts exploited after the latest knowledge cutoffs,
-                Claude Opus 4.5, Claude Sonnet 4.5, and GPT-5 found vulnerabilities worth a combined $4.6 million, a
-                finding that underscores the need for proactive adoption of AI for defense.]]></description>
+                    contracts that were actually exploited. On contracts exploited after the latest knowledge cutoffs,
+                    Claude Opus 4.5, Claude Sonnet 4.5, and GPT-5 found vulnerabilities worth a combined $4.6 million, a
+                    finding that underscores the need for proactive adoption of AI for defense.]]></description>
             <link>https://red.anthropic.com/2025/smart-contracts/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/smart-contracts/</guid>
             <pubDate>Tue, 15 Dec 2020 14:28:00 GMT</pubDate>
@@ -1169,8 +1175,8 @@
         <item>
             <title><![CDATA[Project Fetch]]></title>
             <description><![CDATA[How could frontier AI models like Claude reach beyond computers and affect the physical world? One
-                path is through robots. We ran an experiment to see how much Claude helped Anthropic staff perform
-                complex tasks with a robot dog.]]></description>
+                    path is through robots. We ran an experiment to see how much Claude helped Anthropic staff perform
+                    complex tasks with a robot dog.]]></description>
             <link>https://red.anthropic.com/2025/project-fetch/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-fetch/</guid>
             <pubDate>Sat, 26 Sep 2020 21:15:00 GMT</pubDate>
@@ -1178,10 +1184,10 @@
         <item>
             <title><![CDATA[Building AI for Cyber Defenders]]></title>
             <description><![CDATA[We invested in improving Claude's ability to help defenders detect, analyze, and remediate
-                    vulnerabilities in code and deployed systems. This work allowed Claude Sonnet 4.5 to match
-                    or
-                    eclipse Opus 4.1 in discovering code vulnerabilities and other cyber skills. Adopting and
-                    experimenting with AI will be key for defenders to keep pace.]]></description>
+                        vulnerabilities in code and deployed systems. This work allowed Claude Sonnet 4.5 to match
+                        or
+                        eclipse Opus 4.1 in discovering code vulnerabilities and other cyber skills. Adopting and
+                        experimenting with AI will be key for defenders to keep pace.]]></description>
             <link>https://red.anthropic.com/2025/ai-for-cyber-defenders/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/ai-for-cyber-defenders/</guid>
             <pubDate>Fri, 04 Dec 2020 04:06:00 GMT</pubDate>
@@ -1189,12 +1195,12 @@
         <item>
             <title><![CDATA[LLMs and Biorisk]]></title>
             <description><![CDATA[Our work at Anthropic is animated by the potential for AI to advance scientific
-                discovery—especially
-                in biology and medicine. At the same time, AI is fundamentally a dual-use technology. This
-                article
-                explains why we believe that evaluating biorisk and safeguarding against it is a critical
-                element
-                of responsible AI development.]]></description>
+                    discovery—especially
+                    in biology and medicine. At the same time, AI is fundamentally a dual-use technology. This
+                    article
+                    explains why we believe that evaluating biorisk and safeguarding against it is a critical
+                    element
+                    of responsible AI development.]]></description>
             <link>https://red.anthropic.com/2025/biorisk/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/biorisk/</guid>
             <pubDate>Wed, 04 Mar 2020 00:42:00 GMT</pubDate>
@@ -1202,10 +1208,10 @@
         <item>
             <title><![CDATA[Developing Nuclear Safeguards for AI]]></title>
             <description><![CDATA[Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an
-                    AI
-                    system
-                    that automatically categorizes content—that distinguishes between concerning and benign
-                    nuclear-related conversations with high accuracy in preliminary testing.]]></description>
+                        AI
+                        system
+                        that automatically categorizes content—that distinguishes between concerning and benign
+                        nuclear-related conversations with high accuracy in preliminary testing.]]></description>
             <link>https://red.anthropic.com/2025/nuclear-safeguards/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/nuclear-safeguards/</guid>
             <pubDate>Sat, 22 Feb 2020 02:35:00 GMT</pubDate>
@@ -1213,9 +1219,9 @@
         <item>
             <title><![CDATA[Claude Does Cyber Competitions]]></title>
             <description><![CDATA[Throughout 2025, we have been quietly entering Claude in cybersecurity competitions designed
-                primarily for humans. In many of these competitions Claude did pretty well, often placing in the
-                top
-                25% of competitors. However, it lagged behind the best human teams at the toughest challenges.]]></description>
+                    primarily for humans. In many of these competitions Claude did pretty well, often placing in the
+                    top
+                    25% of competitors. However, it lagged behind the best human teams at the toughest challenges.]]></description>
             <link>https://red.anthropic.com/2025/cyber-competitions/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-competitions/</guid>
             <pubDate>Sun, 18 Oct 2020 09:15:00 GMT</pubDate>
@@ -1223,8 +1229,8 @@
         <item>
             <title><![CDATA[Cyber Evaluations of Claude 4]]></title>
             <description><![CDATA[We partnered with Pattern Labs on a range of cybersecurity evaluations of Claude Opus 4 and
-                Claude
-                Sonnet 4, with Opus demonstrating especially notable improvement over previous models.]]></description>
+                    Claude
+                    Sonnet 4, with Opus demonstrating especially notable improvement over previous models.]]></description>
             <link>https://red.anthropic.com/2025/claude-4-cyber/</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/claude-4-cyber/</guid>
             <pubDate>Tue, 26 May 2020 13:32:00 GMT</pubDate>
@@ -1232,8 +1238,8 @@
         <item>
             <title><![CDATA[Project Vend]]></title>
             <description><![CDATA[We let Claude manage an automated store in our office as a small business for about a month. We
-                learned a lot about the plausible, strange, not-too-distant future in which AI models are
-                autonomously running things in the real economy.]]></description>
+                    learned a lot about the plausible, strange, not-too-distant future in which AI models are
+                    autonomously running things in the real economy.]]></description>
             <link>https://red.anthropic.com/2025/project-vend/index.html</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/project-vend/index.html</guid>
             <pubDate>Tue, 02 Jun 2020 09:47:00 GMT</pubDate>
@@ -1241,7 +1247,7 @@
         <item>
             <title><![CDATA[Cyber Toolkits for LLMs]]></title>
             <description><![CDATA[Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage
-                attacks on networks with dozens of hosts when equipped with a novel toolkit.]]></description>
+                    attacks on networks with dozens of hosts when equipped with a novel toolkit.]]></description>
             <link>https://red.anthropic.com/2025/cyber-toolkits/index.html</link>
             <guid isPermaLink="false">https://red.anthropic.com/2025/cyber-toolkits/index.html</guid>
             <pubDate>Sun, 02 Aug 2020 23:23:00 GMT</pubDate>
