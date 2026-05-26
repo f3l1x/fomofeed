@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 May 2026 09:09:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 May 2026 15:03:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 25 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Faire doubles PR throughput with Cursor Cloud Agents]]></title>
+            <link>https://cursor.com/blog/faire</link>
+            <guid isPermaLink="false">https://cursor.com/blog/faire</guid>
+            <pubDate>Mon, 25 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Hermes vs. OpenClaw, Cybersecurity Alarms Ring, More-Interactive Conversations, Can Agents Do Human Work?]]></title>
             <link>https://www.deeplearning.ai/the-batch/issue-354</link>
@@ -353,12 +359,6 @@
             <link>https://hamel.dev/blog/posts/evals-skills/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-skills/index.html</guid>
             <pubDate>Mon, 02 Mar 2026 08:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PlanetScale protects production reliability with Bugbot]]></title>
-            <link>https://cursor.com/blog/planetscale</link>
-            <guid isPermaLink="false">https://cursor.com/blog/planetscale</guid>
-            <pubDate>Sun, 01 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Gemini Seizes the Lead, Investors Panic Over Agentic AI, Optimism at Global AI Summit, Local Versus Cloud]]></title>
