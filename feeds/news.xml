@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 May 2026 17:06:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 May 2026 18:48:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 24 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -182,6 +182,12 @@
             <link>https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</guid>
             <pubDate>Tue, 28 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An update on recent Claude Code quality reports]]></title>
+            <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/april-23-postmortem</guid>
+            <pubDate>Wed, 22 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcing the Anthropic Economic Index Survey]]></title>
@@ -428,11 +434,11 @@
             <pubDate>Fri, 01 May 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[An update on recent Claude Code quality reports]]></title>
-            <description><![CDATA[We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.]]></description>
-            <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/april-23-postmortem</guid>
-            <pubDate>Thu, 27 Feb 2020 12:15:00 GMT</pubDate>
+            <title><![CDATA[How we contain Claude across products]]></title>
+            <description><![CDATA[As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.]]></description>
+            <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
+            <pubDate>Sun, 12 Apr 2020 18:33:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Measuring LLMs' Ability to Develop Exploits]]></title>
