@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 May 2026 18:48:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 May 2026 05:29:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 23 May 2026 01:04:24 GMT</pubDate>
+        <pubDate>Wed, 27 May 2026 04:01:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.15.11]]></title>
+            <description><![CDATA[## Core ### Improvements - Added headerTimeout config for provider requests, with a 10s default for default OpenAI setups. - Experimental background agents now push updates without polling. - You can now set only modalities.input or modalities.output in config. (@robposch) - Remote-backed projects now resolve a stable project identity. ### Bugfixes - Dynamically added MCP servers now disconnect cleanly when removed. - DigitalOcean inference now uses your OAuth token directly instead of creating a MAK. (@Spherrrical) - Config loading now falls back cleanly when user info is unavailable. - Fixed Google tool calling after the upstream tool ID regression. - Experimental flags can now override the umbrella experimental flag. - Resumed sessions no longer continue orphaned interrupted tools. (@edevil) - OpenAI reasoning summaries now render as separate blocks. - Updated Google Vertex support for reasoning signatures. - The shell tool now advertises your configured timeout to the model. ## TUI ### Improvements - Made the prompt resize with terminal width and added prompt size config. (@bjschafer) ### Bugfixes - Accelerated diff viewer scrolling. - External editors now open from the worktree directory when available. ## Desktop ### Improvements - Refined the Desktop v2 home screen, prompt, status popover, and session controls. ### Bugfixes - Fixed V2 titlebar errors when a session sync cache was deleted. (@Eric-Guo) - Web deployments no longer run desktop health checks. - Duplicate server connections are now merged in the server list. - Stabilized virtualized session timeline interactions. - Fixed the white flash when restoring the desktop window. ## Extensions ### Improvements - Added a dispose hook for plugins. ### Bugfixes - Fixed Codex plugin requests to send the expected session ID header. **Thank you to 7 community contributors:** - @jerome-benoit: - fix(nix): re-inherit patches in desktop, ad-hoc sign .app on darwin (#27869) - @edevil: - fix(session): exclude orphaned interrupted tools from run-loop continuation (#26178) - @bjschafer: - feat(tui): make prompt size responsive and configurable (#28255) - @robposch: - tweak (config): make modalities input/output fields optional so that u can specify one without both being required (#29268) - @Eric-Guo: - fix(app): handle deleted session sync cache in V2 titlebar (#29328) - @StarpTech: - docs(web): update LSP docs wording (#29435) - docs: add tip to lsp section (#29444) - @Spherrrical: - fix(digitalocean): use OAuth token directly for inference instead of creating MAK (#28897)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.11</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.11</guid>
+            <pubDate>Wed, 27 May 2026 04:01:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.15.10]]></title>
             <description><![CDATA[## Desktop ### Bugfixes - Restored the legacy production desktop flows for opening projects and starting sessions.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.3</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.3</guid>
             <pubDate>Sun, 15 Feb 2026 00:35:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.2]]></title>
-            <description><![CDATA[## Core - Add comprehensive test coverage for Session.list() filters - Filter sessions at database level to improve session list loading performance - Fix Vercel gateway variants - Bump Vertex AI packages]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.2</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.2</guid>
-            <pubDate>Sat, 14 Feb 2026 19:09:11 GMT</pubDate>
         </item>
     </channel>
 </rss>
