@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 27 May 2026 09:07:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 May 2026 17:04:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 25 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -222,7 +222,7 @@
             <pubDate>Tue, 07 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude Code auto mode: a safer way to skip permissions]]></title>
+            <title><![CDATA[How we built Claude Code auto mode: a safer way to skip permissions]]></title>
             <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-auto-mode</guid>
             <pubDate>Tue, 24 Mar 2026 23:00:00 GMT</pubDate>
