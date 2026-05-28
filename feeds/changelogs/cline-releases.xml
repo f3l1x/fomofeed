@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 27 May 2026 18:45:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 07:18:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 25 May 2026 18:12:51 GMT</pubDate>
+        <pubDate>Wed, 27 May 2026 19:11:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.14]]></title>
+            <description><![CDATA[- Fix OTEL telemetry variable bundling so telemetry is correctly enabled in compiled CLI builds: guard against environments where process.env is undefined and remove optional chaining so bundlers can inline the values at build time. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.13...cli-v3.0.14]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.14</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.14</guid>
+            <pubDate>Wed, 27 May 2026 19:11:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v3.85.0]]></title>
             <description><![CDATA[### Added - Add GPT-5.5 support to SAP AI Core. - Add DeepSeek V4 Flash and Pro models. - Add Gemini 3.5 Flash to Gemini and Vertex providers. - Add /lg-task URI webhook integration for LG dashboard flows. ### Fixed - Fix Vertex AI global endpoint handling for Claude models. - Route Poolside Laguna models through next-gen prompts and native tool calling. ### Changed - Update diff and protobufjs dependencies. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.13...v3.85.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.32.2</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.2</guid>
             <pubDate>Mon, 29 Sep 2025 18:07:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.32.1]]></title>
-            <description><![CDATA[## What's Changed * force no proxy for hostbridge connection by @tseglevskiy in https://github.com/cline/cline/pull/6474 * fix: add retry logic to SAP AI Core provider by @lcs-bdr in https://github.com/cline/cline/pull/6453 * Only show the info banner messages about the right sidebar in VSCode by @sjf in https://github.com/cline/cline/pull/6492 * Enable thinking by default for models that support it to reduce text verbosity in chat by @saoudrizwan in https://github.com/cline/cline/pull/6493 * feat: preserve reasoning traces for cline/openrouter/anthropic providers to maintain conversation integrity by @saoudrizwan in https://github.com/cline/cline/pull/6495 * CLINE_ACTIVE usage by @tseglevskiy in https://github.com/cline/cline/pull/6471 * Fix problem compiling integration tests by @sjf in https://github.com/cline/cline/pull/6498 * Use StateManager for enableCheckpoints on Task class by @celestial-vault in https://github.com/cline/cline/pull/6491 * [Tasks directory] Replace uses of context.globalStorageUri with HostProvider.get().globalStorageFsPath by @sjf in https://github.com/cline/cline/pull/6420 * fix: cline accounts using stale id token at refresh response by @BarreiroT in https://github.com/cline/cline/pull/6509 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6488 ## New Contributors * @lcs-bdr made their first contribution in https://github.com/cline/cline/pull/6453 **Full Changelog**: https://github.com/cline/cline/compare/v3.32.0...v3.32.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.32.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.1</guid>
-            <pubDate>Sun, 28 Sep 2025 07:25:34 GMT</pubDate>
         </item>
     </channel>
 </rss>

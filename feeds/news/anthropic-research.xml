@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 27 May 2026 18:45:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 07:18:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Coding agents in the social sciences]]></title>
+            <link>https://www.anthropic.com/research/coding-agents-social-sciences</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/coding-agents-social-sciences</guid>
+            <pubDate>Tue, 26 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Project Glasswing: An initial update]]></title>
             <link>https://www.anthropic.com/research/glasswing-initial-update</link>
@@ -63,12 +69,6 @@
             <title><![CDATA[Announcing the Anthropic Economic Index Survey]]></title>
             <link>https://www.anthropic.com/research/economic-index-survey-announcement</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-survey-announcement</guid>
-            <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What 81,000 people told us about the economics of AI]]></title>
-            <link>https://www.anthropic.com/research/81k-economics</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/81k-economics</guid>
             <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
