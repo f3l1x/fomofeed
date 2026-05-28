@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 17:15:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 18:52:02 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -17,10 +17,23 @@
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Supercharge your integration workflow with the Google Pay & Wallet Developer MCP server]]></title>
+            <description><![CDATA[Google has announced the new Google Pay & Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions, check integration status, and manage merchant accounts. Ultimately, this integration aims to reduce friction and accelerate development workflows by minimizing context switching and providing up-to-date, grounded AI support.]]></description>
+            <link>https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</guid>
+            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Introducing Claude Opus 4.8]]></title>
             <description><![CDATA[An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.]]></description>
             <link>https://www.anthropic.com/news/claude-opus-4-8</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-8</guid>
+            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic raises $65B in Series H funding at $965B post-money valuation]]></title>
+            <link>https://www.anthropic.com/news/series-h</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/series-h</guid>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -128,22 +141,9 @@
             <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Announcing Genkit Middleware: Intercept, extend, and harden your agentic apps]]></title>
-            <description><![CDATA[Genkit is an open-source framework designed to help developers build production-ready, agentic AI applications using TypeScript, Go, Dart, and Python. The framework utilizes a powerful middleware system that intercepts generation calls to inject custom behaviors like retries, model fallbacks, and human-in-the-loop tool approvals. By attaching hooks at the generate, model, and tool layers, developers can ensure high reliability and deterministic control over model outputs. Furthermore, Genkit allows for the creation and stacking of custom middleware, all of which can be inspected and debugged through a dedicated Developer UI.]]></description>
-            <link>https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</guid>
-            <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients]]></title>
             <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
-            <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic forms $200 million partnership with the Gates Foundation]]></title>
-            <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/gates-foundation-partnership</guid>
             <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

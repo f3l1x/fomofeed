@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 17:15:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 18:51:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 27 May 2026 19:11:12 GMT</pubDate>
+        <pubDate>Thu, 28 May 2026 18:24:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v3.86.0]]></title>
+            <description><![CDATA[### Added - Add Claude Opus 4.8 provider support, including 1M-context variants where available. - Add Moonshot Kimi K2.6 model support. ### Fixed - Show prompt-cache support for Qwen 3.7 Max in the Cline provider. - Fix the VS Code nightly publish workflow startup permissions. ### Changed - Move the VS Code extension project into apps/vscode. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.14...v3.86.0]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.86.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.86.0</guid>
+            <pubDate>Thu, 28 May 2026 18:24:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.14]]></title>
             <description><![CDATA[- Fix OTEL telemetry variable bundling so telemetry is correctly enabled in compiled CLI builds: guard against environments where process.env is undefined and remove optional chaining so bundlers can inline the values at build time. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.13...cli-v3.0.14]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.32.3</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.3</guid>
             <pubDate>Mon, 29 Sep 2025 19:08:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.32.2]]></title>
-            <description><![CDATA[## What's Changed * Add /task deep link handler by @saoudrizwan in https://github.com/cline/cline/pull/6513 * fix: command execution not sending output to webview and incorrectly showing 'Proceed while Running' when finished by @saoudrizwan in https://github.com/cline/cline/pull/6522 * remove getCurrentMode function in favor of state manager by @celestial-vault in https://github.com/cline/cline/pull/6418 * Don't show VS Code LM provider on non-VSCode platforms by @sjf in https://github.com/cline/cline/pull/6523 * [disk.ts] Replace uses of context.globalStorageUri with HostProvider.get().globalStorageFsPath by @sjf in https://github.com/cline/cline/pull/6507 * Handle quotes and other special chars in the curl request by @sjf in https://github.com/cline/cline/pull/6525 * Replace VSCode API with Host Provider by @sjf in https://github.com/cline/cline/pull/6527 * ref: Move getGlobalStorageDir out of the HostProvider into disk.ts by @sjf in https://github.com/cline/cline/pull/6530 * Replace VSCode API with the host bridge. by @sjf in https://github.com/cline/cline/pull/6529 * Add Claude Sonnet 4.5 by @saoudrizwan in https://github.com/cline/cline/pull/6544 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/6511 **Full Changelog**: https://github.com/cline/cline/compare/v3.32.1...v3.32.2]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.32.2</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.2</guid>
-            <pubDate>Mon, 29 Sep 2025 18:07:38 GMT</pubDate>
         </item>
     </channel>
 </rss>

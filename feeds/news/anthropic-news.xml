@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 17:15:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 18:51:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,12 @@
             <description><![CDATA[An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.]]></description>
             <link>https://www.anthropic.com/news/claude-opus-4-8</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-8</guid>
+            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic raises $65B in Series H funding at $965B post-money valuation]]></title>
+            <link>https://www.anthropic.com/news/series-h</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/series-h</guid>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -56,12 +62,6 @@
             <title><![CDATA[PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients]]></title>
             <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
-            <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic forms $200 million partnership with the Gates Foundation]]></title>
-            <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/gates-foundation-partnership</guid>
             <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
