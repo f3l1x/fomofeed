@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 07:18:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 15:07:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 28 May 2026 00:52:08 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -22,6 +22,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.152</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.152</guid>
             <pubDate>Wed, 27 May 2026 01:30:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic opens Milan office to support Italian enterprise, research, and developers]]></title>
+            <link>https://www.anthropic.com/news/milan-office-opening</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/milan-office-opening</guid>
+            <pubDate>Tue, 26 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Coding agents in the social sciences]]></title>
@@ -247,12 +253,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.129</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.129</guid>
             <pubDate>Wed, 06 May 2026 01:40:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Higher usage limits for Claude and a compute deal with SpaceX]]></title>
-            <link>https://www.anthropic.com/news/higher-limits-spacex</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/higher-limits-spacex</guid>
-            <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.128]]></title>
