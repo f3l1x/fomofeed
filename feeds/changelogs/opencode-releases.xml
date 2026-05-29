@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 18:51:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 07:18:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 27 May 2026 04:01:13 GMT</pubDate>
+        <pubDate>Thu, 28 May 2026 19:34:49 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.15.12]]></title>
+            <description><![CDATA[## Core ### Improvements - ACP integrations can now send prompts, slash commands, and usage updates through acp-next - Added WebSocket transport for OpenAI responses on supported channels (set OPENCODE_EXPERIMENTAL_WEBSOCKETS=true) ### Bugfixes - Enabled adaptive reasoning controls for Anthropic Opus 4.7+ models - Allowed colons in passwords (@neriousy) - Sped up warm acp-next model and config switches - Improved first-session acp-next startup time - Kept OpenAI WebSocket response timeouts active - Retried failed OpenAI WebSocket streams before falling back - Handled acp-next permission prompts correctly - Used the persisted session directory for existing-session requests - Forwarded remote workspace request bodies correctly - Supported custom base URLs for OpenAI WebSocket responses (@Tarquinen) ## TUI ### Improvements - Added a workspace management dialog ### Bugfixes - Kept session navigation working while prompt modes are open - Restored the thinking spinner - Surfaced subagent retry status - Fixed opening editors from non-Git project paths (@OpeOginni) ## Desktop ### Improvements - Added a setting to switch tab layouts ### Bugfixes - Improved the home empty state and fixed V2 font usage - Fixed tab close buttons not showing reliably **Thank you to 5 community contributors:** - @OpeOginni: - fix(tui): handle non-git project paths when opening editor (#29180) - @gotjoshua: - docs: fix ts error in math examples (#18244) - @Tarquinen: - fix(openai): support websocket custom base URLs (#29636) - @24KaratAu: - docs: fix grammar in config.mdx (#29683) - @neriousy: - fix(core): allow colons inside passwords (#29576)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.12</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.12</guid>
+            <pubDate>Thu, 28 May 2026 19:34:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.15.11]]></title>
             <description><![CDATA[## Core ### Improvements - Added headerTimeout config for provider requests, with a 10s default for default OpenAI setups. - Experimental background agents now push updates without polling. - You can now set only modalities.input or modalities.output in config. (@robposch) - Remote-backed projects now resolve a stable project identity. ### Bugfixes - Dynamically added MCP servers now disconnect cleanly when removed. - DigitalOcean inference now uses your OAuth token directly instead of creating a MAK. (@Spherrrical) - Config loading now falls back cleanly when user info is unavailable. - Fixed Google tool calling after the upstream tool ID regression. - Experimental flags can now override the umbrella experimental flag. - Resumed sessions no longer continue orphaned interrupted tools. (@edevil) - OpenAI reasoning summaries now render as separate blocks. - Updated Google Vertex support for reasoning signatures. - The shell tool now advertises your configured timeout to the model. ## TUI ### Improvements - Made the prompt resize with terminal width and added prompt size config. (@bjschafer) ### Bugfixes - Accelerated diff viewer scrolling. - External editors now open from the worktree directory when available. ## Desktop ### Improvements - Refined the Desktop v2 home screen, prompt, status popover, and session controls. ### Bugfixes - Fixed V2 titlebar errors when a session sync cache was deleted. (@Eric-Guo) - Web deployments no longer run desktop health checks. - Duplicate server connections are now merged in the server list. - Stabilized virtualized session timeline interactions. - Fixed the white flash when restoring the desktop window. ## Extensions ### Improvements - Added a dispose hook for plugins. ### Bugfixes - Fixed Codex plugin requests to send the expected session ID header. **Thank you to 7 community contributors:** - @jerome-benoit: - fix(nix): re-inherit patches in desktop, ad-hoc sign .app on darwin (#27869) - @edevil: - fix(session): exclude orphaned interrupted tools from run-loop continuation (#26178) - @bjschafer: - feat(tui): make prompt size responsive and configurable (#28255) - @robposch: - tweak (config): make modalities input/output fields optional so that u can specify one without both being required (#29268) - @Eric-Guo: - fix(app): handle deleted session sync cache in V2 titlebar (#29328) - @StarpTech: - docs(web): update LSP docs wording (#29435) - docs: add tip to lsp section (#29444) - @Spherrrical: - fix(digitalocean): use OAuth token directly for inference instead of creating MAK (#28897)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.4</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.4</guid>
             <pubDate>Sun, 15 Feb 2026 01:55:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.3]]></title>
-            <description><![CDATA[## Core - Ensure Anthropic models on OpenRouter also have variant support - Add WAL checkpoint on database open - Ensure Vercel variants pass Amazon models under Bedrock key]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.3</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.3</guid>
-            <pubDate>Sun, 15 Feb 2026 00:35:10 GMT</pubDate>
         </item>
     </channel>
 </rss>

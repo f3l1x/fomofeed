@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 18:51:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 07:18:41 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Cross-Benchmark Generalization for Long-Horizon Agentic Tasks]]></title>
+            <description><![CDATA[Post-Training on Surge’s RL environment and why it generalizes to external tool-use benchmarks: Toolathlon, τ²-Bench, and BFCL-V4]]></description>
+            <link>https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</guid>
+            <pubDate>Tue, 05 May 2020 11:26:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Slop is a choice. Introducing Antidote.]]></title>
             <description><![CDATA[Antidote: an AI leaderboard graded by doctors, lawyers, and senior engineers — experts who read every word and run every line of code.]]></description>

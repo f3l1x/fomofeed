@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Blog]]></description>
         <link>https://ollama.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 18:51:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 07:18:39 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/ollama-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 29 Mar 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[OpenJarvis: a local-first personal AI is now available to run with Ollama]]></title>
+            <description><![CDATA[OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.]]></description>
+            <link>https://ollama.com/blog/openjarvis</link>
+            <guid isPermaLink="false">https://ollama.com/blog/openjarvis</guid>
+            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Ollama is now powered by MLX on Apple Silicon in preview]]></title>
             <description><![CDATA[Today, we're previewing the fastest way to run Ollama on Apple silicon, powered by MLX, Apple's machine learning framework.]]></description>

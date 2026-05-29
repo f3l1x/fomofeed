@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 18:52:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 07:19:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 May 2026 02:24:24 GMT</pubDate>
+        <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[OpenJarvis: a local-first personal AI is now available to run with Ollama]]></title>
+            <description><![CDATA[OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.]]></description>
+            <link>https://ollama.com/blog/openjarvis</link>
+            <guid isPermaLink="false">https://ollama.com/blog/openjarvis</guid>
+            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.24.0]]></title>
             <description><![CDATA[## Codex App Ollama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality. ### Built-in browser Codex can load local servers and sites in its built-in browser, enabling you to directly annotate on the page to request changes. ### Review mode Review code inside the app, leave comments, and iterate without leaving your workspace. ### Choosing a model For difficult coding and agentic tasks: - **kimi-k2.6** (with vision support) - **glm-5.1** For local use without an Ollama Cloud subscription: - **nemotron-3-super** - **gemma4:31b** - **qwen3.6** ### Restore anytime To restore the previous configuration of Codex App, run: ## What's Changed * Reworked the MLX sampler for improved generation quality on Apple Silicon **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.24.0]]></description>
@@ -25,9 +32,9 @@
         </item>
         <item>
             <title><![CDATA[v0.30.0]]></title>
-            <description><![CDATA[This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: * Performance improvements or degradation * Errors or crashes that did not previously occur * Memory utilization improvements or degradation ## Known issues: * laguna-xs.2 is not supported yet on this pre-release * llama3.2-vision is not supported yet on this pre-release ## Installing: **Mac/Linux** **Windows**]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28</guid>
+            <description><![CDATA[This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: * Performance improvements or degradation * Errors or crashes that did not previously occur * Memory utilization improvements or degradation ## Known issues: * laguna-xs.2 is not yet supported on Windows/Linux. * llama3.2-vision is not yet supported * nomic-embed-text now converts inputs to lowercase per the model card where prior Ollama versions incorrectly preserved mixed case ## Installing: **Mac/Linux** **Windows**]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29</guid>
             <pubDate>Wed, 13 May 2026 14:32:54 GMT</pubDate>
         </item>
         <item>

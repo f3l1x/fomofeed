@@ -4,11 +4,32 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 28 May 2026 18:52:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 07:18:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 28 May 2026 18:24:47 GMT</pubDate>
+        <pubDate>Fri, 29 May 2026 01:42:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.156]]></title>
+            <description><![CDATA[## What's changed - Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.156</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.156</guid>
+            <pubDate>Fri, 29 May 2026 01:42:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.136.0-alpha.1]]></title>
+            <description><![CDATA[Release 0.136.0-alpha.1]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.136.0-alpha.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.136.0-alpha.1</guid>
+            <pubDate>Fri, 29 May 2026 00:38:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.12]]></title>
+            <description><![CDATA[## Core ### Improvements - ACP integrations can now send prompts, slash commands, and usage updates through acp-next - Added WebSocket transport for OpenAI responses on supported channels (set OPENCODE_EXPERIMENTAL_WEBSOCKETS=true) ### Bugfixes - Enabled adaptive reasoning controls for Anthropic Opus 4.7+ models - Allowed colons in passwords (@neriousy) - Sped up warm acp-next model and config switches - Improved first-session acp-next startup time - Kept OpenAI WebSocket response timeouts active - Retried failed OpenAI WebSocket streams before falling back - Handled acp-next permission prompts correctly - Used the persisted session directory for existing-session requests - Forwarded remote workspace request bodies correctly - Supported custom base URLs for OpenAI WebSocket responses (@Tarquinen) ## TUI ### Improvements - Added a workspace management dialog ### Bugfixes - Kept session navigation working while prompt modes are open - Restored the thinking spinner - Surfaced subagent retry status - Fixed opening editors from non-Git project paths (@OpeOginni) ## Desktop ### Improvements - Added a setting to switch tab layouts ### Bugfixes - Improved the home empty state and fixed V2 font usage - Fixed tab close buttons not showing reliably **Thank you to 5 community contributors:** - @OpeOginni: - fix(tui): handle non-git project paths when opening editor (#29180) - @gotjoshua: - docs: fix ts error in math examples (#18244) - @Tarquinen: - fix(openai): support websocket custom base URLs (#29636) - @24KaratAu: - docs: fix grammar in config.mdx (#29683) - @neriousy: - fix(core): allow colons inside passwords (#29576)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.12</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.12</guid>
+            <pubDate>Thu, 28 May 2026 19:34:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v3.86.0]]></title>
             <description><![CDATA[### Added - Add Claude Opus 4.8 provider support, including 1M-context variants where available. - Add Moonshot Kimi K2.6 model support. ### Fixed - Show prompt-cache support for Qwen 3.7 Max in the Cline provider. - Fix the VS Code nightly publish workflow startup permissions. ### Changed - Move the VS Code extension project into apps/vscode. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.14...v3.86.0]]></description>
@@ -42,6 +63,13 @@
             <description><![CDATA[Claude Opus 4.8 is now available in Windsurf.]]></description>
             <link>https://windsurf.com/changelog#claude-opus-48</link>
             <guid isPermaLink="false">https://windsurf.com/changelog#claude-opus-48</guid>
+            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2.3.15 — Bug fixes and improvements]]></title>
+            <description><![CDATA[This release updates the bundled Devin Local agent to 2026.5.26. See the changelog for the full list of changes.]]></description>
+            <link>https://windsurf.com/changelog#bug-fixes-and-improvements</link>
+            <guid isPermaLink="false">https://windsurf.com/changelog#bug-fixes-and-improvements</guid>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -505,9 +533,9 @@
         </item>
         <item>
             <title><![CDATA[v0.30.0]]></title>
-            <description><![CDATA[This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: * Performance improvements or degradation * Errors or crashes that did not previously occur * Memory utilization improvements or degradation ## Known issues: * laguna-xs.2 is not supported yet on this pre-release * llama3.2-vision is not supported yet on this pre-release ## Installing: **Mac/Linux** **Windows**]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28</guid>
+            <description><![CDATA[This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: * Performance improvements or degradation * Errors or crashes that did not previously occur * Memory utilization improvements or degradation ## Known issues: * laguna-xs.2 is not yet supported on Windows/Linux. * llama3.2-vision is not yet supported * nomic-embed-text now converts inputs to lowercase per the model card where prior Ollama versions incorrectly preserved mixed case ## Installing: **Mac/Linux** **Windows**]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29</guid>
             <pubDate>Wed, 13 May 2026 14:32:54 GMT</pubDate>
         </item>
         <item>
@@ -1755,13 +1783,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.109</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.109</guid>
             <pubDate>Wed, 15 Apr 2026 04:02:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.121.0-alpha.11]]></title>
-            <description><![CDATA[Release 0.121.0-alpha.11]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.11</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.121.0-alpha.11</guid>
-            <pubDate>Wed, 15 Apr 2026 03:38:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.4.4]]></title>
@@ -3128,13 +3149,6 @@
             <pubDate>Sun, 15 Feb 2026 01:55:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.2.3]]></title>
-            <description><![CDATA[## Core - Ensure Anthropic models on OpenRouter also have variant support - Add WAL checkpoint on database open - Ensure Vercel variants pass Amazon models under Bedrock key]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.3</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.3</guid>
-            <pubDate>Sun, 15 Feb 2026 00:35:10 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.16.2]]></title>
             <description><![CDATA[## What's Changed * ollama launch claude now supports searching the web when using :cloud models * Fixed rendering issue when running ollama in PowerShell * New setting in Ollama's app makes it easier to disable cloud models for sensitive and private tasks where data cannot leave your computer. For Linux or when running ollama serve manually, set OLLAMA_NO_CLOUD=1. * Fixed issue where experimental image generation models would not run in 0.16.0 and 0.16.1 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.16.1...v0.16.2-rc0]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.16.2</link>
@@ -3533,13 +3547,6 @@
             <link>https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#bug-fixes-and-improvements</guid>
             <pubDate>Thu, 29 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.25]]></title>
-            <description><![CDATA[## What's changed - Fixed beta header validation error for gateway users on Bedrock and Vertex, ensuring CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1 avoids the error]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.25</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.25</guid>
-            <pubDate>Thu, 29 Jan 2026 21:13:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Beta Release v1.5.39-beta.20260129]]></title>
