@@ -4,16 +4,16 @@
         <description><![CDATA[RSS feed for The Batch - DeepLearning.AI]]></description>
         <link>https://www.deeplearning.ai/the-batch/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 29 May 2026 09:08:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 15:04:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/the-batch.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 28 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Hermes vs. OpenClaw, Cybersecurity Alarms Ring, More-Interactive Conversations, Can Agents Do Human Work?]]></title>
-            <link>https://www.deeplearning.ai/the-batch/issue-354</link>
-            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-354</guid>
-            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
+            <title><![CDATA[Gemini Flash Gets Pricey, AI Act Delays, Agents Drive Online Traffic]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-355</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-355</guid>
+            <pubDate>Thu, 28 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing DeepLearning.AI Pro]]></title>
@@ -32,6 +32,12 @@
             <link>https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1</link>
             <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1</guid>
             <pubDate>Tue, 21 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hermes vs. OpenClaw, Cybersecurity Alarms Ring, More-Interactive Conversations, Can Agents Do Human Work?]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-354</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-354</guid>
+            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[China Thwarts Meta’s Agentic Ambition, U.S. Evaluates Upcoming Models, AI Diagnoses Mammograms]]></title>
@@ -116,12 +122,6 @@
             <link>https://www.deeplearning.ai/the-batch/issue-340</link>
             <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-340</guid>
             <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[OpenClaw Runs Amok, Kimi’s Open Model, Ministral Distilled, Wikipedia’s Partners]]></title>
-            <link>https://www.deeplearning.ai/the-batch/issue-339</link>
-            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-339</guid>
-            <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

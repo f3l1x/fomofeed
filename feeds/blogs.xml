@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 29 May 2026 09:09:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 15:04:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 28 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Gemini Flash Gets Pricey, AI Act Delays, Agents Drive Online Traffic]]></title>
+            <link>https://www.deeplearning.ai/the-batch/issue-355</link>
+            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-355</guid>
+            <pubDate>Thu, 28 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[OpenJarvis: a local-first personal AI is now available to run with Ollama]]></title>
             <description><![CDATA[OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.]]></description>
@@ -429,12 +435,6 @@
             <link>https://www.deeplearning.ai/the-batch/issue-340</link>
             <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-340</guid>
             <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[OpenClaw Runs Amok, Kimi’s Open Model, Ministral Distilled, Wikipedia’s Partners]]></title>
-            <link>https://www.deeplearning.ai/the-batch/issue-339</link>
-            <guid isPermaLink="false">https://www.deeplearning.ai/the-batch/issue-339</guid>
-            <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenClaw]]></title>
