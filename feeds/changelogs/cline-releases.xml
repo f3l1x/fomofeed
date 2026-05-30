@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 29 May 2026 18:51:37 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 May 2026 05:17:28 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 28 May 2026 18:24:47 GMT</pubDate>
+        <pubDate>Fri, 29 May 2026 19:20:01 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.15]]></title>
+            <description><![CDATA[- Add Cline Hub, a web app for monitoring connected clients, viewing and driving sessions, streaming assistant output, and restarting the local hub, with local, LAN, and tunnel usage gated by a room secret. - Support global AGENTS rules so agent rules can be applied across all sessions, not just per-project. - Let plugins contribute static or dynamic rule content when installed in the sandbox. - Bind Discord sessions to individual message authors so different Discord users no longer share chat state in a thread. - Support participant mute targets in Discord: resolve /mute and /unmute from user mentions or raw user IDs to mute a specific participant in a thread. - Make OAuth URLs clickable in the TUI. - Refresh the bundled model catalog, adding Claude Opus 4.8, Moonshot Kimi K2.6, and Qwen3.7 Max (with cache support). - Discover SDK skill directories that are symlinked, including handling circular symlinks. - Steer active connector sessions across turn keys by matching on session ID, so replies continue the existing session instead of starting a duplicate. - Stop the Discord connector after repeated identical errors (per thread, within a time window) to prevent error messages from flooding a channel. - Fix Discord connector registration and reply fallback handling. - Fix SAP AI Core to use the AI SDK community provider. - Log ACP output as diagnostics instead of errors so normal output no longer appears as errors. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.14...cli-v3.0.15]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.15</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.15</guid>
+            <pubDate>Fri, 29 May 2026 19:20:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v3.86.0]]></title>
             <description><![CDATA[### Added - Add Claude Opus 4.8 provider support, including 1M-context variants where available. - Add Moonshot Kimi K2.6 model support. ### Fixed - Show prompt-cache support for Qwen 3.7 Max in the Cline provider. - Fix the VS Code nightly publish workflow startup permissions. ### Changed - Move the VS Code extension project into apps/vscode. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.14...v3.86.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.32.4</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.4</guid>
             <pubDate>Mon, 29 Sep 2025 21:28:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.32.3]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/cline/cline/compare/v3.32.2...v3.32.3]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.32.3</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.3</guid>
-            <pubDate>Mon, 29 Sep 2025 19:08:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
