@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 31 May 2026 16:26:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 May 2026 18:24:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 30 May 2026 23:40:58 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -22,13 +22,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.158</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.158</guid>
             <pubDate>Sat, 30 May 2026 02:42:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PR #29948 screenshots]]></title>
-            <description><![CDATA[Image assets for PR #29948.]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/pr-29948-screenshots</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/pr-29948-screenshots</guid>
-            <pubDate>Sat, 30 May 2026 01:10:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.157]]></title>
@@ -3168,6 +3161,13 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.6</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.6</guid>
             <pubDate>Mon, 16 Feb 2026 19:57:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.5]]></title>
+            <description><![CDATA[## Core - Ensure SQLite migration logs to stderr instead of stdout ## Desktop - Fixed issue viewing new files opened from the file tree (@shanebishop1) - Only navigate prompt history at input boundaries (@nexxeln) - Add keyboard shortcut Shift+Tab to the application (@neriousy) - Focus window after update and relaunch (@zerone0x) - Add GeistMono Nerd Font to available mono font options (@brandon-julio-t) **Thank you to 7 community contributors:** - @brandon-julio-t: - feat: Add GeistMono Nerd Font to available mono font options (#13720) - @zerone0x: - fix(desktop): focus window after update/relaunch (#13701) - @dector: - docs: add Ukrainian README translation (#13697) - @neriousy: - fix(app): keybind [shift+tab] (#13695) - @nexxeln: - fix(app): only navigate prompt history at input boundaries (#13690) - @shanebishop1: - fix(desktop): issue viewing new files opened from the file tree (#13689) - @alexyaroshuk: - feat(app): localize "free usage exceeded" error & "Add credits" clickable link (#13652)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.5</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.5</guid>
+            <pubDate>Sun, 15 Feb 2026 18:50:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.16.2]]></title>
