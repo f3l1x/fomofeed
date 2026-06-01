@@ -4,11 +4,19 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 01 Jun 2026 09:49:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jun 2026 16:03:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 28 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How Dagster Compass Powers Brooklyn Data’s Self-Service Analytics]]></title>
+            <description><![CDATA[Text-to-analytics promises self-service access to data, but adoption depends on usability, governance, and trust. In this guest post, Brooklyn Data explains how it evaluated Compass, deployed it on top of Snowflake, and enabled teams to answer operational questions directly in Slack while maintaining centralized governance and business context.]]></description>
+            <link>https://dagster.io/blog/how-dagster-compass-powers-brooklyn-datas-self-service-analytics</link>
+            <guid isPermaLink="false">https://dagster.io/blog/how-dagster-compass-powers-brooklyn-datas-self-service-analytics</guid>
+            <category><![CDATA[Product]]></category>
+            <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Gemini Flash Gets Pricey, AI Act Delays, Agents Drive Online Traffic]]></title>
             <link>https://www.deeplearning.ai/the-batch/issue-355</link>
@@ -393,14 +401,6 @@
             <link>https://cursor.com/blog/third-era</link>
             <guid isPermaLink="false">https://cursor.com/blog/third-era</guid>
             <category><![CDATA[Ideas]]></category>
-            <pubDate>Wed, 25 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[When to Move from Dagster OSS to Dagster+]]></title>
-            <description><![CDATA[Dagster OSS is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster+ and shift your focus back to building data products.]]></description>
-            <link>https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</link>
-            <guid isPermaLink="false">https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Wed, 25 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
