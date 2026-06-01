@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 01 Jun 2026 05:37:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jun 2026 07:44:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 31 May 2026 19:42:49 GMT</pubDate>
+        <pubDate>Mon, 01 Jun 2026 06:51:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v3.86.1]]></title>
+            <description><![CDATA[### Fixed - Fix @ file mentions failing to find files in some environments (notably VS Code Remote SSH, and after certain VS Code updates) by keeping the file-search fallback alive when the workspace index or bundled ripgrep binary is unavailable. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.15...v3.86.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.86.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.86.1</guid>
+            <pubDate>Mon, 01 Jun 2026 06:51:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.159]]></title>
             <description><![CDATA[## What's changed - Internal infrastructure improvements (no user-facing changes)]]></description>
@@ -4905,13 +4912,6 @@
             <link>https://windsurf.com/changelog/windsurf-next#codemaps</link>
             <guid isPermaLink="false">https://windsurf.com/changelog/windsurf-next#codemaps</guid>
             <pubDate>Mon, 29 Sep 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.32.4]]></title>
-            <description><![CDATA[## What's Changed * fix: returning undefined when URL is not valid by @requesty-JohnCosta27 in https://github.com/cline/cline/pull/6377 * Reduce Test Workflow Time by 45% and Enable Qlty Coverage on Main by @JicLotus in https://github.com/cline/cline/pull/6374 * feat: Add Amazon Bedrock us-west-1 support by @ajjuaire in https://github.com/cline/cline/pull/6550 ## New Contributors * @ajjuaire made their first contribution in https://github.com/cline/cline/pull/6550 **Full Changelog**: https://github.com/cline/cline/compare/v3.32.3...v3.32.4]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.32.4</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.32.4</guid>
-            <pubDate>Mon, 29 Sep 2025 21:28:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.12.12 — Claude Sonnet 4.5]]></title>
