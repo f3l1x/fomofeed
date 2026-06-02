@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Jun 2026 07:37:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Jun 2026 15:23:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 02 Jun 2026 02:10:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.160</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.160</guid>
             <pubDate>Tue, 02 Jun 2026 02:10:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Expanding Project Glasswing]]></title>
+            <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/expanding-project-glasswing</guid>
+            <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic confidentially submits draft S-1 to the SEC]]></title>
@@ -174,12 +180,6 @@
             <link>https://www.anthropic.com/news/anthropic-kpmg</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-kpmg</guid>
             <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic acquires Stainless]]></title>
-            <link>https://www.anthropic.com/news/anthropic-acquires-stainless</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-acquires-stainless</guid>
-            <pubDate>Sun, 17 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.143]]></title>
