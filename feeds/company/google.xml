@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 01 Jun 2026 19:38:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Jun 2026 05:34:29 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -28,6 +28,13 @@
             <description><![CDATA[Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.]]></description>
             <link>https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</guid>
+            <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing ADK for Kotlin and ADK for Android 0.1.0: Building AI Agents on Android and Beyond]]></title>
+            <description><![CDATA[Google has announced the launch of version 0.1.0 of the Agent Development Kit (ADK) for Kotlin, alongside a specialized ADK library for Android. This open-source framework simplifies the creation of AI agents by managing complex orchestration, session sharing, and error handling across cloud and edge environments. The release supports hybrid orchestration, enabling developers to build multi-agent systems where a cloud-based model can seamlessly offload specific tasks to local, on-device models like Gemini Nano to enhance user privacy.]]></description>
+            <link>https://developers.googleblog.com/adk-kotlin-android-building-ai-agents/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/adk-kotlin-android-building-ai-agents/</guid>
             <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/</guid>
             <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Accelerating on-device AI: A look at Arm and Google AI Edge optimization]]></title>
-            <description><![CDATA[Integration of Arm Scalable Matrix Extension 2 (SME2) and the Google AI Edge software stack enables high-performance, on-device generative AI by turning the CPU into a powerful matrix-compute accelerator. Using Stability AI’s "stable-audio-open-small" model as a case study, it outlines a streamlined "Convert, Optimize, and Deploy" pipeline that utilizes LiteRT, XNNPACK, and KleidiAI to automate hardware acceleration. The resulting implementation achieves over a 2x speedup in audio generation and a 4x reduction in memory usage while maintaining high audio quality on Arm-powered mobile devices and laptops.]]></description>
-            <link>https://developers.googleblog.com/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/</guid>
-            <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
