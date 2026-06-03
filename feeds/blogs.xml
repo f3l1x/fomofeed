@@ -4,11 +4,19 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 09:36:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 15:34:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Community Showcase Part 1]]></title>
+            <description><![CDATA[Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications ranging from public data exploration and infrastructure monitoring to research automation and internal tooling, along with why their creators chose Dagster and what building with it was like.]]></description>
+            <link>https://dagster.io/blog/community-showcase-part-1</link>
+            <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-1</guid>
+            <category><![CDATA[Product]]></category>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[What we’ve learned building cloud agents]]></title>
             <link>https://cursor.com/blog/cloud-agent-lessons</link>
@@ -373,14 +381,6 @@
             <description><![CDATA[GPT-5.4 is now available in Windsurf with multiple reasoning effort levels. For a limited time, self serve users enjoy promotional pricing starting at 1x credits.]]></description>
             <link>https://windsurf.com/blog/gpt-54</link>
             <guid isPermaLink="false">https://windsurf.com/blog/gpt-54</guid>
-            <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing AI Driven Data Engineering]]></title>
-            <description><![CDATA[AI coding agents are changing how data engineers work. This Dagster University course shows how to build a production-ready ELT pipeline from prompts while learning practical patterns for reliable AI-assisted development.]]></description>
-            <link>https://dagster.io/blog/announcing-ai-driven-data-engineering</link>
-            <guid isPermaLink="false">https://dagster.io/blog/announcing-ai-driven-data-engineering</guid>
-            <category><![CDATA[Engineering]]></category>
             <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
@@ -2481,6 +2481,13 @@
             <link>https://www.surgehq.ai/blog/introducing-antidote</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/introducing-antidote</guid>
             <pubDate>Sun, 19 Jul 2020 10:22:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ComplexConstraints: A Benchmark for Entangled Instruction Following]]></title>
+            <description><![CDATA[A benchmark of expert-written prompts whose constraints interlock, depend on context, and often go unstated — the instruction following that real professional work demands.]]></description>
+            <link>https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</guid>
+            <pubDate>Sun, 19 Jan 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[GDP.pdf: Can $100B AI Models Master the Documents that Run the World?]]></title>

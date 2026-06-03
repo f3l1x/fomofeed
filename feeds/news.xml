@@ -4,11 +4,23 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 09:36:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 15:34:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing the Services Track and Partner Hub of the Claude Partner Network]]></title>
+            <link>https://www.anthropic.com/news/services-track-partner-hub</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/services-track-partner-hub</guid>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What we learned mapping a year’s worth of AI-enabled cyber threats]]></title>
+            <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Expanding Project Glasswing]]></title>
             <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
@@ -135,18 +147,6 @@
             <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Widening the conversation on frontier AI]]></title>
-            <link>https://www.anthropic.com/news/widening-conversation-ai</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/widening-conversation-ai</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance]]></title>
-            <link>https://www.anthropic.com/news/anthropic-kpmg</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-kpmg</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[2028: Two scenarios for global AI leadership]]></title>
             <link>https://www.anthropic.com/research/2028-ai-leadership</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/2028-ai-leadership</guid>
@@ -195,12 +195,6 @@
             <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/april-23-postmortem</guid>
             <pubDate>Wed, 22 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing the Anthropic Economic Index Survey]]></title>
-            <link>https://www.anthropic.com/research/economic-index-survey-announcement</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-survey-announcement</guid>
-            <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Claude Design by Anthropic Labs]]></title>
@@ -433,6 +427,18 @@
             <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
             <pubDate>Sun, 12 Apr 2020 18:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator]]></title>
+            <description><![CDATA[We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber
+                        operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the
+                        MITRE ATT&CK framework, a database of tactics and techniques used by cyberattackers. We
+                        partnered with Verizon to include some of these results in the 2026 Verizon Data Breach
+                        Investigation Report (DBIR), and are publishing this report to offer a longer-form analysis of
+                        trends we are seeing in AI-enabled cyber operations.]]></description>
+            <link>https://red.anthropic.com/2026/attack-navigator/</link>
+            <guid isPermaLink="false">https://red.anthropic.com/2026/attack-navigator/</guid>
+            <pubDate>Sat, 22 Aug 2020 18:28:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Measuring LLMs' Ability to Develop Exploits]]></title>

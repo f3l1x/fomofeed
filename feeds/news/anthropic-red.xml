@@ -4,11 +4,23 @@
         <description><![CDATA[RSS feed for Anthropic Red Blog]]></description>
         <link>https://red.anthropic.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 09:35:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 15:34:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-red.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 15 Dec 2020 14:28:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator]]></title>
+            <description><![CDATA[We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber
+                        operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the
+                        MITRE ATT&CK framework, a database of tactics and techniques used by cyberattackers. We
+                        partnered with Verizon to include some of these results in the 2026 Verizon Data Breach
+                        Investigation Report (DBIR), and are publishing this report to offer a longer-form analysis of
+                        trends we are seeing in AI-enabled cyber operations.]]></description>
+            <link>https://red.anthropic.com/2026/attack-navigator/</link>
+            <guid isPermaLink="false">https://red.anthropic.com/2026/attack-navigator/</guid>
+            <pubDate>Sat, 22 Aug 2020 18:28:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Measuring LLMs' Ability to Develop Exploits]]></title>
             <description><![CDATA[On two new, challenging academic benchmarks measuring AI models’ ability to develop exploits

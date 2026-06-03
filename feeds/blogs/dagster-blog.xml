@@ -4,11 +4,19 @@
         <description><![CDATA[RSS feed for Dagster Blog]]></description>
         <link>https://dagster.io/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 09:35:45 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 15:33:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/dagster-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Community Showcase Part 1]]></title>
+            <description><![CDATA[Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications ranging from public data exploration and infrastructure monitoring to research automation and internal tooling, along with why their creators chose Dagster and what building with it was like.]]></description>
+            <link>https://dagster.io/blog/community-showcase-part-1</link>
+            <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-1</guid>
+            <category><![CDATA[Product]]></category>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How Dagster Compass Powers Brooklyn Data’s Self-Service Analytics]]></title>
             <description><![CDATA[Text-to-analytics promises self-service access to data, but adoption depends on usability, governance, and trust. In this guest post, Brooklyn Data explains how it evaluated Compass, deployed it on top of Snowflake, and enabled teams to answer operational questions directly in Slack while maintaining centralized governance and business context.]]></description>
@@ -103,14 +111,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/unlocking-the-full-value-of-your-databricks</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Wed, 11 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing AI Driven Data Engineering]]></title>
-            <description><![CDATA[AI coding agents are changing how data engineers work. This Dagster University course shows how to build a production-ready ELT pipeline from prompts while learning practical patterns for reliable AI-assisted development.]]></description>
-            <link>https://dagster.io/blog/announcing-ai-driven-data-engineering</link>
-            <guid isPermaLink="false">https://dagster.io/blog/announcing-ai-driven-data-engineering</guid>
-            <category><![CDATA[Engineering]]></category>
-            <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

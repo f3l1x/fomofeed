@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 09:35:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 15:33:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -22,6 +22,13 @@
             <link>https://www.surgehq.ai/blog/introducing-antidote</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/introducing-antidote</guid>
             <pubDate>Sun, 19 Jul 2020 10:22:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ComplexConstraints: A Benchmark for Entangled Instruction Following]]></title>
+            <description><![CDATA[A benchmark of expert-written prompts whose constraints interlock, depend on context, and often go unstated — the instruction following that real professional work demands.]]></description>
+            <link>https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</guid>
+            <pubDate>Sun, 19 Jan 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[GDP.pdf: Can $100B AI Models Master the Documents that Run the World?]]></title>

@@ -4,11 +4,23 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 09:35:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 15:34:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing the Services Track and Partner Hub of the Claude Partner Network]]></title>
+            <link>https://www.anthropic.com/news/services-track-partner-hub</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/services-track-partner-hub</guid>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What we learned mapping a year’s worth of AI-enabled cyber threats]]></title>
+            <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Expanding Project Glasswing]]></title>
             <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
@@ -51,18 +63,6 @@
             <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</guid>
             <pubDate>Sun, 24 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Widening the conversation on frontier AI]]></title>
-            <link>https://www.anthropic.com/news/widening-conversation-ai</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/widening-conversation-ai</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance]]></title>
-            <link>https://www.anthropic.com/news/anthropic-kpmg</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-kpmg</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Claude Design by Anthropic Labs]]></title>
