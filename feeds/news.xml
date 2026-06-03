@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 15:34:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 19:18:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge]]></title>
+            <description><![CDATA[Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.]]></description>
+            <link>https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</guid>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gemma 4 12B: The Developer Guide]]></title>
+            <description><![CDATA[The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]></description>
+            <link>https://developers.googleblog.com/gemma-4-12b-the-developer-guide/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/gemma-4-12b-the-developer-guide/</guid>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing the Services Track and Partner Hub of the Claude Partner Network]]></title>
             <link>https://www.anthropic.com/news/services-track-partner-hub</link>
@@ -130,20 +144,6 @@
             <description><![CDATA[Google AI Edge’s LiteRT-LM provides a production-proven, highly optimized infrastructure for running Gemma 4 across cross-platform mobile and edge environments. It actively unlocks the model's native multimodal and agentic features on-device by utilizing memory-efficient dynamic loading, Multi-Token Prediction for up to a 2.2x speedup, and advanced orchestration tools like Thinking Mode and Constrained Decoding. Furthermore, the engine is rapidly expanding its integration surfaces beyond Android, introducing new native Swift APIs for Apple ecosystems and WebGPU-accelerated JavaScript APIs for high-performance, serverless browser inference.]]></description>
             <link>https://developers.googleblog.com/blazing-fast-on-device-genai-with-litert-lm/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/blazing-fast-on-device-genai-with-litert-lm/</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A Smarter Google AI Edge Gallery: MCP integration, notifications, and session continuity]]></title>
-            <description><![CDATA[The Google AI Edge Gallery app has expanded its on-device AI capabilities by introducing experimental support for the open-source Model Context Protocol (MCP) on Android, allowing Gemma 4 to coordinate complex tasks across external data sources like Google Workspace and Google Maps. To enable more proactive and persistent user interactions, the update adds a "Schedule Notification" skill for automating routines and a persistent chat history feature that restores long session contexts nearly instantly. Driven by an open-source toolkit, the platform encourages community developers to build and share custom utility-focused workflows, prompt configurations, and tool integrations via its GitHub repository.]]></description>
-            <link>https://developers.googleblog.com/a-smarter-google-ai-edge-gallery-mcp-integration-notifications-and-session-continuity/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/a-smarter-google-ai-edge-gallery-mcp-integration-notifications-and-session-continuity/</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[All the news from the Google I/O 2026 Developer keynote]]></title>
-            <description><![CDATA[Google announced the transition from assistive AI to independent agents, highlighting the launch of the Gemini 3.5 series and major updates to its Antigravity agent-first development platform. For mobile developers, the post introduces new Android CLI tools, the Android Bench evaluation leaderboard, and an automated Migration agent designed to rapidly convert various frameworks into native Kotlin code. Web development is also being transformed through Chrome DevTools for agents, the HTML-in-Canvas API, and the proposal of WebMCP, an open web standard that enables browser-based AI agents to execute complex tasks.]]></description>
-            <link>https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/</guid>
             <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

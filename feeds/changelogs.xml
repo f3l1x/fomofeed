@@ -4,11 +4,32 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 15:34:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 19:18:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 03 Jun 2026 01:26:05 GMT</pubDate>
+        <pubDate>Wed, 03 Jun 2026 18:48:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.30.4]]></title>
+            <description><![CDATA[## What's Changed * llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16463 * Kill llama-server during Windows cleanup by @dhiltgen in https://github.com/ollama/ollama/pull/16458 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.3...v0.30.4-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.4-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.4-rc0</guid>
+            <pubDate>Wed, 03 Jun 2026 18:48:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.137.0-alpha.5]]></title>
+            <description><![CDATA[Release 0.137.0-alpha.5]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.137.0-alpha.5</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.137.0-alpha.5</guid>
+            <pubDate>Wed, 03 Jun 2026 17:23:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.3]]></title>
+            <description><![CDATA[## What's Changed * models: add support for gemma4-12b by @pdevine in https://github.com/ollama/ollama/pull/16457 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.2...v0.30.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.3</guid>
+            <pubDate>Wed, 03 Jun 2026 16:35:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.137.0-alpha.4]]></title>
             <description><![CDATA[Release 0.137.0-alpha.4]]></description>
@@ -1631,13 +1652,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.110</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.110</guid>
             <pubDate>Wed, 15 Apr 2026 22:07:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.122.0-alpha.1]]></title>
-            <description><![CDATA[Release 0.122.0-alpha.1]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.122.0-alpha.1</guid>
-            <pubDate>Wed, 15 Apr 2026 21:51:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.121.0]]></title>
@@ -4528,13 +4542,6 @@
             <pubDate>Mon, 24 Mar 2025 10:06:06 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.6.3]]></title>
-            <description><![CDATA[## What's Changed * New sliding window attention optimizations for Gemma 3, improving inference speed and memory allocation for long context windows. * Improved loading speed of Gemma 3 * ollama create will now return the name of unsupported architectures * Fixed error talloc->buffer_id >= 0 when running a model * Fixed (int)sched->hash_set.size >= graph->n_nodes + graph->n_leafs error when running a model * ollama create will now automatically select the right template when importing Gemma 3 from safetensors * ollama show -v will now correctly render boolean values as true or false ## New Contributors * @rylativity made their first contribution in https://github.com/ollama/ollama/pull/9874 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.2...v0.6.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.3</guid>
-            <pubDate>Sat, 22 Mar 2025 02:56:08 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Aider v0.78.0]]></title>
             <description><![CDATA[- Added support for thinking tokens for OpenRouter Sonnet 3.7. - Added commands to switch between model types: /editor-model for Editor Model, and /weak-model for Weak Model, by csala. - Added model setting validation to ignore --reasoning-effort and --thinking-tokens if the model doesn't support them. - Added --check-model-accepts-settings flag (default: true) to force unsupported model settings. - Annotated which models support reasoning_effort and thinking_tokens settings in the model settings data. - Improved code block rendering in markdown output with better padding using NoInsetMarkdown. - Added --git-commit-verify flag (default: False) to control whether git commit hooks are bypassed. - Fixed autocompletion for /ask, /code, and /architect commands, by shladnik. - Added vi-like behavior when pressing enter in multiline-mode while in vi normal/navigation-mode, by Marco Mayer. - Added AWS_PROFILE support for Bedrock models, allowing use of AWS profiles instead of explicit credentials, by lentil32. - Enhanced --aiderignore argument to resolve both absolute and relative paths, by mopemope. - Improved platform information handling to gracefully handle retrieval errors. - Bumped dependencies to pickup litellm fix for Ollama. - Added support for openrouter/google/gemma-3-27b-it model. - Updated exclude patterns for help documentation. - Aider wrote 92% of the code in this release. Full release notes: https://aider.chat/HISTORY.html]]></description>
             <link>https://github.com/Aider-AI/aider/releases/tag/v0.78.0</link>
@@ -4546,13 +4553,6 @@
             <link>https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.0</link>
             <guid isPermaLink="false">https://github.com/TabbyML/tabby/releases/tag/v0.27.0-rc.0</guid>
             <pubDate>Fri, 21 Mar 2025 04:04:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.2]]></title>
-            <description><![CDATA[## What's Changed * Multiple images are now supported in Gemma 3 * Fixed issue where running Gemma 3 would consume a large amount of system memory * ollama create --quantize now works when converting Gemma 3 from safetensors * Fixed issue where /save would not work if running a model with / in the name * Add support for AMD Strix Halo GPUs ## New Contributors * @zeozeozeo made their first contribution in https://github.com/ollama/ollama/pull/9800 * @louis030195 made their first contribution in https://github.com/ollama/ollama/pull/9786 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.1...v0.6.2]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.2</guid>
-            <pubDate>Tue, 18 Mar 2025 03:11:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[intellij@1.12.0]]></title>

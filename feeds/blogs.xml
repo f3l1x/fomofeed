@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 15:34:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 19:18:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing organizations for Cursor Enterprise]]></title>
+            <link>https://cursor.com/blog/organizations</link>
+            <guid isPermaLink="false">https://cursor.com/blog/organizations</guid>
+            <category><![CDATA[product]]></category>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Community Showcase Part 1]]></title>
             <description><![CDATA[Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications ranging from public data exploration and infrastructure monitoring to research automation and internal tooling, along with why their creators chose Dagster and what building with it was like.]]></description>
@@ -242,13 +249,6 @@
             <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
             <link>https://windsurf.com/blog/windsurf-2-0</link>
             <guid isPermaLink="false">https://windsurf.com/blog/windsurf-2-0</guid>
-            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Better AI models enable more ambitious work]]></title>
-            <link>https://cursor.com/blog/better-models-ambitious-work</link>
-            <guid isPermaLink="false">https://cursor.com/blog/better-models-ambitious-work</guid>
-            <category><![CDATA[research]]></category>
             <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -2470,7 +2470,7 @@
         </item>
         <item>
             <title><![CDATA[Cross-Benchmark Generalization for Long-Horizon Agentic Tasks]]></title>
-            <description><![CDATA[Post-Training on Surge’s RL environment and why it generalizes to external tool-use benchmarks: Toolathlon, τ²-Bench, and BFCL-V4]]></description>
+            <description><![CDATA[Post-training on Surge AI's agentic RL environments and why it generalizes to external tool-use benchmarks like Toolathlon, τ²-Bench, and BFCL-V4.]]></description>
             <link>https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</guid>
             <pubDate>Tue, 05 May 2020 11:26:00 GMT</pubDate>
@@ -2484,7 +2484,7 @@
         </item>
         <item>
             <title><![CDATA[ComplexConstraints: A Benchmark for Entangled Instruction Following]]></title>
-            <description><![CDATA[A benchmark of expert-written prompts whose constraints interlock, depend on context, and often go unstated — the instruction following that real professional work demands.]]></description>
+            <description><![CDATA[A benchmark for entangled instruction following, where constraints depend on each other, fire conditionally, and must be inferred from context.]]></description>
             <link>https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</guid>
             <pubDate>Sun, 19 Jan 2020 09:39:00 GMT</pubDate>

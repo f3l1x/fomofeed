@@ -4,11 +4,25 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 15:34:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 19:18:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 03 Jun 2026 00:37:18 GMT</pubDate>
+        <pubDate>Wed, 03 Jun 2026 18:48:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.30.4]]></title>
+            <description><![CDATA[## What's Changed * llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16463 * Kill llama-server during Windows cleanup by @dhiltgen in https://github.com/ollama/ollama/pull/16458 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.3...v0.30.4-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.4-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.4-rc0</guid>
+            <pubDate>Wed, 03 Jun 2026 18:48:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.3]]></title>
+            <description><![CDATA[## What's Changed * models: add support for gemma4-12b by @pdevine in https://github.com/ollama/ollama/pull/16457 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.2...v0.30.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.3</guid>
+            <pubDate>Wed, 03 Jun 2026 16:35:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.30.2]]></title>
             <description><![CDATA[## What's Changed * feat(launch): show and auto-install Cline CLI by @hoyyeva in https://github.com/ollama/ollama/pull/16402 * log template details to aid troubleshooting by @dhiltgen in https://github.com/ollama/ollama/pull/16403 * cmd/launch: add Qwen code integration by @hoyyeva in https://github.com/ollama/ollama/pull/15900 * launch: fix opencode local model limits by @dhiltgen in https://github.com/ollama/ollama/pull/16425 * llm: include cached prompt tokens in llama-server counts by @dhiltgen in https://github.com/ollama/ollama/pull/16428 * Harden app markdown URL handling by @dhiltgen in https://github.com/ollama/ollama/pull/16380 * discover: allow Radeon 8060S iGPU by default by @dhiltgen in https://github.com/ollama/ollama/pull/16429 * llm: detect llama-server load stalls from output by @dhiltgen in https://github.com/ollama/ollama/pull/16427 * More harden app markdown URL handling by @dhiltgen in https://github.com/ollama/ollama/pull/16436 * llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16426 * launch: isolate Codex launch configuration by @ParthSareen in https://github.com/ollama/ollama/pull/16437 * llama: add laguna (poolside) arch via a llama.cpp patch under llama/c… by @dhiltgen in https://github.com/ollama/ollama/pull/16396 * docs: configure hermes desktop app by @BruceMacD in https://github.com/ollama/ollama/pull/16440 * llm: ignore llama-server SSE ping comments by @dhiltgen in https://github.com/ollama/ollama/pull/16443 * fix laguna patch build breakage by @dhiltgen in https://github.com/ollama/ollama/pull/16445 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.0...v0.30.2-rc0]]></description>
@@ -862,20 +876,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.6.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.4</guid>
             <pubDate>Wed, 02 Apr 2025 22:14:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.3]]></title>
-            <description><![CDATA[## What's Changed * New sliding window attention optimizations for Gemma 3, improving inference speed and memory allocation for long context windows. * Improved loading speed of Gemma 3 * ollama create will now return the name of unsupported architectures * Fixed error talloc->buffer_id >= 0 when running a model * Fixed (int)sched->hash_set.size >= graph->n_nodes + graph->n_leafs error when running a model * ollama create will now automatically select the right template when importing Gemma 3 from safetensors * ollama show -v will now correctly render boolean values as true or false ## New Contributors * @rylativity made their first contribution in https://github.com/ollama/ollama/pull/9874 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.2...v0.6.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.3</guid>
-            <pubDate>Sat, 22 Mar 2025 02:56:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.2]]></title>
-            <description><![CDATA[## What's Changed * Multiple images are now supported in Gemma 3 * Fixed issue where running Gemma 3 would consume a large amount of system memory * ollama create --quantize now works when converting Gemma 3 from safetensors * Fixed issue where /save would not work if running a model with / in the name * Add support for AMD Strix Halo GPUs ## New Contributors * @zeozeozeo made their first contribution in https://github.com/ollama/ollama/pull/9800 * @louis030195 made their first contribution in https://github.com/ollama/ollama/pull/9786 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.1...v0.6.2]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.2</guid>
-            <pubDate>Tue, 18 Mar 2025 03:11:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Minions: where local and cloud LLMs meet]]></title>
