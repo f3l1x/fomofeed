@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Jun 2026 19:13:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 05:38:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 May 2026 02:24:24 GMT</pubDate>
+        <pubDate>Wed, 03 Jun 2026 00:37:18 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.30.2]]></title>
+            <description><![CDATA[## What's Changed * feat(launch): show and auto-install Cline CLI by @hoyyeva in https://github.com/ollama/ollama/pull/16402 * log template details to aid troubleshooting by @dhiltgen in https://github.com/ollama/ollama/pull/16403 * cmd/launch: add Qwen code integration by @hoyyeva in https://github.com/ollama/ollama/pull/15900 * launch: fix opencode local model limits by @dhiltgen in https://github.com/ollama/ollama/pull/16425 * llm: include cached prompt tokens in llama-server counts by @dhiltgen in https://github.com/ollama/ollama/pull/16428 * Harden app markdown URL handling by @dhiltgen in https://github.com/ollama/ollama/pull/16380 * discover: allow Radeon 8060S iGPU by default by @dhiltgen in https://github.com/ollama/ollama/pull/16429 * llm: detect llama-server load stalls from output by @dhiltgen in https://github.com/ollama/ollama/pull/16427 * More harden app markdown URL handling by @dhiltgen in https://github.com/ollama/ollama/pull/16436 * llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16426 * launch: isolate Codex launch configuration by @ParthSareen in https://github.com/ollama/ollama/pull/16437 * llama: add laguna (poolside) arch via a llama.cpp patch under llama/c… by @dhiltgen in https://github.com/ollama/ollama/pull/16396 * docs: configure hermes desktop app by @BruceMacD in https://github.com/ollama/ollama/pull/16440 * llm: ignore llama-server SSE ping comments by @dhiltgen in https://github.com/ollama/ollama/pull/16443 * fix laguna patch build breakage by @dhiltgen in https://github.com/ollama/ollama/pull/16445 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.0...v0.30.2-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.2</guid>
+            <pubDate>Wed, 03 Jun 2026 00:37:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.24.0]]></title>
             <description><![CDATA[## Codex App Ollama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality. ### Built-in browser Codex can load local servers and sites in its built-in browser, enabling you to directly annotate on the page to request changes. ### Review mode Review code inside the app, leave comments, and iterate without leaving your workspace. ### Choosing a model For difficult coding and agentic tasks: - **kimi-k2.6** (with vision support) - **glm-5.1** For local use without an Ollama Cloud subscription: - **nemotron-3-super** - **gemma4:31b** - **qwen3.6** ### Restore anytime To restore the previous configuration of Codex App, run: ## What's Changed * Reworked the MLX sampler for improved generation quality on Apple Silicon **Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.0...v0.24.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.6.2</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.2</guid>
             <pubDate>Tue, 18 Mar 2025 03:11:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.1]]></title>
-            <description><![CDATA[## New models - Command A: 111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI. ## What's Changed * Fixed issues where gemma3 would crash with "out of memory (OOM)" errors by improving memory estimation * Loading an invalid model with /load will no longer exit ollama run * Added Ctrl+P and Ctrl+N hotkeys for ollama run * New ollama show -v or ollama show --verbose that will print additional model data * Improved sampling parameters such as temperature and top_k to behave similar to other implementations ## New Contributors * @Shane-XB-Qian made their first contribution in https://github.com/ollama/ollama/pull/9136 * @13rac1 made their first contribution in https://github.com/ollama/ollama/pull/9643 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.0...v0.6.1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.1</guid>
-            <pubDate>Fri, 14 Mar 2025 02:58:48 GMT</pubDate>
         </item>
     </channel>
 </rss>

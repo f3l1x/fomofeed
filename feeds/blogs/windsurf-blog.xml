@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Jun 2026 19:13:11 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 05:38:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -12,8 +12,8 @@
         <item>
             <title><![CDATA[Opus 4.7 (fast mode) is now available in Windsurf]]></title>
             <description><![CDATA[Claude Opus 4.7 (fast mode) is now available in Windsurf with the full intelligence of Opus 4.7 and ~2.5x higher output speeds.]]></description>
-            <link>https://windsurf.com/blog/opus-4.7-fast</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/opus-4.7-fast</guid>
+            <link>https://windsurf.com/blog/opus-47-fast</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/opus-47-fast</guid>
             <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -47,16 +47,15 @@
         <item>
             <title><![CDATA[GPT-5.4 is now available in Windsurf]]></title>
             <description><![CDATA[GPT-5.4 is now available in Windsurf with multiple reasoning effort levels. For a limited time, self serve users enjoy promotional pricing starting at 1x credits.]]></description>
-            <link>https://windsurf.com/blog/gpt-5.4</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-5.4</guid>
+            <link>https://windsurf.com/blog/gpt-54</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gpt-54</guid>
             <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Gemini 3.1 Pro is now available in Windsurf]]></title>
-            <description><![CDATA[Gemini 3.1 Pro is now available in Windsurf with Low and High thinking variants. For a limited time, enjoy promotional pricing on credit usage.]]></description>
-            <link>https://windsurf.com/blog/gemini-3.1-pro</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gemini-3.1-pro</guid>
-            <pubDate>Wed, 18 Feb 2026 23:00:00 GMT</pubDate>
+            <title><![CDATA[Windsurf is now Devin Desktop. The IDE you love, with more features. Learn more →Windsurf is now Devin Desktop →]]></title>
+            <link>https://windsurf.com/blog/windsurf-is-now-devin-desktop</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-is-now-devin-desktop</guid>
+            <pubDate>Mon, 02 Mar 2020 14:56:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
