@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 19:18:47 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Jun 2026 05:36:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2469,6 +2469,13 @@
             <pubDate>Mon, 02 Mar 2020 14:56:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[ComplexConstraints: A Benchmark for Entangled Instruction Following]]></title>
+            <description><![CDATA[A benchmark for entangled instruction following, where constraints depend on each other, fire conditionally, and must be inferred from context.]]></description>
+            <link>https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</guid>
+            <pubDate>Sun, 19 Jan 2020 09:39:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Cross-Benchmark Generalization for Long-Horizon Agentic Tasks]]></title>
             <description><![CDATA[Post-training on Surge AI's agentic RL environments and why it generalizes to external tool-use benchmarks like Toolathlon, τ²-Bench, and BFCL-V4.]]></description>
             <link>https://www.surgehq.ai/blog/cross-benchmark-generalization-for-long-horizon-agentic-tasks</link>
@@ -2481,13 +2488,6 @@
             <link>https://www.surgehq.ai/blog/introducing-antidote</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/introducing-antidote</guid>
             <pubDate>Sun, 19 Jul 2020 10:22:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ComplexConstraints: A Benchmark for Entangled Instruction Following]]></title>
-            <description><![CDATA[A benchmark for entangled instruction following, where constraints depend on each other, fire conditionally, and must be inferred from context.]]></description>
-            <link>https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</link>
-            <guid isPermaLink="false">https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</guid>
-            <pubDate>Sun, 19 Jan 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[GDP.pdf: Can $100B AI Models Master the Documents that Run the World?]]></title>
