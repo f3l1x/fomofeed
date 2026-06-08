@@ -39,15 +39,11 @@ jobs:
       - name: Generate all feeds
         run: make generate
         env:
-          # Authenticated GitHub API requests get a far higher rate limit
-          # (5000/hr vs 60/hr shared per IP), which the github-release feeds
-          # rely on. GITHUB_TOKEN is provided automatically to the workflow.
+          # Higher API rate limit (5000/hr vs 60/hr) for the release feeds.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push feeds
-        # Only persist generated feeds from the default branch (scheduled runs).
-        # Manual workflow_dispatch on a feature branch is for validation only and
-        # must not commit generated XML onto that branch.
+        # Validation runs on feature branches must not commit generated feeds.
         if: github.ref == 'refs/heads/master'
         run: |
           git config user.name "github-actions[bot]"

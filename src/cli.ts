@@ -26,11 +26,8 @@ function parseArgs(argv: string[]): { command: string; flags: Record<string, str
   return { command, flags };
 }
 
-// Hard ceiling per feed. A single source hanging (e.g. a browser navigation
-// that never settles) must never stall the whole run — in CI that means the
-// job sits until the 15-minute timeout and commits nothing. The browser path
-// can legitimately chain up to ~180s of internal waits, so this sits above
-// that: anything slower is treated as stuck and counted as a failure.
+// Per-feed ceiling so one stuck source can't hang the whole run. Above the
+// browser path's ~180s worst-case internal waits; anything slower is "stuck".
 const FEED_TIMEOUT_MS = 200_000;
 
 function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
@@ -38,8 +35,7 @@ function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
   const timeout = new Promise<never>((_, reject) => {
     timer = setTimeout(() => reject(new Error(`timed out after ${ms}ms`)), ms);
   });
-  // Promise.race attaches a handler to `promise`, so a late rejection from the
-  // losing side is already considered handled and won't surface as unhandled.
+  // race() handles `promise`, so a late rejection from the loser stays silent.
   return Promise.race([promise, timeout]).finally(() =>
     clearTimeout(timer),
   ) as Promise<T>;
@@ -139,14 +135,8 @@ async function generate(feedId?: string, full?: boolean): Promise<void> {
 
   console.log(`\nDone: ${ok} ok, ${fail} failed.`);
 
-  // Scraping external sites is inherently flaky — a single source returning
-  // 403/timeout shouldn't fail the whole run (and, in CI, skip committing the
-  // feeds that did generate). Only treat it as a hard failure when nothing
-  // succeeded, which signals a real breakage rather than one flaky source.
-  //
-  // Exit explicitly: a feed that hit the per-feed timeout may still hold an
-  // open handle (e.g. an in-flight browser navigation) that would otherwise
-  // keep the process alive after the work is done and hang the CI job.
+  // Fail only when nothing succeeded — one flaky source shouldn't sink the run.
+  // Exit explicitly so a timed-out feed's lingering handle can't hang the job.
   process.exit(ok === 0 && feeds.length > 0 ? 1 : 0);
 }
 
