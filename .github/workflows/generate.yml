@@ -45,6 +45,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push feeds
+        # Only persist generated feeds from the default branch (scheduled runs).
+        # Manual workflow_dispatch on a feature branch is for validation only and
+        # must not commit generated XML onto that branch.
+        if: github.ref == 'refs/heads/master'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
