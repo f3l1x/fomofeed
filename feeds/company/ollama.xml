@@ -4,28 +4,63 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Jun 2026 07:36:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jun 2026 16:42:28 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 03 Jun 2026 18:48:32 GMT</pubDate>
+        <pubDate>Sun, 07 Jun 2026 21:51:48 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
+            <title><![CDATA[v0.30.7]]></title>
+            <description><![CDATA[## What's Changed * docs: update Zod example to use native toJSONSchema by @fuleinist in https://github.com/ollama/ollama/pull/14746 * launch: use native Windows Hermes config path by @BruceMacD in https://github.com/ollama/ollama/pull/16558 ## New Contributors * @fuleinist made their first contribution in https://github.com/ollama/ollama/pull/14746 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.6...v0.30.7-rc1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1</guid>
+            <pubDate>Sun, 07 Jun 2026 21:51:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.6]]></title>
+            <description><![CDATA[# New models - Gemma 4 QAT weights: the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in -qat: - gemma4:e2b-it-qat - gemma4:e4b-it-qat - gemma4:12b-it-qat - gemma4:26b-a4b-it-qat - gemma4:31b-it-qat ## What's Changed * ollama launch omp now integrates with Oh My Pi, an AI coding agent with IDE integration * MLX embedding layers now use NVFP4 global scale for improved quantization on Apple Silicon **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.5...v0.30.6]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.6</guid>
+            <pubDate>Fri, 05 Jun 2026 20:00:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Improved performance and model support with GGUF]]></title>
+            <description><![CDATA[Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware.]]></description>
+            <link>https://ollama.com/blog/improved-performance-and-model-support-with-gguf</link>
+            <guid isPermaLink="false">https://ollama.com/blog/improved-performance-and-model-support-with-gguf</guid>
+            <pubDate>Thu, 04 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.30.5]]></title>
+            <description><![CDATA[## What's Changed * Fixed the gemma4:12b floating point exception crash on x86, CUDA, Linux, and Windows systems. * ollama launch hermes-desktop now launches Hermes Desktop and can skip rebuilding when a packaged desktop app is already installed. * ollama launch hermes now supports native Windows installs through the Hermes PowerShell installer. * Added Cline CLI integration docs. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.4...v0.30.5]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.5</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.5</guid>
+            <pubDate>Thu, 04 Jun 2026 17:00:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIA Nemotron 3 Ultra]]></title>
+            <description><![CDATA[NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.]]></description>
+            <link>https://ollama.com/blog/nemotron-3-ultra</link>
+            <guid isPermaLink="false">https://ollama.com/blog/nemotron-3-ultra</guid>
+            <pubDate>Wed, 03 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[v0.30.4]]></title>
-            <description><![CDATA[## What's Changed * llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16463 * Kill llama-server during Windows cleanup by @dhiltgen in https://github.com/ollama/ollama/pull/16458 ## Known Issues * gemma4:12b crash with floating point exception **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.3...v0.30.4]]></description>
+            <description><![CDATA[# New models - Nemotron-3-Ultra: NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows. ## What's Changed * Fixed multimodal models not using GPU on the llama.cpp backend can now use Metal GPU offload on Apple Silicon, improving multimodal performance on supported Macs. * ollama create --experimental now respects REQUIRES in Modelfiles for MLX-based models. * ollama launch codex now cleans up old conflicting Codex profile config before launching. * ollama launch pi now migrates users from the legacy Pi package to the official package and preserves the correct npm install prefix. * Pi web search setup now updates only when a newer package is available. * Windows cleanup now terminates the llama.cpp backend more reliably. * Updated the llama.cpp backend. ## Known Issues * gemma4:12b crashes with floating point exception **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.3...v0.30.4]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.30.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.4</guid>
             <pubDate>Wed, 03 Jun 2026 18:48:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.30.3]]></title>
-            <description><![CDATA[## What's Changed * models: add support for gemma4-12b by @pdevine in https://github.com/ollama/ollama/pull/16457 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.2...v0.30.3]]></description>
+            <description><![CDATA[## New models - Gemma 4 12B: high-performance multimodal intelligence that runs directly on laptops, combining efficiency with advanced reasoning. ## What's Changed * Added support for gemma4:12b. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.2...v0.30.3]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.30.3</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.3</guid>
             <pubDate>Wed, 03 Jun 2026 16:35:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.30.2]]></title>
-            <description><![CDATA[## What's Changed * feat(launch): show and auto-install Cline CLI by @hoyyeva in https://github.com/ollama/ollama/pull/16402 * log template details to aid troubleshooting by @dhiltgen in https://github.com/ollama/ollama/pull/16403 * cmd/launch: add Qwen code integration by @hoyyeva in https://github.com/ollama/ollama/pull/15900 * launch: fix opencode local model limits by @dhiltgen in https://github.com/ollama/ollama/pull/16425 * llm: include cached prompt tokens in llama-server counts by @dhiltgen in https://github.com/ollama/ollama/pull/16428 * Harden app markdown URL handling by @dhiltgen in https://github.com/ollama/ollama/pull/16380 * discover: allow Radeon 8060S iGPU by default by @dhiltgen in https://github.com/ollama/ollama/pull/16429 * llm: detect llama-server load stalls from output by @dhiltgen in https://github.com/ollama/ollama/pull/16427 * More harden app markdown URL handling by @dhiltgen in https://github.com/ollama/ollama/pull/16436 * llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16426 * launch: isolate Codex launch configuration by @ParthSareen in https://github.com/ollama/ollama/pull/16437 * llama: add laguna (poolside) arch via a llama.cpp patch under llama/c… by @dhiltgen in https://github.com/ollama/ollama/pull/16396 * docs: configure hermes desktop app by @BruceMacD in https://github.com/ollama/ollama/pull/16440 * llm: ignore llama-server SSE ping comments by @dhiltgen in https://github.com/ollama/ollama/pull/16443 * fix laguna patch build breakage by @dhiltgen in https://github.com/ollama/ollama/pull/16445 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.0...v0.30.2-rc0]]></description>
+            <description><![CDATA[## What's Changed * ollama launch now supports Qwen Code and can guide users through installing the Cline CLI when it is missing. * ollama launch codex now uses an isolated launch configuration, avoiding conflicts with a user's existing Codex settings. * Added llama.cpp backend compatibility support for Poolside's Laguna architecture. * The llama.cpp backend now includes cached prompt tokens in token accounting, improving usage reporting for requests with prompt cache hits. * The llama.cpp backend now ignores SSE ping comments, improving streaming compatibility with newer backend behavior. * The llama.cpp backend now detects load stalls from server output so failed model loads surface more reliably instead of hanging. * Radeon 8060S integrated GPUs are now allowed by default. * Template details are included in logs to make troubleshooting model prompts easier. * Added Hermes Desktop configuration docs. * Fixed a build issue in the Laguna compatibility patch, restoring Laguna support in release builds. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.0...v0.30.2]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.30.2</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.2</guid>
             <pubDate>Wed, 03 Jun 2026 00:37:18 GMT</pubDate>
@@ -855,27 +890,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.6.7</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.7</guid>
             <pubDate>Sat, 26 Apr 2025 09:16:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.6]]></title>
-            <description><![CDATA[## New models - IBM Granite 3.3: 2B and 8B models with 128K context length that have been fine-tuned for improved reasoning and instruction-following capabilities. - DeepCoder: a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available. ## What's Changed * **New, faster model downloading**: OLLAMA_EXPERIMENT=client2 ollama serve will run Ollama using a new downloader with improved performance and reliability when running ollama pull. Please share feedback here! * Fixed memory leak issues when running Gemma 3, Mistral Small 3.1 and other models on Ollama * Improved performance of ollama create when importing models from Safetensors * Ollama will now allow tool function parameters with either a single type or an array of types by @rozgo * Fixed certain out of memory issues from not reserving enough memory at startup * Fix nondeterministic model unload order by @IreGaddr * Include the items and $defs fields to properly handle array types in the API by @sheffler * OpenAI-Beta headers are now included in the CORS safelist by @drifkin * Fixed issue where model tensor data would be corrupted when importing models from Safetensors ## New Contributors * @drifkin made their first contribution in https://github.com/ollama/ollama/pull/10169 * @rozgo made their first contribution in https://github.com/ollama/ollama/pull/9434 * @qwerty108109 made their first contribution in https://github.com/ollama/ollama/pull/10168 * @IreGaddr made their first contribution in https://github.com/ollama/ollama/pull/10185 * @sheffler made their first contribution in https://github.com/ollama/ollama/pull/10091 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.5...v0.6.6]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.6</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.6</guid>
-            <pubDate>Thu, 17 Apr 2025 04:34:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.5]]></title>
-            <description><![CDATA[## New models - Mistral Small 3.1: the best performing vision model in its weight class. ## What's Changed * Support for Mistral Small 3.1 * Improved model loading times for Gemma 3 on network-backed filesystems such as Google Cloud Storage FUSE ## New Contributors * @danhipke made their first contribution in https://github.com/ollama/ollama/pull/10133 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.4...v0.6.5]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.5</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.5</guid>
-            <pubDate>Sun, 06 Apr 2025 00:15:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.4]]></title>
-            <description><![CDATA[## What's Changed * /api/show will now include model capabilities such as vision * Fixed certain out-of-memory errors that would occur with parallel requests with Gemma 3 * Gemma 3 will now properly understand and output certain multilingual characters * Fixed context shifting issues with models using the DeepSeek architecture * Fixed issues with 0.6.3 where Gemma 3's output quality would worsen after 512 or 1024 tokens * Added AMD RDNA4 support on Linux ## New Contributors * @saman-amd made their first contribution in https://github.com/ollama/ollama/pull/9878 * @leandroBorgesFerreira made their first contribution in https://github.com/ollama/ollama/pull/10042 * @Abyss-c0re made their first contribution in https://github.com/ollama/ollama/pull/9955 * @uggrock made their first contribution in https://github.com/ollama/ollama/pull/9983 * @IsAurora6 made their first contribution in https://github.com/ollama/ollama/pull/10057 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.3...v0.6.4]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.4</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.4</guid>
-            <pubDate>Wed, 02 Apr 2025 22:14:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Minions: where local and cloud LLMs meet]]></title>
