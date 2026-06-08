@@ -4,11 +4,17 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 08 Jun 2026 17:08:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jun 2026 18:51:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 06 Jun 2026 23:41:53 GMT</pubDate>
+        <pubDate>Sun, 07 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Paving the way for agents in biology]]></title>
+            <link>https://www.anthropic.com/research/agents-in-biology</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/agents-in-biology</guid>
+            <pubDate>Sun, 07 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.168]]></title>
             <description><![CDATA[## What's changed - Bug fixes and reliability improvements]]></description>
@@ -374,12 +380,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.126</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.126</guid>
             <pubDate>Fri, 01 May 2026 02:05:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How people ask Claude for personal guidance]]></title>
-            <link>https://www.anthropic.com/research/claude-personal-guidance</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/claude-personal-guidance</guid>
-            <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.123]]></title>
