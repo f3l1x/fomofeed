@@ -38,8 +38,13 @@ jobs:
 
       - name: Generate all feeds
         run: make generate
+        env:
+          # Higher API rate limit (5000/hr vs 60/hr) for the release feeds.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push feeds
+        # Validation runs on feature branches must not commit generated feeds.
+        if: github.ref == 'refs/heads/master'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

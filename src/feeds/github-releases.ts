@@ -81,3 +81,97 @@ export const openaiCodexReleases = ghReleaseFeed(
   "codex",
   "openai",
 );
+
+export const zedReleases = ghReleaseFeed(
+  "zed-releases",
+  "Zed Releases",
+  "zed-industries",
+  "zed",
+  "zed",
+);
+
+export const rooCodeReleases = ghReleaseFeed(
+  "roo-code-releases",
+  "Roo Code Releases",
+  "RooCodeInc",
+  "Roo-Code",
+);
+
+export const openHandsReleases = ghReleaseFeed(
+  "openhands-releases",
+  "OpenHands Releases",
+  "All-Hands-AI",
+  "OpenHands",
+);
+
+export const gooseReleases = ghReleaseFeed(
+  "goose-releases",
+  "Goose Releases",
+  "block",
+  "goose",
+);
+
+export const geminiCliReleases = ghReleaseFeed(
+  "gemini-cli-releases",
+  "Gemini CLI Releases",
+  "google-gemini",
+  "gemini-cli",
+  "google",
+);
+
+export const llamaCppReleases = ghReleaseFeed(
+  "llama-cpp-releases",
+  "llama.cpp Releases",
+  "ggml-org",
+  "llama.cpp",
+);
+
+export const vllmReleases = ghReleaseFeed(
+  "vllm-releases",
+  "vLLM Releases",
+  "vllm-project",
+  "vllm",
+);
+
+export const openaiAgentsReleases = ghReleaseFeed(
+  "openai-agents-releases",
+  "OpenAI Agents SDK Releases",
+  "openai",
+  "openai-agents-python",
+  "openai",
+);
+
+export const crushReleases = ghReleaseFeed(
+  "crush-releases",
+  "Crush Releases",
+  "charmbracelet",
+  "crush",
+);
+
+export const janReleases = ghReleaseFeed(
+  "jan-releases",
+  "Jan Releases",
+  "menloresearch",
+  "jan",
+);
+
+export const gptmeReleases = ghReleaseFeed(
+  "gptme-releases",
+  "gptme Releases",
+  "gptme",
+  "gptme",
+);
+
+export const openWebuiReleases = ghReleaseFeed(
+  "open-webui-releases",
+  "Open WebUI Releases",
+  "open-webui",
+  "open-webui",
+);
+
+export const litellmReleases = ghReleaseFeed(
+  "litellm-releases",
+  "LiteLLM Releases",
+  "BerriAI",
+  "litellm",
+);

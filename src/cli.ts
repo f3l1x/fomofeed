@@ -26,6 +26,21 @@ function parseArgs(argv: string[]): { command: string; flags: Record<string, str
   return { command, flags };
 }
 
+// Per-feed ceiling so one stuck source can't hang the whole run. Above the
+// browser path's ~180s worst-case internal waits; anything slower is "stuck".
+const FEED_TIMEOUT_MS = 200_000;
+
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  let timer: ReturnType<typeof setTimeout>;
+  const timeout = new Promise<never>((_, reject) => {
+    timer = setTimeout(() => reject(new Error(`timed out after ${ms}ms`)), ms);
+  });
+  // race() handles `promise`, so a late rejection from the loser stays silent.
+  return Promise.race([promise, timeout]).finally(() =>
+    clearTimeout(timer),
+  ) as Promise<T>;
+}
+
 async function generate(feedId?: string, full?: boolean): Promise<void> {
   let feeds: FeedSource[];
 
@@ -59,7 +74,7 @@ async function generate(feedId?: string, full?: boolean): Promise<void> {
       console.log(`  ⏳ ${label}...`);
       const t = Date.now();
       try {
-        const items = await feed.generate();
+        const items = await withTimeout(feed.generate(), FEED_TIMEOUT_MS);
         const path = await writeFeed(feed, items);
         const archived = await appendToArchive(feed, items);
         itemsByFeed.set(feed.id, items);
@@ -120,11 +135,9 @@ async function generate(feedId?: string, full?: boolean): Promise<void> {
 
   console.log(`\nDone: ${ok} ok, ${fail} failed.`);
 
-  // Scraping external sites is inherently flaky — a single source returning
-  // 403/timeout shouldn't fail the whole run (and, in CI, skip committing the
-  // feeds that did generate). Only treat it as a hard failure when nothing
-  // succeeded, which signals a real breakage rather than one flaky source.
-  if (ok === 0 && feeds.length > 0) process.exit(1);
+  // Fail only when nothing succeeded — one flaky source shouldn't sink the run.
+  // Exit explicitly so a timed-out feed's lingering handle can't hang the job.
+  process.exit(ok === 0 && feeds.length > 0 ? 1 : 0);
 }
 
 function list(): void {
