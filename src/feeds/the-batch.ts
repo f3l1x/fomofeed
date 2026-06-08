@@ -1,5 +1,5 @@
-import { fetchPage } from "../lib/fetcher.ts";
-import { parseHTML, extractText, extractLink, parseDate } from "../lib/parser.ts";
+import { fetchWithBrowser } from "../lib/browser.ts";
+import { parseHTML, extractText, parseDate } from "../lib/parser.ts";
 import type { FeedSource, FeedItem } from "../lib/types.ts";
 
 const BASE_URL = "https://www.deeplearning.ai";
@@ -17,10 +17,12 @@ export const theBatch: FeedSource = {
   name: "The Batch - DeepLearning.AI",
   url: `${BASE_URL}/the-batch/`,
   category: "blogs",
-  strategy: "static",
+  strategy: "browser",
+  waitSelector: "article",
 
   async generate() {
-    const $ = parseHTML(await fetchPage(this.url));
+    const html = await fetchWithBrowser(this.url, { waitSelector: "article" });
+    const $ = parseHTML(html);
     const items: FeedItem[] = [];
     const seen = new Set<string>();
 

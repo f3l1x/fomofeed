@@ -119,7 +119,12 @@ async function generate(feedId?: string, full?: boolean): Promise<void> {
   await closeBrowser();
 
   console.log(`\nDone: ${ok} ok, ${fail} failed.`);
-  if (fail > 0) process.exit(1);
+
+  // Scraping external sites is inherently flaky — a single source returning
+  // 403/timeout shouldn't fail the whole run (and, in CI, skip committing the
+  // feeds that did generate). Only treat it as a hard failure when nothing
+  // succeeded, which signals a real breakage rather than one flaky source.
+  if (ok === 0 && feeds.length > 0) process.exit(1);
 }
 
 function list(): void {
