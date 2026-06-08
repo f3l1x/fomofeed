@@ -33,6 +33,12 @@ import {
   geminiCliReleases,
   llamaCppReleases,
   vllmReleases,
+  openaiAgentsReleases,
+  crushReleases,
+  janReleases,
+  gptmeReleases,
+  openWebuiReleases,
+  litellmReleases,
 } from "./github-releases.ts";
 
 export {
@@ -69,6 +75,12 @@ export {
   geminiCliReleases,
   llamaCppReleases,
   vllmReleases,
+  openaiAgentsReleases,
+  crushReleases,
+  janReleases,
+  gptmeReleases,
+  openWebuiReleases,
+  litellmReleases,
 };
 
 export const ALL_CATEGORIES: FeedCategory[] = ["news", "blogs", "changelogs"];
@@ -129,4 +141,10 @@ export const allFeeds: FeedSource[] = [
   geminiCliReleases,
   llamaCppReleases,
   vllmReleases,
+  openaiAgentsReleases,
+  crushReleases,
+  janReleases,
+  gptmeReleases,
+  openWebuiReleases,
+  litellmReleases,
 ];

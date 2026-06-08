@@ -26,6 +26,25 @@ function parseArgs(argv: string[]): { command: string; flags: Record<string, str
   return { command, flags };
 }
 
+// Hard ceiling per feed. A single source hanging (e.g. a browser navigation
+// that never settles) must never stall the whole run — in CI that means the
+// job sits until the 15-minute timeout and commits nothing. The browser path
+// can legitimately chain up to ~180s of internal waits, so this sits above
+// that: anything slower is treated as stuck and counted as a failure.
+const FEED_TIMEOUT_MS = 200_000;
+
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  let timer: ReturnType<typeof setTimeout>;
+  const timeout = new Promise<never>((_, reject) => {
+    timer = setTimeout(() => reject(new Error(`timed out after ${ms}ms`)), ms);
+  });
+  // Promise.race attaches a handler to `promise`, so a late rejection from the
+  // losing side is already considered handled and won't surface as unhandled.
+  return Promise.race([promise, timeout]).finally(() =>
+    clearTimeout(timer),
+  ) as Promise<T>;
+}
+
 async function generate(feedId?: string, full?: boolean): Promise<void> {
   let feeds: FeedSource[];
 
@@ -59,7 +78,7 @@ async function generate(feedId?: string, full?: boolean): Promise<void> {
       console.log(`  ⏳ ${label}...`);
       const t = Date.now();
       try {
-        const items = await feed.generate();
+        const items = await withTimeout(feed.generate(), FEED_TIMEOUT_MS);
         const path = await writeFeed(feed, items);
         const archived = await appendToArchive(feed, items);
         itemsByFeed.set(feed.id, items);
@@ -124,7 +143,11 @@ async function generate(feedId?: string, full?: boolean): Promise<void> {
   // 403/timeout shouldn't fail the whole run (and, in CI, skip committing the
   // feeds that did generate). Only treat it as a hard failure when nothing
   // succeeded, which signals a real breakage rather than one flaky source.
-  if (ok === 0 && feeds.length > 0) process.exit(1);
+  //
+  // Exit explicitly: a feed that hit the per-feed timeout may still hold an
+  // open handle (e.g. an in-flight browser navigation) that would otherwise
+  // keep the process alive after the work is done and hang the CI job.
+  process.exit(ok === 0 && feeds.length > 0 ? 1 : 0);
 }
 
 function list(): void {

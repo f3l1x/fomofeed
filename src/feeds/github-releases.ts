@@ -132,3 +132,46 @@ export const vllmReleases = ghReleaseFeed(
   "vllm-project",
   "vllm",
 );
+
+export const openaiAgentsReleases = ghReleaseFeed(
+  "openai-agents-releases",
+  "OpenAI Agents SDK Releases",
+  "openai",
+  "openai-agents-python",
+  "openai",
+);
+
+export const crushReleases = ghReleaseFeed(
+  "crush-releases",
+  "Crush Releases",
+  "charmbracelet",
+  "crush",
+);
+
+export const janReleases = ghReleaseFeed(
+  "jan-releases",
+  "Jan Releases",
+  "menloresearch",
+  "jan",
+);
+
+export const gptmeReleases = ghReleaseFeed(
+  "gptme-releases",
+  "gptme Releases",
+  "gptme",
+  "gptme",
+);
+
+export const openWebuiReleases = ghReleaseFeed(
+  "open-webui-releases",
+  "Open WebUI Releases",
+  "open-webui",
+  "open-webui",
+);
+
+export const litellmReleases = ghReleaseFeed(
+  "litellm-releases",
+  "LiteLLM Releases",
+  "BerriAI",
+  "litellm",
+);
