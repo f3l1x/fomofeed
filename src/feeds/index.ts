@@ -26,6 +26,13 @@ import {
   tabbyReleases,
   ollamaReleases,
   openaiCodexReleases,
+  zedReleases,
+  rooCodeReleases,
+  openHandsReleases,
+  gooseReleases,
+  geminiCliReleases,
+  llamaCppReleases,
+  vllmReleases,
 } from "./github-releases.ts";
 
 export {
@@ -55,6 +62,13 @@ export {
   tabbyReleases,
   ollamaReleases,
   openaiCodexReleases,
+  zedReleases,
+  rooCodeReleases,
+  openHandsReleases,
+  gooseReleases,
+  geminiCliReleases,
+  llamaCppReleases,
+  vllmReleases,
 };
 
 export const ALL_CATEGORIES: FeedCategory[] = ["news", "blogs", "changelogs"];
@@ -108,4 +122,11 @@ export const allFeeds: FeedSource[] = [
   tabbyReleases,
   ollamaReleases,
   openaiCodexReleases,
+  zedReleases,
+  rooCodeReleases,
+  openHandsReleases,
+  gooseReleases,
+  geminiCliReleases,
+  llamaCppReleases,
+  vllmReleases,
 ];

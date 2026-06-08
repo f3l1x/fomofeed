@@ -81,3 +81,54 @@ export const openaiCodexReleases = ghReleaseFeed(
   "codex",
   "openai",
 );
+
+export const zedReleases = ghReleaseFeed(
+  "zed-releases",
+  "Zed Releases",
+  "zed-industries",
+  "zed",
+  "zed",
+);
+
+export const rooCodeReleases = ghReleaseFeed(
+  "roo-code-releases",
+  "Roo Code Releases",
+  "RooCodeInc",
+  "Roo-Code",
+);
+
+export const openHandsReleases = ghReleaseFeed(
+  "openhands-releases",
+  "OpenHands Releases",
+  "All-Hands-AI",
+  "OpenHands",
+);
+
+export const gooseReleases = ghReleaseFeed(
+  "goose-releases",
+  "Goose Releases",
+  "block",
+  "goose",
+);
+
+export const geminiCliReleases = ghReleaseFeed(
+  "gemini-cli-releases",
+  "Gemini CLI Releases",
+  "google-gemini",
+  "gemini-cli",
+  "google",
+);
+
+export const llamaCppReleases = ghReleaseFeed(
+  "llama-cpp-releases",
+  "llama.cpp Releases",
+  "ggml-org",
+  "llama.cpp",
+);
+
+export const vllmReleases = ghReleaseFeed(
+  "vllm-releases",
+  "vLLM Releases",
+  "vllm-project",
+  "vllm",
+);

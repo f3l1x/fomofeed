@@ -2,8 +2,8 @@ import { describe, test, expect } from "bun:test";
 import { allFeeds } from "../src/feeds/index.ts";
 
 describe("feed registry", () => {
-  test("has 26 feeds registered", () => {
-    expect(allFeeds).toHaveLength(26);
+  test("has 33 feeds registered", () => {
+    expect(allFeeds).toHaveLength(33);
   });
 
   test("all feeds have required fields", () => {
