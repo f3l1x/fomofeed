@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Jun 2026 07:13:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jun 2026 09:07:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 09 Jun 2026 06:06:15 GMT</pubDate>
+        <pubDate>Tue, 09 Jun 2026 08:39:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9573]]></title>
+            <description><![CDATA[models : fix plamo2 attention_key/value_length regression (#24317) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9573</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9573</guid>
+            <pubDate>Tue, 09 Jun 2026 08:39:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b9572]]></title>
+            <description><![CDATA[ggml-cpu : fix rms_norm_back wrong output under in-place aliasing (#24305) * ggml-cpu : fix rms_norm_back wrong output under in-place aliasing * cont : clean-up comment --------- Co-authored-by: Georgi Gerganov **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9572</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9572</guid>
+            <pubDate>Tue, 09 Jun 2026 08:06:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9571]]></title>
             <description><![CDATA[Remove case for GGML_TYPE_Q4_K in mvvq.cu (#23528) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9415</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9415</guid>
             <pubDate>Fri, 29 May 2026 23:36:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9414]]></title>
-            <description><![CDATA[mtmd: Add DeepSeekOCR 2 Support (#20975) * mtmd: DeepSeek-OCR 2 support, with multi-tile dynamic resolution * introduced clip_image_f32::add_viewsep * address PR review - drop redundant ggml_cpy ops in both deepseekocr versions build - drop no-op ggml_cont in build_sam - assert num_image_tokens deepseekocr2 - view_seperator as (1, n_embd) at conversion (for both versions) - drop redundant ggml_reshape_2d * Update tools/mtmd/models/deepseekocr2.cpp Co-authored-by: Xuan-Son Nguyen --------- Co-authored-by: Xuan-Son Nguyen **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9414</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9414</guid>
-            <pubDate>Fri, 29 May 2026 21:01:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9413]]></title>
-            <description><![CDATA[CUDA: Check PTX version on host side to guard PDL dispatch (#23530) * CUDA: Check PTX version on host side to guard PDL dispatch Checking on __CUDA_ARCH_LIST__ alone is insufficient for JIT, as this variable doesn't differentiate between compiling for say sm_90, sm_90a or sm_90f (so forward-jittable PTX vs. arch/family-specific PTX). Thus, one can have a bug when compiling with DCMAKE_CUDA_ARCHITECTURES="89;90a", where current code would wrongly dispatch to PDL on sm_90/sm_120 in forward-JIT mode. This PR fixes this issue by checking cudaFuncAttributes::ptxVersion of the incoming kernel at runtime. A check on ptxVersion alone is sufficient, as device-codes will always be >= ptxVersion (and any violation of this would be a severe bug in CUDA/nvcc), see: https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/#gpu-code-code-code * Implement MurmurHash3 mixer for better hash distribution Magic constants were taken from boost: https://github.com/boostorg/container_hash/blob/2698b43803c012601e6bb1a6116e83767b97986c/include/boost/container_hash/detail/hash_mix.hpp#L19-L65 * Update ggml/src/ggml-cuda/common.cuh Co-authored-by: Johannes Gäßler * Address review comments, make seed non-zero * Apply code-formatting * Replace std::size_t -> size_t for consistency --------- Co-authored-by: Johannes Gäßler **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9413</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9413</guid>
-            <pubDate>Fri, 29 May 2026 18:42:08 GMT</pubDate>
         </item>
     </channel>
 </rss>
