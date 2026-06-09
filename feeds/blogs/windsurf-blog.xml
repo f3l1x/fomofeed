@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Jun 2026 16:53:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jun 2026 18:43:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 08 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude Fable 5 is now available in Devin]]></title>
+            <description><![CDATA[Claude Fable 5 is now available in Devin across Cloud, Desktop, and CLI. It earns the #1 score on FrontierCode, our benchmark for real-world engineering tasks graded on mergeability and quality.]]></description>
+            <link>https://windsurf.com/blog/claude-fable-5-available-in-devin</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/claude-fable-5-available-in-devin</guid>
+            <pubDate>Mon, 08 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Opus 4.7 (fast mode) is now available in Windsurf]]></title>
             <description><![CDATA[Claude Opus 4.7 (fast mode) is now available in Windsurf with the full intelligence of Opus 4.7 and ~2.5x higher output speeds.]]></description>
@@ -43,13 +50,6 @@
             <link>https://windsurf.com/blog/windsurf-pricing-plans</link>
             <guid isPermaLink="false">https://windsurf.com/blog/windsurf-pricing-plans</guid>
             <pubDate>Tue, 17 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GPT-5.4 is now available in Windsurf]]></title>
-            <description><![CDATA[GPT-5.4 is now available in Windsurf with multiple reasoning effort levels. For a limited time, self serve users enjoy promotional pricing starting at 1x credits.]]></description>
-            <link>https://windsurf.com/blog/gpt-54</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-54</guid>
-            <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Windsurf is now Devin Desktop. The IDE you love, with more features. Learn more →Windsurf is now Devin Desktop →]]></title>
