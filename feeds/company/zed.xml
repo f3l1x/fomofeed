@@ -4,11 +4,32 @@
         <description><![CDATA[All Zed feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Jun 2026 18:45:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2026 05:33:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/zed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 06 Jun 2026 04:38:15 GMT</pubDate>
+        <pubDate>Wed, 10 Jun 2026 04:27:37 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.6.3-pre]]></title>
+            <description><![CDATA[- Fixed a hang that could occur when opening a new workspace. (#58994)]]></description>
+            <link>https://github.com/zed-industries/zed/releases/tag/v1.6.3-pre</link>
+            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.6.3-pre</guid>
+            <pubDate>Wed, 10 Jun 2026 04:27:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.5.5]]></title>
+            <description><![CDATA[- Add Claude Fable 5 to Anthropic BYOK. (#58957) - Fixed a bug where clicking the button to trust a git repository would do nothing. (#58716)]]></description>
+            <link>https://github.com/zed-industries/zed/releases/tag/v1.5.5</link>
+            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.5.5</guid>
+            <pubDate>Tue, 09 Jun 2026 21:22:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.6.2-pre]]></title>
+            <description><![CDATA[- Add Claude Fable 5 to Anthropic BYOK. (#58955) - Fixed a crash in hang detection when foreground thread statistics were missing. (#58850) - Fixed a bug where clicking the button to trust a git repository would do nothing. (#58715)]]></description>
+            <link>https://github.com/zed-industries/zed/releases/tag/v1.6.2-pre</link>
+            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.6.2-pre</guid>
+            <pubDate>Tue, 09 Jun 2026 20:07:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.5.4]]></title>
             <description><![CDATA[- Fix crash that could occur when unsplitting a side by side diff view (#58695) - acp: Fix for certain ACP Registry agent downloads not starting (#58633) - Update both editor: go to diagnostic and editor: go to previous diagnostic to prefer activating the diagnostic under the cursor before jumping to the next or previous diagnostic, respectively (#58603) - Fixed high CPU usage when using Zeta in some cases (thanks @clupprich!) (#58591) - Fixed a crash that could occur while streaming agent edits containing multibyte characters. (#58452) - Fixed an issue where Zed would stop responding to file system changes in some cases (#58692]]></description>
@@ -675,13 +696,6 @@
             <pubDate>Fri, 20 Feb 2026 17:24:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.224.9]]></title>
-            <description><![CDATA[- Fixed a crash in split diff view when a folded buffer was removed and re-added. (#49699)]]></description>
-            <link>https://github.com/zed-industries/zed/releases/tag/v0.224.9</link>
-            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v0.224.9</guid>
-            <pubDate>Fri, 20 Feb 2026 10:56:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.225.4-pre]]></title>
             <description><![CDATA[- Fixed a crash in split diff view when a folded buffer was removed and re-added. (#49699)]]></description>
             <link>https://github.com/zed-industries/zed/releases/tag/v0.225.4-pre</link>
@@ -689,25 +703,11 @@
             <pubDate>Fri, 20 Feb 2026 10:48:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.224.8]]></title>
-            <description><![CDATA[- Fixed an issue with relative line numbers where some rows would be missing their relative line number with deleted hunks showing. (#49658)]]></description>
-            <link>https://github.com/zed-industries/zed/releases/tag/v0.224.8</link>
-            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v0.224.8</guid>
-            <pubDate>Fri, 20 Feb 2026 04:54:23 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.225.3-pre]]></title>
             <description><![CDATA[- Fixed an issue with relative line numbers where some rows would be missing their relative line number with deleted hunks showing. (#49657)]]></description>
             <link>https://github.com/zed-industries/zed/releases/tag/v0.225.3-pre</link>
             <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v0.225.3-pre</guid>
             <pubDate>Fri, 20 Feb 2026 04:21:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.225.2-pre]]></title>
-            <description><![CDATA[- Added support for Gemini 3.1 Pro (#49635) - Fixed dev highlights view panicking when interacting with editor-like not-editors (#49612)]]></description>
-            <link>https://github.com/zed-industries/zed/releases/tag/v0.225.2-pre</link>
-            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v0.225.2-pre</guid>
-            <pubDate>Thu, 19 Feb 2026 19:19:13 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for vLLM Releases]]></description>
         <link>https://github.com/vllm-project/vllm/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Jun 2026 18:43:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2026 05:31:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/vllm-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 05 Jun 2026 10:10:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
