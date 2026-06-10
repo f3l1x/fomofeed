@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Jun 2026 15:05:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2026 17:04:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Jun 2026 11:38:01 GMT</pubDate>
+        <pubDate>Wed, 10 Jun 2026 16:42:56 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.17.2]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Recover from expired remote config auth by prompting you to log in again instead of failing to load config (@Ayushlm10) - Let subagents use their own configured permissions again ## Desktop ### Bugfixes - Restore Linux launcher and icon identity so pinned apps keep opening correctly (@neriousy) - Restore the device attachment picker (@rexdotsh) **Thank you to 3 community contributors:** - @Ayushlm10: - fix: recover from expired enterprise auth on remote config load (#31661) - @rexdotsh: - fix(app): restore device attachment picker (#31707) - @neriousy: - fix(desktop): restore linux launcher identity (#31709)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.2</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.2</guid>
+            <pubDate>Wed, 10 Jun 2026 16:42:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.17.1]]></title>
             <description><![CDATA[## Core ### Improvements - References can include usage descriptions for agents, show up in the new docs, and be hidden from @ autocomplete when needed. ### Bugfixes - Deprecated reference config entries continue to load under the newer references config key. - MCP prompt and resource requests now respect configured server timeouts. - Anthropic fallback responses are handled correctly again. - MCP servers that fail during client setup now fail cleanly instead of leaving a broken connection behind. ## Desktop ### Improvements - The new desktop session flow now has a dedicated /new-session route with draft tabs that keep your prompt and project selection together until you start the session. ### Bugfixes - Restored macOS auto-updates.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.10</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.10</guid>
             <pubDate>Fri, 20 Feb 2026 11:18:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.9]]></title>
-            <description><![CDATA[## Core - Add missing id, sessionID, and messageID to MCP tool attachments (@NatChung) - Remove unnecessary deep clones from session loop and LLM stream - Remove User-Agent header assertion from LLM test to fix failing test ## TUI - Use structuredClone instead of remeda's clone for better performance and native support (@mhart) ## Desktop - Restore settings header mask **Thank you to 2 community contributors:** - @mhart: - Use structuredClone instead of remeda's clone (#14351) - @NatChung: - fix: add missing id/sessionID/messageID to MCP tool attachments (#14345)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.9</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.9</guid>
-            <pubDate>Fri, 20 Feb 2026 01:45:35 GMT</pubDate>
         </item>
     </channel>
 </rss>
