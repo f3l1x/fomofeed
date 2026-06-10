@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Jun 2026 17:06:28 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2026 18:54:08 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 08 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 09 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Bugbot is now over 3x faster, 22% cheaper, and finds 10% more bugs]]></title>
+            <link>https://cursor.com/blog/bugbot-updates-june-2026</link>
+            <guid isPermaLink="false">https://cursor.com/blog/bugbot-updates-june-2026</guid>
+            <category><![CDATA[product]]></category>
+            <pubDate>Tue, 09 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude Fable 5 is now available in Devin]]></title>
             <description><![CDATA[Claude Fable 5 is now available in Devin across Cloud, Desktop, and CLI. It earns the #1 score on FrontierCode, our benchmark for real-world engineering tasks graded on mergeability and quality.]]></description>
@@ -215,13 +222,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Cursor partners with SpaceX on model training]]></title>
-            <link>https://cursor.com/blog/spacex-model-training</link>
-            <guid isPermaLink="false">https://cursor.com/blog/spacex-model-training</guid>
-            <category><![CDATA[company]]></category>
-            <pubDate>Mon, 20 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Orchestrate Across Multiple Databricks Workspaces Without Losing Your Mind]]></title>
