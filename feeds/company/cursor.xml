@@ -4,7 +4,7 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Jun 2026 09:30:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 15:12:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 09 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -18,9 +18,10 @@
         </item>
         <item>
             <title><![CDATA[Direct agents with visual prompts in Design Mode]]></title>
+            <description><![CDATA[Point, draw, or narrate UI changes in the browser while agents edit the code underneath.]]></description>
             <link>https://cursor.com/blog/design-mode</link>
             <guid isPermaLink="false">https://cursor.com/blog/design-mode</guid>
-            <category><![CDATA[product]]></category>
+            <category><![CDATA[Product]]></category>
             <pubDate>Thu, 04 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -101,9 +102,10 @@
         </item>
         <item>
             <title><![CDATA[Build programmatic agents with the Cursor SDK]]></title>
+            <description><![CDATA[Launch, steer, and compose custom agents with the Cursor SDK.]]></description>
             <link>https://cursor.com/blog/typescript-sdk</link>
             <guid isPermaLink="false">https://cursor.com/blog/typescript-sdk</guid>
-            <category><![CDATA[product]]></category>
+            <category><![CDATA[Product]]></category>
             <pubDate>Tue, 28 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -125,22 +127,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/cursor-3</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Wed, 01 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Composer 2]]></title>
-            <description><![CDATA[Frontier-level coding with strong CursorBench results, higher token efficiency, and a faster default variant.]]></description>
-            <link>https://cursor.com/blog/composer-2</link>
-            <guid isPermaLink="false">https://cursor.com/blog/composer-2</guid>
-            <category><![CDATA[Research]]></category>
-            <pubDate>Wed, 18 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The third era of AI software development]]></title>
-            <description><![CDATA[A third era of AI software development is emerging as autonomous cloud agents take on larger tasks over longer timescales.]]></description>
-            <link>https://cursor.com/blog/third-era</link>
-            <guid isPermaLink="false">https://cursor.com/blog/third-era</guid>
-            <category><![CDATA[Ideas]]></category>
-            <pubDate>Wed, 25 Feb 2026 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

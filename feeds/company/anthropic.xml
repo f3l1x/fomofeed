@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Jun 2026 09:30:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 15:12:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 11 Jun 2026 05:41:54 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,13 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.173</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.173</guid>
             <pubDate>Thu, 11 Jun 2026 05:41:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Claude Corps]]></title>
+            <description><![CDATA[We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.]]></description>
+            <link>https://www.anthropic.com/news/claude-corps</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-corps</guid>
+            <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.172]]></title>
@@ -180,16 +187,15 @@
             <pubDate>Thu, 28 May 2026 00:52:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing Claude Opus 4.8]]></title>
-            <description><![CDATA[An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.]]></description>
-            <link>https://www.anthropic.com/news/claude-opus-4-8</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-8</guid>
-            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Anthropic raises $65B in Series H funding at $965B post-money valuation]]></title>
             <link>https://www.anthropic.com/news/series-h</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/series-h</guid>
+            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Claude Opus 4.8]]></title>
+            <link>https://www.anthropic.com/news/claude-opus-4-8</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-8</guid>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

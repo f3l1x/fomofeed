@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Jun 2026 09:28:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 15:11:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Jun 2026 00:52:44 GMT</pubDate>
+        <pubDate>Thu, 11 Jun 2026 11:30:30 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v3.89.2]]></title>
+            <description><![CDATA[### Fixed - Complete the fix for the Anthropic provider on VS Code 1.123 and later by upgrading the bundled Anthropic SDK to a release compatible with the Node 24 runtime. - Update the Vertex AI provider to a compatible Anthropic Vertex SDK release so it works with the upgraded Anthropic SDK. **Full Changelog**: https://github.com/cline/cline/compare/v3.89.1...v3.89.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.89.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.89.2</guid>
+            <pubDate>Thu, 11 Jun 2026 11:30:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v3.89.1]]></title>
+            <description><![CDATA[### Fixed - Restore the Anthropic provider on VS Code 1.123 and later, where the updated Node 24 runtime broke the bundled Anthropic SDK. - Handle the DeepSeek V4 reasoning format. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.23...v3.89.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v3.89.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.89.1</guid>
+            <pubDate>Thu, 11 Jun 2026 10:09:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.23]]></title>
             <description><![CDATA[- Fixed Vertex AI GCP settings configuration - Fixed the Azure Foundry API version - Added support for configured agents as subagent tools - Centralized OAuth management into the SDK - Fixed an error caused by disabled reasoning on Fable 5 **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.22...cli-v3.0.23]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.37.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.37.0</guid>
             <pubDate>Thu, 13 Nov 2025 20:49:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.36.1]]></title>
-            <description><![CDATA[## What's Changed * fix: removes reasoning_details field from Anthropic and Gemini providers by @abeatrix in https://github.com/cline/cline/pull/7282 * fix: refactor APPLY_PATCH tool [ENG-1174] by @abeatrix in https://github.com/cline/cline/pull/7189 * Share provider information by @BarreiroT in https://github.com/cline/cline/pull/7331 * fix(aihubmix): Fix the problem where the model cannot be selected from the dropdown menu by @DDU1222 in https://github.com/cline/cline/pull/7324 * fix: exclude grok-code from Grok-4 model family check by @abeatrix in https://github.com/cline/cline/pull/7338 * fix: Remove Gemini and XAI from next-gen model providers by @abeatrix in https://github.com/cline/cline/pull/7341 * fix: function declarations tool converter for native tool calling by @abeatrix in https://github.com/cline/cline/pull/7342 * Add MCP tool usage to GLM prompt by @canvrno in https://github.com/cline/cline/pull/7347 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/7317 **Full Changelog**: https://github.com/cline/cline/compare/v3.36.0...v3.36.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.36.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.36.1</guid>
-            <pubDate>Fri, 07 Nov 2025 03:10:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.36.0]]></title>
-            <description><![CDATA[## What's Changed * Use context-aware task manager for quick auth by @canvrno in https://github.com/cline/cline/pull/7255 * feat: add new provider AIhubmix by @DDU1222 in https://github.com/cline/cline/pull/7259 * Small timeout increase in diff.test by @canvrno in https://github.com/cline/cline/pull/7270 * fix: flaky e2e test for slash commands by @abeatrix in https://github.com/cline/cline/pull/7206 * filter mcp marketplace results based on remote config by @celestial-vault in https://github.com/cline/cline/pull/7277 * Remote config - add info banner for mcp marketplace lockdown state by @celestial-vault in https://github.com/cline/cline/pull/7278 * fix(task): prevent empty assistant messages in conversation history by @abeatrix in https://github.com/cline/cline/pull/7280 * fix(settings): restore Native Tool Call setting option by @abeatrix in https://github.com/cline/cline/pull/7284 * fix(navbar): align navbar tooltip buttons with new shadcn component by @abeatrix in https://github.com/cline/cline/pull/7283 * Fix Bedrock user agent to report full SDK details by @ajjuaire in https://github.com/cline/cline/pull/7273 * Fixes Hicap model selector dropdown display by @techbrewboss in https://github.com/cline/cline/pull/7285 * feat(telemetry): add native tool call tracking by @abeatrix in https://github.com/cline/cline/pull/7279 * fix: Fixing token refresh logic for oca on startup by @nihar-oracle in https://github.com/cline/cline/pull/7209 * Complete telemetry attribution for model/provider tracking by @nickbaumann98 in https://github.com/cline/cline/pull/7230 * Fix: Use http_proxy, https_proxy, no_proxy in standalone mode by @dominiccooney in https://github.com/cline/cline/pull/7263 * Fix openai compatible auth issue in CLI by @canvrno in https://github.com/cline/cline/pull/7291 * Add GCP Vertex provider to remote config schema by @sjf in https://github.com/cline/cline/pull/7200 * Fix vercel gateway thinking and model list by @saoudrizwan in https://github.com/cline/cline/pull/7196 * fix(settings): remove highlight function from provider search by @abeatrix in https://github.com/cline/cline/pull/7300 * fix: order of AIHubMix in API providers by @saoudrizwan in https://github.com/cline/cline/pull/7302 * 🪝Hooks: Remove console debug logging by @candieduniverse in https://github.com/cline/cline/pull/7306 * 🪝Hooks: Fix the missing "Start New Task" button after task completion by @candieduniverse in https://github.com/cline/cline/pull/7303 * 🪝Hooks: Remove hooks feature flag (step 1), keeping hooks setting toggle by @candieduniverse in https://github.com/cline/cline/pull/7309 * feat: enable native tool call by default by @abeatrix in https://github.com/cline/cline/pull/7304 * 🪝Hooks: Fix contextModification injection into API Request by @candieduniverse in https://github.com/cline/cline/pull/7311 * fix(account): correct tooltip visibility logic for remote config lock by @abeatrix in https://github.com/cline/cline/pull/7313 * 🪝Hooks: Trim characters around JSON in hook output by @candieduniverse in https://github.com/cline/cline/pull/7314 * initial CLI samples by @csells in https://github.com/cline/cline/pull/7040 * Hooks docs by @juanpflores in https://github.com/cline/cline/pull/7173 * 🪝Hooks: Improve examples in .clinerules/hooks/ directory by @candieduniverse in https://github.com/cline/cline/pull/7316 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/7271 ## New Contributors * @DDU1222 made their first contribution in https://github.com/cline/cline/pull/7259 * @techbrewboss made their first contribution in https://github.com/cline/cline/pull/7285 * @dominiccooney made their first contribution in https://github.com/cline/cline/pull/7263 **Full Changelog**: https://github.com/cline/cline/compare/v3.35.1...v3.36.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.36.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.36.0</guid>
-            <pubDate>Thu, 06 Nov 2025 02:33:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
