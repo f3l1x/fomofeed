@@ -4,15 +4,15 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Jun 2026 17:14:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 18:58:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Governing agent autonomy with Auto-review]]></title>
-            <link>https://cursor.com/blog/auto-review</link>
-            <guid isPermaLink="false">https://cursor.com/blog/auto-review</guid>
+            <link>https://cursor.com/blog/agent-autonomy-auto-review</link>
+            <guid isPermaLink="false">https://cursor.com/blog/agent-autonomy-auto-review</guid>
             <category><![CDATA[research]]></category>
             <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
         </item>

@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Jun 2026 17:14:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 18:59:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 11 Jun 2026 10:08:57 GMT</pubDate>
+        <pubDate>Thu, 11 Jun 2026 18:56:38 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9601]]></title>
+            <description><![CDATA[vulkan: ifdef eMesaHoneykrisp (build fix) (#24479) Fixes build/CI after #24306. **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9601</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9601</guid>
+            <pubDate>Thu, 11 Jun 2026 18:56:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9596]]></title>
             <description><![CDATA[server: skip unused log lines on router mode (#24463) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9455</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9455</guid>
             <pubDate>Mon, 01 Jun 2026 17:20:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9453]]></title>
-            <description><![CDATA[model: Add EXAONE 4.5 implementations (#21733) * Add EXAONE 4.5 and Add GQA for MMproj * mtmd: EXAONE 4.5 vision markers and projector path EXAONE 4.5 uses and for image boundaries; Qwen keeps <|vision_start|> and <|vision_end|>. Route EXAONE 4.5 through the Qwen2.5-VL-style encode path (window attention pattern, optional mmproj input norm). Update exaone4_5 projector weights and convert_hf_to_gguf for mmproj export. * mtmd: load EXAONE4 nextn tensors correctly Align EXAONE4 tensor registration with EXAONE_MOE for NextN/MTP slots and avoid skip-flag propagation on duplicated rope_freqs so model loading succeeds for EXAONE 4.5 GGUF. * Minor fixes * Address PR feedback * Address PR feedback * Fix EXAONE after merge * Fix EXAONE 4.5 conversion * Address PR feedback * Refactor EXAONE 4.5 conversion * Address PR feedback * Fix unintended deletion * Minor fix --------- Co-authored-by: LG-AI-EXAONE **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9453</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9453</guid>
-            <pubDate>Mon, 01 Jun 2026 14:56:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
