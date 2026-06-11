@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Jun 2026 18:54:08 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 05:36:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 09 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -165,13 +165,6 @@
             <description><![CDATA[The Google Cloud and NVIDIA developer community is celebrating its first anniversary with 100,000 members and a renewed focus on providing builders with advanced AI infrastructure and resources. To accelerate development, the community offers curated learning pathways for mastering LLM optimization, GPU-accelerated data analytics, and monthly expert-led webinars. Moving into its second year, the initiative will expand to include hands-on labs, engineering events, and specialized content focused on the growth of agentic AI.]]></description>
             <link>https://developers.googleblog.com/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Widening the conversation on frontier AI]]></title>
-            <description><![CDATA[Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.]]></description>
-            <link>https://www.anthropic.com/news/widening-conversation-ai</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/widening-conversation-ai</guid>
             <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

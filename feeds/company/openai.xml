@@ -4,11 +4,32 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Jun 2026 18:54:08 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 05:36:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Jun 2026 00:39:57 GMT</pubDate>
+        <pubDate>Thu, 11 Jun 2026 04:11:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.17.5]]></title>
+            <description><![CDATA[## What's Changed * fix: expose sandbox error retryability by @qiyaoq-oai in https://github.com/openai/openai-agents-python/pull/3581 * fix: #3512 type tool-end hook results as object by @seratch in https://github.com/openai/openai-agents-python/pull/3518 * fix: use tuple form for SpeechGroupSpanData __slots__ by @jluocsa in https://github.com/openai/openai-agents-python/pull/3534 * chore: bump Modal sandbox extra to 1.4.3 by @jdoughty04 in https://github.com/openai/openai-agents-python/pull/3538 ### Documentation & Other Changes * docs: add MongoDB session example under examples/memory by @alexbevi in https://github.com/openai/openai-agents-python/pull/3036 * docs: add missing space in MCP params docstrings by @jluocsa in https://github.com/openai/openai-agents-python/pull/3535 * docs: fix docstring typo in stdio params env description by @mshsheikh in https://github.com/openai/openai-agents-python/pull/3557 * docs: fix two docstring grammar errors in tool.py by @jluocsa in https://github.com/openai/openai-agents-python/pull/3543 * docs: add Latitude to external tracing processors list by @guillemwilly in https://github.com/openai/openai-agents-python/pull/3577 * docs: tweak in usage doc by @mshsheikh in https://github.com/openai/openai-agents-python/pull/3597 * docs: fix string concatenation typo in agent instructions by @mshsheikh in https://github.com/openai/openai-agents-python/pull/3599 * docs: capitalization fix in tracing docs by @mshsheikh in https://github.com/openai/openai-agents-python/pull/3602 * docs: fix subject-verb agreement in agent loop description by @mshsheikh in https://github.com/openai/openai-agents-python/pull/3605 * test: add unit tests for run_demo_loop streaming, EOF, and empty-input paths by @jluocsa in https://github.com/openai/openai-agents-python/pull/3542 * test: add unit tests for _openai_retry helpers (77% -> 95% coverage) by @jluocsa in https://github.com/openai/openai-agents-python/pull/3544 * Release 0.17.5 by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/3619 ## New Contributors * @jluocsa made their first contribution in https://github.com/openai/openai-agents-python/pull/3534 * @jdoughty04 made their first contribution in https://github.com/openai/openai-agents-python/pull/3538 * @guillemwilly made their first contribution in https://github.com/openai/openai-agents-python/pull/3577 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.17.4...v0.17.5]]></description>
+            <link>https://github.com/openai/openai-agents-python/releases/tag/v0.17.5</link>
+            <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.17.5</guid>
+            <pubDate>Thu, 11 Jun 2026 04:11:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.140.0-alpha.7]]></title>
+            <description><![CDATA[Release 0.140.0-alpha.7]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.7</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.7</guid>
+            <pubDate>Wed, 10 Jun 2026 22:45:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.140.0-alpha.4]]></title>
+            <description><![CDATA[Release 0.140.0-alpha.4]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.4</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.4</guid>
+            <pubDate>Wed, 10 Jun 2026 19:46:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.140.0-alpha.2]]></title>
             <description><![CDATA[Release 0.140.0-alpha.2]]></description>
@@ -799,25 +820,11 @@
             <pubDate>Wed, 22 Apr 2026 12:01:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.123.0-alpha.7]]></title>
-            <description><![CDATA[Release 0.123.0-alpha.7]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.123.0-alpha.7</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.123.0-alpha.7</guid>
-            <pubDate>Tue, 21 Apr 2026 21:46:09 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.14.4]]></title>
             <description><![CDATA[## What's Changed * feat: add BoxMount support by @alfozan in https://github.com/openai/openai-agents-python/pull/2988 * fix: ignore relative snapshot base overrides by @matthewflint in https://github.com/openai/openai-agents-python/pull/2976 * refactor: share sandbox ephemeral mount lifecycle by @seratch in https://github.com/openai/openai-agents-python/pull/2986 * refactor: share sandbox tar exclude arg generation by @seratch in https://github.com/openai/openai-agents-python/pull/2987 * refactor: extract sandbox session helper operations by @seratch in https://github.com/openai/openai-agents-python/pull/2985 ### Documentation & Other Changes * docs: remove duplicate word in voice interruptions section by @abhicris in https://github.com/openai/openai-agents-python/pull/2981 * docs: update translated document pages by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/2982 * docs: update translated document pages by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/2996 * test: add sandbox compatibility guards by @seratch in https://github.com/openai/openai-agents-python/pull/2984 * Release 0.14.4 by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/2989 ## New Contributors * @abhicris made their first contribution in https://github.com/openai/openai-agents-python/pull/2981 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.14.3...v0.14.4]]></description>
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.14.4</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.14.4</guid>
             <pubDate>Tue, 21 Apr 2026 19:28:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.123.0-alpha.6]]></title>
-            <description><![CDATA[Release 0.123.0-alpha.6]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.123.0-alpha.6</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.123.0-alpha.6</guid>
-            <pubDate>Tue, 21 Apr 2026 13:12:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.14.3]]></title>
@@ -1399,13 +1406,6 @@
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.0.4</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.0.4</guid>
             <pubDate>Thu, 13 Mar 2025 15:20:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.0.3]]></title>
-            <description><![CDATA[## What's Changed * Updating screenshot to CDN link by @dmitry-openai in https://github.com/openai/openai-agents-python/pull/1 * removing ds store, adding gitignore by @dmitry-openai in https://github.com/openai/openai-agents-python/pull/8 * Add link to the repo by @chuang-openai in https://github.com/openai/openai-agents-python/pull/12 * Delete pycache/egg files + fix computer use model by @rm-openai in https://github.com/openai/openai-agents-python/pull/11 * Delete more pycache by @rm-openai in https://github.com/openai/openai-agents-python/pull/14 * link to documentation from readme by @rm-openai in https://github.com/openai/openai-agents-python/pull/15 * Updating links/tracing description by @dmitry-openai in https://github.com/openai/openai-agents-python/pull/17 * Add callout on compatibility w other providers by @jhills20 in https://github.com/openai/openai-agents-python/pull/20 * Fix guardrails examples link by @pierDipi in https://github.com/openai/openai-agents-python/pull/3 * Cleanup some more excess files by @rm-openai in https://github.com/openai/openai-agents-python/pull/27 * Bump open AI sdk version by @rm-openai in https://github.com/openai/openai-agents-python/pull/32 ## New Contributors * @dmitry-openai made their first contribution in https://github.com/openai/openai-agents-python/pull/1 * @chuang-openai made their first contribution in https://github.com/openai/openai-agents-python/pull/12 * @rm-openai made their first contribution in https://github.com/openai/openai-agents-python/pull/11 * @jhills20 made their first contribution in https://github.com/openai/openai-agents-python/pull/20 * @pierDipi made their first contribution in https://github.com/openai/openai-agents-python/pull/3 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.0.2...v0.0.3]]></description>
-            <link>https://github.com/openai/openai-agents-python/releases/tag/v0.0.3</link>
-            <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.0.3</guid>
-            <pubDate>Tue, 11 Mar 2025 22:33:36 GMT</pubDate>
         </item>
     </channel>
 </rss>

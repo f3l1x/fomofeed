@@ -4,11 +4,39 @@
         <description><![CDATA[RSS feed for LiteLLM Releases]]></description>
         <link>https://github.com/BerriAI/litellm/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Jun 2026 18:52:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 05:35:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/litellm-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Jun 2026 18:05:53 GMT</pubDate>
+        <pubDate>Thu, 11 Jun 2026 05:19:44 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.87.2]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport Fable 5, batch-file auth, CrowdStrike AIDR, and Mantle Responses SigV4 to stable/1.87.x and cut 1.87.2 by @mateo-berri in https://github.com/BerriAI/litellm/pull/30146 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.87.1...v1.87.2]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.87.2</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.87.2</guid>
+            <pubDate>Thu, 11 Jun 2026 05:19:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.86.5]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #30064, #29991, #30009 to stable/1.86.x and cut 1.86.5 by @mateo-berri in https://github.com/BerriAI/litellm/pull/30148 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.86.4...v1.86.5]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.86.5</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.86.5</guid>
+            <pubDate>Thu, 11 Jun 2026 03:10:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.85.5]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #30064, #29991, #30009 to stable/1.85.x by @mateo-berri in https://github.com/BerriAI/litellm/pull/30149 * bump: version 1.85.5 on stable/1.85.x by @yuneng-berri in https://github.com/BerriAI/litellm/pull/30172 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.85.4...v1.85.5]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.85.5</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.85.5</guid>
+            <pubDate>Thu, 11 Jun 2026 01:55:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.84.7]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #30064 (Claude Fable 5) and #30009 to stable/1.84.x and cut 1.84.7 by @mateo-berri in https://github.com/BerriAI/litellm/pull/30150 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.84.6...v1.84.7]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.84.7</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.84.7</guid>
+            <pubDate>Thu, 11 Jun 2026 01:33:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.89.0-rc.2]]></title>
             <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): patch v1.89.0-rc.1 with #30064 (Claude Fable 5) for v1.89.0-rc.2 by @mateo-berri in https://github.com/BerriAI/litellm/pull/30143 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.89.0-rc.1...v1.89.0-rc.2]]></description>
@@ -675,39 +703,11 @@
             <pubDate>Thu, 12 Mar 2026 22:57:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.82.0.dev3]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.82.0-stable...v1.82.0.dev3]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.0.dev3</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.0.dev3</guid>
-            <pubDate>Thu, 12 Mar 2026 22:14:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.82.1-focus-dev]]></title>
-            <description><![CDATA[## What's Changed * fix handling of ResponseApplyPatchToolCall in completion bridge by @jtsaw in https://github.com/BerriAI/litellm/pull/20913 * fix(router): break retry loop on non-retryable errors by @AtharvaJaiswal005 in https://github.com/BerriAI/litellm/pull/21370 * fix(proxy): fix invalid OpenAPI schema for /spend/calculate and /credentials endpoints by @AtharvaJaiswal005 in https://github.com/BerriAI/litellm/pull/21369 * fix: preserve usage/cached_tokens in Responses API streaming bridge by @KeremTurgutlu in https://github.com/BerriAI/litellm/pull/22194 * fix(caching): inject default_in_memory_ttl in DualCache async_set_cache and async_set_cache_pipeline by @pnookala-godaddy in https://github.com/BerriAI/litellm/pull/22241 * fix: apply server root path to mapped passthrough route matching by @umut-polat in https://github.com/BerriAI/litellm/pull/22310 * fix(responses): merge parallel function_call items into single assist… by @Varad2001 in https://github.com/BerriAI/litellm/pull/23116 * fix: handle month overflow in duration_in_seconds for multi-month durations by @jnMetaCode in https://github.com/BerriAI/litellm/pull/23099 * fix: use correct divisor when averaging TTFT in lowest-latency routing by @jnMetaCode in https://github.com/BerriAI/litellm/pull/23100 * fix(fireworks): strip duplicate /v1 from models endpoint URL by @s-zx in https://github.com/BerriAI/litellm/pull/23113 * fix(sagemaker): Add role assumption support for embedding endpoint by @jymmi in https://github.com/BerriAI/litellm/pull/20435 * merge main by @Sameerlite in https://github.com/BerriAI/litellm/pull/23252 * merge main by @Sameerlite in https://github.com/BerriAI/litellm/pull/23253 * Litellm oss staging 03 02 2026 by @krrishdholakia in https://github.com/BerriAI/litellm/pull/22628 * oss staging 03/09/2026 by @krrishdholakia in https://github.com/BerriAI/litellm/pull/23164 * Litellm oss staging 02 18 2026 by @krrishdholakia in https://github.com/BerriAI/litellm/pull/23222 * fix(vertex_ai): strip LiteLLM-internal keys from extra_body before merging to Gemini request by @Sameerlite in https://github.com/BerriAI/litellm/pull/23131 * fix(openai): preserve reasoning_effort summary field for Responses API by @Sameerlite in https://github.com/BerriAI/litellm/pull/23151 * fix(bedrock): populate completion_tokens_details in Responses API by @Sameerlite in https://github.com/BerriAI/litellm/pull/23243 ## New Contributors * @jnMetaCode made their first contribution in https://github.com/BerriAI/litellm/pull/23099 * @s-zx made their first contribution in https://github.com/BerriAI/litellm/pull/23113 * @jymmi made their first contribution in https://github.com/BerriAI/litellm/pull/20435 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.82.1-nightly...v1.82.1-focus-dev]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.1-focus-dev</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.1-focus-dev</guid>
-            <pubDate>Thu, 12 Mar 2026 09:16:29 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v1.82.1-nightly.1-re]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.82.1-nightly.1...v1.82.1-nightly.1-re]]></description>
             <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.1-nightly.1-re</link>
             <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.1-nightly.1-re</guid>
             <pubDate>Thu, 12 Mar 2026 06:35:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.82.1-nightly.2]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.82.1-nightly.1...v1.82.1-nightly.2]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.1-nightly.2</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.1-nightly.2</guid>
-            <pubDate>Wed, 11 Mar 2026 20:31:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.82.1-nightly.1]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.82.1-nightly...v1.82.1-nightly.1]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.1-nightly.1</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.1-nightly.1</guid>
-            <pubDate>Wed, 11 Mar 2026 07:58:11 GMT</pubDate>
         </item>
     </channel>
 </rss>
