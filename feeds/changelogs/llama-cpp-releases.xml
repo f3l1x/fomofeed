@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 12 Jun 2026 07:36:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 09:23:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 12 Jun 2026 07:27:13 GMT</pubDate>
+        <pubDate>Fri, 12 Jun 2026 08:45:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9606]]></title>
+            <description><![CDATA[spec: add EAGLE3 speculative decoding support (#18039) * llama : enable layer input extraction * spec: support eagle3 * eagle3: fix params bug * eagle3: support Gemma4 eagle3 from RedHatAI * eagle3: set sync when get features from target Co-authored-by: tnhnyzc <115956684+tnhnyzc@users.noreply.github.com> * eagle3 : fix ubatch handling in embd_layer_inp extraction and encoder Co-authored-by: Doğaç Eldenk * eagle3: adapt to upstream changes * eagle3: fix rebase issues and adapt to upstream changes * eagle3:exclude the eagle3 arch from test-llama-archs * eagle3: fix editorconfig check failures * eagle3: fix multi-seq issue in d2t vocab mapping * cont : minor style / clean-up * spec : remove common_speculative_setup_draft_model() * llama : clean-up unused API * eagle3: set d2t vocab mapping in decode graph * cont : assert layer inputs are configured * hparams : use n_embd_inp instead of n_embd_target_features * eagle3: make output.weight optional and inherit from target model when needed * haparams : generic norm-before-residual param * llama-ext : consistent names * cont : fix * hparams : remove target_hidden_size * cparams : rename output_layer_inp -> embeddings_layer_inp * arch : reuse ATTN_NORM_2 instead of adding new hidden norm * llama : clean-up names * cont : add assert + comment * Update conversion/llama.py Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Georgi Gerganov Co-authored-by: tnhnyzc <115956684+tnhnyzc@users.noreply.github.com> Co-authored-by: Doğaç Eldenk Co-authored-by: Sigbjørn Skjæret **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9606</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9606</guid>
+            <pubDate>Fri, 12 Jun 2026 08:45:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b9605]]></title>
+            <description><![CDATA[ggml: support concat for scalar types at cuda backend (#24011) * cuda: support concat for scalar types * Update concat.cu * fix metal ci issue **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9605</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9605</guid>
+            <pubDate>Fri, 12 Jun 2026 08:12:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9604]]></title>
             <description><![CDATA[[SYCL] Fix CI build & release for SYCL backend (#24387) * restore SYCL build and release, remove github cache * modify for test only * verify the ccache is used * remove debug code change * rm duplicate action, update key in ccache * add action ccache-clear after building in both ubuntu and windows * set %NUMBER_OF_PROCESSORS% in widnows build **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9460</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9460</guid>
             <pubDate>Mon, 01 Jun 2026 19:23:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9459]]></title>
-            <description><![CDATA[metal: template GLU kernels to support f16/f32 (#23882) Drops the hardcoded f32 GLU kernels in favor of a single template. We now load/store in the native tensor type (half or float) to save memory bandwidth, but keep the actual ALU compute in float to avoid exploding math in geglu/swiglu. Also opened up the dispatch gate to allow f16 inputs. **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9459</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9459</guid>
-            <pubDate>Mon, 01 Jun 2026 18:58:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9458]]></title>
-            <description><![CDATA[vulkan: don't hold the device mutex while compiling pipelines (#23641) * vulkan: don't hold the device mutex while compiling pipelines We need to hold a lock while we traverse all pipelines and lazily initialize them, but we don't need to hold it while the pipeline is being compiled. And it doesn't need to be the same lock as the device mutex. We call load_shaders each time a pipeline is needed, so we only need to compile that one pipeline (and, for example, don't want to end up compiling a pipeline that another thread should be compiling). * remove 'needed' **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9458</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9458</guid>
-            <pubDate>Mon, 01 Jun 2026 18:31:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
