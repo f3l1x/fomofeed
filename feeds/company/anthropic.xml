@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 12 Jun 2026 17:01:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 18:41:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 12 Jun 2026 04:23:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -27,6 +27,12 @@
             <title><![CDATA[Results from the first Anthropic Public Record]]></title>
             <link>https://www.anthropic.com/news/anthropic-public-record</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-public-record</guid>
+            <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TCS and Anthropic partner to bring Claude to regulated industries]]></title>
+            <link>https://www.anthropic.com/news/tcs-anthropic-partnership</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/tcs-anthropic-partnership</guid>
             <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -216,12 +222,6 @@
             <title><![CDATA[Anthropic raises $65B in Series H funding at $965B post-money valuation]]></title>
             <link>https://www.anthropic.com/news/series-h</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/series-h</guid>
-            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Opus 4.8]]></title>
-            <link>https://www.anthropic.com/news/claude-opus-4-8</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-8</guid>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
