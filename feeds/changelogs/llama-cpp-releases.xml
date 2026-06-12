@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 12 Jun 2026 05:35:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 07:36:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 12 Jun 2026 05:16:00 GMT</pubDate>
+        <pubDate>Fri, 12 Jun 2026 07:27:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9604]]></title>
+            <description><![CDATA[[SYCL] Fix CI build & release for SYCL backend (#24387) * restore SYCL build and release, remove github cache * modify for test only * verify the ccache is used * remove debug code change * rm duplicate action, update key in ccache * add action ccache-clear after building in both ubuntu and windows * set %NUMBER_OF_PROCESSORS% in widnows build **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9604</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9604</guid>
+            <pubDate>Fri, 12 Jun 2026 07:27:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9603]]></title>
             <description><![CDATA[opencl: add q5_0/q5_1 gemm and gemv kernels for Adreno (#24319) * opencl: add q5_0 adreno support * opencl: add q5_1 adreno support * opencl: cosmetic fix --------- Co-authored-by: Li He **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9458</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9458</guid>
             <pubDate>Mon, 01 Jun 2026 18:31:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9457]]></title>
-            <description><![CDATA[vulkan: reduce host memory lock contention (#23376) * vulkan: reduces lock contention * replace unique_lock with lock_guard **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9457</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9457</guid>
-            <pubDate>Mon, 01 Jun 2026 18:06:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
