@@ -4,11 +4,24 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 12 Jun 2026 18:41:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Jun 2026 05:33:02 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 12 Jun 2026 04:23:51 GMT</pubDate>
+        <pubDate>Sat, 13 Jun 2026 01:25:15 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.177]]></title>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.177</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.177</guid>
+            <pubDate>Sat, 13 Jun 2026 01:25:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.176]]></title>
+            <description><![CDATA[## What's changed - Session titles are now generated in the language of your conversation (set the language setting to pin a specific language) - Added footerLinksRegexes setting for regex-matched link badges in the footer row, configurable via user or managed settings - Improved Bedrock credential caching: credentials from awsCredentialExport are now cached until their Expiration instead of a fixed 1 hour - Fixed availableModels enforcement: alias model picks can no longer be redirected to a blocked model via ANTHROPIC_DEFAULT_*_MODEL environment variables, and /fast now refuses to toggle when it would switch to a model outside the allowlist - Fixed auto mode failing on Fable 5 for organizations without Opus 4.8 enabled — the classifier now falls back to the best available Opus model - Fixed hook if conditions for Read/Edit/Write tool paths: documented patterns like Edit(src/**), Read(~/.ssh/**), and Read(.env) now match correctly - Fixed Linux sandbox failing to start when .claude/settings.json is a symlink with an absolute target - Fixed /copy and mouse-selection copy not reaching the system clipboard inside tmux over SSH, and tmux paste buffer not loading on versions older than 3.2 - Fixed Remote Control connecting from web/mobile silently switching the session's model - Fixed Remote Control disconnect notifications showing a bare numeric code instead of a human-readable reason, and connection failures adding a duplicate line to the conversation transcript - Fixed Remote Control sessions not disconnecting when you sign in to a different account - Fixed /cd and worktree moves leaving the session reporting the previous directory's git branch - Fixed claude agents: pressing back in one window no longer detaches other windows attached to the same session - Fixed backgrounded sessions showing "Working" forever when /bg mid-turn had nothing left to continue - Fixed background agent search by PR URL: PRs opened during scheduled wakeups or while a job was blocked now appear in claude agents search - Fixed the agents view input showing no text cursor on Windows - Fixed claude --bg -cn not seeding the session name - Fixed background sessions to neutralize Windows network paths in persisted state before respawn - Fixed background-session respawn rejecting malformed resume IDs from corrupted state files - Fixed the Windows background-service daemon not starting when ~/.claude/daemon has the ReadOnly attribute set - Fixed cloud sessions failing with "Could not resolve authentication method" when idle for too long before being claimed - Background sessions now show clearer guidance when a window left open across an auto-update can't submit a reply, and claude daemon status explains version-skew behavior]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.176</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.176</guid>
+            <pubDate>Fri, 12 Jun 2026 21:53:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.175]]></title>
             <description><![CDATA[## What's changed - Added enforceAvailableModels managed setting — when enabled, the availableModels allowlist also constrains the Default model (a Default that would resolve to a disallowed model now falls back to the first allowed model), and user or project settings can no longer widen a managed availableModels list]]></description>
@@ -22,6 +35,13 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.174</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.174</guid>
             <pubDate>Fri, 12 Jun 2026 01:16:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Statement on the US government directive to suspend access to Fable 5 and Mythos 5]]></title>
+            <description><![CDATA[The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5.]]></description>
+            <link>https://www.anthropic.com/news/fable-mythos-access</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/fable-mythos-access</guid>
+            <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Results from the first Anthropic Public Record]]></title>
@@ -71,7 +91,6 @@
         </item>
         <item>
             <title><![CDATA[Claude Fable 5 and Claude Mythos 5]]></title>
-            <description><![CDATA[Our next generation of intelligence for the hardest knowledge work and coding problems.]]></description>
             <link>https://www.anthropic.com/news/claude-fable-5-mythos-5</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-fable-5-mythos-5</guid>
             <pubDate>Mon, 08 Jun 2026 22:00:00 GMT</pubDate>
@@ -219,9 +238,10 @@
             <pubDate>Thu, 28 May 2026 00:52:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Anthropic raises $65B in Series H funding at $965B post-money valuation]]></title>
-            <link>https://www.anthropic.com/news/series-h</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/series-h</guid>
+            <title><![CDATA[Introducing Claude Opus 4.8]]></title>
+            <description><![CDATA[An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.]]></description>
+            <link>https://www.anthropic.com/news/claude-opus-4-8</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-8</guid>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -846,20 +866,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.52</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.52</guid>
             <pubDate>Tue, 24 Feb 2026 06:39:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.51]]></title>
-            <description><![CDATA[## What's changed - Added claude remote-control subcommand for external builds, enabling local environment serving for all users. - Updated plugin marketplace default git timeout from 30s to 120s and added CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS to configure. - Added support for custom npm registries and specific version pinning when installing plugins from npm sources - BashTool now skips login shell (-l flag) by default when a shell snapshot is available, improving command execution performance. Previously this required setting CLAUDE_BASH_NO_LOGIN=true. - Fixed a security issue where statusLine and fileSuggestion hook commands could execute without workspace trust acceptance in interactive mode. - Tool results larger than 50K characters are now persisted to disk (previously 100K). This reduces context window usage and improves conversation longevity. - Fixed a security issue where HTTP hooks could interpolate arbitrary environment variables from header values. Env var interpolation now requires an explicit allowedEnvVars list in the hook configuration. - Fixed a bug where duplicate control_response messages (e.g. from WebSocket reconnects) could cause API 400 errors by pushing duplicate assistant messages into the conversation. - Added CLAUDE_CODE_ACCOUNT_UUID, CLAUDE_CODE_USER_EMAIL, and CLAUDE_CODE_ORGANIZATION_UUID environment variables for SDK callers to provide account info synchronously, eliminating a race condition where early telemetry events lacked account metadata. - Fixed slash command autocomplete crashing when a plugin's SKILL.md description is a YAML array or other non-string type - HTTP hooks are now routed through the sandbox network proxy when sandboxing is enabled, enforcing the domain allowlist. HTTP hooks are not supported for SessionStart/Setup events. - The /model picker now shows human-readable labels (e.g., "Sonnet 4.5") instead of raw model IDs for pinned model versions, with an upgrade hint when a newer version is available.]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.51</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.51</guid>
-            <pubDate>Tue, 24 Feb 2026 01:40:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.50]]></title>
-            <description><![CDATA[## What's changed - Added support for startupTimeout configuration for LSP servers - Added WorktreeCreate and WorktreeRemove hook events, enabling custom VCS setup and teardown when agent worktree isolation creates or removes worktrees. - Fixed a bug where resumed sessions could be invisible when the working directory involved symlinks, because the session storage path was resolved at different times during startup. Also fixed session data loss on SSH disconnect by flushing session data before hooks and analytics in the graceful shutdown sequence. - Linux: Fixed native modules not loading on systems with glibc older than 2.30 (e.g., RHEL 8) - Fixed memory leak in agent teams where completed teammate tasks were never garbage collected from session state - Fixed CLAUDE_CODE_SIMPLE to fully strip down skills, session memory, custom agents, and CLAUDE.md token counting - Fixed /mcp reconnect freezing the CLI when given a server name that doesn't exist - Fixed memory leak where completed task state objects were never removed from AppState - Added support for isolation: worktree in agent definitions, allowing agents to declaratively run in isolated git worktrees. - CLAUDE_CODE_SIMPLE mode now also disables MCP tools, attachments, hooks, and CLAUDE.md file loading for a fully minimal experience. - Fixed bug where MCP tools were not discovered when tool search is enabled and a prompt is passed in as a launch argument - Improved memory usage during long sessions by clearing internal caches after compaction - Added claude agents CLI command to list all configured agents - Improved memory usage during long sessions by clearing large tool results after they have been processed - Fixed a memory leak where LSP diagnostic data was never cleaned up after delivery, causing unbounded memory growth in long sessions - Fixed a memory leak where completed task output was not freed from memory, reducing memory usage in long sessions with many tasks - Improved startup performance for headless mode (-p flag) by deferring Yoga WASM and UI component imports - Fixed prompt suggestion cache regression that reduced cache hit rates - Fixed unbounded memory growth in long sessions by capping file history snapshots - Added CLAUDE_CODE_DISABLE_1M_CONTEXT environment variable to disable 1M context window support - Opus 4.6 (fast mode) now includes the full 1M context window - VSCode: Added /extra-usage command support in VS Code sessions - Fixed memory leak where TaskOutput retained recent lines after cleanup - Fixed memory leak in CircularBuffer where cleared items were retained in the backing array - Fixed memory leak in shell command execution where ChildProcess and AbortController references were retained after cleanup]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.50</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.50</guid>
-            <pubDate>Fri, 20 Feb 2026 23:48:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>

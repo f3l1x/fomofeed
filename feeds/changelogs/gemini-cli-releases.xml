@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 12 Jun 2026 18:39:38 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Jun 2026 05:31:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Jun 2026 01:15:02 GMT</pubDate>
+        <pubDate>Sat, 13 Jun 2026 00:21:21 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.48.0-nightly.20260613.g9e5599c32]]></title>
+            <description><![CDATA[## What's Changed * fix(core): implement atomic update in MCP tool discovery by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27619 * Vertex ai model mapping fix by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27749 * Add documentation and migration commands for Antigravity CLI by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27765 * Avoid persisting empty resume sessions by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/27770 * chore(release): bump version to 0.48.0-nightly.20260609.g3a13b8eeb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27779 * ci(dependabot): enable cooldown period for npm packages by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/27743 * refactor(core): standardize tool output formatting by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27772 * ci: update workflow logging and policy configurations by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27853 * fix(core): Ensure zero-quota limits fail fast to prevent retry loop hang by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27698 * fix(core): handle multi-line escaped quotes in stripShellWrapper by @sanchezcoraspe in https://github.com/google-gemini/gemini-cli/pull/27467 ## New Contributors * @luisfelipe-alt made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27619 * @sanchezcoraspe made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27467 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.47.0-nightly.20260609.g0567b25a2...v0.48.0-nightly.20260613.g9e5599c32]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-nightly.20260613.g9e5599c32</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-nightly.20260613.g9e5599c32</guid>
+            <pubDate>Sat, 13 Jun 2026 00:21:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.46.0]]></title>
             <description><![CDATA[## What's Changed * fix(core): harden PTY resize against native crashes by @scidomino in https://github.com/google-gemini/gemini-cli/pull/27496 * Changelog for v0.45.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27495 * Changelog for v0.44.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27569 * fix(cli): prevent spam loop when preferredEditor is invalid by @Niralisj in https://github.com/google-gemini/gemini-cli/pull/25324 * Adding quote by @scidomino in https://github.com/google-gemini/gemini-cli/pull/27571 * Transition to flash GA model when experiment flag is present. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27570 * chore(ci): add optimized PR size labeler and batch workflows by @sripasg in https://github.com/google-gemini/gemini-cli/pull/27616 * fix(ci): use pull_request_target trigger to grant write access on fork PRs by @sripasg in https://github.com/google-gemini/gemini-cli/pull/27637 * fix(patch): cherry-pick e4315b3 to release/v0.46.0-preview.0-pr-27645 to patch version v0.46.0-preview.0 and create version 0.46.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27655 * fix(patch): cherry-pick f40498d to release/v0.46.0-preview.1-pr-27676 to patch version v0.46.0-preview.1 and create version 0.46.0-preview.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27699 * fix(patch): cherry-pick f08b4af to release/v0.46.0-preview.2-pr-27749 to patch version v0.46.0-preview.2 and create version 0.46.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27768 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.45.3...v0.46.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-nightly.20260321.fc03891a1</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-nightly.20260321.fc03891a1</guid>
             <pubDate>Sat, 21 Mar 2026 01:26:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.35.0-preview.2]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 4e5dfd0 to release/v0.35.0-preview.1-pr-23074 to patch version v0.35.0-preview.1 and create version 0.35.0-preview.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/23134 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.35.0-preview.1...v0.35.0-preview.2]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.0-preview.2</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.0-preview.2</guid>
-            <pubDate>Thu, 19 Mar 2026 19:19:13 GMT</pubDate>
         </item>
     </channel>
 </rss>
