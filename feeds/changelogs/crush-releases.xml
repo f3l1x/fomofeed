@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Jun 2026 16:32:45 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 18:29:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 13 Jun 2026 01:27:22 GMT</pubDate>
+        <pubDate>Sun, 14 Jun 2026 18:22:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.77.0]]></title>
+            <description><![CDATA[## Changelog ### New! * 6242e4f47743190fe60a27ba881ba3d6a9b36deb: feat(config): load user-level context files (@Amolith) * 021e3773a63366a1970563543e694c36c6bb6e38: feat(hooks): add name field to hooks (@BrunoKrugel) * 18391023acc660b43bf3e5dd704dfb4b9b5d3fd7: feat(server): add helper to detect stale unix sockets (@meowgorithm) * a442f26e39223c62b14273944ede06b00b3b1fdd: feat(server): store runtime socket in per-user runtime directory (@meowgorithm) ### Fixed * 443d0ab339d92bf9181f1054a2c760e178f964e0: fix(server): clear leftover sockets so server can always start (@meowgorithm) * 4abf2066b1d432685e90a9b297d13153bbe3b1da: fix(server): correct socket location test on macOS (@meowgorithm) * 2e9f6342aba85f75afa036f2d1f8c90d560e25ce: fix(server): detect and remove a dead socket before starting server (@meowgorithm) * 62baa95ef843e086c8bac6bf2659b7252a8b07b2: fix(server): log earlier so socket cleanup is always recorded (@meowgorithm) * 3e6f95eb2409f5187053d337e6e48dc810b04539: fix: address potential indentation on commit messages trailings (#3106) (@andreynering) ### Docs * aadb7e7932a819b184317fbde074ed6bd15be7b6: docs(hooks): add name field (@taciturnaxolotl) ### Other stuff * aad8cbad258484dba2dc416832dce9a9a589a2f5: chore(bash/git): improve git commit and PR message standards (#3052) (@meowgorithm) * 2922de8b22fe139b8b52648f7ebc245455cdd509: chore(test,server): cover stale socket cleanup and socket location (@meowgorithm) * d342d22869f28fb999412f975c6e42966abd944f: chore: auto-update files (@charmcli) * 2c9d6d40dbdf46ad6619e1f287917df472bae7be: chore: auto-update files (@charmcli) * e4c82db68f8e9fb0ddd0c8d188c44a623042354b: chore: bump lipgloss to v2.0.4 and glamour to v2.0.1 (@taciturnaxolotl) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.77.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.77.0</guid>
+            <pubDate>Sun, 14 Jun 2026 18:22:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nightly]]></title>
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.18.1</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.18.1</guid>
             <pubDate>Thu, 13 Nov 2025 19:56:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.18.0]]></title>
-            <description><![CDATA[# Alright, alright: AGENTS.md Crush will now default to creating an AGENTS.md by default on new projects, instead of the CRUSH.md you know and love. This all in effort of standards and is another step to more closely following that convention. If your project still has a CRUSH.md file, don't worry. We'll still read that if available. Like things the old way? Want to use a different filename altogether? Cool: you can customize the behavior. This is, of course, another feature from our hot contributor friend, @Amolith. Thanks, and see you in the next release! 💘 ## Changelog ### New! * 4e40b4714644fd1bcb03fc3f0a74ca037f2189a5: feat(config): default to AGENTS.md w/ new setting (#1403) (@Amolith) ### Fixed * c094eaf6c73a02e1972ce1d323175b92d4315d5e: fix(test): set a fixed attribution to avoid system prompt mismatch (@andreynering) --- Verifying the artifacts First, download the checksums.txt file, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.18.0</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.18.0</guid>
-            <pubDate>Thu, 13 Nov 2025 17:12:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
