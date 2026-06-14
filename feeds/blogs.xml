@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Jun 2026 09:07:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 14:48:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -999,6 +999,12 @@
             <link>https://www.paulgraham.com/selfindulgence.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/selfindulgence.html</guid>
             <pubDate>Sat, 19 Dec 2020 06:55:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Earn a Billion Dollars]]></title>
+            <link>https://www.paulgraham.com/earn.html</link>
+            <guid isPermaLink="false">https://www.paulgraham.com/earn.html</guid>
+            <pubDate>Tue, 29 Sep 2020 06:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Convert Between Wealth and Income Tax]]></title>
