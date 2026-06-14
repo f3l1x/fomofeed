@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 Jun 2026 18:28:57 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 05:34:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 12 Jun 2026 02:19:40 GMT</pubDate>
+        <pubDate>Sat, 13 Jun 2026 22:39:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.17.6]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Improved MCP server compatibility by declaring OpenCode's supported client capabilities.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.6</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.6</guid>
+            <pubDate>Sat, 13 Jun 2026 22:39:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.5]]></title>
+            <description><![CDATA[## Core ### Improvements - Added external browser OAuth for the Snowflake Cortex provider (@santigc6) - Improved project copy management and move-session flows in v2 ### Bugfixes - Recovered expired MCP sessions instead of leaving MCP tools disconnected - Cleared closed MCP clients so stale MCP connections do not linger - Returned structured MCP tool output in a readable form - Fixed duplicate renderable IDs that could break TUI rendering - Fixed commands using $ARGUMENTS so file contents are not injected twice (@verdverm) ## TUI ### Bugfixes - Added auth headers to RunCommand fetch requests (@OpeOginni) ## Desktop ### Improvements - Brought v2 visibility settings to the web app - Refreshed the oc-2 color theme (@arvsrn) ### Bugfixes - Made the terminal resize gutter easier to grab - Faded overflowing titlebar tabs instead of clipping them abruptly **Thank you to 5 community contributors:** - @verdverm: - fix(tui): double file content injection in commands using $ARGUMENTS (#31245) - @arvsrn: - feat(app): update oc-2 colors (#31071) - @Slickstef11: - docs: update North Mini Code privacy terms (#32096) - @santigc6: - feat(opencode): add external browser OAuth for snowflake cortex provider (#31700) - @OpeOginni: - fix(opencode): add authorization header to fetch requests in RunCommand (#29877)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.5</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.5</guid>
+            <pubDate>Sat, 13 Jun 2026 19:59:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.17.4]]></title>
             <description><![CDATA[## Core ### Improvements - Added cwd support for local MCP servers so they can start from a workspace-relative directory. (@Grantmartin2002) - Added connector-based authentication flows and support for stored provider credentials. - Added v2 API endpoints to create and fetch sessions, list session questions, and resolve the active location. - File reads now return raw content with the correct content type for API and SDK clients. - MCP server log notifications are now surfaced in opencode logs. ### Bugfixes - Fixed Gemini tool schemas that used multi-type fields so compatible tools keep working. (@Killusions) - Content-filtered model responses now surface as visible errors instead of failing silently. (@kkdawkins) - Fixed MCP auth and debug requests dropping configured headers. - Snapshot creation now reuses source Git objects to avoid long re-hashing delays on huge repos. (@dmtrKovalenko) - Fixed MCP catalog request timeouts not applying when listing prompts, resources, or tools. **Thank you to 5 community contributors:** - @dmtrKovalenko: - fix(snapshot): reuse source git objects to avoid re-hashing huge repos (#31798) - @tobwen: - fix(tui): preserve exit epilogue during scoped shutdown (#31805) - @kkdawkins: - fix(opencode): surface content-filter finish reason as visible error (#31745) - @Killusions: - fix(gemini): prevent gemini incompatibility with some tools (#31877) - @Grantmartin2002: - feat(opencode): support cwd on local MCP servers (#30676)]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.14</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.14</guid>
             <pubDate>Wed, 25 Feb 2026 14:56:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.13]]></title>
-            <description><![CDATA[No notable changes]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.13</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.13</guid>
-            <pubDate>Wed, 25 Feb 2026 07:27:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.12]]></title>
-            <description><![CDATA[## Core - Synchronize changes - Temporarily disable plan enter tool to prevent unintended mode switches during task execution - Migrate Bun.spawn to Process utility with timeout and cleanup - Disable Bun config cache in CI - Await git ID cache write in project module - Import custom tools via file URL ## TUI - Add Go SDK code generation script - Show LSP errors for apply_patch tool ## Desktop - Enhance Windows app resolution and UI loading states (@neriousy) - Update desktop README for accuracy **Thank you to 1 community contributor:** - @neriousy: - feat(desktop): enhance Windows app resolution and UI loading states (#13320)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.12</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.12</guid>
-            <pubDate>Wed, 25 Feb 2026 07:12:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
