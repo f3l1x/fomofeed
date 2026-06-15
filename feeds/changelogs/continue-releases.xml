@@ -4,11 +4,32 @@
         <description><![CDATA[RSS feed for Continue Releases]]></description>
         <link>https://github.com/continuedev/continue/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Jun 2026 15:59:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jun 2026 17:45:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/continue-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 27 Mar 2026 21:25:10 GMT</pubDate>
+        <pubDate>Mon, 15 Jun 2026 16:59:46 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.2.24-vscode]]></title>
+            <description><![CDATA[Stable release of the Continue VS Code extension (final release): removes the CLI-install banner and Generate Rule feature, switches onboarding and the new-config template to explicit model definitions (no Hub slugs), and updates the deprecation banner export link. Re-cut of v1.2.23 which only partially published due to a transient Marketplace API timeout.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.24-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.24-vscode</guid>
+            <pubDate>Mon, 15 Jun 2026 16:59:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.23-vscode]]></title>
+            <description><![CDATA[Stable release of the Continue VS Code extension (final release): removes the CLI-install banner and Generate Rule feature, switches onboarding and the new-config template to explicit model definitions (no Hub slugs), and updates the deprecation banner export link.]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.2.23-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.2.23-vscode</guid>
+            <pubDate>Mon, 15 Jun 2026 16:27:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.40-vscode]]></title>
+            <description><![CDATA[Pre-release of the Continue VS Code extension (final-release cleanup).]]></description>
+            <link>https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode</guid>
+            <pubDate>Mon, 15 Jun 2026 16:09:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.2.22-vscode]]></title>
             <description><![CDATA[## What's Changed * fix: ensure config.yaml exists and is populated when accessed by @RomneyDa in https://github.com/continuedev/continue/pull/11915 * chore: jb-67-vs-38 by @RomneyDa in https://github.com/continuedev/continue/pull/11916 * chore(deps-dev): bump happy-dom from 20.0.2 to 20.8.9 in /extensions/cli by @dependabot[bot] in https://github.com/continuedev/continue/pull/11910 * chore(deps): bump handlebars from 4.7.8 to 4.7.9 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11911 * chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/llm-info by @dependabot[bot] in https://github.com/continuedev/continue/pull/11912 * chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/config-yaml by @dependabot[bot] in https://github.com/continuedev/continue/pull/11913 * chore(deps-dev): bump brace-expansion from 1.1.12 to 1.1.13 in /core by @dependabot[bot] in https://github.com/continuedev/continue/pull/11931 * chore(deps-dev): bump brace-expansion from 1.1.12 to 1.1.13 in /binary by @dependabot[bot] in https://github.com/continuedev/continue/pull/11930 * feat: filter session history by workspace directory by @mvanhorn in https://github.com/continuedev/continue/pull/11813 * chore(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /packages/fetch by @dependabot[bot] in https://github.com/continuedev/continue/pull/11936 * chore(deps): bump path-to-regexp from 0.1.12 to 0.1.13 in /packages/continue-sdk by @dependabot[bot] in https://github.com/continuedev/continue/pull/11937 * feat: add .continue/configs support by @RomneyDa in https://github.com/continuedev/continue/pull/11935 **Full Changelog**: https://github.com/continuedev/continue/compare/v1.2.21-vscode...v1.2.22-vscode]]></description>
@@ -686,27 +707,6 @@
             <link>https://github.com/continuedev/continue/releases/tag/v1.5.29</link>
             <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29</guid>
             <pubDate>Wed, 24 Dec 2025 03:01:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI Stable Release v1.5.28]]></title>
-            <description><![CDATA[Direct stable release from main branch. Version 1.5.28 built and published directly from the latest main branch.]]></description>
-            <link>https://github.com/continuedev/continue/releases/tag/v1.5.28</link>
-            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.28</guid>
-            <pubDate>Tue, 23 Dec 2025 18:39:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI Beta Release v1.5.27-beta.20251223]]></title>
-            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
-            <link>https://github.com/continuedev/continue/releases/tag/v1.5.27-beta.20251223</link>
-            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.27-beta.20251223</guid>
-            <pubDate>Tue, 23 Dec 2025 09:07:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI Stable Release v1.5.27]]></title>
-            <description><![CDATA[Direct stable release from main branch. Version 1.5.27 built and published directly from the latest main branch.]]></description>
-            <link>https://github.com/continuedev/continue/releases/tag/v1.5.27</link>
-            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.27</guid>
-            <pubDate>Mon, 22 Dec 2025 20:55:05 GMT</pubDate>
         </item>
     </channel>
 </rss>

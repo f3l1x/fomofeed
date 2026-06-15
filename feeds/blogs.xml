@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Jun 2026 16:01:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jun 2026 17:47:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 14 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How Wayfair cut ML model costs by 90% (twice!) with Cursor]]></title>
+            <link>https://cursor.com/blog/wayfair</link>
+            <guid isPermaLink="false">https://cursor.com/blog/wayfair</guid>
+            <pubDate>Sun, 14 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Ollama's highest performance on Apple Silicon yet with MLX]]></title>
             <description><![CDATA[Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.]]></description>
@@ -252,12 +258,6 @@
             <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
             <link>https://windsurf.com/blog/windsurf-2-0</link>
             <guid isPermaLink="false">https://windsurf.com/blog/windsurf-2-0</guid>
-            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Amplitude ships 3x more production code with Cursor]]></title>
-            <link>https://cursor.com/blog/amplitude</link>
-            <guid isPermaLink="false">https://cursor.com/blog/amplitude</guid>
             <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
