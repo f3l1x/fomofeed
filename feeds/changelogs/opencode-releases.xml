@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Jun 2026 18:28:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jun 2026 05:47:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 13 Jun 2026 22:39:10 GMT</pubDate>
+        <pubDate>Sun, 14 Jun 2026 18:49:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.17.7]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Plugin client requests now reuse the active server instead of assuming the default local port. - ACP shell tool calls now show the command and working directory from the start. - Plugin-provided shell environment variables now apply to PTY sessions. ### Improvements - MCP servers can now receive the current workspace as a client root. ## TUI ### Bugfixes - MCP debug now uses the SDK's latest protocol version. ## Desktop ### Bugfixes - The new session route now stays scoped to its own draft server, so prompts and state target the right workspace. ## SDK ### Improvements - SDK clients now refresh model and provider availability when integrations change, and credential update and remove calls accept location.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.7</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.7</guid>
+            <pubDate>Sun, 14 Jun 2026 18:49:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.17.6]]></title>
             <description><![CDATA[## Core ### Bugfixes - Improved MCP server compatibility by declaring OpenCode's supported client capabilities.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.15</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.15</guid>
             <pubDate>Thu, 26 Feb 2026 08:22:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.14]]></title>
-            <description><![CDATA[## Core - Add message delete endpoint (@shantur) ## TUI - Consume stdout concurrently with process exit in auth login (@Ayushlm10) **Thank you to 2 community contributors:** - @Ayushlm10: - fix: consume stdout concurrently with process exit in auth login (#15058) - @shantur: - feat(core): add message delete endpoint (#14417)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.14</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.14</guid>
-            <pubDate>Wed, 25 Feb 2026 14:56:11 GMT</pubDate>
         </item>
     </channel>
 </rss>
