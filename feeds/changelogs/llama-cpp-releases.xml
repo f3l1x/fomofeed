@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Jun 2026 07:55:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 09:48:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 16 Jun 2026 06:12:53 GMT</pubDate>
+        <pubDate>Tue, 16 Jun 2026 08:09:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9664]]></title>
+            <description><![CDATA[sycl: support reordered Q4_K/Q5_K/Q6_K MoE MUL_MAT_ID (#24452) * sycl: support reordered Q4_K and Q5_K MoE MUL_MAT_ID Extend reordered-weight handling to fused MoE MUL_MAT_ID for Q4_K and Q5_K expert tensors and add Q5_K reordered DMMV coverage. Unsupported 3D reorder cases now fall back instead of aborting. * sycl: extend MoE reorder to Q6_K mul_mat_id **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9664</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9664</guid>
+            <pubDate>Tue, 16 Jun 2026 08:09:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9663]]></title>
             <description><![CDATA[[SYCL] Support OP EXPM1, support all UT cases of FLOOR, TRUNC, ROUND (#24363) * support OP EXPM1, support all UT cases of FLOOR, TRUNC, ROUND * fix conflict * rebase, support new UT case of repeat, concat **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9512</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9512</guid>
             <pubDate>Thu, 04 Jun 2026 15:13:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9510]]></title>
-            <description><![CDATA[ggml: vectorize ggml_vec_dot_q4_1_q8_1 with WASM SIMD128 (#22209) * ggml: vectorize ggml_vec_dot_q4_1_q8_1 with WASM SIMD128 Optimize the inner loop of ggml_vec_dot_q4_1_q8_1_generic using WASM SIMD128 intrinsics, gated behind #ifdef __wasm_simd128__ so non-wasm builds are completely unaffected. Approach: - single wasm_v128_load covers all 32 packed 4-bit weights - nibbles unpacked via AND/SHR into two u8x16 registers - widened to i16 before multiply (WASM SIMD has no i8*i8 instruction) - 4x wasm_i32x4_dot_i16x8 calls accumulate all 32 element pairs - horizontal reduce via 4x wasm_i32x4_extract_lane Benchmark (node v25, emcc -O3 -msimd128, 64 blocks x QK8_1=32, 200k iterations): | impl | ns/call | speedup | |--------|---------|---------| | scalar | 880.7 | 1.00x | | simd | 257.8 | 3.42x | Correctness verified against scalar reference across 10 random seeds with exact output match. * ggml: move q4_1_q8_1 WASM SIMD implementation to wasm backend Relocate the SIMD128 implementation of ggml_vec_dot_q4_1_q8_1 to ggml/src/ggml-cpu/arch/wasm/quants.c to follow architecture-specific layout. Restore the generic implementation in ggml/src/ggml-cpu/quants.c. Move for loop in the else block. * ggml: use generic q4_1_q8_1 fallback in wasm backend **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9510</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9510</guid>
-            <pubDate>Thu, 04 Jun 2026 14:44:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
