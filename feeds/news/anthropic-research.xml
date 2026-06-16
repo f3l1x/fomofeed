@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Jun 2026 17:42:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 19:13:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 07 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Agentic coding and persistent returns to expertise]]></title>
+            <link>https://www.anthropic.com/research/claude-code-expertise</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
+            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Paving the way for agents in biology]]></title>
             <link>https://www.anthropic.com/research/agents-in-biology</link>
@@ -57,12 +63,6 @@
             <title><![CDATA[Donating our open-source alignment tool]]></title>
             <link>https://www.anthropic.com/research/donating-open-source-petri</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/donating-open-source-petri</guid>
-            <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Focus areas for The Anthropic Institute]]></title>
-            <link>https://www.anthropic.com/research/anthropic-institute-agenda</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-institute-agenda</guid>
             <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
