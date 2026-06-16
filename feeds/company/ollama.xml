@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Jun 2026 19:20:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 05:51:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 12 Jun 2026 17:04:52 GMT</pubDate>
+        <pubDate>Mon, 15 Jun 2026 19:55:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.30.9]]></title>
+            <description><![CDATA[## What's Changed * llama: update llama.cpp to b9637 by @jmorganca in https://github.com/ollama/ollama/pull/16609 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.8...v0.30.9-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1</guid>
+            <pubDate>Mon, 15 Jun 2026 19:55:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.30.8]]></title>
             <description><![CDATA[## What's Changed * Fixed ollama launch selecting the wrong provider in some cases * Improved prompt caching by decoupling it from context shift for better KV cache reuse * More stable MLX inference with hardened linear and embedding layers * MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability * Improved recurrent model support with per-boundary states from the gated-delta kernels **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.7...v0.30.8]]></description>
@@ -890,13 +897,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.7.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.7.0</guid>
             <pubDate>Tue, 13 May 2025 00:10:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.8]]></title>
-            <description><![CDATA[## What's Changed * Performance improvements for Qwen 3 MoE models (30b-a3b and 235b-a22b) on NVIDIA and AMD GPUs * Fixed GGML_ASSERT(tensor->op == GGML_OP_UNARY) failed issue caused by conflicting installations * Fixed a memory leak that occurred when providing images as input * ollama show will now correctly label older vision models such as llava * Reduced out of memory errors by improving worst-case memory estimations * Fix issue that resulted in a context canceled error ## New Contributors * @AliAhmedNada made their first contribution in https://github.com/ollama/ollama/pull/10522 * @HarshNevse made their first contribution in https://github.com/ollama/ollama/pull/10465 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.6.7...v0.6.8]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.6.8</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.6.8</guid>
-            <pubDate>Sat, 03 May 2025 22:56:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Minions: where local and cloud LLMs meet]]></title>

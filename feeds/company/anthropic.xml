@@ -4,11 +4,18 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Jun 2026 19:20:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 05:51:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 13 Jun 2026 01:25:15 GMT</pubDate>
+        <pubDate>Mon, 15 Jun 2026 21:35:55 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.178]]></title>
+            <description><![CDATA[## What's changed - Added Tool(param:value) syntax for permission rules to match a tool's input parameters (with * wildcard), e.g. Agent(model:opus) to block Opus subagents - Skills in nested .claude/skills directories now load when working on files there; on a name clash, the nested skill appears as : so both stay available - Nested .claude/ directories: the agent, workflow, and output-style closest to the working directory now wins when names collide; project-scope workflow saves now target the closest existing .claude/workflows/ - Improved auto mode: subagent spawns are now evaluated by the classifier before launch, closing a gap where a subagent could request a blocked action without review - Improved /doctor with consistent flat tree layout across all sections, clearer section status icons, and highlighted command names - Improved the skill listing truncation warning to show how many skill descriptions are affected - Changed the workflow prompt keyword to use a purple shimmer highlight and trigger only on explicit phrases like "run a workflow" or "workflow:", not on any mention of the word - Improved Remote Control error messages: connection failures now show a persistent red "/rc failed" indicator in the footer, and the "not yet enabled" error now explains whether it's a gate, a check failure, stale entitlement, or org policy - /bug now requires a description before submitting, and no longer uses model-refusal text as the GitHub issue title - Fixed a crash (out-of-memory) when the CLI inherits a stale websocket/OAuth file-descriptor environment variable from a parent process - Fixed Claude in Chrome silently failing to connect when the OAuth token belongs to a different account than the Claude Code login - Fixed nested .claude/skills skills with directory-qualified names being blocked by permission prompts in non-interactive runs - Fixed several subagent issues: viewing a subagent's transcript now shows tool results and live progress, messages sent while it finishes its turn are no longer dropped, and backgrounding a running subagent (ctrl+b) no longer restarts it from scratch - Fixed claude agents workers failing with 401 Invalid bearer token when the daemon was started from a shell with a custom API gateway via ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN - Fixed compaction not honoring --fallback-model: compaction now falls back to the configured fallback model chain on overload or model-availability errors - Fixed model requests continuing to fail with auth errors after credentials were refreshed outside the session, due to a stale cached request configuration - Fixed background sessions created with /bg or ←← after a turn finished showing "Working" forever in the agents list - Fixed CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE=1 preventing fresh marketplace installs from cloning - Fixed MCP server-level specs (mcp__server, mcp__server__*, mcp__*) in subagent disallowedTools being silently ignored - Fixed vim mode undo: u now steps through NORMAL/VISUAL-mode commands one at a time instead of merging commands in quick succession into a single undo step - Fixed statusline links with custom URI schemes (e.g. vscode://) not opening when clicked in claude agents - [VSCode] Fixed pressing Esc to dismiss a CJK IME candidate window canceling the running Claude task]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.178</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.178</guid>
+            <pubDate>Mon, 15 Jun 2026 21:35:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.177]]></title>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.177</link>
@@ -859,13 +866,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.53</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.53</guid>
             <pubDate>Wed, 25 Feb 2026 00:13:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.52]]></title>
-            <description><![CDATA[## What's changed - VS Code: Fixed extension crash on Windows ("command 'claude-vscode.editor.openLast' not found")]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.52</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.52</guid>
-            <pubDate>Tue, 24 Feb 2026 06:39:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
