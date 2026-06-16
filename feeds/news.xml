@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Jun 2026 15:41:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 17:44:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Unlocking the Power of the TPU Stack: Introducing our new Developer Hub]]></title>
+            <description><![CDATA[Google has officially launched the TPU Developer Hub, a centralized educational resource designed to help model builders and developers maximize the performance of Google Cloud TPUs. The hub offers code-first resources, open-source recipes, and deep-dive documentation covering hardware architecture, software optimization, debugging, parallelism, and networking. These materials are tailored for both human developers and AI-assisted tools to streamline everything from large-scale training to low-latency inference workloads.]]></description>
+            <link>https://developers.googleblog.com/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</guid>
+            <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Statement on the US government directive to suspend access to Fable 5 and Mythos 5]]></title>
             <description><![CDATA[The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5.]]></description>
@@ -171,13 +178,6 @@
             <description><![CDATA[The Google Tensor ML SDK is graduating to its Beta phase, allowing developers to build and deploy high-performance machine learning models directly onto the TPU of Google Pixel 10 devices. By integrating with LiteRT, Google's edge deployment framework, the SDK provides a unified workflow for developers to convert, compile, and run PyTorch or TFLite models with robust fallback options. Additionally, a new model garden offers over 100 classic and generative AI models, including Gemma 3, enabling low-latency, private features like speech recognition, computer vision, and text generation.]]></description>
             <link>https://developers.googleblog.com/google-tensor-sdk-beta-with-litert/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/google-tensor-sdk-beta-with-litert/</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[One Year of Innovation: Celebrating 100k Members in the Google Cloud x NVIDIA Developer Community]]></title>
-            <description><![CDATA[The Google Cloud and NVIDIA developer community is celebrating its first anniversary with 100,000 members and a renewed focus on providing builders with advanced AI infrastructure and resources. To accelerate development, the community offers curated learning pathways for mastering LLM optimization, GPU-accelerated data analytics, and monthly expert-led webinars. Moving into its second year, the initiative will expand to include hands-on labs, engineering events, and specialized content focused on the growth of agentic AI.]]></description>
-            <link>https://developers.googleblog.com/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</guid>
             <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
