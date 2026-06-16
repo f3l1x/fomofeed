@@ -4,14 +4,14 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Jun 2026 09:49:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 15:41:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 15 Jun 2026 19:55:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.30.9]]></title>
-            <description><![CDATA[## What's Changed * llama: update llama.cpp to b9637 by @jmorganca in https://github.com/ollama/ollama/pull/16609 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.8...v0.30.9-rc0]]></description>
+            <description><![CDATA[## What's Changed * Support for Cohere2Moe architecture * Fixed LFM2 parser/render for cases where thinking was not emitted * Fixed issue where ollama launch claude and other coding agent or assistant use cases would only output one token * Ollama will now return an error if a single message is larger than the current context window **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.8...v0.30.9-rc1]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1</guid>
             <pubDate>Mon, 15 Jun 2026 19:55:07 GMT</pubDate>
