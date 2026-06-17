@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Jun 2026 15:06:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 17:04:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Announcing the Agentic Resource Discovery specification]]></title>
+            <description><![CDATA[An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...]]></description>
+            <link>https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/</guid>
+            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem]]></title>
             <link>https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem</link>
@@ -80,6 +87,12 @@
             <pubDate>Sun, 07 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Measuring LLMs’ impact on N-day exploits]]></title>
+            <link>https://www.anthropic.com/research/n-days</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/n-days</guid>
+            <pubDate>Sun, 07 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Introducing the Google Colab CLI]]></title>
             <description><![CDATA[Google has announced the Google Colab Command-Line Interface (CLI), a new tool that allows developers and AI agents to connect local terminals to remote Colab runtimes for frictionless execution. The lightweight CLI enables users to easily request high-powered GPUs, run local Python scripts remotely, and seamlessly retrieve artifact logs or models like fine-tuned Gemma 3 adapters. By integrating directly into standard terminal environments, the tool is highly programmable and ready to be used by AI agents such as Antigravity or Claude Code to manage complex machine learning pipelines.]]></description>
             <link>https://developers.googleblog.com/introducing-the-google-colab-cli/</link>
@@ -116,6 +129,12 @@
             <title><![CDATA[What we learned mapping a year’s worth of AI-enabled cyber threats]]></title>
             <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
+            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator]]></title>
+            <link>https://www.anthropic.com/research/attack-navigator</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/attack-navigator</guid>
             <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -166,6 +185,12 @@
             <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Measuring LLMs’ ability to develop exploits]]></title>
+            <link>https://www.anthropic.com/research/exploit-evals</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/exploit-evals</guid>
+            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Empowering Service Providers and Hardware Partners with Gemini for Home]]></title>
             <description><![CDATA[Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.]]></description>
             <link>https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</link>
@@ -178,13 +203,6 @@
             <link>https://developers.googleblog.com/adk-kotlin-android-building-ai-agents/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/adk-kotlin-android-building-ai-agents/</guid>
             <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Google Tensor SDK Beta with LiteRT]]></title>
-            <description><![CDATA[The Google Tensor ML SDK is graduating to its Beta phase, allowing developers to build and deploy high-performance machine learning models directly onto the TPU of Google Pixel 10 devices. By integrating with LiteRT, Google's edge deployment framework, the SDK provides a unified workflow for developers to convert, compile, and run PyTorch or TFLite models with robust fallback options. Additionally, a new model garden offers over 100 classic and generative AI models, including Gemma 3, enabling low-latency, private features like speech recognition, computer vision, and text generation.]]></description>
-            <link>https://developers.googleblog.com/google-tensor-sdk-beta-with-litert/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/google-tensor-sdk-beta-with-litert/</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2028: Two scenarios for global AI leadership]]></title>
@@ -204,12 +222,6 @@
             <description><![CDATA[AI models like Claude talk in words but think in numbers. In this study, we train Claude to translate its thoughts into human-readable text.]]></description>
             <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
-            <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Donating our open-source alignment tool]]></title>
-            <link>https://www.anthropic.com/research/donating-open-source-petri</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/donating-open-source-petri</guid>
             <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

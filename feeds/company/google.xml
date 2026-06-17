@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Jun 2026 15:06:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 17:04:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Announcing the Agentic Resource Discovery specification]]></title>
+            <description><![CDATA[An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...]]></description>
+            <link>https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/</guid>
+            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Unlocking the Power of the TPU Stack: Introducing our new Developer Hub]]></title>
             <description><![CDATA[Google has officially launched the TPU Developer Hub, a centralized educational resource designed to help model builders and developers maximize the performance of Google Cloud TPUs. The hub offers code-first resources, open-source recipes, and deep-dive documentation covering hardware architecture, software optimization, debugging, parallelism, and networking. These materials are tailored for both human developers and AI-assisted tools to streamline everything from large-scale training to low-latency inference workloads.]]></description>
@@ -260,13 +267,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0-preview.1</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0-preview.1</guid>
             <pubDate>Tue, 19 May 2026 19:35:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Google Tensor SDK Beta with LiteRT]]></title>
-            <description><![CDATA[The Google Tensor ML SDK is graduating to its Beta phase, allowing developers to build and deploy high-performance machine learning models directly onto the TPU of Google Pixel 10 devices. By integrating with LiteRT, Google's edge deployment framework, the SDK provides a unified workflow for developers to convert, compile, and run PyTorch or TFLite models with robust fallback options. Additionally, a new model garden offers over 100 classic and generative AI models, including Gemma 3, enabling low-latency, private features like speech recognition, computer vision, and text generation.]]></description>
-            <link>https://developers.googleblog.com/google-tensor-sdk-beta-with-litert/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/google-tensor-sdk-beta-with-litert/</guid>
-            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.44.0-nightly.20260518.g5611ff40e]]></title>
