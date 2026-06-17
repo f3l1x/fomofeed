@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Jun 2026 05:39:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 07:48:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 17 Jun 2026 04:11:15 GMT</pubDate>
+        <pubDate>Wed, 17 Jun 2026 07:00:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.27]]></title>
+            <description><![CDATA[- Added a cline skill command to install and manage skills, matching cline plugin install and cline mcp (installs default to the Cline agent directory) - Added a prefilled MCP install wizard command for quicker MCP server setup - Improved error handling and messaging when plugin MCP OAuth authorization fails - The CLI now rejects unknown commands and unquoted multi-word input with a clear error instead of silently treating bad arguments as a prompt **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.26...cli-v3.0.27]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.27</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.27</guid>
+            <pubDate>Wed, 17 Jun 2026 07:00:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.26]]></title>
             <description><![CDATA[- Reverted the expandable model picker sections and ClinePass models, restoring the previous model-selection UI **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.25...cli-v3.0.26]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.38.2</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.38.2</guid>
             <pubDate>Mon, 24 Nov 2025 20:42:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.38.1]]></title>
-            <description><![CDATA[## What's Changed * refactor: replace custom UI toggle with shadcn Switch component by @abeatrix in https://github.com/cline/cline/pull/7308 * fix: Remove 'signature' from sanitizeAnthropicContentBlock by @abeatrix in https://github.com/cline/cline/pull/7543 * v3.38.1 Release Notes by @arafatkatze in https://github.com/cline/cline/pull/7544 **Full Changelog**: https://github.com/cline/cline/compare/v3.38.0...v3.38.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.38.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.38.1</guid>
-            <pubDate>Tue, 18 Nov 2025 22:46:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
