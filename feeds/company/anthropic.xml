@@ -4,16 +4,23 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Jun 2026 19:14:45 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 05:40:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 16 Jun 2026 20:22:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.179]]></title>
+            <description><![CDATA[## What's changed - Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at "running tool" - Fixed mouse-wheel scrolling in WSL2 under Windows Terminal and VS Code (regression in 2.1.172) - Fixed a sandbox denyRead/allowRead glob over a large directory tree making the Bash tool description enormous and the session unusable on Linux - Fixed the feedback survey capturing a single-digit reply as a session rating immediately after a turn completes - Fixed the welcome screen stacking multiple promotional banners — at most one promo now shows per session - Fixed Ctrl+O not showing the subagent's transcript when viewing a subagent - Fixed clicking the prompt input not returning focus from the subagent/footer panel - Fixed remote session background tasks appearing stuck as "still running" between turns - Improved plugin loading performance in remote sessions]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.179</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.179</guid>
+            <pubDate>Tue, 16 Jun 2026 20:22:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Agentic coding and persistent returns to expertise]]></title>
             <link>https://www.anthropic.com/research/claude-code-expertise</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
-            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.178]]></title>
@@ -50,43 +57,11 @@
             <pubDate>Fri, 12 Jun 2026 01:16:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Statement on the US government directive to suspend access to Fable 5 and Mythos 5]]></title>
-            <description><![CDATA[The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5.]]></description>
-            <link>https://www.anthropic.com/news/fable-mythos-access</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/fable-mythos-access</guid>
-            <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Results from the first Anthropic Public Record]]></title>
-            <link>https://www.anthropic.com/news/anthropic-public-record</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-public-record</guid>
-            <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TCS and Anthropic partner to bring Claude to regulated industries]]></title>
-            <link>https://www.anthropic.com/news/tcs-anthropic-partnership</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/tcs-anthropic-partnership</guid>
-            <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.173]]></title>
             <description><![CDATA[## What's changed - Fixed Fable 5 model names with a [1m] suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically - Fixed a spurious "sandbox dependencies missing" startup warning on Windows when sandbox was enabled in settings]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.173</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.173</guid>
             <pubDate>Thu, 11 Jun 2026 05:41:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Corps]]></title>
-            <description><![CDATA[We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.]]></description>
-            <link>https://www.anthropic.com/news/claude-corps</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-corps</guid>
-            <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on]]></title>
-            <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
-            <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.172]]></title>
@@ -101,12 +76,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.170</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.170</guid>
             <pubDate>Tue, 09 Jun 2026 17:23:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Fable 5 and Claude Mythos 5]]></title>
-            <link>https://www.anthropic.com/news/claude-fable-5-mythos-5</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-fable-5-mythos-5</guid>
-            <pubDate>Mon, 08 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.169]]></title>
@@ -170,18 +139,6 @@
             <pubDate>Wed, 03 Jun 2026 21:31:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing the Services Track and Partner Hub of the Claude Partner Network]]></title>
-            <link>https://www.anthropic.com/news/services-track-partner-hub</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/services-track-partner-hub</guid>
-            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What we learned mapping a year’s worth of AI-enabled cyber threats]]></title>
-            <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
-            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.161]]></title>
             <description><![CDATA[## What's changed - OTEL_RESOURCE_ATTRIBUTES values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo - claude agents rows now show done/total before the detail when work is fanned out; peek shows the longest-running item - /mcp now collapses claude.ai connectors you've never signed in to behind a "Show unused connectors" row - Parallel tool calls: a failed Bash command no longer cancels other calls in the same batch — each tool returns its own result independently - Fullscreen mode: clipboard now uses wl-copy/xclip/xsel on Linux when available, copies to both the clipboard and PRIMARY selection for middle-click paste, and the "hold {key} for native selection" hint now shows the correct key per terminal - Fixed the /effort dialog, workflow animations, and prompt keyword shimmer not honoring the "Reduce motion" setting - Fixed forceLoginOrgUUID/forceLoginMethod managed-settings policies blocking third-party provider sessions (Bedrock, Vertex, Foundry, Mantle) alongside the org pin (regression in 2.1.146) - Fixed background subagent output corrupting claude -p stdout when using --output-format text or json - Fixed /usage-credits starting a re-login for Team and Enterprise admins instead of pointing to the organization's usage settings page - Fixed /autofix-pr reporting "cannot run on the default branch" when the session is inside a git worktree or another repository - Fixed --resume picker not showing sessions from the current directory when it isn't a git worktree (e.g., jj workspaces) - Fixed Windows hooks that invoke bash explicitly (e.g., /usr/bin/bash script.sh) failing with "command not found" or "cannot execute binary file" - Fixed OpenTelemetry log events (user_prompt, api_request, tool_result, tool_decision) being silently dropped when emitted before telemetry initialization completed - Fixed claude mcp list/get/add printing secrets to the terminal: ${VAR} references are no longer expanded, and credential headers and URL secrets are redacted - Fixed Workflow agents spawned with isolation: "worktree" in background sessions being blocked from editing files inside their own worktree - Fixed background sessions dispatched from claude agents booting on a stale model from the daemon's environment instead of the model in settings.json - Fixed a potential crash when rendering Write tool results after resuming a session - Fixed completed subagents getting stuck showing as running when an error occurs while finalizing their result - Fixed EADDRINUSE errors from tools that bind Unix sockets under $TMPDIR when CLAUDE_CODE_TMPDIR is set to a deep path - Improved terminal rendering performance by stabilizing the layout engine's JIT compilation profile - Improved rendering performance for large file writes - [VSCode] Added a tip suggesting disabling terminal GPU acceleration (or running /terminal-setup) to fix garbled glyphs]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.161</link>
@@ -194,19 +151,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.160</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.160</guid>
             <pubDate>Tue, 02 Jun 2026 02:10:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Expanding Project Glasswing]]></title>
-            <description><![CDATA[We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries.]]></description>
-            <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/expanding-project-glasswing</guid>
-            <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic confidentially submits draft S-1 to the SEC]]></title>
-            <link>https://www.anthropic.com/news/confidential-draft-s1-sec</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/confidential-draft-s1-sec</guid>
-            <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.159]]></title>
@@ -251,13 +195,6 @@
             <pubDate>Thu, 28 May 2026 00:52:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing Claude Opus 4.8]]></title>
-            <description><![CDATA[An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.]]></description>
-            <link>https://www.anthropic.com/news/claude-opus-4-8</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-4-8</guid>
-            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.152]]></title>
             <description><![CDATA[## What's changed - /code-review --fix now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; /simplify now invokes /code-review --fix - Skills and slash commands can now set disallowed-tools in frontmatter to remove tools from the model while the skill is active - Added /reload-skills command to re-scan skill directories without restarting the session - SessionStart hooks can now return reloadSkills: true to re-scan skill directories, making skills installed by the hook available in the same session - SessionStart hooks can now set the session title via hookSpecificOutput.sessionTitle on startup and resume - Added a MessageDisplay hook event that lets hooks transform or hide assistant message text as it is displayed - Added pluginSuggestionMarketplaces managed setting: admins can allowlist org marketplaces whose plugins may be suggested via context-aware tips - claude plugin marketplace remove now accepts --scope user|project|local for symmetry with marketplace add, install, and uninstall - Claude Code now switches to your configured --fallback-model for the rest of the session when the primary model is not found, instead of failing every request - Auto mode no longer requires opt-in consent - Vim mode: / in NORMAL mode now opens reverse history search (like Ctrl+R), matching bash/zsh vi-mode - The /usage breakdown now includes large session files; files are scanned with a streaming read so memory usage stays flat - Thinking summaries in the collapsed group now stay readable for at least 3 seconds, render as markdown, and cap at 10 lines (Ctrl+O shows the full thinking) - In fullscreen mode, the "Thinking for Ns" indicator now counts up live while the model is thinking, and keeps its value if you interrupt mid-thought - Simplified the Workflow tool's inline progress display — live agent counts now show only in the persistent workflow status row below the prompt - The post-response timer now shows "Waiting for N background agents/workflows to finish" when backgrounded agents or workflows are still running, and reports the cumulative time once their results are processed - Added the session entrypoint as an OpenTelemetry metric attribute (app.entrypoint, opt-in via OTEL_METRICS_INCLUDE_ENTRYPOINT=true) - Fixed terminal styling degrading in very long sessions by recycling the renderer's style pool - Fixed the sandbox-enabled warning not appearing in condensed startup mode — it now shows in every layout - Fixed the loading spinner showing "still thinking"/"almost done thinking" while a tool is running, and reset the thinking status to "thinking" after each tool - Fixed focus mode showing a spurious "N messages hidden" count on turns with no hidden activity - Fixed clicking a link inside an expanded tool result collapsing the section instead of opening the link - Fixed markdown table cell borders inheriting the color of inline code, wrapped continuation lines losing their style, and empty header cells showing a label in the narrow-terminal stacked layout - Fixed plugin MCP servers with the same command but different environment variables being incorrectly deduplicated - Fixed /doctor reporting "marketplace not found" or "plugin not found" for stale enabledPlugins entries referencing removed marketplaces or dropped plugins - Fixed plugins that track a git branch silently no longer receiving updates after the plugin registry was rebuilt - Fixed remote MCP servers failing to connect in Claude Code Remote sessions when the egress proxy is enabled - Fixed the effort-change confirmation dialog appearing when the conversation has no messages or when switching between effort levels that resolve to the same underlying value - Fixed the Agent tool description referencing an agent list that is never delivered when running with --bare or with attachments disabled - Fixed a background worker crash in claude agents when accepting a stale permission prompt after a subagent was cancelled - Fixed cache_creation_input_tokens reporting as 0 in transcript and result usage when the API reports cache writes only via the nested cache_creation breakdown - Fixed the PushNotification tool incorrectly reporting "Mobile push not sent (Remote Control inactive)" in SDK-hosted sessions when Remote Control is enabled - Fixed sessions getting stuck after a model or login switch left stale thinking-block signatures in history; now stripped proactively with a retry safety-net]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.152</link>
@@ -269,13 +206,6 @@
             <link>https://www.anthropic.com/research/coding-agents-social-sciences</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/coding-agents-social-sciences</guid>
             <pubDate>Tue, 26 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"]]></title>
-            <description><![CDATA[The full text of Chris Olah's remarks on the Pope's encyclical on AI.]]></description>
-            <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</guid>
-            <pubDate>Sun, 24 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.150]]></title>
@@ -861,13 +791,6 @@
             <pubDate>Wed, 25 Feb 2026 03:15:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v2.1.53]]></title>
-            <description><![CDATA[## What's changed - Fixed a UI flicker where user input would briefly disappear after submission before the message rendered - Fixed bulk agent kill (ctrl+f) to send a single aggregate notification instead of one per agent, and to properly clear the command queue - Fixed graceful shutdown sometimes leaving stale sessions when using Remote Control by parallelizing teardown network calls - Fixed --worktree sometimes being ignored on first launch - Fixed a panic ("switch on corrupted value") on Windows - Fixed a crash that could occur when spawning many processes on Windows - Fixed a crash in the WebAssembly interpreter on Linux x64 & Windows x64 - Fixed a crash that sometimes occurred after 2 minutes on Windows ARM64]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.53</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.53</guid>
-            <pubDate>Wed, 25 Feb 2026 00:13:48 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
             <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
@@ -1047,12 +970,6 @@
             <link>https://claude.com/blog/claude-builds-visuals</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-builds-visuals</guid>
             <pubDate>Wed, 19 Aug 2020 04:12:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Responsible Scaling Policy]]></title>
-            <link>https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</guid>
-            <pubDate>Fri, 01 May 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How we contain Claude across products]]></title>

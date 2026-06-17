@@ -4,16 +4,16 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Jun 2026 19:13:01 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 05:39:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Agentic coding and persistent returns to expertise]]></title>
             <link>https://www.anthropic.com/research/claude-code-expertise</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
-            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Paving the way for agents in biology]]></title>
