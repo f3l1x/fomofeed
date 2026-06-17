@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for The Batch - DeepLearning.AI]]></description>
         <link>https://www.deeplearning.ai/the-batch/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Jun 2026 09:38:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 15:06:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/the-batch.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>

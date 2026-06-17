@@ -4,11 +4,17 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Jun 2026 09:38:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 15:06:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 16 Jun 2026 20:22:14 GMT</pubDate>
+        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem]]></title>
+            <link>https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem</guid>
+            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.179]]></title>
             <description><![CDATA[## What's changed - Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at "running tool" - Fixed mouse-wheel scrolling in WSL2 under Windows Terminal and VS Code (regression in 2.1.172) - Fixed a sandbox denyRead/allowRead glob over a large directory tree making the Bash tool description enormous and the session unusable on Linux - Fixed the feedback survey capturing a single-digit reply as a session rating immediately after a turn completes - Fixed the welcome screen stacking multiple promotional banners — at most one promo now shows per session - Fixed Ctrl+O not showing the subagent's transcript when viewing a subagent - Fixed clicking the prompt input not returning focus from the subagent/footer panel - Fixed remote session background tasks appearing stuck as "still running" between turns - Improved plugin loading performance in remote sessions]]></description>
@@ -208,12 +214,6 @@
             <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/expanding-project-glasswing</guid>
             <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic confidentially submits draft S-1 to the SEC]]></title>
-            <link>https://www.anthropic.com/news/confidential-draft-s1-sec</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/confidential-draft-s1-sec</guid>
-            <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.159]]></title>
