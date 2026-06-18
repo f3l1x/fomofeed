@@ -4,9 +4,9 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 17:07:01 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jun 2026 18:50:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
@@ -14,7 +14,7 @@
             <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss, with full remediation from finding to fix.]]></description>
             <link>https://windsurf.com/blog/security-in-devin-review</link>
             <guid isPermaLink="false">https://windsurf.com/blog/security-in-devin-review</guid>
-            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Update on Claude Fable 5 in Devin]]></title>

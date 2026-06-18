@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 17:07:01 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jun 2026 18:50:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -376,6 +376,12 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Claude Code now supports artifacts]]></title>
+            <link>https://claude.com/blog/artifacts-in-claude-code</link>
+            <guid isPermaLink="false">https://claude.com/blog/artifacts-in-claude-code</guid>
+            <pubDate>Fri, 21 Feb 2020 22:22:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Building intelligent apps for Apple platforms with Claude in the Foundation Models framework]]></title>
             <link>https://claude.com/blog/claude-for-foundation-models</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-for-foundation-models</guid>
@@ -428,12 +434,6 @@
             <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
             <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
             <pubDate>Thu, 09 Apr 2020 14:12:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude now creates interactive charts, diagrams and visualizations]]></title>
-            <link>https://claude.com/blog/claude-builds-visuals</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-builds-visuals</guid>
-            <pubDate>Wed, 19 Aug 2020 04:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>
