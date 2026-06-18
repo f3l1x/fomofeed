@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 15:06:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jun 2026 17:07:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 14 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Security in Devin Review]]></title>
+            <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss, with full remediation from finding to fix.]]></description>
+            <link>https://windsurf.com/blog/security-in-devin-review</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/security-in-devin-review</guid>
+            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How Wayfair cut ML model costs by 90% (twice!) with Cursor]]></title>
             <link>https://cursor.com/blog/wayfair</link>
@@ -311,13 +318,6 @@
             <link>https://hamel.dev/blog/posts/revenge/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/revenge/index.html</guid>
             <pubDate>Thu, 26 Mar 2026 07:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing our new Windsurf pricing plans]]></title>
-            <description><![CDATA[We're simplifying Windsurf pricing across Free, Pro, and Teams alongside launching a new Max plan for our power users. The new plans replace the current credit-based system with industry-standard quotas.]]></description>
-            <link>https://windsurf.com/blog/windsurf-pricing-plans</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-pricing-plans</guid>
-            <pubDate>Tue, 17 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[DataOps with Dagster: A Practical Guide to Building a Reliable Data Platform]]></title>

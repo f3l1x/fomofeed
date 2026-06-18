@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 15:04:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jun 2026 17:05:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 08 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Security in Devin Review]]></title>
+            <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss, with full remediation from finding to fix.]]></description>
+            <link>https://windsurf.com/blog/security-in-devin-review</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/security-in-devin-review</guid>
+            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Update on Claude Fable 5 in Devin]]></title>
             <description><![CDATA[As of June 12, 2026, access to Claude Fable 5 has been removed from Devin following Anthropic's latest announcement and the US government directive. All other models remain available, including Claude Opus 4.8 and GPT-5.5.]]></description>
@@ -43,13 +50,6 @@
             <link>https://windsurf.com/blog/windsurf-adaptive</link>
             <guid isPermaLink="false">https://windsurf.com/blog/windsurf-adaptive</guid>
             <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing our new Windsurf pricing plans]]></title>
-            <description><![CDATA[We're simplifying Windsurf pricing across Free, Pro, and Teams alongside launching a new Max plan for our power users. The new plans replace the current credit-based system with industry-standard quotas.]]></description>
-            <link>https://windsurf.com/blog/windsurf-pricing-plans</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-pricing-plans</guid>
-            <pubDate>Tue, 17 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Windsurf is now Devin Desktop. The IDE you love, with more features. Learn more →Windsurf is now Devin Desktop →]]></title>

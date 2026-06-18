@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 15:06:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jun 2026 17:07:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 17 Jun 2026 22:07:41 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.181</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.181</guid>
             <pubDate>Wed, 17 Jun 2026 22:07:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Project Fetch: Phase two]]></title>
+            <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-phase-two</guid>
+            <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem]]></title>
@@ -384,12 +390,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.141</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.141</guid>
             <pubDate>Wed, 13 May 2026 23:19:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2028: Two scenarios for global AI leadership]]></title>
-            <link>https://www.anthropic.com/research/2028-ai-leadership</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/2028-ai-leadership</guid>
-            <pubDate>Wed, 13 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.140]]></title>
