@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 18:48:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jun 2026 05:42:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How A2A is Building a World of Collaborative Agents]]></title>
+            <description><![CDATA[Celebrating the first anniversary of the Agent-to-Agent (A2A) protocol, this blog post highlights how the framework enables autonomous AI agents to securely collaborate and hand off tasks without the rigidity of traditional APIs. By delegating complex workflows to specialized peer agents, A2A prevents context pollution, ensures data privacy, and simplifies application design through modularity. To demonstrate this ecosystem in action, the post spotlights FoldRun—an agentic interface for life sciences that orchestrates complex protein structure predictions—alongside diverse A2A use cases spanning commerce, data streaming, DevOps, and telecommunications.]]></description>
+            <link>https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/</guid>
+            <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs]]></title>
             <description><![CDATA[This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</guid>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Empowering Service Providers and Hardware Partners with Gemini for Home]]></title>
-            <description><![CDATA[Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.]]></description>
-            <link>https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</guid>
-            <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

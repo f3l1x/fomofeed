@@ -4,11 +4,23 @@
         <description><![CDATA[RSS feed for Continue Releases]]></description>
         <link>https://github.com/continuedev/continue/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 18:48:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jun 2026 05:43:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/continue-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 15 Jun 2026 16:59:46 GMT</pubDate>
+        <pubDate>Fri, 19 Jun 2026 00:24:01 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.0.0-vscode]]></title>
+            <link>https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode</guid>
+            <pubDate>Fri, 19 Jun 2026 00:24:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.0-vscode]]></title>
+            <link>https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode</link>
+            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode</guid>
+            <pubDate>Fri, 19 Jun 2026 00:24:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.2.24-vscode]]></title>
             <description><![CDATA[Stable release of the Continue VS Code extension (final release): removes the CLI-install banner and Generate Rule feature, switches onboarding and the new-config template to explicit model definitions (no Hub slugs), and updates the deprecation banner export link. Re-cut of v1.2.23 which only partially published due to a transient Marketplace API timeout.]]></description>
@@ -686,20 +698,6 @@
             <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251226</link>
             <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251226</guid>
             <pubDate>Fri, 26 Dec 2025 09:06:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251225]]></title>
-            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
-            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251225</link>
-            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251225</guid>
-            <pubDate>Thu, 25 Dec 2025 09:06:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI Beta Release v1.5.29-beta.20251224]]></title>
-            <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
-            <link>https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251224</link>
-            <guid isPermaLink="false">https://github.com/continuedev/continue/releases/tag/v1.5.29-beta.20251224</guid>
-            <pubDate>Wed, 24 Dec 2025 09:07:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Stable Release v1.5.29]]></title>

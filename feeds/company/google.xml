@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 18:50:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jun 2026 05:44:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 18 Jun 2026 01:51:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -22,6 +22,13 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0</guid>
             <pubDate>Wed, 17 Jun 2026 22:58:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How A2A is Building a World of Collaborative Agents]]></title>
+            <description><![CDATA[Celebrating the first anniversary of the Agent-to-Agent (A2A) protocol, this blog post highlights how the framework enables autonomous AI agents to securely collaborate and hand off tasks without the rigidity of traditional APIs. By delegating complex workflows to specialized peer agents, A2A prevents context pollution, ensures data privacy, and simplifies application design through modularity. To demonstrate this ecosystem in action, the post spotlights FoldRun—an agentic interface for life sciences that orchestrates complex protein structure predictions—alongside diverse A2A use cases spanning commerce, data streaming, DevOps, and telecommunications.]]></description>
+            <link>https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/</guid>
+            <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs]]></title>
@@ -267,13 +274,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4</guid>
             <pubDate>Thu, 21 May 2026 00:42:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Empowering Service Providers and Hardware Partners with Gemini for Home]]></title>
-            <description><![CDATA[Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.]]></description>
-            <link>https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</guid>
-            <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.43.0-preview.1]]></title>
