@@ -4,11 +4,18 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 19 Jun 2026 09:36:55 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jun 2026 15:04:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 19 Jun 2026 06:03:31 GMT</pubDate>
+        <pubDate>Fri, 19 Jun 2026 09:39:58 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.142.0-alpha.4]]></title>
+            <description><![CDATA[Release 0.142.0-alpha.4]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.4</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.4</guid>
+            <pubDate>Fri, 19 Jun 2026 09:39:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.17.6]]></title>
             <description><![CDATA[## What's Changed * feat: add pre-approval tool input guardrails by @seratch in https://github.com/openai/openai-agents-python/pull/3487 * feat: add SDK-only custom data for tool outputs by @seratch in https://github.com/openai/openai-agents-python/pull/3486 * fix: enforce the documented strict JSON-compatible contract for #3486 by @siddiksawani in https://github.com/openai/openai-agents-python/pull/3657 * fix: suppress handoff whitespace tool-name warnings by @seratch in https://github.com/openai/openai-agents-python/pull/3652 ### Documentation & Other Changes * docs: fix typo in sandbox guide by @mshsheikh in https://github.com/openai/openai-agents-python/pull/3628 * Release 0.17.6 by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/3659 ## New Contributors * @siddiksawani made their first contribution in https://github.com/openai/openai-agents-python/pull/3657 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.17.5...v0.17.6]]></description>
@@ -790,13 +797,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.128.0-alpha.1</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.128.0-alpha.1</guid>
             <pubDate>Thu, 30 Apr 2026 07:45:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.126.0-alpha.17]]></title>
-            <description><![CDATA[Release 0.126.0-alpha.17]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.17</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.126.0-alpha.17</guid>
-            <pubDate>Thu, 30 Apr 2026 00:52:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.14.8]]></title>
