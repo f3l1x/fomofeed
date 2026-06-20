@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 20 Jun 2026 14:46:36 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jun 2026 16:31:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 20 Jun 2026 14:06:47 GMT</pubDate>
+        <pubDate>Sat, 20 Jun 2026 15:29:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9739]]></title>
+            <description><![CDATA[release: add missing link for win opencl adreno arm64 (#24809) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9739</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9739</guid>
+            <pubDate>Sat, 20 Jun 2026 15:29:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9738]]></title>
             <description><![CDATA[server: avoid forwarding auth headers in CORS proxy (#24373) * server: avoid forwarding auth headers in CORS proxy * format * fix test * fix e2e test --------- Co-authored-by: Xuan Son Nguyen **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9594</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9594</guid>
             <pubDate>Thu, 11 Jun 2026 08:26:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9592]]></title>
-            <description><![CDATA[vendor : update LibreSSL to 4.3.2 (#24397) Signed-off-by: Adrien Gallouët **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) DISABLED **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) DISABLED - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9592</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9592</guid>
-            <pubDate>Wed, 10 Jun 2026 20:54:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
