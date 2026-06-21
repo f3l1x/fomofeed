@@ -4,24 +4,24 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 20 Jun 2026 18:30:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jun 2026 05:37:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 20 Jun 2026 12:30:45 GMT</pubDate>
+        <pubDate>Sun, 21 Jun 2026 01:28:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Sun, 21 Jun 2026 01:28:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.79.1]]></title>
             <description><![CDATA[# Bang Bang This release introduces a number of small but mighty UX improvements to improve the Bang Mode experience overall. Details below. Hope you’re chilling out, Charm 💘 ## Changelog ### Fixed * 11662010521e5211d825fcc21c4fdf8c72fda08e: fix(bangmode): activate bang mode when ! is preceded by whitespace (@meowgorithm) * 7e4bd6a0b44ce3c32f0e36d48ffcd77c1955d641: fix(bangmode): engage bang mode when pasting text starting with ! (@meowgorithm) * f342edf052ef1ca35fb202c235a976b9ef6f45f9: fix(bangmode): include bang commands in history (@meowgorithm) * d20e29ae75004991e801fc4fd18c83e68913b5ab: fix(bangmode): sync bang mode with external editor (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.79.1</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.79.1</guid>
             <pubDate>Sat, 20 Jun 2026 12:30:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Sat, 20 Jun 2026 01:19:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.79.0]]></title>
