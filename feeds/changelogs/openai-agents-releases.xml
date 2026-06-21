@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for OpenAI Agents SDK Releases]]></description>
         <link>https://github.com/openai/openai-agents-python/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 21 Jun 2026 14:46:58 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jun 2026 16:33:14 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-agents-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 19 Jun 2026 06:03:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
