@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Jun 2026 15:39:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2026 17:32:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A]]></title>
+            <description><![CDATA[How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]></description>
+            <link>https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</guid>
+            <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Measuring What Matters with Jules]]></title>
+            <description><![CDATA[AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...]]></description>
+            <link>https://developers.googleblog.com/measuring-what-matters-with-jules/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/measuring-what-matters-with-jules/</guid>
+            <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How A2A is Building a World of Collaborative Agents]]></title>
             <description><![CDATA[Celebrating the first anniversary of the Agent-to-Agent (A2A) protocol, this blog post highlights how the framework enables autonomous AI agents to securely collaborate and hand off tasks without the rigidity of traditional APIs. By delegating complex workflows to specialized peer agents, A2A prevents context pollution, ensures data privacy, and simplifies application design through modularity. To demonstrate this ecosystem in action, the post spotlights FoldRun—an agentic interface for life sciences that orchestrates complex protein structure predictions—alongside diverse A2A use cases spanning commerce, data streaming, DevOps, and telecommunications.]]></description>
@@ -64,20 +78,6 @@
             <link>https://developers.googleblog.com/gemma-4-12b-the-developer-guide/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/gemma-4-12b-the-developer-guide/</guid>
             <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How the community trained Gemma to "Think" with Tunix and TPUs]]></title>
-            <description><![CDATA[The Google Tunix Hackathon on Kaggle challenged developers to transform small, non-reasoning base models into general reasoning engines using Kaggle TPUs and a limited compute budget. The winning teams achieved this by implementing multi-stage post-training pipelines that combined Supervised Fine-Tuning (SFT) with advanced alignment techniques like GRPO and SimPO. Ultimately, the competition democratized AI development by proving that highly capable, structured reasoning models can be successfully trained by the community using accessible, open-source resources.]]></description>
-            <link>https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</guid>
-            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Supercharge your integration workflow with the Google Pay & Wallet Developer MCP server]]></title>
-            <description><![CDATA[Google has announced the new Google Pay & Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions, check integration status, and manage merchant accounts. Ultimately, this integration aims to reduce friction and accelerate development workflows by minimizing context switching and providing up-to-date, grounded AI support.]]></description>
-            <link>https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</guid>
-            <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
