@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Jun 2026 07:57:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2026 10:10:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -17,6 +17,7 @@
         </item>
         <item>
             <title><![CDATA[Agentic coding and persistent returns to expertise]]></title>
+            <description><![CDATA[This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.]]></description>
             <link>https://www.anthropic.com/research/claude-code-expertise</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
             <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
@@ -76,13 +77,6 @@
             <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
             <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Project Vend: Phase two]]></title>
-            <description><![CDATA[In June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?]]></description>
-            <link>https://www.anthropic.com/research/project-vend-2</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
-            <pubDate>Wed, 17 Dec 2025 23:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

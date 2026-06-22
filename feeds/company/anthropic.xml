@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Jun 2026 07:59:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2026 10:11:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 20 Jun 2026 20:59:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -51,6 +51,7 @@
         </item>
         <item>
             <title><![CDATA[Agentic coding and persistent returns to expertise]]></title>
+            <description><![CDATA[This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.]]></description>
             <link>https://www.anthropic.com/research/claude-code-expertise</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
             <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
@@ -902,13 +903,6 @@
             <link>https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</link>
             <guid isPermaLink="false">https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</guid>
             <pubDate>Thu, 08 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Project Vend: Phase two]]></title>
-            <description><![CDATA[In June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?]]></description>
-            <link>https://www.anthropic.com/research/project-vend-2</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
-            <pubDate>Wed, 17 Dec 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Effective harnesses for long-running agents]]></title>
