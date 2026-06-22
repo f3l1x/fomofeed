@@ -4,18 +4,11 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Jun 2026 17:34:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2026 19:07:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 14 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
-        <item>
-            <title><![CDATA[Reward hacking is swamping model intelligence gains]]></title>
-            <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
-            <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[How Wayfair cut ML model costs by 90% (twice!) with Cursor]]></title>
             <link>https://cursor.com/blog/wayfair</link>
@@ -112,6 +105,13 @@
             <guid isPermaLink="false">https://cursor.com/blog/bootstrapping-composer-with-autoinstall</guid>
             <category><![CDATA[research]]></category>
             <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Continually improving our agent harness]]></title>
+            <link>https://cursor.com/blog/continually-improving-agent-harness</link>
+            <guid isPermaLink="false">https://cursor.com/blog/continually-improving-agent-harness</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Build programmatic agents with the Cursor SDK]]></title>
