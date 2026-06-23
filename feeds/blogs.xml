@@ -4,11 +4,19 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Jun 2026 09:08:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jun 2026 15:04:02 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The Dagster Almanack: Operationalizing Data Orchestration]]></title>
+            <description><![CDATA[A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.]]></description>
+            <link>https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</link>
+            <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Security in Devin Review]]></title>
             <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss, with full remediation from finding to fix.]]></description>
@@ -318,14 +326,6 @@
             <link>https://hamel.dev/blog/posts/revenge/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/revenge/index.html</guid>
             <pubDate>Thu, 26 Mar 2026 07:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DataOps with Dagster: A Practical Guide to Building a Reliable Data Platform]]></title>
-            <description><![CDATA[DataOps is about building a system that provides visibility into what's happening and control over how it behaves]]></description>
-            <link>https://dagster.io/blog/dataops-with-dagster-a-practical-guide-to-building-a-reliable-data-platform</link>
-            <guid isPermaLink="false">https://dagster.io/blog/dataops-with-dagster-a-practical-guide-to-building-a-reliable-data-platform</guid>
-            <category><![CDATA[Engineering]]></category>
-            <pubDate>Mon, 16 Mar 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Evals Skills for Coding Agents]]></title>
