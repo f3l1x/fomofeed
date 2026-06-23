@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Jun 2026 16:50:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jun 2026 18:42:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Claude Tag]]></title>
+            <link>https://www.anthropic.com/news/introducing-claude-tag</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/introducing-claude-tag</guid>
+            <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A]]></title>
             <description><![CDATA[How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]></description>
