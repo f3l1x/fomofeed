@@ -4,13 +4,13 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Jun 2026 15:04:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jun 2026 16:50:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[The Dagster Almanack: Operationalizing Data Orchestration]]></title>
+            <title><![CDATA[Operationalizing Data Orchestration: Best Practices for DevOps, Infra, and Code Locations]]></title>
             <description><![CDATA[A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.]]></description>
             <link>https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</link>
             <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</guid>
