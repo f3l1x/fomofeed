@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 09:07:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jun 2026 14:59:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2653,6 +2653,13 @@
             <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</guid>
             <pubDate>Sun, 31 May 2020 08:22:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Training on ComplexConstraints: Expert Rubrics as RL Rewards]]></title>
+            <description><![CDATA[We post-trained Qwen3-4B on ComplexConstraints with RLVR using expert rubrics as the reward: +15.5pp in-distribution, +8.4pp AdvancedIF, +10.1pp MultiChallenge.]]></description>
+            <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
+            <pubDate>Mon, 16 Nov 2020 10:44:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[HANDBOOK.md — Can Agents Follow 100-Page Company Policies?]]></title>
