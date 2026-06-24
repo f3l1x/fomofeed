@@ -4,13 +4,21 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Jun 2026 18:42:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jun 2026 05:21:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 23 Jun 2026 21:03:48 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
+            <title><![CDATA[v2.1.187]]></title>
+            <description><![CDATA[## What's changed - Added sandbox.credentials setting to block sandboxed commands from reading credential files and secret environment variables - Added org-configured model restrictions to the model picker, --model, /model, and ANTHROPIC_MODEL, with a "restricted by your organization's settings" message when a restricted model is selected - Added mouse click support to select menus (permission prompts, /model, /config, etc.) in fullscreen mode - Fixed --resume failing with "No conversation found" when the original -p run produced no model turns - Fixed --json-schema and workflow agent({schema}) structured output: the model can no longer re-call StructuredOutput indefinitely after a successful call, and follow-up turns now reliably return structured output - Fixed remote MCP tool calls that hang with no response for 5 minutes — they now abort with an error instead of blocking indefinitely (override with CLAUDE_CODE_MCP_TOOL_IDLE_TIMEOUT) - Fixed Claude Code Remote sessions taking ~2.7s longer to start after the agent proxy CA system-trust install was added - Fixed pasted Korean/CJK text turning into mojibake in terminals that deliver paste as per-byte extended-key events - Fixed /update over Remote Control hanging when a startup trust dialog would have shown - Fixed background jobs in the agents view getting stuck in "working" indefinitely when the agent ended a turn without producing structured output - Fixed channel connections dropping after navigating to the agents view and back, and after /bg, /tui, or /update - Fixed agent stop notifications not correctly attributing who stopped the agent, and improved wording ("finished"/"stopped" instead of "came to rest") - Fixed subagent depth tracking: resumed subagents now restore their original spawn depth, and forked subagents now count toward the depth cap - Fixed leaked agent worktree registrations: locked .git/worktrees/ entries from killed agents are now cleaned up automatically - Fixed Cmd+click not opening URLs in fullscreen mode in Ghostty on macOS - Fixed claude --help not listing the --bg/--background flag - Fixed Esc, Ctrl-C, and Ctrl-D not working while /share is uploading - Improved /install-github-app: GitHub Actions workflow setup is now optional — you can install just the GitHub App and skip the workflow/secret steps - Improved /btw with ←/→ arrow navigation to step through earlier answers - Improved /plugin to surface plugins you haven't used recently so you can clean them up - [VSCode] Fixed extension becoming unresponsive when resuming a large session]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.187</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.187</guid>
+            <pubDate>Tue, 23 Jun 2026 21:03:48 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Introducing Claude Tag]]></title>
+            <description><![CDATA[Claude Tag is a new way for teams to work with Claude.]]></description>
             <link>https://www.anthropic.com/news/introducing-claude-tag</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/introducing-claude-tag</guid>
             <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
@@ -329,13 +337,6 @@
             <link>https://www.anthropic.com/research/coding-agents-social-sciences</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/coding-agents-social-sciences</guid>
             <pubDate>Tue, 26 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"]]></title>
-            <description><![CDATA[The full text of Chris Olah's remarks on the Pope's encyclical on AI.]]></description>
-            <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</guid>
-            <pubDate>Sun, 24 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.150]]></title>
@@ -878,13 +879,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.62</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.62</guid>
             <pubDate>Fri, 27 Feb 2026 01:56:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.61]]></title>
-            <description><![CDATA[## What's changed - Fixed concurrent writes corrupting config file on Windows]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.61</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.61</guid>
-            <pubDate>Thu, 26 Feb 2026 22:34:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>

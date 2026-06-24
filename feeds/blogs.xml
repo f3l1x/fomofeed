@@ -4,23 +4,23 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Jun 2026 18:42:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jun 2026 05:21:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
-        <item>
-            <title><![CDATA[Coinbase reduces time from idea to production by 90% with Cursor]]></title>
-            <link>https://cursor.com/blog/coinbase</link>
-            <guid isPermaLink="false">https://cursor.com/blog/coinbase</guid>
-            <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[Operationalizing Data Orchestration: Best Practices for DevOps, Infra, and Code Locations]]></title>
             <description><![CDATA[A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.]]></description>
             <link>https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</link>
             <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</guid>
             <category><![CDATA[Engineering]]></category>
+            <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coinbase reduces time from idea to production by 90% with Cursor]]></title>
+            <link>https://cursor.com/blog/coinbase</link>
+            <guid isPermaLink="false">https://cursor.com/blog/coinbase</guid>
             <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
