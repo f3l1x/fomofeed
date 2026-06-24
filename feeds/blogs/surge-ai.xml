@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 16:43:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jun 2026 18:35:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -297,7 +297,7 @@
             <pubDate>Mon, 16 Nov 2020 10:44:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[HANDBOOK.md — Can Agents Follow 100-Page Company Policies?]]></title>
+            <title><![CDATA[HANDBOOK.md: Can Agents Follow 100-Page Company Policies?]]></title>
             <description><![CDATA[A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model clears 25%. Instead, they fired employees without authorization, then reported full compliance.]]></description>
             <link>https://www.surgehq.ai/blog/handbook-md-draft</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/handbook-md-draft</guid>

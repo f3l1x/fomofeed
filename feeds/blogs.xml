@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 16:45:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jun 2026 18:37:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2662,7 +2662,7 @@
             <pubDate>Mon, 16 Nov 2020 10:44:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[HANDBOOK.md — Can Agents Follow 100-Page Company Policies?]]></title>
+            <title><![CDATA[HANDBOOK.md: Can Agents Follow 100-Page Company Policies?]]></title>
             <description><![CDATA[A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model clears 25%. Instead, they fired employees without authorization, then reported full compliance.]]></description>
             <link>https://www.surgehq.ai/blog/handbook-md-draft</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/handbook-md-draft</guid>
