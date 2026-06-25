@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jun 2026 16:46:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 18:43:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -51,10 +51,9 @@
         </item>
         <item>
             <title><![CDATA[Direct agents with visual prompts in Design Mode]]></title>
-            <description><![CDATA[Point, draw, or narrate UI changes in the browser while agents edit the code underneath.]]></description>
             <link>https://cursor.com/blog/design-mode</link>
             <guid isPermaLink="false">https://cursor.com/blog/design-mode</guid>
-            <category><![CDATA[Product]]></category>
+            <category><![CDATA[product]]></category>
             <pubDate>Thu, 04 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

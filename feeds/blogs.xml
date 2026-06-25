@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jun 2026 16:48:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 18:45:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -102,10 +102,9 @@
         </item>
         <item>
             <title><![CDATA[Direct agents with visual prompts in Design Mode]]></title>
-            <description><![CDATA[Point, draw, or narrate UI changes in the browser while agents edit the code underneath.]]></description>
             <link>https://cursor.com/blog/design-mode</link>
             <guid isPermaLink="false">https://cursor.com/blog/design-mode</guid>
-            <category><![CDATA[Product]]></category>
+            <category><![CDATA[product]]></category>
             <pubDate>Thu, 04 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -2375,6 +2374,13 @@
             <pubDate>Mon, 02 Mar 2020 14:56:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[HANDBOOK.md: Can Agents Follow 100-Page Company Policies?]]></title>
+            <description><![CDATA[A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model exceeds 25%. Instead, they fire employees without authorization, approve self-submitted expenses, and send expired medical records to insurers.]]></description>
+            <link>https://www.surgehq.ai/blog/handbook-md</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/handbook-md</guid>
+            <pubDate>Mon, 22 Jun 2020 06:01:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ComplexConstraints: A Benchmark for Entangled Instruction Following]]></title>
             <description><![CDATA[A benchmark for entangled instruction following, where constraints depend on each other, fire conditionally, and must be inferred from context.]]></description>
             <link>https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</link>
@@ -2660,13 +2666,6 @@
             <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
             <pubDate>Mon, 16 Nov 2020 10:44:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[HANDBOOK.md: Can Agents Follow 100-Page Company Policies?]]></title>
-            <description><![CDATA[A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model exceeds 25%. Instead, they fire employees without authorization, approve self-submitted expenses, and send expired medical records to insurers.]]></description>
-            <link>https://www.surgehq.ai/blog/handbook-md</link>
-            <guid isPermaLink="false">https://www.surgehq.ai/blog/handbook-md</guid>
-            <pubDate>Mon, 22 Jun 2020 06:01:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

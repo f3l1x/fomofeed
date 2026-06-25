@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jun 2026 16:47:14 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 18:44:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jun 2026 01:15:57 GMT</pubDate>
+        <pubDate>Thu, 25 Jun 2026 18:01:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.80.0]]></title>
+            <description><![CDATA[# Thursday patch We're all! We're here bringing you a few enhancements and improvements. ## Fixed potential session break If the model decides to do a tool call with invalid arguments (invalid JSON), the session was just breaking, and even new prompts wouldn't anymore. We're now validating the issue and reporting it as an error to the model so it can correct itself. Your session will also just keep working. ## Better local models For local models, Crush will now automatically detect models context windows. This fixes a bug of Crush always reporting 0% context window usage for local models. ## Config fixes We did some refactor on the config loading so it's more performant and safe for big configs (many providers and models, etc). This also means that the model picker dialog should be faster. We also added some safe-guards to prevent race conditions when multiple Crush instances try to update the config at the same time. That's it for today. Keep Crushing! :cupid: ## Changelog ### New! * c1a482267431964b9c27f16b925fd659a1b222c2: feat(providers): add llamacpp enricher (@taciturnaxolotl) * 81cb9d990aa272dc1fdf17ae086b2b23ee3cae08: feat(ui): optimize model ui rendering (@taciturnaxolotl) * 4be77c5675b38f851a94040794cbe3417f5dee20: feat: log provider warnings from fantasy step results (@taciturnaxolotl) ### Fixed * de6792039e757b533589da4165a2ed4182ed94cb: fix(auth): stop two Crush instances from invalidating each other's login (@taciturnaxolotl) * b10f890f55b1c00969b8e59a6828b6f405103b5a: fix(config): make concurrent config access race-free via copy-on-write (@taciturnaxolotl) * af76fa73bfce9042c1ffeaade2371355a869cfee: fix(docs): set proper auto discovery models flag (@taciturnaxolotl) * 67f50014e81be7fbdf1187fa78e65279b87b7908: fix(glob): keep file search fast and bounded on large directories (@taciturnaxolotl) * bb44fb1f4955920076da9f78a9f0738c2f4d5ecb: fix(hooks): bridge Claude Code additionalContext onto HookResult.Context (@ken-jo) * 720698112727dacfd3d468c0414003b427aa7691: fix(scrolling): stale scrolling acceleration (#3197) (@chardoncs) * cfdca3587fd5d515963db79e15a9f06071b18caa: fix: correct model discovery enrichment for local providers (@taciturnaxolotl) * 1bb945c83f68f841c187b24638c4ca4d1ef4a8b7: fix: prevent flaky diffview golden tests on Windows CI (@taciturnaxolotl) * 1350167227756c67ea429c5191a05f6b23fd35b8: fix: render pills box reliably when todos or queue appear mid-session (@taciturnaxolotl) * 21a457d5e0de4cc56419ff239676bcfe52054b3d: fix: validate tool call JSON before storing to prevent stuck conversations (@taciturnaxolotl) ### Other stuff * a5896b4f62d74643daad01ed03a34423386d6650: chore: auto-update files (@charmcli) * aa3bdedafedaaff8043f3a9091c1fe0adfdd552d: chore: bump fantasy to 0.33.2 (@taciturnaxolotl) * 7f7eb603ac7437156733b42be60c4e8961867fb3: chore: bump golangci version to fix lint issues in ci (@taciturnaxolotl) * 6b68930b2d6a9d99b7bd7fe1a84ddf1e8498f475: chore: fix lint on interp.ExecHandler (#3200) (@taciturnaxolotl) * f5b996bff40ecd881b5d92d8b876a08b62a94373: perf(config): make model selection and config reload fast (@taciturnaxolotl) * 173b2be61b2906bf0bcb107081d700ed36550a85: perf(ui): skip theme rebuild when provider keeps the same theme (@taciturnaxolotl) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.80.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.80.0</guid>
+            <pubDate>Thu, 25 Jun 2026 18:01:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nightly]]></title>
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.18.5</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.18.5</guid>
             <pubDate>Fri, 21 Nov 2025 20:11:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.18.4]]></title>
-            <description><![CDATA[# Kimi for Coding! Did you know Kimi has a subscription plan for coding? This release adds support for exactly that. Let us know how you like it and see you in the next release! 💘 ## Changelog ### Fixed * f08e8525207b456dea90d90a0bdb993564f6a62e: fix: detect version for go install ...@main (#1476) (@andreynering) * 4827f4cda3ed74068b446250ab204db69f1cf7d0: fix: kimi coding api key validation (#1477) (@kujtimiihoxha) --- Verifying the artifacts First, download the checksums.txt file, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.18.4</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.18.4</guid>
-            <pubDate>Wed, 19 Nov 2025 16:09:24 GMT</pubDate>
         </item>
     </channel>
 </rss>
