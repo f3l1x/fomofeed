@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 18:37:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 05:22:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How Notion used the Cursor SDK to embed coding agents]]></title>
+            <link>https://cursor.com/blog/notion</link>
+            <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
+            <category><![CDATA[product]]></category>
+            <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kimi K2.7 and GLM 5.2 Now Available in Devin Desktop and CLI]]></title>
+            <description><![CDATA[Kimi K2.7 and GLM 5.2 are now available in Devin Desktop and CLI. Both models deliver strong FrontierCode Extended scores and won't consume quota for Pro, Max, and Teams plans until July 5.]]></description>
+            <link>https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</guid>
+            <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Operationalizing Data Orchestration: Best Practices for DevOps, Infra, and Code Locations]]></title>
             <description><![CDATA[A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.]]></description>
@@ -230,13 +244,6 @@
             <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Continually improving our agent harness]]></title>
-            <link>https://cursor.com/blog/continually-improving-agent-harness</link>
-            <guid isPermaLink="false">https://cursor.com/blog/continually-improving-agent-harness</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Build programmatic agents with the Cursor SDK]]></title>
             <description><![CDATA[Launch, steer, and compose custom agents with the Cursor SDK.]]></description>
             <link>https://cursor.com/blog/typescript-sdk</link>
@@ -282,13 +289,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/dagster-1-13-octopuss-garden</guid>
             <category><![CDATA[Releases]]></category>
             <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Adaptive: a smarter way to use Windsurf]]></title>
-            <description><![CDATA[We're launching multiple updates to Windsurf today: an Adaptive model router, a redesigned model picker with pricing context, and the removal of daily limits for Max.]]></description>
-            <link>https://windsurf.com/blog/windsurf-adaptive</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-adaptive</guid>
-            <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Monorepos, the hub-and-spoke model, and Copybara]]></title>
@@ -2663,10 +2663,10 @@
         </item>
         <item>
             <title><![CDATA[HANDBOOK.md: Can Agents Follow 100-Page Company Policies?]]></title>
-            <description><![CDATA[A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model clears 25%. Instead, they fired employees without authorization, then reported full compliance.]]></description>
-            <link>https://www.surgehq.ai/blog/handbook-md-draft</link>
-            <guid isPermaLink="false">https://www.surgehq.ai/blog/handbook-md-draft</guid>
-            <pubDate>Mon, 30 Nov 2020 10:43:00 GMT</pubDate>
+            <description><![CDATA[A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model exceeds 25%. Instead, they fire employees without authorization, approve self-submitted expenses, and send expired medical records to insurers.]]></description>
+            <link>https://www.surgehq.ai/blog/handbook-md</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/handbook-md</guid>
+            <pubDate>Mon, 22 Jun 2020 06:01:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

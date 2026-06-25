@@ -4,11 +4,18 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 18:37:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 05:22:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Kimi K2.7 and GLM 5.2 Now Available in Devin Desktop and CLI]]></title>
+            <description><![CDATA[Kimi K2.7 and GLM 5.2 are now available in Devin Desktop and CLI. Both models deliver strong FrontierCode Extended scores and won't consume quota for Pro, Max, and Teams plans until July 5.]]></description>
+            <link>https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</guid>
+            <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Security in Devin Review]]></title>
             <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss, with full remediation from finding to fix.]]></description>
@@ -43,13 +50,6 @@
             <link>https://windsurf.com/blog/windsurf-2-0</link>
             <guid isPermaLink="false">https://windsurf.com/blog/windsurf-2-0</guid>
             <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Adaptive: a smarter way to use Windsurf]]></title>
-            <description><![CDATA[We're launching multiple updates to Windsurf today: an Adaptive model router, a redesigned model picker with pricing context, and the removal of daily limits for Max.]]></description>
-            <link>https://windsurf.com/blog/windsurf-adaptive</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-adaptive</guid>
-            <pubDate>Sun, 05 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Windsurf is now Devin Desktop. The IDE you love, with more features. Learn more →Windsurf is now Devin Desktop →]]></title>

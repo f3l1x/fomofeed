@@ -4,11 +4,18 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 18:37:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 05:22:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Jun 2026 15:53:56 GMT</pubDate>
+        <pubDate>Wed, 24 Jun 2026 21:58:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v2.1.191]]></title>
+            <description><![CDATA[## What's changed - Added /rewind support for resuming a conversation from before /clear was run - Fixed scroll position jumping to the bottom while reading earlier output during a streaming response - Fixed background agents resurrecting after being stopped — stopping an agent from the tasks panel is now permanent - Fixed /voice showing a generic "not available" message when disabled by an organization's policy — it now explains the restriction - Fixed /login URL opening truncated in Windows Terminal when it wraps across lines - Fixed Cmd+click on links in fullscreen mode for Ghostty over ssh/tmux - Fixed claude agents sending builtin slash commands like /usage to background sessions as prompt text instead of showing a hint - Fixed claude agents job rows showing full filesystem paths for pasted images instead of the [Image #N] placeholder - Fixed hooks with comma-separated matchers (e.g. "Bash,PowerShell") silently never firing - Fixed /permissions Recently-denied tab: approving a denial now persists on close instead of being silently discarded - Fixed the agent panel jumping by one row when scrolling the roster past the overflow cap - Fixed the welcome splash art overflowing the default 80×24 macOS Terminal window - Fixed managed settings: forceRemoteSettingsRefresh now takes effect when set via MDM or file policy, and the fetch sends Cache-Control: no-cache to prevent proxies from serving stale responses - Improved sandbox network permission dialog: hosts you allow with "Yes" are now remembered for the rest of the session instead of re-prompting on every connection - Improved MCP server reliability: capability discovery (tools/list, prompts/list, resources/list) now retries transient network errors with short backoff - Improved MCP OAuth: discovery and token requests now retry once after transient network errors, and headless environments skip the browser popup and go straight to the paste-the-URL prompt - Improved MCP error messages: HTTP 404 errors now show the URL and point to your MCP config - Improved vim mode prompt-history search (NORMAL /) to hint how to reach slash commands - Reduced CPU usage during streaming responses by ~37% by coalescing text updates to 100ms - Reduced long-session memory growth from terminal output cache]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.191</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.191</guid>
+            <pubDate>Wed, 24 Jun 2026 21:58:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.190]]></title>
             <description><![CDATA[## What's changed - Bug fixes and reliability improvements]]></description>
@@ -872,13 +879,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.66</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.66</guid>
             <pubDate>Wed, 04 Mar 2026 01:19:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.63]]></title>
-            <description><![CDATA[## What's changed - Added /simplify and /batch bundled slash commands - Fixed local slash command output like /cost appearing as user-sent messages instead of system messages in the UI - Project configs & auto memory now shared across git worktrees of the same repository - Added ENABLE_CLAUDEAI_MCP_SERVERS=false env var to opt out from making claude.ai MCP servers available - Improved /model command to show the currently active model in the slash command menu - Added HTTP hooks, which can POST JSON to a URL and receive JSON instead of running a shell command - Fixed listener leak in bridge polling loop - Fixed listener leak in MCP OAuth flow cleanup - Added manual URL paste fallback during MCP OAuth authentication. If the automatic localhost redirect doesn't work, you can paste the callback URL to complete authentication. - Fixed memory leak when navigating hooks configuration menu - Fixed listener leak in interactive permission handler during auto-approvals - Fixed file count cache ignoring glob ignore patterns - Fixed memory leak in bash command prefix cache - Fixed MCP tool/resource cache leak on server reconnect - Fixed IDE host IP detection cache incorrectly sharing results across ports - Fixed WebSocket listener leak on transport reconnect - Fixed memory leak in git root detection cache that could cause unbounded growth in long-running sessions - Fixed memory leak in JSON parsing cache that grew unbounded over long sessions - VSCode: Fixed remote sessions not appearing in conversation history - Fixed a race condition in the REPL bridge where new messages could arrive at the server interleaved with historical messages during the initial connection flush, causing message ordering issues. - Fixed memory leak where long-running teammates retained all messages in AppState even after conversation compaction - Fixed a memory leak where MCP server fetch caches were not cleared on disconnect, causing growing memory usage with servers that reconnect frequently - Improved memory usage in long sessions with subagents by stripping heavy progress message payloads during context compaction - Added "Always copy full response" option to the /copy picker. When selected, future /copy commands will skip the code block picker and copy the full response directly. - VSCode: Added session rename and remove actions to the sessions list - Fixed /clear not resetting cached skills, which could cause stale skill content to persist in the new conversation]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.63</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.63</guid>
-            <pubDate>Sat, 28 Feb 2026 03:45:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>

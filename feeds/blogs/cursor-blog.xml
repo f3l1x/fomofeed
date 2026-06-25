@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 18:35:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 05:20:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How Notion used the Cursor SDK to embed coding agents]]></title>
+            <link>https://cursor.com/blog/notion</link>
+            <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
+            <category><![CDATA[product]]></category>
+            <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Coinbase reduces time from idea to production by 90% with Cursor]]></title>
             <link>https://cursor.com/blog/coinbase</link>
@@ -111,13 +118,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/bootstrapping-composer-with-autoinstall</guid>
             <category><![CDATA[research]]></category>
             <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Continually improving our agent harness]]></title>
-            <link>https://cursor.com/blog/continually-improving-agent-harness</link>
-            <guid isPermaLink="false">https://cursor.com/blog/continually-improving-agent-harness</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Wed, 29 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Build programmatic agents with the Cursor SDK]]></title>

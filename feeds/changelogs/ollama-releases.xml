@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 18:35:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 05:21:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 17 Jun 2026 16:22:02 GMT</pubDate>
+        <pubDate>Thu, 25 Jun 2026 01:52:05 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.30.11]]></title>
+            <description><![CDATA[## What's Changed * launch: add thinking capability detection to opencode by @hoyyeva in https://github.com/ollama/ollama/pull/15434 * launch: auto-install Claude Code by @hoyyeva in https://github.com/ollama/ollama/pull/16802 * launch: auto-install opencode when missing by @hoyyeva in https://github.com/ollama/ollama/pull/16806 * discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in https://github.com/ollama/ollama/pull/16669 * mlxrunner: unify and tune speculative decoding by @jessegross in https://github.com/ollama/ollama/pull/16791 * launch/codex: detect model drift when Codex App UI switches by @BruceMacD in https://github.com/ollama/ollama/pull/16864 * llama: add sm_86 architecture to cuda_v13_windows preset by @anishesg in https://github.com/ollama/ollama/pull/16834 * llm: size mmproj offload by projector memory by @dhiltgen in https://github.com/ollama/ollama/pull/16866 * docs: document max think level by @ParthSareen in https://github.com/ollama/ollama/pull/16877 * llm: preserve generation headroom for shifted prompts by @ParthSareen in https://github.com/ollama/ollama/pull/16856 * llama: default qwen2.5vl window attention metadata by @dhiltgen in https://github.com/ollama/ollama/pull/16868 * llm: use host Vulkan loader on Windows by @dhiltgen in https://github.com/ollama/ollama/pull/16869 * mlx: update and fix CUDA JIT packaging by @dhiltgen in https://github.com/ollama/ollama/pull/16871 * llm: fix ollama ps double-counting mmap'd weights on partial offload by @discobot in https://github.com/ollama/ollama/pull/16709 * docs: redesign docs landing and integrations overview by @hoyyeva in https://github.com/ollama/ollama/pull/16807 * server: align generate with native chat templates by @dhiltgen in https://github.com/ollama/ollama/pull/16878 * jetson: add CC 87 for CUDA v13 by @dhiltgen in https://github.com/ollama/ollama/pull/16628 * llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16548 ## New Contributors * @Sahil170595 made their first contribution in https://github.com/ollama/ollama/pull/16669 * @anishesg made their first contribution in https://github.com/ollama/ollama/pull/16834 * @discobot made their first contribution in https://github.com/ollama/ollama/pull/16709 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.10...v0.30.11-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0</guid>
+            <pubDate>Thu, 25 Jun 2026 01:52:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.30.10]]></title>
             <description><![CDATA[## What's Changed * Command A and North family models now run on Apple Silicon with the MLX engine * Updated the underlying llama.cpp engine to build 9672 * Fixed build artifacts for MLX **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.8.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.8.0</guid>
             <pubDate>Tue, 27 May 2025 19:55:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.1]]></title>
-            <description><![CDATA[## What's Changed * Improved model memory management to allocate sufficient memory to prevent crashes when running multimodal models in certain situations * Enhanced memory estimation for models to prevent unintended memory offloading * ollama show will now show ... when data is truncated * Fixed crash that would occur with qwen2.5vl * Fixed crash on Nvidia's CUDA for llama3.2-vision * Support for Alibaba's Qwen 3 and Qwen 2 architectures in Ollama's new multimodal engine ## New Contributors * @ronxldwilson made their first contribution in https://github.com/ollama/ollama/pull/10763 * @DarkCaster made their first contribution in https://github.com/ollama/ollama/pull/10779 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.7.0...v0.7.1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.7.1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.7.1</guid>
-            <pubDate>Wed, 21 May 2025 22:17:35 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 18:37:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 05:22:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 25 Jun 2026 01:45:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.49.0-nightly.20260625.gd845bc5d4]]></title>
+            <description><![CDATA[## What's Changed * fix(cli): prevent path traversal vulnerabilities during skill install… by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/27767 * Fix/pending tools and trust overrides by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/27854 * ci: use internal environment for scheduled nightly releases (#27865) by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/27939 * feat(core): Support GDC air-gapped Service Identity after auth library update by @sidhantgoyal-droid in https://github.com/google-gemini/gemini-cli/pull/27956 * fix(cli): handle tmux false positive background detection by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27572 * Add static eval source analyzer by @ved015 in https://github.com/google-gemini/gemini-cli/pull/27631 * fix(config): migrate coreTools setting to tools.core by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27947 * fix(core-tools): resolve defensive path resolution for at-reference files by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27943 * Revert "fix(core-tools): resolve defensive path resolution for at-reference files" by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27992 * chore(release): bump version to 0.49.0-nightly.20260617.g4d3dcdce1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28003 * Changelog for v0.48.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27999 * fix(ci): provide fallbacks for package variables in nightly release by @galz10 in https://github.com/google-gemini/gemini-cli/pull/28016 * chore(deps): pin dependencies and enforce 14-day update cooldown by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27948 * fix(ci): append trailing slash to registry url in npmrc by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28038 * feat: add eval:inventory CLI command and reporting logic by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28009 * fix: resolve workspace publish failures and scheduler event loop starvation by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28063 * fix(ci): use wombat dressing room fallback in nightly release to prevent ENEEDAUTH by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28104 * Add JSON output for eval inventory by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28058 * fix/verify release npm ci ignore scripts by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28116 * fix(ci): prevent workspace binary shadowing in release verification by @galz10 in https://github.com/google-gemini/gemini-cli/pull/28132 * Feat/tool registry discovery by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28113 ## New Contributors * @sidhantgoyal-droid made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27956 * @amelidev made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27572 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.48.0-nightly.20260613.g9e5599c32...v0.49.0-nightly.20260625.gd845bc5d4]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.49.0-nightly.20260625.gd845bc5d4</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.49.0-nightly.20260625.gd845bc5d4</guid>
+            <pubDate>Thu, 25 Jun 2026 01:45:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A]]></title>
             <description><![CDATA[How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]></description>
@@ -771,13 +778,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.0-preview.5</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.0-preview.5</guid>
             <pubDate>Mon, 23 Mar 2026 23:25:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.35.0-preview.4]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.35.0-preview.3...v0.35.0-preview.4]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.0-preview.4</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.0-preview.4</guid>
-            <pubDate>Mon, 23 Mar 2026 20:13:44 GMT</pubDate>
         </item>
     </channel>
 </rss>
