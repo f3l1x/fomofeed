@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Jun 2026 14:53:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jun 2026 16:40:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Anthropic Economic Index report: Cadences]]></title>
+            <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
+            <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Project Fetch: Phase two]]></title>
             <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
@@ -56,12 +62,6 @@
             <title><![CDATA[Project Glasswing: An initial update]]></title>
             <link>https://www.anthropic.com/research/glasswing-initial-update</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/glasswing-initial-update</guid>
-            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Measuring LLMs’ ability to develop exploits]]></title>
-            <link>https://www.anthropic.com/research/exploit-evals</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/exploit-evals</guid>
             <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
