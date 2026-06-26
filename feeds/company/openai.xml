@@ -4,11 +4,24 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jun 2026 18:45:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jun 2026 05:27:41 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jun 2026 18:08:44 GMT</pubDate>
+        <pubDate>Thu, 25 Jun 2026 21:55:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.143.0-alpha.25]]></title>
+            <description><![CDATA[Release 0.143.0-alpha.25]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.25</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.25</guid>
+            <pubDate>Thu, 25 Jun 2026 21:55:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[codex-zsh-v0.1.0]]></title>
+            <link>https://github.com/openai/codex/releases/tag/codex-zsh-v0.1.0</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/codex-zsh-v0.1.0</guid>
+            <pubDate>Thu, 25 Jun 2026 21:02:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.143.0-alpha.22]]></title>
             <description><![CDATA[Release 0.143.0-alpha.22]]></description>
@@ -716,25 +729,11 @@
             <pubDate>Thu, 14 May 2026 16:42:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.131.0-alpha.8]]></title>
-            <description><![CDATA[Release 0.131.0-alpha.8]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.8</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.8</guid>
-            <pubDate>Tue, 12 May 2026 06:40:43 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.17.2]]></title>
             <description><![CDATA[## What's Changed * fix: #3268 fix OpenAI Conversations reasoning persistence by @seratch in https://github.com/openai/openai-agents-python/pull/3352 * fix: avoid auto response for unknown realtime tools (ref: #3287) by @seratch in https://github.com/openai/openai-agents-python/pull/3366 * fix: #3354 interrupt tracing retry backoff on shutdown by @Aphroq in https://github.com/openai/openai-agents-python/pull/3355 * fix: #3359 preserve local approval rejection reasons by @Aphroq in https://github.com/openai/openai-agents-python/pull/3360 * fix: #3361 honor session settings in AsyncSQLiteSession by @Aphroq in https://github.com/openai/openai-agents-python/pull/3362 * fix: #3310 avoid empty chat tool outputs by @Aphroq in https://github.com/openai/openai-agents-python/pull/3312 ### Documentation & Other Changes * docs: clarify max_delay for retries works by @seratch in https://github.com/openai/openai-agents-python/pull/3350 * docs: update translated document pages by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/3351 * docs: normalize memory docstring cross-references by @seratch in https://github.com/openai/openai-agents-python/pull/3370 * docs: document sandbox archive limits after #3278 release by @Aphroq in https://github.com/openai/openai-agents-python/pull/3311 * docs: update translated document pages by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/3371 * Release 0.17.2 by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/3368 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.17.1...v0.17.2]]></description>
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.17.2</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.17.2</guid>
             <pubDate>Tue, 12 May 2026 03:14:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.131.0-alpha.7]]></title>
-            <description><![CDATA[Release 0.131.0-alpha.7]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.7</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.131.0-alpha.7</guid>
-            <pubDate>Tue, 12 May 2026 01:58:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.131.0-alpha.9]]></title>
