@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Jun 2026 18:36:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jun 2026 05:18:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 26 Jun 2026 18:35:23 GMT</pubDate>
+        <pubDate>Fri, 26 Jun 2026 21:55:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9821]]></title>
+            <description><![CDATA[app : allow --version, --licenses & --help (#25054) Signed-off-by: Adrien Gallouët **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9821</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9821</guid>
+            <pubDate>Fri, 26 Jun 2026 21:55:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9820]]></title>
             <description><![CDATA[sched : reintroduce less synchronizations during split compute (#20793) * CUDA: Improve performance via less synchronizations between token (#17795) * Adds CPU-to-CUDA copy capability to ggml_backend_cuda_cpy_tensor_async() * Adds function to relax sync requirements between input copies on supported backends (CUDA for now) * Exchanges synchronous copy with async copy function. * Adds macro guards to allow compilation in non-CUDA builds * Reworked backend detection in ggml-backend.cpp to avoid linking conflicts * Relax requirement of checks in async CUDA copies from backend and buffer type to just buffer type, to avoid linking issues * Minor cleanup * Makes opt-in to relax use of explicit syncs more general. Backends like vulkan which require a synchronization between HtoD copies and graph execution could also adopt this change now. * Reintroduces stricter check for CPU->CUDA backend async copy via GGML_DEVICE_TYPE_CPU. * Corrects initialization of ggml_backend_sync_mode in ggml_backend_sched_split initialization * Simplifies synchronizations to adhere to saaasg pattern. * Apply suggestion from @ggerganov (src->buffer to buf_src) Co-authored-by: Georgi Gerganov * Apply suggestion from @ggerganov (src->buffer to buf_src) v2 Co-authored-by: Georgi Gerganov --------- Co-authored-by: Georgi Gerganov * Apply suggestions from @johannesgaessler code review Co-authored-by: Johannes Gäßler * Adds single-GPU synchronizations to multi-GPU settings to fix hip backend pipeline parallel bugs. * Scheduler Hardening: Exclude hip/MUSA from copy_from_host CPU split -> GPU split optimization * Scheduler Hardening: Re-adding original additional synchronizations for non-async backends * Adds disclaimer to hip/musa exclusion of copy_from_host. Highlights that it is out of precaution, but that no perf-impact is visible, and that it can be revisited separately anytime. --------- Co-authored-by: Georgi Gerganov Co-authored-by: Johannes Gäßler **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9673</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9673</guid>
             <pubDate>Wed, 17 Jun 2026 07:32:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9672]]></title>
-            <description><![CDATA[vendor : update BoringSSL to 0.20260616.0 (#24693) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9672</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9672</guid>
-            <pubDate>Tue, 16 Jun 2026 18:54:23 GMT</pubDate>
         </item>
     </channel>
 </rss>
