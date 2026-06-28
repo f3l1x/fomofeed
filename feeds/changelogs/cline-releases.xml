@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Jun 2026 18:24:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2026 05:30:33 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 27 Jun 2026 00:56:45 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 02:48:38 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v4.0.1]]></title>
+            <description><![CDATA[### Changed - Roll the stable VS Code extension back to the pre-SDK-migration codebase to resolve regressions reported in 4.0.0. This release ships the 3.89.2 extension code under a higher version number so existing 4.0.0 users receive the update. SDK-migration work continues separately on main. **Full Changelog**: https://github.com/cline/cline/compare/nightly-main-20260622175622-ee59f8170698...v4.0.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.0.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.0.1</guid>
+            <pubDate>Sun, 28 Jun 2026 02:48:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.31]]></title>
             <description><![CDATA[- Show when request cost is covered by your Cline subscription - Prompt to switch to ClinePass when you run out of credits, and list ClinePass features in the not-subscribed message - Added an option to open the subscription page from the ClinePass options - Added marketplace uninstall support and surfaced plugin-bundled skills - Require quoted prompts for one-shot mode - Capped MCP tool names at 64 characters for OpenAI-compatible providers - Updated coupon code **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.30...cli-v3.0.31]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.40.1</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.40.1</guid>
             <pubDate>Sat, 06 Dec 2025 00:13:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.40.0]]></title>
-            <description><![CDATA[## What's Changed * remove unused sentry dependency by @celestial-vault in https://github.com/cline/cline/pull/7823 * add atomic file write by @celestial-vault in https://github.com/cline/cline/pull/7754 * feat: set default thinking level for Gemini 3 Pro models by @abeatrix in https://github.com/cline/cline/pull/7831 * set the cli's 'ide version' to just the cli version rather than being blank, to make environment_history work for CLI by @Garoth in https://github.com/cline/cline/pull/7712 * feat: add mode and token metrics info to storage messages [CLIENTS-26] by @abeatrix in https://github.com/cline/cline/pull/7795 * fix(bedrock): add sts client userAgentAppId by @jackrein in https://github.com/cline/cline/pull/7719 * correctly handle new and old tool call formats for context rewriting by @0xToshii in https://github.com/cline/cline/pull/7809 * feat: apply_patch auto approve by @canvrno in https://github.com/cline/cline/pull/7777 * Don't log otel events to the console because they are really spammy by @sjf in https://github.com/cline/cline/pull/7841 * added subpages and content to hooks by @jl-codes in https://github.com/cline/cline/pull/7797 * fix: OpenAI Response API message format by @abeatrix in https://github.com/cline/cline/pull/7842 * markdown styling fix by @pashpashpash in https://github.com/cline/cline/pull/7840 * Fix changeset converter by @arafatkatze in https://github.com/cline/cline/pull/7851 * docs: remove Advanced Patterns and Testing & Debugging from Hooks docs by @jl-codes in https://github.com/cline/cline/pull/7869 * Revert "readTaskHistory - don't return empty array on parse failure" by @saoudrizwan in https://github.com/cline/cline/pull/7874 * support multi-index search over inner messages to find file mentions for context rewriting by @0xToshii in https://github.com/cline/cline/pull/7850 * feat: add auto-recovery for corrupted task history state by @abeatrix in https://github.com/cline/cline/pull/7875 * fix: consolidate successive error retry messages in chat UI by @saoudrizwan in https://github.com/cline/cline/pull/7880 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/7865 ## New Contributors * @jackrein made their first contribution in https://github.com/cline/cline/pull/7719 * @jl-codes made their first contribution in https://github.com/cline/cline/pull/7797 **Full Changelog**: https://github.com/cline/cline/compare/v3.39.2...v3.40.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.40.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.40.0</guid>
-            <pubDate>Thu, 04 Dec 2025 05:09:38 GMT</pubDate>
         </item>
     </channel>
 </rss>
