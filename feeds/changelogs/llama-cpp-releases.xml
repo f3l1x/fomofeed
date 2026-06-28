@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Jun 2026 14:35:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2026 16:26:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 28 Jun 2026 14:18:37 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 15:32:30 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9833]]></title>
+            <description><![CDATA[chat : implement minicpm5 parser (#24889) * Add minicpm5 tool call parser * Refactor MiniCPM5 PEG parser per review feedback * Fix jinja min/max API to match Jinja2 * modify by review * MiniCPM5: use autoparser for XML tool calls and fix grammar preserved-token triggers * MiniCPM5: fix streaming tool-arg placeholder and remove alt XML markers * skip min/max attribute tests in -py mode * test-jinja: use real expected output for min/max attribute tests * MiniCPM5: revert shared mapper and history fallbacks per review Drop streaming tool-arg placeholder workarounds from the generic PEG mapper and restore strict tool-call argument JSON parsing so MiniCPM5 support stays limited to autoparser/diff-analyzer changes. * chat : refactor minicpm5 back to dedicated parser * cont : simplify grammar * cont : refactor * cont : fixes * cont : rename template to openbmb-MiniCPM5-1B.jinja * cont : add message delimiters * cont : fix tests --------- Co-authored-by: zhangtao Co-authored-by: 张涛 <> **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9833</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9833</guid>
+            <pubDate>Sun, 28 Jun 2026 15:32:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9832]]></title>
             <description><![CDATA[jinja: add --dump-prog for debugging (#25086) * jinja: add --dump-prog for debugging * Update common/jinja/runtime.cpp Co-authored-by: Sigbjørn Skjæret <1629204+CISC@users.noreply.github.com> --------- Co-authored-by: Sigbjørn Skjæret <1629204+CISC@users.noreply.github.com> **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9689</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9689</guid>
             <pubDate>Wed, 17 Jun 2026 19:31:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9688]]></title>
-            <description><![CDATA[server: (router) add model management API (#23976) * wip * server: (router) add SSE realtime updates API * nits * wip * add download API * add download api * update docs * add delete endpoint * fix std::terminate * fix crash * fix 2 * add tests * nits **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9688</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9688</guid>
-            <pubDate>Wed, 17 Jun 2026 18:55:06 GMT</pubDate>
         </item>
     </channel>
 </rss>
