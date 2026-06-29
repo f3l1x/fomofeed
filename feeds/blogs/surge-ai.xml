@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Jun 2026 18:24:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 05:34:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Training on ComplexConstraints: Expert Rubrics as RL Rewards]]></title>
+            <description><![CDATA[We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw: +15.5pp in-distribution, +8.4pp AdvancedIF, +10.1pp MultiChallenge.]]></description>
+            <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
+            <pubDate>Mon, 16 Nov 2020 10:44:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[HANDBOOK.md: Can Agents Follow 100-Page Company Policies?]]></title>
             <description><![CDATA[A benchmark for long-context enterprise agents: MCP-native RL environments, expert-written handbooks up to 124 pages, deterministic grading. No frontier model exceeds 25%. Instead, they fire employees without authorization, approve self-submitted expenses, and send expired medical records to insurers.]]></description>
@@ -17,11 +24,25 @@
             <pubDate>Mon, 22 Jun 2020 06:01:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Anthropic cited GDP.pdf and Riemann-bench in their Fable 5 and Mythos 5 release]]></title>
+            <description><![CDATA[Anthropic cited two Surge AI benchmarks, GDP.pdf and Riemann-bench, in their Fable 5 and Mythos 5 release. A look at why expert-built evaluations matter at the frontier.]]></description>
+            <link>https://www.surgehq.ai/blog/anthropic-fable-5-mythos-5-cites-surge-benchmarks</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/anthropic-fable-5-mythos-5-cites-surge-benchmarks</guid>
+            <pubDate>Thu, 16 Jul 2020 19:42:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ComplexConstraints: A Benchmark for Entangled Instruction Following]]></title>
             <description><![CDATA[A benchmark for entangled instruction following, where constraints depend on each other, fire conditionally, and must be inferred from context.]]></description>
             <link>https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following</guid>
             <pubDate>Sun, 19 Jan 2020 09:39:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft used Surge's human evaluation for MAI-Thinking-1]]></title>
+            <description><![CDATA[Microsoft AI used Surge's professional raters to run blind human preference evaluations for MAI-Thinking-1. A look at why human signal complements benchmarks.]]></description>
+            <link>https://www.surgehq.ai/blog/surge-human-evaluation-mai-thinking-1</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/surge-human-evaluation-mai-thinking-1</guid>
+            <pubDate>Tue, 02 Jun 2020 09:31:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Cross-Benchmark Generalization for Long-Horizon Agentic Tasks]]></title>
@@ -295,13 +316,6 @@
             <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</guid>
             <pubDate>Sun, 31 May 2020 08:22:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Training on ComplexConstraints: Expert Rubrics as RL Rewards]]></title>
-            <description><![CDATA[We post-trained Qwen3-4B on ComplexConstraints with RLVR using expert rubrics as the reward: +15.5pp in-distribution, +8.4pp AdvancedIF, +10.1pp MultiChallenge.]]></description>
-            <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
-            <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
-            <pubDate>Mon, 16 Nov 2020 10:44:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
