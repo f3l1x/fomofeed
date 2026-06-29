@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Jun 2026 15:11:02 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 17:05:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Build from anywhere with Cursor for iOS]]></title>
+            <link>https://cursor.com/blog/ios-mobile-app</link>
+            <guid isPermaLink="false">https://cursor.com/blog/ios-mobile-app</guid>
+            <category><![CDATA[product]]></category>
+            <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How Notion used the Cursor SDK to embed coding agents]]></title>
             <link>https://cursor.com/blog/notion</link>
@@ -220,13 +227,6 @@
             <title><![CDATA[Interaction Models: A Scalable Approach to Human-AI Collaboration]]></title>
             <link>https://thinkingmachines.ai/blog/interaction-models/</link>
             <guid isPermaLink="false">https://thinkingmachines.ai/blog/interaction-models/</guid>
-            <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Updates to Bugbot for Teams and Individuals]]></title>
-            <link>https://cursor.com/blog/may-2026-bugbot-changes</link>
-            <guid isPermaLink="false">https://cursor.com/blog/may-2026-bugbot-changes</guid>
-            <category><![CDATA[product]]></category>
             <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -2374,8 +2374,8 @@
             <pubDate>Mon, 02 Mar 2020 14:56:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Training on ComplexConstraints: Expert Rubrics as RL Rewards]]></title>
-            <description><![CDATA[We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw: +15.5pp in-distribution, +8.4pp AdvancedIF, +10.1pp MultiChallenge.]]></description>
+            <title><![CDATA[Harder Instructions, Broader Generalization: Training on ComplexConstraints]]></title>
+            <description><![CDATA[We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw.]]></description>
             <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
             <pubDate>Mon, 16 Nov 2020 10:44:00 GMT</pubDate>
