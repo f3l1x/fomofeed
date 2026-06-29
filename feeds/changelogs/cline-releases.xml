@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Jun 2026 17:03:41 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 18:40:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Jun 2026 06:53:57 GMT</pubDate>
+        <pubDate>Mon, 29 Jun 2026 17:41:24 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v4.0.3]]></title>
+            <description><![CDATA[### Changed - Enable the ClinePass provider for all users by removing the feature-flag gate that previously fell back to the standard Cline provider. **Full Changelog**: https://github.com/cline/cline/compare/v4.0.2...v4.0.3]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.0.3</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.0.3</guid>
+            <pubDate>Mon, 29 Jun 2026 17:41:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.34]]></title>
+            <description><![CDATA[- Fixed the ClinePass upgrade notice appearing immediately after completing onboarding. - Improved the wording of the ClinePass onboarding step. - Streamlined the Cline provider picker by merging the subscription and usage/billing options into one and removing the credits link. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.33...cli-v3.0.34]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.34</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.34</guid>
+            <pubDate>Mon, 29 Jun 2026 17:06:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.33]]></title>
             <description><![CDATA[- Show a ClinePass subscription URL as a fallback during onboarding so you can still subscribe if the subscription screen can't open automatically - Hide the ClinePass promo for users who already have a ClinePass subscription - Use an adaptive plan accent color for ClinePass prompts so they fit the active theme **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.32...cli-v3.0.33]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.44.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.44.0</guid>
             <pubDate>Tue, 16 Dec 2025 22:19:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.43.1]]></title>
-            <description><![CDATA[## What's Changed ### Added - GLM-4.6 - kat-coder-pro - Add parsing of env variable patterns to the mcpconfig.json ### Fixed - updated OpenRouter model ID from zai to z-ai for GLM-4.6 by @arafatkatze in https://github.com/cline/cline/pull/8138 - TLS Proxy support issues for VSCode - Add supportsReasoning flag to OpenAI reasoning models - Fix thinking not available for some models in the OpenAI provider - Fix invalid signature field issues when switching between Gemini and Anthropic providers - Extract OpenRouter model filtering into reusable utility and use it in different model pickers - Fix a11y for auto approve checkbox - Improve ModelPickerModal provider list layout ### Refactored - Migrate WhatsNewModal to new shared dialogue component **Full Changelog**: https://github.com/cline/cline/compare/v3.43.0...v3.43.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.43.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.43.1</guid>
-            <pubDate>Tue, 16 Dec 2025 21:42:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.42.0]]></title>
-            <description><![CDATA[## What's Changed * Refactor Terminal Module by @arafatkatze in https://github.com/cline/cline/pull/7966 * expose a getAvailableSlashCommands rpc endpoint in cline core by @maxpaulus43 in https://github.com/cline/cline/pull/8024 * feat: Make extension use new banner api, keep providers for extension side rules eval by @cryptoque in https://github.com/cline/cline/pull/8022 * chore: make expanding/collapsing ui components accessible by @jgellin-sf in https://github.com/cline/cline/pull/7828 * accessibility: screen reader support for slash and context menus by @mingxuanzhangsfdx in https://github.com/cline/cline/pull/7832 * fix: extract OpenRouter model filtering into reusable utility and use it different model pickers by @arafatkatze in https://github.com/cline/cline/pull/8064 * fix: update OpenRouter model ID and filter logic for devstral-2512 by @arafatkatze in https://github.com/cline/cline/pull/8065 * Changeset version bump by @github-actions[bot] in https://github.com/cline/cline/pull/8052 ## New Contributors * @jgellin-sf made their first contribution in https://github.com/cline/cline/pull/7828 * @mingxuanzhangsfdx made their first contribution in https://github.com/cline/cline/pull/7832 **Full Changelog**: https://github.com/cline/cline/compare/v3.41.0...v3.42.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.42.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.42.0</guid>
-            <pubDate>Fri, 12 Dec 2025 23:34:22 GMT</pubDate>
         </item>
     </channel>
 </rss>
