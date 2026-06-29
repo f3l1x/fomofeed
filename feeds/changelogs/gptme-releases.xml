@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for gptme Releases]]></description>
         <link>https://github.com/gptme/gptme/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Jun 2026 09:35:48 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 15:09:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gptme-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jun 2026 12:52:00 GMT</pubDate>
+        <pubDate>Mon, 29 Jun 2026 13:34:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.31.1.dev20260629]]></title>
+            <description><![CDATA[# v0.31.1.dev20260629 These are the release notes for gptme version v0.31.1.dev20260629. ## Contributors Thanks to everyone who contributed to this release: @Thibaultjaigu, @TimeToBuildBob ## Changelog Changes since v0.31.1.dev20260625: ## 📦 gptme ### ✨ Features (4) - feat(subagent): add workdir parameter for explicit workspace control (#2989) (5d7dacdbb) - feat(cli): add gptme attest sign and verify commands (#2978) (be689fa04) - feat(browser): make Playwright engine configurable via GPTME_BROWSER_ENGINE (#2996) (0dd93066f) - feat: add Requesty as an OpenAI-compatible provider (#2993) (cf91ac1e4) ### 🐛 Fixes (4) - fix(computer): add shell+vision to Docker server, Xvfb liveness check in doctor (#3004) (f07b8cf6b) - fix(server): only reject message-delete that creates a NEW role adjacency (#2997) (36c5237ff) - fix(webui): avatar alignment + standard-markdown previews (closes #2998) (#2999) (4436f54fc) - fix(util): tokens count rejects valid provider-prefixed models (#2992) (f3bdf806f) ### 🔨 Misc (3) - chore: bump version to 0.31.1.dev20260629 (add980cd9) - docs(howto): add computer-use guide (prerequisites, backend selection, recipes) (#2987) (5a4643e72) - chore: bump version to 0.31.1.dev20260625 (2ed5614ee) **Full Changelog**: https://github.com/gptme/gptme/compare/v0.31.1.dev20260625...v0.31.1.dev20260629]]></description>
+            <link>https://github.com/gptme/gptme/releases/tag/v0.31.1.dev20260629</link>
+            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.31.1.dev20260629</guid>
+            <pubDate>Mon, 29 Jun 2026 13:34:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.31.1.dev20260625]]></title>
             <description><![CDATA[# v0.31.1.dev20260625 These are the release notes for gptme version v0.31.1.dev20260625. ## Contributors Thanks to everyone who contributed to this release: @erikbjare, @TimeToBuildBob ## Changelog Changes since v0.31.1.dev20260622: ## 📦 gptme ### ✨ Features (3) - feat(lessons): randomized lesson-dropout injection for causal LOO (#2988) (7dbb0f36a) - feat(subagent): expose context_window in tool instructions; validate negative values (#2976) (0192f2328) - feat(subagent): context_window parameter for workspace context isolation (#2975) (31acfcba6) ### 🐛 Fixes (7) Click to expand - fix(lessons): always log dropout record when epsilon>0, even if no lessons withheld (#2990) (7061f0bbc) - fix(webui): fix fork_command placeholder in Create Agent dialog (#2991) (c8d8715ac) - fix(openai): embed reasoning content in non-streaming response instead of dropping it (#2985) (66b48256b) - fix: demote reasoning content logging from INFO to DEBUG (#2981) (63c659234) - fix(rag): register tools-list context hook with dot notation (#2980) (44f842640) - fix(subagent): correct context_window=N truncation (off-by-one in n_base) (#2977) (b7254c271) - fix(config): strip unknown top-level keys from config file on load (#2974) (0da7af251) ### 🔨 Misc (4) - chore: bump version to 0.31.1.dev20260625 (2ed5614ee) - test(subagent): regression tests for planner role→execution-mode forwarding (#2986) (2433e47d5) - [codex] fix webui rerun tool session id (#2948) (af40d2db1) - chore: bump version to 0.31.1.dev20260622 (ac4335dd2) *(excluded 6 less relevant commits)* **Full Changelog**: https://github.com/gptme/gptme/compare/v0.31.1.dev20260622...v0.31.1.dev20260625]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/gptme/gptme/releases/tag/v0.3.1</link>
             <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.3.1</guid>
             <pubDate>Wed, 06 Sep 2023 13:22:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.3.0]]></title>
-            <description><![CDATA[## What's Changed * feat: added config, refactoring, hide initial system messages, better context awareness by @ErikBjare in https://github.com/ErikBjare/gptme/commit/9b54cec03fe754aa872dd2cbf2868e4f52ecfbbb * feat: make OpenAI model configurable by @karvla in https://github.com/ErikBjare/gptme/pull/4 ## New Contributors * @karvla made their first contribution in https://github.com/ErikBjare/gptme/pull/4 **Full Changelog**: https://github.com/ErikBjare/gptme/compare/v0.2.2...v0.3.0]]></description>
-            <link>https://github.com/gptme/gptme/releases/tag/v0.3.0</link>
-            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.3.0</guid>
-            <pubDate>Wed, 06 Sep 2023 12:04:24 GMT</pubDate>
         </item>
     </channel>
 </rss>

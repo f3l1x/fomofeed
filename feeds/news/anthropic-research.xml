@@ -4,13 +4,14 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Jun 2026 09:35:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 15:09:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Anthropic Economic Index report: Cadences]]></title>
+            <description><![CDATA[In our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?]]></description>
             <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
             <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
@@ -23,7 +24,6 @@
         </item>
         <item>
             <title><![CDATA[Agentic coding and persistent returns to expertise]]></title>
-            <description><![CDATA[This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.]]></description>
             <link>https://www.anthropic.com/research/claude-code-expertise</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
             <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>

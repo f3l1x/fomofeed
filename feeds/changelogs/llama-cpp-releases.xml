@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Jun 2026 09:35:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 15:09:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Jun 2026 07:33:46 GMT</pubDate>
+        <pubDate>Mon, 29 Jun 2026 10:25:16 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9840]]></title>
+            <description><![CDATA[DeepSeek V4 (#24162) * convert: add dsv4 conversion * add basic setup * add llm_graph_input_dsv4 * add save-load state * add sinkhorn eps - correction by @fairydreaming * add rope fix * cleanup dead code * fix bugs * support pro model: added by @fairydreaming * remove redundant V cache * Chat template * remove debugging leftovers * Add mechanism for inlining templates based on architecture * s/deepseek-v4-flash/deepseek4/g * s/deepseek-v4-flash/deepseek4/g continued * enable graph reuse * enable FA * fix test llama archs * rename * compatibility with antirez ds4 GGUFs * simplified set_gguf_parameters() by calling super class method, replaced moe.score_func with expert_gating_func. * reserve worst-case kv-cache * revert max split inputs * address review comments * add padding to enable FA * pad only the final value of plan.n_kv to 256 * remove built-in cpp chat template * cont: remove cpp built-in template * rm outdated test * replace ggml_view_3d() with ggml_reshape_3d() Co-authored-by: Georgi Gerganov * only support n_seq=1 for now * remove unused var * cont: remove unused var * use scale bias * use correct ptr for can_reuse * remove gen-chat-inline-templates.py * simplify graph reuse * cont: cleanup * remove unused inputs * enable partial checkpointing * add correct shape for kq_mask + set llama_model_n_swa to 0 for dsv4 * precompute source_idx + add comment about dummy write * support multi-seq * remove restored_trim_pos * use split_equal when possible * fix indent * address review comments * use LLM_KV * fix ci --------- Co-authored-by: Piotr Wilkin Co-authored-by: Stanisław Szymczyk Co-authored-by: Xuan Son Nguyen Co-authored-by: fairydreaming <166155368+fairydreaming@users.noreply.github.com> Co-authored-by: Georgi Gerganov **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9840</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9840</guid>
+            <pubDate>Mon, 29 Jun 2026 10:25:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b9839]]></title>
+            <description><![CDATA[tools/ui: restore Tailwind scanning in ignored worktrees (#24879) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9839</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9839</guid>
+            <pubDate>Mon, 29 Jun 2026 09:45:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9838]]></title>
             <description><![CDATA[common : remove unused regex-partial (#25118) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9694</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9694</guid>
             <pubDate>Thu, 18 Jun 2026 07:28:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9693]]></title>
-            <description><![CDATA[metal : check for BF16 support in concat kernel (#24747) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9693</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9693</guid>
-            <pubDate>Thu, 18 Jun 2026 06:41:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9692]]></title>
-            <description><![CDATA[mtmd: llava_uhd should no longer use batch dim (#24732) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9692</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9692</guid>
-            <pubDate>Wed, 17 Jun 2026 21:27:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
