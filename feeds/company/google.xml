@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Jun 2026 16:45:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jun 2026 18:37:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 30 Jun 2026 01:54:33 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,20 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260630.gae0a3aa7b</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260630.gae0a3aa7b</guid>
             <pubDate>Tue, 30 Jun 2026 01:54:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Driving the Agent Quality Flywheel from Your Coding Agent]]></title>
+            <description><![CDATA[Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.]]></description>
+            <link>https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/</guid>
+            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine, built-in human-in-the-loop, and dynamic orchestration]]></title>
+            <description><![CDATA[The Agent Development Kit (ADK) for Go 2.0 has been released, introducing a first-class, graph-based workflow engine to help developers compose complex, multi-agent applications. This update adds built-in primitives for human-in-the-loop (HITL) orchestration, dynamic execution using plain Go code, and automated resilience features like exponential backoff retries. By unifying the execution model, both single-agent applications and intricate graphs now run on the same runtime, simplifying telemetry and state persistence.]]></description>
+            <link>https://developers.googleblog.com/announcing-adk-go-20/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/announcing-adk-go-20/</guid>
+            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.51.0-nightly.20260629.gae0a3aa7b]]></title>
@@ -225,20 +239,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.0</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.0</guid>
             <pubDate>Wed, 03 Jun 2026 00:44:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge]]></title>
-            <description><![CDATA[Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.]]></description>
-            <link>https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</guid>
-            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gemma 4 12B: The Developer Guide]]></title>
-            <description><![CDATA[The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]></description>
-            <link>https://developers.googleblog.com/gemma-4-12b-the-developer-guide/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/gemma-4-12b-the-developer-guide/</guid>
-            <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.45.0-nightly.20260602.g665228e98]]></title>

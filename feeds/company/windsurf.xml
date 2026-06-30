@@ -4,11 +4,18 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Jun 2026 16:45:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jun 2026 18:37:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude Sonnet 5 is now available in Devin]]></title>
+            <description><![CDATA[Claude Sonnet 5 is now live in Devin Desktop and Devin CLI. It pairs frontier-level coding performance with a more affordable price point, using roughly 30% less quota than Claude Sonnet 4.6 through August 31, 2026.]]></description>
+            <link>https://windsurf.com/blog/claude-sonnet-5</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/claude-sonnet-5</guid>
+            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Kimi K2.7 and GLM 5.2 Now Available in Devin Desktop and CLI]]></title>
             <description><![CDATA[Kimi K2.7 and GLM 5.2 are now available in Devin Desktop and CLI. Both models deliver strong FrontierCode Extended scores and won't consume quota for Pro, Max, and Teams plans until July 5.]]></description>
@@ -43,13 +50,6 @@
             <link>https://windsurf.com/blog/devin-review-windsurf</link>
             <guid isPermaLink="false">https://windsurf.com/blog/devin-review-windsurf</guid>
             <pubDate>Tue, 05 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Windsurf 2.0: Introducing the Agent Command Center and Devin in Windsurf]]></title>
-            <description><![CDATA[Ship more with local and cloud agents working together.]]></description>
-            <link>https://windsurf.com/blog/windsurf-2-0</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-2-0</guid>
-            <pubDate>Tue, 14 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Windsurf is now Devin Desktop. The IDE you love, with more features. Learn more →Windsurf is now Devin Desktop →]]></title>
