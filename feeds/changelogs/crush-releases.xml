@@ -4,9 +4,9 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Jun 2026 18:41:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jun 2026 05:23:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 28 Jun 2026 01:20:03 GMT</pubDate>
+        <pubDate>Tue, 30 Jun 2026 01:15:01 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
@@ -14,7 +14,14 @@
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Sun, 28 Jun 2026 01:20:03 GMT</pubDate>
+            <pubDate>Tue, 30 Jun 2026 01:15:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.81.0]]></title>
+            <description><![CDATA[# Some UX stuff for ya We're starting the week in good style by adding some nice additions and improvements. ## Chat scrollbar This is it, the chat just got a scrollbar! This should make your life easier on navigation long session. You can now see exactly where you are when scrolling. It's possible to adjust the behavior with a setting: options.tui.scrollbar. * default (hides after 2 seconds) * always * never https://github.com/user-attachments/assets/c0c0f888-78d4-4457-ae32-eb1a2dd5f575 ## Herdr Support Have you been wanting to use herdr.dev for all your agent management needs? Well now its even better! @taciturnaxolotl merged support for agent status signaling so now herdr can pick up on the status of crush and send you notifications when it is blocked or finished! ## Lower CPU usage Crush could use too much CPU when streaming thinking traces and showing them for you. @taciturnaxolotl worked through an optimization and that's now fixed! ## Fix possible deadlock on startup If you happen to have a model ID in your config that does not exist anymore (was removed from the providers), Crush could lock when booting and not start at all. This bug was addressed. ## Images and your session This is another fix to prevent your session from breaking when you switch to a non-vision model but your session already has images. We're going to skip the images so your session keep working. That's all! Charm ## Changelog ### New! * b39a85ec2b2be2ca8c759383cdc39ce325dda1dd: feat(herdr): add herdr socket integration (@taciturnaxolotl) * b72f9aab844ab42de7bcf778e3fcf743a010d0bd: feat(ui): add scrollbar to chat view (#3018) (@andreynering) * db8add714e294401ce2e716459376f3803fac3ce: feat(ui): allow expanding toolcall names (@taciturnaxolotl) ### Fixed * f75435a2ac2e69cf4d64ad15bf5d84f284cdecd6: fix(agent): fall back to first reasoning level when default is unset (#3218) (@syf2211) * d3d68045ff907c8a7103f78c99c5b517476aa65a: fix(agent): prevent session bricking when non-vision models receive tool result media (@taciturnaxolotl) * a08e3329c0b540cc851f5d2e0e9405cd06fa7c2c: fix(bash): keep TruncateOutput from splitting UTF-8 characters (@feizhuzheng) * 1535ebb7cd206029591dfe9ae5b269193d4cad2f: fix(config): prevent stale ReasoningEffort from leaking across providers (#3209) (@huaiyuWangh) * d4dc84e91471a6c794a037ff5012e42fd070e960: fix(config): prevent startup deadlock when configured model ID is invalid (@taciturnaxolotl) * 188dea64e2e84468c4d2059e4e8ce2f580c2efdb: fix(fsext): DirTrim renders wrong character for non-ASCII directory names (#3214) (@feizhuzheng) * a07d304f9174d57059a5264b2c34dfd431fa00ff: fix(hyper): refresh hyper oauth token before fetching credits (#3212) (@andreynering) * a1b19ebc33e4085af0322d665cb3bb7fbd66c713: fix(prompts): unindent heredoc (@taciturnaxolotl) * a9e3a57f7a9f40cd411e5ac1b98156b8240ed1fb: fix(shell): skip persistence when session no longer exists (@syf2211) * 3a99992e863a5fe82266f9eec6433affac956b12: fix(ui): ansi.truncate instead of byte slicing in todos (@taciturnaxolotl) * 9c61c7d032504a21760478c4c72f81cce7a11efc: fix(ui): use ansi.truncate everywhere (@taciturnaxolotl) * 3295a085cfb405c450ae3ac1fd89ab8989793e99: fix: cache streaming thinking renders to avoid CPU burn during long reasoning traces (@taciturnaxolotl) ### Other stuff * 5c934c30954f6241fb1acb582ef4376bb958702a: chore: auto-update files (@charmcli) * f645040c1ba002fa8c65e0addd5e5be4eae35337: chore: auto-update files (@charmcli) * fcccdfee42a77eb67b54d670ca3463121522dc4a: chore: auto-update files (@charmcli) * 358d75dbdbc4bd329cde36e71065805cf5762ed1: chore: regen golden files (@taciturnaxolotl) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.81.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.81.0</guid>
+            <pubDate>Mon, 29 Jun 2026 21:01:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.80.0]]></title>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.18.6</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.18.6</guid>
             <pubDate>Mon, 24 Nov 2025 21:00:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.18.5]]></title>
-            <description><![CDATA[# There’s an update, WE GET IT This is a tiny release to reduce the update notification time on screen from 30 seconds to 10. That’s pretty much it. Have a good weekend and go outside! 💘 ## Changelog ### Housekeeping * b363612510b0d5071a7d4e5643682ddb003728d3: chore(ui): adjust status notification details (#1490) (@meowgorithm) * 7b4691ea9120343c93109cd1d92ba88260cf676d: chore: add gopls settings from Carlos's dotfiles (#1424) (@meowgorithm) ### Docs * 281e7fa203f378fda7f0ab59dfa87eebfd8daed1: docs(readme): update "aws bedrock" to "amazon bedrock" (#1478) (@micahwalter) --- Verifying the artifacts First, download the checksums.txt file, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.18.5</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.18.5</guid>
-            <pubDate>Fri, 21 Nov 2025 20:11:44 GMT</pubDate>
         </item>
     </channel>
 </rss>
