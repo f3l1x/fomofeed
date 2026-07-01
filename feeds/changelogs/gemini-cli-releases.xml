@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Jun 2026 18:36:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 05:32:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 30 Jun 2026 01:54:33 GMT</pubDate>
+        <pubDate>Wed, 01 Jul 2026 01:49:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.51.0-nightly.20260701.g7f00c5fe5]]></title>
+            <description><![CDATA[## What's Changed * fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053 * feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015 ## New Contributors * @chadd28 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28015 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260630.gae0a3aa7b...v0.51.0-nightly.20260701.g7f00c5fe5]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260701.g7f00c5fe5</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260701.g7f00c5fe5</guid>
+            <pubDate>Wed, 01 Jul 2026 01:49:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.51.0-nightly.20260630.gae0a3aa7b]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260629.gae0a3aa7b...v0.51.0-nightly.20260630.gae0a3aa7b]]></description>
@@ -694,13 +701,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.5</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.5</guid>
             <pubDate>Fri, 27 Mar 2026 17:43:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.35.2]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.35.1...v0.35.2]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.2</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.2</guid>
-            <pubDate>Thu, 26 Mar 2026 23:24:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.36.0-preview.4]]></title>

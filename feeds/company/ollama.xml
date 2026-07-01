@@ -4,17 +4,31 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Jun 2026 18:37:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 05:34:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Jun 2026 17:45:08 GMT</pubDate>
+        <pubDate>Tue, 30 Jun 2026 22:10:17 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.31.1]]></title>
+            <description><![CDATA[## Faster Gemma 4 on Apple Silicon Gemma 4 is now significantly faster in Ollama on Apple Silicon, generating tokens nearly 90% faster on average across a coding-agent benchmark by leveraging multi-token prediction (MTP). Ollama auto-tunes how many tokens to draft as it runs, so the speedup is on by default, requires no configuration, and does not change the model's output. ## What's Changed - Tightened Gemma 4 MoE model loading in the MLX engine - Updated the MLX engine to the latest version, including a new small-batch matmul kernel - Updated the underlying llama.cpp engine to build 9840 - Improved Gemma 4 multi-token prediction (MTP) performance **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.12...v0.31.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.31.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.31.1</guid>
+            <pubDate>Tue, 30 Jun 2026 22:10:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.30.12]]></title>
             <description><![CDATA[## What's Changed * tools: ignore braces inside JSON strings when detecting tool call end by @aditya-786 in https://github.com/ollama/ollama/pull/16937 * mlx: bump dependency by @dhiltgen in https://github.com/ollama/ollama/pull/16935 * llama.cpp update by @dhiltgen in https://github.com/ollama/ollama/pull/16960 ## New Contributors * @aditya-786 made their first contribution in https://github.com/ollama/ollama/pull/16937 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.11...v0.30.12-rc0]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.30.12-rc0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.30.12-rc0</guid>
             <pubDate>Mon, 29 Jun 2026 17:45:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Faster Gemma 4 on MLX with multi-token prediction]]></title>
+            <description><![CDATA[Gemma 4 is now significantly faster in Ollama 0.31 on Apple Silicon via multi-token prediction (MTP), powered by MLX. Performance is now up to 90% faster when used with coding agents, as measured using the Aider polyglot benchmark.]]></description>
+            <link>https://ollama.com/blog/faster-gemma-4-mlx-mtp</link>
+            <guid isPermaLink="false">https://ollama.com/blog/faster-gemma-4-mlx-mtp</guid>
+            <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.30.11]]></title>
@@ -876,13 +890,6 @@
             <link>https://ollama.com/blog/thinking</link>
             <guid isPermaLink="false">https://ollama.com/blog/thinking</guid>
             <pubDate>Thu, 29 May 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.0]]></title>
-            <description><![CDATA[!ollama thinking ## New models - DeepSeek-R1-2508: DeepSeek-R1 has received a minor version upgrade to DeepSeek-R1-0528 for the 8 billion parameter distilled model and the full 671 billion parameter model. In this update, DeepSeek R1 has significantly improved its reasoning and inference capabilities. ## Thinking Ollama now has the ability to enable or disable thinking. This gives users the flexibility to choose the model’s thinking behavior for different applications and use cases. When thinking is enabled, the output will separate the model’s thinking from the model’s output. When thinking is disabled, the model will not think and directly output the content. Models that support thinking: - DeepSeek R1 - Qwen 3 - more will be added under thinking models. When running a model that supports thinking, Ollama will now display the model's thoughts: In Ollama's API, a model's thinking is now returned as a separate thinking field for easy parsing: ### Turning thinking on and off In the API, thinking can be enabled by passing "think": true and disabled by passing "think": false In Ollama's CLI, use /set think and /set nothink to enable and disable thinking. ## What's Changed * Add thinking support to Ollama **Full Changelog**: https://github.com/ollama/ollama/compare/v0.8.0...v0.9.0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.9.0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.0</guid>
-            <pubDate>Thu, 29 May 2025 05:41:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Streaming responses with tool calling]]></title>

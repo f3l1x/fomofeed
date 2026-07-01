@@ -4,13 +4,13 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Jun 2026 18:35:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 05:32:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Deeper Instructions Lead to Broader Generalization: Training on ComplexConstraints]]></title>
+            <title><![CDATA[Deeper Instructions, Stronger Generalization: Training on ComplexConstraints]]></title>
             <description><![CDATA[We trained a 4B model on 1,000 expert-written rubrics from ComplexConstraints, our frontier instruction-following benchmark. It reached parity with a 60x larger model, and the gains transferred to external benchmarks it never saw.]]></description>
             <link>https://www.surgehq.ai/blog/training-on-complexconstraints</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/training-on-complexconstraints</guid>
@@ -38,8 +38,8 @@
             <pubDate>Sun, 19 Jan 2020 09:39:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Microsoft used Surge's human evaluation for MAI-Thinking-1]]></title>
-            <description><![CDATA[Microsoft AI used Surge's professional raters to run blind human preference evaluations for MAI-Thinking-1. A look at why human signal complements benchmarks.]]></description>
+            <title><![CDATA[Microsoft used Surge human evaluations to benchmark MAI-Thinking-1]]></title>
+            <description><![CDATA[When Microsoft wanted to understand how MAI-Thinking-1 measured up, they used Surge human evaluations to prove it.]]></description>
             <link>https://www.surgehq.ai/blog/surge-human-evaluation-mai-thinking-1</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/surge-human-evaluation-mai-thinking-1</guid>
             <pubDate>Tue, 02 Jun 2020 09:31:00 GMT</pubDate>

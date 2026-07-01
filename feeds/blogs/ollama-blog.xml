@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Blog]]></description>
         <link>https://ollama.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Jun 2026 18:35:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 05:32:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/ollama-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Faster Gemma 4 on MLX with multi-token prediction]]></title>
+            <description><![CDATA[Gemma 4 is now significantly faster in Ollama 0.31 on Apple Silicon via multi-token prediction (MTP), powered by MLX. Performance is now up to 90% faster when used with coding agents, as measured using the Aider polyglot benchmark.]]></description>
+            <link>https://ollama.com/blog/faster-gemma-4-mlx-mtp</link>
+            <guid isPermaLink="false">https://ollama.com/blog/faster-gemma-4-mlx-mtp</guid>
+            <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Ollama's highest performance on Apple Silicon yet with MLX]]></title>
             <description><![CDATA[Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.]]></description>
