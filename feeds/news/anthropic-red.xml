@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Anthropic Red Blog]]></description>
         <link>https://red.anthropic.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jul 2026 05:19:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jul 2026 08:45:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-red.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
