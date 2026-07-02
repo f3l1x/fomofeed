@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jul 2026 16:03:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jul 2026 19:16:26 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2387,7 +2387,7 @@
             <pubDate>Mon, 22 Jun 2020 06:01:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Anthropic cited GDP.pdf and Riemann-bench in their Fable 5 and Mythos 5 release]]></title>
+            <title><![CDATA[Anthropic cited GDP.pdf and Riemann-bench in their Fable 5 and Mythos 5 system card]]></title>
             <description><![CDATA[Anthropic cited two Surge AI benchmarks, GDP.pdf and Riemann-bench, in their Fable 5 and Mythos 5 release. A look at why expert-built evaluations matter at the frontier.]]></description>
             <link>https://www.surgehq.ai/blog/anthropic-fable-5-mythos-5-cites-surge-benchmarks</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/anthropic-fable-5-mythos-5-cites-surge-benchmarks</guid>
