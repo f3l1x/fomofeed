@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jul 2026 19:16:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jul 2026 06:58:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 02 Jul 2026 01:44:11 GMT</pubDate>
+        <pubDate>Fri, 03 Jul 2026 01:52:36 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.51.0-nightly.20260703.gf7af4e518]]></title>
+            <description><![CDATA[## What's Changed * feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260702.gff00dacd9...v0.51.0-nightly.20260703.gf7af4e518]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260703.gf7af4e518</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260703.gf7af4e518</guid>
+            <pubDate>Fri, 03 Jul 2026 01:52:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.51.0-nightly.20260702.gff00dacd9]]></title>
             <description><![CDATA[## What's Changed * fix(core): resolve symbolic link directory escape in memory import processor by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28233 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260701.g7f00c5fe5...v0.51.0-nightly.20260702.gff00dacd9]]></description>
@@ -771,13 +778,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.6</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.6</guid>
             <pubDate>Sat, 28 Mar 2026 03:20:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.36.0-preview.5]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.36.0-preview.4...v0.36.0-preview.5]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.5</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.5</guid>
-            <pubDate>Fri, 27 Mar 2026 17:43:56 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for LiteLLM Releases]]></description>
         <link>https://github.com/BerriAI/litellm/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jul 2026 19:15:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jul 2026 06:57:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/litellm-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 02 Jul 2026 17:24:38 GMT</pubDate>
+        <pubDate>Fri, 03 Jul 2026 04:48:03 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.90.2]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #31519, #31733 to stable/1.90.x and cut 1.90.2 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/31782 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.90.1...v1.90.2]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.90.2</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.90.2</guid>
+            <pubDate>Fri, 03 Jul 2026 04:48:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.90.1]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #31036, #31342, #31653 to stable/1.90.x and cut 1.90.1 (litellm-enterprise 0.1.43.post1) by @yuneng-berri in https://github.com/BerriAI/litellm/pull/31667 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.90.0...v1.90.1]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.90.1</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.90.1</guid>
+            <pubDate>Fri, 03 Jul 2026 04:47:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.89.5]]></title>
             <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #31342, #31653 to stable/1.89.x and cut 1.89.5 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/31662 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.89.4...v1.89.5]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.3-stable.patch.1</link>
             <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.3-stable.patch.1</guid>
             <pubDate>Tue, 24 Mar 2026 03:33:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.82.3.dev.5]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.82.5.dev.1...v1.82.3.dev.5]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.3.dev.5</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.3.dev.5</guid>
-            <pubDate>Tue, 24 Mar 2026 00:17:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.82.6.dev1]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.82.6.rc.1...v1.82.6.dev1]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.6.dev1</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.6.dev1</guid>
-            <pubDate>Mon, 23 Mar 2026 17:45:37 GMT</pubDate>
         </item>
     </channel>
 </rss>

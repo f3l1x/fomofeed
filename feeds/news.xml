@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jul 2026 19:16:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jul 2026 06:58:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 01 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[More details on Fable 5’s cyber safeguards and our jailbreak framework]]></title>
+            <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</guid>
+            <pubDate>Wed, 01 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Why we built ADK 2.0]]></title>
             <description><![CDATA[Answering the questions of "why we built ADK 2.0".  This explains the rationale, some of the features, and why a developer should consider upgrading.  This will be published the day after ADK go 2.0 launches.]]></description>
@@ -154,12 +160,6 @@
             <title><![CDATA[DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on]]></title>
             <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
-            <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Corps]]></title>
-            <link>https://www.anthropic.com/news/claude-corps</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-corps</guid>
             <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
