@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 03 Jul 2026 19:08:09 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jul 2026 06:41:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Jul 2026 17:35:55 GMT</pubDate>
+        <pubDate>Sat, 04 Jul 2026 02:36:24 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.37]]></title>
+            <description><![CDATA[- Weaker models (e.g. DeepSeek) that emit malformed tool calls — wrong argument types or truncated JSON — are now handled gracefully and run instead of erroring out - Plan/act mode switches are now visible to the model, so it knows when you change modes mid-session - Fixed plan/act mode notices being dropped from prompts sent to the model - Fixed a race where switching modes in an empty session could trigger an unexpected restart **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.36...cli-v3.0.37]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.37</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.37</guid>
+            <pubDate>Sat, 04 Jul 2026 02:36:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.36]]></title>
+            <description><![CDATA[- Fixed plan mode's switch_to_act_mode tool not taking effect until the end of the turn: the model would keep running with plan-mode tools (no file editor) and fall back to editing files through shell commands. Switching to act mode now ends the plan-mode run and automatically continues with the approved plan using the full act-mode toolset. A Tab mode toggle racing a completing turn can no longer auto-start plan execution you didn't approve. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.35...cli-v3.0.36]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.36</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.36</guid>
+            <pubDate>Fri, 03 Jul 2026 20:49:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.35]]></title>
             <description><![CDATA[- ClinePass is now enabled for all CLI users - Recover missing interactive sessions when reading messages - Format structured commands in history export - Add the subscription promo code when linking to the dashboard subscription page - Add Tencent TokenHub as a provider (from SDK v0.0.55) - Fix first-prompt truncation on high-output models (e.g. MiniMax M3) that could immediately auto-compact and cut the initial task down to just the input wrapper (from SDK v0.0.55) - Use a curated default when migrating legacy provider settings (from SDK v0.0.55) - Advertise run commands as shell strings (from SDK v0.0.55) - Refresh the bundled model catalog with the latest provider models (from SDK v0.0.55) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.34...cli-v3.0.35]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.46.1</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.46.1</guid>
             <pubDate>Mon, 22 Dec 2025 22:11:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.46.0]]></title>
-            <description><![CDATA[### Added - Added GLM 4.7 model - Enhanced background terminal execution with command tracking, log file output, zombie process prevention (10-minute timeout), and clickable log paths in UI - Apply Patch tool for GPT-5+ models (replacing current diff edit tools) ### Fixed - Duplicate error messages during streaming for Diff Edit tool when Parallel Tool Calling is not enabled - Banner carousel styling and dismiss functionality - Typos in Gemini system prompt overrides - Model picker favorites ordering, star toggle, and keyboard navigation for OpenRouter and Vercel AI Gateway providers - Fetch remote config values from the cache ### Refactored - Anthropic handler to use metadata for reasoning support - Bedrock provider to use metadata for reasoning support **Full Changelog**: https://github.com/cline/cline/compare/v3.45.0...v3.46.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.46.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.46.0</guid>
-            <pubDate>Mon, 22 Dec 2025 21:20:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.45.1]]></title>
-            <description><![CDATA[- Fixed MCP settings race condition where toggling auto-approve or changing timeout settings would cause the UI to flash and revert **Full Changelog**: https://github.com/cline/cline/compare/...v3.45.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.45.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.45.1</guid>
-            <pubDate>Sat, 20 Dec 2025 15:22:50 GMT</pubDate>
         </item>
     </channel>
 </rss>

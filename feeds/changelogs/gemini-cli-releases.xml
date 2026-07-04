@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 03 Jul 2026 19:08:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jul 2026 06:42:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Jul 2026 01:52:36 GMT</pubDate>
+        <pubDate>Sat, 04 Jul 2026 01:32:04 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.51.0-nightly.20260704.gf7af4e518]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260703.gf7af4e518...v0.51.0-nightly.20260704.gf7af4e518]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260704.gf7af4e518</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260704.gf7af4e518</guid>
+            <pubDate>Sat, 04 Jul 2026 01:32:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.51.0-nightly.20260703.gf7af4e518]]></title>
             <description><![CDATA[## What's Changed * feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260702.gff00dacd9...v0.51.0-nightly.20260703.gf7af4e518]]></description>
@@ -694,13 +701,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.7</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.7</guid>
             <pubDate>Tue, 31 Mar 2026 16:56:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.35.3]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 765fb67 to release/v0.35.2-pr-24055 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/24063 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.35.2...v0.35.3]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.3</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.35.3</guid>
-            <pubDate>Sat, 28 Mar 2026 03:24:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.36.0-preview.6]]></title>
