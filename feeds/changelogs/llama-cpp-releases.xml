@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 05 Jul 2026 15:08:53 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Jul 2026 17:01:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 04 Jul 2026 21:09:56 GMT</pubDate>
+        <pubDate>Sun, 05 Jul 2026 15:53:37 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9874]]></title>
+            <description><![CDATA[cuda : concat implementation for quantized types (#25303) * cuda : concat implementation for quantized types * chore : apply am17an clever suggestion to shorten the code --------- Co-authored-by: Stanisław Szymczyk **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9874</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9874</guid>
+            <pubDate>Sun, 05 Jul 2026 15:53:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9873]]></title>
             <description><![CDATA[llama : add guard for K/V rotation input when buffer is unallocated (#25215) llm_graph_input_attn_kv::set_input and llm_graph_input_attn_kv_iswa::set_input call set_input_k_rot / set_input_v_rot whenever the rotation tensor pointer is non-null, but the tensor's buffer can be unallocated (NULL) when a graph only stores K/V without attending -- e.g. DFlash speculative decoding's KV-injection pass. set_input_k_rot then calls ggml_backend_buffer_is_host() on a NULL buffer and aborts with GGML_ASSERT(buffer). Guard the four k_rot/v_rot inputs with the same "&& ->buffer" check that the adjacent kq_mask inputs already use in these two functions. When the buffer is unallocated there is no data to upload, so skipping is correct. Fixes #25191 Signed-off-by: liminfei-amd <91481003+liminfei-amd@users.noreply.github.com> **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9729</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9729</guid>
             <pubDate>Fri, 19 Jun 2026 20:47:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9728]]></title>
-            <description><![CDATA[arg: Add comment line support to --api-key-file (#23168) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9728</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9728</guid>
-            <pubDate>Fri, 19 Jun 2026 16:19:15 GMT</pubDate>
         </item>
     </channel>
 </rss>
