@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 04 Jul 2026 19:02:14 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Jul 2026 07:21:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2672,13 +2672,6 @@
             <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
             <pubDate>Tue, 30 Jun 2020 16:28:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The AI Bottleneck: High-Quality, Human-Powered Data]]></title>
-            <description><![CDATA[In theory, AI has blown past our wildest dreams; in practice, Siri can’t even tell us the weather. The problem? Creating high-quality datasets to train and measure our models is still incredibly difficult. We should be able to gather 20,000 labels for training a Reddit classifier in a single]]></description>
-            <link>https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</link>
-            <guid isPermaLink="false">https://www.surgehq.ai/blog/the-ai-bottleneck-high-quality-human-powered-data</guid>
-            <pubDate>Sun, 31 May 2020 08:22:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
