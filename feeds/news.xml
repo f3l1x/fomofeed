@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 08:16:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 16:51:08 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 01 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[We terminated a TPU mid-training and it recovered in seconds:  Introduction to elastic training with MaxText]]></title>
+            <description><![CDATA[Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX ecosystem utilizes elastic training via Pathways, which converts a hardware failure into a catchable Python exception so the running process can survive. When an unplanned failure occurs, the system automatically replaces only the broken worker, restores the last viable checkpoint from Cloud Storage, and resumes training in place—minimizing total downtime to under two minutes without ever restarting the main controller process.]]></description>
+            <link>https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</guid>
+            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[More details on Fable 5’s cyber safeguards and our jailbreak framework]]></title>
             <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
@@ -117,13 +124,6 @@
             <description><![CDATA[This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.]]></description>
             <link>https://developers.googleblog.com/a2ui-and-mcp-apps/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/a2ui-and-mcp-apps/</guid>
-            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing the Agentic Resource Discovery specification]]></title>
-            <description><![CDATA[An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...]]></description>
-            <link>https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/</guid>
             <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -411,7 +411,7 @@
             <pubDate>Fri, 10 Apr 2020 12:03:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Harnessing Claude’s intelligence]]></title>
+            <title><![CDATA[Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence]]></title>
             <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
             <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
             <pubDate>Thu, 09 Apr 2020 14:12:00 GMT</pubDate>

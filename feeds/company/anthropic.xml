@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 08:16:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 16:51:08 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 03 Jul 2026 23:50:35 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -1037,7 +1037,7 @@
             <pubDate>Fri, 10 Apr 2020 12:03:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Harnessing Claude’s intelligence]]></title>
+            <title><![CDATA[Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence]]></title>
             <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
             <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
             <pubDate>Thu, 09 Apr 2020 14:12:00 GMT</pubDate>
