@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 05 Jul 2026 19:06:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 08:14:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Jul 2026 18:29:08 GMT</pubDate>
+        <pubDate>Sun, 05 Jul 2026 19:43:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9878]]></title>
+            <description><![CDATA[Fix stale tensor-split params for draft models (#24814) * meta: fix tensor split metadata for GQA attention * Tidied the code a bit to match existing style * Revert "Tidied the code a bit to match existing style" This reverts commit b90c6c6300091fe09e2350a3d4edcfcf15db8d2e. * Reverted the ggml-backend-meta asset hack. **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9878</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9878</guid>
+            <pubDate>Sun, 05 Jul 2026 19:43:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b9877]]></title>
+            <description><![CDATA[abort if we see a multi buffer (#25276) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9877</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9877</guid>
+            <pubDate>Sun, 05 Jul 2026 19:12:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9876]]></title>
             <description><![CDATA[ggml : fix tensor-parallel + -ncmoe crash on MoE models (#25028) Tensor parallelism (-sm tensor) combined with -ncmoe (CPU-offloaded MoE experts) aborts during warm-up on MoE models with GGML_ASSERT(ggml_is_contiguous(tensor)) in ggml-backend-meta.cpp. The failing tensor is the MoE router output (ffn_moe_topk): it is mirrored (GGML_BACKEND_SPLIT_AXIS_MIRRORED, replicated across backends since routing must be identical) and happens to be a non-contiguous view. ggml_backend_meta_buffer_{get,set}_tensor asserted contiguity before consulting the split state, so a mirrored non-contiguous tensor tripped the assert even though the GGML_BACKEND_SPLIT_AXIS_MIRRORED case right below already handles it. Move the split-state lookup above the assert and allow the mirrored case in both get_tensor and set_tensor. Diagnosis credit to the reporter (@nathanmp). Fixes #24886 Signed-off-by: liminfei-amd <91481003+liminfei-amd@users.noreply.github.com> **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9732</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9732</guid>
             <pubDate>Fri, 19 Jun 2026 23:44:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9731]]></title>
-            <description><![CDATA[server : optimize get_token_probabilities (#24796) Use std::partial_sort to order only the requested top-n tokens instead of the full vocabulary logprobs sort: vocab=128000 n_top=0 iters=100 full sort: 8555.6 us/op partial sort: 704.3 us/op Signed-off-by: Adrien Gallouët **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9731</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9731</guid>
-            <pubDate>Fri, 19 Jun 2026 21:54:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9730]]></title>
-            <description><![CDATA[mtmd, arg: fix utf8 handling on windows (#24779) * mtmd, arg: fix utf8 handling on windows * also fix ggml_fopen * fix build fail * also fix CLI **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9730</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9730</guid>
-            <pubDate>Fri, 19 Jun 2026 21:18:59 GMT</pubDate>
         </item>
     </channel>
 </rss>

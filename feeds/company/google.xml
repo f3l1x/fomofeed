@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 05 Jul 2026 19:08:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 08:16:07 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Jul 2026 01:37:19 GMT</pubDate>
+        <pubDate>Mon, 06 Jul 2026 01:31:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.51.0-nightly.20260706.gf7af4e518]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260705.gf7af4e518...v0.51.0-nightly.20260706.gf7af4e518]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518</guid>
+            <pubDate>Mon, 06 Jul 2026 01:31:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.51.0-nightly.20260705.gf7af4e518]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260704.gf7af4e518...v0.51.0-nightly.20260705.gf7af4e518]]></description>
@@ -771,13 +778,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.8</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.8</guid>
             <pubDate>Wed, 01 Apr 2026 18:52:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.36.0-preview.7]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.36.0-preview.6...v0.36.0-preview.7]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.7</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-preview.7</guid>
-            <pubDate>Tue, 31 Mar 2026 16:56:24 GMT</pubDate>
         </item>
     </channel>
 </rss>
