@@ -4,11 +4,24 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 16:51:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 19:48:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Jul 2026 23:50:35 GMT</pubDate>
+        <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems]]></title>
+            <link>https://www.anthropic.com/news/alberta-government-claude-cybersecurity</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/alberta-government-claude-cybersecurity</guid>
+            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A global workspace in language models]]></title>
+            <description><![CDATA[New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.]]></description>
+            <link>https://www.anthropic.com/research/global-workspace</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
+            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.201]]></title>
             <description><![CDATA[## What's changed - Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders]]></description>
@@ -240,12 +253,6 @@
             <pubDate>Thu, 11 Jun 2026 05:41:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on]]></title>
-            <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
-            <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.172]]></title>
             <description><![CDATA[## What's changed - Sub-agents can now spawn their own sub-agents (up to 5 levels deep) - Amazon Bedrock now reads the AWS region from ~/.aws config files when AWS_REGION isn't set, matching AWS SDK precedence; /status shows where the region came from - Added a search bar when browsing a marketplace's plugins in /plugin - Added model attribute to the claude_code.lines_of_code.count OTEL metric - Fixed sessions using 1M context without usage credits getting permanently stuck — the session now automatically compacts back under the standard context limit - Fixed a repeating "an image in the conversation could not be processed and was removed" error when the conversation contained multiple images - Fixed the agents view keeping a session under Working with a busy spinner for up to 30 seconds after the worker replied - Fixed background agents potentially reading another directory's project settings (.mcp.json approvals, trust) when dispatched onto a pre-warmed worker - Fixed background-session attach failing with EAUTH for sessions started on an older version after the daemon auto-updated - Fixed a background sub-agent staying stuck as "active" in the agent panel after a nested agent it spawned was stopped - Fixed /model suggestions in the claude agents dispatch input rendering with a misleading slash prefix and showing models disabled for your org - Fixed availableModels restrictions not being applied to subagent model overrides, the agent dispatch model picker, and the advisor model - Fixed availableModels allowlists hiding the /model picker's Opus and Sonnet 1M rows when entries use version-specific IDs like claude-opus-4-8 - Fixed the /model picker on Bedrock offering models the provider doesn't serve — selecting one silently switched the session model and lit the selection marker on multiple rows - Fixed model IDs getting a doubled 1M-context suffix (e.g. [1M][1m]) when ANTHROPIC_DEFAULT_OPUS_MODEL already includes one - Fixed opusplan model setting not shipping with 1M context in plan mode for entitled users; the opusplan[1m] workaround now also correctly switches to Opus in plan mode - Fixed WebFetch(domain:*.example.com) wildcard domain rules never matching subdomains in allow, deny, and ask position, and file permission rules with mid-pattern wildcards (e.g. Read(secrets-*/config.json)) being rejected at startup - Fixed up-arrow prompt history showing the main agent's prompts while a subagent's chat tab is open - Fixed memory recall not finding mounted team memory stores (CLAUDE_MEMORY_STORES) in remote sessions - Fixed workflow validation rejecting scripts whose prompt strings or comments merely mention Date.now()/Math.random() - Disable mouse tracking on Windows consoles that don't fully support it - Fixed the /plugin marketplace list losing its cursor after backing out of a long plugin list, and Esc from the plugin browser returning to the wrong tab - Improved performance in long conversations by removing redundant message normalization and avoiding full message-history transforms when streaming tool-use state is unchanged - Reduced idle CPU usage: /goal status chip no longer re-renders the terminal at 5 Hz while idle, and fewer UI re-renders while subagents run in parallel - Improved Claude in Chrome tool loading: browser tools now load in a single batched call instead of one per tool - Improved the non-interactive Usage Policy refusal message to suggest starting a new session or changing your model - /code-review now keeps the ultra option visible when you're not signed in to claude.ai, with an explanation that the cloud review requires a claude.ai account - Shortened the Remote Control footer indicator to "/rc active" and hid it on narrow terminals - Stopped promoting /loop in remote sessions, where pending loops don't keep the container alive - [VSCode] Fixed PowerShell tool calls rendering as raw JSON instead of a proper command display and permission dialog, and stripped ANSI escape codes from displayed shell output]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.172</link>
@@ -423,12 +430,6 @@
             <pubDate>Fri, 22 May 2026 01:16:52 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Project Glasswing: An initial update]]></title>
-            <link>https://www.anthropic.com/research/glasswing-initial-update</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/glasswing-initial-update</guid>
-            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.147]]></title>
             <description><![CDATA[## What's changed - Pinned background sessions (Ctrl+T in claude agents) now stay alive when idle, are restarted in place to apply Claude Code updates, and are shed under memory pressure only after non-pinned sessions - Renamed /simplify to /code-review. It now reports correctness bugs at a chosen effort level (e.g., /code-review high); pass --comment to post findings as inline GitHub PR comments. The old cleanup-and-fix behavior has been removed - Improved auto-updater: retries transient network failures, reports specific error categories and OS error codes on failure, and shows the current version when an update fails - Improved diff rendering performance for large file edits - Prompt history no longer records consecutive duplicate entries — recalling a prompt with arrow-up and submitting it again won't add another copy - Fixed enterprise login restrictions (forceLoginOrgUUID and forceLoginMethod managed-settings) not being enforced against third-party-provider and API-key sessions - Fixed & in ! command output displaying as &, which broke copy-pasting URLs from commands like gcloud auth login on headless machines - Fixed unknown slash commands silently doing nothing in headless/SDK mode — they now show an error message - Fixed /help rendering a broken tab header and showing only one command per page on small terminals when not in fullscreen mode - Fixed shell snapshot dropping user functions whose names start with a single underscore, which broke aliases referencing them - Fixed plugin agents that declare multiple Agent(...) types in tools: frontmatter dropping all but the last entry - Fixed hook if conditions like PowerShell(git push*) never matching — only PowerShell(*) worked - Fixed PowerShell tool dropping output for commands that rely on the default formatter - Fixed: on Windows, "Yes, and don't ask again" for a PowerShell script invocation now writes a rule that actually matches on subsequent runs - Fixed PowerShell tool failing on Windows with exit code 1 when pwsh is installed via winget or the Microsoft Store - Fixed /effort opening with the slider on the wrong level — it now starts at your current effort - Fixed paginating MCP servers dropping resources, templates, and prompts past page 1 - Fixed full-screen strobing in attached background sessions on Windows Terminal while Claude is streaming - Fixed: on Windows, removing a background-job worktree no longer follows NTFS junctions into the main repo - Fixed /background refusing sessions whose only typed input was a skill or custom slash command - Fixed auto mode suppressing AskUserQuestion when the user or a skill explicitly relies on it; the auto-mode classifier now sees the user's answers as intent signal - Fixed /theme "New custom theme" and color editor dialogs not responding to Esc - Fixed an uncaught exception at the end of streaming sessions when running via the Agent SDK - Fixed a rare hang when waiting for scroll to settle on Windows - Fixed stale and doubled rows in the agent view list on Windows when background session results contain wide (CJK) characters - Fixed pasted text being delivered to agents as an unreadable [Pasted text #N] placeholder instead of the actual content - Fixed plugin component counts in claude plugin details and /plugin being doubled when a plugin's manifest listed paths overlapping its default directories - Fixed backgrounded sessions re-prompting for tool permissions you already granted with "don't ask again" - Fixed GNOME Terminal right-click and middle-click paste not inserting text - Fixed CLAUDE_CODE_SUBAGENT_MODEL not applying to teammate processes spawned by agent teams - Fixed slash commands followed by a tab or newline being treated as an unknown command - Fixed several spacing and layout glitches in the /plugin, /status, /mobile, /sandbox, and /permissions menus - Fixed stripped images prompting the model to repeatedly re-read media that was no longer present]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.147</link>
@@ -532,13 +533,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.132</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.132</guid>
             <pubDate>Wed, 06 May 2026 22:08:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Natural Language Autoencoders: Turning Claude’s thoughts into text]]></title>
-            <description><![CDATA[AI models like Claude talk in words but think in numbers. In this study, we train Claude to translate its thoughts into human-readable text.]]></description>
-            <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
-            <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.131]]></title>

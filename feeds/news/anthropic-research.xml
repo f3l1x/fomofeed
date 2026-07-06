@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 16:49:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 19:46:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[A global workspace in language models]]></title>
+            <description><![CDATA[New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.]]></description>
+            <link>https://www.anthropic.com/research/global-workspace</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
+            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Anthropic Economic Index report: Cadences]]></title>
             <description><![CDATA[In our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?]]></description>
@@ -59,24 +66,11 @@
             <pubDate>Tue, 26 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Project Glasswing: An initial update]]></title>
-            <link>https://www.anthropic.com/research/glasswing-initial-update</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/glasswing-initial-update</guid>
-            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Teaching Claude why]]></title>
             <description><![CDATA[New research on how we've reduced agentic misalignment.]]></description>
             <link>https://www.anthropic.com/research/teaching-claude-why</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/teaching-claude-why</guid>
             <pubDate>Thu, 07 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Natural Language Autoencoders: Turning Claude’s thoughts into text]]></title>
-            <description><![CDATA[AI models like Claude talk in words but think in numbers. In this study, we train Claude to translate its thoughts into human-readable text.]]></description>
-            <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
-            <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

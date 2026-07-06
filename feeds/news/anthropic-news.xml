@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 16:49:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 19:46:35 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 01 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems]]></title>
+            <link>https://www.anthropic.com/news/alberta-government-claude-cybersecurity</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/alberta-government-claude-cybersecurity</guid>
+            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[More details on Fable 5’s cyber safeguards and our jailbreak framework]]></title>
             <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
@@ -66,12 +72,6 @@
             <link>https://www.anthropic.com/news/tcs-anthropic-partnership</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/tcs-anthropic-partnership</guid>
             <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on]]></title>
-            <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
-            <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>

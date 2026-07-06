@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 16:51:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 19:48:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,19 @@
             <description><![CDATA[Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX ecosystem utilizes elastic training via Pathways, which converts a hardware failure into a catchable Python exception so the running process can survive. When an unplanned failure occurs, the system automatically replaces only the broken worker, restores the last viable checkpoint from Cloud Storage, and resumes training in place—minimizing total downtime to under two minutes without ever restarting the main controller process.]]></description>
             <link>https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</guid>
+            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems]]></title>
+            <link>https://www.anthropic.com/news/alberta-government-claude-cybersecurity</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/alberta-government-claude-cybersecurity</guid>
+            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A global workspace in language models]]></title>
+            <description><![CDATA[New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.]]></description>
+            <link>https://www.anthropic.com/research/global-workspace</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
             <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -157,12 +170,6 @@
             <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on]]></title>
-            <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
-            <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Paving the way for agents in biology]]></title>
             <link>https://www.anthropic.com/research/agents-in-biology</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/agents-in-biology</guid>
@@ -193,24 +200,11 @@
             <pubDate>Tue, 26 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Project Glasswing: An initial update]]></title>
-            <link>https://www.anthropic.com/research/glasswing-initial-update</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/glasswing-initial-update</guid>
-            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Teaching Claude why]]></title>
             <description><![CDATA[New research on how we've reduced agentic misalignment.]]></description>
             <link>https://www.anthropic.com/research/teaching-claude-why</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/teaching-claude-why</guid>
             <pubDate>Thu, 07 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Natural Language Autoencoders: Turning Claude’s thoughts into text]]></title>
-            <description><![CDATA[AI models like Claude talk in words but think in numbers. In this study, we train Claude to translate its thoughts into human-readable text.]]></description>
-            <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
-            <pubDate>Wed, 06 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[An update on recent Claude Code quality reports]]></title>
