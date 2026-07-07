@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 19:48:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2026 07:34:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 30 Jun 2026 22:10:17 GMT</pubDate>
+        <pubDate>Mon, 06 Jul 2026 22:28:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.31.2]]></title>
+            <description><![CDATA[## What's Changed * ci: avoid unbounded parallelism by @dhiltgen in https://github.com/ollama/ollama/pull/16966 * fix cuda toolkit lookup and parallel by @MarkWard0110 in https://github.com/ollama/ollama/pull/16613 * docs(cloud): update retirement list by @mxyng in https://github.com/ollama/ollama/pull/17000 * discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in https://github.com/ollama/ollama/pull/16949 * agent: harness core by @ParthSareen in https://github.com/ollama/ollama/pull/16963 * llama: clean up dead code from llama-server work by @dhiltgen in https://github.com/ollama/ollama/pull/17007 * rocm: remove no longer supported devices by @dhiltgen in https://github.com/ollama/ollama/pull/17010 * compat: use UTF-8-safe file open by @dhiltgen in https://github.com/ollama/ollama/pull/16999 * llama: enable FA on CUDA CC 6.x GPUs by @dhiltgen in https://github.com/ollama/ollama/pull/16994 * mlx: x/create rewrite by @pdevine in https://github.com/ollama/ollama/pull/16919 * llama.cpp update by @dhiltgen in https://github.com/ollama/ollama/pull/17055 * server: remove OLLAMA_EXPERIMENT=client2 by @mxyng in https://github.com/ollama/ollama/pull/16962 * mlx: update to de7b4ed9 by @dhiltgen in https://github.com/ollama/ollama/pull/17056 ## New Contributors * @kevinpark1217 made their first contribution in https://github.com/ollama/ollama/pull/16949 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.31.1...v0.31.2-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1</guid>
+            <pubDate>Mon, 06 Jul 2026 22:28:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.31.1]]></title>
             <description><![CDATA[## Faster Gemma 4 on Apple Silicon Gemma 4 is now significantly faster in Ollama on Apple Silicon, generating tokens nearly 90% faster on average across a coding-agent benchmark by leveraging multi-token prediction (MTP). Ollama auto-tunes how many tokens to draft as it runs, so the speedup is on by default, requires no configuration, and does not change the model's output. ## What's Changed - Tightened Gemma 4 MoE model loading in the MLX engine - Updated the MLX engine to the latest version, including a new small-batch matmul kernel - Updated the underlying llama.cpp engine to build 9840 - Improved Gemma 4 multi-token prediction (MTP) performance **Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.12...v0.31.1]]></description>
@@ -869,13 +876,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.9.2</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.2</guid>
             <pubDate>Wed, 18 Jun 2025 14:29:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.1]]></title>
-            <description><![CDATA[## Tool calling improvements ### New tool calling support The following models now support tool calling: * DeepSeek-R1-2508 (671B model) * Magistral Tool calling reliability has also been improved for the following models: * Llama 4 * Mistral To re-download the models, use ollama pull. ## New Ollama for macOS and Windows preview A new version of Ollama's macOS and Windows applications are available to test for early feedback. New improvements to the apps will be introduced over the coming releases: * Download for macOS * Download for Windows If you have feedback, please create an issue on GitHub with the app label. These apps will automatically update themselves to future versions of Ollama, so you may have to redownload new preview versions in the future. ### New features #### Expose Ollama on the network Ollama can now be exposed on the network, allowing others to access Ollama on other devices or even over the internet. This is useful for having Ollama running on a powerful Mac, PC or Linux computer while making it accessible to less powerful devices. #### Allow local browser access Enabling this allows websites to access your local installation of Ollama. This is handy for developing browser-based applications using Ollama's JavaScript library. #### Model directory The directory in which models are stored can now be modified! This allows models to be stored on external hard disks or alternative directories than the default. #### Smaller footprint and faster starting on macOS The macOS app is now a native application and starts much faster while requiring a much smaller installation. ## What's Changed * Magistral now supports disabling thinking mode. Note: it is also recommended to change the system prompt when doing so. * Error messages that previously showed POST predict will now be more informative * Improved tool calling reliability for some models * Fixed issue on Windows where ollama run would not start Ollama automatically ## New Contributors * @JasonHonKL made their first contribution in https://github.com/ollama/ollama/pull/10174 * @hwittenborn made their first contribution in https://github.com/ollama/ollama/pull/10998 * @krzysztofjeziorny made their first contribution in https://github.com/ollama/ollama/pull/10973 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.0...v0.9.1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.9.1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.1</guid>
-            <pubDate>Mon, 09 Jun 2025 17:18:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Secure Minions: private collaboration between Ollama and frontier models]]></title>

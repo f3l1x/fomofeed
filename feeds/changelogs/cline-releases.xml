@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2026 19:46:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2026 07:32:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 04 Jul 2026 02:36:24 GMT</pubDate>
+        <pubDate>Tue, 07 Jul 2026 02:37:58 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.38]]></title>
+            <description><![CDATA[- New plan/act accent palette: act mode is now blue (#79b8ff) and plan mode amber, replacing the old cyan/yellow — applied across dialogs, the model selector, config, onboarding, markdown, and syntax highlighting, with light-theme variants tuned for contrast - Restyled chat input: a minimal frame with full-width horizontal rules and a bold accent prompt glyph instead of the tinted background, plus slimmer user-message bubbles - Assistant markdown accents are now tinted by the mode (plan/act) they were produced in - Polished the status bar usage display and ClinePass model name - Harmonized the success/diff green and dark syntax-highlighting colors with the new brand palette - The thinking-level picker now defaults its cursor to Medium instead of Off - read_files now tolerates malformed input from weaker models: line-range entries (start_line/end_line) sent as separate array items are coalesced back onto the preceding file path instead of being rejected (from SDK v0.0.58) - Models in the live catalog that don't report a context window now default to a 128K input-token limit, so under-specified models get a usable context budget (from SDK v0.0.57) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.37...cli-v3.0.38]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.38</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.38</guid>
+            <pubDate>Tue, 07 Jul 2026 02:37:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.37]]></title>
             <description><![CDATA[- Weaker models (e.g. DeepSeek) that emit malformed tool calls — wrong argument types or truncated JSON — are now handled gracefully and run instead of erroring out - Plan/act mode switches are now visible to the model, so it knows when you change modes mid-session - Fixed plan/act mode notices being dropped from prompts sent to the model - Fixed a race where switching modes in an empty session could trigger an unexpected restart **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.36...cli-v3.0.37]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.47.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.47.0</guid>
             <pubDate>Tue, 06 Jan 2026 21:09:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.46.1]]></title>
-            <description><![CDATA[### Fixed - Remove GLM 4.6 from free models **Full Changelog**: https://github.com/cline/cline/compare/v3.46.0...v3.46.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.46.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.46.1</guid>
-            <pubDate>Mon, 22 Dec 2025 22:11:55 GMT</pubDate>
         </item>
     </channel>
 </rss>
