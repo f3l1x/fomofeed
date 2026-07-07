@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Jul 2026 16:22:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2026 19:46:29 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 07 Jul 2026 01:56:36 GMT</pubDate>
         <language><![CDATA[en]]></language>
