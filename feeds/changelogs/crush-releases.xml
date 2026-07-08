@@ -4,9 +4,9 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Jul 2026 19:46:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 06:23:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Jul 2026 01:02:22 GMT</pubDate>
+        <pubDate>Wed, 08 Jul 2026 00:53:18 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
@@ -14,7 +14,14 @@
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Tue, 07 Jul 2026 01:02:22 GMT</pubDate>
+            <pubDate>Wed, 08 Jul 2026 00:53:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.82.0]]></title>
+            <description><![CDATA[# General fixes Hello. This small patch includes some varied fixes. ## Better chat scroll On some rare occasions, the chat could stop scrolling automatically to the bottom as the model works. We made some changes to make this more reliable! ## General agent fixes There were a few fixes here and there making the agent behave better. We made thinking on/off and reasoning levels behave better for providers like Alibaba and Baseten, for example. We are finally mentioning Hyper on README, which are our favourite inference service for Crush. See ya! ## Changelog ### New! * cbb6daaa80841614abc091f3201c5e635895c22e: feat(ui): preserve newlines in expanded tool content (#3239) (@taciturnaxolotl) ### Fixed * d341d84b24fbe6471708c15f4dc08533a9ea6dc4: fix(alibaba): fix missing thinking traces on deepseek via aliababa (#3259) (@andreynering) * 3ac7f1c48bbe3031772fb2f47c2f356283790591: fix(baseten): make the thinking on/off toggle work for baseten (@andreynering) * 78a205cdb5f988aa6daa6c1907e88b4b9d2b2769: fix(copilot): guard nil request body in initiator transport (#3246) (@truffle-dev) * ff12fa014e8f530daa8e52eecc716c79d18a363c: fix(scrollbar): only show on human scroll (@taciturnaxolotl) * 6437f0d78c72987f9c90b5257f22504326b19c78: fix(ui): make chat follow-scroll reliable when content grows (#3240) (@taciturnaxolotl) ### Docs * 3d603684539ffe2d5716784f1eee17e2e59ab843: docs(readme): mention MOONSHOT_API_KEY (#3251) (@TheRAWagent) ### Other stuff * ebf6e826ebf8c58754597ef88dce3649ec91abbb: chore: add alibaba us (#3249) (@andreynering) * e01ecdf2054af14a452109eb1d4d8402ad28f703: readme: add hyper (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.82.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.82.0</guid>
+            <pubDate>Tue, 07 Jul 2026 21:23:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.81.0]]></title>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.19.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.19.0</guid>
             <pubDate>Wed, 26 Nov 2025 14:55:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.18.6]]></title>
-            <description><![CDATA[# A Little Release for Arch Linux, btw Hi! This mostly just a release to re-trigger an AUR release to fix an issue with the AUR package. See you next release! 💘 ## Changelog ### Other stuff * a34a8a3291fb8db97903acc43b3a136c75d5def8: chore: swap error related logs to use error log level (#1505) (@tauraamui) * 303bf8c846660c4a7c295a0a154354d8f0c4413b: chore: update bubbletea to use string view content (@aymanbagabas) --- Verifying the artifacts First, download the checksums.txt file, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.18.6</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.18.6</guid>
-            <pubDate>Mon, 24 Nov 2025 21:00:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
