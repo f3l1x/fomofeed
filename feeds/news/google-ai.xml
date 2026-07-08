@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Jul 2026 15:58:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 17:38:26 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Bridging the Domain Gap: AI Race Coach built with Antigravity and Gemini]]></title>
+            <description><![CDATA[On May 23, 2026, fresh off the stage at Google I/O, our Google Developer Experts (GDEs) converged on...]]></description>
+            <link>https://developers.googleblog.com/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</guid>
+            <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[We terminated a TPU mid-training and it recovered in seconds:  Introduction to elastic training with MaxText]]></title>
             <description><![CDATA[Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX ecosystem utilizes elastic training via Pathways, which converts a hardware failure into a catchable Python exception so the running process can survive. When an unplanned failure occurs, the system automatically replaces only the broken worker, restores the last viable checkpoint from Cloud Storage, and resumes training in place—minimizing total downtime to under two minutes without ever restarting the main controller process.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/</guid>
             <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs]]></title>
-            <description><![CDATA[This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.]]></description>
-            <link>https://developers.googleblog.com/a2ui-and-mcp-apps/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/a2ui-and-mcp-apps/</guid>
-            <pubDate>Tue, 16 Jun 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

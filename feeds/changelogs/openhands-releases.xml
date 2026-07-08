@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Jul 2026 15:59:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 17:39:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Jul 2026 22:10:22 GMT</pubDate>
+        <pubDate>Wed, 08 Jul 2026 16:44:40 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[1.9.3]]></title>
+            <description><![CDATA[## 1.9.3 (2026-07-08) ## What's Changed ### Bug Fixes * fix(app-server): pass index columns as a list in migration 013 by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/15176 * fix: default ENABLE_ACP on so ACP agent settings show in OH Cloud by @hieptl in https://github.com/OpenHands/OpenHands/pull/15183 ### Maintenance * chore: bump SDK packages to v1.33.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15177 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/1.9.2...1.9.3 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/1.9.3</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/1.9.3</guid>
+            <pubDate>Wed, 08 Jul 2026 16:44:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[1.9.2]]></title>
             <description><![CDATA[## 1.9.2 (2026-07-07) ## What's Changed ### Maintenance * chore(main): release cloud 1.42.0 by @openhands-release-bot[bot] in https://github.com/OpenHands/OpenHands/pull/15151 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/1.9.1...1.9.2 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.9.3</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.9.3</guid>
             <pubDate>Fri, 13 Sep 2024 00:51:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.9.2 - 2024-09-04]]></title>
-            <description><![CDATA[## What's Changed ### Changed * Improve system prompt to reduce file editing errors made by LLM by @tobitege in https://github.com/All-Hands-AI/OpenHands/pull/3610 ### Fixed * Better syntax error loop detection by @tobitege in https://github.com/All-Hands-AI/OpenHands/pull/3628 * Fix a global step count out-of-sync bug when delegated agent fails by @li-boxuan in https://github.com/All-Hands-AI/OpenHands/pull/3680 * Fix confirmation mode by @mbalunovic in https://github.com/All-Hands-AI/OpenHands/pull/3695 * Files display updated content after agent edit by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/3694 * CodeActAgent recovers upon a llm completion exception by @shubhamofbce in https://github.com/All-Hands-AI/OpenHands/pull/3678 * Anthropic provider points to the correct LiteLLM model ID by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/3715 ## New Contributors * @shubhamofbce made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/3621 * @mbalunovic made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/3695 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.9.1...0.9.2]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.9.2</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.9.2</guid>
-            <pubDate>Wed, 04 Sep 2024 18:32:26 GMT</pubDate>
         </item>
     </channel>
 </rss>
