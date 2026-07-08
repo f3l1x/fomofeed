@@ -4,16 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Jul 2026 17:40:24 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 19:15:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Introducing Grok 4.5]]></title>
+            <description><![CDATA[Our most intelligent model and the first we've built for more than software engineering.]]></description>
             <link>https://cursor.com/blog/grok-4-5</link>
             <guid isPermaLink="false">https://cursor.com/blog/grok-4-5</guid>
-            <category><![CDATA[research]]></category>
+            <category><![CDATA[Research]]></category>
             <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -81,18 +82,17 @@
             <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Reward hacking is swamping model intelligence gains]]></title>
-            <description><![CDATA[On SWE-bench Pro, 63% of successful Opus 4.8 Max resolutions retrieved the fix rather than derived it. Stricter eval harnesses show how benchmark scores can conflate coding ability with answer retrieval.]]></description>
-            <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
-            <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
-            <category><![CDATA[Research]]></category>
-            <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[How Notion used the Cursor SDK to embed coding agents]]></title>
             <link>https://cursor.com/blog/notion</link>
             <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
             <category><![CDATA[product]]></category>
+            <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reward hacking is swamping model intelligence gains]]></title>
+            <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
+            <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
+            <category><![CDATA[research]]></category>
             <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
