@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 09 Jul 2026 10:54:08 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 16:24:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 09 Jul 2026 06:36:00 GMT</pubDate>
+        <pubDate>Thu, 09 Jul 2026 15:03:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.17.17]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Improved Meta model handling for reasoning variants and provider requests. ## Desktop ### Bugfixes - Fixed clipped descenders in model selector labels. ### Improvements - Added a dismissible tabs intro popup and refreshed the help entry point. - Updated sub-agent task rows to match the v2 session design more closely. - Restyled the revert dock in v2 sessions for clearer restore actions. - Added a v2 free-model selector with faster access to more providers.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.17</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.17</guid>
+            <pubDate>Thu, 09 Jul 2026 15:03:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.17.16]]></title>
             <description><![CDATA[## Core ### Bugfixes - Exposed reasoning effort variants for Grok models. - Improved xAI prompt cache routing and PDF file support in Responses models. ## Desktop ### Improvements - Added an Open containing folder action for projects on the home screen. - Added a composer add menu for files, commands, context, and shell mode without losing draft text. - Added a provider setup tip on new sessions when no external providers are connected. - Remember review panel mode and selected file per session. - Added inline file browser tabs for opening and previewing files from the side panel. - Updated desktop translations. ### Bugfixes - Kept the review pane usable on wide screens by reserving its minimum width. - Fixed hidden session panes staying mounted and causing side-panel glitches. - Routed legacy drafts back to the session page. - Loaded full review diffs for large patches when the initial diff is capped. - Removed the first-open flash in the command palette. - Routed the new session shortcut through tabs in the new layout. - Kept session routes inside the correct layout when opening legacy session URLs.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.25</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.25</guid>
             <pubDate>Thu, 12 Mar 2026 23:34:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.24]]></title>
-            <description><![CDATA[## Core - Add initial support for workspaces into the TUI - Send context-1m-2025-08-07 beta header to GitLab to enable 1M context window (@Krule) - Add Copilot GPT-5.4 xhigh support ## Desktop - Fix scroll jitter and loop issues in app - Session title turn spinner now displays correctly - Dismiss toast notifications when questions or permissions are resolved (@neriousy) **Thank you to 3 community contributors:** - @Krule: - feat(gitlab): send context-1m-2025-08-07 beta header to enable 1M context window (#16153) - @ShriKaranHanda: - fix(storybook): add ci build workflow (#16760) - @neriousy: - fix(app): dismiss toast notifications when questions or permissions a… (#16758)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.24</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.24</guid>
-            <pubDate>Mon, 09 Mar 2026 16:10:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

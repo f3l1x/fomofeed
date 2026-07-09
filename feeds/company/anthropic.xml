@@ -4,11 +4,17 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 09 Jul 2026 10:55:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 16:25:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Jul 2026 21:22:06 GMT</pubDate>
+        <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing a way to reflect on how you use Claude]]></title>
+            <link>https://www.anthropic.com/news/reflect-with-claude</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/reflect-with-claude</guid>
+            <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.205]]></title>
             <description><![CDATA[## What's changed - Added an auto mode rule that blocks tampering with session transcript files - Fixed --json-schema silently producing unstructured output when the schema was invalid, and schemas using the format keyword being rejected - Fixed a message sent while Claude was working being silently lost when the turn ended at the --max-turns limit - Fixed Windows worktree removal deleting files outside the worktree when an NTFS junction or directory symlink existed inside it - Fixed background agents staying shown as "failed" or "completed" in the agent list after being resumed with SendMessage - Fixed background jobs flipping from "needs input" back to "working" in the agent list when the agent's turn contained no readable text - Fixed claude attach erroring when a background agent was mid-upgrade restart instead of waiting for it to come back - Fixed session-to-PR linking missing a PR created in a Bash call whose output exceeded the 30K inline limit - Fixed claude mcp add-from-claude-desktop getting stuck when a server name contains unsupported characters; invalid names are now reported and remaining servers still import - Fixed a plugin LSP server that fails to initialize preventing a valid LSP server from another plugin handling the same file extension - Fixed a Windows crash when the directory Claude was launched from is deleted, locked, or unmounted while a command is running - Fixed a crash when a file watcher was closed while a directory scan was still in flight - Fixed project verify skills being rewritten on every session instead of only when a documented command changed - Fixed the agent view rendering one line too high and clipping its header when the job list slightly overflowed the screen - Fixed background tasks in the web and mobile Remote Control panels showing stale "Running" status by forwarding full task state on every membership change - Improved auto mode to ask before running rm -rf on a variable it can't resolve from context - Auto-update binary downloads now stream to disk instead of buffering in memory, cutting the updater's peak memory usage by roughly 400 MB - Background task notifications now explicitly state that no human input has occurred, preventing fabricated in-transcript approvals from being acted on - Improved agent view: sessions that edit, merge, comment on, or push to an existing PR now link it in claude agents - Improved agent view: rows now show a colored state word and a classifier-written headline instead of raw tool call text, and the peek opens with full status including the exact ask for blocked sessions - /doctor is now a full setup checkup that can diagnose and fix issues; /checkup is its alias - Reserved the "Claude Browser" MCP server name (alongside "Claude Preview") ahead of the Claude Desktop pane rename; user-configured MCP servers can no longer register under either name - Fixed Cowork VM-mode local-agent sessions failing to start with "Not logged in · Please run /login" on CLI 2.1.203+]]></description>
@@ -24,7 +30,7 @@
             <pubDate>Wed, 08 Jul 2026 00:27:50 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[An off switch for dual use knowledge in AI models]]></title>
+            <title><![CDATA[An off switch for dual-use knowledge in AI models]]></title>
             <link>https://www.anthropic.com/research/off-switch-dual-use</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/off-switch-dual-use</guid>
             <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
@@ -271,12 +277,6 @@
             <title><![CDATA[Results from the first Anthropic Public Record]]></title>
             <link>https://www.anthropic.com/news/anthropic-public-record</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-public-record</guid>
-            <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TCS and Anthropic partner to bring Claude to regulated industries]]></title>
-            <link>https://www.anthropic.com/news/tcs-anthropic-partnership</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/tcs-anthropic-partnership</guid>
             <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 09 Jul 2026 10:54:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 16:24:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Jul 2026 20:04:42 GMT</pubDate>
+        <pubDate>Thu, 09 Jul 2026 14:16:09 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[cloud: 1.44.0]]></title>
+            <description><![CDATA[## 1.44.0 (2026-07-09) ## What's Changed ### Features * feat: pass repository metadata to observability traces by @neubig in https://github.com/OpenHands/OpenHands/pull/14431 ### Maintenance * chore: bump SDK packages to v1.34.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15200 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.43.0...cloud-1.44.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.44.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.44.0</guid>
+            <pubDate>Thu, 09 Jul 2026 14:16:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cloud: 1.43.0]]></title>
             <description><![CDATA[## 1.43.0 (2026-07-08) ## What's Changed ### Features * feat: rename admin dashboard to usage & monitoring by @saurya in https://github.com/OpenHands/OpenHands/pull/15146 * feat: add SMTP email service by @saurya in https://github.com/OpenHands/OpenHands/pull/15144 * feat: track user login timestamps by @saurya in https://github.com/OpenHands/OpenHands/pull/15148 * feat: surface email enabled for smtp/resend by @saurya in https://github.com/OpenHands/OpenHands/pull/15185 ### Bug Fixes * fix(app-server): pass index columns as a list in migration 013 by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/15176 * fix: default ENABLE_ACP on so ACP agent settings show in OH Cloud by @hieptl in https://github.com/OpenHands/OpenHands/pull/15183 * fix: send authenticated marketplace URLs to agent-server by @hieptl in https://github.com/OpenHands/OpenHands/pull/15187 ### Maintenance * chore(main): release 1.9.2 by @openhands-release-bot[bot] in https://github.com/OpenHands/OpenHands/pull/15171 * chore: bump SDK packages to v1.33.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15177 * chore(main): release 1.9.3 by @openhands-release-bot[bot] in https://github.com/OpenHands/OpenHands/pull/15179 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.42.0...cloud-1.43.0 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.9.6</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.9.6</guid>
             <pubDate>Mon, 30 Sep 2024 13:56:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.9.5 - 2024-09-26]]></title>
-            <description><![CDATA[## What's Changed ### Added * More granular messages displayed on the UI during startup by @tobitege in https://github.com/All-Hands-AI/OpenHands/pull/3771 ### Fixed * Display full model name in Settings UI (#3900) by @iaavas in https://github.com/All-Hands-AI/OpenHands/pull/3991 * Multiple improvements to evaluation by @xingyaoww * Fixed an issue where Base URL was not getting reset in Settings by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4037 * Fix persistence of Advanced Settings when re-opening the Settings by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4038 * Fixed an issue with the o1-mini model by @neubig in https://github.com/All-Hands-AI/OpenHands/pull/4012 * Fixed server lock up during session initialization by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/4007 * CodeActAgent responds to user cancellation by @tobitege in https://github.com/All-Hands-AI/OpenHands/pull/3968 ## New Contributors * @iaavas made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/3991 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.9.4...0.9.5]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.9.5</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.9.5</guid>
-            <pubDate>Thu, 26 Sep 2024 12:59:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
