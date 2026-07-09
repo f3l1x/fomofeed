@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Jul 2026 19:15:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 10:55:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,12 @@
             <description><![CDATA[On May 23, 2026, fresh off the stage at Google I/O, our Google Developer Experts (GDEs) converged on...]]></description>
             <link>https://developers.googleblog.com/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</guid>
+            <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An off switch for dual use knowledge in AI models]]></title>
+            <link>https://www.anthropic.com/research/off-switch-dual-use</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/off-switch-dual-use</guid>
             <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -192,12 +198,6 @@
             <link>https://www.anthropic.com/research/attack-navigator</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/attack-navigator</guid>
             <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coding agents in the social sciences]]></title>
-            <link>https://www.anthropic.com/research/coding-agents-social-sciences</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/coding-agents-social-sciences</guid>
-            <pubDate>Tue, 26 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Teaching Claude why]]></title>

@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Jul 2026 19:13:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 10:54:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Jul 2026 02:37:58 GMT</pubDate>
+        <pubDate>Thu, 09 Jul 2026 04:42:44 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.39]]></title>
+            <description><![CDATA[- You can now select Cline free models on the ClinePass provider in the model picker - Removed the retired ClinePass GLM 5.1 model - Fixed OpenAI Codex model metadata under the GPT Subscription provider - str_replace edits now report accurate diffs - Fixed context compaction so canonical session history is preserved - The detached hub daemon now emits telemetry, and telemetry identity now includes user_id - Cline provider requests now send versioned client-identity headers **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.38...cli-v3.0.39]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.39</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.39</guid>
+            <pubDate>Thu, 09 Jul 2026 04:42:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v4.0.7]]></title>
+            <description><![CDATA[### Added - Add a ClinePass limit-reached error with a one-click option to switch to Cline usage-based billing. - Allow selecting Cline free models on the ClinePass provider, organized into Subscribed and Free tabs with model descriptions. ### Changed - Refine ClinePass onboarding and provider settings copy, and open the "learn more" link via the in-app URL handler. - Remove the Cline model picker recommendation copy. ### Removed - Remove all references to GLM 5.1. **Full Changelog**: https://github.com/cline/cline/compare/v4.0.6...v4.0.7]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.0.7</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.0.7</guid>
+            <pubDate>Thu, 09 Jul 2026 03:22:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.38]]></title>
             <description><![CDATA[- New plan/act accent palette: act mode is now blue (#79b8ff) and plan mode amber, replacing the old cyan/yellow — applied across dialogs, the model selector, config, onboarding, markdown, and syntax highlighting, with light-theme variants tuned for contrast - Restyled chat input: a minimal frame with full-width horizontal rules and a bold accent prompt glyph instead of the tinted background, plus slimmer user-message bubbles - Assistant markdown accents are now tinted by the mode (plan/act) they were produced in - Polished the status bar usage display and ClinePass model name - Harmonized the success/diff green and dark syntax-highlighting colors with the new brand palette - The thinking-level picker now defaults its cursor to Medium instead of Off - read_files now tolerates malformed input from weaker models: line-range entries (start_line/end_line) sent as separate array items are coalesced back onto the preceding file path instead of being rejected (from SDK v0.0.58) - Models in the live catalog that don't report a context window now default to a 128K input-token limit, so under-specified models get a usable context budget (from SDK v0.0.57) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.37...cli-v3.0.38]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.49.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.49.0</guid>
             <pubDate>Sat, 10 Jan 2026 05:04:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.48.0]]></title>
-            <description><![CDATA[### Added - Add Skills system for reusable, on-demand agent instructions - Add new websearch tooling in Cline provider - Add zai-glm-4.7 to Cerebras model list - Add model refresh and improve reasoning support for Vercel AI Gateway ### Fixed - Revert #8341 due to regressions in diff view/document truncation (see #8423, #8429) - Fixed extension crash when using context menu selector **Full Changelog**: https://github.com/cline/cline/compare/v3.47.0...v3.48.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.48.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.48.0</guid>
-            <pubDate>Fri, 09 Jan 2026 19:36:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.47.0]]></title>
-            <description><![CDATA[### Added - Added experimental support for Background Edits (allows editing files in background without opening the diff view) - Updated free model to MiniMax M2.1 (replacing MiniMax M2) - Added support for Azure based identity authentication in OpenAI Compatible provider and Azure OpenAI - Add supportsReasoning property to Baseten models ### Fixed - Prevent expired token usage in authenticated requests - Exclude binary files without extensions from diffs - Preserve file endings and trailing newlines - Fix Cerebras rate limiting - Fix Auto Compact for Claude Code provider - Make Workspace and Favorites history filters independent - Fix remote MCP server connection failures (404 response handling) - Disable native tool calling for Deepseek 3.2 speciale - Show notification instead of opening sidebar on update - Fix Baseten model selector ### Refactored - Modify prompts for parallel tool usage in Claude and Gemini 3 models **Full Changelog**: https://github.com/cline/cline/compare/v3.46.1...v3.47.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.47.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.47.0</guid>
-            <pubDate>Tue, 06 Jan 2026 21:09:53 GMT</pubDate>
         </item>
     </channel>
 </rss>

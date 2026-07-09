@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Jul 2026 19:13:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 10:54:08 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Jul 2026 15:31:38 GMT</pubDate>
+        <pubDate>Thu, 09 Jul 2026 06:36:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.17.16]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Exposed reasoning effort variants for Grok models. - Improved xAI prompt cache routing and PDF file support in Responses models. ## Desktop ### Improvements - Added an Open containing folder action for projects on the home screen. - Added a composer add menu for files, commands, context, and shell mode without losing draft text. - Added a provider setup tip on new sessions when no external providers are connected. - Remember review panel mode and selected file per session. - Added inline file browser tabs for opening and previewing files from the side panel. - Updated desktop translations. ### Bugfixes - Kept the review pane usable on wide screens by reserving its minimum width. - Fixed hidden session panes staying mounted and causing side-panel glitches. - Routed legacy drafts back to the session page. - Loaded full review diffs for large patches when the initial diff is capped. - Removed the first-open flash in the command palette. - Routed the new session shortcut through tabs in the new layout. - Kept session routes inside the correct layout when opening legacy session URLs.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.16</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.16</guid>
+            <pubDate>Thu, 09 Jul 2026 06:36:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.17.15]]></title>
             <description><![CDATA[## Core ### Bugfixes - Better classify Z.ai context-window overflow errors so oversized requests surface the right failure mode (@fengjikui) - Handle unavailable config directories more gracefully when reading config files ## Desktop ### Improvements - Restore model details tooltips in the model picker (@arvsrn) - Refresh the v2 command palette to better match the rest of the new desktop UI (@arvsrn) ### Bugfixes - Make terminal shortcuts take priority when the terminal is focused - Show unread state on tabs with pending questions - Keep session tab titles available after reloads while session data is still loading - Apply theme changes only after you select them in Settings - Fix macOS titlebar appearance mismatches in Sequoia and adjust traffic light placement (@arvsrn) **Thank you to 3 community contributors:** - @arvsrn: - feat(app): align cmd k menu with v2 styles (#35152) - feat(app): visual improvements (#35134) - feat(app): reintroduce model context tooltip in model selector (#35087) - feat(app): change traffic light position, fix sequoia bug (#35081) - @StarpTech: - fix(core): expand home-relative permission paths (#35737) - @fengjikui: - fix(llm): classify zai token limit overflow (#35671)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.24</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.24</guid>
             <pubDate>Mon, 09 Mar 2026 16:10:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.23]]></title>
-            <description><![CDATA[## Core - Disable fallback to free nano for small model requests ## TUI - Pass missing auth headers in run --attach (@ericclemmons) ## Desktop - Remove oc-1 theme from app - Fix sidebar workspace container sizing to prevent content overflow - Don't animate review panel in/out - Revert "Stupid Sexy Timeline" feature - Sanitize workspace store filenames on Windows - Generate color palettes in app **Thank you to 3 community contributors:** - @ariane-emory: - docs: add session_child_first keybinding to documentation (#16631) - @ericclemmons: - fix(opencode): pass missing auth headers in run --attach (#16097) - @yihuikhuu: - fix(app): fix issue with scroll jumping when pressing escape in comment text area (#15374)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.2.23</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.2.23</guid>
-            <pubDate>Mon, 09 Mar 2026 13:51:07 GMT</pubDate>
         </item>
     </channel>
 </rss>
