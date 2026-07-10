@@ -4,11 +4,25 @@
         <description><![CDATA[All Zed feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jul 2026 07:31:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 10:48:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/zed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 09 Jul 2026 19:36:47 GMT</pubDate>
+        <pubDate>Fri, 10 Jul 2026 09:36:08 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.11.2-pre]]></title>
+            <description><![CDATA[- agent: Added GPT 5.6 Sol & Terra for ChatGPT subscription. Note: GPT 5.6 Luna is not available yet, since OpenAI has not unlocked access for third-party clients (#60744)]]></description>
+            <link>https://github.com/zed-industries/zed/releases/tag/v1.11.2-pre</link>
+            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.11.2-pre</guid>
+            <pubDate>Fri, 10 Jul 2026 09:36:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.10.2]]></title>
+            <description><![CDATA[- agent: Added GPT 5.6 Sol & Terra for ChatGPT subscription. Note: GPT 5.6 Luna is not available yet, since OpenAI has not unlocked access for third-party clients (#60745)]]></description>
+            <link>https://github.com/zed-industries/zed/releases/tag/v1.10.2</link>
+            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.10.2</guid>
+            <pubDate>Fri, 10 Jul 2026 09:27:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.10.1]]></title>
             <description><![CDATA[- open_ai: Added support for GPT 5.6 Sol/Terra/Luna (#60699) - cli: Fixed an issue where the previous workspace would not be restored when using cli_default_open_behavior: new_window and no path was provided (#60672)]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/zed-industries/zed/releases/tag/v0.226.4-pre</link>
             <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v0.226.4-pre</guid>
             <pubDate>Tue, 03 Mar 2026 23:50:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.225.12]]></title>
-            <description><![CDATA[- linux: Reduce crashes in the face of transient GPU errors (#50539) - Linux: Select a more appropriate GPU (#50528) - Linux: Fix panic when requested window size was larger than supported by your GPU (#50346) - Fixed a visual gap between diff hunk controls and buffer headers (#50468) - Fixed a bug that prevented settings files from opening on remotes (#50383) - Linux: Fixed a panic in the new WPGU renderer during resize (#50344) - vim: Fixed panic when incrementing a number preceded by a multibyte character (#50338)]]></description>
-            <link>https://github.com/zed-industries/zed/releases/tag/v0.225.12</link>
-            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v0.225.12</guid>
-            <pubDate>Tue, 03 Mar 2026 03:58:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.226.3-pre]]></title>
-            <description><![CDATA[- Linux: Select a more appropriate GPU (#50528) - linux: Reduce crashes in the face of transient GPU errors (#50542) - Fixed a visual gap between diff hunk controls and buffer headers (#50467) - Fixed a bug that prevented settings files from opening on remotes (#50382)]]></description>
-            <link>https://github.com/zed-industries/zed/releases/tag/v0.226.3-pre</link>
-            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v0.226.3-pre</guid>
-            <pubDate>Tue, 03 Mar 2026 00:03:22 GMT</pubDate>
         </item>
     </channel>
 </rss>
