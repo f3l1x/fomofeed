@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 09 Jul 2026 19:29:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 07:31:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2379,12 +2379,6 @@
             <link>https://www.paulgraham.com/prop62.html</link>
             <guid isPermaLink="false">https://www.paulgraham.com/prop62.html</guid>
             <pubDate>Mon, 29 Jun 2020 22:34:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Windsurf is now Devin Desktop. The IDE you love, with more features. Learn more →Windsurf is now Devin Desktop →]]></title>
-            <link>https://windsurf.com/blog/windsurf-is-now-devin-desktop</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-is-now-devin-desktop</guid>
-            <pubDate>Mon, 02 Mar 2020 14:56:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Deeper Instructions, Stronger Generalization: Training on ComplexConstraints]]></title>

@@ -4,11 +4,32 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 09 Jul 2026 19:27:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 07:29:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 09 Jul 2026 14:16:09 GMT</pubDate>
+        <pubDate>Thu, 09 Jul 2026 20:07:45 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[cloud: 1.45.1]]></title>
+            <description><![CDATA[## 1.45.1 (2026-07-09) ## What's Changed ### Maintenance * chore(main): release 1.11.0 by @openhands-release-bot[bot] in https://github.com/OpenHands/OpenHands/pull/15202 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.45.0...cloud-1.45.1 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.45.1</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.45.1</guid>
+            <pubDate>Thu, 09 Jul 2026 20:07:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1.11.0]]></title>
+            <description><![CDATA[## 1.11.0 (2026-07-09) ## What's Changed ### Features * feat: pass repository metadata to observability traces by @neubig in https://github.com/OpenHands/OpenHands/pull/14431 * feat(enterprise): Agent Profiles on the cloud/SaaS backend (#15044) by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15060 * feat(backend): Add Budgets dashboard and expand Usage Dashboard by @saurya in https://github.com/OpenHands/OpenHands/pull/15149 * feat: budgets and usage monitoring UI by @saurya in https://github.com/OpenHands/OpenHands/pull/15186 * feat: surface email enabled for smtp/resend by @saurya in https://github.com/OpenHands/OpenHands/pull/15214 ### Bug Fixes * fix: prevent webhook-driven DB connection leaks by @tofarr in https://github.com/OpenHands/OpenHands/pull/15212 ### Maintenance * chore(main): release cloud 1.43.0 by @openhands-release-bot[bot] in https://github.com/OpenHands/OpenHands/pull/15178 * chore: bump SDK packages to v1.34.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15200 * chore(main): release cloud 1.44.0 by @openhands-release-bot[bot] in https://github.com/OpenHands/OpenHands/pull/15201 * chore(main): release cloud 1.45.0 by @openhands-release-bot[bot] in https://github.com/OpenHands/OpenHands/pull/15210 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/1.10.0...1.11.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/1.11.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/1.11.0</guid>
+            <pubDate>Thu, 09 Jul 2026 19:37:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cloud: 1.45.0]]></title>
+            <description><![CDATA[## 1.45.0 (2026-07-09) ## What's Changed ### Features * feat(enterprise): Agent Profiles on the cloud/SaaS backend (#15044) by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15060 * feat(backend): Add Budgets dashboard and expand Usage Dashboard by @saurya in https://github.com/OpenHands/OpenHands/pull/15149 * feat: budgets and usage monitoring UI by @saurya in https://github.com/OpenHands/OpenHands/pull/15186 * feat: surface email enabled for smtp/resend by @saurya in https://github.com/OpenHands/OpenHands/pull/15214 ### Bug Fixes * fix: prevent webhook-driven DB connection leaks by @tofarr in https://github.com/OpenHands/OpenHands/pull/15212 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.44.0...cloud-1.45.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.45.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.45.0</guid>
+            <pubDate>Thu, 09 Jul 2026 19:28:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cloud: 1.44.0]]></title>
             <description><![CDATA[## 1.44.0 (2026-07-09) ## What's Changed ### Features * feat: pass repository metadata to observability traces by @neubig in https://github.com/OpenHands/OpenHands/pull/14431 ### Maintenance * chore: bump SDK packages to v1.34.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15200 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.43.0...cloud-1.44.0 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -687,27 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.10.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.10.0</guid>
             <pubDate>Thu, 17 Oct 2024 22:24:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.9.8 - 2024-10-03]]></title>
-            <description><![CDATA[## What's Changed ### Added * Allow specification of config.toml location via args by @rehanganapathy in https://github.com/All-Hands-AI/OpenHands/pull/4168 ### Fixed * Better error messages when sessions fail to start by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4134 * SigTerm now gracefully shuts down the server during startup by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/4155 * Improve the docker runtime build speed & fix issues in build by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/4154 ## New Contributors * @rehanganapathy made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4168 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.9.7...0.9.8]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.9.8</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.9.8</guid>
-            <pubDate>Thu, 03 Oct 2024 15:05:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.9.7 - 2024-09-30]]></title>
-            <description><![CDATA[## What's Changed ### Fixed * Bash commands do not block the main runtime by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/4058 * Vision and prompt caching fixes by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4014 ## New Contributors * @openhands-agent made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4104 * @anthrocypher made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4091 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.9.6...0.9.7]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.9.7</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.9.7</guid>
-            <pubDate>Mon, 30 Sep 2024 16:21:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.9.6 - 2024-09-26]]></title>
-            <description><![CDATA[## What's Changed ### Fixed * Better handling of task cancellation by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/4075 * Fixed terminal getting cleared on session resume by @tobitege in https://github.com/All-Hands-AI/OpenHands/pull/4074 ## New Contributors * @jaki300 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/3795 * @micky-amir made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4060 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.9.5...0.9.6]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.9.6</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.9.6</guid>
-            <pubDate>Mon, 30 Sep 2024 13:56:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
