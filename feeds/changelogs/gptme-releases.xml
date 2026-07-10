@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for gptme Releases]]></description>
         <link>https://github.com/gptme/gptme/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jul 2026 10:47:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 16:20:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gptme-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 09 Jul 2026 14:57:47 GMT</pubDate>
+        <pubDate>Fri, 10 Jul 2026 16:16:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.31.1.dev202607102]]></title>
+            <description><![CDATA[# v0.31.1.dev202607102 These are the release notes for gptme version v0.31.1.dev202607102. ## Contributors Thanks to everyone who contributed to this release: @TimeToBuildBob ## Changelog Changes since v0.31.1.dev20260710: ## 📦 gptme ### ✨ Features (2) - feat(subagent): accept plain dict as output_schema, generate proper JSON Schema hints (#554) (#3174) (3b9fb6c6c) - feat(eval): add tokens_consumed_per_task metric to eval harness output (#3165) (e867f7ac2) ### 🐛 Fixes (4) - fix(release): use OIDC Trusted Publisher for gptme-acp PyPI publish (#3173) (21ba5b4d0) - fix(test): add @pytest.mark.no_retry to test_multi_tool_per_message (#3171) (4167a4fc6) - fix(subagent): preserve workdir in subagent_reply() re-spawn (#554) (#3161) (4a6f59dc1) - fix(openrouter): update stale default models (llama-3.1 series deprecated) (#3163) (76c253354) ### 🔨 Misc (2) - chore: bump version to 0.31.1.dev202607102 (37e7413ad) - chore: bump version to 0.31.1.dev20260710 (bf610ae3f) **Full Changelog**: https://github.com/gptme/gptme/compare/v0.31.1.dev20260710...v0.31.1.dev202607102]]></description>
+            <link>https://github.com/gptme/gptme/releases/tag/v0.31.1.dev202607102</link>
+            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.31.1.dev202607102</guid>
+            <pubDate>Fri, 10 Jul 2026 16:16:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gptme v0.31.1.dev20260710]]></title>
+            <description><![CDATA[Desktop app release. See the assets to download and install.]]></description>
+            <link>https://github.com/gptme/gptme/releases/tag/v0.31.1.dev20260710</link>
+            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.31.1.dev20260710</guid>
+            <pubDate>Fri, 10 Jul 2026 11:10:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[gptme v0.31.1.dev20260709]]></title>
             <description><![CDATA[Desktop app release. See the assets to download and install.]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/gptme/gptme/releases/tag/v0.4.1</link>
             <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.4.1</guid>
             <pubDate>Sun, 10 Sep 2023 15:25:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.4.0]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/ErikBjare/gptme/compare/v0.3.3...v0.4.0]]></description>
-            <link>https://github.com/gptme/gptme/releases/tag/v0.4.0</link>
-            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.4.0</guid>
-            <pubDate>Sun, 10 Sep 2023 14:58:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.3.3]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/ErikBjare/gptme/compare/v0.3.2...v0.3.3]]></description>
-            <link>https://github.com/gptme/gptme/releases/tag/v0.3.3</link>
-            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.3.3</guid>
-            <pubDate>Wed, 06 Sep 2023 15:52:06 GMT</pubDate>
         </item>
     </channel>
 </rss>
