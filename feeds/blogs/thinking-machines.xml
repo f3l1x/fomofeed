@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Thinking Machines Blog]]></description>
         <link>https://thinkingmachines.ai/blog/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jul 2026 16:19:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 19:19:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/thinking-machines.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 09 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The Future Worth Building Is Human]]></title>
+            <link>https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</link>
+            <guid isPermaLink="false">https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</guid>
+            <pubDate>Thu, 09 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Interaction Models: A Scalable Approach to Human-AI Collaboration]]></title>
             <link>https://thinkingmachines.ai/blog/interaction-models/</link>

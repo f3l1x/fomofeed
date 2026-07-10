@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jul 2026 16:21:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 19:21:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 09 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The Future Worth Building Is Human]]></title>
+            <link>https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</link>
+            <guid isPermaLink="false">https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</guid>
+            <pubDate>Thu, 09 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Ollama: all aboard open models]]></title>
             <description><![CDATA[Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors.]]></description>
