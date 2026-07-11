@@ -4,24 +4,24 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jul 2026 19:20:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jul 2026 06:08:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 10 Jul 2026 01:39:36 GMT</pubDate>
+        <pubDate>Sat, 11 Jul 2026 00:50:58 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Sat, 11 Jul 2026 00:50:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.84.0]]></title>
             <description><![CDATA[# If you like caching and coding on your Android, you’ll love Crush v0.84.0 This is a mini release with two little niceties: ## Cachemaxxing Crush now sends the fabled x-session-affinity header (and x-session-id) in its requests. Supporting providers can pick the header up, pin the session to a given replica, and go cache wild. The session header is a hash with no personally identifiable information, of course. ## Fixed: Termux If you’re a nerd with an Android, you probably use Termux, the hot Android terminal emulator. If you’re a cool nerd, you probably _want_ to use Crush on an Android and are annoyed that it was broken. Thanks to @Ricardo-M-L, Crush now works on Android again. Hope you're having a great summer! Unless you're in South America, Central America, the Southern part of Mexico, parts of Africa or Australia, in which case…hope you're enjoying the Winter! xoxo, Charm 🍔 ## Changelog ### New! * ebd845c003579484171922fda8a671367eee7684: feat(agent): send session hash in header for cache affinity (@meowgorithm) ### Fixed * 5b61432984ba271cf9cb3791295ba94e9c2c8f81: fix(release): drop broken .termux.deb artifact (#2848) (@Ricardo-M-L) * e3074f14cec703bdddba13e6df5cf2242b34194c: fix(server): show update notices in client-server mode (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.84.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.84.0</guid>
             <pubDate>Fri, 10 Jul 2026 01:39:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Fri, 10 Jul 2026 00:57:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.83.0]]></title>

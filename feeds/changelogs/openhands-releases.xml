@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jul 2026 19:19:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jul 2026 06:08:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 09 Jul 2026 20:07:45 GMT</pubDate>
+        <pubDate>Fri, 10 Jul 2026 19:51:59 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[cloud: 1.46.0]]></title>
+            <description><![CDATA[## 1.46.0 (2026-07-10) ## What's Changed ### Features * feat(app-server): enrich final archive manifests and remove initial snapshots by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15058 * feat(enterprise): make BYOR key alias pattern configurable by @tofarr in https://github.com/OpenHands/OpenHands/pull/15232 ### Bug Fixes * fix(frontend): mention SMTP env vars for budget alerts by @saurya in https://github.com/OpenHands/OpenHands/pull/15218 * fix(enterprise): cascade-delete conversation_cost_events on conversation delete by @tofarr in https://github.com/OpenHands/OpenHands/pull/15220 * fix: Enable LIFO database connection pooling by @tofarr in https://github.com/OpenHands/OpenHands/pull/15225 * fix(app-server): preserve observability context metadata by @hxaxd in https://github.com/OpenHands/OpenHands/pull/15215 ### Maintenance * ci: PLTF-2960 sync chart appVersion with cloud image tag by @aivong-openhands in https://github.com/OpenHands/OpenHands/pull/15219 ## New Contributors * @hxaxd made their first contribution in https://github.com/OpenHands/OpenHands/pull/15215 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.45.1...cloud-1.46.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.46.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.46.0</guid>
+            <pubDate>Fri, 10 Jul 2026 19:51:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cloud: 1.45.1]]></title>
             <description><![CDATA[## 1.45.1 (2026-07-09) ## What's Changed ### Maintenance * chore(main): release 1.11.0 by @openhands-release-bot[bot] in https://github.com/OpenHands/OpenHands/pull/15202 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.45.0...cloud-1.45.1 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.11.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.11.0</guid>
             <pubDate>Tue, 22 Oct 2024 20:43:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.10.0 - 2024-10-17]]></title>
-            <description><![CDATA[## What's Changed ### Added * New OpenHands Ul by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/3604 * Add Modal sandbox support as a new runtime by @pawalt in https://github.com/All-Hands-AI/OpenHands/pull/4133 ### Changed * Display in the logs the prompt cache hit or miss for Deepseek Chat by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4343 ### Fixed * Multiple improvements to the reliability of Remote Runtime by @xingyaoww * Multiple improvements to the SWE-Bench evaluation by @xingyaoww * Lockup Resiliency and Asyncio Improvements by @tofarr * Fix browsing agent parsing responses by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4226 * Fix AgentDelegateAction to send only the task to the delegate agent, not the main agent by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4327 * Fix syntax error in the browsing agent @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4354 ## New Contributors * @Vaishakh-SM made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4177 * @amantyagiprojects made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4229 * @adityasoni9998 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4100 * @AlexCuadron made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4244 * @JeevaRamanathan made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4240 * @klieret made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4390 * @pawalt made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4133 * @Ethan0456 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4364 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.9.8...0.10.0]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.10.0</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.10.0</guid>
-            <pubDate>Thu, 17 Oct 2024 22:24:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
