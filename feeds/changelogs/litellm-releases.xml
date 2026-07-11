@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for LiteLLM Releases]]></description>
         <link>https://github.com/BerriAI/litellm/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 11 Jul 2026 06:08:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jul 2026 09:21:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/litellm-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 10 Jul 2026 02:54:32 GMT</pubDate>
+        <pubDate>Sat, 11 Jul 2026 06:21:26 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.91.2]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * fix(bedrock): backport #32578 and #32831 to stable/1.91.x for v1.91.2 by @mateo-berri in https://github.com/BerriAI/litellm/pull/32872 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.91.1...v1.91.2]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.91.2</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.91.2</guid>
+            <pubDate>Sat, 11 Jul 2026 06:21:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.93.0-dev.3]]></title>
             <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * fix(ui): forward refs through ui primitives and fail tests on swallowed refs by @ryan-crabbe-berri in https://github.com/BerriAI/litellm/pull/32401 * refactor(ui): consolidate invitation flow into the dashboard layout by @ryan-crabbe-berri in https://github.com/BerriAI/litellm/pull/32576 * fix(guardrails/bedrock): honor disable_exception_on_block by raising ModifyResponseException by @yucheng-berri in https://github.com/BerriAI/litellm/pull/32289 * test(e2e): make dynamic model provisioning robust on split deployments by @mubashir1osmani in https://github.com/BerriAI/litellm/pull/32670 * fix(ui): rename Virtual Keys 'Key Hash' filter label to 'Key ID' by @ryan-crabbe-berri in https://github.com/BerriAI/litellm/pull/32672 * fix(proxy): capture logging_obj before post_call_failure_hook pops it in ModifyResponseException streaming path by @yucheng-berri in https://github.com/BerriAI/litellm/pull/32665 * ci: add OSS daily branch workflow by @ishaan-berri in https://github.com/BerriAI/litellm/pull/32514 * test: litellm fix failing tests by @mubashir1osmani in https://github.com/BerriAI/litellm/pull/32577 * fix(bedrock-invoke): retain clear_tool_uses_20250919 context_management edits and emit context-management-2025-06-27 beta (LIT-3393) by @mateo-berri in https://github.com/BerriAI/litellm/pull/32658 * fix(tests): stop DATABASE_URL env pollution from read-replica tests breaking DB e2e tests by @mateo-berri in https://github.com/BerriAI/litellm/pull/32653 * feat(mcp/ui): expose true_passthrough and oauth_delegate auth types with a no-auth warning by @tin-berri in https://github.com/BerriAI/litellm/pull/32414 * refactor(ui): colocate 11 route segments' components into _components/ by @ryan-crabbe-berri in https://github.com/BerriAI/litellm/pull/32704 * fix(mcp): invalidate a browser-authorized upstream token when a mint-relevant field changes by @tin-berri in https://github.com/BerriAI/litellm/pull/32652 * feat(ui): shadcn charts foundation with tremor-compatible wrappers by @ryan-crabbe-berri in https://github.com/BerriAI/litellm/pull/32668 * fix(proxy): resolve team org from team_id so org admins can update team budgets by @yuneng-berri in https://github.com/BerriAI/litellm/pull/32560 * test(e2e): replace deprecated batch/realtime models (gpt-5.4-mini, grok-4-1-fast) by @mubashir1osmani in https://github.com/BerriAI/litellm/pull/32698 * chore(ci): promote internal staging to main by @yuneng-berri in https://github.com/BerriAI/litellm/pull/32709 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.93.0-dev.2...v1.93.0-dev.3]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.3.dev.7</link>
             <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.3.dev.7</guid>
             <pubDate>Tue, 07 Apr 2026 01:10:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.82.3.dev.6]]></title>
-            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. To verify the integrity of an image before deploying: Expected output: --- **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.82.3.dev.5...v1.82.3.dev.6]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.82.3.dev.6</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.82.3.dev.6</guid>
-            <pubDate>Mon, 06 Apr 2026 18:54:11 GMT</pubDate>
         </item>
     </channel>
 </rss>
