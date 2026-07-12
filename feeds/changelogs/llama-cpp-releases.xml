@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Jul 2026 14:50:08 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Jul 2026 16:52:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Jul 2026 14:49:18 GMT</pubDate>
+        <pubDate>Sun, 12 Jul 2026 16:18:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9977]]></title>
+            <description><![CDATA[server : fix image blocks in tool_result being dropped during Anthropic OpenAI conversion (#22536) * server : fix image blocks in tool_result being dropped during Anthropic→OpenAI conversion server_chat_convert_anthropic_to_oai() silently discarded image blocks inside Anthropic tool_result content. This broke multimodal tool outputs (e.g. a tool that returns an image) because the model never received the image. When tool_result contains image blocks, convert them to OpenAI multimodal content parts (text + image_url array). Plain-text results remain simple strings for backwards compatibility. * server : add test for image blocks in Anthropic tool_result conversion **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9977</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9977</guid>
+            <pubDate>Sun, 12 Jul 2026 16:18:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b9976]]></title>
+            <description><![CDATA[Fix conditional to display 'LLAMA_SPLIT_MODE_TENSOR not implemented for architecture' message (#24926) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9976</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9976</guid>
+            <pubDate>Sun, 12 Jul 2026 15:22:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9975]]></title>
             <description><![CDATA[gguf : reject empty metadata keys (#24917) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9849</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9849</guid>
             <pubDate>Tue, 30 Jun 2026 14:56:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9848]]></title>
-            <description><![CDATA[CUDA: fix get_rows_back for tables with more than 65535 rows (grid-y clamp + stride) (#25103) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9848</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9848</guid>
-            <pubDate>Tue, 30 Jun 2026 14:06:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9847]]></title>
-            <description><![CDATA[CUDA: fix Gemma E4B MTP FlashAttention (#25148) * CUDA: fix Gemma E4B MTP FlashAttention * remove unused template declaration **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9847</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9847</guid>
-            <pubDate>Tue, 30 Jun 2026 13:16:34 GMT</pubDate>
         </item>
     </channel>
 </rss>
