@@ -4,24 +4,24 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 11 Jul 2026 18:51:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Jul 2026 06:28:26 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 11 Jul 2026 14:13:42 GMT</pubDate>
+        <pubDate>Sun, 12 Jul 2026 00:55:56 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Sun, 12 Jul 2026 00:55:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.84.1]]></title>
             <description><![CDATA[# Session affinity, for real this time This bumps Fantasy upstream, which was missing in the last release to _actually_ send session id headers in the last revision. Enjoy! Charm 💘 ## Changelog * https://github.com/charmbracelet/crush/pull/3282/changes/5a7899eeba613ca0ddf3c03fdcf227cec0f85f36 chore(deps): bump fantasy (0.35.2 -> 0.36.0) (@coloryourlife) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.84.1</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.84.1</guid>
             <pubDate>Sat, 11 Jul 2026 14:13:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Sat, 11 Jul 2026 00:50:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.84.0]]></title>
