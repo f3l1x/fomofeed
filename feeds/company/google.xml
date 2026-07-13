@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Jul 2026 18:57:45 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jul 2026 06:49:33 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 10 Jul 2026 01:43:08 GMT</pubDate>
+        <pubDate>Mon, 13 Jul 2026 01:32:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.52.0-nightly.20260713.gf354eebaf]]></title>
+            <description><![CDATA[## What's Changed * fix(privacy): show a clear message when the account has no Code Assist tier by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28304 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260710.ga4c91ce19...v0.52.0-nightly.20260713.gf354eebaf]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260713.gf354eebaf</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260713.gf354eebaf</guid>
+            <pubDate>Mon, 13 Jul 2026 01:32:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260710.ga4c91ce19]]></title>
             <description><![CDATA[## What's Changed * fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971 * Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216 * feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163 * feat(caretaker-egress): implement octokit github action handler for egress service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28303 * chore(release): bump version to 0.52.0-nightly.20260707.g27a3da3e8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28323 * Changelog for v0.51.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28320 * Changelog for v0.50.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28322 * fix(core-tools): bypass LLM correction for JSON and IPYNB files in write_file and replace by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28223 * fix(core): use unambiguous previous intent label in fallback summary by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28343 * feat(caretaker-triage): implement main worker execution loop and egress action publisher by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28306 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260707.g15a9429b6...v0.52.0-nightly.20260710.ga4c91ce19]]></description>
@@ -771,13 +778,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-nightly.20260406.15298b28c</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-nightly.20260406.15298b28c</guid>
             <pubDate>Mon, 06 Apr 2026 17:06:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.37.0-preview.1]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 64c928f to release/v0.37.0-preview.0-pr-23257 to patch version v0.37.0-preview.0 and create version 0.37.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/24561 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.37.0-preview.0...v0.37.0-preview.1]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.1</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.1</guid>
-            <pubDate>Thu, 02 Apr 2026 21:09:35 GMT</pubDate>
         </item>
     </channel>
 </rss>
