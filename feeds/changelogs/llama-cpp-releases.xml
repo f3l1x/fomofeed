@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Jul 2026 10:53:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jul 2026 16:25:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Jul 2026 09:06:33 GMT</pubDate>
+        <pubDate>Mon, 13 Jul 2026 15:40:41 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b9987]]></title>
+            <description><![CDATA[gguf : add tensor shape accessor (#24405) * gguf : add tensor shape accessors * gguf : return tensor shape as const int64_t * * gguf : remove n_dims accessor, keep only gguf_get_tensor_ne **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9987</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9987</guid>
+            <pubDate>Mon, 13 Jul 2026 15:40:41 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b9986]]></title>
             <description><![CDATA[chat : fix reasoning leak with force-opened bare templates (#24674) * chat : fix reasoning leak with force-opened bare templates The reasoning start tag inferred from prior turns can carry trailing whitespace (e.g. \n) while a force-open template prefills a bare . Trim the tag used for the prefix split so the bare prefill is matched instead of being swallowed into content. * chat : fix Nemotron Nano v2 regression --------- Co-authored-by: Alde Rojas **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9860</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9860</guid>
             <pubDate>Thu, 02 Jul 2026 16:23:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9859]]></title>
-            <description><![CDATA[opencl: allow loading precompiled binary kernels from library (#23042) * opencl: allow loading binary kernel * opencl: add libdl.h * ggml-backend-dl is in ggml, which depends backend libs, thus ggml-opencl cannot depend on ggml-backend-dl * add libdl.h to break cyclic dep * opencl: allow loading bin kernel lib * opencl: load gemm_moe_mxfp4_f32_ns from kernel lib if available * opencl: load q8_0 gemm from kernel lib * opencl: load q4_0 moe gemm from kernel lib * opencl: load q4_1 moe gemm from kernel lib * opencl: load q4_k moe gemm from kernel lib * opencl: always declare get_adreno_bin_kernel_func_t * opencl: rephrase message * opencl: fix for rebase * opencl: update doc **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9859</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9859</guid>
-            <pubDate>Wed, 01 Jul 2026 18:10:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
