@@ -4,16 +4,16 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Jul 2026 19:18:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2026 06:07:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 11 Jul 2026 01:03:46 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.32.0]]></title>
-            <description><![CDATA[## What's Changed * create: select the qwen3.5 parser and renderer for Qwen3.5/Next by @jessegross in https://github.com/ollama/ollama/pull/17078 * launch: warn before old agent models by @ParthSareen in https://github.com/ollama/ollama/pull/17063 * cmd: agent UI by @ParthSareen in https://github.com/ollama/ollama/pull/17017 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.31.2...v0.32.0-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0</guid>
+            <description><![CDATA[## What's Changed - New interactive agent experience: running ollama now launches an agent to help you code and delegate work - Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile) - Simplified integration selection: the ollama launch menu now only offers the most popular integrations (other integrations can be accessed through ollama launch - Warns before launching older agent models: CodeLlama, Qwen2.5(-coder), Llama 3.x, Mistral, StarCoder, and the base DeepSeek-R1 tags now prompt a deprecation warning before ollama launch continues **Full Changelog**: https://github.com/ollama/ollama/compare/v0.31.2...v0.32.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.0</guid>
             <pubDate>Sat, 11 Jul 2026 01:03:46 GMT</pubDate>
         </item>
         <item>

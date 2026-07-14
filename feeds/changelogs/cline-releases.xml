@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Jul 2026 19:16:39 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2026 06:05:33 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 11 Jul 2026 00:38:54 GMT</pubDate>
+        <pubDate>Mon, 13 Jul 2026 19:32:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.40]]></title>
+            <description><![CDATA[- Added a manual API key escape hatch for Cline OAuth providers, so you can enter a key by hand from settings - Fixed provider config not reloading when switching models - Fixed auto-update failing to detect Bun global installs after symlink resolution - Fixed unexpected logouts caused by transient network or server errors during token refresh - The ClinePass usage-limit error is now surfaced clearly when you hit the limit - Session id is now preserved when continuing within the same session - Hardened context compaction budget handling **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.39...cli-v3.0.40]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.40</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.40</guid>
+            <pubDate>Mon, 13 Jul 2026 19:32:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v4.0.8]]></title>
             <description><![CDATA[### Added - Add more models to the GCP Vertex provider, plus a free-form entry option in the model dropdown for specifying custom Vertex models. **Full Changelog**: https://github.com/cline/cline/compare/v4.0.7...v4.0.8]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.50.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.50.0</guid>
             <pubDate>Wed, 14 Jan 2026 23:39:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.49.1]]></title>
-            <description><![CDATA[### Added - Add telemetry to track usage of skills feature - Add version headers to Cline backend requests - Phase in Responses API usage instead of defaulting for every supported model ### Fixed - Fix workflow slash command search to be case-insensitive - Fix model display in ModelPickerModal when using LiteLLM - Fix LiteLLM model fetching with default base URL - Fix crash when OpenAI-compatible APIs send usage chunks with empty or null choices arrays at end of streaming - Fix model ID for Kat Coder Pro Free model **Full Changelog**: https://github.com/cline/cline/compare/v3.49.0...v3.49.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.49.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.49.1</guid>
-            <pubDate>Tue, 13 Jan 2026 23:31:42 GMT</pubDate>
         </item>
     </channel>
 </rss>
