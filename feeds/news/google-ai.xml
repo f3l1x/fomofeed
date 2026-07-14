@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jul 2026 15:18:47 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2026 17:06:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Unlocking the Next Era of On-Device AI with Google Tensor and Pixel]]></title>
+            <description><![CDATA[At Google I/O Connect India, Google showcased the future of 100% private, on-device AI powered by the custom Tensor SoC and TPU for the new Pixel 10 family. The event debuted the lightweight Gemma 4 E2B model, which runs natively on the device to enable completely offline multimodal features like AI chat, real-time image recognition, and personal agent tasks. Developers can start building these secure, edge-based applications today by accessing the newly announced Tensor SDK beta and its accompanying open-source resources.]]></description>
+            <link>https://developers.googleblog.com/unlocking-the-next-era-of-on-device-ai-with-google-tensor-and-pixel/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/unlocking-the-next-era-of-on-device-ai-with-google-tensor-and-pixel/</guid>
+            <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[LiteRT.js, Google's high performance Web AI Inference]]></title>
             <description><![CDATA[We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI runtime to the web. Built for JavaScript developers, LiteRT.js delivers state-of-the-art ML model inference performance on WebGPU and upcoming WebNN, with a fallback to WebAssembly for CPU. This post provides a quick tour of LiteRT.js and gives web developers everything they need to get started.]]></description>
@@ -70,13 +77,6 @@
             <description><![CDATA[How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]></description>
             <link>https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</guid>
-            <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Measuring What Matters with Jules]]></title>
-            <description><![CDATA[AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...]]></description>
-            <link>https://developers.googleblog.com/measuring-what-matters-with-jules/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/measuring-what-matters-with-jules/</guid>
             <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
