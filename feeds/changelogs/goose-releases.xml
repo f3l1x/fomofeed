@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Goose Releases]]></description>
         <link>https://github.com/block/goose/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jul 2026 06:05:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2026 09:51:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/goose-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Jul 2026 19:33:40 GMT</pubDate>
+        <pubDate>Tue, 14 Jul 2026 09:46:27 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.43.0]]></title>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.43.0</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.43.0</guid>
+            <pubDate>Tue, 14 Jul 2026 09:46:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.42.0]]></title>
             <description><![CDATA[## ✨ Features - OllamaCloudProvider with dynamic model discovery and context limits #10264 - Per-message usage stats UI (tokens, cost, TTFT, tok/s) #10210 - Per-message usage/cost tracking with derived session totals #10172 - Group chat sessions by project in nav panel #10212 - Show project names in directory switcher dropdown #10207 - Provider bindings MVP to goose-sdk with Python wheel publishing #10208 - AskAI bot hints for followups #10291 ## 🐛 Bug Fixes - Resolve provider default model instead of leaking sentinel "current" #10305 - Return effective context limit from /model-info #10165 - Recover malformed tool calls from GLM/Minimax models instead of rejecting them #10230 - Restore cursor when configure exits #10222 - Sync slash help with builtins #10173 - Treat unicode punctuation as image path terminators #10106 - Don't bleed provider-specific request_params into delegate() sessions #9906 - Purge empty phantom sessions on startup #9651 - Include structuredContent from MCP tool response #10128 - Gate rcgen aws_lc_rs feature behind rustls-tls #10116 ## 🔧 Improvements - Increase /mcp-app-guest body limit for larger single-file MCP apps #10324 - Relabel settings 'Session' tab to 'External Backend' #10318 - Switch local inference provider MLX backend to use the safemlx crate #10304 - Disable thinking preservation for Groq #10284 - Bound code-mode execution with timeout and cancellation #10214 - Skip scheduled sessions for implicit resume #10178 - Fail closed on unverifiable update provenance #10168 - Update Rust toolchain and raise recursion limit #10303 - Drop unsupported gpt-5.3-codex from chatgpt_codex provider #10271 - Move Google provider into goose-providers #10216 - Move Snowflake provider #10218 - Move Databricks providers into goose-providers crate #10162 - Move declarative definitions #10167 ## 📚 Documentation - Clarify session --edit context retention #10257 - Simplified the issue templates #10316 - Remove stale crates/goose-server and update docs #10224]]></description>
@@ -678,13 +684,6 @@
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.26</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.26</guid>
             <pubDate>Mon, 09 Jun 2025 18:47:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.0.24 - 2025-05-15]]></title>
-            <description><![CDATA[- chore(release): release version 1.0.24 (#2552) - docs: add search session history section (#2551) - docs: ascending flag in CLI commands (#2549) - default to concise tools in GUI (#2475) - feat: show recipe explanation (#2530) - fix: allow markdown for any message in splashpill (#2542) - Added progress info alert for displaying token usage (#2540) - fix permission scrolling not making it to save or cancel (#2541) - fixed the config fetching for windows (#2538) - feat: add tool repetition monitoring to prevent infinite loops (#2527) - docs: Document new keyboard shortcuts (#2539) - docs: adding remote sse deeplinks (#2535) - docs: Add Automatically enabled extensions section to Using Extensions (#2534) - Update provider configuration handling from new endpoint (#2518) - fix: the conflict_with in no-session arg (#2531) - chore: fix docs for building goose ffi (#2485) - chore(deps): bump ring from 0.17.12 to 0.17.14 (#2497) - Allow putting GOOSE_PLANNER_MODEL and GOOSE_PLANNER_PROVIDER to config.yaml (#2525) - goose/providers: add Venice.ai private open-source LLM (#2252) - Docs: Manually trigger summarization (#2526) - allow running goose run with no session persistence (#2517) - docs: recipe parameters (#2523) - docs: Blog img (#2522) - docs: adding blog image (#2521) - feat: goose cli to track directories, allow to resume projects in location (#2503) - docs: added copilot provider (#2516) - feat: specify parameters configuration in recipe file (#2444) - UI Tweaks including border and padding fixes, contrast improvements, and more (#2489) - Move token limits to backend (#2484) - docs: fix typo in nostrbook mcp tutorial (#2502) - Fix error on installation of Youtube Transcript extension (#2510) - docs: Update Smart Context Management Guide for Desktop (#2515) - short post on qwen3 (#2508) - fix: Make MessageCopyLinks clickable again on goose messages (#2513) - chore: Add docker to allowed deeplink commands (#2509) - docs: adding nostrbook mcp tutorial (#2500) - docs: Adding YT short to Pieces and Postgres Tutorial (#2501) - blog post for team Recipe building and sharing (#2495) - added tabs on tutorial TLDR blocks (#2487) - [goose-llm] add providerConfig param for exposed LLM functions (#2491) - chore(deps): bump estree-util-value-to-estree from 3.2.1 to 3.4.0 in /documentation (#2492) - [goose-llm] autogenate kotlin bindings using uniffi-rs proc macros (#2478)]]></description>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.24</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.24</guid>
-            <pubDate>Thu, 15 May 2025 21:57:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
