@@ -4,11 +4,23 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jul 2026 09:50:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2026 15:19:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Claude for Teachers]]></title>
+            <link>https://www.anthropic.com/news/claude-for-teachers</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-teachers</guid>
+            <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic commits $10 million to Canadian AI research]]></title>
+            <link>https://www.anthropic.com/news/canadian-ai-research</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/canadian-ai-research</guid>
+            <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Inviting hard questions]]></title>
             <description><![CDATA[We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.]]></description>
@@ -66,12 +78,6 @@
             <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-science-ai-workbench</guid>
             <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Tag]]></title>
-            <link>https://www.anthropic.com/news/introducing-claude-tag</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/introducing-claude-tag</guid>
-            <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>

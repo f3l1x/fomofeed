@@ -4,11 +4,29 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jul 2026 09:52:32 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2026 15:20:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Claude for Teachers]]></title>
+            <link>https://www.anthropic.com/news/claude-for-teachers</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-teachers</guid>
+            <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic commits $10 million to Canadian AI research]]></title>
+            <link>https://www.anthropic.com/news/canadian-ai-research</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/canadian-ai-research</guid>
+            <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Canada uses Claude: Findings from the Anthropic Economic Index]]></title>
+            <link>https://www.anthropic.com/research/how-canada-uses-claude</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/how-canada-uses-claude</guid>
+            <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude’s values across models and languages]]></title>
             <link>https://www.anthropic.com/research/claude-values-models-languages</link>
@@ -156,12 +174,6 @@
             <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing Claude Tag]]></title>
-            <link>https://www.anthropic.com/news/introducing-claude-tag</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/introducing-claude-tag</guid>
-            <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A]]></title>
             <description><![CDATA[How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]></description>
             <link>https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</link>
@@ -198,12 +210,6 @@
             <link>https://www.anthropic.com/research/n-days</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/n-days</guid>
             <pubDate>Sun, 07 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Making Claude a chemist]]></title>
-            <link>https://www.anthropic.com/research/making-claude-a-chemist</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/making-claude-a-chemist</guid>
-            <pubDate>Thu, 04 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Teaching Claude why]]></title>
