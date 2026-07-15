@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jul 2026 19:09:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jul 2026 06:11:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Jul 2026 01:27:01 GMT</pubDate>
+        <pubDate>Wed, 15 Jul 2026 01:28:44 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.52.0-nightly.20260715.gfa975395b]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260715.gfa975395b</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260715.gfa975395b</guid>
+            <pubDate>Wed, 15 Jul 2026 01:28:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260714.gfa975395b]]></title>
             <description><![CDATA[## What's Changed * fix(core): enrich shared project quota limit errors with setup hint by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28391 * fix(a2a-server): ensure task cancellation aborts execution loop by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28316 * fix(core): simplify plan mode write policy to support relative paths by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28398 * feat(core): Bump node google-auth-library version to 10.9.0 by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28385 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260713.gf354eebaf...v0.52.0-nightly.20260714.gfa975395b]]></description>
@@ -771,13 +778,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.2</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.2</guid>
             <pubDate>Tue, 07 Apr 2026 19:12:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.36.0-nightly.20260407.1c22c5b37]]></title>
-            <description><![CDATA[## What's Changed * feat(cli): add role specific metrics to /stats by @cynthialong0-0 in https://github.com/google-gemini/gemini-cli/pull/24659 * split context by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/24623 * fix(cli): remove -S from shebang to fix Windows and BSD execution by @scidomino in https://github.com/google-gemini/gemini-cli/pull/24756 * Fix issue where topic headers can be posted back to back by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/24759 * fix(core): handle partial llm_request in BeforeModel hook override by @krishdef7 in https://github.com/google-gemini/gemini-cli/pull/22326 * fix(ui): improve narration suppression and reduce flicker by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/24635 * fix(ui): fixed auth race condition causing logo to flicker by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/24652 * fix(browser): remove premature browser cleanup after subagent invocation by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/24753 * Revert "feat(core,cli): prioritize summary for topics (#24608)" by @Abhijit-2592 in https://github.com/google-gemini/gemini-cli/pull/24777 * relax tool sandboxing overrides for plan mode to match defaults. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/24762 * fix(cli): respect global environment variable allowlist by @scidomino in https://github.com/google-gemini/gemini-cli/pull/24767 * fix(cli): ensure skills list outputs to stdout in non-interactive environments by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/24566 * Add an eval for and fix unsafe cloning behavior. by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/24457 * fix(policy): allow complete_task in plan mode by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/24771 * feat(telemetry): add browser agent clearcut metrics by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/24688 * feat(cli): support selective topic expansion and click-to-expand by @Abhijit-2592 in https://github.com/google-gemini/gemini-cli/pull/24793 * temporarily disable sandbox integration test on windows by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/24786 * Remove flakey test by @scidomino in https://github.com/google-gemini/gemini-cli/pull/24837 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.36.0-nightly.20260406.15298b28c...v0.36.0-nightly.20260407.1c22c5b37]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-nightly.20260407.1c22c5b37</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.36.0-nightly.20260407.1c22c5b37</guid>
-            <pubDate>Tue, 07 Apr 2026 17:38:19 GMT</pubDate>
         </item>
     </channel>
 </rss>
