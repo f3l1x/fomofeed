@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Jul 2026 17:09:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jul 2026 19:00:14 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Jul 2026 19:32:11 GMT</pubDate>
+        <pubDate>Wed, 15 Jul 2026 18:09:57 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.41]]></title>
+            <description><![CDATA[- Compaction now shows progress status in the TUI - Model IDs are now suggested from OpenAI-compatible endpoints when configuring a provider - Workspace git info (branch/remote) is now persisted and refreshed across sessions - Compaction no longer runs during an active turn - Fixed a crash when the terminal title was updated during TUI teardown - The API key fallback hint is now highlighted for better visibility - Benign git states are no longer reported as workspace initialization errors **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.40...cli-v3.0.41]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.41</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.41</guid>
+            <pubDate>Wed, 15 Jul 2026 18:09:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SDK v0.0.61]]></title>
+            <description><![CDATA[- Context compaction now reports progress status while it runs - Workspace git info (branch/remote) is now persisted and refreshed across sessions - Fixed benign git states being reported as workspace initialization errors - Plan/Act mode guidance added to the system prompt, with nudges when switching modes - Editor diff view restored for SDK edit tools - Model IDs are now suggested from OpenAI-compatible endpoints - VS Code terminal reliability improvements (OSC 633 parsing, exit codes, timeout handling) - Provider-specific request headers are now centralized in the LLM layer - Telemetry now attaches organization context when identifying with cached credentials - Added a shared @cline/ui theme package **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.60...sdk/sdk/v0.0.61]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.61</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.61</guid>
+            <pubDate>Wed, 15 Jul 2026 17:57:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.40]]></title>
             <description><![CDATA[- Added a manual API key escape hatch for Cline OAuth providers, so you can enter a key by hand from settings - Fixed provider config not reloading when switching models - Fixed auto-update failing to detect Bun global installs after symlink resolution - Fixed unexpected logouts caused by transient network or server errors during token refresh - The ClinePass usage-limit error is now surfaced clearly when you hit the limit - Session id is now preserved when continuing within the same session - Hardened context compaction budget handling **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.39...cli-v3.0.40]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.53.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.53.0</guid>
             <pubDate>Fri, 23 Jan 2026 21:30:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.51.0]]></title>
-            <description><![CDATA[### Added - Adding OpenAI gpt-5.2-codex model to the model picker **Full Changelog**: https://github.com/cline/cline/compare/v3.50.0...v3.51.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.51.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.51.0</guid>
-            <pubDate>Thu, 15 Jan 2026 20:53:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.50.0]]></title>
-            <description><![CDATA[### Added - Add gpt-5.2-codex OpenAI model support - Add create-pull-request skill ### Fixed - Fix the selection of remotely configured providers - Fix act_mode_respond to prevent consecutive calls - Fix invalid tool call IDs when switching between model formats **Full Changelog**: https://github.com/cline/cline/compare/v3.49.1...v3.50.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.50.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.50.0</guid>
-            <pubDate>Wed, 14 Jan 2026 23:39:31 GMT</pubDate>
         </item>
     </channel>
 </rss>
