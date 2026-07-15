@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Jul 2026 15:22:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jul 2026 17:09:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 14 Jul 2026 21:37:54 GMT</pubDate>
+        <pubDate>Wed, 15 Jul 2026 16:15:38 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.2]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Stopped subagents from launching nested subagents by default, with a configurable subagent_depth limit when needed. - Improved default reasoning depth for Meta models. ## Desktop ### Improvements - Added Mod+N as another shortcut for opening a new tab. ### Bugfixes - Restored the Help button in release builds. - Kept sessions with null archive times visible instead of dropping them from the home list. - Hid the drawer close button on Windows where it conflicts with the window chrome. **Thank you to 1 community contributor:** - @BB-84C: - fix(core): tolerate AlreadyExists in FSUtil.ensureDir (#36542)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.2</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.2</guid>
+            <pubDate>Wed, 15 Jul 2026 16:15:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.1]]></title>
             <description><![CDATA[## Desktop ### Bugfixes - Fixed spacing between model provider sections in Settings.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.3</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.3</guid>
             <pubDate>Thu, 26 Mar 2026 15:05:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.2]]></title>
-            <description><![CDATA[## TUI - Added heap snapshot functionality allowing users to capture memory snapshots of both TUI and server processes via the "Write heap snapshot" command. Snapshots are saved to tui.heapsnapshot and server.heapsnapshot files.]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.2</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.2</guid>
-            <pubDate>Tue, 24 Mar 2026 22:50:58 GMT</pubDate>
         </item>
     </channel>
 </rss>
