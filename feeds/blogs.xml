@@ -4,11 +4,19 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Jul 2026 10:02:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 15:29:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Classifying a Million Snowflake Columns in 9 Days, Solo, with Dagster]]></title>
+            <description><![CDATA[data governance. I built a tiered AI classification system, human review workflow, and the Dagster orchestration that ties it all together in production in nine days.]]></description>
+            <link>https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</guid>
+            <category><![CDATA[Engineering]]></category>
+            <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Prefect is Acquiring Dagster]]></title>
             <description><![CDATA[A letter from Nick Schrock, founder and creator of Dagster]]></description>
@@ -329,14 +337,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/dagster-1-13-octopuss-garden</guid>
             <category><![CDATA[Releases]]></category>
             <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Monorepos, the hub-and-spoke model, and Copybara]]></title>
-            <description><![CDATA[How we configure Copybara for bi-directional syncing to enable a hub-and-spoke model for Git repositories]]></description>
-            <link>https://dagster.io/blog/monorepos-the-hub-and-spoke-model-and-copybara</link>
-            <guid isPermaLink="false">https://dagster.io/blog/monorepos-the-hub-and-spoke-model-and-copybara</guid>
-            <category><![CDATA[Engineering]]></category>
-            <pubDate>Thu, 02 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ollama is now powered by MLX on Apple Silicon in preview]]></title>
