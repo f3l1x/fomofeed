@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Jul 2026 19:01:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 06:13:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Jul 2026 01:28:44 GMT</pubDate>
+        <pubDate>Thu, 16 Jul 2026 01:38:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.52.0-nightly.20260716.g3ff5ba20f]]></title>
+            <description><![CDATA[## What's Changed * chore/release: bump version to 0.52.0-nightly.20260715.gfa975395b by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28402 * fix(core,a2a): group cancelled tool responses and coalesce consecutive roles to prevent 400 Bad Request by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28407 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260715.gfa975395b...v0.52.0-nightly.20260716.g3ff5ba20f]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260716.g3ff5ba20f</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260716.g3ff5ba20f</guid>
+            <pubDate>Thu, 16 Jul 2026 01:38:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260715.gfa975395b]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b]]></description>
@@ -771,13 +778,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.38.0-preview.0</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.38.0-preview.0</guid>
             <pubDate>Wed, 08 Apr 2026 17:05:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.37.0-preview.2]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick cb7f7d6 to release/v0.37.0-preview.1-pr-24342 to patch version v0.37.0-preview.1 and create version 0.37.0-preview.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/24842 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.37.0-preview.1...v0.37.0-preview.2]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.2</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.0-preview.2</guid>
-            <pubDate>Tue, 07 Apr 2026 19:12:21 GMT</pubDate>
         </item>
     </channel>
 </rss>

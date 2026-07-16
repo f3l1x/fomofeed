@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Jul 2026 19:00:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 06:12:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 11 Jul 2026 01:03:46 GMT</pubDate>
+        <pubDate>Thu, 16 Jul 2026 03:27:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.1]]></title>
+            <description><![CDATA[## What's Changed - Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations - Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance - MLX text model loading now respects OLLAMA_LOAD_TIMEOUT - Agent web search and fetch now tell users to run ollama signin when authentication is required - The interactive agent now receives the current working directory for better project context - Fixed ollama launch so choosing **Pick another model** for a deprecated model passed with --model opens the model picker - Updated VS Code setup documentation for the official Ollama extension **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.0...v0.32.1-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.1</guid>
+            <pubDate>Thu, 16 Jul 2026 03:27:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.0]]></title>
             <description><![CDATA[## What's Changed - New interactive agent experience: running ollama now launches an agent to help you code and delegate work - Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile) - Simplified integration selection: the ollama launch menu now only offers the most popular integrations (other integrations can be accessed through ollama launch - Warns before launching older agent models: CodeLlama, Qwen2.5(-coder), Llama 3.x, Mistral, StarCoder, and the base DeepSeek-R1 tags now prompt a deprecation warning before ollama launch continues **Full Changelog**: https://github.com/ollama/ollama/compare/v0.31.2...v0.32.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.9.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.4</guid>
             <pubDate>Fri, 27 Jun 2025 02:45:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.3]]></title>
-            <description><![CDATA[![Gemma 3n](https://ollama.com/library/gemma3n) ## Gemma 3n Ollama now supports Gemma 3n. Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones. These models were trained with data in over 140 spoken languages. ### Effective 2B ### Effective 4B ## What's Changed * Fixed issue where errors would not be properly reported on Apple Silicon Macs * Ollama will now limit context length to what the model was trained against to avoid strange overflow behavior ## New Contributors * @Aj-Seven made their first contribution in https://github.com/ollama/ollama/pull/11169 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.2...v0.9.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.9.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.3</guid>
-            <pubDate>Wed, 25 Jun 2025 16:55:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
