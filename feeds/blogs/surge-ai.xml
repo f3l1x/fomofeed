@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Jul 2026 15:27:58 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 17:07:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -312,7 +312,7 @@
         </item>
         <item>
             <title><![CDATA[Chartography: A Benchmark for Professional Chart Understanding]]></title>
-            <description><![CDATA[A benchmark for professional chart understanding: Kaplan-Meier curves, candlesticks, contour maps, Bode plots, and more, written and graded by domain experts.]]></description>
+            <description><![CDATA[A benchmark for professional chart reasoning: Kaplan-Meier curves, candlesticks, contour maps, Bode plots, and more, written and graded by domain experts.]]></description>
             <link>https://www.surgehq.ai/blog/chartography-tmp-slug</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/chartography-tmp-slug</guid>
             <pubDate>Mon, 13 Jan 2020 14:41:00 GMT</pubDate>

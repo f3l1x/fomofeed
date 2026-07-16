@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Jul 2026 15:28:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 17:07:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Jul 2026 16:15:38 GMT</pubDate>
+        <pubDate>Thu, 16 Jul 2026 15:34:33 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.3]]></title>
+            <description><![CDATA[## Core ### Improvements - Added an Up Arrow shortcut to close the subagent picker when the first item is selected. ## Desktop ### Bugfixes - Fixed home page scrolling so sticky headers and the session list behave correctly. - Fixed startup readiness so WSL server loading is included before the desktop app reports ready. - Removed the inactive help button from the app layout. - Fixed custom agent selector visibility when custom agents are available. ### Improvements - Home page command palette search can now find and open sessions.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.3</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.3</guid>
+            <pubDate>Thu, 16 Jul 2026 15:34:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.2]]></title>
             <description><![CDATA[## Core ### Bugfixes - Stopped subagents from launching nested subagents by default, with a configurable subagent_depth limit when needed. - Improved default reasoning depth for Meta models. ## Desktop ### Improvements - Added Mod+N as another shortcut for opening a new tab. ### Bugfixes - Restored the Help button in release builds. - Kept sessions with null archive times visible instead of dropping them from the home list. - Hid the drawer close button on Windows where it conflicts with the window chrome. **Thank you to 1 community contributor:** - @BB-84C: - fix(core): tolerate AlreadyExists in FSUtil.ensureDir (#36542)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.4</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.4</guid>
             <pubDate>Sun, 29 Mar 2026 01:01:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.3]]></title>
-            <description><![CDATA[## TUI - Bypass local SSE event streaming in worker for improved performance (#19183) - Fix image paste support on Windows Terminal 1.25+ with kitty keyboard enabled (#17674) ## Desktop - Embed WebUI directly in the binary with configurable proxy flags (#19299) - Fix agent normalization in desktop app (#19169) - Fix project switch flickering when using keybinds by pre-warming globalSync state (#19088) - Move message navigation from cmd+arrow to cmd+opt+[ / cmd+opt+] to preserve native cursor movement (#18728) - Add createDirectory option to directory picker in Electron app (#19071) - Remove .json extension from electron-store for seamless Tauri to Electron migration (#19082) ## Core - Initial implementation of event-sourced syncing system for session data (#17814) - Fix enterprise URL not being set properly during authentication flow (#19212) - Classify ZlibError from Bun fetch as retryable instead of unknown error (#19104) - Skip snapshotting files larger than 2MB to improve performance (#19043) - Respect agent permission configuration for todowrite tool (#19125) - Fix DWS workflow tools being silently cancelled due to missing tool approval support (#19185) - Fix MCP servers disappearing after transient errors and improve OAuth handling (#19042) ## Misc - Revert git-backed review modes to restore compatibility with older CLI builds (#19295)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.3</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.3</guid>
-            <pubDate>Thu, 26 Mar 2026 15:05:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
