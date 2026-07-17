@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Jul 2026 19:02:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jul 2026 06:12:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -21,6 +21,13 @@
             <description><![CDATA[To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular "skill files" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.]]></description>
             <link>https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/</guid>
+            <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Evolving Spec-Driven Development: Conductor Now Supports Antigravity]]></title>
+            <description><![CDATA[Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.]]></description>
+            <link>https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/</guid>
             <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -150,13 +157,6 @@
             <description><![CDATA[Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.]]></description>
             <link>https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/</guid>
-            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine, built-in human-in-the-loop, and dynamic orchestration]]></title>
-            <description><![CDATA[The Agent Development Kit (ADK) for Go 2.0 has been released, introducing a first-class, graph-based workflow engine to help developers compose complex, multi-agent applications. This update adds built-in primitives for human-in-the-loop (HITL) orchestration, dynamic execution using plain Go code, and automated resilience features like exponential backoff retries. By unifying the execution model, both single-agent applications and intricate graphs now run on the same runtime, simplifying telemetry and state persistence.]]></description>
-            <link>https://developers.googleblog.com/announcing-adk-go-20/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-adk-go-20/</guid>
             <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
