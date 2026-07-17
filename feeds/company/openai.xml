@@ -4,11 +4,18 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Jul 2026 17:07:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jul 2026 18:59:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 17 Jul 2026 03:39:51 GMT</pubDate>
+        <pubDate>Fri, 17 Jul 2026 17:29:27 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.145.0-alpha.22]]></title>
+            <description><![CDATA[Release 0.145.0-alpha.22]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.22</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.22</guid>
+            <pubDate>Fri, 17 Jul 2026 17:29:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.18.3]]></title>
             <description><![CDATA[## What's Changed * feat: make task and turn tracing spans configurable by @seratch in https://github.com/openai/openai-agents-python/pull/3834 * feat(realtime): track response usage in session context by @seratch in https://github.com/openai/openai-agents-python/pull/3812 * fix(memory): serialize OpenAI conversation session initialization by @russeell in https://github.com/openai/openai-agents-python/pull/3821 * fix(models): raise UserError for conflicting provider args instead of assert by @Dhruva-Das in https://github.com/openai/openai-agents-python/pull/3809 * fix(handoffs): preserve user messages containing history wrappers by @russeell in https://github.com/openai/openai-agents-python/pull/3815 * fix(computer): isolate provider instances across concurrent runs by @russeell in https://github.com/openai/openai-agents-python/pull/3843 * fix(sandbox): avoid redundant E2B workspace root creation by @seratch in https://github.com/openai/openai-agents-python/pull/3845 * fix: preserve streamed session input across model retries by @seratch in https://github.com/openai/openai-agents-python/pull/3857 * fix: prevent stale prepared-item identity reuse by @seratch in https://github.com/openai/openai-agents-python/pull/3858 * fix: AdvancedSQLiteSession clear_session and pop_item metadata leaks by @okaditya84 in https://github.com/openai/openai-agents-python/pull/3755 * fix: parse Google docstrings missing the blank line before a section by @sohumt123 in https://github.com/openai/openai-agents-python/pull/3832 * fix: bound $ref expansion in strict JSON schema conversion by @ioleksiuk in https://github.com/openai/openai-agents-python/pull/3838 * fix: redact non-tool trace error details by @seratch in https://github.com/openai/openai-agents-python/pull/3848 ### Documentation & Other Changes * docs: updates for hosted multi-agent support by @seratch in https://github.com/openai/openai-agents-python/pull/3789 * docs: make UserContext example runnable in Agents documentation by @MuhammadHamidRaza in https://github.com/openai/openai-agents-python/pull/3851 * chore: enable flake8-async for runtime source by @seratch in https://github.com/openai/openai-agents-python/pull/3813 * Release 0.18.3 by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/3859 ## New Contributors * @Dhruva-Das made their first contribution in https://github.com/openai/openai-agents-python/pull/3809 * @russeell made their first contribution in https://github.com/openai/openai-agents-python/pull/3815 * @okaditya84 made their first contribution in https://github.com/openai/openai-agents-python/pull/3755 * @sohumt123 made their first contribution in https://github.com/openai/openai-agents-python/pull/3832 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.18.2...v0.18.3]]></description>
@@ -756,13 +763,6 @@
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.17.5</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.17.5</guid>
             <pubDate>Thu, 11 Jun 2026 04:11:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.140.0-alpha.7]]></title>
-            <description><![CDATA[Release 0.140.0-alpha.7]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.7</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.7</guid>
-            <pubDate>Wed, 10 Jun 2026 22:45:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.17.4]]></title>
