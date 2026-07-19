@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Jul 2026 14:50:05 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jul 2026 16:50:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 18 Jul 2026 22:26:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
