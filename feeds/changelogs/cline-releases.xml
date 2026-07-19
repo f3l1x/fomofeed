@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Jul 2026 18:53:37 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jul 2026 06:25:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 17 Jul 2026 01:44:04 GMT</pubDate>
+        <pubDate>Sun, 19 Jul 2026 04:10:41 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.45]]></title>
+            <description><![CDATA[- Smaller install: the Claude Code and Codex providers are now optional and loaded on demand, cutting npm i -g cline from ~640MB to ~285MB (from SDK v0.0.65) - Kimi K3 is now available as a ClinePass model (from SDK v0.0.65) - Runs now retry once after refreshing expired OAuth credentials (from SDK v0.0.65) - Team runs: the spawn tool is no longer exposed to teammates, and errored teammate runs now report as failed instead of completed (from SDK v0.0.65) - Hub status output now includes version numbers - Updated the bundled model catalog (from SDK v0.0.65) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.44...cli-v3.0.45]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.45</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.45</guid>
+            <pubDate>Sun, 19 Jul 2026 04:10:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SDK v0.0.65]]></title>
+            <description><![CDATA[- Claude Code and Codex provider SDKs are now optional peer dependencies loaded on demand, dramatically cutting install size - Added Kimi K3 to the bundled ClinePass model fallback - Runs now retry once after refreshing expired OAuth credentials - Team runs: the spawn tool is no longer exposed to teammate agents - Team runs: errored teammate runs now report as failed instead of completed - Improved shell-command parsing to fix a Windows shell mismatch - New @cline/ui agent chat components with Storybook and npm packaging - Updated the bundled model catalog **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.64...sdk/sdk/v0.0.65]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.65</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.65</guid>
+            <pubDate>Sun, 19 Jul 2026 04:02:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.44]]></title>
             <description><![CDATA[- Improved max output token handling across providers (gateway routing, OpenAI vendor, and reasoning models) (from SDK v0.0.64) - Frontmatter and configuration files that start with a UTF-8 byte order mark (e.g. saved by Windows editors) now parse correctly (from SDK v0.0.64) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.43...cli-v3.0.44]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.58.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.58.0</guid>
             <pubDate>Thu, 12 Feb 2026 01:13:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.57.1]]></title>
-            <description><![CDATA[### Fixed - Fixed Opus 4.6 for bedrock provider **Full Changelog**: https://github.com/cline/cline/compare/v3.57.0...v3.57.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.57.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.57.1</guid>
-            <pubDate>Thu, 05 Feb 2026 21:51:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.57.0]]></title>
-            <description><![CDATA[### Added - Cline CLI 2.0 now available. Install with npm install -g cline - Anthopic Opus 4.6 - Minimax-2.1 and Kimi-k2.5 now available for free for a limited time promo - Codex-5.3 through ChatGPT subscription ### Fixed - Fix read file tool to support reading large files - Fix decimal input crash in OpenAI Compatible price fields (#8129) - Fix build complete handlers when updating the api config - Fixed missing provider from list - Fixed Favorite Icon / Star from getting clipped in the task history view ### Changed - Make skills always enabled and remove feature toggle setting **Full Changelog**: https://github.com/cline/cline/compare/v2.0.5-cli...v3.57.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.57.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.57.0</guid>
-            <pubDate>Thu, 05 Feb 2026 20:52:15 GMT</pubDate>
         </item>
     </channel>
 </rss>
