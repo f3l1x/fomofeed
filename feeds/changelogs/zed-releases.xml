@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Zed Releases]]></description>
         <link>https://github.com/zed-industries/zed/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 15:47:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 17:30:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/zed-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 15 Jul 2026 21:30:09 GMT</pubDate>
         <language><![CDATA[en]]></language>

@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 15:48:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 17:31:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 20 Jul 2026 01:26:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,13 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260720.gacae7124b</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260720.gacae7124b</guid>
             <pubDate>Mon, 20 Jul 2026 01:26:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Run Ray on TPU, Part 1: The foundations]]></title>
+            <description><![CDATA[Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict networking requirement of keeping multi-host TPU "slices" together over their Inter-Chip Interconnect (ICI), the KubeRay Operator on GKE automatically provisions and labels the underlying hardware layout. Ray Core utilizes these labels via its slice_placement_group() primitive to atomically reserve complete slices, allowing developers to deploy jobs through KubeRay, Ray Train, or Ray Serve simply by declaring a hardware topology (like "4x4") without writing custom placement code.]]></description>
+            <link>https://developers.googleblog.com/run-ray-on-tpu-part-1-the-foundations/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/run-ray-on-tpu-part-1-the-foundations/</guid>
+            <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260719.gacae7124b]]></title>
@@ -211,13 +218,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260630.gae0a3aa7b</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260630.gae0a3aa7b</guid>
             <pubDate>Tue, 30 Jun 2026 01:54:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Driving the Agent Quality Flywheel from Your Coding Agent]]></title>
-            <description><![CDATA[Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.]]></description>
-            <link>https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/driving-the-agent-quality-flywheel-from-your-coding-agent/</guid>
-            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.51.0-nightly.20260629.gae0a3aa7b]]></title>

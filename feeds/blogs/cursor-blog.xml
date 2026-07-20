@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 15:46:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 17:29:14 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Agent swarms and the new model economics]]></title>
+            <link>https://cursor.com/blog/agent-swarm-model-economics</link>
+            <guid isPermaLink="false">https://cursor.com/blog/agent-swarm-model-economics</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Grok 4.5]]></title>
             <description><![CDATA[Our most intelligent model and the first we've built for more than software engineering.]]></description>
@@ -106,13 +113,6 @@
             <link>https://cursor.com/blog/faire</link>
             <guid isPermaLink="false">https://cursor.com/blog/faire</guid>
             <pubDate>Mon, 25 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Cursor named a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Coding Agents]]></title>
-            <link>https://cursor.com/blog/cursor-leads-gartner-mq-2026</link>
-            <guid isPermaLink="false">https://cursor.com/blog/cursor-leads-gartner-mq-2026</guid>
-            <category><![CDATA[company]]></category>
-            <pubDate>Thu, 21 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Beyond efficiency: PayPal expands what's possible to build with AI]]></title>
