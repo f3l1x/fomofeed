@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 17:31:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 19:31:28 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -406,12 +406,6 @@
             <pubDate>Thu, 15 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[LLM Evals: Everything You Need to Know]]></title>
-            <link>https://hamel.dev/blog/posts/evals-faq/index.html</link>
-            <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-faq/index.html</guid>
-            <pubDate>Thu, 15 Jan 2026 08:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[OpenAI Codex with Ollama]]></title>
             <description><![CDATA[Open models can be used with OpenAI's Codex CLI through Ollama. Codex can read, modify, and execute code in your working directory using models such as gpt-oss:20b, gpt-oss:120b, or other open-weight alternatives.]]></description>
             <link>https://ollama.com/blog/codex</link>
@@ -557,6 +551,12 @@
             <link>https://ollama.com/blog/thinking</link>
             <guid isPermaLink="false">https://ollama.com/blog/thinking</guid>
             <pubDate>Thu, 29 May 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LLM Evals: Everything You Need to Know]]></title>
+            <link>https://hamel.dev/blog/posts/evals-faq/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-faq/index.html</guid>
+            <pubDate>Wed, 28 May 2025 07:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Streaming responses with tool calling]]></title>

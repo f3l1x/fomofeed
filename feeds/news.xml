@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 17:31:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 19:31:28 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,12 @@
             <description><![CDATA[Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict networking requirement of keeping multi-host TPU "slices" together over their Inter-Chip Interconnect (ICI), the KubeRay Operator on GKE automatically provisions and labels the underlying hardware layout. Ray Core utilizes these labels via its slice_placement_group() primitive to atomically reserve complete slices, allowing developers to deploy jobs through KubeRay, Ray Train, or Ray Serve simply by declaring a hardware topology (like "4x4") without writing custom placement code.]]></description>
             <link>https://developers.googleblog.com/run-ray-on-tpu-part-1-the-foundations/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/run-ray-on-tpu-part-1-the-foundations/</guid>
+            <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Apply for Anthropic’s AI for Science rare disease research grants]]></title>
+            <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/rare-disease-research-grants</guid>
             <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -35,12 +41,6 @@
             <description><![CDATA[Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.]]></description>
             <link>https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/</guid>
-            <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Apply for Anthropic’s AI for Science rare disease research grants]]></title>
-            <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/rare-disease-research-grants</guid>
             <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

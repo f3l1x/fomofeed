@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 17:30:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 19:29:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 Jul 2026 17:28:09 GMT</pubDate>
+        <pubDate>Mon, 20 Jul 2026 17:34:58 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[PR #37967 screenshots (final)]]></title>
+            <description><![CDATA[Final visual evidence for PR #37967.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots-final</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots-final</guid>
+            <pubDate>Mon, 20 Jul 2026 17:34:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PR #37967 final screenshots]]></title>
+            <description><![CDATA[Final visual evidence for PR #37967.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots-v2</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots-v2</guid>
+            <pubDate>Mon, 20 Jul 2026 17:33:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[PR #37967 screenshots]]></title>
             <description><![CDATA[Visual evidence for PR #37967.]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.8</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.8</guid>
             <pubDate>Mon, 30 Mar 2026 21:35:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.7]]></title>
-            <description><![CDATA[## Core - Added first-class PowerShell support on Windows - Plugin installs now preserve JSONC comments in configuration files - Fixed OPENCODE_DISABLE_CLAUDE_CODE_PROMPT not being respected for project-level CLAUDE.md ## TUI - Improved variant modal behavior to be less intrusive - Added theme colors for dialog textarea placeholders **Thank you to 2 community contributors:** - @KnutZuidema: - fix: discourage _noop tool call during LiteLLM compaction (#18539) - @yejiming: - docs: rename patch tool to apply_patch and clarify apply_patch behavior (#19979)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.7</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.7</guid>
-            <pubDate>Mon, 30 Mar 2026 06:06:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.6]]></title>
-            <description><![CDATA[# Unreleased Changes ## TUI - PR #19917: Fixed variant dialog search so typing now properly filters the list of variants ## Desktop ## Core - PR #19758: Fixed token usage double-counting for Anthropic and Amazon Bedrock providers that caused inflated token counts in session metrics]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.6</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.6</guid>
-            <pubDate>Sun, 29 Mar 2026 18:02:43 GMT</pubDate>
         </item>
     </channel>
 </rss>
