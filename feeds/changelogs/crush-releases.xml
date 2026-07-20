@@ -4,9 +4,9 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Jul 2026 18:59:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 06:40:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 19 Jul 2026 01:00:01 GMT</pubDate>
+        <pubDate>Mon, 20 Jul 2026 02:51:06 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
@@ -14,7 +14,7 @@
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Sun, 19 Jul 2026 01:00:01 GMT</pubDate>
+            <pubDate>Mon, 20 Jul 2026 02:51:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.85.0]]></title>

@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Jul 2026 19:00:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 06:42:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2398,6 +2398,13 @@
             <link>https://www.surgehq.ai/blog/chartography</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/chartography</guid>
             <pubDate>Thu, 27 Aug 2020 11:43:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI cites GDP.pdf in its GPT-5.6 release]]></title>
+            <description><![CDATA[OpenAI included Surge AI’s GDP.pdf benchmark in its GPT-5.6 release. Its flagship model scored 30.7% on real-world professional document tasks.]]></description>
+            <link>https://www.surgehq.ai/blog/openai-gpt-5-6-gdp-pdf-benchmark</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/openai-gpt-5-6-gdp-pdf-benchmark</guid>
+            <pubDate>Sun, 22 Nov 2020 04:17:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Deeper Instructions, Stronger Generalization: Training on ComplexConstraints]]></title>

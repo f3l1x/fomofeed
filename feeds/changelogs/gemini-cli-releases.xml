@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Jul 2026 18:59:52 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 06:40:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 19 Jul 2026 01:32:55 GMT</pubDate>
+        <pubDate>Mon, 20 Jul 2026 01:26:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.52.0-nightly.20260720.gacae7124b]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260719.gacae7124b...v0.52.0-nightly.20260720.gacae7124b]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260720.gacae7124b</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260720.gacae7124b</guid>
+            <pubDate>Mon, 20 Jul 2026 01:26:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260719.gacae7124b]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260718.gacae7124b...v0.52.0-nightly.20260719.gacae7124b]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260410.96cc8a0da</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260410.96cc8a0da</guid>
             <pubDate>Fri, 10 Apr 2026 04:13:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.39.0-nightly.20260409.615e07834]]></title>
-            <description><![CDATA[## What's Changed * chore: update ink version to 6.6.8 by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/24934 * Changelog for v0.38.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/24938 * chore: ignore conductor directory by @JayadityaGit in https://github.com/google-gemini/gemini-cli/pull/22128 * Changelog for v0.37.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/24940 * feat(plan): require user confirmation for activate_skill in Plan Mode by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/24946 * feat(test-utils): add CPU performance integration test harness by @sripasg in https://github.com/google-gemini/gemini-cli/pull/24951 * fix(cli-ui): enable Ctrl+Backspace for word deletion in Windows Terminal by @dogukanozen in https://github.com/google-gemini/gemini-cli/pull/21447 * test(sdk): add unit tests for GeminiCliSession by @AdamyaSingh7 in https://github.com/google-gemini/gemini-cli/pull/21897 * fix(core): resolve windows symlink bypass and stabilize sandbox integration tests by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/24834 * fix(cli): restore file path display in edit and write tool confirmations by @jwhelangoog in https://github.com/google-gemini/gemini-cli/pull/24974 * feat(core): refine shell tool description display logic by @jwhelangoog in https://github.com/google-gemini/gemini-cli/pull/24903 * fix(core): dynamic session ID injection to resolve resume bugs by @scidomino in https://github.com/google-gemini/gemini-cli/pull/24972 * Update ink version to 6.6.9 by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/24980 * Generalize evals infra to support more types of evals, organization and queuing of named suites by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/24941 * fix(cli): optimize startup with lightweight parent process by @sehoon38 in https://github.com/google-gemini/gemini-cli/pull/24667 * refactor(sandbox): use centralized sandbox paths in macOS Seatbelt implementation by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/24984 * feat(cli): refine tool output formatting for compact mode by @jwhelangoog in https://github.com/google-gemini/gemini-cli/pull/24677 * fix(sdk): skip broken sendStream tests to unblock nightly by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/25000 ## New Contributors * @dogukanozen made their first contribution in https://github.com/google-gemini/gemini-cli/pull/21447 * @AdamyaSingh7 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/21897 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.39.0-nightly.20260408.a39461718...v0.39.0-nightly.20260409.615e07834]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260409.615e07834</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260409.615e07834</guid>
-            <pubDate>Thu, 09 Apr 2026 04:59:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
