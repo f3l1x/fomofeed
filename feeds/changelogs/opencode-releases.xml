@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 10:44:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 15:46:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 16 Jul 2026 15:34:33 GMT</pubDate>
+        <pubDate>Mon, 20 Jul 2026 15:28:21 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.4]]></title>
+            <description><![CDATA[## Core ### Improvements - Use adaptive thinking controls for Kimi models on Anthropic-compatible providers, with summarized reasoning output by default. (@chouqin) ### Bugfixes - Reduce OpenAI provider header timeouts during slow connection setup. - Respect provider-defined reasoning options instead of falling back to the wrong reasoning controls. - Restore Azure Cognitive Services endpoint support for Azure-hosted models. ## Desktop ### Improvements - Sync the embedded terminal theme with the app theme. - Improve the review panel so open file tabs can stay aligned with the current diff view. - Rewrite the v2 prompt input for more reliable command, context, shell, attachment, and history interactions. - Improve review panel resizing and sticky controls. ### Bugfixes - Preserve command drafts in the command menu. - Avoid session view failures when message parent links are missing. - Prevent sending empty prompt text parts. - Restore model variant selection accessibility. - Show keybind tooltips on prompt input controls. (@ProdigyRahul) - Deduplicate repeated file entries in diff summaries. - Prevent recovery window handling from touching destroyed windows. **Thank you to 3 community contributors:** - @jerome-benoit: - fix(nix): relax Bun version check for desktop build (#36767) - fix(nix): restore desktop integration (#37197) - @ProdigyRahul: - fix(app): show keybind tooltips on prompt input controls (#37824) - @chouqin: - feat(opencode): use adaptive thinking effort for kimi family on anthr… (#37696)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.4</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.4</guid>
+            <pubDate>Mon, 20 Jul 2026 15:28:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.3]]></title>
             <description><![CDATA[## Core ### Improvements - Added an Up Arrow shortcut to close the subagent picker when the first item is selected. ## Desktop ### Bugfixes - Fixed home page scrolling so sticky headers and the session list behave correctly. - Fixed startup readiness so WSL server loading is included before the desktop app reports ready. - Removed the inactive help button from the app layout. - Fixed custom agent selector visibility when custom agents are available. ### Improvements - Home page command palette search can now find and open sessions.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.5</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.5</guid>
             <pubDate>Sun, 29 Mar 2026 03:43:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.4]]></title>
-            <description><![CDATA[## Core - Add prompt slot feature - Update opencode-gitlab-auth to 2.0.1 (@vglafirov) - Refactored session processor to use effect-based architecture - Use AppFileSystem instead of raw Filesystem for better abstraction - Upgrade OpenTUI to version 0.1.91 - Adjust bash tool description to increase cache hit rates between projects - Update Effect to version 4.0.0-beta.42 - Refactor session compaction service to use Effect - Add single target plugin entrypoints - Use ChildProcessSpawner instead of Process.spawn for formatting - Move more responsibility to workspace routing - Refactor Session service to use Effect-based architecture - Add support for AI SDK v6 - Add additional overflow error patterns to error handling - Fix flaky plugin tests by removing mock.module which is not supported in Bun - Split out instance and route through workspaces - Effectify Plugin service internals - Effectify Skill service internals - Add TUI plugins support - Refactor tool registry to yield Config and Plugin services using Effect.forEach - Ignore generated models snapshot files - Replace async git() with ChildProcessSpawner in VCS module - Yield services instead of promise facades in Effect refactor - Fixed web UI bundle build on Windows - Improve app startup performance - Close MCP transport on failed or timed-out connections - Use cachedInvalidateWithTTL for config and bump Effect to beta.37 - Refactor Config service to use Effect - Remove workspace server and WorkspaceContext, improve routing architecture - Add GPT prompt so non-Codex GPT models have their own system prompt modeled after Codex CLI - Refactor LSP service with InstanceState using Effect ## TUI - Use theme color for prompt placeholder - Add dialog variant menu and improve subagent functionality - Open dialog for model variant selection instead of cycling - Check KV theme before falling back to default theme - Add top spacing to session view and remove obsolete documentation prompt - Restore subagent footer and fix style guide violations - Add model variant selection dialog - Remove variant cycle display from footer - Move session context into prompt footer ## Desktop - Improved app startup efficiency - Use Azure Artifact Signing for Windows releases - Default file tree to closed with minimum width - Resize layout viewport when mobile keyboard appears (@BYK) - Persist queued followups across project switches - Reduce markdown jank while responses stream in UI - Remove fork session button from app - Default shell tool to collapsed state - Don't bundle fonts in app **Thank you to 3 community contributors:** - @BYK: - fix(app): resize layout viewport when mobile keyboard appears (#15841) - @vglafirov: - fix: update opencode-gitlab-auth to 2.0.1 (#19552) - @gigamonster256: - fix: respect semver build identifiers for nix (#11915) - fix: nix embedded web-ui support (#19561)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.4</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.4</guid>
-            <pubDate>Sun, 29 Mar 2026 01:01:07 GMT</pubDate>
         </item>
     </channel>
 </rss>
