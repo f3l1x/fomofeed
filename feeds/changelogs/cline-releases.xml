@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 06:40:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 10:44:35 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 19 Jul 2026 06:26:43 GMT</pubDate>
+        <pubDate>Mon, 20 Jul 2026 07:58:33 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v4.0.10]]></title>
+            <description><![CDATA[### Added - Add telemetry to track when Cline reaches the consecutive mistake limit. **Full Changelog**: https://github.com/cline/cline/compare/v4.0.9...v4.0.10]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.0.10</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.0.10</guid>
+            <pubDate>Mon, 20 Jul 2026 07:58:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.46]]></title>
             <description><![CDATA[- Fixed out-of-credits detection so the CLI reliably recognizes the Cline API's real insufficient_credits (402) error and shows the "add credits" card instead of a generic error **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.45...cli-v3.0.46]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.59.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.59.0</guid>
             <pubDate>Thu, 12 Feb 2026 18:45:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.58.0]]></title>
-            <description><![CDATA[### Added - Subagent: replace legacy subagents with the native use_subagents tool - Bundle endpoints.json support so packaged distributions can ship required endpoints out-of-the-box - Amazon Bedrock: support parallel tool calling - New "double-check completion" experimental feature to verify work before marking tasks complete - CLI: new task controls/flags including custom --thinking token budget and --max-consecutive-mistakes for yolo runs - Remote config: new UI/options (including connection/test buttons) and support for syncing deletion of remotely configured MCP servers - Vertex / Claude Code: add 1M context model options for Claude Opus 4.6 - ZAI/GLM: add GLM-5 ### Fixed - CLI: handle stdin redirection correctly in CI/headless environments - CLI: preserve OAuth callback paths during auth redirects - VS Code Web: generate auth callback URLs via vscode.env.asExternalUri (OAuth callback reliability) - Terminal: surface command exit codes in results and improve long-running execute_command timeout behavior - UI: add loading indicator and fix api_req_started rendering - Task streaming: prevent duplicate streamed text rows after completion - API: preserve selected Vercel model when model metadata is missing - Telemetry: route PostHog networking through proxy-aware shared fetch and ensure telemetry flushes on shutdown - CI: increase Windows E2E test timeout to reduce flakiness ### Changed - Settings/model UX: move "reasoning effort" into model configuration and expose it in settings - CLI provider selection: limit provider list to those remotely configured - UI: consolidate ViewHeader component/styling across views - Tools: add auto-approval support for attempt_completion commands - Remotely configured MCP server schema now supports custom headers **Full Changelog**: https://github.com/cline/cline/compare/cli-build-6278382...v3.58.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.58.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.58.0</guid>
-            <pubDate>Thu, 12 Feb 2026 01:13:44 GMT</pubDate>
         </item>
     </channel>
 </rss>

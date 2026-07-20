@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 06:40:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 10:44:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 20 Jul 2026 06:29:53 GMT</pubDate>
         <language><![CDATA[en]]></language>
