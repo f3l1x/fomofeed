@@ -4,11 +4,18 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Jul 2026 15:31:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 17:11:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 20 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Devin Outposts]]></title>
+            <description><![CDATA[Give Devin the ability to run on any machine.]]></description>
+            <link>https://windsurf.com/blog/introducing-devin-outposts</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/introducing-devin-outposts</guid>
+            <pubDate>Mon, 20 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[GPT-5.6 models are now available in Devin]]></title>
             <description><![CDATA[GPT-5.6 models are now live in Devin. These models stand out for combining top-tier coding-agent performance with very strong token/cost efficiency.]]></description>
@@ -50,13 +57,6 @@
             <link>https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</link>
             <guid isPermaLink="false">https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</guid>
             <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Security in Devin Review]]></title>
-            <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss, with full remediation from finding to fix.]]></description>
-            <link>https://windsurf.com/blog/security-in-devin-review</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/security-in-devin-review</guid>
-            <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
