@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Jul 2026 10:19:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 15:30:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Jul 2026 08:20:14 GMT</pubDate>
+        <pubDate>Tue, 21 Jul 2026 13:53:05 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[cloud: 1.47.1]]></title>
+            <description><![CDATA[## 1.47.1 (2026-07-21) ## What's Changed ### Maintenance * revert(agent-profiles): restore default tools in cloud launches by @jlav in https://github.com/OpenHands/OpenHands/pull/15339 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.47.0...cloud-1.47.1 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.47.1</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.47.1</guid>
+            <pubDate>Tue, 21 Jul 2026 13:53:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cloud: 1.47.0]]></title>
             <description><![CDATA[## 1.47.0 (2026-07-21) ## What's Changed ### Features * feat: protect Agent Canvas behind SaaS auth by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/15286 ### Bug Fixes * fix: retry idempotent runtime-api reads once on timeout by @ak684 in https://github.com/OpenHands/OpenHands/pull/15266 * fix(agent-profiles): honor profile settings in cloud launches by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15228 * fix: Fix CVE-2026-53571: Update vite to 8.0.16, 7.3.5, 6.4.3 by @mamoodi in https://github.com/OpenHands/OpenHands/pull/14982 * fix: restore automations login redirects by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/15295 * fix(enterprise): PLTF-3259 recognize openhands.dev in staging/feature + managed-domain detection by @aivong-openhands in https://github.com/OpenHands/OpenHands/pull/15304 * fix: Avoid logout on transient provider get_user errors by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/15305 * fix: treat Integrations Hub as a cross-app route by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/15324 * fix: add managed LLM key refresh endpoint by @neubig in https://github.com/OpenHands/OpenHands/pull/15023 * fix(app-server): restore previous DB pool_size default by @dylan-openhands in https://github.com/OpenHands/OpenHands/pull/15333 * fix: Debounce last_used_at writes in ApiKeyStore.validate_api_key by @tofarr in https://github.com/OpenHands/OpenHands/pull/15331 * fix(jira): allow conversations without repositories by @tofarr in https://github.com/OpenHands/OpenHands/pull/15328 ### Maintenance * refactor: Expand better-error-logging patterns across the codebase by @tofarr in https://github.com/OpenHands/OpenHands/pull/15241 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.46.2...cloud-1.47.0 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.13.1</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.13.1</guid>
             <pubDate>Tue, 12 Nov 2024 20:11:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.13.0]]></title>
-            <description><![CDATA[## What's Changed ### Added * Add the ability to drag images into chat input by @xingyaoww (and @openhands-agent!) in https://github.com/All-Hands-AI/OpenHands/pull/4762 * Show a loading indicator when downloading a zip by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/4833 ### Changed * Overhaul of error handling and reporting by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4575 * New chat interface empty state by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/4737 * Modified agent instructions to include fewer redundant comments in the code it generates by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4681 ### Fixed * Fixed a bug where docker containers were not removed on session close by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4765 * Fixed terminal not working by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/4800 * Fix Jupyter tab overflow by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/4818 * Fixed copy paste into chat input by @openhands-agent in https://github.com/All-Hands-AI/OpenHands/pull/4832 ## New Contributors * @danicruz0415 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4464 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.12.3...0.13.0]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.13.0</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.13.0</guid>
-            <pubDate>Fri, 08 Nov 2024 22:32:22 GMT</pubDate>
         </item>
     </channel>
 </rss>
