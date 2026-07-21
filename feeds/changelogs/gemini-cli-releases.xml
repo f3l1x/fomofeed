@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Jul 2026 19:30:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 06:24:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 Jul 2026 01:26:23 GMT</pubDate>
+        <pubDate>Tue, 21 Jul 2026 01:26:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.52.0-nightly.20260721.gacae7124b]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260720.gacae7124b...v0.52.0-nightly.20260721.gacae7124b]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260721.gacae7124b</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260721.gacae7124b</guid>
+            <pubDate>Tue, 21 Jul 2026 01:26:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260720.gacae7124b]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260719.gacae7124b...v0.52.0-nightly.20260720.gacae7124b]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260411.0957f7d3e</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260411.0957f7d3e</guid>
             <pubDate>Sat, 11 Apr 2026 02:08:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.39.0-nightly.20260410.96cc8a0da]]></title>
-            <description><![CDATA[## What's Changed * refactor(core): use centralized path resolution for Linux sandbox by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/24985 * Support ctrl+shift+g by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/25035 * feat(core): refactor subagent tool to unified invoke_subagent tool by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/24489 * fix(core): add explicit git identity env vars to prevent sandbox checkpointing error by @mrpmohiburrahman in https://github.com/google-gemini/gemini-cli/pull/19775 * fix: respect hideContextPercentage when FooterConfigDialog is closed without changes by @chernistry in https://github.com/google-gemini/gemini-cli/pull/24773 * fix(cli): suppress unhandled AbortError logs during request cancellation by @euxaristia in https://github.com/google-gemini/gemini-cli/pull/22621 * Automated documentation audit by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/24567 * feat(cli): implement useAgentStream hook by @mbleigh in https://github.com/google-gemini/gemini-cli/pull/24292 * refactor(plan) Clean default plan toml by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/25037 * refactor(core): remove legacy subagent wrapping tools by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/25053 * fix(core): honor retryDelay in RetryInfo for 503 errors by @yunaseoul in https://github.com/google-gemini/gemini-cli/pull/25057 * fix(core): remediate subagent memory leaks using AbortSignal in MessageBus by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/25048 * feat(cli): wire up useAgentStream in AppContainer by @mbleigh in https://github.com/google-gemini/gemini-cli/pull/24297 * feat(core): migrate chat recording to JSONL streaming by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/23749 * fix(core): clear 5-minute timeouts in oauth flow to prevent memory leaks by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/24968 * fix(sandbox): centralize async git worktree resolution and enforce read-only security by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/25040 * feat(test): add high-volume shell test and refine perf harness by @sripasg in https://github.com/google-gemini/gemini-cli/pull/24983 * fix(core): silently handle EPERM when listing dir structure by @scidomino in https://github.com/google-gemini/gemini-cli/pull/25066 * Changelog for v0.37.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/25055 ## New Contributors * @chernistry made their first contribution in https://github.com/google-gemini/gemini-cli/pull/24773 * @euxaristia made their first contribution in https://github.com/google-gemini/gemini-cli/pull/22621 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.39.0-nightly.20260409.615e07834...v0.39.0-nightly.20260410.96cc8a0da]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260410.96cc8a0da</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260410.96cc8a0da</guid>
-            <pubDate>Fri, 10 Apr 2026 04:13:33 GMT</pubDate>
         </item>
     </channel>
 </rss>
