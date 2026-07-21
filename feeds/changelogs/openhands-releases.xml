@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Jul 2026 06:23:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 10:19:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 15 Jul 2026 16:05:32 GMT</pubDate>
+        <pubDate>Tue, 21 Jul 2026 08:20:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[cloud: 1.47.0]]></title>
+            <description><![CDATA[## 1.47.0 (2026-07-21) ## What's Changed ### Features * feat: protect Agent Canvas behind SaaS auth by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/15286 ### Bug Fixes * fix: retry idempotent runtime-api reads once on timeout by @ak684 in https://github.com/OpenHands/OpenHands/pull/15266 * fix(agent-profiles): honor profile settings in cloud launches by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15228 * fix: Fix CVE-2026-53571: Update vite to 8.0.16, 7.3.5, 6.4.3 by @mamoodi in https://github.com/OpenHands/OpenHands/pull/14982 * fix: restore automations login redirects by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/15295 * fix(enterprise): PLTF-3259 recognize openhands.dev in staging/feature + managed-domain detection by @aivong-openhands in https://github.com/OpenHands/OpenHands/pull/15304 * fix: Avoid logout on transient provider get_user errors by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/15305 * fix: treat Integrations Hub as a cross-app route by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/15324 * fix: add managed LLM key refresh endpoint by @neubig in https://github.com/OpenHands/OpenHands/pull/15023 * fix(app-server): restore previous DB pool_size default by @dylan-openhands in https://github.com/OpenHands/OpenHands/pull/15333 * fix: Debounce last_used_at writes in ApiKeyStore.validate_api_key by @tofarr in https://github.com/OpenHands/OpenHands/pull/15331 * fix(jira): allow conversations without repositories by @tofarr in https://github.com/OpenHands/OpenHands/pull/15328 ### Maintenance * refactor: Expand better-error-logging patterns across the codebase by @tofarr in https://github.com/OpenHands/OpenHands/pull/15241 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.46.2...cloud-1.47.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.47.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.47.0</guid>
+            <pubDate>Tue, 21 Jul 2026 08:20:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cloud: 1.46.2]]></title>
             <description><![CDATA[## 1.46.2 (2026-07-15) ## What's Changed ### Bug Fixes * fix(frontend): restore cross-domain PostHog tracking by aligning client/server distinct_id (WIP) by @lilagrc in https://github.com/OpenHands/OpenHands/pull/15100 * fix(app-server): lower DB pool defaults and make them env-tunable by @dylan-openhands in https://github.com/OpenHands/OpenHands/pull/15270 * fix(mcp): preserve MCP auth secrets stripped by settings GET round-trip by @jlav in https://github.com/OpenHands/OpenHands/pull/15285 ### Maintenance * chore: Update README.md by @rbren in https://github.com/OpenHands/OpenHands/pull/15271 ## New Contributors * @dylan-openhands made their first contribution in https://github.com/OpenHands/OpenHands/pull/15270 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.46.1...cloud-1.46.2 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.13.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.13.0</guid>
             <pubDate>Fri, 08 Nov 2024 22:32:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.12.2]]></title>
-            <description><![CDATA[## What's Changed ### Added * Analytics with PostHog by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/4655 * Allow CodeAct agent to perform web browsing by itself (no more delegation to BrowsingAgent) by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/4667 * DiscoveryBench OpenHands Integration by @Ethan0456 in https://github.com/All-Hands-AI/OpenHands/pull/4627 ### Fixed * Fixed issue running on Linux by @Polygons1 in https://github.com/All-Hands-AI/OpenHands/pull/4721 * Fix error in the main agent when a browsing agent task fails by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4728 ## New Contributors * @ronch99 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4645 * @malhotra5 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4712 * @Polygons1 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4721 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.12.1...0.12.2]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.12.2</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.12.2</guid>
-            <pubDate>Mon, 04 Nov 2024 21:39:08 GMT</pubDate>
         </item>
     </channel>
 </rss>

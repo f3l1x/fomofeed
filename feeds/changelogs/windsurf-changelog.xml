@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Windsurf Editor Changelog]]></description>
         <link>https://windsurf.com/changelog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Jul 2026 06:23:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 10:19:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/windsurf-changelog.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
