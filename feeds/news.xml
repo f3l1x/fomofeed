@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Jul 2026 06:24:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 10:21:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 20 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Anthropic is donating another $20 million to Public First Action]]></title>
+            <link>https://www.anthropic.com/news/donation-public-first-action</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/donation-public-first-action</guid>
+            <pubDate>Mon, 20 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Run Ray on TPU, Part 1: The foundations]]></title>
             <description><![CDATA[Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict networking requirement of keeping multi-host TPU "slices" together over their Inter-Chip Interconnect (ICI), the KubeRay Operator on GKE automatically provisions and labels the underlying hardware layout. Ray Core utilizes these labels via its slice_placement_group() primitive to atomically reserve complete slices, allowing developers to deploy jobs through KubeRay, Ray Train, or Ray Serve simply by declaring a hardware topology (like "4x4") without writing custom placement code.]]></description>

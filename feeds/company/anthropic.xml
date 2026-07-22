@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Jul 2026 06:24:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 10:21:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 21 Jul 2026 21:35:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -22,6 +22,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.216</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.216</guid>
             <pubDate>Mon, 20 Jul 2026 22:14:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic is donating another $20 million to Public First Action]]></title>
+            <link>https://www.anthropic.com/news/donation-public-first-action</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/donation-public-first-action</guid>
+            <pubDate>Mon, 20 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Apply for Anthropic’s AI for Science rare disease research grants]]></title>
