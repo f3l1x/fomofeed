@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Jul 2026 19:09:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 06:23:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Jul 2026 01:26:19 GMT</pubDate>
+        <pubDate>Wed, 22 Jul 2026 01:26:45 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.52.0-nightly.20260722.gc776c665b]]></title>
+            <description><![CDATA[## What's Changed * fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260721.gacae7124b...v0.52.0-nightly.20260722.gc776c665b]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260722.gc776c665b</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260722.gc776c665b</guid>
+            <pubDate>Wed, 22 Jul 2026 01:26:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260721.gacae7124b]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260720.gacae7124b...v0.52.0-nightly.20260721.gacae7124b]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.2</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.37.2</guid>
             <pubDate>Mon, 13 Apr 2026 20:19:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.39.0-nightly.20260411.0957f7d3e]]></title>
-            <description><![CDATA[## What's Changed * fix: decode Uint8Array and multi-byte UTF-8 in API error messages by @kimjune01 in https://github.com/google-gemini/gemini-cli/pull/23341 * Automated documentation audit results by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/22755 * debugging(ui): add optional debugRainbow setting by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/25088 * fix: resolve lifecycle memory leaks by cleaning up listeners and root closures by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/25049 * docs(cli): updates f12 description to be more precise by @JayadityaGit in https://github.com/google-gemini/gemini-cli/pull/15816 * fix(cli): mark /settings as unsafe to run concurrently by @jacob314 in https://github.com/google-gemini/gemini-cli/pull/25061 * fix(core): remove buffer slice to prevent OOM on large output streams by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/25094 * feat(core): persist subagent agentId in tool call records by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/25092 * chore(core): increase codebase investigator turn limits to 50 by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/25125 * refactor(core): consolidate execute() arguments into ExecuteOptions by @mbleigh in https://github.com/google-gemini/gemini-cli/pull/25101 * feat(core): add Strategic Re-evaluation guidance to system prompt by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/25062 * fix(core): preserve shell execution config fields on update by @jasonmatthewsuhari in https://github.com/google-gemini/gemini-cli/pull/25113 * docs: add vi shortcuts and clarify MCP sandbox setup by @chrisjcthomas in https://github.com/google-gemini/gemini-cli/pull/21679 * fix(cli): pass session id to interactive shell executions by @jasonmatthewsuhari in https://github.com/google-gemini/gemini-cli/pull/25114 * fix(cli): resolve text sanitization data loss due to C1 control characters by @euxaristia in https://github.com/google-gemini/gemini-cli/pull/22624 * feat(core): add large memory regression test by @cynthialong0-0 in https://github.com/google-gemini/gemini-cli/pull/25059 * fix(core): resolve PTY exhaustion and orphan MCP subprocess leaks by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/25079 * chore(deps): update vulnerable dependencies via npm audit fix by @scidomino in https://github.com/google-gemini/gemini-cli/pull/25140 * perf(sandbox): optimize Windows sandbox initialization via native ACL application by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/25077 * chore: switch from keytar to @github/keytar by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/25143 * fix: improve audio MIME normalization and validation in file reads by @junaiddshaukat in https://github.com/google-gemini/gemini-cli/pull/21636 * docs: Update docs-audit to include changes in PR body by @g-samroberts in https://github.com/google-gemini/gemini-cli/pull/25153 * docs: correct documentation for enforced authentication type by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/25142 * fix(cli): exclude update_topic from confirmation queue count by @Abhijit-2592 in https://github.com/google-gemini/gemini-cli/pull/24945 ## New Contributors * @kimjune01 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/23341 * @chrisjcthomas made their first contribution in https://github.com/google-gemini/gemini-cli/pull/21679 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.39.0-nightly.20260410.96cc8a0da...v0.39.0-nightly.20260411.0957f7d3e]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260411.0957f7d3e</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.39.0-nightly.20260411.0957f7d3e</guid>
-            <pubDate>Sat, 11 Apr 2026 02:08:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
