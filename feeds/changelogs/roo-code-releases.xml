@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Roo Code Releases]]></description>
         <link>https://github.com/RooCodeInc/Roo-Code/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Jul 2026 15:27:45 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 17:10:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/roo-code-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 15 May 2026 17:52:24 GMT</pubDate>
         <language><![CDATA[en]]></language>
