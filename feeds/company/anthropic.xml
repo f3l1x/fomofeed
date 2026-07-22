@@ -4,11 +4,23 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Jul 2026 17:11:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 19:04:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Jul 2026 21:35:10 GMT</pubDate>
+        <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[A research agenda for the Economic Futures Research Fund]]></title>
+            <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/economic-futures-research-fund-agenda</guid>
+            <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ask Claude about the Anthropic Economic Index]]></title>
+            <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-economic-index-connector</guid>
+            <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.217]]></title>
             <description><![CDATA[## What's changed - Added emoji shortcode autocomplete in the prompt input: type :heart: to insert ❤️, or :hea for suggestions — disable with the emojiCompletionEnabled setting - Added warnings when transcript writes are failing (e.g. disk full) or when session saving is off due to an inherited environment variable, instead of losing transcripts silently - Fixed a memory leak where truncated MCP tool outputs kept the full untruncated result in memory for the rest of the session - Fixed Windows auto-update failures that could leave claude.exe missing; failed updates now restore the preserved executable automatically - Fixed background session isolation not canonicalizing symlinked working directories, which could let sessions escape their workspace folder - Fixed auto-compact never triggering for Claude Opus 4.8 on Bedrock and /compact failing once over the limit - Fixed corporate mTLS, TLS-verify, OAuth scope, and proxy settings being ignored in Claude Desktop sessions - Fixed screen reader mode's startup announcement being cut off by the first prompt render, and the thinking status row re-rendering every few seconds to update elapsed time and token counts - Fixed managed settings that set OTEL_EXPORTER_OTLP_ENDPOINT not governing all signals — lower-scope signal-specific overrides no longer redirect telemetry away from the managed endpoint - Fixed --resume/--continue and /resume failing with a TypeError when a transcript has a malformed attachment entry - Fixed Remote Control sessions not showing a pending permission prompt or dialog to viewers that connected after it appeared - Fixed background shells sometimes becoming impossible to stop after a session is sent to the background (/background or ←) or when the session exits on a heavily loaded machine, most visible on Windows - Fixed a CLAUDE.md or SKILL.md paths frontmatter value with many brace groups OOM-killing or stalling the CLI at startup — brace expansion is now budget-bounded - Fixed the transcript preview sitting flush against the input area when attaching to a starting background session; it now leaves the same one-line gap as the live layout, so the transcript no longer shifts when the session takes over - Improved footer PR badge links to be clickable hyperlinks even when terminal support can't be detected (e.g. over ssh/tmux); set FORCE_HYPERLINK=0 to opt out - Changed the login-expiry warning to appear 3 days before expiry instead of 5 - Capped the frontend-design plugin suggestion tip at 3 lifetime impressions instead of repeating indefinitely - Added a cap on concurrently-running subagents (default 20, override with CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS) so one message can't fan out unbounded background agents - Changed subagents to no longer spawn nested subagents by default; set CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH to allow deeper nesting - Fixed --max-budget-usd not stopping background subagents: once the cap is reached, new spawns are denied and running background agents are halted]]></description>
@@ -188,12 +200,6 @@
             <pubDate>Mon, 06 Jul 2026 22:51:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems]]></title>
-            <link>https://www.anthropic.com/news/alberta-government-claude-cybersecurity</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/alberta-government-claude-cybersecurity</guid>
-            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[A global workspace in language models]]></title>
             <description><![CDATA[New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.]]></description>
             <link>https://www.anthropic.com/research/global-workspace</link>
@@ -220,12 +226,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.199</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.199</guid>
             <pubDate>Thu, 02 Jul 2026 23:35:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[More details on Fable 5’s cyber safeguards and our jailbreak framework]]></title>
-            <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</guid>
-            <pubDate>Wed, 01 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.198]]></title>
