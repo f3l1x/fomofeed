@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Jul 2026 19:04:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jul 2026 06:26:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 Jul 2026 21:00:30 GMT</pubDate>
+        <pubDate>Thu, 23 Jul 2026 00:44:28 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.3]]></title>
+            <description><![CDATA[## What's Changed * mlx update by @dhiltgen in https://github.com/ollama/ollama/pull/17332 * model/parsers: finalize incomplete GLM tool calls by @dhiltgen in https://github.com/ollama/ollama/pull/17250 * docs: update retirements by @mxyng in https://github.com/ollama/ollama/pull/17289 * model: align Laguna with upstream llama.cpp by @dhiltgen in https://github.com/ollama/ollama/pull/17335 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.2...v0.32.3-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0</guid>
+            <pubDate>Thu, 23 Jul 2026 00:44:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.2]]></title>
             <description><![CDATA[## What's Changed * launch: keep Claude Code channels available by @hoyyeva in https://github.com/ollama/ollama/pull/17210 * cmd: remove dead agent prompt wrappers by @ParthSareen in https://github.com/ollama/ollama/pull/17227 * agent: reorder working directory instruction by @ParthSareen in https://github.com/ollama/ollama/pull/17228 * agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in https://github.com/ollama/ollama/pull/17212 * agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in https://github.com/ollama/ollama/pull/17217 * anthropic: close text block before starting thinking block by @hoyyeva in https://github.com/ollama/ollama/pull/17225 * agent: skills system by @ParthSareen in https://github.com/ollama/ollama/pull/17203 * llama.cpp update by @dhiltgen in https://github.com/ollama/ollama/pull/17186 * cmd: route root command server start through checkServerHeartbeat by @ParthSareen in https://github.com/ollama/ollama/pull/17245 * agent/tui: remove redundant context-window refreshes from event loop by @ParthSareen in https://github.com/ollama/ollama/pull/17241 * cmd: complete slash commands before submitting by @ParthSareen in https://github.com/ollama/ollama/pull/17230 * cmd: remove standalone agent command by @ParthSareen in https://github.com/ollama/ollama/pull/17229 * cmd/tui/chat: render bold emphasis consistently across markdown by @ParthSareen in https://github.com/ollama/ollama/pull/17224 * launch: update Hermes integration by @ParthSareen in https://github.com/ollama/ollama/pull/17202 * MLX update by @dhiltgen in https://github.com/ollama/ollama/pull/17189 * build: bump Linux toolchain to GCC 13 by @dhiltgen in https://github.com/ollama/ollama/pull/17244 * cuda: add CC 10.0 for linux in CUDA v12 by @dhiltgen in https://github.com/ollama/ollama/pull/17025 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.1...v0.32.2-rc0]]></description>
@@ -876,13 +883,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.9.6</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.6</guid>
             <pubDate>Tue, 08 Jul 2025 01:26:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.5]]></title>
-            <description><![CDATA[## Updates to Ollama for macOS and Windows A new version of Ollama's macOS and Windows applications are now available. New improvements to the apps will be introduced over the coming releases: * Download for macOS * Download for Windows ### New features #### Expose Ollama on the network Ollama can now be exposed on the network, allowing others to access Ollama on other devices or even over the internet. This is useful for having Ollama running on a powerful Mac, PC or Linux computer while making it accessible to less powerful devices. #### Model directory The directory in which models are stored can now be modified! This allows models to be stored on external hard disks or alternative directories than the default. #### Smaller footprint and faster starting on macOS The macOS app is now a native application and starts much faster while requiring a much smaller installation. ## Additional changes in 0.9.5 * Fixed issue where the ollama CLI would not be installed by Ollama on macOS on startup * Fixed issue where files in ollama-darwin.tgz were not notarized * Add NativeMind to Community Integrations by @xukecheng in https://github.com/ollama/ollama/pull/11242 * Ollama for macOS now requires version 12 (Monterey) or newer ## New Contributors * @xukecheng made their first contribution in https://github.com/ollama/ollama/pull/11242]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.9.5</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.5</guid>
-            <pubDate>Wed, 02 Jul 2025 18:39:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Secure Minions: private collaboration between Ollama and frontier models]]></title>
