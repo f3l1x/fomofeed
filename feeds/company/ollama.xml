@@ -4,21 +4,21 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Jul 2026 10:15:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jul 2026 17:14:02 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 23 Jul 2026 00:44:28 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.32.3]]></title>
-            <description><![CDATA[## What's Changed * mlx update by @dhiltgen in https://github.com/ollama/ollama/pull/17332 * model/parsers: finalize incomplete GLM tool calls by @dhiltgen in https://github.com/ollama/ollama/pull/17250 * docs: update retirements by @mxyng in https://github.com/ollama/ollama/pull/17289 * model: align Laguna with upstream llama.cpp by @dhiltgen in https://github.com/ollama/ollama/pull/17335 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.2...v0.32.3-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0</guid>
+            <description><![CDATA[## What's Changed - Fixed model downloads that stall before sending data. - Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect --force-build. - Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. - Added chat, thinking, and tool calling support for Laguna 2.1 models, including a Metal inference fix. - Fixed GLM tool calls being silently dropped at the end of generation. - Updated the MLX and llama.cpp engines. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.1...v0.32.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.3</guid>
             <pubDate>Thu, 23 Jul 2026 00:44:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.32.2]]></title>
-            <description><![CDATA[## What's Changed * launch: keep Claude Code channels available by @hoyyeva in https://github.com/ollama/ollama/pull/17210 * cmd: remove dead agent prompt wrappers by @ParthSareen in https://github.com/ollama/ollama/pull/17227 * agent: reorder working directory instruction by @ParthSareen in https://github.com/ollama/ollama/pull/17228 * agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in https://github.com/ollama/ollama/pull/17212 * agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in https://github.com/ollama/ollama/pull/17217 * anthropic: close text block before starting thinking block by @hoyyeva in https://github.com/ollama/ollama/pull/17225 * agent: skills system by @ParthSareen in https://github.com/ollama/ollama/pull/17203 * llama.cpp update by @dhiltgen in https://github.com/ollama/ollama/pull/17186 * cmd: route root command server start through checkServerHeartbeat by @ParthSareen in https://github.com/ollama/ollama/pull/17245 * agent/tui: remove redundant context-window refreshes from event loop by @ParthSareen in https://github.com/ollama/ollama/pull/17241 * cmd: complete slash commands before submitting by @ParthSareen in https://github.com/ollama/ollama/pull/17230 * cmd: remove standalone agent command by @ParthSareen in https://github.com/ollama/ollama/pull/17229 * cmd/tui/chat: render bold emphasis consistently across markdown by @ParthSareen in https://github.com/ollama/ollama/pull/17224 * launch: update Hermes integration by @ParthSareen in https://github.com/ollama/ollama/pull/17202 * MLX update by @dhiltgen in https://github.com/ollama/ollama/pull/17189 * build: bump Linux toolchain to GCC 13 by @dhiltgen in https://github.com/ollama/ollama/pull/17244 * cuda: add CC 10.0 for linux in CUDA v12 by @dhiltgen in https://github.com/ollama/ollama/pull/17025 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.1...v0.32.2-rc0]]></description>
+            <description><![CDATA[Withdrawn, please use 0.32.3 or newer]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.32.2</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.2</guid>
             <pubDate>Mon, 20 Jul 2026 21:00:30 GMT</pubDate>
