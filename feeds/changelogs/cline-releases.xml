@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Jul 2026 17:23:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 19:16:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 24 Jul 2026 01:59:58 GMT</pubDate>
+        <pubDate>Fri, 24 Jul 2026 19:03:48 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v4.0.11]]></title>
+            <description><![CDATA[### Added - Add Claude Opus 5 across the Anthropic, Claude Code, Bedrock, Vertex, Cline, and OpenRouter providers, including 1M context window variants. - Add Moonshot Kimi K3 support. - Include the host plugin version in telemetry events. ### Fixed - Correct pricing for the Claude Opus 1M context variants, which overstated costs for requests above 200k tokens. - Enable native tool calling for Kimi K3 models, fixing empty responses. **Full Changelog**: https://github.com/cline/cline/compare/v4.0.10...v4.0.11]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.0.11</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.0.11</guid>
+            <pubDate>Fri, 24 Jul 2026 19:03:48 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Desktop v0.0.4]]></title>
             <description><![CDATA[- Start chatting without opening a project folder — the app now supports workspace-free chat sessions. - New first-run onboarding flow to get you set up on launch. - Drag and drop files directly onto the chat to attach them. - Image attachments now display inline in the chat transcript. - Schedule one-time routines (not just recurring ones), with navigation to jump to a routine's run. - New custom overlay title bar with in-app navigation. - Redesigned channel setup as expandable cards. - Added a setting to replay the new-user experience. - Cleaner chat markdown rendering, and external links now open correctly in your browser. - Agent sessions now use agentic compaction by default, keeping long conversations within context more intelligently. - Fixed the agent not finding gh and other CLI tools by resolving your login shell's PATH. - Headless routines now default to YOLO mode so they can run unattended. - Fixed request metering for the SAP AI Core provider. **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.3...desktop-v0.0.4]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.64.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.64.0</guid>
             <pubDate>Tue, 17 Feb 2026 19:33:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.63.0]]></title>
-            <description><![CDATA[### Added - added zai GLM 5 Free promo ### Fixed - Restore reasoning trace visibility in chat and improve the thinking row UX so reasoning is visible, then collapsible after completion. **Full Changelog**: https://github.com/cline/cline/compare/v3.62.0...v3.63.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.63.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.63.0</guid>
-            <pubDate>Mon, 16 Feb 2026 21:26:53 GMT</pubDate>
         </item>
     </channel>
 </rss>
