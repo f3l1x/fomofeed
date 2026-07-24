@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Jul 2026 15:22:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 17:22:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Claude Opus 5]]></title>
+            <description><![CDATA[Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.]]></description>
+            <link>https://www.anthropic.com/news/claude-opus-5</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-5</guid>
+            <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[A research agenda for the Economic Futures Research Fund]]></title>
             <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
@@ -65,12 +72,6 @@
             <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing a way to reflect on how you use Claude]]></title>
-            <link>https://www.anthropic.com/news/reflect-with-claude</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/reflect-with-claude</guid>
-            <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Redeploying Fable 5]]></title>
             <description><![CDATA[Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.]]></description>
             <link>https://www.anthropic.com/news/redeploying-fable-5</link>
@@ -82,13 +83,6 @@
             <description><![CDATA[Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.]]></description>
             <link>https://www.anthropic.com/news/claude-sonnet-5</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-5</guid>
-            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Science, an AI workbench for scientists, is now available]]></title>
-            <description><![CDATA[Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.]]></description>
-            <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-science-ai-workbench</guid>
             <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

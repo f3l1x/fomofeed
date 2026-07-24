@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Jul 2026 15:24:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 17:24:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Run Ray on TPU, Part 2: Ray AI libraries]]></title>
+            <description><![CDATA[This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correctly gang-schedule large multi-host models, while Ray Data eliminates data-loading bottlenecks by feeding accelerators directly with native JAX batches. Finally, JaxTrainer streamlines distributed training across TPUs by automatically handling cross-slice coordination, checkpointing, and fault tolerance.]]></description>
+            <link>https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/</guid>
+            <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Claude Opus 5]]></title>
+            <description><![CDATA[Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.]]></description>
+            <link>https://www.anthropic.com/news/claude-opus-5</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-5</guid>
+            <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Project Pilot: Can AI control a drone?]]></title>
             <link>https://www.anthropic.com/research/project-pilot</link>
@@ -118,12 +132,6 @@
             <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing a way to reflect on how you use Claude]]></title>
-            <link>https://www.anthropic.com/news/reflect-with-claude</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/reflect-with-claude</guid>
-            <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Claude plays robotics]]></title>
             <link>https://www.anthropic.com/research/claude-plays-robotics</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-plays-robotics</guid>
@@ -171,13 +179,6 @@
             <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Build agentic full-stack apps with Genkit]]></title>
-            <description><![CDATA[The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single interface. The API supports flexible, server- or client-managed state persistence—allowing for advanced workflows like history branching, long-running detached tasks, and multi-agent coordination—while seamlessly connecting backends to frontends via a unified wire protocol. Currently available in preview for TypeScript and Go, it also integrates with the Genkit Developer UI to allow developers to easily test, debug, and inspect agent snapshots without writing client code.]]></description>
-            <link>https://developers.googleblog.com/build-agentic-full-stack-apps-with-genkit/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/build-agentic-full-stack-apps-with-genkit/</guid>
-            <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Redeploying Fable 5]]></title>
             <description><![CDATA[Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.]]></description>
             <link>https://www.anthropic.com/news/redeploying-fable-5</link>
@@ -189,13 +190,6 @@
             <description><![CDATA[Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.]]></description>
             <link>https://www.anthropic.com/news/claude-sonnet-5</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-5</guid>
-            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Science, an AI workbench for scientists, is now available]]></title>
-            <description><![CDATA[Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.]]></description>
-            <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-science-ai-workbench</guid>
             <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
