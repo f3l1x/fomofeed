@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Jul 2026 10:12:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 15:24:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Project Pilot: Can AI control a drone?]]></title>
+            <link>https://www.anthropic.com/research/project-pilot</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/project-pilot</guid>
+            <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[A research agenda for the Economic Futures Research Fund]]></title>
             <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
@@ -215,12 +221,6 @@
             <title><![CDATA[Paving the way for agents in biology]]></title>
             <link>https://www.anthropic.com/research/agents-in-biology</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/agents-in-biology</guid>
-            <pubDate>Sun, 07 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Measuring LLMs’ impact on N-day exploits]]></title>
-            <link>https://www.anthropic.com/research/n-days</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/n-days</guid>
             <pubDate>Sun, 07 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
