@@ -4,11 +4,32 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Jul 2026 19:17:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jul 2026 06:12:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 24 Jul 2026 18:24:41 GMT</pubDate>
+        <pubDate>Sat, 25 Jul 2026 02:18:34 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.146.0-alpha.10]]></title>
+            <description><![CDATA[Release 0.146.0-alpha.10]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10</guid>
+            <pubDate>Sat, 25 Jul 2026 02:18:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.146.0-alpha.9]]></title>
+            <description><![CDATA[Release 0.146.0-alpha.9]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.9</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.9</guid>
+            <pubDate>Sat, 25 Jul 2026 00:34:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.146.0-alpha.8]]></title>
+            <description><![CDATA[Release 0.146.0-alpha.8]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.8</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.8</guid>
+            <pubDate>Fri, 24 Jul 2026 23:23:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.146.0-alpha.7]]></title>
             <description><![CDATA[Release 0.146.0-alpha.7]]></description>
@@ -735,27 +756,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.6</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.6</guid>
             <pubDate>Wed, 17 Jun 2026 19:52:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.141.0-alpha.5]]></title>
-            <description><![CDATA[Release 0.141.0-alpha.5]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.5</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.5</guid>
-            <pubDate>Wed, 17 Jun 2026 09:23:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.141.0-alpha.4]]></title>
-            <description><![CDATA[Release 0.141.0-alpha.4]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.4</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.4</guid>
-            <pubDate>Wed, 17 Jun 2026 00:28:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.141.0-alpha.3]]></title>
-            <description><![CDATA[Release 0.141.0-alpha.3]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.3</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.3</guid>
-            <pubDate>Tue, 16 Jun 2026 06:07:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.17.5]]></title>

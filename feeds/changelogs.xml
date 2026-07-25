@@ -4,11 +4,67 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Jul 2026 19:17:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jul 2026 06:12:41 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 24 Jul 2026 19:03:48 GMT</pubDate>
+        <pubDate>Sat, 25 Jul 2026 02:22:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.4]]></title>
+            <description><![CDATA[## What's Changed * x/create: quantize lm_head at 8-bit in the requested family by @jessegross in https://github.com/ollama/ollama/pull/17357 * test: harden flaky updater and transfer unit tests by @dhiltgen in https://github.com/ollama/ollama/pull/17378 * server: fix ps data race on scheduler loaded map by @dhiltgen in https://github.com/ollama/ollama/pull/17376 * qwen3_5: fix expert quantization handling and gather packed gate_up in one launch by @jessegross in https://github.com/ollama/ollama/pull/17336 * agent: permission skill loading by @ParthSareen in https://github.com/ollama/ollama/pull/17304 * cmd/tui: agent system prompt command by @ParthSareen in https://github.com/ollama/ollama/pull/17296 * mlx: keep loaded model memory resident by @dhiltgen in https://github.com/ollama/ollama/pull/17367 * x/create: quantize a draft model's output head at the requested type by @jessegross in https://github.com/ollama/ollama/pull/17383 * model: add Laguna MLX support by @dhiltgen in https://github.com/ollama/ollama/pull/17237 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.3...v0.32.4-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0</guid>
+            <pubDate>Sat, 25 Jul 2026 02:22:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.146.0-alpha.10]]></title>
+            <description><![CDATA[Release 0.146.0-alpha.10]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10</guid>
+            <pubDate>Sat, 25 Jul 2026 02:18:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v2.1.220]]></title>
+            <description><![CDATA[## What's changed - Bug fixes and reliability improvements]]></description>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.220</link>
+            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.220</guid>
+            <pubDate>Sat, 25 Jul 2026 01:35:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Sat, 25 Jul 2026 00:53:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.146.0-alpha.9]]></title>
+            <description><![CDATA[Release 0.146.0-alpha.9]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.9</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.9</guid>
+            <pubDate>Sat, 25 Jul 2026 00:34:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.146.0-alpha.8]]></title>
+            <description><![CDATA[Release 0.146.0-alpha.8]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.8</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.8</guid>
+            <pubDate>Fri, 24 Jul 2026 23:23:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.5]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Improve Claude adaptive thinking handling across more response shapes. - Avoid OpenAI Responses phase handling that could break some conversations. - Preserve grep symlink paths in search results. (@remixz) - Preserve Mistral reasoning history across turns. - Stabilize Mistral prompt caching. - Use the correct prompt cache keys for each SDK. - Fix MiniMax M3 thinking variant selection. ## Desktop ### Improvements - Support the current server terminal transport. - Support current-server review data in the desktop app. - Update server discovery flows for current servers. - Support current-server session actions, including prompts and commands. - Render current-server session timelines. - Stream current-server events in the desktop app. - Detect legacy and current servers so the desktop app can work with both. ### Bugfixes - Restore optimistic timeline updates while responses are still streaming. - Hide legacy-only features when connected to current servers. - Preserve inline file mentions when sending prompts to legacy servers. - Stop auto-accepting config permissions on current servers. - Keep current servers out of the legacy layout. - Show plain file contents in file-specific tabs instead of review diffs. - Keep the prompt input agent toggle in sync. - Keep paginated session timelines in the right order. - Restore directory-scoped session status for legacy servers. - Reload legacy session progress after hydration. **Thank you to 2 community contributors:** - @dleopold: - fix(app): classify existing web profiles for layout transition (#38117) - @remixz: - fix(opencode): preserve grep symlink paths (#38581)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.5</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.5</guid>
+            <pubDate>Fri, 24 Jul 2026 22:18:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.87.0]]></title>
+            <description><![CDATA[# MCP OAuth, performance and more Happy Friday everybody! We're releasing some nice features for you so you can enjoy your weekend vibecoding. (Or not, stay outside :sun_with_face: and return to Crush on Monday! :smiley:). ## MCP OAuth That's it, it's finally here! Some of you have been asking for this for long. This is required for some MCPs to work. Want to know to it set it up? Refer to this section into the README. Thank @joestump and his agent @joestump-agent for this contribution. And of course, our favorite @taciturnaxolotl also helped. ## Claude Channels MCP extension @joestump (and his agent) _also_ added an initial implementation to support the Claude Channels MCP extension, which means MCPs can now send notifications to Crush when certain events happen. Give this a try if you're interested, and let us know how well it works for you. ## Restored MCP prompts MCP prompts were unintentionally disabled in a previous release, but they were now added back! ## LSP performance boost Another cool contrib was made by @TheJhyeFactor, who vastly improved the CPU and memory usage on handling LSP servers in large repositories! See #3370 for a more in-depth explanation of the optimizations. ## Bang mode performance boost @TheJhyeFactor _also_ improved performance of output streaming when running command in bang mode. Check #3381 to see some benchmarking. ## /etc/crush/crush.json You read it right! Thank to @Muttaqin86 you can now have a system-wide Crush configuration on /etc/crush/crush.json. The motivation for this was improving compatibility with NixOS. ## Fixed Copilot + GPT-5.6 All three GPT-5.6 models (Sol, Terra and Luna) are now fixed when running via GitHub Copilot. Kudos to @nghiant03 for this! That was a lot, but it's really fun to how much the community is enganged with Crush dev. Keep Crushing! :tm: Charm ## Changelog ### New! * 6f8a7fe8b2cd619e82683a70de252238f333052f: feat(client): reconnect the event stream after it drops (@meowgorithm) * d291d9f2c189d1d8c1c4a18d4b73650fc4d20ac9: feat(cmd): add --channels opt-in flag for MCP channel servers (@joestump) * 37fc995daca4486501acb6d03445a4bd6969d7f3: feat(mcp): OAuth 2.1 authorization for HTTP MCP servers (@taciturnaxolotl) * 1588ae868a8ae7a0f13738cf04542c466dd50f65: feat(mcp): SSE OAuth, metadata fixups, and resource param stripping (@taciturnaxolotl) * d338af88648a8f33f05624800013fcd11b0f1b97: feat(mcp): add OAuth support for HTTP MCP servers (@joestump) * a1cf002270dede2be0b415ace5e36b199cb5773e: feat(mcp): detect claude/channel capability and receive channel messages (@joestump) * b238696201229f30b073078b246c4f47416dd34c: feat(ui): tell a lost connection apart from an uninitialized agent (@meowgorithm) ### Fixed * fbf59341beee53600e8e4f55b60d9392371dc22c: fix(agent): close dispatch completion-boundary cancel race (@joestump-agent) * ae9257b9cdce0dfc4afb6a5e7407d40e988c616c: fix(agent): serialize in-process run dispatch to prevent concurrent turns (@joestump) * a09cb3668c2871469250d42e1ced905fef84d820: fix(backend): log channel flag mismatch on duplicate workspace creation (@joestump-agent) * 086dc626c68292089fb1c7d7e0569dc7efa52005: fix(client): add MCP prompts to ui in client-server mode (@meowgorithm) * ca9ef6adeceed920f882a44f68b61ba9de2d9aba: fix(cmd): make --channels a persistent flag so crush run inherits it (@joestump-agent) * 213ad7945184fbbd5ae0830a8ffc313fd8f3722f: fix(config): load system-wide config from /etc/crush/crush.json (#2984) (@Muttaqin86) * 8ccf6945d6f9f0de98ed2e1f9900a322f7c91fab: fix(copilot): add additional responses models (#3416) (@nghiant03) * 26399fc2ef5968db46627d3bcb2c57d4d330472c: fix(mcp): address OAuth review findings (timeout, refresh, concurrency) (@joestump-agent) * bc8ff341a02f8d739dea37af2375f5dcde712474: fix(mcp): buffer channel notifications during capability negotiation (@joestump-agent) * 1f623ec075cc28fbd1f683c6431bb8b54c23dd17: fix(mcp): filter channel events from the shared app event stream (@joestump-agent) * 14fa1de881f0927f09c12bdeebb57ef36fb6578a: fix(mcp): prevent clients from inheriting channel opt-ins (@meowgorithm) * 533fcf1e7c1006213cda8aeace3fff784d9a1c41: fix(mcp): prevent panic when auth signal fires twice (#3403) (@meowgorithm) * f7c53cbc1d89c08622911c8407cfdaadfb922705: fix(mcp): route channel messages through must-deliver broker path (@joestump-agent) * fed86b00bab56754bc97cd45875923e1489c737d: fix(mcp): tighten channel meta key validation for XML name safety (@joestump-agent) * fd55b5d102169644a365f0835c09aca88303f419: fix(server): don't shut down while a workspace is being created (@meowgorithm) * 2cb0bdb26778fbe65eba16aa010801367c0fc64c: fix(server): stop mapping channel events to spurious state changes (@joestump-agent) * fa6ec09dc56bfa799be6b4639ff5e0569ef640d9: fix(server): wait before shutting down so back-to-back sessions don't race it (@meowgorithm) * 00a18434bd33953c5458399ed57bf0238dccdb09: fix(test): fix nil pointer crash in Windows CI tests (@meowgorithm) * 1b4ef73f1f6343832e57fbd3e7f71c3f03d0d835: fix(ui): keep shell progress output from corrupting the TUI (@taciturnaxolotl) ### Docs * 7946b21e2e7c41838cb7685b41032151a20248b5: docs(mcp): add OAuth configuration guide and regenerate schema (@taciturnaxolotl) ### Other stuff * 2af939d8e900f15edb5e78d766ff0b74dd4fe87e: chore(cli): hide --channels (@meowgorithm) * 1ba4dc4b978e25b1486ebdab81871601ddd765de: chore(mcp): merge main; fix createTransport arity; inject browser opener (@joestump-agent) * d2c66483d204effe8bb5f191a11e53e1da9ddc14: chore: auto-update files (@charmcli) * b647ccd131099a652294dd31dfb5c568c44ca90d: chore: auto-update files (@charmcli) * cba1ebcf9c21874c886920e0818bc1c7dad71b53: chore: auto-update files (@charmcli) * cc971bd60d54d660632bd12c0fb83dbcd33f06ea: perf(lsp): filter servers before searching $PATH (#3370) (@TheJhyeFactor) * e4175c52b8e14a4e158106ac5988fd42a8958457: perf(ui): avoid quadratic shell output rendering (#3381) (@TheJhyeFactor) * 67e748e11c102be90cf881fabd954d2a0f290cee: revert: remove #3348 OAuth implementation (superseded) (@taciturnaxolotl) * 1dad49ce8a2ddaefe9abffcae74f33d2d0e15c02: style: gofmt formatting cleanup (@joestump-agent) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.87.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.87.0</guid>
+            <pubDate>Fri, 24 Jul 2026 19:38:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v4.0.11]]></title>
             <description><![CDATA[### Added - Add Claude Opus 5 across the Anthropic, Claude Code, Bedrock, Vertex, Cline, and OpenRouter providers, including 1M context window variants. - Add Moonshot Kimi K3 support. - Include the host plugin version in telemetry events. ### Fixed - Correct pricing for the Claude Opus 1M context variants, which overstated costs for requests above 200k tokens. - Enable native tool calling for Kimi K3 models, fixing empty responses. **Full Changelog**: https://github.com/cline/cline/compare/v4.0.10...v4.0.11]]></description>
@@ -78,13 +134,6 @@
             <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.4</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.4</guid>
             <pubDate>Fri, 24 Jul 2026 01:59:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Fri, 24 Jul 2026 00:50:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[b10099]]></title>
@@ -3283,13 +3332,6 @@
             <pubDate>Wed, 17 Jun 2026 15:41:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.141.0-alpha.5]]></title>
-            <description><![CDATA[Release 0.141.0-alpha.5]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.5</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.5</guid>
-            <pubDate>Wed, 17 Jun 2026 09:23:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[CLI v3.0.27]]></title>
             <description><![CDATA[- Added a cline skill command to install and manage skills, matching cline plugin install and cline mcp (installs default to the Cline agent directory) - Added a prefilled MCP install wizard command for quicker MCP server setup - Improved error handling and messaging when plugin MCP OAuth authorization fails - The CLI now rejects unknown commands and unquoted multi-word input with a clear error instead of silently treating bad arguments as a prompt **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.26...cli-v3.0.27]]></description>
             <link>https://github.com/cline/cline/releases/tag/cli-v3.0.27</link>
@@ -3318,25 +3360,11 @@
             <pubDate>Wed, 17 Jun 2026 03:26:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.141.0-alpha.4]]></title>
-            <description><![CDATA[Release 0.141.0-alpha.4]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.4</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.4</guid>
-            <pubDate>Wed, 17 Jun 2026 00:28:20 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.179]]></title>
             <description><![CDATA[## What's changed - Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at "running tool" - Fixed mouse-wheel scrolling in WSL2 under Windows Terminal and VS Code (regression in 2.1.172) - Fixed a sandbox denyRead/allowRead glob over a large directory tree making the Bash tool description enormous and the session unusable on Linux - Fixed the feedback survey capturing a single-digit reply as a session rating immediately after a turn completes - Fixed the welcome screen stacking multiple promotional banners — at most one promo now shows per session - Fixed Ctrl+O not showing the subagent's transcript when viewing a subagent - Fixed clicking the prompt input not returning focus from the subagent/footer panel - Fixed remote session background tasks appearing stuck as "still running" between turns - Improved plugin loading performance in remote sessions]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.179</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.179</guid>
             <pubDate>Tue, 16 Jun 2026 20:22:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.141.0-alpha.3]]></title>
-            <description><![CDATA[Release 0.141.0-alpha.3]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.3</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.3</guid>
-            <pubDate>Tue, 16 Jun 2026 06:07:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.89.1]]></title>
@@ -6791,13 +6819,6 @@
             <pubDate>Wed, 08 Apr 2026 18:05:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v2.1.96]]></title>
-            <description><![CDATA[## What's changed - Fixed Bedrock requests failing with 403 "Authorization header is missing" when using AWS_BEARER_TOKEN_BEDROCK or CLAUDE_CODE_SKIP_BEDROCK_AUTH (regression in 2.1.94)]]></description>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.96</link>
-            <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.96</guid>
-            <pubDate>Wed, 08 Apr 2026 04:37:36 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v1.4.0]]></title>
             <description><![CDATA[## Breaking Changes in SDK Due to some performance issues we had to make a few breaking changes in our data model. ### Diff metadata The diffs contained in the metadata for the edit and patch tool will no longer contain a to and from field with full file contents. they will only contain a patch field with the unified diff Additionally all snapshot diffs contained in user message and session diff will follow this format ### UserMessage.variant Before the user message had a variant field - it is now nested under model so userMessage.model.variant ## Core - Added OTLP observability export support. - Fixed failed web fetches leaving stale timeouts behind. - Improved opencode login transport error messages. - Retried Alibaba provider rate-limit errors instead of failing immediately. - Kept model variants scoped to the selected model. - Added full HTTP proxy support. - Fixed OpenRouter provider issues. - Aligned GitHub Copilot Anthropic reasoning levels and removed incorrect Qwen variants. - Reduced TypeScript LSP memory use by using the native project config. (@derekbar90) ## TUI - Added a keybinding option for "Switch model variant". (@ariane-emory) - Added PDF drag and drop for attachments. (@gitpush-gitpaid) - Added opencode run --dangerously-skip-permissions to auto-approve non-denied permission prompts. ## Desktop - Improved subagent sessions with clearer titles, navigation, and progress states. - Moved auto-accept permissions into Settings. - Showed full file names on attachment chips. **Thank you to 4 community contributors:** - @derekbar90: - fix(lsp): MEMORY LEAK: ensure typescript server uses native project config (#19953) - @mchenco: - docs: update Cloudflare provider setup to reflect /connect prompt flow (#20589) - @gitpush-gitpaid: - feat(opencode): Add PDF attachment Drag and Drop (#16926) - @ariane-emory: - fix(tui): use sentence case for theme mode command palette items (#21192) - feat(tui): allow variant_list keybind for the "Switch model variant" command (#21185)]]></description>
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.0</link>
@@ -7020,13 +7041,6 @@
             <link>https://github.com/vllm-project/vllm/releases/tag/v0.18.1</link>
             <guid isPermaLink="false">https://github.com/vllm-project/vllm/releases/tag/v0.18.1</guid>
             <pubDate>Tue, 31 Mar 2026 00:53:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.9]]></title>
-            <description><![CDATA[## Core - Fixed plugin entrypoint resolution for paths without leading dot]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.9</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.9</guid>
-            <pubDate>Mon, 30 Mar 2026 23:44:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.6.0 - 2026-03-30]]></title>
@@ -9979,13 +9993,6 @@
             <pubDate>Mon, 01 Dec 2025 23:33:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.20.1]]></title>
-            <description><![CDATA[## crush login claude A few people had trouble authenticating with Claude Code Max when running Crush via SSH, tmux, etc. because it's not always possible to copy the URL to the clipboard or open the browser. We added a crush login claude command so you can do it via the CLI instead of the TUI. * 2b222e3d951d317389f361f8f12be0fbc77267eb fix: remove max_tokens minimum requirement to fix json schema issue (#1532) (@masroor-ahmad) * d898662d3e37b0a88be032da68d914b8ff168ac6 feat: add crush login claude command (#1537) (@andreynering) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.20.1</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.20.1</guid>
-            <pubDate>Mon, 01 Dec 2025 22:46:14 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Release v3.35.0]]></title>
             <description><![CDATA[## [3.35.0] - 2025-12-01 !3.35.0 Release - Subtasks & Native Tools - Metadata-driven subtasks with automatic parent resume and single-open safety for improved task orchestration (#8081 by @hannesrudolph, PR #9090 by @hannesrudolph) - Native tool calling support expanded across many providers: Bedrock (PR #9698 by @mrubens), Cerebras (PR #9692 by @mrubens), Chutes with auto-detection from API (PR #9715 by @daniel-lxs), DeepInfra (PR #9691 by @mrubens), DeepSeek and Doubao (PR #9671 by @daniel-lxs), Groq (PR #9673 by @daniel-lxs), LiteLLM (PR #9719 by @daniel-lxs), Ollama (PR #9696 by @mrubens), OpenAI-compatible providers (PR #9676 by @daniel-lxs), Requesty (PR #9672 by @daniel-lxs), Unbound (PR #9699 by @mrubens), Vercel AI Gateway (PR #9697 by @mrubens), Vertex Gemini (PR #9678 by @daniel-lxs), and xAI with new Grok 4 Fast and Grok 4.1 Fast models (PR #9690 by @mrubens) - Fix: Preserve tool_use blocks in summary for parallel tool calls (#9700 by @SilentFlower, PR #9714 by @SilentFlower) - Default Grok Code Fast to native tools for better performance (PR #9717 by @mrubens) - UX improvements to the Roo Code Cloud provider-centric onboarding flow (PR #9709 by @brunobergher) - UX toolbar cleanup and settings consolidation for a cleaner interface (PR #9710 by @brunobergher) - Add model-specific tool customization via excludedTools and includedTools configuration (PR #9641 by @daniel-lxs) - Add new apply_patch native tool for more efficient file editing operations (PR #9663 by @hannesrudolph) - Add new search_and_replace tool for batch text replacements across files (PR #9549 by @hannesrudolph) - Add debug buttons to view API and UI history for troubleshooting (PR #9684 by @hannesrudolph) - Include tool format in environment details for better context awareness (PR #9661 by @mrubens) - Fix: Display install count in millions instead of thousands (PR #9677 by @app/roomote) - Web-evals improvements: add task log viewing, export failed logs, and new run options (PR #9637 by @hannesrudolph) - Web-evals updates: add kill run functionality (PR #9681 by @hannesrudolph) - Fix: Prevent navigation buttons from wrapping on smaller screens (PR #9721 by @app/roomote)]]></description>
             <link>https://github.com/RooCodeInc/Roo-Code/releases/tag/v3.35.0</link>
@@ -11240,13 +11247,6 @@
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.35</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.35</guid>
             <pubDate>Tue, 08 Jul 2025 02:36:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.6]]></title>
-            <description><![CDATA[## What's Changed * Fixed styling issue in launch screen * tool_name can now be provided in messages with "role": "tool" using the /api/chat endpoint ## New Contributors * @vrampal made their first contribution in https://github.com/ollama/ollama/pull/9681 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.5...v0.9.6-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.9.6</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.6</guid>
-            <pubDate>Tue, 08 Jul 2025 01:26:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.0.34]]></title>

@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Jul 2026 19:16:53 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jul 2026 06:11:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Jul 2026 00:44:28 GMT</pubDate>
+        <pubDate>Sat, 25 Jul 2026 02:22:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.4]]></title>
+            <description><![CDATA[## What's Changed * x/create: quantize lm_head at 8-bit in the requested family by @jessegross in https://github.com/ollama/ollama/pull/17357 * test: harden flaky updater and transfer unit tests by @dhiltgen in https://github.com/ollama/ollama/pull/17378 * server: fix ps data race on scheduler loaded map by @dhiltgen in https://github.com/ollama/ollama/pull/17376 * qwen3_5: fix expert quantization handling and gather packed gate_up in one launch by @jessegross in https://github.com/ollama/ollama/pull/17336 * agent: permission skill loading by @ParthSareen in https://github.com/ollama/ollama/pull/17304 * cmd/tui: agent system prompt command by @ParthSareen in https://github.com/ollama/ollama/pull/17296 * mlx: keep loaded model memory resident by @dhiltgen in https://github.com/ollama/ollama/pull/17367 * x/create: quantize a draft model's output head at the requested type by @jessegross in https://github.com/ollama/ollama/pull/17383 * model: add Laguna MLX support by @dhiltgen in https://github.com/ollama/ollama/pull/17237 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.3...v0.32.4-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0</guid>
+            <pubDate>Sat, 25 Jul 2026 02:22:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.3]]></title>
             <description><![CDATA[## What's Changed - Fixed model downloads that stall before sending data. - Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect --force-build. - Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. - Added chat, thinking, and tool calling support for Laguna 2.1 models, including a Metal inference fix. - Fixed GLM tool calls being silently dropped at the end of generation. - Updated the MLX and llama.cpp engines. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.1...v0.32.3]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.10.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.10.0</guid>
             <pubDate>Fri, 18 Jul 2025 00:23:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.6]]></title>
-            <description><![CDATA[## What's Changed * Fixed styling issue in launch screen * tool_name can now be provided in messages with "role": "tool" using the /api/chat endpoint ## New Contributors * @vrampal made their first contribution in https://github.com/ollama/ollama/pull/9681 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.5...v0.9.6-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.9.6</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.9.6</guid>
-            <pubDate>Tue, 08 Jul 2025 01:26:29 GMT</pubDate>
         </item>
     </channel>
 </rss>

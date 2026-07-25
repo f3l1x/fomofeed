@@ -4,7 +4,7 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Jul 2026 19:17:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jul 2026 06:12:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -22,6 +22,13 @@
             <guid isPermaLink="false">https://cursor.com/blog/agent-swarm-model-economics</guid>
             <category><![CDATA[research]]></category>
             <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Grok 4.5 Model Card]]></title>
+            <link>https://cursor.com/blog/grok-4-5-model-card</link>
+            <guid isPermaLink="false">https://cursor.com/blog/grok-4-5-model-card</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Grok 4.5]]></title>
@@ -100,13 +107,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/organizations</guid>
             <category><![CDATA[product]]></category>
             <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What we’ve learned building cloud agents]]></title>
-            <link>https://cursor.com/blog/cloud-agent-lessons</link>
-            <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-lessons</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Faire doubles PR throughput with Cursor Cloud Agents]]></title>
