@@ -4,14 +4,14 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Jul 2026 16:52:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jul 2026 18:59:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 25 Jul 2026 02:22:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.32.4]]></title>
-            <description><![CDATA[## What's Changed * x/create: quantize lm_head at 8-bit in the requested family by @jessegross in https://github.com/ollama/ollama/pull/17357 * test: harden flaky updater and transfer unit tests by @dhiltgen in https://github.com/ollama/ollama/pull/17378 * server: fix ps data race on scheduler loaded map by @dhiltgen in https://github.com/ollama/ollama/pull/17376 * qwen3_5: fix expert quantization handling and gather packed gate_up in one launch by @jessegross in https://github.com/ollama/ollama/pull/17336 * agent: permission skill loading by @ParthSareen in https://github.com/ollama/ollama/pull/17304 * cmd/tui: agent system prompt command by @ParthSareen in https://github.com/ollama/ollama/pull/17296 * mlx: keep loaded model memory resident by @dhiltgen in https://github.com/ollama/ollama/pull/17367 * x/create: quantize a draft model's output head at the requested type by @jessegross in https://github.com/ollama/ollama/pull/17383 * model: add Laguna MLX support by @dhiltgen in https://github.com/ollama/ollama/pull/17237 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.3...v0.32.4-rc0]]></description>
+            <description><![CDATA[## What's Changed - Support Laguna on Apple GPUs via the MLX engine - Quantize draft-model output heads at the requested type when creating speculative-decoding drafts. - Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max). **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.3...v0.32.4]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.32.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.4</guid>
             <pubDate>Sat, 25 Jul 2026 02:22:12 GMT</pubDate>
