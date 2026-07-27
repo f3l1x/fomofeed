@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 Jul 2026 19:02:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 06:57:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Jul 2026 02:22:12 GMT</pubDate>
+        <pubDate>Mon, 27 Jul 2026 01:25:40 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.5]]></title>
+            <description><![CDATA[## What's Changed * mlx update by @dhiltgen in https://github.com/ollama/ollama/pull/17397 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.4...v0.32.5-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0</guid>
+            <pubDate>Mon, 27 Jul 2026 01:25:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.4]]></title>
             <description><![CDATA[## What's Changed - Support Laguna on Apple GPUs via the MLX engine - Quantize draft-model output heads at the requested type when creating speculative-decoding drafts. - Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max). **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.3...v0.32.4]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.10.1</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.10.1</guid>
             <pubDate>Thu, 31 Jul 2025 04:39:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.10.0]]></title>
-            <description><![CDATA[## Ollama's new app Ollama's new app is available for macOS and Windows: Download Ollama ## What's Changed * ollama ps will now show the context length of loaded models * Improved performance in gemma3n models by 2-3x * Parallel request processing now defaults to 1. For more details, see the FAQ * Fixed issue where tool calling would not work correctly with granite3.3 and mistral-nemo models * Fixed issue where Ollama's tool calling would not work correctly if a tool's name was part of of another one, such as add and get_address * Improved performance when using multiple GPUs by 10-30% * Ollama's OpenAI-compatible API will now support WebP images * Fixed issue where ollama show would report an error * ollama run will more gracefully display errors ## New Contributors * @sncix made their first contribution in https://github.com/ollama/ollama/pull/11189 * @mfornet made their first contribution in https://github.com/ollama/ollama/pull/11425 * @haiyuewa made their first contribution in https://github.com/ollama/ollama/pull/11427 * @warting made their first contribution in https://github.com/ollama/ollama/pull/11461 * @ycomiti made their first contribution in https://github.com/ollama/ollama/pull/11462 * @minxinyi made their first contribution in https://github.com/ollama/ollama/pull/11502 * @ruyut made their first contribution in https://github.com/ollama/ollama/pull/11528 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.9.6...v0.10.0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.10.0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.10.0</guid>
-            <pubDate>Fri, 18 Jul 2025 00:23:58 GMT</pubDate>
         </item>
     </channel>
 </rss>

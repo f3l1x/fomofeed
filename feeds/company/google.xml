@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 Jul 2026 19:03:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 06:58:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 Jul 2026 01:31:03 GMT</pubDate>
+        <pubDate>Mon, 27 Jul 2026 01:32:29 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.54.0-nightly.20260727.g3818efbbf]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260726.g3818efbbf...v0.54.0-nightly.20260727.g3818efbbf]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260727.g3818efbbf</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260727.g3818efbbf</guid>
+            <pubDate>Mon, 27 Jul 2026 01:32:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.54.0-nightly.20260726.g3818efbbf]]></title>
             <description><![CDATA[## What's Changed * Changelog for v0.53.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28507 * Changelog for v0.52.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28508 * chore(release): bump version to 0.54.0-nightly.20260722.gf743ab579 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28510 * fix(caretaker): sanitize and wrap issue title in untrusted_context by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28352 * chore(caretaker): update vitest to v3.2.4 and add package-lock.json files by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28409 * fix(core): rotate session ID on model fallback to prevent stateful API errors by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28469 * feat(caretaker-triage): post comment before auto-closing issues by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28411 * fix(core): enforce HTTPS for GoogleCredentialsAuthProvider to prevent cleartext leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28517 * fix(core): filter out thought parts from getHistoryTurns when context management is disabled by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28509 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260723.g9681621c6...v0.54.0-nightly.20260726.g3818efbbf]]></description>
@@ -764,13 +771,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.38.2</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.38.2</guid>
             <pubDate>Fri, 17 Apr 2026 18:38:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.38.1]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 050c303 to release/v0.38.0-pr-25317 to patch version v0.38.0 and create version 0.38.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/25466 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.38.0...v0.38.1]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.38.1</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.38.1</guid>
-            <pubDate>Wed, 15 Apr 2026 17:56:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.40.0-nightly.20260415.g06e7621b2]]></title>
