@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jul 2026 11:14:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 16:12:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients]]></title>
+            <link>https://www.anthropic.com/news/cognizant-anthropic</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/cognizant-anthropic</guid>
+            <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Run Ray on TPU, Part 2: Ray AI libraries]]></title>
             <description><![CDATA[This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correctly gang-schedule large multi-host models, while Ray Data eliminates data-loading bottlenecks by feeding accelerators directly with native JAX batches. Finally, JaxTrainer streamlines distributed training across TPUs by automatically handling cross-slice coordination, checkpointing, and fault tolerance.]]></description>
@@ -40,6 +46,13 @@
             <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-economic-index-connector</guid>
             <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Agentic RL: High-Throughput Agentic Training with Tunix]]></title>
+            <description><![CDATA[Tunix is Google’s new JAX-native post-training library designed to eliminate TPU idling bottlenecks when training multi-turn, tool-using LLM reasoning agents. It maximizes hardware throughput by combining highly concurrent, asynchronous rollouts with a decoupled producer-consumer pipeline, ensuring the trainer is constantly fed even while agents wait on network I/O or environment steps. Additionally, Tunix provides plug-and-play abstractions and continuous macro-level profiling, allowing developers to easily integrate custom open-source environments and optimize complex distributed workflows without massive code rewrites.]]></description>
+            <link>https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix/</guid>
+            <pubDate>Mon, 20 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic is donating another $20 million to Public First Action]]></title>
@@ -126,12 +139,6 @@
             <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust]]></title>
-            <link>https://www.anthropic.com/news/ben-bernanke</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/ben-bernanke</guid>
-            <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Claude plays robotics]]></title>
             <link>https://www.anthropic.com/research/claude-plays-robotics</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-plays-robotics</guid>
@@ -169,13 +176,6 @@
             <description><![CDATA[Answering the questions of "why we built ADK 2.0".  This explains the rationale, some of the features, and why a developer should consider upgrading.  This will be published the day after ADK go 2.0 launches.]]></description>
             <link>https://developers.googleblog.com/why-we-built-adk-20/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/why-we-built-adk-20/</guid>
-            <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ML Development in VS Code with Google Cloud Power: Workbench Extension Now Available]]></title>
-            <description><![CDATA[The Google Cloud Workbench Notebooks extension for VS Code has officially launched, allowing developers to connect their local IDE to scalable, cloud-based Jupyter environments. This integration streamlines the machine learning lifecycle by eliminating context switching and providing direct access to high-performance Google Cloud infrastructure. To support transparency and community-driven innovation, the newly released extension is fully open-sourced and available on GitHub and the VS Code Marketplace.]]></description>
-            <link>https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available/</guid>
             <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

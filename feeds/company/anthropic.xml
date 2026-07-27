@@ -4,11 +4,17 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jul 2026 11:14:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 16:12:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Jul 2026 01:35:55 GMT</pubDate>
+        <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients]]></title>
+            <link>https://www.anthropic.com/news/cognizant-anthropic</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/cognizant-anthropic</guid>
+            <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.1.220]]></title>
             <description><![CDATA[## What's changed - Bug fixes and reliability improvements]]></description>
@@ -179,12 +185,6 @@
             <title><![CDATA[UST is bringing Claude to physical AI]]></title>
             <link>https://www.anthropic.com/news/ust-claude</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/ust-claude</guid>
-            <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust]]></title>
-            <link>https://www.anthropic.com/news/ben-bernanke</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/ben-bernanke</guid>
             <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
