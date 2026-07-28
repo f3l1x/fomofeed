@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Jul 2026 16:00:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 17:40:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Jul 2026 13:53:05 GMT</pubDate>
+        <pubDate>Tue, 28 Jul 2026 17:16:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.6.1]]></title>
+            <description><![CDATA[## 1.6.1 (2026-07-24) ## What's Changed ### Bug Fixes * fix(release): recover npm publish after tombstoned 1.6.0 by @malhotra5 in https://github.com/OpenHands/agent-canvas/pull/1940 **Full Changelog**: https://github.com/OpenHands/agent-canvas/compare/v1.6.0...v1.6.1 --- This PR was generated with Release Please. See documentation. --- Migrated from https://github.com/OpenHands/agent-canvas/releases/tag/v1.6.1 to seed Agent Canvas release history in OpenHands/OpenHands. This release migration was performed by an AI agent (OpenHands) on behalf of the user.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1</guid>
+            <pubDate>Tue, 28 Jul 2026 17:16:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cloud: 1.47.1]]></title>
             <description><![CDATA[## 1.47.1 (2026-07-21) ## What's Changed ### Maintenance * revert(agent-profiles): restore default tools in cloud launches by @jlav in https://github.com/OpenHands/OpenHands/pull/15339 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.47.0...cloud-1.47.1 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.14.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.14.0</guid>
             <pubDate>Fri, 15 Nov 2024 16:04:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.13.1 - 2024-11-12]]></title>
-            <description><![CDATA[## What's Changed ### Added * Support displaying images/videos/pdfs in the workspace by @malhotra5 in https://github.com/All-Hands-AI/OpenHands/pull/4898 ### Changed * Better support for pushing changes to GitHub by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4568 * Restore visible logs for each action and observation when ran locally by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4729 ### Fixed * Fixed running with bedrock by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/4935 * Fixed runtime restarting when multiple tabs connected to the same session,or tab was closed by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4900 ## New Contributors * @ross-rl made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4598 * @nafisreza made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4850 * @Mr-Imperium made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4878 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.13.0...0.13.1]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.13.1</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.13.1</guid>
-            <pubDate>Tue, 12 Nov 2024 20:11:48 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,32 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Jul 2026 16:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 17:41:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Jul 2026 15:29:38 GMT</pubDate>
+        <pubDate>Tue, 28 Jul 2026 17:16:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.6.1]]></title>
+            <description><![CDATA[## 1.6.1 (2026-07-24) ## What's Changed ### Bug Fixes * fix(release): recover npm publish after tombstoned 1.6.0 by @malhotra5 in https://github.com/OpenHands/agent-canvas/pull/1940 **Full Changelog**: https://github.com/OpenHands/agent-canvas/compare/v1.6.0...v1.6.1 --- This PR was generated with Release Please. See documentation. --- Migrated from https://github.com/OpenHands/agent-canvas/releases/tag/v1.6.1 to seed Agent Canvas release history in OpenHands/OpenHands. This release migration was performed by an AI agent (OpenHands) on behalf of the user.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1</guid>
+            <pubDate>Tue, 28 Jul 2026 17:16:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10167]]></title>
+            <description><![CDATA[server: abstract llama_memory calls to common_memory (#26221) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10167</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10167</guid>
+            <pubDate>Tue, 28 Jul 2026 17:02:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10166]]></title>
+            <description><![CDATA[ggml : set output of view src (#25729) * llama-graph: set_outputs to t->view_src * change set_output to GGML_ASSERT about views not being outputs * sampler : avoid views in outputs * cont : fix dist sampler * cont : consistent logits handling * ggml : set output of view src * graph : simplify set_outputs() * cont : cleanup Co-authored-by: Gaurav Garg --------- Co-authored-by: Georgi Gerganov Co-authored-by: Gaurav Garg **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10166</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10166</guid>
+            <pubDate>Tue, 28 Jul 2026 16:15:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10165]]></title>
             <description><![CDATA[vulkan: add iq4_nl support back to FA (#24585) * vulkan: add iq4_nl support back to FA I was originally concerned about wasting shared memory on the LUT, but it's small and unlikely to matter in practice. Also support q1_0 for non-coopmat2. Fixes #23681 * remove q1_0 FA support **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -1739,25 +1760,11 @@
             <pubDate>Mon, 13 Jul 2026 19:32:11 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b9988]]></title>
-            <description><![CDATA[tests: Harmonize header use (#25616) * tests: Harmonize the use of private ggml includes * tests: In test-backend-ops, use quoted includes As with all other tests. This is to ensure that the build uses shipped headers over possibly system-installed ones. **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9988</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9988</guid>
-            <pubDate>Mon, 13 Jul 2026 19:10:17 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v1.17.19]]></title>
             <description><![CDATA[## Core ### Bugfixes - Supported OpenAI pro reasoning mode. - Disabled response storage by default for xAI Responses. (@geraint0923) - Added OAuth support for Luna Responses Lite. - Switched to another available org after logging out in the console. - Used Codex context limits for GPT-5.6 over OAuth. (@nabilfreeman) ## TUI ### Bugfixes - Forwarded CLI environment variables to the TUI worker. ## Desktop ### Bugfixes - Removed interface transition changes that were accidentally shipped to dev. - Fixed clipped labels and branch tooltips. - Stopped the review panel width from jumping when opening or closing it. - Focused the prompt input when starting a new session. - Prevented some new-session updates from blocking the UI. - Fixed timeline outlines getting clipped. - Aligned context token counts with usage totals. - Kept the file tree visible while opening files. ### Improvements - Redesigned attachment cards and file comment chips in the new interface. - Updated the review panel with persistent file browsing, better file tabs, and easier open-in-app actions. - Restyled the Edit Project modal to match the new interface. - Added middle-click to open sessions in a new tab. - Added a temporary setting to switch between the old and new interface. - Added per-prompt model selection in the composer. - Polished the new interface styling across the session view and terminal. **Thank you to 2 community contributors:** - @nabilfreeman: - fix(openai): use codex context limits for gpt-5.6 (#36248) - @geraint0923: - fix(xai): default store to false for Responses (#36629)]]></description>
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.19</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.19</guid>
             <pubDate>Mon, 13 Jul 2026 16:34:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9987]]></title>
-            <description><![CDATA[gguf : add tensor shape accessor (#24405) * gguf : add tensor shape accessors * gguf : return tensor shape as const int64_t * * gguf : remove n_dims accessor, keep only gguf_get_tensor_ne **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9987</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9987</guid>
-            <pubDate>Mon, 13 Jul 2026 15:40:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.145.0-alpha.7]]></title>
@@ -13286,13 +13293,6 @@
             <link>https://github.com/janhq/jan/releases/tag/v0.5.8</link>
             <guid isPermaLink="false">https://github.com/janhq/jan/releases/tag/v0.5.8</guid>
             <pubDate>Wed, 13 Nov 2024 09:59:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.13.1 - 2024-11-12]]></title>
-            <description><![CDATA[## What's Changed ### Added * Support displaying images/videos/pdfs in the workspace by @malhotra5 in https://github.com/All-Hands-AI/OpenHands/pull/4898 ### Changed * Better support for pushing changes to GitHub by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4568 * Restore visible logs for each action and observation when ran locally by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4729 ### Fixed * Fixed running with bedrock by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/4935 * Fixed runtime restarting when multiple tabs connected to the same session,or tab was closed by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/4900 ## New Contributors * @ross-rl made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4598 * @nafisreza made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4850 * @Mr-Imperium made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4878 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.13.0...0.13.1]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.13.1</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.13.1</guid>
-            <pubDate>Tue, 12 Nov 2024 20:11:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Aider v0.62.0]]></title>
