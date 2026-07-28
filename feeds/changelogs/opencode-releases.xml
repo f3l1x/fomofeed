@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Jul 2026 17:39:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 19:13:14 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Jul 2026 06:07:54 GMT</pubDate>
+        <pubDate>Tue, 28 Jul 2026 18:15:01 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.9]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Restored compatibility with legacy MCP SDK clients. ## Desktop ### Bugfixes - Fixed a Solid cleanup crash that could break navigation in the desktop app. - Fixed home session loading so the session list can update without suspending the whole page. ### Improvements - Removed the extra vertical borders from the V2 home projects view. - Added an opt-in V2 desktop sidecar backed by the bundled CLI service. - Added collapsible model provider sections in V2 settings. **Thank you to 1 community contributor:** - @roborew: - fix(desktop): patch @dnd-kit/solid to preserve core scroll plugins (#38119)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.9</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.9</guid>
+            <pubDate>Tue, 28 Jul 2026 18:15:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.8]]></title>
             <description><![CDATA[## Core ### Improvements - Improved compatibility with newer MCP servers and OAuth flows. ### Bugfixes - Reconnects MCP servers after expired SDK sessions, including concurrent requests. - Honors configured MCP OAuth callback ports in mcp debug. - Stops sending deprecated sampling defaults to newer Gemini models. ## Desktop ### Improvements - Added a shortcut to open the project selector in new sessions. ### Bugfixes - Tab keyboard navigation now follows the visible tab order. - Opening files now expands Windows folders with trailing separators. - Server status uses blue when an integration needs attention. - Provider connection state now refreshes immediately after changes. - Linux packages now install AppStream metadata. (@develop7) - Local desktop runs now use the channel database. - Prevents freezes when closing projects from the home view. - Prevents the right panel from freezing the session view while loading. **Thank you to 2 community contributors:** - @OpeOginni: - fix(core): correct MCP environment field in built-in skill (#39175) - @develop7: - fix(desktop): install AppStream metainfo in Linux packages (#36872)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.14</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.14</guid>
             <pubDate>Sat, 04 Apr 2026 18:32:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.13]]></title>
-            <description><![CDATA[- Bump opentui version]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.13</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.13</guid>
-            <pubDate>Wed, 01 Apr 2026 00:44:30 GMT</pubDate>
         </item>
     </channel>
 </rss>
