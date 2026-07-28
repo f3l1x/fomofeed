@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jul 2026 19:16:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 06:21:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 24 Jul 2026 19:03:48 GMT</pubDate>
+        <pubDate>Tue, 28 Jul 2026 02:10:46 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Desktop v0.0.6]]></title>
+            <description><![CDATA[- Queued messages now appear in a collapsible list above the composer with a count — expand it to edit, send-now, or delete individual queued turns. - New sidebar update indicator: once an update has been downloaded, an accent-colored icon stays in the sidebar showing the new version with a one-click restart, so the update is still reachable after you dismiss the toast (and restart failures are now surfaced instead of silently doing nothing). - No more appearance flash on launch — the app paints in your saved (or system) light/dark theme before the first frame. - The header and sidebar now show the full workspace name and git branch, and lay out correctly on narrow windows; a transient git lookup no longer wipes a valid branch name back to "no git". - Cleaner collapsed-sidebar settings layout: compact width, left-aligned navigation, stacked account details. - Clarified the auto-update setting — it's now "Keep CLI up to date" and explains that it governs the cline terminal command, not the app itself (the app updates separately). - Toggle switches now use a solid accent color when on, for clearer contrast. **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.5...desktop-v0.0.6]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.6</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.6</guid>
+            <pubDate>Tue, 28 Jul 2026 02:10:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Desktop v0.0.5]]></title>
+            <description><![CDATA[- Major performance overhaul: the app now feels snappy end-to-end. The animated background renders at a locked 60fps instead of ~10fps, typing in the composer no longer stutters (245 slow keystrokes → 3), streaming responses coalesce updates instead of re-rendering the whole chat per token, and app boot fetches the provider catalog once instead of three times. - The native folder picker and command execution no longer freeze the app while the sidecar writes session logs or discovers your editor. - Fixed the composer getting stuck on "Agent is working..." after queued turns finished. - Added a Cline API key path to onboarding, and you can now cancel a pending browser sign-in instead of being stuck waiting for it. - Fixed window dragging. - MCP server cards are now consistent across marketplace views, with a single uninstall action and setup guidance shown on installed servers. - Fixed agentic compaction silently falling back to basic compaction for OpenAI-Compatible providers, and manual /compact never actually reaching the model when auto-compaction was off. **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.4...desktop-v0.0.5]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.5</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.5</guid>
+            <pubDate>Mon, 27 Jul 2026 22:30:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v4.0.11]]></title>
             <description><![CDATA[### Added - Add Claude Opus 5 across the Anthropic, Claude Code, Bedrock, Vertex, Cline, and OpenRouter providers, including 1M context window variants. - Add Moonshot Kimi K3 support. - Include the host plugin version in telemetry events. ### Fixed - Correct pricing for the Claude Opus 1M context variants, which overstated costs for requests above 200k tokens. - Enable native tool calling for Kimi K3 models, fixing empty responses. **Full Changelog**: https://github.com/cline/cline/compare/v4.0.10...v4.0.11]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.66.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.66.0</guid>
             <pubDate>Thu, 19 Feb 2026 20:18:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.65.0]]></title>
-            <description><![CDATA[### Added - Add /skills slash command to CLI for viewing and managing installed skills ### Fixed - Fix aggressive context compaction caused by accidental clicks on the context window progress bar silently setting a very low auto-condense threshold - Fix infinite retry loop when write_to_file fails with missing content parameter. - Fixed default claude model **Full Changelog**: https://github.com/cline/cline/compare/v2.4.0-cli...v3.65.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.65.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.65.0</guid>
-            <pubDate>Wed, 18 Feb 2026 20:51:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.64.0]]></title>
-            <description><![CDATA[### Added - added zai GLM 5 Free promo ### Fixed - Restore reasoning trace visibility in chat and improve the thinking row UX so reasoning is visible, then collapsible after completion. **Full Changelog**: https://github.com/cline/cline/compare/v2.2.3-cli...v3.64.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.64.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.64.0</guid>
-            <pubDate>Tue, 17 Feb 2026 19:33:16 GMT</pubDate>
         </item>
     </channel>
 </rss>

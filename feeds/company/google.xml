@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jul 2026 19:18:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 06:22:41 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Jul 2026 01:32:29 GMT</pubDate>
+        <pubDate>Tue, 28 Jul 2026 01:28:20 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.54.0-nightly.20260728.gbef611950]]></title>
+            <description><![CDATA[## What's Changed * fix(a2a-server): normalize CRLF line endings to LF in getProposedContent by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28531 * fix(core): enforce explicit tag length and validation in file keychain by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28523 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260727.g3818efbbf...v0.54.0-nightly.20260728.gbef611950]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260728.gbef611950</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260728.gbef611950</guid>
+            <pubDate>Tue, 28 Jul 2026 01:28:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.54.0-nightly.20260727.g3818efbbf]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260726.g3818efbbf...v0.54.0-nightly.20260727.g3818efbbf]]></description>
@@ -771,13 +778,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.38.2</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.38.2</guid>
             <pubDate>Fri, 17 Apr 2026 18:38:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.40.0-nightly.20260415.g06e7621b2]]></title>
-            <description><![CDATA[## What's Changed * docs(core): update generalist agent documentation by @abhipatel12 in https://github.com/google-gemini/gemini-cli/pull/25325 * chore(mcp): check MCP error code over brittle string match by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/25381 * feat(plan): update plan mode prompt to allow showing plan content by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/25058 * test(core): improve sandbox integration test coverage and fix OS-specific failures by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/25307 * fix(core): use debug level for keychain fallback logging by @ehedlund in https://github.com/google-gemini/gemini-cli/pull/25398 * feat(test): add a performance test in asian language by @cynthialong0-0 in https://github.com/google-gemini/gemini-cli/pull/25392 * feat(cli): enable mouse clicking for cursor positioning in AskUser multi-line answers by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/24630 * fix(core): detect kmscon terminal as supporting true color by @claygeo in https://github.com/google-gemini/gemini-cli/pull/25282 * ci: add agent session drift check workflow by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/25389 * use macos-latest-large runner where applicable. by @scidomino in https://github.com/google-gemini/gemini-cli/pull/25413 * Changelog for v0.37.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/25336 * chore(release): bump version to 0.40.0-nightly.20260414.g5b1f7375a by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/25420 * Fix(core): retry additional OpenSSL 3.x SSL errors during streaming (#16075) by @rcleveng in https://github.com/google-gemini/gemini-cli/pull/25187 ## New Contributors * @claygeo made their first contribution in https://github.com/google-gemini/gemini-cli/pull/25282 * @rcleveng made their first contribution in https://github.com/google-gemini/gemini-cli/pull/25187 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.39.0-nightly.20260414.gdaf500623...v0.40.0-nightly.20260415.g06e7621b2]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.40.0-nightly.20260415.g06e7621b2</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.40.0-nightly.20260415.g06e7621b2</guid>
-            <pubDate>Wed, 15 Apr 2026 04:21:36 GMT</pubDate>
         </item>
     </channel>
 </rss>
