@@ -4,11 +4,46 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 29 Jul 2026 06:27:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Jul 2026 10:36:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Jul 2026 01:43:59 GMT</pubDate>
+        <pubDate>Wed, 29 Jul 2026 09:13:56 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.147.0-alpha.1]]></title>
+            <description><![CDATA[Release 0.147.0-alpha.1]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1</guid>
+            <pubDate>Wed, 29 Jul 2026 09:13:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10176]]></title>
+            <description><![CDATA[RPC: add tensor_memset (#25912) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10176</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10176</guid>
+            <pubDate>Wed, 29 Jul 2026 08:49:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10175]]></title>
+            <description><![CDATA[add rdna3.5, and 3 to mmq configs so they can be tuned independently. (#26199) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10175</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10175</guid>
+            <pubDate>Wed, 29 Jul 2026 08:05:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.19.1]]></title>
+            <description><![CDATA[## What's Changed * feat(sandbox): support native host paths in path grants by @seratch in https://github.com/openai/openai-agents-python/pull/4009 * fix: redact Realtime audio format diagnostics by @seratch in https://github.com/openai/openai-agents-python/pull/3992 * fix: redact Blaxel unmount paths in logging by @seratch in https://github.com/openai/openai-agents-python/pull/3993 * fix: retry pre-response WebSocket server errors by @dk3yyyy in https://github.com/openai/openai-agents-python/pull/3991 * fix(run): cancel the parallel input-guardrail task when the model turn fails by @gunjanjaswal in https://github.com/openai/openai-agents-python/pull/3982 * fix(run): allow empty streamed model input by @hsusul in https://github.com/openai/openai-agents-python/pull/3995 * fix(models): route falsey mapped providers by @hsusul in https://github.com/openai/openai-agents-python/pull/3996 * fix(memory): count valid SQLite session items for positive limits by @hsusul in https://github.com/openai/openai-agents-python/pull/4001 * fix(run): count streamed retries when terminal usage is missing by @hsusul in https://github.com/openai/openai-agents-python/pull/4002 * fix(run): cancel streamed models when input guardrails fail by @hsusul in https://github.com/openai/openai-agents-python/pull/4004 * fix: preserve zero Blobfuse attribute cache timeout by @hsusul in https://github.com/openai/openai-agents-python/pull/4006 * fix(tracing): enforce max_batch_size during force_flush and shutdown in BatchTraceProcessor by @hsusul in https://github.com/openai/openai-agents-python/pull/3985 * fix(agent-tools): honor falsey input builders by @hsusul in https://github.com/openai/openai-agents-python/pull/4007 * fix: cancel sibling enablement checks on failure by @hsusul in https://github.com/openai/openai-agents-python/pull/4005 ### Documentation & Other Changes * docs: updates for 0.19.0 by @seratch in https://github.com/openai/openai-agents-python/pull/3872 * docs: fix a URL in sandbox example code by @ShawnSiao in https://github.com/openai/openai-agents-python/pull/3987 * docs: repair tracing integration links by @ShawnSiao in https://github.com/openai/openai-agents-python/pull/3986 * docs: use decorators module throughout examples by @seratch in https://github.com/openai/openai-agents-python/pull/3946 * Release 0.19.1 by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/4010 ## New Contributors * @dk3yyyy made their first contribution in https://github.com/openai/openai-agents-python/pull/3991 * @ShawnSiao made their first contribution in https://github.com/openai/openai-agents-python/pull/3987 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.19.0...v0.19.1]]></description>
+            <link>https://github.com/openai/openai-agents-python/releases/tag/v0.19.1</link>
+            <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.19.1</guid>
+            <pubDate>Wed, 29 Jul 2026 07:44:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10174]]></title>
+            <description><![CDATA[model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) (#25980) * model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) Adds GLM-5.2 NextN/MTP as a --spec-type draft-mtp target: nextn tensor loading via the qwen35moe/step35-style presence probe, a graph_mtp builder (enorm/hnorm/eh_proj + dense MLA + sigmoid-gated MoE with shared expert + shared head with fallbacks, _s scale tensors passed for NVFP4), t_h_nextn extraction in the trunk graph, and MTP-context KV setup: the draft head runs dense MLA, so the MTP context uses a plain attention KV cache holding only the nextn layer(s) (same pattern as the hybrid Qwen3.5 MTP context) while the main context keeps the DSA cache, now filtered to trunk layers only. Co-Authored-By: Claude Fable 5 * convert : support --mtp/--no-mtp export for GlmMoeDsaForCausalLM (GLM-5.2) Opt GLM-5.2 into the supports_mtp_export contract (post-#25641 shape, mirroring HYV3Model/Step35Model): --no-mtp drops the appended NextN block (blk.78) and its nextn_predict_layers KV; --mtp keeps only the NextN block plus shared embeddings/norm/lm_head. Default (bundled) output is unchanged. Co-Authored-By: Claude Fable 5 --------- Co-authored-by: Claude Fable 5 **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10174</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10174</guid>
+            <pubDate>Wed, 29 Jul 2026 07:14:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Desktop v0.0.7]]></title>
             <description><![CDATA[- New system tray icon showing app status and how many agent sessions are currently running. - Session history is now paginated in ten-session pages, fetching older history only when you reach the end. - You can favorite sessions, and sessions are now ordered by most recent activity with consistent status dot colors across views. - Subagent and teammate runs from a session now show up in the app with their status and results. - Chat polish: tool-specific icons on tool disclosures, elapsed thinking time and restyled reasoning sections, aligned timestamps, and message actions that no longer shift the layout while scrolling stays anchored to the conversation viewport. - Free Cline models are now supported and labeled "(free)" in model pickers, with a clear message — including reset time — when you hit the free-tier limit. - Fixed the China/international endpoint toggles for Qwen, Moonshot, Z AI, and MiniMax being ignored, which silently routed regional users to the wrong host. - Fixed tool calls failing when a model emitted a line number as a string (e.g. insert_line: "3"), forcing the agent to waste a round trip retrying. - Refreshed the bundled provider and model catalog. **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.6...desktop-v0.0.7]]></description>
@@ -1689,32 +1724,11 @@
             <pubDate>Tue, 14 Jul 2026 15:58:55 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b10002]]></title>
-            <description><![CDATA[ggml : add a set of functions for checking contiguity of inner tensor dimensions (#25650) Co-authored-by: Stanisław Szymczyk **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10002</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10002</guid>
-            <pubDate>Tue, 14 Jul 2026 15:19:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10001]]></title>
-            <description><![CDATA[tests: export-graph-ops: exit gracefully when called w/o arguments (#25619) Fixes a segfault when test-export-graph-ops is called without any arguments. **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10001</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10001</guid>
-            <pubDate>Tue, 14 Jul 2026 12:46:17 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[cloud: 1.46.1]]></title>
             <description><![CDATA[## 1.46.1 (2026-07-14) ## What's Changed ### Bug Fixes * fix(app-server): preserve conversation created_at across lifecycle webhooks by @Sujit-1509 in https://github.com/OpenHands/OpenHands/pull/15243 * fix(mcp): preserve SaaS credentials with encrypted storage by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15257 ### Maintenance * ci: wait for the docker build before retagging images by @jlav in https://github.com/OpenHands/OpenHands/pull/15213 * chore: bump SDK packages to v1.35.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15240 * chore: bump SDK packages to v1.36.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/15256 ## New Contributors * @Sujit-1509 made their first contribution in https://github.com/OpenHands/OpenHands/pull/15243 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.46.0...cloud-1.46.1 --- This PR was generated with Release Please. See documentation.]]></description>
             <link>https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.46.1</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.46.1</guid>
             <pubDate>Tue, 14 Jul 2026 12:30:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10000]]></title>
-            <description><![CDATA[ggml: uniformize im2col dst_type for all conv ops (#23660) * ggml: uniformize im2col dst_type for all conv ops * Update ggml/src/ggml.c Co-authored-by: Georgi Gerganov * ggml : uniformize im2col casting logic across all conv ops * fix : allow im2col_f16 to accept any kernel type --------- Co-authored-by: Georgi Gerganov **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10000</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10000</guid>
-            <pubDate>Tue, 14 Jul 2026 12:06:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[b9999]]></title>
@@ -3408,13 +3422,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.78.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.78.0</guid>
             <pubDate>Fri, 19 Jun 2026 13:44:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.142.0-alpha.4]]></title>
-            <description><![CDATA[Release 0.142.0-alpha.4]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.4</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.4</guid>
-            <pubDate>Fri, 19 Jun 2026 09:39:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.17.6]]></title>
@@ -11815,13 +11822,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.34.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.34.0</guid>
             <pubDate>Wed, 23 Apr 2025 15:06:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.0.12]]></title>
-            <description><![CDATA[## Key changes: 1. Use any model via litellm: Agent(model="litellm/ / ") e.g. Agent(model="litellm/anthropic/claude-3-5-sonnet-20240620") 2. Enable more complex output types on Agents ## What's Changed * Run CI on all commits, not just ones on main by @rm-openai in https://github.com/openai/openai-agents-python/pull/521 * Extract chat completions conversion code into helper by @rm-openai in https://github.com/openai/openai-agents-python/pull/522 * Extract chat completions streaming helpers by @rm-openai in https://github.com/openai/openai-agents-python/pull/523 * Show repo name/data in docs by @rm-openai in https://github.com/openai/openai-agents-python/pull/525 * Litellm integration by @rm-openai in https://github.com/openai/openai-agents-python/pull/524 * Docs for LiteLLM integration by @rm-openai in https://github.com/openai/openai-agents-python/pull/532 * Docs: Switch to o3 model; exclude translated pages from search by @seratch in https://github.com/openai/openai-agents-python/pull/533 * Examples for image inputs by @rm-openai in https://github.com/openai/openai-agents-python/pull/553 * Enable non-strict output types by @rm-openai in https://github.com/openai/openai-agents-python/pull/539 * Start and finish streaming trace in impl metod by @rm-openai in https://github.com/openai/openai-agents-python/pull/540 * Fix visualize graph filename to without extension. by @yuya-haruna in https://github.com/openai/openai-agents-python/pull/554 * RFC: automatically use litellm if possible by @rm-openai in https://github.com/openai/openai-agents-python/pull/534 * Docs and tests for litellm by @rm-openai in https://github.com/openai/openai-agents-python/pull/561 * Pass through organization/project headers to tracing backend, fix speech_group enum by @stevenheidel in https://github.com/openai/openai-agents-python/pull/562 * v0.0.12 by @rm-openai in https://github.com/openai/openai-agents-python/pull/564 ## New Contributors * @yuya-haruna made their first contribution in https://github.com/openai/openai-agents-python/pull/554 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.0.11...v0.0.12]]></description>
-            <link>https://github.com/openai/openai-agents-python/releases/tag/v0.0.12</link>
-            <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.0.12</guid>
-            <pubDate>Tue, 22 Apr 2025 03:08:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.28.0-rc.3]]></title>
