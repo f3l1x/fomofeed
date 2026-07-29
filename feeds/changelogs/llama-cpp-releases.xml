@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Jul 2026 19:13:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Jul 2026 06:26:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Jul 2026 18:53:06 GMT</pubDate>
+        <pubDate>Tue, 28 Jul 2026 20:04:28 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10173]]></title>
+            <description><![CDATA[model: Add Laguna-S-2.1 LLM_TYPE (#26233) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10173</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10173</guid>
+            <pubDate>Tue, 28 Jul 2026 20:04:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10172]]></title>
+            <description><![CDATA[ggml-webgpu: Fix some binding alias issues to support all archs, fix recurrent-state-rollback test (#25931) * Add overlap glu variant to support all archs, fix recurrent-state-rollback test * format * Fix all arch overlapped ranges * format * diagnose bus error on apple ci * More testing * more testing * more targeted testing * Fix bug in alignment for > 4gb buffer offsets * Fix bug in view offsets * Try avoiding multi_buffers * not fixed yet, more logging :( * Handle edge case in set_rows * Try looking at view source * Skip deepseek32 for now and clean up trace infrastructure * simplify skipping * last cleanup * actually final cleanup * update handling of overlap * format * try skipping other failing model **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10172</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10172</guid>
+            <pubDate>Tue, 28 Jul 2026 19:27:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10171]]></title>
             <description><![CDATA[opencl: skip the Adreno KQ/KQV image kernels for multi-stream batches (#26189) The Adreno KQ/KQV image1d kernels (ggml_cl_mul_mat_kq_kqv_adreno) ignore dim 3 entirely: the sub-buffer covers only nb02*ne02 bytes and the kernel receives no ne03/ne13/nb03/nb13 arguments. With the unified KV cache, multi-sequence batches (e.g. llama-perplexity with its default -b 2048, n_seq=4, or a multi-slot llama-server) present KQ/KQV as 4D tensors with ne3 = n_stream, so every stream past the first reads the first stream's K/V and produces garbage. Flash attention masks the bug where it is enabled; devices where FA is declined (e.g. Adreno 740) hit it with default settings. Route ne03/ne13 > 1 to the general path, which handles dim 3, and honor view_offs when creating the sub-buffers (currently always 0 for tensors reaching this function, but the function would silently misread any future view). Llama-3.2-1B-Instruct Q4_0, wiki.test.raw, 8 chunks, -ngl 99: - Adreno 740, default: PPL 1817.64 -> 15.61 - Adreno 740, -fa 0: PPL 1941.64 -> 15.61 - Adreno 840, -fa 0: PPL 1943.90 -> 15.50 - single-stream (-b 512) results unchanged (15.6090) - test-backend-ops -o MUL_MAT on 740: identical before/after (909 OK, 12 pre-existing q6_K failures) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9994</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9994</guid>
             <pubDate>Tue, 14 Jul 2026 05:29:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9993]]></title>
-            <description><![CDATA[model: add Hy3 (hy_v3) support with MTP speculative decoding (#25395) * model: add Hy3 (hy_v3) architecture support Adds Tencent Hunyuan 3 (HF architecture HYV3ForCausalLM, GGUF arch hy_v3): a MoE decoder stack with per-head Q/K RMSNorm, a sigmoid router with expert selection bias, an always-active ungated shared expert, and leading dense block(s) (first_k_dense_replace). The base implementation is ported from charlie12345's fork (https://github.com/charlie12345/ROCmFPX, src/models/hyv3.cpp), adapted to current mainline APIs (hparams.n_layer(), build_qkv, build_moe_ffn with fused gate_up + scale tensors, output_s). Note: blk.N.exp_probs_b is stored without a .bias suffix for compatibility with existing hy_v3 GGUFs produced by that fork. Co-Authored-By: charlie12345 Co-authored-by: Piotr Wilkin Assisted-by: Claude Fable 5 **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9993</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9993</guid>
-            <pubDate>Mon, 13 Jul 2026 23:09:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b9992]]></title>
-            <description><![CDATA[CUDA: refactor MMQ kernel configuration (#24127) * CUDA: refactor MMQ kernel configuration * fix Blackwell config * remove legacy code **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b9992</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b9992</guid>
-            <pubDate>Mon, 13 Jul 2026 21:04:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
