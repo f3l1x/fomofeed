@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Jul 2026 15:46:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 17:18:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Stacked PRs in Devin]]></title>
+            <description><![CDATA[Devin now automatically breaks large tasks into stacks of small, independently reviewable PRs — and handles the rebasing, conflict resolution, and CI verification across the stack for you.]]></description>
+            <link>https://windsurf.com/blog/introducing-pr-stacks</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/introducing-pr-stacks</guid>
+            <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Kimi K3 is now available in Devin]]></title>
             <description><![CDATA[Kimi K3 is now live in Devin Desktop and Devin CLI. Optimized for long horizon agentic coding tasks, it approaches frontier-level performance on FrontierCode 1.1 — surpassing GPT-5.5 and behind only Opus, Fable, and GPT-5.6 Sol — with particular strength on debugging.]]></description>
@@ -49,13 +56,6 @@
             <description><![CDATA[A new architecture from Cognition for scaling full-codebase reasoning with distributed agents]]></description>
             <link>https://windsurf.com/blog/agentic-map-reduce</link>
             <guid isPermaLink="false">https://windsurf.com/blog/agentic-map-reduce</guid>
-            <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Evaluating Security Swarm]]></title>
-            <description><![CDATA[How we built an eval of real, recent vulnerabilities to measure Security Swarm — and why it finds more bugs at lower cost than any tool we tested.]]></description>
-            <link>https://windsurf.com/blog/security-swarm-eval</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/security-swarm-eval</guid>
             <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>

@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Jul 2026 15:47:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 17:19:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 30 Jul 2026 10:45:47 GMT</pubDate>
+        <pubDate>Thu, 30 Jul 2026 17:07:53 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.8.0]]></title>
+            <description><![CDATA[## 1.8.0 (2026-07-30) ## What's Changed ### Features * feat: enable/disable an installed MCP server from its card by @hieptl in https://github.com/OpenHands/OpenHands/pull/16171 ### Bug Fixes * fix: exclude disabled skills from agent context by @d3f4w2 in https://github.com/OpenHands/OpenHands/pull/16168 * fix: regenerate favicon PNG/ICO from favicon.svg for consistent design by @neubig in https://github.com/OpenHands/OpenHands/pull/16202 * fix: identify PostHog users with Cloud identity by @neubig in https://github.com/OpenHands/OpenHands/pull/16087 ### Maintenance * chore: bump agent-server 1.39.1, automation 1.5.0, typescript-client 1.36.1 by @hieptl in https://github.com/OpenHands/OpenHands/pull/16197 ## New Contributors * @d3f4w2 made their first contribution in https://github.com/OpenHands/OpenHands/pull/16168 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.7.2...v1.8.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.8.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.8.0</guid>
+            <pubDate>Thu, 30 Jul 2026 17:07:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.7.2]]></title>
             <description><![CDATA[## 1.7.2 (2026-07-30) ## What's Changed ### Bug Fixes * fix(e2e): disable browser tools during mock LLM builds by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16188 ### Maintenance * test: add Stryker mutation testing by @smolpaws in https://github.com/OpenHands/OpenHands/pull/16184 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.7.1...v1.7.2 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.15.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.15.0</guid>
             <pubDate>Wed, 04 Dec 2024 15:10:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.14.3 - 2024-11-26]]></title>
-            <description><![CDATA[## What's Changed ### Added * Added commit0 benchmark by @nanjiangwill in https://github.com/All-Hands-AI/OpenHands/pull/5153 * Added a new Push & Create PR button by @openhands-agent in https://github.com/All-Hands-AI/OpenHands/pull/5181 ### Changed * Set server process to run with highest system priority by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/5206 ### Fixed * Fixed an issue when using an LLM from OpenRouter by @openhands-agent in https://github.com/All-Hands-AI/OpenHands/pull/4822 ## New Contributors * @diwu-sf made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/5180 * @nanjiangwill made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/5153 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.14.2...0.14.3]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.14.3</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.14.3</guid>
-            <pubDate>Tue, 26 Nov 2024 20:22:38 GMT</pubDate>
         </item>
     </channel>
 </rss>
