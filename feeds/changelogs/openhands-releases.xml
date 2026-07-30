@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 29 Jul 2026 19:03:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 06:21:34 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Jul 2026 17:16:43 GMT</pubDate>
+        <pubDate>Thu, 30 Jul 2026 03:47:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.7.1]]></title>
+            <description><![CDATA[## 1.7.1 (2026-07-30) ## What's Changed ### Bug Fixes * fix(backend-registry): pick a healthy local backend as the fallback by @mvanhorn in https://github.com/OpenHands/OpenHands/pull/16173 * fix: update release repository metadata by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16186 ### Documentation * docs: refresh AGENTS.md guidance by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/16121 ## New Contributors * @mvanhorn made their first contribution in https://github.com/OpenHands/OpenHands/pull/16173 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.7.0...v1.7.1 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.7.1</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.7.1</guid>
+            <pubDate>Thu, 30 Jul 2026 03:47:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.7.0]]></title>
+            <description><![CDATA[## 1.7.0 (2026-07-29) ## What's Changed ### Features * feat: always show the LLM selector; move agent-profile switching to the tools menu by @hieptl in https://github.com/OpenHands/OpenHands/pull/16099 * feat: add persistent agent memory toggle by @hieptl in https://github.com/OpenHands/OpenHands/pull/16097 * feat: allow overwriting a secret value from the edit form by @hieptl in https://github.com/OpenHands/OpenHands/pull/16134 ### Bug Fixes * fix: mount telemetry lifecycle from provider by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16092 * fix: Disable analytics toggle for cloud backends by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16098 * fix(security): authenticate WebSockets outside URLs by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/16095 * fix: Track cookie-auth Cloud backend connections by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16113 * fix(e2e): shut the mock-LLM stack down gracefully so it stops leaking processes by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16152 * fix: enable Agent Canvas pageview telemetry by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16169 * fix(settings): de-duplicate LLM Profile attributes in the "All" tab by @smolpaws in https://github.com/OpenHands/OpenHands/pull/16154 * fix: Revive local telemetry consent banner by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16183 ### Maintenance * chore: remove the human-tested checkbox from the PR template by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/16122 * chore: bump software-agent-sdk to 1.38.0 and automation to 1.4.1 by @hieptl in https://github.com/OpenHands/OpenHands/pull/16129 * ci: disable tag publish triggers for release migration by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16133 * ci: remove stale release-please bootstrap sha by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16138 * ci: restore tag publish triggers by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16141 ### Other Changes * chore: replay Agent Canvas history by @neubig in https://github.com/OpenHands/OpenHands/pull/15413 ## New Contributors * @georgeglarson made their first contribution in https://github.com/OpenHands/OpenHands/pull/16152 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.6.1...v1.7.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.7.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.7.0</guid>
+            <pubDate>Wed, 29 Jul 2026 22:43:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.6.1]]></title>
             <description><![CDATA[## 1.6.1 (2026-07-24) ## What's Changed ### Bug Fixes * fix(release): recover npm publish after tombstoned 1.6.0 by @malhotra5 in https://github.com/OpenHands/agent-canvas/pull/1940 **Full Changelog**: https://github.com/OpenHands/agent-canvas/compare/v1.6.0...v1.6.1 --- This PR was generated with Release Please. See documentation. --- Migrated from https://github.com/OpenHands/agent-canvas/releases/tag/v1.6.1 to seed Agent Canvas release history in OpenHands/OpenHands. This release migration was performed by an AI agent (OpenHands) on behalf of the user.]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.14.2</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.14.2</guid>
             <pubDate>Thu, 21 Nov 2024 19:47:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.14.1 - 2024-11-19]]></title>
-            <description><![CDATA[## What's Changed ### Added * Add push to Github action button in chat interface by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/4993 ### Fixed * Multiple fixes and improvements to the OpenHands resolver by @ryx2 and @malhotra5 ## New Contributors * @ryx2 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/5063 * @young010101 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/5117 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.14.0...0.14.1]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.14.1</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.14.1</guid>
-            <pubDate>Tue, 19 Nov 2024 19:56:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.14.0 - 2024-11-15]]></title>
-            <description><![CDATA[## What's Changed ### Added * Add VSCode to OpenHands runtime and UI by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/4745 * Integrate OpenHands resolver into main repository by @neubig in https://github.com/All-Hands-AI/OpenHands/pull/4964 * Add a general utility that automatically converts function-calling LLM requests to non-function-calling LLM requests by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/4711 ### Fixed * Allow continuation after reaching max iterations by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/4949 * If the websocket disconnects, we try 5 times to automatically reconnect it by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/4954 * Truncate agent history when context window is exceeded by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4977 * Fix agent crash when terminal commands are sent and function calling is enabled by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/4955 ## New Contributors * @csmith49 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/4943 * @ketan1741 made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/5000 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.13.1...0.14.0]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.14.0</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.14.0</guid>
-            <pubDate>Fri, 15 Nov 2024 16:04:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
