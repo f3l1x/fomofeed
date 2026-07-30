@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Jul 2026 10:17:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 15:47:41 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Jul 2026 18:15:01 GMT</pubDate>
+        <pubDate>Thu, 30 Jul 2026 14:43:53 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.10]]></title>
+            <description><![CDATA[## Core - Discover available Modal models automatically. (@devennavani) ## Desktop ### Improvements - Prevent adding the same attachment more than once. - Always show the new session button. - Improve toast notifications with better stacking, dismissal, and mobile layout. - Refine tab hover, active, and overflow states. ### Bugfixes - Repair malformed saved tabs so broken tab state no longer persists across launches. (@OpeOginni) - Hide the model variant selector until model data finishes loading. - Preserve the custom agent picker for existing users. **Thank you to 3 community contributors:** - @lakshyaag-tavily: - docs(ecosystem): add opencode-tavily plugin (#38709) - @devennavani: - feat: discover Modal models (#39066) - @OpeOginni: - fix(app): repair malformed persisted tabs (#39645)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.10</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.10</guid>
+            <pubDate>Thu, 30 Jul 2026 14:43:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.9]]></title>
             <description><![CDATA[## Core ### Bugfixes - Restored compatibility with legacy MCP SDK clients. ## Desktop ### Bugfixes - Fixed a Solid cleanup crash that could break navigation in the desktop app. - Fixed home session loading so the session list can update without suspending the whole page. ### Improvements - Removed the extra vertical borders from the V2 home projects view. - Added an opt-in V2 desktop sidecar backed by the bundled CLI service. - Added collapsible model provider sections in V2 settings. **Thank you to 1 community contributor:** - @roborew: - fix(desktop): patch @dnd-kit/solid to preserve core scroll plugins (#38119)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.15</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.15</guid>
             <pubDate>Sat, 04 Apr 2026 20:54:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.14]]></title>
-            <description><![CDATA[## Core - Restored git-backed review modes, including uncommitted and branch diffs. - Fixed revert chains so restoring an earlier message also restores the right snapshot state. (@natewill) - Added macOS managed preferences for MDM-enforced config. (@lennyvaknine43) - Fixed sessions getting stuck after tool calls with OpenAI-compatible providers. (@valenvivaldi) - Kept compaction summaries in the conversation's language. (@aaron-he-zhu) - Added Venice AI as a provider. (@dpuyosa) - Respected model-specific limit.input overrides. (@ykswang) ## TUI - Kept the prompt cursor with dialogs instead of refocusing the background prompt. - Added a one-time confirmation before sharing a session for the first time. - Applied scroll settings consistently across TUI scroll views. - Kept text selections intact during global key handling. - Fell back to the first available agent if the last-used agent is unavailable. ## Desktop - Added file mentions in review comments. - Restored prompt focus after closing agent, model, and variant pickers. - Added keyboard navigation and shortcuts to the question dock. - Hid model controls in shell mode. - Stopped the todo dock from auto-scrolling while tasks update. ## SDK - Fixed JS SDK server and TUI launch and shutdown on Windows. - Fixed object-defined Tool.define() tools from wrapping execute multiple times. (@jpcarranza94) ## Extensions - Added support for theme-only plugin packages. **Thank you to 12 community contributors:** - @github-actions[bot]: - Update VOUCHED list - @JosXa: - fix: normalize filepath in FileTime to prevent Windows path mismatch (#20367) - @valenvivaldi: - fix(core): prevent agent loop from stopping after tool calls with OpenAI-compatible providers (#14973) - @aaron-he-zhu: - fix(session): compaction agent responds in same language as conversation (#20581) - @dpuyosa: - feat(opencode): Add Venice AI package as dependency (#20570) - @noamzbr: - feat: add optional messageID to ShellInput (#20657) - feat(acp): Add messageID and emit user_message_chunk on prompt/command (#18625) - @BYK: - fix(format): use biome format instead of check to prevent import removal (#20545) - @lennyvaknine43: - feat: add macOS managed preferences support for enterprise MDM deployments (#19178) - @ykswang: - fix(opencode): honor model limit.input overrides (#16306) - @jpcarranza94: - fix: prevent Tool.define() wrapper accumulation on object-defined tools (#16952) - @kflansburg: - feat: Send x-session-affinity and x-parent-session-id headers (#20744) - @natewill: - fix(core): fix restoring earlier messages in a reverted chain (#20780)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.14</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.14</guid>
-            <pubDate>Sat, 04 Apr 2026 18:32:40 GMT</pubDate>
         </item>
     </channel>
 </rss>
