@@ -4,11 +4,32 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Jul 2026 17:20:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 19:16:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 30 Jul 2026 17:07:53 GMT</pubDate>
+        <pubDate>Thu, 30 Jul 2026 18:58:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10197]]></title>
+            <description><![CDATA[Test support for alternative conv layout (#25617) * add bool cwhn = true to conv_2d test cases * add layout check at graph building time * extend layout checks for conv2d.cu kernel * in CPU back-end kernel needs to be stored contiguously to prevent test failures with cwhn=1 * trim white space * do op support check in vulkan backend * fix CI failure and vulkan run-time assert failure by introducing new graph build-time check in ggml_backend_vk_device_supports_op * add additional check in support_op function for Vulkan to fix run-time assert failure **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10197</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10197</guid>
+            <pubDate>Thu, 30 Jul 2026 18:58:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10196]]></title>
+            <description><![CDATA[llama-context : sync pending async copies before clearing embd_seq (#25676) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10196</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10196</guid>
+            <pubDate>Thu, 30 Jul 2026 18:29:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10195]]></title>
+            <description><![CDATA[tests : avoid building get-model.cpp many times (#26317) * tests : remove get-model.cpp * tests : fix quant type selection **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10195</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10195</guid>
+            <pubDate>Thu, 30 Jul 2026 17:21:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.8.0]]></title>
             <description><![CDATA[## 1.8.0 (2026-07-30) ## What's Changed ### Features * feat: enable/disable an installed MCP server from its card by @hieptl in https://github.com/OpenHands/OpenHands/pull/16171 ### Bug Fixes * fix: exclude disabled skills from agent context by @d3f4w2 in https://github.com/OpenHands/OpenHands/pull/16168 * fix: regenerate favicon PNG/ICO from favicon.svg for consistent design by @neubig in https://github.com/OpenHands/OpenHands/pull/16202 * fix: identify PostHog users with Cloud identity by @neubig in https://github.com/OpenHands/OpenHands/pull/16087 ### Maintenance * chore: bump agent-server 1.39.1, automation 1.5.0, typescript-client 1.36.1 by @hieptl in https://github.com/OpenHands/OpenHands/pull/16197 ## New Contributors * @d3f4w2 made their first contribution in https://github.com/OpenHands/OpenHands/pull/16168 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.7.2...v1.8.0 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -1773,32 +1794,11 @@
             <pubDate>Wed, 15 Jul 2026 12:21:48 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b10017]]></title>
-            <description><![CDATA[sycl: Increase minimum buffer size for USM system allocations (#25525) Raise the threshold for minimum buffer size from 1 GiB to 4 GiB, based on real-world experiments of overcommitting device memory with model weights larger than available VRAM, for example Qwen3.5-35B-A3B-Q8 running on a B70. Also add a debug message to better track USM system allocations. Signed-off-by: Francois Dugast **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10017</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10017</guid>
-            <pubDate>Wed, 15 Jul 2026 11:37:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10016]]></title>
-            <description><![CDATA[[SYCL] Flash Attention with XMX engine via oneDNN (#25222) * [SYCL] F16 (default) Flash Attention with XMX engine via oneDNN graph API; Qwen3.6-27b-Q8_0 prefill speed up x1.21 at p=512 and x4.26 at p=80k * [SYCL] Address review on FA oneDNN path. Result: llama-bench---pp512; 32% increase with fa1; llama-perplexity---0.11% difference; tested model: mradermacher/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf * PR-25222 revision v2: addressed audits * [SYCL] flash-attn oneDNN SDPA KV F16 rev 3.0: add BMG gate + multi-device sync. Narrow the scrope of this PR to Battlemage only (bmg; Xe2). Other archs (e.g., alchemist) fall back to existing FA kernel. When device_count >1, apply stream -> wait_and_throw(), validated working path for multi-gpu sync fix by @maxious. Co-authored-by: maxious <81432+maxious@users.noreply.github.com> * updated comment on bmg gate, noted the issue --------- Co-authored-by: scientist3 Co-authored-by: hmscider Co-authored-by: maxious <81432+maxious@users.noreply.github.com> **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10016</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10016</guid>
-            <pubDate>Wed, 15 Jul 2026 09:10:19 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[0.145.0-alpha.13]]></title>
             <description><![CDATA[Release 0.145.0-alpha.13]]></description>
             <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.13</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.13</guid>
             <pubDate>Wed, 15 Jul 2026 07:48:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10015]]></title>
-            <description><![CDATA[opencl: do not use clCreateBufferWithProperties when targeting CL 2.x (#25673) **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10015</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10015</guid>
-            <pubDate>Wed, 15 Jul 2026 03:24:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260715.gfa975395b]]></title>
