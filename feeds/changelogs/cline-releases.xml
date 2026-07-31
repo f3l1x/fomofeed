@@ -4,11 +4,46 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Jul 2026 19:14:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Jul 2026 06:38:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Jul 2026 01:43:59 GMT</pubDate>
+        <pubDate>Fri, 31 Jul 2026 05:23:49 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v4.1.2]]></title>
+            <description><![CDATA[### Added - Show which extension variant is active — "Legacy" or "Next" — next to the version in the settings About page, in both bundles of the combined rollout package. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.1...v4.1.2]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.1.2</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.2</guid>
+            <pubDate>Fri, 31 Jul 2026 05:23:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v4.1.1]]></title>
+            <description><![CDATA[### Changed - Remove vestigial MCP server-key machinery from McpHub — native MCP tool calls now route by server name instead of a random in-memory uid, so routing survives restarts and server list changes. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.0...v4.1.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.1.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.1</guid>
+            <pubDate>Fri, 31 Jul 2026 04:30:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v4.1.0]]></title>
+            <description><![CDATA[## What's in 4.1.0 4.1.0 converts the stable extension to a **combined A/B package**: one VSIX containing both the current (legacy) extension and the new SDK-based extension, plus a small loader that activates exactly one per window, controlled by a staged remote rollout. **For nearly everyone, nothing changes** — the loader activates the same extension you were running in 4.0.12. A small percentage of users (starting at 1%) are gradually opted into the new SDK-based extension, which will become the default for everyone as the rollout completes. ### Details - The rollout is staged and remotely controlled; assignments apply on window reload, never mid-session. - If the new extension fails to activate for any reason, the loader automatically falls back to the current extension in the same window — no user action needed. - Settings, credentials, and preferences are shared: nothing is migrated or lost when a machine switches between the two. - Tasks created on the new extension aren't visible while on the old one (they return if re-promoted). Legacy bundle: legacy-extension @ 3fdc186f1 (4.0.12 + free-model button wording). Next bundle: main @ 0746ea72bf6. Rollout machinery: apps/vscode-rollout (see its README for design + runbook).]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.1.0</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.0</guid>
+            <pubDate>Fri, 31 Jul 2026 04:00:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.48]]></title>
+            <description><![CDATA[- cline history now opens inside the existing TUI, with resume and delete actions, instead of rendering a second view in the same process - Connector threads (Slack, Discord, Telegram, Linear, Google Chat, WhatsApp) now recover when the session they were bound to is gone — the stale binding is dropped and the turn replays against a new session, instead of failing with "session not found" until threads.json is edited by hand - cline --help now reports the real default --config and --data-dir paths - The per-server timeout in cline_mcp_settings.json is now honored for initialize, tools/list, and tools/call, so slow MCP servers no longer fail against a hardcoded 5s limit (from SDK v0.0.67) - Reasoning controls are now routed from the models.dev catalog across providers, with clamped budgets and correct per-provider encoding (from SDK v0.0.67) - OpenRouter now defaults to anthropic/claude-sonnet-5 (from SDK v0.0.67) - Fixed the China and international endpoint toggles being ignored for Qwen, Moonshot, and Z AI (from SDK v0.0.67) - Legacy API keys are now migrated for every secret-backed provider (from SDK v0.0.67) - Legacy OpenAI Compatible model-info overrides now survive into the seeded models.json (from SDK v0.0.67) - Fixed auto-compaction state being rejected as stale, which added a redundant summarizer call on every turn past the compaction trigger (from SDK v0.0.67) - Fixed checkpoint restores across session resumes (from SDK v0.0.67) - Tool calls that pass line numbers as strings (insert_line, read_files bounds) are now accepted instead of erroring (from SDK v0.0.67) - A legacy single-file .clinerules no longer aborts the config scan (from SDK v0.0.67) - Plugins can now emit telemetry through ctx.telemetry (from SDK v0.0.67) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.47...cli-v3.0.48]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.48</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.48</guid>
+            <pubDate>Fri, 31 Jul 2026 01:22:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SDK v0.0.67]]></title>
+            <description><![CDATA[- Reasoning controls (effort, budget, on/off) are now driven by the models.dev catalog and normalized once before provider encoding, so requests match what each provider actually advertises; Anthropic's mandatory and impossible thinking modes are handled explicitly, and out-of-range budgets are clamped - OpenRouter now defaults to anthropic/claude-sonnet-5 - The per-server timeout in cline_mcp_settings.json is now honored by the SDK's MCP clients for initialize, tools/list, and tools/call instead of hardcoded 1.5s and 5s limits — it defaults to 60 seconds and is clamped to 1–3600 seconds - Fixed the China and international endpoint toggles being ignored for Qwen, Moonshot, and Z AI - Legacy API keys are now migrated for every secret-backed provider instead of a subset - Legacy OpenAI Compatible model-info overrides are now carried into the seeded models.json instead of being dropped - Removed the "Enable R1 messages format" option from the OpenAI Compatible provider - Fixed checkpoint restores across session resumes - Added session forking and user-run message APIs so a host can edit an earlier prompt: fork the session before a selected user run, trim checkpoint history, and restore the prior messages - Fixed auto-compaction state being rejected as stale on every save, which forced a full re-compaction — an extra summarizer call — on every turn past the trigger, and could leave a dead sidecar permanently blocking replacements after a resume - Added ClineCore.readLiveMessages for reading a resident session's in-memory transcript, so a plan/act rebuild during an in-flight turn no longer starts from an empty history - insert_line and the read_files line bounds now accept numbers emitted as JSON strings instead of failing the whole tool call - Plugins can now emit telemetry through ctx.telemetry, from both the subprocess sandbox and in-process execution - A legacy single-file .clinerules no longer aborts the config scan - Telemetry events now carry device_id - A malformed OTEL header entry no longer discards the valid ones **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.66...sdk/sdk/v0.0.67]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.67</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.67</guid>
+            <pubDate>Fri, 31 Jul 2026 01:16:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Desktop v0.0.7]]></title>
             <description><![CDATA[- New system tray icon showing app status and how many agent sessions are currently running. - Session history is now paginated in ten-session pages, fetching older history only when you reach the end. - You can favorite sessions, and sessions are now ordered by most recent activity with consistent status dot colors across views. - Subagent and teammate runs from a session now show up in the app with their status and results. - Chat polish: tool-specific icons on tool disclosures, elapsed thinking time and restyled reasoning sections, aligned timestamps, and message actions that no longer shift the layout while scrolling stays anchored to the conversation viewport. - Free Cline models are now supported and labeled "(free)" in model pickers, with a clear message — including reset time — when you hit the free-tier limit. - Fixed the China/international endpoint toggles for Qwen, Moonshot, Z AI, and MiniMax being ignored, which silently routed regional users to the wrong host. - Fixed tool calls failing when a model emitted a line number as a string (e.g. insert_line: "3"), forcing the agent to waste a round trip retrying. - Refreshed the bundled provider and model catalog. **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.6...desktop-v0.0.7]]></description>
@@ -673,41 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.74.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.74.0</guid>
             <pubDate>Thu, 19 Mar 2026 02:31:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.73.0]]></title>
-            <description><![CDATA[### Added - Added W&B Inference by CoreWeave as a new API provider with 17 models - Improved parallel tool calling support for OpenRouter and Cline providers ### Fixed - Claude Code Provider: handle rate limit events, empty content arrays, error results, and unknown content types without crashing - Tool handlers (read_file, list_files, list_code_definition_names, search_files) now return graceful errors instead of crashing **Full Changelog**: https://github.com/cline/cline/compare/v2.7.1-cli...v3.73.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.73.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.73.0</guid>
-            <pubDate>Mon, 16 Mar 2026 21:00:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.72.0]]></title>
-            <description><![CDATA[### Added - Added Anthropic Opus 4.6 fast mode variants ### Fixed - Resolved native tool placeholder interpolation in prompts - Gemini: capped Flash output tokens to 8192 across providers - Fixed Windows unit test path normalization - Fixed flaky hooks tests on Windows - Bedrock: handle thinking and redacted_thinking blocks correctly in message conversion and streaming - Prevent crash when list_files or list_code_definition_names receives a file path ### Changed - Updated Jupyter Notebook GIFs - Markdown image loading now requires user consent - Added .github/copilot-instructions.md for coding agents - Hooks: reintroduced feature toggle **Full Changelog**: https://github.com/cline/cline/compare/v2.6.1-cli...v3.72.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.72.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.72.0</guid>
-            <pubDate>Thu, 12 Mar 2026 00:53:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.71.0]]></title>
-            <description><![CDATA[### Added - Added GPT-5.4 models for ChatGPT subscription users - Hooks: Added a Notification hook for attention and completion boundaries ### Fixed - Handle streamable HTTP MCP reconnects more reliably after disconnects **Full Changelog**: https://github.com/cline/cline/compare/v2.6.0-cli...v3.71.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.71.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.71.0</guid>
-            <pubDate>Fri, 06 Mar 2026 18:32:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.70.0]]></title>
-            <description><![CDATA[### Added - New Cline API docs: Getting Started, Auth, Chat Completions, Models, Errors, and SDK Examples - Hook payloads now include model.provider and model.slug - Token/cost updates now happen immediately as usage chunks arrive, not after tool execution ### Fixed - Improve subagent context compaction logic - Subagent stream retry delay increased to reduce noise from transient failures - State serialization errors are now caught and logged instead of crashing - Removed incorrect max_tokens from OpenRouter requests ### Changed - Windows test cleanup now retries on locked files and applies per-test timeouts - Updated hooks docs **Full Changelog**: https://github.com/cline/cline/compare/v2.5.2-cli...v3.70.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.70.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.70.0</guid>
-            <pubDate>Wed, 04 Mar 2026 22:07:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.69.0]]></title>
-            <description><![CDATA[### Added - Add User-Agent header to requests sent to the Cline backend - Add default auto-tag workflow for publish release flow - Show Cline SDK docs on the Cline page ### Fixed - Retry nested git restore and prevent silent .git_disabled leftovers in checkpoints - Prevent Chinese filename escaping in diff view - Trigger auto-compaction on OpenRouter context overflow errors - Restore GPT-OSS native file editing on OpenAI-compatible models ### Changed - Update Cline SDK docs - Improve hooks support for Windows PowerShell **Full Changelog**: https://github.com/cline/cline/compare/v2.5.1-cli...v3.69.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.69.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.69.0</guid>
-            <pubDate>Tue, 03 Mar 2026 00:25:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
