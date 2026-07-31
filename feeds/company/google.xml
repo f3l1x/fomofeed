@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 31 Jul 2026 10:32:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Jul 2026 15:59:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 30 Jul 2026 01:27:21 GMT</pubDate>
+        <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Enable on-demand expertise with Agent Skills in Genkit Go]]></title>
+            <description><![CDATA[To prevent context window bloat and reduce token consumption, Genkit Go introduces Agent Skills based on a progressive disclosure architecture. Developers can package specialized instructions, scripts, and references into modular SKILL.md bundles where only the frontmatter metadata is initially exposed to the agent's system prompt. When a task matches the skill's description, Genkit's middleware dynamically loads the full instruction body and associated assets, ensuring the model accesses precise workflows exactly when needed.]]></description>
+            <link>https://developers.googleblog.com/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</guid>
+            <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.55.0-nightly.20260730.gdc859e8e4]]></title>
             <description><![CDATA[## What's Changed * Changelog for v0.54.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28567 * Changelog for v0.53.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28568 * chore/release: bump version to 0.55.0-nightly.20260729.g3499c84f7 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28573 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260729.g3499c84f7...v0.55.0-nightly.20260730.gdc859e8e4]]></description>
@@ -253,13 +260,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518</guid>
             <pubDate>Mon, 06 Jul 2026 01:31:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[We terminated a TPU mid-training and it recovered in seconds:  Introduction to elastic training with MaxText]]></title>
-            <description><![CDATA[Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX ecosystem utilizes elastic training via Pathways, which converts a hardware failure into a catchable Python exception so the running process can survive. When an unplanned failure occurs, the system automatically replaces only the broken worker, restores the last viable checkpoint from Cloud Storage, and resumes training in place—minimizing total downtime to under two minutes without ever restarting the main controller process.]]></description>
-            <link>https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</guid>
-            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.51.0-nightly.20260705.gf7af4e518]]></title>
