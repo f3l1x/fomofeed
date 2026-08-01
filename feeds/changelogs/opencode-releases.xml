@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 01 Aug 2026 09:52:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 14:54:29 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 30 Jul 2026 14:43:53 GMT</pubDate>
+        <pubDate>Sat, 01 Aug 2026 11:44:45 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.11]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Stopped MCP SSE connections from getting stuck in reconnect loops after server error responses. - Fixed provider model configs that use interleaved reasoning fields like reasoning_text or custom field names. ## Desktop ### Bugfixes - Open external links in the system browser instead of inside the app. - Fixed stale session tab state in the desktop title bar. (@OpeOginni) - Open the legacy directory picker at your home folder when no home path is loaded yet. - Prevent the file tree tab from clipping when resized smaller. (@OpeOginni) - Fixed debug gutter labels and values misaligning. **Thank you to 2 community contributors:** - @devennavani: - docs: add Modal provider setup (#39710) - @OpeOginni: - fix(app): prevent file tree tab clipping (#39770) - fix(app): prevent stale session tab reads (#39767) - fix(app): prevent stale prompt control reads (#39842)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.11</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.11</guid>
+            <pubDate>Sat, 01 Aug 2026 11:44:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.10]]></title>
             <description><![CDATA[## Core - Discover available Modal models automatically. (@devennavani) ## Desktop ### Improvements - Prevent adding the same attachment more than once. - Always show the new session button. - Improve toast notifications with better stacking, dismissal, and mobile layout. - Refine tab hover, active, and overflow states. ### Bugfixes - Repair malformed saved tabs so broken tab state no longer persists across launches. (@OpeOginni) - Hide the model variant selector until model data finishes loading. - Preserve the custom agent picker for existing users. **Thank you to 3 community contributors:** - @lakshyaag-tavily: - docs(ecosystem): add opencode-tavily plugin (#38709) - @devennavani: - feat: discover Modal models (#39066) - @OpeOginni: - fix(app): repair malformed persisted tabs (#39645)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.16</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.16</guid>
             <pubDate>Mon, 06 Apr 2026 03:45:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.15]]></title>
-            <description><![CDATA[## Core - Prevent npm installs from failing when Arborist hits the compiled binary's node-gyp path **Thank you to 1 community contributor:** - @Yuxin-Dong: - refactor: remove redundant Kimi skill section (#20393)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.15</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.15</guid>
-            <pubDate>Sat, 04 Apr 2026 20:54:43 GMT</pubDate>
         </item>
     </channel>
 </rss>

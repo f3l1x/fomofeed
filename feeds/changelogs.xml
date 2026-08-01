@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 01 Aug 2026 09:54:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 14:56:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 01 Aug 2026 06:50:00 GMT</pubDate>
+        <pubDate>Sat, 01 Aug 2026 12:46:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10218]]></title>
+            <description><![CDATA[mtmd: add minicpmv46 downsample (#25993) * add minicpmv46 downsample Signed-off-by: tc-mb * put downsample mode inside gguf. Signed-off-by: tc-mb * build mtmd_image_preprocessor_llava_uhd Signed-off-by: tc-mb * fix code Signed-off-by: tc-mb * add convert Signed-off-by: tc-mb * add 4x ignore vit merger Signed-off-by: tc-mb --------- Signed-off-by: tc-mb **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10218</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10218</guid>
+            <pubDate>Sat, 01 Aug 2026 12:46:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.11]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Stopped MCP SSE connections from getting stuck in reconnect loops after server error responses. - Fixed provider model configs that use interleaved reasoning fields like reasoning_text or custom field names. ## Desktop ### Bugfixes - Open external links in the system browser instead of inside the app. - Fixed stale session tab state in the desktop title bar. (@OpeOginni) - Open the legacy directory picker at your home folder when no home path is loaded yet. - Prevent the file tree tab from clipping when resized smaller. (@OpeOginni) - Fixed debug gutter labels and values misaligning. **Thank you to 2 community contributors:** - @devennavani: - docs: add Modal provider setup (#39710) - @OpeOginni: - fix(app): prevent file tree tab clipping (#39770) - fix(app): prevent stale session tab reads (#39767) - fix(app): prevent stale prompt control reads (#39842)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.11</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.11</guid>
+            <pubDate>Sat, 01 Aug 2026 11:44:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10217]]></title>
             <description><![CDATA[chat : enable tool call in thinking for DS4 (#26269) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -1750,13 +1764,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10050</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10050</guid>
             <pubDate>Thu, 16 Jul 2026 20:08:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10048]]></title>
-            <description><![CDATA[TP: fix Phi3, Bert, Plamo2/3, ChatGLM (#25536) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10048</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10048</guid>
-            <pubDate>Thu, 16 Jul 2026 19:22:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.145.0-alpha.18]]></title>
@@ -7131,13 +7138,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.16</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.16</guid>
             <pubDate>Mon, 06 Apr 2026 03:45:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.15]]></title>
-            <description><![CDATA[## Core - Prevent npm installs from failing when Arborist hits the compiled binary's node-gyp path **Thank you to 1 community contributor:** - @Yuxin-Dong: - refactor: remove redundant Kimi skill section (#20393)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.15</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.15</guid>
-            <pubDate>Sat, 04 Apr 2026 20:54:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.20.2]]></title>
