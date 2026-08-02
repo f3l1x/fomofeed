@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for LiteLLM Releases]]></description>
         <link>https://github.com/BerriAI/litellm/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 02 Aug 2026 14:56:45 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Aug 2026 16:52:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/litellm-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 01 Aug 2026 01:15:56 GMT</pubDate>
         <language><![CDATA[en]]></language>
