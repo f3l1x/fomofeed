@@ -4,28 +4,28 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Aug 2026 16:16:22 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Aug 2026 19:22:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Introducing Stacked PRs in Devin]]></title>
-            <description><![CDATA[Devin now automatically breaks large tasks into stacks of small, independently reviewable PRs — and handles the rebasing, conflict resolution, and CI verification across the stack for you.]]></description>
+            <description><![CDATA[Devin now breaks large tasks into stacks of small, independently reviewable PRs — handling rebasing, conflict resolution, and CI verification for you.]]></description>
             <link>https://windsurf.com/blog/introducing-pr-stacks</link>
             <guid isPermaLink="false">https://windsurf.com/blog/introducing-pr-stacks</guid>
             <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Kimi K3 is now available in Devin]]></title>
-            <description><![CDATA[Kimi K3 is now live in Devin Desktop and Devin CLI. Optimized for long horizon agentic coding tasks, it approaches frontier-level performance on FrontierCode 1.1 — surpassing GPT-5.5 and behind only Opus, Fable, and GPT-5.6 Sol — with particular strength on debugging.]]></description>
+            <description><![CDATA[Kimi K3 is now live in Devin Desktop and Devin CLI. Optimized for long horizon agentic coding, it approaches frontier-level FrontierCode 1.1 performance.]]></description>
             <link>https://windsurf.com/blog/kimi-k3</link>
             <guid isPermaLink="false">https://windsurf.com/blog/kimi-k3</guid>
             <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude Opus 5 is now available in Devin]]></title>
-            <description><![CDATA[Claude Opus 5 is now live in Devin Desktop and Devin CLI, and will be part of Devin Cloud’s mode mix. On FrontierCode 1.1, it approaches Fable-level performance at half the cost, with particular strength on difficult debugging and root-cause analysis tasks.]]></description>
+            <description><![CDATA[Claude Opus 5 is now live in Devin Desktop, Devin CLI, and Devin Cloud's mode mix, approaching Fable-level performance at half the cost.]]></description>
             <link>https://windsurf.com/blog/claude-opus-5</link>
             <guid isPermaLink="false">https://windsurf.com/blog/claude-opus-5</guid>
             <pubDate>Wed, 22 Jul 2026 22:00:00 GMT</pubDate>
@@ -67,21 +67,21 @@
         </item>
         <item>
             <title><![CDATA[Claude Sonnet 5 is now available in Devin]]></title>
-            <description><![CDATA[Claude Sonnet 5 is now live in Devin Desktop and Devin CLI. It pairs frontier-level coding performance with a more affordable price point, using roughly 30% less quota than Claude Sonnet 4.6 through August 31, 2026.]]></description>
+            <description><![CDATA[Claude Sonnet 5 is now live in Devin Desktop and Devin CLI, pairing frontier-level coding performance with a more affordable price point.]]></description>
             <link>https://windsurf.com/blog/claude-sonnet-5</link>
             <guid isPermaLink="false">https://windsurf.com/blog/claude-sonnet-5</guid>
             <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Kimi K2.7 and GLM 5.2 Now Available in Devin Desktop and CLI]]></title>
-            <description><![CDATA[Kimi K2.7 and GLM 5.2 are now available in Devin Desktop and CLI. Both models deliver strong FrontierCode Extended scores and won't consume quota for Pro, Max, and Teams plans until July 5.]]></description>
+            <description><![CDATA[Kimi K2.7 and GLM 5.2 are now available in Devin Desktop and CLI, with strong FrontierCode Extended scores and no quota use until July 5.]]></description>
             <link>https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</link>
             <guid isPermaLink="false">https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</guid>
             <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Security in Devin Review]]></title>
-            <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss, with full remediation from finding to fix.]]></description>
+            <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss.]]></description>
             <link>https://windsurf.com/blog/security-in-devin-review</link>
             <guid isPermaLink="false">https://windsurf.com/blog/security-in-devin-review</guid>
             <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
