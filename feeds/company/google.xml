@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 02 Aug 2026 19:01:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Aug 2026 06:55:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 02 Aug 2026 01:34:41 GMT</pubDate>
+        <pubDate>Mon, 03 Aug 2026 01:34:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.55.0-nightly.20260803.gf47d6c6f7]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260802.gf47d6c6f7...v0.55.0-nightly.20260803.gf47d6c6f7]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260803.gf47d6c6f7</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260803.gf47d6c6f7</guid>
+            <pubDate>Mon, 03 Aug 2026 01:34:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.55.0-nightly.20260802.gf47d6c6f7]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260801.gf47d6c6f7...v0.55.0-nightly.20260802.gf47d6c6f7]]></description>
@@ -771,13 +778,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-nightly.20260427.g42587de73</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-nightly.20260427.g42587de73</guid>
             <pubDate>Mon, 27 Apr 2026 16:44:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.40.0-preview.4]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 048bf6e to release/v0.40.0-preview.3-pr-25941 to patch version v0.40.0-preview.3 and create version 0.40.0-preview.4 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/25942 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.40.0-preview.3...v0.40.0-preview.4]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.40.0-preview.4</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.40.0-preview.4</guid>
-            <pubDate>Sat, 25 Apr 2026 00:34:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
