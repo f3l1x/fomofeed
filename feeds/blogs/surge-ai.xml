@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Aug 2026 11:15:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Aug 2026 16:16:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -323,6 +323,13 @@
             <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
             <pubDate>Tue, 30 Jun 2020 16:28:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[We Trained a Model on Office Work. It Got Better at Coding.]]></title>
+            <description><![CDATA[A model post-trained on non-coding office tasks gained 5.8 points on SWE-Bench Pro. Our analysis points to transferable Goal-Directed Execution.]]></description>
+            <link>https://www.surgehq.ai/blog/office-work-post-training-improves-coding</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/office-work-post-training-improves-coding</guid>
+            <pubDate>Tue, 28 Jul 2020 19:20:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
