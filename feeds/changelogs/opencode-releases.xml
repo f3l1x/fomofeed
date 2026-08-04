@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Aug 2026 19:23:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 06:21:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 01 Aug 2026 11:44:45 GMT</pubDate>
+        <pubDate>Tue, 04 Aug 2026 00:55:29 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.12]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Fixed Azure GPT-5.5+ completion requests failing when reasoning is enabled. (@frederiknsgo) ## Desktop ### Bugfixes - Reduced composer lag when drafts include large pasted images or attachments. - Let project search match any known recent project instead of only the first five. (@NumerousJLs) - Cleared stale assistant errors from the timeline once the same turn resumes streaming. - Skipped legacy config reads against v2 servers to avoid spurious config loading issues. (@resetsix) **Thank you to 4 community contributors:** - @resetsix: - fix(app): skip legacy config reads for v2 (#40211) - @NumerousJLs: - fix(app): search every known project in the open project dialog (#40202) - @MagnumGoYB: - docs: remove obsolete vouch system section (#40266) - @frederiknsgo: - fix: gpt-5.5+ in combination with azure fails with reasoningEffort (#40265)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.12</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.12</guid>
+            <pubDate>Tue, 04 Aug 2026 00:55:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.11]]></title>
             <description><![CDATA[## Core ### Bugfixes - Stopped MCP SSE connections from getting stuck in reconnect loops after server error responses. - Fixed provider model configs that use interleaved reasoning fields like reasoning_text or custom field names. ## Desktop ### Bugfixes - Open external links in the system browser instead of inside the app. - Fixed stale session tab state in the desktop title bar. (@OpeOginni) - Open the legacy directory picker at your home folder when no home path is loaded yet. - Prevent the file tree tab from clipping when resized smaller. (@OpeOginni) - Fixed debug gutter labels and values misaligning. **Thank you to 2 community contributors:** - @devennavani: - docs: add Modal provider setup (#39710) - @OpeOginni: - fix(app): prevent file tree tab clipping (#39770) - fix(app): prevent stale session tab reads (#39767) - fix(app): prevent stale prompt control reads (#39842)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.17</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.17</guid>
             <pubDate>Mon, 06 Apr 2026 07:39:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.3.16]]></title>
-            <description><![CDATA[## Core - Support Azure model options on both chat and responses paths (@meruiden) - Expose session model and mode config options through ACP (@georgeharker) - Add a separating blank line before read tool file contents for clearer output - Fix output token totals when reasoning tokens are reported separately ## TUI - Default Ctrl+Z to undo on Windows instead of terminal suspend - Let you disable TUI mouse capture in config or with OPENCODE_DISABLE_MOUSE (@blackheaven) - Hide org switching when there is only one org to choose from - Label Console-managed providers and let you switch orgs from the provider UI ## Extensions - Fix plugin installs from npm aliases and git URLs, including Windows cache path issues **Thank you to 3 community contributors:** - @blackheaven: - feat(tui): make the mouse disablable (#6824, #7926) (#13748) - @georgeharker: - fix(core): implement proper configOptions for acp (#21134) - @meruiden: - fix: pass both 'openai' and 'azure' providerOptions keys for @ai-sdk/azure (#20272)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.3.16</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.3.16</guid>
-            <pubDate>Mon, 06 Apr 2026 03:45:09 GMT</pubDate>
         </item>
     </channel>
 </rss>
