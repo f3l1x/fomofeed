@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Aug 2026 16:10:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 19:23:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer]]></title>
+            <link>https://www.anthropic.com/news/tino-cuellar</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/tino-cuellar</guid>
+            <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA]]></title>
             <description><![CDATA[Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.]]></description>
@@ -130,12 +136,6 @@
             <title><![CDATA[Introducing Claude for Teachers]]></title>
             <link>https://www.anthropic.com/news/claude-for-teachers</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-teachers</guid>
-            <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic commits $10 million to Canadian AI research]]></title>
-            <link>https://www.anthropic.com/news/canadian-ai-research</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/canadian-ai-research</guid>
             <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

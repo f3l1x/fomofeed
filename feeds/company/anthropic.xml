@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Aug 2026 16:10:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 19:23:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 04 Aug 2026 00:14:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.221</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.221</guid>
             <pubDate>Tue, 04 Aug 2026 00:14:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer]]></title>
+            <link>https://www.anthropic.com/news/tino-cuellar</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/tino-cuellar</guid>
+            <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Investigating three real-world incidents in our cybersecurity evaluations]]></title>
@@ -165,12 +171,6 @@
             <title><![CDATA[Introducing Claude for Teachers]]></title>
             <link>https://www.anthropic.com/news/claude-for-teachers</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-for-teachers</guid>
-            <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic commits $10 million to Canadian AI research]]></title>
-            <link>https://www.anthropic.com/news/canadian-ai-research</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/canadian-ai-research</guid>
             <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
