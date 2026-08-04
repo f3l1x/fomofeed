@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Aug 2026 10:32:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 16:10:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Mixture-of-Kittens: our open-source MoE megakernel for NVL72s]]></title>
+            <link>https://cursor.com/blog/mixture-of-kittens</link>
+            <guid isPermaLink="false">https://cursor.com/blog/mixture-of-kittens</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[A Safe Path to Open Weights]]></title>
             <link>https://thinkingmachines.ai/blog/a-safe-path-to-open-weights/</link>
@@ -261,13 +268,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/agent-autonomy-auto-review</guid>
             <category><![CDATA[research]]></category>
             <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Bugbot is now over 3x faster, 22% cheaper, and finds 10% more bugs]]></title>
-            <link>https://cursor.com/blog/bugbot-updates-june-2026</link>
-            <guid isPermaLink="false">https://cursor.com/blog/bugbot-updates-june-2026</guid>
-            <category><![CDATA[product]]></category>
-            <pubDate>Tue, 09 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Make the Architectural Case for Dagster]]></title>

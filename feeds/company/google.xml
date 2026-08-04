@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Aug 2026 10:32:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 16:10:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 03 Aug 2026 01:34:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -224,13 +224,6 @@
             <description><![CDATA[To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular "skill files" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.]]></description>
             <link>https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/</guid>
-            <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Evolving Spec-Driven Development: Conductor Now Supports Antigravity]]></title>
-            <description><![CDATA[Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.]]></description>
-            <link>https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/</guid>
             <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -771,6 +764,13 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-nightly.20260427.g42587de73</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-nightly.20260427.g42587de73</guid>
             <pubDate>Mon, 27 Apr 2026 16:44:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A unified API for AI model routing]]></title>
+            <description><![CDATA[Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications by mapping virtual model names to specific backend targets on a shared host. Once deployed, the Gateway acts as a serverless ingress layer that accepts standard OpenAI-compatible requests, automatically transcodes the payload to the native schema of the target model, and routes the traffic on the fly.]]></description>
+            <link>https://developers.googleblog.com/a-unified-api-for-ai-model-routing/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/a-unified-api-for-ai-model-routing/</guid>
+            <pubDate>Mon, 24 Aug 2020 11:03:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Scaling real-time AI agents with session-aware load balancing]]></title>
