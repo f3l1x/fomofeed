@@ -4,11 +4,67 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 05 Aug 2026 10:30:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 15:59:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 05 Aug 2026 10:16:19 GMT</pubDate>
+        <pubDate>Wed, 05 Aug 2026 15:55:06 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.146.1]]></title>
+            <description><![CDATA[## Bug Fixes - Apply safer automatic-review defaults for cyber-capable models and explain permission changes in the terminal interface. (#37057) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.146.0...rust-v0.146.1 - #37057 [0.146] Backport safer cyber-model auto-review defaults @anp-oai]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.146.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.1</guid>
+            <pubDate>Wed, 05 Aug 2026 15:55:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.10.0]]></title>
+            <description><![CDATA[## 1.10.0 (2026-08-05) ## What's Changed ### Features * feat: set Canvas default model to GLM 5.2 by @juanmichelini in https://github.com/OpenHands/OpenHands/pull/16146 * feat: activity log export by @ShashwatXD in https://github.com/OpenHands/OpenHands/pull/16234 * feat: ship the featured automations landing dashboard by @hieptl in https://github.com/OpenHands/OpenHands/pull/16266 * feat(skills): filter the skills page with a faceted rail by @sleeyax in https://github.com/OpenHands/OpenHands/pull/16124 * feat: add manifest-driven sub-pages to the automation interface by @hieptl in https://github.com/OpenHands/OpenHands/pull/16303 ### Bug Fixes * fix: derive automation timeout cap from deployment by @neubig in https://github.com/OpenHands/OpenHands/pull/16233 * fix(backends): pin backend identity on sidebar conversation links by @rishavnaskar in https://github.com/OpenHands/OpenHands/pull/16243 * fix: use IPv4 loopback for local proxy targets by @wangmeiwen in https://github.com/OpenHands/OpenHands/pull/16290 * fix: resolve npm audit vulnerabilities by @hieptl in https://github.com/OpenHands/OpenHands/pull/16264 * fix: preserve MCP credentials during Canvas mutations by @neubig in https://github.com/OpenHands/OpenHands/pull/16144 ### Maintenance * chore: ignore all of /.tmp/, not three of its subdirectories by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16272 * chore(deps-dev): bump eslint-import-resolver-typescript from 4.4.4 to 4.4.5 by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16256 * chore(deps): bump the react group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16250 * chore(deps): bump the tanstack group with 2 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16248 * chore(deps): bump the tailwind group across 1 directory with 4 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16247 * chore(deps-dev): bump @types/node from 25.6.0 to 26.1.2 in the types group across 1 directory by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16255 * chore(deps-dev): bump the testing group across 1 directory with 6 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16252 * ci(deps): bump the actions group with 3 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16246 * chore(deps): bump monaco-editor from 0.55.1 to 0.56.0 in the monaco group across 1 directory by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16254 * chore(deps): bump the i18next group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16249 * chore: bump @openhands/extensions to 0.16.0 by @hieptl in https://github.com/OpenHands/OpenHands/pull/16321 * ci: require frontend screenshot/video and checked human-tested box by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/16325 * chore: bump agent-server 1.40.1 and automation 1.6.0 by @hieptl in https://github.com/OpenHands/OpenHands/pull/16334 ## New Contributors * @ShashwatXD made their first contribution in https://github.com/OpenHands/OpenHands/pull/16234 * @rishavnaskar made their first contribution in https://github.com/OpenHands/OpenHands/pull/16243 * @wangmeiwen made their first contribution in https://github.com/OpenHands/OpenHands/pull/16290 * @sleeyax made their first contribution in https://github.com/OpenHands/OpenHands/pull/16124 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.9.0...v1.10.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.10.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.10.0</guid>
+            <pubDate>Wed, 05 Aug 2026 15:54:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10285]]></title>
+            <description><![CDATA[mtmd: support multi-row batching for deepseek-ocr (#26154) * mtmd: support multi-row batching for deepseek-ocr * mtmd: weave deepseek-ocr rows in one shot instead of per row (#26615) --------- Co-authored-by: Saba Fallah **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10285</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10285</guid>
+            <pubDate>Wed, 05 Aug 2026 15:20:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10284]]></title>
+            <description><![CDATA[fit: Fix memory allocation for MTP layers (#26605) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10284</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10284</guid>
+            <pubDate>Wed, 05 Aug 2026 14:37:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10282]]></title>
+            <description><![CDATA[server: Adding spec-decode counters to /metrics endpoint (#26389) * * server: add spec-decode counters to /metrics endpoint * server: fixed review comments and now aligned param names exactly with vLLM. **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10282</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10282</guid>
+            <pubDate>Wed, 05 Aug 2026 13:50:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10280]]></title>
+            <description><![CDATA[vendor : apply patches for subprocess.h (#26606) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10280</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10280</guid>
+            <pubDate>Wed, 05 Aug 2026 11:35:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.147.0-alpha.10]]></title>
+            <description><![CDATA[Release 0.147.0-alpha.10]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.10</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.10</guid>
+            <pubDate>Wed, 05 Aug 2026 10:53:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v4.1.4]]></title>
+            <description><![CDATA[### Added - Recognize Chutes as a provider. - Show skills alongside workflows in the slash command menu, and disambiguate commands that share a name instead of letting one shadow the other. ### Changed - Remove model-initiated plan-to-act switching. Switching out of plan mode is now driven by you, not by the model deciding mid-turn. - Hard-block file-editing shell commands in plan mode instead of relying on prompting alone. Read-only investigation still works, but file manipulation, in-place editors, redirection to files, mutating git subcommands, and package installs are refused. ### Fixed - Stop treating a turn that completes with a plan as a failed turn when a plan-blocked command was its only tool call. The turn no longer ends in the error state with a Retry footer, and toggling to Act correctly re-runs the presented plan instead of appearing to do nothing. - Show tool paths relative to the workspace in the chat view instead of absolute paths. - Reset pending attachments when starting a new task, so images from the previous task no longer carry over. - Surface a clear error when the selected provider has no API key configured, instead of a generic failure. - Refresh MCP tool and resource lists when a server sends a list_changed notification, instead of only showing a toast. - Show installed plugins under their real package names instead of all appearing as "index". - Correct the Linux keybinding label in the Plan/Act mode tooltip. - Recover from running out of context instead of failing with a raw provider error — the run compacts and retries once, and the cases that genuinely cannot be recovered explain why. - Retry empty model responses on every provider rather than only Ollama, fixing hard "Model returned empty response" failures on OpenRouter, Cline, and OpenAI-compatible endpoints. - Stop Claude 4.6+ and 5.x models being rejected with "thinking.type.enabled is not supported" when they resolve from the offline catalog or from a hand-typed model id. - Restore Bedrock prompt caching, which reported zero cache reads and writes because the provider sent a cache format Bedrock discards, and route Bedrock foundation models through geo inference profiles. - Send max_completion_tokens for reasoning models on OpenAI-compatible endpoints, and substitute image content for models without image support instead of failing the request. - Inherit the MiniMax default model from models.dev, and refresh the bundled catalog, which adds Infomaniak and SCX.ai. - Report the same provider failure once instead of twice in error telemetry, and rate-limit repeated failures from unattended retry loops. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.3...v4.1.4]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.1.4</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.4</guid>
+            <pubDate>Wed, 05 Aug 2026 10:29:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10278]]></title>
             <description><![CDATA[build : remove GGML_METAL_USE_BF16 from all build scripts (#26604) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -1262,13 +1318,6 @@
             <pubDate>Mon, 27 Jul 2026 22:30:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b10155]]></title>
-            <description><![CDATA[mtmd: support MiMo-V2.5 audio input (RVQ-based model) (#26190) * gguf converter for mimo audio * fix conv * cpp impl * nits * nits 2 **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10155</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10155</guid>
-            <pubDate>Mon, 27 Jul 2026 21:59:35 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v1.12.1]]></title>
             <description><![CDATA[- Added Claude Opus 5 support for Anthropic and Amazon Bedrock BYOK providers. (#61609) - Fixed an issue where hover documentation could have too many line breaks. (#61715)]]></description>
             <link>https://github.com/zed-industries/zed/releases/tag/v1.12.1</link>
@@ -1283,13 +1332,6 @@
             <pubDate>Mon, 27 Jul 2026 18:21:43 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b10154]]></title>
-            <description><![CDATA[common : add common_print_available_devices() (#26170) Signed-off-by: Adrien Gallouët **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10154</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10154</guid>
-            <pubDate>Mon, 27 Jul 2026 16:59:26 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[0.146.0-alpha.13]]></title>
             <description><![CDATA[Release 0.146.0-alpha.13]]></description>
             <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.13</link>
@@ -1297,25 +1339,11 @@
             <pubDate>Mon, 27 Jul 2026 16:03:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b10153]]></title>
-            <description><![CDATA[model: Add support for Nanbeige4.2 (#25994) * support nanbeige4.2 model * fix * fix flake8 Lint check * fix loop bound check and drop redundant head_dim --------- Co-authored-by: root **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10153</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10153</guid>
-            <pubDate>Mon, 27 Jul 2026 15:56:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.32.2.dev20260727]]></title>
             <description><![CDATA[These are the release notes for gptme version v0.32.2.dev20260727. ## Contributors Thanks to everyone who contributed to this release: @eeshsaxena, @erikbjare, @TimeToBuildBob ## Changelog Changes since v0.32.2.dev20260720: ## 📦 gptme ### ✨ Features (29) - feat(llm): add native Kimi K3 support (#3385) (8b1a993a9) - feat(logmanager): optional S3 replication for session event logs (Phase 2) (#3382) (97bc1dc22) - feat(sandbox): add Wasmtime WASI Python sandbox backend (#3381) (3697f4526) - feat(sandbox): add Docker sandbox for Python tool (GPTME_SANDBOX=docker) (#3377) (38f893b03) - feat(sandbox): add sandboxed execution mode for shell tool (#3367) (89d4ecb9a) - feat(config): add layered lifecycle script hooks (#3366) (1531fd15d) - feat(tools): add completion verification hook (#3358) (12001f153) - feat(tui): collapsible rendering for XML and markdown tool-call formats (#3353) (78c191958) - feat(tui): prompt before fetching URLs pasted into TUI (#3351) (609d55a76) - feat(tui): prefix-based history search + show Ctrl+J in input hint (#3341) (0faa850fc) - feat(tui): render thinking blocks as collapsibles, show Thinking… during generation (#3336) (58851384b) - feat(tui): tab-completion candidate overlay (#3311) (#3316) (48143206c) - feat(tui): tool-execution placeholder in chat + fix gray message background (#3321) (fe71f1294) - feat(tui): persist input history to shared prompt-toolkit history file (#3314) (1787ff47e) - feat(tui): add Alt+Left/Right word navigation to ChatInput (#3313) (b5c9edb11) - feat(tui): add input history, fix focus and visual polish (#3312) (bb6afedd4) - feat(tui): show 'Generating…' placeholder before first token arrives (#3310) (762fd3a67) - feat(webui): truly mix external sessions inline by recency (#3217) (#3307) (b9f4482e6) - feat(webui): open external sessions inline in native chat layout (#3306) (42982c631) - feat(tui): add experimental jelly error feedback (#3303) (efd9942f4) - feat(auth): add OpenRouter OAuth and gptme.ai device-connect to first-run setup (#3304) (6ad8c372a) - feat(webui): steer_inject for external sessions (Phase 2 of #3217) (#3287) (5591dd89b) - feat(cli): add full-noexamples system prompt type to reduce token usage (#3296) (f207bbf4d) - feat(cli): offer subscription auth on first run (#3295) (8d55746e1) - feat(hooks): hash-link manifest records with tamper-detection verification (Phase 2) (#3297) (50ceda783) - feat(models): add pricing_type field for subscription-backed providers (#3292) (87944b080) - feat(providers): add grok-subscription provider for SuperGrok subscribers (#3289) (e0cd34093) - feat(subagent): mid-turn steer injection via STEP_PRE checkpoint (#3290) (a46b5600b) - feat(hooks): add --manifest-dir for tool-call attribution at JSON-record granularity (#3291) (b711a662a) ### 🐛 Fixes (23) Click to expand - fix(sandbox): drop all Linux capabilities in Docker Python sandbox (#3380) (a534d8d20) - fix(logmanager): enforce call_id atomicity in limit_log for Responses API (#3359) (6b91235d3) - fix(tools): don't stamp call_id on hook messages (fixes Responses API 400) (#3355) (8c8f4afae) - fix(tui): update tool format on /model switch, pretty-render tool-format calls (#3347) (38a311d14) - fix(subscription): close streaming response on all exit paths to prevent SIGSEGV (#3352) (efd812233) - fix(tui): prevent crash when pasting GitHub URL (#3348) (0a310054c) - fix(gh): keep the ref intact when turning a blob URL into a raw URL (#3342) (1e0ce256f) - fix: improve tui styling (#3340) (65edd236e) - fix(tui): use terminal-native background for active output (#3334) (26e85570d) - fix(webui): persistent disconnected banner in conversation view (#3327) (41591361d) - fix(webui): strip thinking blocks from TTS output (#3332) (1d31b9821) - fix(test): kill TestMaxTimeWatchdog xdist flake — prevent untracked threads (#3331) (304631e4a) - fix(webui): omit default dot-workspace so server applies its @log default (#3329) (8feb442f2) - fix(server): validate Host header to block DNS-rebinding on unauthenticated local servers (#3324) (34b0a33f0) - fix(server): allow explicit workspace override when creating conversations (#3319) (711fb826d) - fix(server,webui): external sessions dedup, stable detail IDs, admin nav label (#3325) (8fa8315b2) - fix(test): use scrollback capture for inline-mode positional assertion (#3305) (b6db634ba) - fix(test): wait for input prompt before asserting scrollback order in inline test (#3301) (b86d50a8d) - fix(acp): use max_turn_requests stop_reason when GPTME_MAX_STEPS reached (#3302) (2dec6bae4) - fix(webui): expose server URL validation inline (#3299) (063b5fec0) - fix(acp): complete tool-driven prompt turns (#3300) (a3b121260) - fix(logmanager): preserve tool call/result atomicity in prune_ephemeral_messages (#3294) (caabde264) - fix(webui): tolerate legacy provider health responses (#3298) (3fd84ba52) ### 🔨 Misc (20) Click to expand - chore: bump version to 0.32.2.dev20260727 (feeabc14e) - revert(logmanager): remove speculative S3 event-log replication (#3384) (1362061c2) - test(webui): guard streaming performance fixes (#3362) (#3375) (4b0a88ff1) - perf(webui): skip buildStepRoles recompute on every streaming token (#3370) (bba854aad) - perf(webui): use Record instead of Map for stepRoles$ to enable per-row reactivity (#3371) (530d6ac09) - perf(webui): remove debug console.log spam from useConversation (#3369) (c00fce620) - perf(webui): fix O(n²) DOM writes during streaming code blocks (#3368) (93c77e29b) - docs: add contributor-facing PR lifecycle guide (#3365) (de9e1beaf) - perf(webui): skip hljs.highlightAuto for gptme tool-output tags (#3364) (57b2ce0e2) - perf(webui): fix O(n²) syntax highlighting and scroll thrash during generation (#3363) (442882760) - docs(providers): add LM Studio section and tool-use verification tip (#3357) (b66e24c00) - test(acp): add end-to-end smoke test for ACP agent (#3356) (6b9f7db70) - docs(providers): add provider integration guide + test scaffold (#3354) (fdd0631b0) - test(tui): guard against italic text-style regression (#3340) (#3344) (e6952436f) - test(tui): activate gray-background regression guards now that #3334 is merged (#3339) (714035fbb) - test(tui): add SVG visual regression tests for TUI rendering (#3338) (f4332b337) - docs(server): add Security section — threat model, auth model, and workspace PATCH semantics (#3333) (a314438ad) - test(server): regression test for generation_complete ordering (refs #3315) (#3323) (20cb45f58) - test(webui): add ExternalSessionDetail unit tests (steer_inject path) (#3308) (a5b65b12a) - chore: bump version to 0.32.2.dev20260720 (4746ae8c9) *(excluded 8 less relevant commits)* **Full Changelog**: https://github.com/gptme/gptme/compare/v0.32.2.dev20260720...v0.32.2.dev20260727]]></description>
             <link>https://github.com/gptme/gptme/releases/tag/v0.32.2.dev20260727</link>
             <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.32.2.dev20260727</guid>
             <pubDate>Mon, 27 Jul 2026 14:32:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10152]]></title>
-            <description><![CDATA[fit : count nextn (MTP) blocks in n_gpu_layers so front layers stay on GPU (#26177) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10152</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10152</guid>
-            <pubDate>Mon, 27 Jul 2026 14:13:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.11.0]]></title>
@@ -3667,20 +3695,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.6</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.6</guid>
             <pubDate>Tue, 23 Jun 2026 13:06:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.143.0-alpha.5]]></title>
-            <description><![CDATA[Release 0.143.0-alpha.5]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.5</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.5</guid>
-            <pubDate>Tue, 23 Jun 2026 08:23:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.143.0-alpha.4]]></title>
-            <description><![CDATA[Release 0.143.0-alpha.4]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.4</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.4</guid>
-            <pubDate>Tue, 23 Jun 2026 04:03:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.186]]></title>
@@ -6198,13 +6212,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.65.2</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.65.2</guid>
             <pubDate>Fri, 01 May 2026 19:30:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.82.0]]></title>
-            <description><![CDATA[### Added - Restore VS Code foreground terminal support and settings. - Add latest OpenAI, SAP AI Core, and Z AI models. ### Fixed - Fix hook template JSON escaping. - Improve ripgrep file search error handling. ### Changed - Remove hardcoded model lists from docs. **Full Changelog**: https://github.com/cline/cline/compare/v2.17.0-cli...v3.82.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.82.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.82.0</guid>
-            <pubDate>Fri, 01 May 2026 16:53:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[1.7.0 - 2026-05-01]]></title>
@@ -13111,13 +13118,6 @@
             <link>https://github.com/open-webui/open-webui/releases/tag/v0.4.8</link>
             <guid isPermaLink="false">https://github.com/open-webui/open-webui/releases/tag/v0.4.8</guid>
             <pubDate>Sat, 07 Dec 2024 08:43:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.15.1 - 2024-12-06]]></title>
-            <description><![CDATA[## What's Changed ### Added * A message is shown every time the agent runs a command by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/5190 * Add support for multiline user messages, and default user message when running headless by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/5400 ### Changed * Only send the last agent state changed event on init by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/5411 * Updated initial Sign in with Github modal by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/5416 ### Fixed * Prioritize version from pyproject.toml over importlib by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/5412 * Fix for some agent messages not appearing by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/5421 * Fix duplicate events on re-initialize by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/5424 ## New Contributors * @STF-Zero made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/5379 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.15.0...0.15.1]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.15.1</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.15.1</guid>
-            <pubDate>Fri, 06 Dec 2024 19:06:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Aider v0.67.0]]></title>
