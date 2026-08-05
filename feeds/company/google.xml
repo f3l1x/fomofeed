@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 05 Aug 2026 17:28:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 19:21:34 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 03 Aug 2026 01:34:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -217,13 +217,6 @@
             <description><![CDATA[Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anchor their AI agents in verifiable, real-time web results, significantly improving factual accuracy for complex enterprise workflows. Additionally, the partnership offers expanded architectural flexibility, allowing users to programmatically extract, permanently cache, and process web data alongside other large language models.]]></description>
             <link>https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</guid>
-            <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building scalable AI agents with modular prompt transpilation]]></title>
-            <description><![CDATA[To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular "skill files" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.]]></description>
-            <link>https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/</guid>
             <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -764,6 +757,13 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-nightly.20260427.g42587de73</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-nightly.20260427.g42587de73</guid>
             <pubDate>Mon, 27 Apr 2026 16:44:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Scaling AI Agent Infrastructure with the MCP Stateless updates]]></title>
+            <description><![CDATA[The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspection, caching controls, and Multi Round-Trip Requests (MRTR) to handle interactive and long-running tasks without blocking connections. Developers can immediately begin migrating their agentic applications to this highly scalable infrastructure using the newly available beta SDKs for Python, TypeScript, Go, and C#.]]></description>
+            <link>https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/</guid>
+            <pubDate>Mon, 09 Nov 2020 03:28:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A unified API for AI model routing]]></title>

@@ -4,7 +4,7 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 05 Aug 2026 17:28:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 19:21:34 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 04 Aug 2026 18:49:20 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -12,8 +12,8 @@
         <item>
             <title><![CDATA[v0.32.6]]></title>
             <description><![CDATA[## What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usage. - Truncated OpenAI responses now report finish_reason: "length" instead of "tool_calls". - ollama run kimi-k3 now offers kimi-k3:cloud for cloud-only models that publish no default tag, instead of failing. - TUI fixes: pipe-delimited prose no longer renders as a table, Enter accepts the highlighted @ file completion, and /prompt scrolling is no longer laggy. - Experimental image generation has been temporarily removed. Continue using 0.32.5 for image generation support - Updated the MLX and llama.cpp engines. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.5...v0.32.6-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0</guid>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.6</guid>
             <pubDate>Tue, 04 Aug 2026 18:49:20 GMT</pubDate>
         </item>
         <item>
