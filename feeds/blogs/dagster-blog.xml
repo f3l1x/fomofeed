@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Dagster Blog]]></description>
         <link>https://dagster.io/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Aug 2026 10:32:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2026 23:52:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/dagster-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Orchestration is More than Scheduling: Declarative Automation in Dagster]]></title>
+            <description><![CDATA[Define the outcome, not the orchestration. Declarative Automation lets you express your desired asset state while Dagster continuously handles the work needed to achieve it.]]></description>
+            <link>https://dagster.io/blog/orchestration-is-more-than-scheduling-declarative-automation-in-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/orchestration-is-more-than-scheduling-declarative-automation-in-dagster</guid>
+            <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Community Showcase Part 3]]></title>
             <description><![CDATA[Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications.]]></description>
@@ -24,13 +31,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</guid>
             <category><![CDATA[Engineering]]></category>
             <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Prefect is Acquiring Dagster]]></title>
-            <description><![CDATA[A letter from Nick Schrock, founder and creator of Dagster]]></description>
-            <link>https://dagster.io/blog/prefect-is-acquiring-dagster</link>
-            <guid isPermaLink="false">https://dagster.io/blog/prefect-is-acquiring-dagster</guid>
-            <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Community Showcase Part 2]]></title>

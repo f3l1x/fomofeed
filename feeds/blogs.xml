@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Aug 2026 10:34:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2026 23:54:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How Cursor Router chooses the right model for the task]]></title>
+            <link>https://cursor.com/blog/how-cursor-router-works</link>
+            <guid isPermaLink="false">https://cursor.com/blog/how-cursor-router-works</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Orchestration is More than Scheduling: Declarative Automation in Dagster]]></title>
+            <description><![CDATA[Define the outcome, not the orchestration. Declarative Automation lets you express your desired asset state while Dagster continuously handles the work needed to achieve it.]]></description>
+            <link>https://dagster.io/blog/orchestration-is-more-than-scheduling-declarative-automation-in-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/orchestration-is-more-than-scheduling-declarative-automation-in-dagster</guid>
+            <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Mixture-of-Kittens: our open-source MoE megakernel for NVL72s]]></title>
             <link>https://cursor.com/blog/mixture-of-kittens</link>
@@ -107,13 +121,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/grok-4-5-model-card</guid>
             <category><![CDATA[research]]></category>
             <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Prefect is Acquiring Dagster]]></title>
-            <description><![CDATA[A letter from Nick Schrock, founder and creator of Dagster]]></description>
-            <link>https://dagster.io/blog/prefect-is-acquiring-dagster</link>
-            <guid isPermaLink="false">https://dagster.io/blog/prefect-is-acquiring-dagster</guid>
-            <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Do Automated Evals Work?]]></title>
@@ -266,13 +273,6 @@
             <description><![CDATA[Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.]]></description>
             <link>https://ollama.com/blog/mlx-performance</link>
             <guid isPermaLink="false">https://ollama.com/blog/mlx-performance</guid>
-            <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Governing agent autonomy with Auto-review]]></title>
-            <link>https://cursor.com/blog/agent-autonomy-auto-review</link>
-            <guid isPermaLink="false">https://cursor.com/blog/agent-autonomy-auto-review</guid>
-            <category><![CDATA[research]]></category>
             <pubDate>Wed, 10 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

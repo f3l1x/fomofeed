@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Aug 2026 10:32:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2026 23:52:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -52,11 +52,11 @@
             <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Expanding Choice in Gemini Enterprise Agent Platform: Introducing Grounding with Parallel Web Search]]></title>
-            <description><![CDATA[Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anchor their AI agents in verifiable, real-time web results, significantly improving factual accuracy for complex enterprise workflows. Additionally, the partnership offers expanded architectural flexibility, allowing users to programmatically extract, permanently cache, and process web data alongside other large language models.]]></description>
-            <link>https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</guid>
-            <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
+            <title><![CDATA[Agent Plugins package your skills, tools, and more]]></title>
+            <description><![CDATA[Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest (plugin.json) and utilizing a fixed directory layout, it eliminates the need for developers to maintain separate wrappers or configurations to support different AI coding agents and IDEs. Google has officially joined as a Core Maintainer and already rolled out support in the Agents CLI and Data Agent Kit, allowing developers to start building and distributing interoperable plugins today.]]></description>
+            <link>https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/</guid>
+            <pubDate>Tue, 28 Apr 2020 19:18:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Scaling AI Agent Infrastructure with the MCP Stateless updates]]></title>
