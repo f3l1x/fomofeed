@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 05 Aug 2026 19:19:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2026 06:24:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 04 Aug 2026 12:12:32 GMT</pubDate>
+        <pubDate>Wed, 05 Aug 2026 20:58:55 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.14]]></title>
+            <description><![CDATA[## Core ### Improvements - Simplified xAI login to a single device-code flow that works better in headless and remote environments. ### Bugfixes - Preserved structured mid-stream provider errors so compatible providers can retry failed responses. - Retried more transient provider and network errors instead of failing immediately. - Counted cache writes in ACP usage totals. - Logged remote workspace 5xx response bodies in the host logs to make proxy failures easier to debug. (@jamesmurdza) - Stopped sending the host directory path to remote workspaces so prompts resolve from the remote project root. (@jamesmurdza) - Waited for queued ACP session updates before ending a turn. **Thank you to 1 community contributor:** - @jamesmurdza: - fix(server): don't forward host directory to remote workspace (#40136) - fix(server): log upstream 5xx bodies from proxied workspace requests (#40135)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.14</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.14</guid>
+            <pubDate>Wed, 05 Aug 2026 20:58:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.13]]></title>
             <description><![CDATA[## TUI ### Bugfixes - GitHub pull request reviews now include the pull request number and URL in context. ## Desktop ### Bugfixes - Fixed several right-to-left layout issues across tabs, drawers, resizing, and titlebar interactions. - Fixed shared right-to-left UI behavior such as directional icons and drawer placement. - Sessions without titles now fall back to generated names instead of appearing blank. - Moved markdown parsing off the main thread to keep the app more responsive while rendering messages. ### Improvements - Localized more desktop UI copy, including native menus, update dialogs, and help content. - Added early right-to-left layout support across the app and session views. - Added locale-aware plural rules so translated counts and summaries read correctly. - Expanded translation coverage and added more supported desktop languages. **Thank you to 1 community contributor:** - @amypoolside: - docs: add Poolside provider setup (#39187)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.1</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.1</guid>
             <pubDate>Thu, 09 Apr 2026 07:12:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.0]]></title>
-            <description><![CDATA[## Breaking Changes in SDK Due to some performance issues we had to make a few breaking changes in our data model. ### Diff metadata The diffs contained in the metadata for the edit and patch tool will no longer contain a to and from field with full file contents. they will only contain a patch field with the unified diff Additionally all snapshot diffs contained in user message and session diff will follow this format ### UserMessage.variant Before the user message had a variant field - it is now nested under model so userMessage.model.variant ## Core - Added OTLP observability export support. - Fixed failed web fetches leaving stale timeouts behind. - Improved opencode login transport error messages. - Retried Alibaba provider rate-limit errors instead of failing immediately. - Kept model variants scoped to the selected model. - Added full HTTP proxy support. - Fixed OpenRouter provider issues. - Aligned GitHub Copilot Anthropic reasoning levels and removed incorrect Qwen variants. - Reduced TypeScript LSP memory use by using the native project config. (@derekbar90) ## TUI - Added a keybinding option for "Switch model variant". (@ariane-emory) - Added PDF drag and drop for attachments. (@gitpush-gitpaid) - Added opencode run --dangerously-skip-permissions to auto-approve non-denied permission prompts. ## Desktop - Improved subagent sessions with clearer titles, navigation, and progress states. - Moved auto-accept permissions into Settings. - Showed full file names on attachment chips. **Thank you to 4 community contributors:** - @derekbar90: - fix(lsp): MEMORY LEAK: ensure typescript server uses native project config (#19953) - @mchenco: - docs: update Cloudflare provider setup to reflect /connect prompt flow (#20589) - @gitpush-gitpaid: - feat(opencode): Add PDF attachment Drag and Drop (#16926) - @ariane-emory: - fix(tui): use sentence case for theme mode command palette items (#21192) - feat(tui): allow variant_list keybind for the "Switch model variant" command (#21185)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.0</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.0</guid>
-            <pubDate>Wed, 08 Apr 2026 00:32:55 GMT</pubDate>
         </item>
     </channel>
 </rss>

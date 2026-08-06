@@ -4,7 +4,7 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 05 Aug 2026 19:21:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2026 06:26:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -28,6 +28,12 @@
             <link>https://cursor.com/blog/cursor-start-india</link>
             <guid isPermaLink="false">https://cursor.com/blog/cursor-start-india</guid>
             <category><![CDATA[product]]></category>
+            <pubDate>Mon, 27 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Vercel used Cursor to build Queues]]></title>
+            <link>https://cursor.com/blog/vercel</link>
+            <guid isPermaLink="false">https://cursor.com/blog/vercel</guid>
             <pubDate>Mon, 27 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -113,12 +119,6 @@
             <link>https://cursor.com/blog/faire</link>
             <guid isPermaLink="false">https://cursor.com/blog/faire</guid>
             <pubDate>Mon, 25 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Beyond efficiency: PayPal expands what's possible to build with AI]]></title>
-            <link>https://cursor.com/blog/paypal</link>
-            <guid isPermaLink="false">https://cursor.com/blog/paypal</guid>
-            <pubDate>Sun, 10 May 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
