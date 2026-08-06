@@ -4,11 +4,46 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Aug 2026 06:26:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2026 10:34:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 06 Aug 2026 01:35:59 GMT</pubDate>
+        <pubDate>Thu, 06 Aug 2026 09:12:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10293]]></title>
+            <description><![CDATA[ci : onboard AMD ROCm CI with gfx1151 fixes (#26544) * ci: prepare for amd rocm ci Signed-off-by: Aaron Teo * ci: fix editorconfig-checker Signed-off-by: Aaron Teo * ci: fix device not recognised Signed-off-by: Aaron Teo * ci: rename gpu-amd to gpu-hip Signed-off-by: Aaron Teo * ci: gpu-hip to gpu-rocm haha Signed-off-by: Aaron Teo * CUDA: allow integrated-GPU host output buffer in debug assert On integrated GPUs (APUs), the scheduler can legitimately place a graph node's output on the host-visible buffer, which ggml_cuda_compute_forward already handles. The debug assert in ggml_cuda_graph_evaluate_and_capture required every node output to be on the device buffer, so a debug build aborts on such a node (e.g. attn_residual ADD -> ROCm_Host on RDNA3.5). The source-tensor assert directly below already permits this via the integrated + cuda_host exception; apply the same exception to the node's own output buffer. Debug-only; no effect on release/compute. Fixes test-recurrent-state-rollback on gfx1151 (Strix Halo). * ci: enable unified memory for ROCm gfx1151 job Work around a coherence issue on integrated RDNA3.5 (gfx1151) where GPU kernels reading mmap-loaded weights can return incorrect output, which makes test-llama-archs (and real inference) intermittently wrong. GGML_CUDA_ENABLE_UNIFIED_MEMORY=1 uses managed memory, which restores coherence. Remove once the underlying ROCm/HIP issue is fixed. * test-llama-archs: skip jamba on HIP backend jamba produces incorrect output (~0.55 NMSE vs CPU) on the HIP backend on RDNA3.5 (gfx1151); the SSM kernels need separate investigation. Skip it for now, matching the existing per-backend carve-outs (WebGPU), so the ROCm CI can run the test for the remaining architectures. * ci: use HIP_LAUNCH_BLOCKING for ROCm gfx1151 job The gfx1151 ROCm CI job produced incorrect inference output (qwen3 perplexity ~88 vs ~9.4) due to an async-execution correctness issue in the HIP path. Serializing kernel launches with HIP_LAUNCH_BLOCKING=1 restores correctness. This replaces the earlier GGML_CUDA_ENABLE_UNIFIED_MEMORY workaround, which did not fix batched inference. * test-backend-sampler: skip top-k subtests on HIP backend The ROCm backend does not support the TOP_K/ARGSORT op at vocab scale (no CUB; bitonic argsort is capped at ncols <= 1024), so top-k/top-p backend samplers cannot be offloaded. The penalties, set_sampler, mixed, and top_p subtests assert that offload happened, so they fail on HIP. Skip them until TOP_K is supported on the ROCm backend. * Update tests/test-backend-sampler.cpp Co-authored-by: Aaron Teo * Update tests/test-backend-sampler.cpp Co-authored-by: Georgi Gerganov --------- Signed-off-by: Aaron Teo Co-authored-by: Aaron Teo Co-authored-by: Jim Wu Co-authored-by: Aaron Teo Co-authored-by: Georgi Gerganov **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10293</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10293</guid>
+            <pubDate>Thu, 06 Aug 2026 09:12:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v4.1.6]]></title>
+            <description><![CDATA[### Added - Offer meta/muse-spark-1.2-contributor on the Cline provider, alongside a refreshed model catalog. ### Fixed - Attribute error telemetry to the model actually in use for a run, so failures are no longer reported against the wrong model. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.5...v4.1.6]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.1.6</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.6</guid>
+            <pubDate>Thu, 06 Aug 2026 08:09:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10291]]></title>
+            <description><![CDATA[vulkan: fix submission batching size, add debug tools for diagnosing causes of DeviceLost drivers errors (#26371) * vulkan: add debug tooling to get more information about a DeviceLost error * fix submission threshold applied too late * use logging macros, throw instead of aborting * clean up circular dependency **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10291</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10291</guid>
+            <pubDate>Thu, 06 Aug 2026 08:01:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.51]]></title>
+            <description><![CDATA[- Reasoning effort now applies consistently across providers instead of going through per-provider thinking overrides, including Ollama, and asking for reasoning to be off is respected everywhere (from SDK v0.0.71) - meta/muse-spark-1.2-contributor is now selectable on the Cline provider, alongside a refreshed model catalog (from SDK v0.0.71) - Error telemetry now reports the model that was actually in use for the run (from SDK v0.0.71) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.50...cli-v3.0.51]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.51</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.51</guid>
+            <pubDate>Thu, 06 Aug 2026 07:46:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SDK v0.0.71]]></title>
+            <description><![CDATA[- Reasoning settings now resolve portably across AI SDK providers — effort levels and enable/disable flags map to the AI SDK's native reasoning setting (including Ollama), replacing the per-provider thinking overrides, and an explicit request to disable reasoning now takes priority - sdk.error telemetry from agent runs is attributed to the model actually in use, and undefined values are stripped from the event properties - Refreshed the model catalog from models.dev, and surfaced meta/muse-spark-1.2-contributor for the Cline provider **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.70...sdk/sdk/v0.0.71]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.71</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.71</guid>
+            <pubDate>Thu, 06 Aug 2026 07:29:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.54.0]]></title>
             <description><![CDATA[## What's Changed * Changelog for v0.53.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28507 * Changelog for v0.52.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28508 * chore(release): bump version to 0.54.0-nightly.20260722.gf743ab579 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28510 * fix(caretaker): sanitize and wrap issue title in untrusted_context by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28352 * chore(caretaker): update vitest to v3.2.4 and add package-lock.json files by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28409 * fix(core): rotate session ID on model fallback to prevent stateful API errors by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28469 * feat(caretaker-triage): post comment before auto-closing issues by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28411 * fix(core): enforce HTTPS for GoogleCredentialsAuthProvider to prevent cleartext leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28517 * fix(core): filter out thought parts from getHistoryTurns when context management is disabled by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28509 * fix(a2a-server): normalize CRLF line endings to LF in getProposedContent by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28531 * fix(core): enforce explicit tag length and validation in file keychain by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28523 * chore/release: bump version to 0.54.0-nightly.20260728.gbef611950 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28552 * feat(pr-generator-db): implement Firestore concurrency dual-locking and test ingestion utilities by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28432 * feat(pr-generator-agent): implement Antigravity agent runner and prompt templates … by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28434 * fix(core): skip merged function-response turns when finding the active loop by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/28565 * fix(patch): cherry-pick f47d6c6 to release/v0.54.0-preview.0-pr-28566 to patch version v0.54.0-preview.0 and create version 0.54.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28609 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.53.1...v0.54.0]]></description>
@@ -1351,20 +1386,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1</guid>
             <pubDate>Tue, 28 Jul 2026 17:16:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10167]]></title>
-            <description><![CDATA[server: abstract llama_memory calls to common_memory (#26221) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10167</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10167</guid>
-            <pubDate>Tue, 28 Jul 2026 17:02:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10166]]></title>
-            <description><![CDATA[ggml : set output of view src (#25729) * llama-graph: set_outputs to t->view_src * change set_output to GGML_ASSERT about views not being outputs * sampler : avoid views in outputs * cont : fix dist sampler * cont : consistent logits handling * ggml : set output of view src * graph : simplify set_outputs() * cont : cleanup Co-authored-by: Gaurav Garg --------- Co-authored-by: Georgi Gerganov Co-authored-by: Gaurav Garg **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10166</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10166</guid>
-            <pubDate>Tue, 28 Jul 2026 16:15:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.18.8]]></title>
@@ -5687,27 +5708,6 @@
             <link>https://github.com/zed-industries/zed/releases/tag/v1.2.3</link>
             <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.2.3</guid>
             <pubDate>Wed, 13 May 2026 18:06:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.83.0]]></title>
-            <description><![CDATA[### Fixed - Show a clear "Searching..." state in the @-mention file picker - Improve @-mention file search performance - Allow write_to_file to create or overwrite files with empty content. - Fix validation failures for MCP servers that require an object. - Enable OpenRouter prompt cache control for Qwen models. - Update Axios and SAP Connectivity dependencies ### Changed - Use the VS Code-specific README.marketplace.md when packaging and publishing the VS Code extension - Add telemetry to @-mention search to help diagnose local, remote, and multi-root workspace search behavior. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.2...v3.83.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.83.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.83.0</guid>
-            <pubDate>Wed, 13 May 2026 17:25:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.2]]></title>
-            <description><![CDATA[- Fix token count display showing inflated numbers in the TUI. Full Changelog: https://github.com/cline/cline/compare/cli-v3.0.1...cli-v3.0.2]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.2</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.2</guid>
-            <pubDate>Wed, 13 May 2026 16:27:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.1]]></title>
-            <description><![CDATA[- Fix CLI release cleanup scripts so they work correctly on Windows. - Fix the kanban migration notice wording in the TUI. Full Changelog: https://github.com/cline/cline/compare/cli-v3.0.0...cli-v3.0.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.1</guid>
-            <pubDate>Wed, 13 May 2026 15:35:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.30.0]]></title>
