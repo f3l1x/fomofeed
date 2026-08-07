@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 07 Aug 2026 05:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Aug 2026 07:05:33 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 07 Aug 2026 04:44:19 GMT</pubDate>
+        <pubDate>Fri, 07 Aug 2026 06:49:55 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.15]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Chronological message ordering now stays correct even when imported or legacy message IDs are out of order. - Revert and fork actions now use real message chronology instead of message ID ordering. - Truncation cleanup now removes stale files by file timestamp more reliably. - Repeated compaction now keeps earlier tool-call history in summaries instead of dropping orphaned results. - Blob-based attachments now load correctly in the web UI. (@rexdotsh) ## Desktop ### Improvements - Added much broader locale coverage across the desktop app. - Export full session transcripts as JSON from the UI. ### Bugfixes - Session timelines now respect chronological message boundaries more reliably. - Stored messages now stay ordered by creation time. - Session lists now sort by persisted activity time more reliably. - Language names now stay native in the locale picker. - Filled in missing translations across existing locales. **Thank you to 3 community contributors:** - @rexdotsh: - fix(server): allow blob attachments in web UI (#40692) - @ayubun: - fix(tui): support copying over ssh with set-clipboard on tmux config (#30472) - @dangooddd: - feat(tui): add cursor style configuration (#32295)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.15</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.15</guid>
+            <pubDate>Fri, 07 Aug 2026 06:49:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.54.4]]></title>
             <description><![CDATA[## What's Changed * fix(patch): cherry-pick 56f9688 to release/v0.54.0-pr-28700 to patch version v0.54.0 and create version 0.54.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28710 * chore: bump version to 0.54.2 by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28712 * Fix/revert version bump by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28715 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0...v0.54.4]]></description>
@@ -7139,13 +7146,6 @@
             <link>https://github.com/gptme/gptme/releases/tag/v0.31.1.dev20260409</link>
             <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.31.1.dev20260409</guid>
             <pubDate>Thu, 09 Apr 2026 13:28:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.1]]></title>
-            <description><![CDATA[## Core - Fix clangd choosing CMakeLists.txt or Makefile as the project root in C and C++ workspaces. (@nonbanana) - Add permission prompts for GitLab Duo Workflow tool calls instead of auto-running them. (@vglafirov) - Hide unsupported variants for Big Pickle models. ## TUI - Show an OpenCode Go subscribe prompt when free usage limits are reached. - Simplify provider labels in the model and provider pickers. ## Desktop - Fix terminal connections in same-origin desktop and web app setups. (@OpeOginni) - Fix session review and change lists when diff data arrives in inconsistent shapes. ## SDK - Fix the generated SDK and OpenAPI types for /providers and session shell responses. **Thank you to 3 community contributors:** - @OpeOginni: - fix(app): skip url password setting for same-origin server and web app (#19923) - @vglafirov: - feat(llm): integrate GitLab DWS tool approval with permission system (#19955) - @nonbanana: - fix(lsp): remove CMakeLists.txt and Makefile from clangd root markers (#21466)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.1</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.1</guid>
-            <pubDate>Thu, 09 Apr 2026 07:12:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.13.6]]></title>
