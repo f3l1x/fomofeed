@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 07 Aug 2026 07:04:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Aug 2026 08:51:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 06 Aug 2026 22:10:39 GMT</pubDate>
+        <pubDate>Fri, 07 Aug 2026 07:15:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10299]]></title>
+            <description><![CDATA[metal : avoid threadgroup matrix array instantiation in kernel_lightning_indexer (#26646) - In MSL, declaring an array of matrix types like threadgroup half4x4 causes a 'no matching constructor' compilation error because MSL matrix types do not have zero-argument default constructors and threadgroup variables cannot have initializers. - Fix this by declaring a POD threadgroup half array instead and casting to threadgroup half4x4 * for matrix indexing. Signed-off-by: JamePeng **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10299</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10299</guid>
+            <pubDate>Fri, 07 Aug 2026 07:15:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10298]]></title>
             <description><![CDATA[mtmd: add chunk save/load function (#26645) * mtmd: add chunk save/load function * nits * add tests * rn _MAX --> _COUNT **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10175</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10175</guid>
             <pubDate>Wed, 29 Jul 2026 08:05:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10174]]></title>
-            <description><![CDATA[model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) (#25980) * model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) Adds GLM-5.2 NextN/MTP as a --spec-type draft-mtp target: nextn tensor loading via the qwen35moe/step35-style presence probe, a graph_mtp builder (enorm/hnorm/eh_proj + dense MLA + sigmoid-gated MoE with shared expert + shared head with fallbacks, _s scale tensors passed for NVFP4), t_h_nextn extraction in the trunk graph, and MTP-context KV setup: the draft head runs dense MLA, so the MTP context uses a plain attention KV cache holding only the nextn layer(s) (same pattern as the hybrid Qwen3.5 MTP context) while the main context keeps the DSA cache, now filtered to trunk layers only. Co-Authored-By: Claude Fable 5 * convert : support --mtp/--no-mtp export for GlmMoeDsaForCausalLM (GLM-5.2) Opt GLM-5.2 into the supports_mtp_export contract (post-#25641 shape, mirroring HYV3Model/Step35Model): --no-mtp drops the appended NextN block (blk.78) and its nextn_predict_layers KV; --mtp keeps only the NextN block plus shared embeddings/norm/lm_head. Default (bundled) output is unchanged. Co-Authored-By: Claude Fable 5 --------- Co-authored-by: Claude Fable 5 **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10174</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10174</guid>
-            <pubDate>Wed, 29 Jul 2026 07:14:20 GMT</pubDate>
         </item>
     </channel>
 </rss>

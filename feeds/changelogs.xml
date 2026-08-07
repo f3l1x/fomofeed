@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 07 Aug 2026 07:05:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Aug 2026 08:51:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 07 Aug 2026 06:49:55 GMT</pubDate>
+        <pubDate>Fri, 07 Aug 2026 07:15:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10299]]></title>
+            <description><![CDATA[metal : avoid threadgroup matrix array instantiation in kernel_lightning_indexer (#26646) - In MSL, declaring an array of matrix types like threadgroup half4x4 causes a 'no matching constructor' compilation error because MSL matrix types do not have zero-argument default constructors and threadgroup variables cannot have initializers. - Fix this by declaring a POD threadgroup half array instead and casting to threadgroup half4x4 * for matrix indexing. Signed-off-by: JamePeng **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10299</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10299</guid>
+            <pubDate>Fri, 07 Aug 2026 07:15:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Desktop v0.0.10]]></title>
+            <description><![CDATA[- Remote MCP servers can now authenticate with OAuth from Settings → MCP — authorize a server, see its auth status, and cancel or retry a pending authorization. Servers that require a pre-registered OAuth client (client ID/secret) instead of dynamic registration are now supported, and stored tokens are invalidated when a server's client configuration changes. - MCP errors are now shown on the individual server rather than as a page-level error, and a server with invalid configuration is surfaced with its error instead of silently disappearing from the list. - Failed turns no longer fail silently. Sending a message with no model credentials — or any queued turn that fails — now shows an error in the transcript, enriched with the underlying cause and a pointer to Settings → Models. - Fixed the first message of a chat (and some queued messages) rendering twice. - Fixed the composer getting stuck on "Agent is working…" after a turn already finished. - New "Connect a model" notice on the welcome screen when no provider has credentials, with one click to onboarding or model settings. It reacts live as you add credentials, and correctly recognizes Bedrock/Vertex and keyless local endpoints as already connected. - Added "Get an API key" links for popular providers in onboarding and Settings → Models, plus a link to the Cline dashboard from the Cline API key form. - The onboarding welcome step now explains what Cline is. - The stop button is now actually visible and clickable, Esc stops the current turn, and new shortcuts: Cmd/Ctrl+N for a new session, Cmd/Ctrl+, for settings. - Reasoning controls now resolve consistently across AI SDK providers, including Ollama, so effort levels and thinking on/off are honored wherever the provider supports them. - Vertex AI: credential refreshes now use the configured fetch, fixing ADC authentication behind proxies and custom networking. - Refreshed the bundled provider and model catalog. **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.9...desktop-v0.0.10]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.10</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.10</guid>
+            <pubDate>Fri, 07 Aug 2026 07:04:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.15]]></title>
             <description><![CDATA[## Core ### Bugfixes - Chronological message ordering now stays correct even when imported or legacy message IDs are out of order. - Revert and fork actions now use real message chronology instead of message ID ordering. - Truncation cleanup now removes stale files by file timestamp more reliably. - Repeated compaction now keeps earlier tool-call history in summaries instead of dropping orphaned results. - Blob-based attachments now load correctly in the web UI. (@rexdotsh) ## Desktop ### Improvements - Added much broader locale coverage across the desktop app. - Export full session transcripts as JSON from the UI. ### Bugfixes - Session timelines now respect chronological message boundaries more reliably. - Stored messages now stay ordered by creation time. - Session lists now sort by persisted activity time more reliably. - Language names now stay native in the locale picker. - Filled in missing translations across existing locales. **Thank you to 3 community contributors:** - @rexdotsh: - fix(server): allow blob attachments in web UI (#40692) - @ayubun: - fix(tui): support copying over ssh with set-clipboard on tmux config (#30472) - @dangooddd: - feat(tui): add cursor style configuration (#32295)]]></description>
@@ -1352,13 +1366,6 @@
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.19.1</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.19.1</guid>
             <pubDate>Wed, 29 Jul 2026 07:44:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10174]]></title>
-            <description><![CDATA[model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) (#25980) * model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) Adds GLM-5.2 NextN/MTP as a --spec-type draft-mtp target: nextn tensor loading via the qwen35moe/step35-style presence probe, a graph_mtp builder (enorm/hnorm/eh_proj + dense MLA + sigmoid-gated MoE with shared expert + shared head with fallbacks, _s scale tensors passed for NVFP4), t_h_nextn extraction in the trunk graph, and MTP-context KV setup: the draft head runs dense MLA, so the MTP context uses a plain attention KV cache holding only the nextn layer(s) (same pattern as the hybrid Qwen3.5 MTP context) while the main context keeps the DSA cache, now filtered to trunk layers only. Co-Authored-By: Claude Fable 5 * convert : support --mtp/--no-mtp export for GlmMoeDsaForCausalLM (GLM-5.2) Opt GLM-5.2 into the supports_mtp_export contract (post-#25641 shape, mirroring HYV3Model/Step35Model): --no-mtp drops the appended NextN block (blk.78) and its nextn_predict_layers KV; --mtp keeps only the NextN block plus shared embeddings/norm/lm_head. Default (bundled) output is unchanged. Co-Authored-By: Claude Fable 5 --------- Co-authored-by: Claude Fable 5 **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10174</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10174</guid>
-            <pubDate>Wed, 29 Jul 2026 07:14:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Desktop v0.0.7]]></title>
@@ -5659,13 +5666,6 @@
             <link>https://github.com/zed-industries/zed/releases/tag/v1.3.1-pre</link>
             <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.3.1-pre</guid>
             <pubDate>Thu, 14 May 2026 23:56:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.3]]></title>
-            <description><![CDATA[- Add --worktree flag that auto-creates a fresh git worktree under ~/.cline/worktrees/ and runs the task there. Works with --taskId and --continue so you can resume a task in an isolated worktree to try a different approach. - Show session status in the CLI history view and refresh status rows in place while the standalone history TUI is open. - Restore the OpenAI compatible provider in the auth flow and preserve stored model metadata when configuring or migrating OpenAI-compatible providers. - Fix dropped macOS screenshots when pasting them into the TUI or asking the agent to read them: paths containing U+202F (narrow no-break space) and other Unicode variants now resolve to the real file instead of failing with ENOENT. - Accept bearer token auth for AWS Bedrock and map AWS profiles correctly when configuring the Bedrock gateway. - Honor --thinking none for Ollama models that ship with reasoning enabled by default. - Recover from detached hub event errors instead of crashing the session. - Refine the shared system prompt with clearer guidance on tool output formatting, unsupported file reads, long-running shell commands, and final verification before completing a task. Full Changelog: https://github.com/cline/cline/compare/cli-v3.0.2...cli-v3.0.3]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.3</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.3</guid>
-            <pubDate>Thu, 14 May 2026 23:09:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.142]]></title>
