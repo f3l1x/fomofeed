@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 07 Aug 2026 18:44:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Aug 2026 04:50:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 07 Aug 2026 18:01:46 GMT</pubDate>
+        <pubDate>Fri, 07 Aug 2026 19:33:40 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.12.0]]></title>
+            <description><![CDATA[## 1.12.0 (2026-08-07) ## What's Changed ### Features * feat: clarify free OpenHands model endpoints by @juanmichelini in https://github.com/OpenHands/OpenHands/pull/16281 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.11.0...v1.12.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.12.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.12.0</guid>
+            <pubDate>Fri, 07 Aug 2026 19:33:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.11.0]]></title>
             <description><![CDATA[## 1.11.0 (2026-08-07) ## What's Changed ### Features * feat: show per-run LLM cost in the Activity Log and exports by @hieptl in https://github.com/OpenHands/OpenHands/pull/16351 * feat: reorder Customize navigation by @DevinVinson in https://github.com/OpenHands/OpenHands/pull/16358 * feat(settings): polish Agent Canvas version update UI by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/16343 * feat(home): keep Automations pane visible when empty by @neubig in https://github.com/OpenHands/OpenHands/pull/16372 * feat: add a typed agent action for launching local or Cloud child conversations by @hieptl in https://github.com/OpenHands/OpenHands/pull/16380 * feat: add automation tag filter and recognition by @hieptl in https://github.com/OpenHands/OpenHands/pull/16388 * feat(conversations): add tag chips, overflow, and hovercard labels by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/16346 ### Bug Fixes * fix: ship multi-size app icons for Windows and macOS by @hieptl in https://github.com/OpenHands/OpenHands/pull/16352 * fix: rename desktop app to OpenHands Agent Canvas by @hieptl in https://github.com/OpenHands/OpenHands/pull/16353 * fix(metrics): fetch runtime conversation directly instead of removed cloud-proxy by @tofarr in https://github.com/OpenHands/OpenHands/pull/16392 ## New Contributors * @DevinVinson made their first contribution in https://github.com/OpenHands/OpenHands/pull/16358 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.10.0...v1.11.0 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.16.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.16.0</guid>
             <pubDate>Wed, 18 Dec 2024 21:35:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.15.3 - 2024-12-17]]></title>
-            <description><![CDATA[## What's Changed ### Added * Add color to the line next to Ran a Command based on return value by @openhands-agent in https://github.com/All-Hands-AI/OpenHands/pull/5483 ### Changed * Reset iteration budget and update default max_iterations to 500 by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/5590 * The turn limit should be measured from the last user interaction by @openhands-agent in https://github.com/All-Hands-AI/OpenHands/pull/5560 * Persist jwt_secret in config file by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/5353 ### Fixed * Prevent VSCode from opening unexpectedly by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/5544 * Let user continue when the agent gets stuck in a loop (UI-only) by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/5597 * Fixed Jupyter tab has no vertical scroll bar by @openhands-agent in https://github.com/All-Hands-AI/OpenHands/pull/5607 ## New Contributors * @motin made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/5624 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.15.2...0.15.3]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.15.3</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.15.3</guid>
-            <pubDate>Tue, 17 Dec 2024 19:12:50 GMT</pubDate>
         </item>
     </channel>
 </rss>

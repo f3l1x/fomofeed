@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 07 Aug 2026 18:45:02 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Aug 2026 04:50:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 07 Aug 2026 09:23:15 GMT</pubDate>
+        <pubDate>Sat, 08 Aug 2026 02:26:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.148.0-alpha.5]]></title>
+            <description><![CDATA[Release 0.148.0-alpha.5]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.5</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.5</guid>
+            <pubDate>Sat, 08 Aug 2026 02:26:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.148.0-alpha.4]]></title>
+            <description><![CDATA[Release 0.148.0-alpha.4]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.4</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.4</guid>
+            <pubDate>Sat, 08 Aug 2026 00:43:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.148.0-alpha.2]]></title>
             <description><![CDATA[Release 0.148.0-alpha.2]]></description>
@@ -692,20 +706,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.16</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.16</guid>
             <pubDate>Thu, 25 Jun 2026 03:41:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.142.1]]></title>
-            <description><![CDATA[## New Features - Added opt-in Windows system proxy support for authentication, including PAC, WPAD, static proxies, and bypass rules. (#26708) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.142.0...rust-v0.142.1 - #26708 PAC 3 - Add Windows system proxy resolver @canvrno-oai]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.142.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.142.1</guid>
-            <pubDate>Thu, 25 Jun 2026 00:36:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.143.0-alpha.15]]></title>
-            <description><![CDATA[Release 0.143.0-alpha.15]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.15</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.15</guid>
-            <pubDate>Wed, 24 Jun 2026 19:41:28 GMT</pubDate>
         </item>
     </channel>
 </rss>
