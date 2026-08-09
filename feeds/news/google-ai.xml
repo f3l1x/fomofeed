@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 09 Aug 2026 08:33:42 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Aug 2026 14:27:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -66,7 +66,7 @@
             <pubDate>Mon, 09 Nov 2020 03:28:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[A unified API for AI model routing]]></title>
+            <title><![CDATA[Model routing with Google Cloud API Gateway]]></title>
             <description><![CDATA[Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications by mapping virtual model names to specific backend targets on a shared host. Once deployed, the Gateway acts as a serverless ingress layer that accepts standard OpenAI-compatible requests, automatically transcodes the payload to the native schema of the target model, and routes the traffic on the fly.]]></description>
             <link>https://developers.googleblog.com/a-unified-api-for-ai-model-routing/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/a-unified-api-for-ai-model-routing/</guid>
