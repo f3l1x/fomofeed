@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Aug 2026 18:26:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Aug 2026 04:59:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 08 Aug 2026 01:11:56 GMT</pubDate>
+        <pubDate>Sun, 09 Aug 2026 01:15:28 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.56.0-nightly.20260809.gcf22ac7e8]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260808.gcf22ac7e8...v0.56.0-nightly.20260809.gcf22ac7e8]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260809.gcf22ac7e8</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260809.gcf22ac7e8</guid>
+            <pubDate>Sun, 09 Aug 2026 01:15:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.56.0-nightly.20260808.gcf22ac7e8]]></title>
             <description><![CDATA[## What's Changed * Reclassifying Capacity Exhaustion as Terminal Error by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28716 * feat(caretaker): update Firestore schema with error, and pr_number fields by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28467 * feat(caretaker-triage): prompt hill-climbing & orchestrator updates by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28524 * feat(caretaker): add triage Cloud Run job workflow by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28468 * feat(caretaker-evals): add triage evaluation framework and judge runner by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28530 * feat(caretaker-evals): add local golden issue collection and firestore sync tools by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28532 * feat(caretaker): publish workable spec event to ready-for-code Pub/Sub topic by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28588 * feat(caretaker): add GCP deployment script for caretaker agent services by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28529 * feat(caretaker-evals): add Cloud Run job entrypoint for eval runner by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28727 * fix(caretaker): clear lock on NEEDS_HUMAN transition by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28601 * feat(ingestion): add issue comment handling and re-triage workflow by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28690 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260807.gd5c9a97dc...v0.56.0-nightly.20260808.gcf22ac7e8]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260504.g37edd1d4d</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260504.g37edd1d4d</guid>
             <pubDate>Mon, 04 May 2026 18:51:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.41.0-preview.1]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 2194da2 to release/v0.41.0-preview.0-pr-26153 to patch version v0.41.0-preview.0 and create version 0.41.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26269 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.41.0-preview.0...v0.41.0-preview.1]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-preview.1</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-preview.1</guid>
-            <pubDate>Thu, 30 Apr 2026 21:11:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
