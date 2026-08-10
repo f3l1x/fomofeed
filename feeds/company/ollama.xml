@@ -4,11 +4,25 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 10 Aug 2026 09:13:02 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Aug 2026 14:53:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 04 Aug 2026 18:49:20 GMT</pubDate>
+        <pubDate>Mon, 10 Aug 2026 10:49:15 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.7]]></title>
+            <description><![CDATA[## Muse Glimmer > Note: Muse Glimmer is currently available via initial support via Ollama's MLX engine on Apple Silicon. Additional support and optimizations for Apple Silicon, NVIDIA, AMD, and other platforms will be available in the coming days. **Muse Glimmer**, Meta's newest open model and the first released by Meta Superintelligence Labs, is now available on Ollama. It's a 30B multimodal model purpose-built for agent workloads that run locally. With Ollama, you can now use Muse Glimmer to power coding agent applications such as Claude Code, Codex, Pi and more, as well as long-running personal assistants such as OpenClaw and Hermes. Ollama's MLX engine provides state-of-the-art performance on Apple Silicon for this model, with support for DFlash and image input as of Ollama 0.32.7. To download and run Muse Glimmer locally: To run Muse Glimmer on Apple Silicon with Claude Code, download Ollama and run: For a lighter-weight coding agent, try Pi: For personal assistant frameworks such as OpenClaw and Hermes, use:]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.7</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.7</guid>
+            <pubDate>Mon, 10 Aug 2026 10:49:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Muse Glimmer from Meta Superintelligence Labs is now available]]></title>
+            <description><![CDATA[Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.]]></description>
+            <link>https://ollama.com/blog/muse-glimmer</link>
+            <guid isPermaLink="false">https://ollama.com/blog/muse-glimmer</guid>
+            <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.6]]></title>
             <description><![CDATA[## What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usage. - Truncated OpenAI responses now report finish_reason: "length" instead of "tool_calls". - ollama run kimi-k3 now offers kimi-k3:cloud for cloud-only models that publish no default tag, instead of failing. - TUI fixes: pipe-delimited prose no longer renders as a table, Enter accepts the highlighted @ file completion, and /prompt scrolling is no longer laggy. - Experimental image generation has been temporarily removed. Continue using 0.32.5 for image generation support - Updated the MLX and llama.cpp engines. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.5...v0.32.6-rc0]]></description>
@@ -862,13 +876,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.11.2</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.2</guid>
             <pubDate>Tue, 05 Aug 2025 21:18:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.11.0]]></title>
-            <description><![CDATA[## Welcome OpenAI's gpt-oss models Ollama partners with OpenAI to bring its latest state-of-the-art open weight models to Ollama. The two models, 20B and 120B, bring a whole new local chat experience, and are designed for powerful reasoning, agentic tasks, and versatile developer use cases. ### Feature highlights - **Agentic capabilities:** Use the models’ native capabilities for function calling, web browsing (Ollama is providing a built-in web search that can be optionally enabled to augment the model with the latest information), python tool calls, and structured outputs. - **Full chain-of-thought:** Gain complete access to the model's reasoning process, facilitating easier debugging and increased trust in outputs. - **Configurable reasoning effort:** Easily adjust the reasoning effort (low, medium, high) based on your specific use case and latency needs. - **Fine-tunable:** Fully customize models to your specific use case through parameter fine-tuning. - **Permissive Apache 2.0 license:** Build freely without copyleft restrictions or patent risk—ideal for experimentation, customization, and commercial deployment. ### Quantization - MXFP4 format OpenAI utilizes quantization to reduce the memory footprint of the gpt-oss models. The models are post-trained with quantization of the mixture-of-experts (MoE) weights to MXFP4 format, where the weights are quantized to 4.25 bits per parameter. The MoE weights are responsible for 90+% of the total parameter count, and quantizing these to MXFP4 enables the smaller model to run on systems with as little as 16GB memory, and the larger model to fit on a single 80GB GPU. Ollama is supporting the MXFP4 format natively without additional quantizations or conversions. New kernels are developed for Ollama’s new engine to support the MXFP4 format. Ollama collaborated with OpenAI to benchmark against their reference implementations to ensure Ollama’s implementations have the same quality. ### Get started You can get started by downloading the latest Ollama version (v0.11) The model can be downloaded directly in Ollama’s new app or via the terminal: ## What's Changed * kvcache: Enable SWA to retain additional entries by @jessegross in https://github.com/ollama/ollama/pull/11611 * kvcache: Log contents of cache when unable to find a slot by @jessegross in https://github.com/ollama/ollama/pull/11658 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.10.1...v0.11.0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.11.0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.0</guid>
-            <pubDate>Tue, 05 Aug 2025 16:56:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI gpt-oss]]></title>
