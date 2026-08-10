@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 10 Aug 2026 05:20:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Aug 2026 07:17:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 07 Aug 2026 06:49:55 GMT</pubDate>
+        <pubDate>Mon, 10 Aug 2026 06:07:08 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.16]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Ignore unknown top-level config fields instead of failing config parsing - Register projects opened from Home so they are available to the rest of the app ## Desktop ### Improvements - Open the project menu with a right-click in Home ### Bugfixes - Fall back to listing and matching local directories when the project picker server does not support search - Use 词元 instead of 令牌 for token-related labels in Simplified Chinese (@Speechlessmanbilibili) - Keep the macOS app running after the last window closes and reopen a window when the app is activated **Thank you to 1 community contributor:** - @Speechlessmanbilibili: - fix(i18n): use 词元 instead of 令牌 for token in zh locale (#40977)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.16</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.16</guid>
+            <pubDate>Mon, 10 Aug 2026 06:07:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.15]]></title>
             <description><![CDATA[## Core ### Bugfixes - Chronological message ordering now stays correct even when imported or legacy message IDs are out of order. - Revert and fork actions now use real message chronology instead of message ID ordering. - Truncation cleanup now removes stale files by file timestamp more reliably. - Repeated compaction now keeps earlier tool-call history in summaries instead of dropping orphaned results. - Blob-based attachments now load correctly in the web UI. (@rexdotsh) ## Desktop ### Improvements - Added much broader locale coverage across the desktop app. - Export full session transcripts as JSON from the UI. ### Bugfixes - Session timelines now respect chronological message boundaries more reliably. - Stored messages now stay ordered by creation time. - Session lists now sort by persisted activity time more reliably. - Language names now stay native in the locale picker. - Filled in missing translations across existing locales. **Thank you to 3 community contributors:** - @rexdotsh: - fix(server): allow blob attachments in web UI (#40692) - @ayubun: - fix(tui): support copying over ssh with set-clipboard on tmux config (#30472) - @dangooddd: - feat(tui): add cursor style configuration (#32295)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.3</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.3</guid>
             <pubDate>Fri, 10 Apr 2026 01:00:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.2]]></title>
-            <description><![CDATA[## TUI - Fix subagents not being clickable until finished ## Desktop - Removed the forced loading delay while the app connects]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.2</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.2</guid>
-            <pubDate>Thu, 09 Apr 2026 16:25:08 GMT</pubDate>
         </item>
     </channel>
 </rss>
