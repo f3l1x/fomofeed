@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 10 Aug 2026 16:48:01 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Aug 2026 18:48:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 06 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Learning more about Claude's mathematical capabilities]]></title>
+            <description><![CDATA[An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.]]></description>
+            <link>https://www.anthropic.com/research/riemann-zeta</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/riemann-zeta</guid>
+            <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Improving Fable 5's biology safeguards]]></title>
             <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
@@ -178,7 +185,6 @@
         </item>
         <item>
             <title><![CDATA[Anthropic Economic Index report: Cadences]]></title>
-            <description><![CDATA[In our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?]]></description>
             <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
             <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
@@ -188,12 +194,6 @@
             <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-phase-two</guid>
             <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Agentic coding and persistent returns to expertise]]></title>
-            <link>https://www.anthropic.com/research/claude-code-expertise</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
-            <pubDate>Mon, 15 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Teaching Claude why]]></title>
