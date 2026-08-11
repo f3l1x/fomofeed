@@ -4,11 +4,39 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Aug 2026 16:53:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 18:54:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Aug 2026 15:29:55 GMT</pubDate>
+        <pubDate>Tue, 11 Aug 2026 18:41:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.148.0-alpha.8]]></title>
+            <description><![CDATA[Release 0.148.0-alpha.8]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.8</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.8</guid>
+            <pubDate>Tue, 11 Aug 2026 18:41:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SDK v0.0.73]]></title>
+            <description><![CDATA[- Fixed hosts reconnecting to stale managed Hub daemons: daemons now carry a runtime build fingerprint, so upgrading retires and respawns a daemon still running older code instead of attaching to it - Fixed compaction being silently skipped on reasoning models. The summarizer no longer hardcodes a 1024-token output cap — it honors an explicit max-output-tokens setting, defaults to 4096 (lowered when the model reports less), and logs a diagnostic when a summary comes back empty - Added Fable 5 (claude-fable-5) to the Vertex model catalog. Pricing is intentionally omitted because Vertex bills region-dependently, so cost shows as unknown rather than wrong - Custom Vertex model IDs are now passed through unchanged, routing Claude-style IDs to the Anthropic-on-Vertex path **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.72...sdk/sdk/v0.0.73]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.73</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.73</guid>
+            <pubDate>Tue, 11 Aug 2026 18:29:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10361]]></title>
+            <description><![CDATA[model : fix SWA not being enabled for EXAONE 4.5 (#26848) * model : fix SWA not being enabled for EXAONE 4.5 load_arch_hparams tests hparams.n_layer() == 64 before LLM_KV_NEXTN_PREDICT_LAYERS has been read. n_layer() returns n_layer_all - n_layer_nextn and n_layer_nextn defaults to 0, so a GGUF carrying the MTP head (block_count=65, nextn=1) evaluates to 65 and the whole SWA block is skipped. The model type switch further down in the same function reads 64, because by then the key has been loaded. n_swa is still filled in by the unconditional get_key below the block, so llama_model_n_swa() reports 4096 and the logs look correct while only swa_type stays LLAMA_SWA_TYPE_NONE. This affects the official LGAI-EXAONE GGUF release as well. EXAONE 4.0 has no MTP head, so block_count is 64 there and the check matches. * model-loader : skip TENSOR_SKIP tensors in the metadata-only path create_tensor asserts on a null buffer type when building from metadata alone, but buft_for_tensor returns null by design for tensors marked TENSOR_SKIP, which is how architectures with nextn/MTP layers mark theirs. Those models cannot be constructed by llama_model_init_from_user at all. The file-backed path below already returns nullptr for the same tensors, so callers see the same thing either way. * tests : cover exaone4 hparams ordering Builds a synthetic exaone4 model with the layout the shipped EXAONE 4.5 GGUFs use (block_count 65 + nextn 1). The swa_type check is the one that catches the ordering bug; the n_layer_nextn and n_layer() checks only tell a broken fixture apart from a real regression. Fails before the ordering fix with "swa_type is not STANDARD", passes after. * Revert "tests : cover exaone4 hparams ordering" This reverts commit d2f3bafeee591ad691396b2708de4baef3aaf602. * Revert "model-loader : skip TENSOR_SKIP tensors in the metadata-only path" This reverts commit aecb9bc0c7896b52afbc43921a1f572aa7b5e53c. **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10361</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10361</guid>
+            <pubDate>Tue, 11 Aug 2026 17:12:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Release v0.55.0-preview.3]]></title>
+            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 188e255 to release/v0.55.0-preview.2-pr-28730 to patch version v0.55.0-preview.2 and create version 0.55.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28771 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-preview.2...v0.55.0-preview.3]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.3</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.3</guid>
+            <pubDate>Tue, 11 Aug 2026 17:01:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.148.0-alpha.7]]></title>
             <description><![CDATA[Release 0.148.0-alpha.7]]></description>
@@ -1345,13 +1373,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10219</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10219</guid>
             <pubDate>Sat, 01 Aug 2026 16:46:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10218]]></title>
-            <description><![CDATA[mtmd: add minicpmv46 downsample (#25993) * add minicpmv46 downsample Signed-off-by: tc-mb * put downsample mode inside gguf. Signed-off-by: tc-mb * build mtmd_image_preprocessor_llava_uhd Signed-off-by: tc-mb * fix code Signed-off-by: tc-mb * add convert Signed-off-by: tc-mb * add 4x ignore vit merger Signed-off-by: tc-mb --------- Signed-off-by: tc-mb **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10218</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10218</guid>
-            <pubDate>Sat, 01 Aug 2026 12:46:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.18.11]]></title>
@@ -3873,13 +3894,6 @@
             <pubDate>Thu, 25 Jun 2026 19:56:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.143.0-alpha.22]]></title>
-            <description><![CDATA[Release 0.143.0-alpha.22]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.22</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.22</guid>
-            <pubDate>Thu, 25 Jun 2026 18:08:44 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.80.0]]></title>
             <description><![CDATA[# The Ol’ Thursday Patch Hi all! It's patch time, and time for some bonus features. Let's go! ## Fixin’ broken tool calls Occasionally a model will opt to do a tool call with invalid arguments (invalid JSON), the session was just breaking, and even new prompts wouldn't anymore. We're now validating the issue and reporting it as an error to the model so it can correct itself. Of course, we also fixed the associated bug in Crush so sessions will no longer break. ## Local models: auto-detectin’ context windows Who loves local models? Now, Crush will now automatically detect models context windows with you add an endpoint for llamacpp, omlx, lmstudio, litellm, and ollama. Prior to this it was mis-setting window sizes to zero. ## Config: harder, faster, stronger Okay maybe not harder. But config in Crush is definitely faster and stronger. We refactored on the so it's _way_ more performant and safe for big, long configs where there are many providers, models, and so on. This also means that the model picker dialog will load faster too! We also added some safeguards to prevent race conditions when multiple Crush instances try to update the config at the same time. ## You look great That's all for today! Keep crushing it, everyone. :cupid: ## Changelog ### New! * c1a482267431964b9c27f16b925fd659a1b222c2: feat(providers): add llamacpp enricher (@taciturnaxolotl) * 4be77c5675b38f851a94040794cbe3417f5dee20: feat: log provider warnings from fantasy step results (@taciturnaxolotl) ### Fixed * de6792039e757b533589da4165a2ed4182ed94cb: fix(auth): stop two Crush instances from invalidating each other's login (@taciturnaxolotl) * b10f890f55b1c00969b8e59a6828b6f405103b5a: fix(config): make concurrent config access race-free via copy-on-write (@taciturnaxolotl) * af76fa73bfce9042c1ffeaade2371355a869cfee: fix(docs): set proper auto discovery models flag (@taciturnaxolotl) * 67f50014e81be7fbdf1187fa78e65279b87b7908: fix(glob): keep file search fast and bounded on large directories (@taciturnaxolotl) * bb44fb1f4955920076da9f78a9f0738c2f4d5ecb: fix(hooks): bridge Claude Code additionalContext onto HookResult.Context (@ken-jo) * 720698112727dacfd3d468c0414003b427aa7691: fix(scrolling): stale scrolling acceleration (#3197) (@chardoncs) * cfdca3587fd5d515963db79e15a9f06071b18caa: fix: correct model discovery enrichment for local providers (@taciturnaxolotl) * 1bb945c83f68f841c187b24638c4ca4d1ef4a8b7: fix: prevent flaky diffview golden tests on Windows CI (@taciturnaxolotl) * 1350167227756c67ea429c5191a05f6b23fd35b8: fix: render pills box reliably when todos or queue appear mid-session (@taciturnaxolotl) * 21a457d5e0de4cc56419ff239676bcfe52054b3d: fix: validate tool call JSON before storing to prevent stuck conversations (@taciturnaxolotl) ### Other stuff * a5896b4f62d74643daad01ed03a34423386d6650: chore: auto-update files (@charmcli) * aa3bdedafedaaff8043f3a9091c1fe0adfdd552d: chore: bump fantasy to 0.33.2 (@taciturnaxolotl) * 7f7eb603ac7437156733b42be60c4e8961867fb3: chore: bump golangci version to fix lint issues in ci (@taciturnaxolotl) * 6b68930b2d6a9d99b7bd7fe1a84ddf1e8498f475: chore: fix lint on interp.ExecHandler (#3200) (@taciturnaxolotl) * f5b996bff40ecd881b5d92d8b876a08b62a94373: perf(config): make model selection and config reload fast (@taciturnaxolotl) * 173b2be61b2906bf0bcb107081d700ed36550a85: perf(ui): skip theme rebuild when provider keeps the same theme (@taciturnaxolotl) * 81cb9d990aa272dc1fdf17ae086b2b23ee3cae08: refactor(ui): optimize model ui rendering (@taciturnaxolotl) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.80.0</link>
@@ -5599,13 +5613,6 @@
             <pubDate>Tue, 19 May 2026 19:35:50 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v3.84.0]]></title>
-            <description><![CDATA[### Added - Add SAP AI Core support for additional hosted models ### Fixed - Disable the MCP "Restart Server" button when a server is toggled off. ### Changed - Remove the Cline Kanban launch modal and bundled demo media from the VS Code extension startup flow. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.7...v3.84.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.84.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.84.0</guid>
-            <pubDate>Tue, 19 May 2026 17:17:31 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.17.3]]></title>
             <description><![CDATA[## What's Changed * fix: keep mountpoint credentials out of sandbox commands by @seratch in https://github.com/openai/openai-agents-python/pull/3429 * fix: unify memory optional dependency import errors by @seratch in https://github.com/openai/openai-agents-python/pull/3389 * fix: guard None text in text_message_output and add output guardrail count to RunErrorDetails by @zhoufengen in https://github.com/openai/openai-agents-python/pull/3375 * fix: avoid mutating FunctionTool params_json_schema by @ioleksiuk in https://github.com/openai/openai-agents-python/pull/3382 * fix: avoid mutating codex output schema input by @ioleksiuk in https://github.com/openai/openai-agents-python/pull/3385 * fix: #3357 output schema names for Literal types by @Aphroq in https://github.com/openai/openai-agents-python/pull/3358 * fix: skip wait_for_status when Vercel sandbox is in a terminal state by @cty-ut in https://github.com/openai/openai-agents-python/pull/3410 * fix: filter hosted_tool_call types in remove_all_tools handoff filter by @ioleksiuk in https://github.com/openai/openai-agents-python/pull/3386 * fix: guard None text in ItemHelpers.extract_last_content by @ioleksiuk in https://github.com/openai/openai-agents-python/pull/3394 * fix: log exception when output guardrail raises instead of silently ignoring by @cty-ut in https://github.com/openai/openai-agents-python/pull/3411 * fix: reject relative sandbox workspace roots by @matthewflint in https://github.com/openai/openai-agents-python/pull/3422 * fix: normalize leading question marks in exposed port queries by @matthewflint in https://github.com/openai/openai-agents-python/pull/3424 * fix: #3363 honor short custom voice splitter chunks by @Aphroq in https://github.com/openai/openai-agents-python/pull/3364 * fix: runtime handling updates by @adrianbravo-oai @ioleksiuk in https://github.com/openai/openai-agents-python/pull/3451 ### Documentation & Other Changes * docs: add SDK review guidance by @seratch in https://github.com/openai/openai-agents-python/pull/3376 * docs: mark Agent.instructions as optional by @ioleksiuk in https://github.com/openai/openai-agents-python/pull/3384 * docs: translate all pages using new settings by @seratch in https://github.com/openai/openai-agents-python/pull/3392 * docs: document auto_previous_response_id by @ioleksiuk in https://github.com/openai/openai-agents-python/pull/3383 * docs: fix LiteLLM API reference redirect by @ynachiket in https://github.com/openai/openai-agents-python/pull/3444 * docs: fix duplicated word in usaspending glossary example by @LeSingh1 in https://github.com/openai/openai-agents-python/pull/3445 * chore: clean up CI jobs and update uv pin by @seratch in https://github.com/openai/openai-agents-python/pull/3400 * ci: harden release tag workflow by @hintz-openai in https://github.com/openai/openai-agents-python/pull/3399 * Release 0.17.3 by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/3417 ## New Contributors * @zhoufengen made their first contribution in https://github.com/openai/openai-agents-python/pull/3375 * @hintz-openai made their first contribution in https://github.com/openai/openai-agents-python/pull/3399 * @cty-ut made their first contribution in https://github.com/openai/openai-agents-python/pull/3410 * @ynachiket made their first contribution in https://github.com/openai/openai-agents-python/pull/3444 * @LeSingh1 made their first contribution in https://github.com/openai/openai-agents-python/pull/3445 * @adrianbravo-oai made their first contribution in https://github.com/openai/openai-agents-python/pull/3451 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.17.2...v0.17.3]]></description>
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.17.3</link>
@@ -6276,13 +6283,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-preview.0</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-preview.0</guid>
             <pubDate>Tue, 05 May 2026 20:39:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.41.0-preview.3]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 7cc19c2 to release/v0.41.0-preview.2-pr-26507 to patch version v0.41.0-preview.2 and create version 0.41.0-preview.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26530 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.41.0-preview.2...v0.41.0-preview.3]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-preview.3</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.0-preview.3</guid>
-            <pubDate>Tue, 05 May 2026 19:44:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.1.5-pre]]></title>

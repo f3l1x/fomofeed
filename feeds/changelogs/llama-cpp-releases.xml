@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Aug 2026 16:52:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 18:54:06 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Aug 2026 13:17:39 GMT</pubDate>
+        <pubDate>Tue, 11 Aug 2026 17:12:37 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10361]]></title>
+            <description><![CDATA[model : fix SWA not being enabled for EXAONE 4.5 (#26848) * model : fix SWA not being enabled for EXAONE 4.5 load_arch_hparams tests hparams.n_layer() == 64 before LLM_KV_NEXTN_PREDICT_LAYERS has been read. n_layer() returns n_layer_all - n_layer_nextn and n_layer_nextn defaults to 0, so a GGUF carrying the MTP head (block_count=65, nextn=1) evaluates to 65 and the whole SWA block is skipped. The model type switch further down in the same function reads 64, because by then the key has been loaded. n_swa is still filled in by the unconditional get_key below the block, so llama_model_n_swa() reports 4096 and the logs look correct while only swa_type stays LLAMA_SWA_TYPE_NONE. This affects the official LGAI-EXAONE GGUF release as well. EXAONE 4.0 has no MTP head, so block_count is 64 there and the check matches. * model-loader : skip TENSOR_SKIP tensors in the metadata-only path create_tensor asserts on a null buffer type when building from metadata alone, but buft_for_tensor returns null by design for tensors marked TENSOR_SKIP, which is how architectures with nextn/MTP layers mark theirs. Those models cannot be constructed by llama_model_init_from_user at all. The file-backed path below already returns nullptr for the same tensors, so callers see the same thing either way. * tests : cover exaone4 hparams ordering Builds a synthetic exaone4 model with the layout the shipped EXAONE 4.5 GGUFs use (block_count 65 + nextn 1). The swa_type check is the one that catches the ordering bug; the n_layer_nextn and n_layer() checks only tell a broken fixture apart from a real regression. Fails before the ordering fix with "swa_type is not STANDARD", passes after. * Revert "tests : cover exaone4 hparams ordering" This reverts commit d2f3bafeee591ad691396b2708de4baef3aaf602. * Revert "model-loader : skip TENSOR_SKIP tensors in the metadata-only path" This reverts commit aecb9bc0c7896b52afbc43921a1f572aa7b5e53c. **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10361</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10361</guid>
+            <pubDate>Tue, 11 Aug 2026 17:12:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10360]]></title>
             <description><![CDATA[common/peg : suppress incomplete escape sequences (#26780) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10219</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10219</guid>
             <pubDate>Sat, 01 Aug 2026 16:46:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10218]]></title>
-            <description><![CDATA[mtmd: add minicpmv46 downsample (#25993) * add minicpmv46 downsample Signed-off-by: tc-mb * put downsample mode inside gguf. Signed-off-by: tc-mb * build mtmd_image_preprocessor_llava_uhd Signed-off-by: tc-mb * fix code Signed-off-by: tc-mb * add convert Signed-off-by: tc-mb * add 4x ignore vit merger Signed-off-by: tc-mb --------- Signed-off-by: tc-mb **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10218</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10218</guid>
-            <pubDate>Sat, 01 Aug 2026 12:46:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
