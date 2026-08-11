@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 10 Aug 2026 18:48:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 05:02:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 10 Aug 2026 10:49:15 GMT</pubDate>
+        <pubDate>Mon, 10 Aug 2026 23:49:29 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.8]]></title>
+            <description><![CDATA[## What's Changed * Add Muse Glimmer support for NVIDIA, AMD, and additional platforms **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.7...v0.32.8-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0</guid>
+            <pubDate>Mon, 10 Aug 2026 23:49:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.7]]></title>
             <description><![CDATA[## Muse Glimmer > Note: Muse Glimmer is currently available via initial support via Ollama's MLX engine on Apple Silicon. Additional support and optimizations for Apple Silicon, NVIDIA, AMD, and other platforms will be available in the coming days. **Muse Glimmer**, Meta's newest open model and the first released by Meta Superintelligence Labs, is now available on Ollama. It's a 30B multimodal model purpose-built for agent workloads that run locally. With Ollama, you can now use Muse Glimmer to power coding agent applications such as Claude Code, Codex, Pi and more, as well as long-running personal assistants such as OpenClaw and Hermes. Ollama's MLX engine provides state-of-the-art performance on Apple Silicon for this model, with support for DFlash and image input as of Ollama 0.32.7. To download and run Muse Glimmer locally: To run Muse Glimmer on Apple Silicon with Claude Code, download Ollama and run: For a lighter-weight coding agent, try Pi: For personal assistant frameworks such as OpenClaw and Hermes, use:]]></description>
@@ -869,13 +876,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.11.3</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.3</guid>
             <pubDate>Wed, 06 Aug 2025 01:29:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.11.2]]></title>
-            <description><![CDATA[## What's Changed * Fix crash in gpt-oss when using kv cache quanitization * Fix gpt-oss bug with "currentDate" not defined **Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.1...v0.11.2]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.11.2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.2</guid>
-            <pubDate>Tue, 05 Aug 2025 21:18:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI gpt-oss]]></title>
