@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Aug 2026 08:46:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 14:51:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 10 Aug 2026 23:49:29 GMT</pubDate>
+        <pubDate>Tue, 11 Aug 2026 13:23:33 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.9]]></title>
+            <description><![CDATA[## NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management stack for running always-on AI agents. ## What's Changed * Added the Nemotron 3 architecture * Handle boundary condition in Muse Glimmer function calling parser **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.8...v0.32.9]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.9</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.9</guid>
+            <pubDate>Tue, 11 Aug 2026 13:23:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.8]]></title>
             <description><![CDATA[## Muse Glimmer Muse Glimmer is now available on all platforms. Muse Glimmer can power coding agent applications such as Claude Code, Codex, Pi and more, as well as long-running personal assistants such as OpenClaw and Hermes. Ollama's MLX engine provides state-of-the-art performance on Apple Silicon for this model, with support for DFlash and image input as of Ollama 0.32.7. To download and run Muse Glimmer locally: To run Muse Glimmer with Claude Code, download Ollama and run: For a lighter-weight coding agent, try Pi: For personal assistant frameworks such as OpenClaw and Hermes, use: ## What's Changed * Add Muse Glimmer support for NVIDIA, AMD, and additional platforms **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.7...v0.32.8]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.11.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.4</guid>
             <pubDate>Thu, 07 Aug 2025 17:17:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.11.3]]></title>
-            <description><![CDATA[## What's Changed * Fixed issue where gpt-oss would consume too much VRAM when split across GPU & CPU or multiple GPUs * Statically link C++ libraries on windows for better compatibility **Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.2...v0.11.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.11.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.3</guid>
-            <pubDate>Wed, 06 Aug 2025 01:29:59 GMT</pubDate>
         </item>
     </channel>
 </rss>

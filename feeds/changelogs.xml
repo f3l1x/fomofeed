@@ -4,11 +4,46 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Aug 2026 08:48:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 14:53:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Aug 2026 05:17:49 GMT</pubDate>
+        <pubDate>Tue, 11 Aug 2026 13:23:33 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.9]]></title>
+            <description><![CDATA[## NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management stack for running always-on AI agents. ## What's Changed * Added the Nemotron 3 architecture * Handle boundary condition in Muse Glimmer function calling parser **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.8...v0.32.9]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.9</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.9</guid>
+            <pubDate>Tue, 11 Aug 2026 13:23:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10360]]></title>
+            <description><![CDATA[common/peg : suppress incomplete escape sequences (#26780) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10360</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10360</guid>
+            <pubDate>Tue, 11 Aug 2026 13:17:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10359]]></title>
+            <description><![CDATA[ggml-webgpu: fix CI errors from #25025 and #25262 (#26566) * test new flash_attn test * rebase and fix to disable subgrou matrices when max_kv_tile == 0 * delete log output * Add i32 support to cpy and enables the all ops test * restore the non target ci tests * comment out of TODO of build-cpu.yml * fix format **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10359</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10359</guid>
+            <pubDate>Tue, 11 Aug 2026 10:48:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.27.1]]></title>
+            <description><![CDATA[This is a patch release on top of v0.27.0. - Support quantized DSpark Markov heads (#50424)]]></description>
+            <link>https://github.com/vllm-project/vllm/releases/tag/v0.27.1</link>
+            <guid isPermaLink="false">https://github.com/vllm-project/vllm/releases/tag/v0.27.1</guid>
+            <pubDate>Tue, 11 Aug 2026 10:47:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10358]]></title>
+            <description><![CDATA[Address review comment of PR 25532 (#26852) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10358</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10358</guid>
+            <pubDate>Tue, 11 Aug 2026 09:04:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10357]]></title>
             <description><![CDATA[opencl: transpose the K tile in local memory for FA prefill kernels (#26428) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -1319,13 +1354,6 @@
             <pubDate>Sat, 01 Aug 2026 11:44:45 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b10217]]></title>
-            <description><![CDATA[chat : enable tool call in thinking for DS4 (#26269) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10217</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10217</guid>
-            <pubDate>Sat, 01 Aug 2026 06:50:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[SDK v0.0.68]]></title>
             <description><![CDATA[- Provider errors forwarded through the Vercel AI Gateway now surface the real upstream message (e.g. "This model's maximum context length is 40960 tokens...") instead of a raw Zod issue dump, and opaque object errors no longer render as [object Object] - fetchClineRecommendedModels now returns display-ready model names, resolved through the model catalog (including Vercel and OpenRouter id aliases) under a single shared timeout budget, so hosts no longer have to map ids to names themselves - Cline free models now resolve their OpenRouter display names in the catalog - The live catalog no longer drops the video input capability - On Windows, PowerShell commands now travel over UTF-8 stdin instead of the command line, so non-ASCII commands survive the active code page and long commands are not capped by the Windows command-line limit — getShellInvocation() replaces the now-deprecated getShellArgs(), and a stdin write failure surfaces as a command error instead of hanging - Fixed sessions rooted at the filesystem root (/) failing to run any command: basename("/") produced an empty workspace hint that schema validation rejected, so every command threw - Exported the finish-reason and auth-error helpers used to describe agent errors **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.67...sdk/sdk/v0.0.68]]></description>
             <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.68</link>
@@ -1354,13 +1382,6 @@
             <pubDate>Sat, 01 Aug 2026 01:08:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b10216]]></title>
-            <description><![CDATA[vulkan: add POOL_1D op (#25431) * vulkan : add pool1d push constants and pipeline field Declared data structures needed for POOL1D OP, which are the vk_op_pool1d_push_constants struct and pipeline_pool1d_f32 field. * vulkan : add pool1d compute shader Added pool1d.comp for Vulkan backend mirroring the existing pool2d shader. * vulkan : add full GGML_OP_POOL_1D support Added pipeline creation and op dispatch for 1D pooling in the Vulkan backend. * vulkan : fix pool1d shader logic Registered pool1d_f32 in vulkan-shaders-gen.cpp and fixed tensor dimension indices and avg pool scale. * vulkan : fix pool1d end boundary crash and expand test coverage Fixed an issue where the shader crashed when the end boundary was negative when k0 < p0. Also, added more test cases related to this fix. **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10216</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10216</guid>
-            <pubDate>Fri, 31 Jul 2026 22:04:52 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Release v0.54.0-preview.1]]></title>
             <description><![CDATA[## What's Changed * fix(patch): cherry-pick f47d6c6 to release/v0.54.0-preview.0-pr-28566 to patch version v0.54.0-preview.0 and create version 0.54.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28609 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-preview.0...v0.54.0-preview.1]]></description>
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-preview.1</link>
@@ -1373,13 +1394,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.1</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.1</guid>
             <pubDate>Fri, 31 Jul 2026 21:34:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10215]]></title>
-            <description><![CDATA[vulkan: Introduce driver version check for Windows Intel GPU to mitigate crashing (#25192) * Removed crash guard for Intel Crash fixed from driver 32.0.101.8860 * Added driver version check for windows * Change to convert from driverVersion rather than string * No need to use signed * Refactor * allow GPU other than Xe2+ * adjusted function body position **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10215</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10215</guid>
-            <pubDate>Fri, 31 Jul 2026 21:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.88.0]]></title>
@@ -11171,13 +11185,6 @@
             <pubDate>Wed, 06 Aug 2025 11:04:11 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.11.3]]></title>
-            <description><![CDATA[## What's Changed * Fixed issue where gpt-oss would consume too much VRAM when split across GPU & CPU or multiple GPUs * Statically link C++ libraries on windows for better compatibility **Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.2...v0.11.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.11.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.3</guid>
-            <pubDate>Wed, 06 Aug 2025 01:29:59 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v1.2.0 rc 0]]></title>
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.2.0-rc0</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.2.0-rc0</guid>
@@ -14512,13 +14519,6 @@
             <link>https://github.com/Aider-AI/aider/releases/tag/v0.8.0</link>
             <guid isPermaLink="false">https://github.com/Aider-AI/aider/releases/tag/v0.8.0</guid>
             <pubDate>Thu, 06 Jul 2023 21:09:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vLLM v0.1.2]]></title>
-            <description><![CDATA[## What's Changed - Initial support for GPTBigCode - Support for MPT and BLOOM - Custom tokenizer - ChatCompletion endpoint in OpenAI demo server - Code format - Various bug fixes and improvements - Documentation improvement ## Contributors Thanks to the following amazing people who contributed to this release: @michaelfeil @WoosukKwon @metacryptom @merrymercy @BasicCoder @zhuohan123 @twaka @comaniac @neubig @JRC1995 @LiuXiaoxuanPKU @bm777 @Michaelvll @gesanqiu @ironpinguin @coolcloudcol @akxxsb **Full Changelog**: https://github.com/vllm-project/vllm/compare/v0.1.1...v0.1.2]]></description>
-            <link>https://github.com/vllm-project/vllm/releases/tag/v0.1.2</link>
-            <guid isPermaLink="false">https://github.com/vllm-project/vllm/releases/tag/v0.1.2</guid>
-            <pubDate>Wed, 05 Jul 2023 04:51:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.7.2]]></title>
