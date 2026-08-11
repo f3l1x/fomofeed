@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Blog]]></description>
         <link>https://ollama.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Aug 2026 14:51:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 16:51:33 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/ollama-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 10 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[NVIDIA Nemotron 3.5 Lightning]]></title>
+            <description><![CDATA[NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware.]]></description>
+            <link>https://ollama.com/blog/nemotron-3-5-lightning</link>
+            <guid isPermaLink="false">https://ollama.com/blog/nemotron-3-5-lightning</guid>
+            <pubDate>Mon, 10 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Muse Glimmer from Meta Superintelligence Labs is now available]]></title>
             <description><![CDATA[Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and accelerated by Ollama's MLX engine with new native DFlash and image input support.]]></description>

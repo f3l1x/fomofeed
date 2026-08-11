@@ -4,7 +4,7 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Aug 2026 14:53:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 16:53:34 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 11 Aug 2026 13:23:33 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -22,6 +22,13 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.32.8</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.8</guid>
             <pubDate>Mon, 10 Aug 2026 23:49:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIA Nemotron 3.5 Lightning]]></title>
+            <description><![CDATA[NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware.]]></description>
+            <link>https://ollama.com/blog/nemotron-3-5-lightning</link>
+            <guid isPermaLink="false">https://ollama.com/blog/nemotron-3-5-lightning</guid>
+            <pubDate>Mon, 10 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.32.7]]></title>
