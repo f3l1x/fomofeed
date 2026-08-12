@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Aug 2026 18:53:59 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Aug 2026 05:26:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Aug 2026 18:41:32 GMT</pubDate>
+        <pubDate>Wed, 12 Aug 2026 01:35:53 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.148.0-alpha.9]]></title>
+            <description><![CDATA[Release 0.148.0-alpha.9]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.9</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.9</guid>
+            <pubDate>Wed, 12 Aug 2026 01:35:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.148.0-alpha.8]]></title>
             <description><![CDATA[Release 0.148.0-alpha.8]]></description>
@@ -693,13 +700,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.26</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.26</guid>
             <pubDate>Fri, 26 Jun 2026 20:08:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.143.0-alpha.25]]></title>
-            <description><![CDATA[Release 0.143.0-alpha.25]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.25</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.25</guid>
-            <pubDate>Thu, 25 Jun 2026 21:55:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.142.2]]></title>
