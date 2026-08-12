@@ -4,11 +4,18 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Aug 2026 14:53:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Aug 2026 16:52:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Grok 4.6 is now available in Devin]]></title>
+            <description><![CDATA[Grok 4.6 is now live in Devin Desktop and the Devin CLI, marking a significant improvement over Grok 4.5 on FrontierCode 1.1.]]></description>
+            <link>https://windsurf.com/blog/grok-4-6</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/grok-4-6</guid>
+            <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Stacked PRs in Devin]]></title>
             <description><![CDATA[Devin now breaks large tasks into stacks of small, independently reviewable PRs — handling rebasing, conflict resolution, and CI verification for you.]]></description>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/windsurf-is-now-devin-desktop</link>
             <guid isPermaLink="false">https://windsurf.com/blog/windsurf-is-now-devin-desktop</guid>
             <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Opus 4.7 (fast mode) is now available in Windsurf]]></title>
-            <description><![CDATA[Claude Opus 4.7 (fast mode) is now available in Windsurf with the full intelligence of Opus 4.7 and ~2.5x higher output speeds.]]></description>
-            <link>https://windsurf.com/blog/opus-47-fast</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/opus-47-fast</guid>
-            <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>

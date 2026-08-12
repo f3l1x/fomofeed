@@ -4,11 +4,26 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Aug 2026 14:53:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Aug 2026 16:52:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 10 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Grok 4.6 is now available in Devin]]></title>
+            <description><![CDATA[Grok 4.6 is now live in Devin Desktop and the Devin CLI, marking a significant improvement over Grok 4.5 on FrontierCode 1.1.]]></description>
+            <link>https://windsurf.com/blog/grok-4-6</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/grok-4-6</guid>
+            <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Grok 4.6]]></title>
+            <description><![CDATA[Built for long-running agents and more ambitious interactive and visual work.]]></description>
+            <link>https://cursor.com/blog/grok-4-6</link>
+            <guid isPermaLink="false">https://cursor.com/blog/grok-4-6</guid>
+            <category><![CDATA[Research]]></category>
+            <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[NVIDIA Nemotron 3.5 Lightning]]></title>
             <description><![CDATA[NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware.]]></description>
@@ -164,10 +179,9 @@
         </item>
         <item>
             <title><![CDATA[Introducing Grok 4.5]]></title>
-            <description><![CDATA[Our most intelligent model and the first we've built for more than software engineering.]]></description>
             <link>https://cursor.com/blog/grok-4-5</link>
             <guid isPermaLink="false">https://cursor.com/blog/grok-4-5</guid>
-            <category><![CDATA[Research]]></category>
+            <category><![CDATA[research]]></category>
             <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -239,13 +253,6 @@
             <link>https://cursor.com/blog/notion</link>
             <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
             <category><![CDATA[product]]></category>
-            <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Reward hacking is swamping model intelligence gains]]></title>
-            <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
-            <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
-            <category><![CDATA[research]]></category>
             <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -362,13 +369,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/we-tried-ty-for-performance-it-found-real-bugs</guid>
             <category><![CDATA[Engineering]]></category>
             <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Opus 4.7 (fast mode) is now available in Windsurf]]></title>
-            <description><![CDATA[Claude Opus 4.7 (fast mode) is now available in Windsurf with the full intelligence of Opus 4.7 and ~2.5x higher output speeds.]]></description>
-            <link>https://windsurf.com/blog/opus-47-fast</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/opus-47-fast</guid>
-            <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Interaction Models: A Scalable Approach to Human-AI Collaboration]]></title>

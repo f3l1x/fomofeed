@@ -4,11 +4,19 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Aug 2026 14:53:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Aug 2026 16:52:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Grok 4.6]]></title>
+            <description><![CDATA[Built for long-running agents and more ambitious interactive and visual work.]]></description>
+            <link>https://cursor.com/blog/grok-4-6</link>
+            <guid isPermaLink="false">https://cursor.com/blog/grok-4-6</guid>
+            <category><![CDATA[Research]]></category>
+            <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How Cursor Router chooses the right model for the task]]></title>
             <link>https://cursor.com/blog/how-cursor-router-works</link>
@@ -67,10 +75,9 @@
         </item>
         <item>
             <title><![CDATA[Introducing Grok 4.5]]></title>
-            <description><![CDATA[Our most intelligent model and the first we've built for more than software engineering.]]></description>
             <link>https://cursor.com/blog/grok-4-5</link>
             <guid isPermaLink="false">https://cursor.com/blog/grok-4-5</guid>
-            <category><![CDATA[Research]]></category>
+            <category><![CDATA[research]]></category>
             <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -93,13 +100,6 @@
             <link>https://cursor.com/blog/notion</link>
             <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
             <category><![CDATA[product]]></category>
-            <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Reward hacking is swamping model intelligence gains]]></title>
-            <link>https://cursor.com/blog/reward-hacking-coding-benchmarks</link>
-            <guid isPermaLink="false">https://cursor.com/blog/reward-hacking-coding-benchmarks</guid>
-            <category><![CDATA[research]]></category>
             <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
