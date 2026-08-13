@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 07:16:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 09:05:07 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 13 Aug 2026 06:19:04 GMT</pubDate>
+        <pubDate>Thu, 13 Aug 2026 07:40:26 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v4.1.9]]></title>
+            <description><![CDATA[### Changed - Use the editor's foreground color for diff block text, so diffs stay legible in themes where the previous hardcoded color washed them out. - Switch the interface to Inter and Geist Mono. ### Fixed - Don't discard a successfully refreshed Cline token when the old one was already past expiry, which made the first request after a long idle period fail despite valid credentials. - Stop the legacy-task migration backlog from spamming telemetry, and record a migration outcome only once the seeded session actually persists, so a failed migration is no longer reported as a success. - Report involuntary Cline logouts (a rejected refresh token) instead of clearing credentials silently. ### Fixed (SDK bundle only) These land through SDK v0.0.74 and therefore apply to windows running the SDK bundle, not the legacy one. - Fix the Claude Code provider being unusable for agentic work: it now runs its own native tools instead of receiving tool definitions it cannot bridge, anchors the session on your workspace directory, and loads ~/.claude plus project settings so your permission rules apply. - Reject truncated tool-call JSON instead of silently "repairing" it into wrong arguments. - Fix strict providers rejecting a turn with "user message must have content" when a message's content held only empty text parts. - Fix a mid-turn crash on streamed tool calls with non-zero or non-contiguous indexes, hit through LiteLLM's Anthropic passthrough. - Report disjoint per-request token buckets instead of re-counting the whole cached conversation on every request, which inflated per-task totals roughly 5x on cache-heavy sessions. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.8...v4.1.9]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.1.9</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.9</guid>
+            <pubDate>Thu, 13 Aug 2026 07:40:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.54]]></title>
             <description><![CDATA[- Fixed the Claude Code provider being unusable for agentic work: the provider now runs its own native tools instead of receiving tool definitions it cannot bridge, the session is anchored on your workspace directory instead of inheriting the host's cwd, and ~/.claude plus project settings are loaded so your permission rules apply. File edits under the workspace are auto-approved; command execution stays gated by your own Claude settings (from SDK v0.0.74) - Fixed truncated tool-call JSON being silently "repaired" into wrong arguments — a payload with an unterminated string is now rejected rather than getting an invented terminator (from SDK v0.0.74) - Fixed strict providers rejecting a turn with "user message must have content" when a message's content held only empty text parts (from SDK v0.0.74) - Fixed a mid-turn crash on streamed tool calls with non-zero or non-contiguous indexes, hit through LiteLLM's Anthropic passthrough (from SDK v0.0.74) - Managed Hub daemons now upgrade directionally: when another Cline install ships a newer Hub build, the CLI attaches to the newer daemon and prompts you to update and restart instead of the two installs repeatedly retiring each other's daemons. Yolo and sandbox sessions, which never attach to the shared Hub, are not interrupted by that prompt (from SDK v0.0.74) - Fixed the Hub daemon logging an unhandled hub server close failed error and exiting non-zero whenever a client was still connected at shutdown (from SDK v0.0.74) - Fixed per-task token totals being inflated roughly 5x on cache-heavy sessions — token telemetry now reports disjoint uncached-input, cache-read, and cache-write buckets instead of re-counting the whole cached conversation on every request (from SDK v0.0.74) - Upgrading the CLI now retires an already-running Hub daemon and respawns it on the new code, instead of the upgraded CLI continuing to talk to a daemon executing the previous release **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.53...cli-v3.0.54]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.85.0</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.85.0</guid>
             <pubDate>Mon, 25 May 2026 18:12:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.13]]></title>
-            <description><![CDATA[- Show a loading dialog while resuming a session from history so the TUI no longer appears frozen during the load. - Speed up the /clear command by deferring new session creation until you send the next prompt, so clearing no longer blocks on spinning up an empty session. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.12...cli-v3.0.13]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.13</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.13</guid>
-            <pubDate>Sat, 23 May 2026 00:48:44 GMT</pubDate>
         </item>
     </channel>
 </rss>
