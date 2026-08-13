@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 09:07:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 14:53:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 12 Aug 2026 07:00:00 GMT</pubDate>
+        <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Cursor earns AIUC-1 certification for agent security and reliability]]></title>
+            <link>https://cursor.com/blog/aiuc-1</link>
+            <guid isPermaLink="false">https://cursor.com/blog/aiuc-1</guid>
+            <category><![CDATA[company]]></category>
+            <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[AI Product Engineering Notes]]></title>
             <link>https://hamel.dev/notes/llm/ai-product-engineering/index.html</link>
@@ -253,13 +260,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/ios-mobile-app</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How Notion used the Cursor SDK to embed coding agents]]></title>
-            <link>https://cursor.com/blog/notion</link>
-            <guid isPermaLink="false">https://cursor.com/blog/notion</guid>
-            <category><![CDATA[product]]></category>
-            <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Kimi K2.7 and GLM 5.2 Now Available in Devin Desktop and CLI]]></title>
