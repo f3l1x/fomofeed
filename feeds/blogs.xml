@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 16:51:01 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 18:55:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Gemini 3.7 Flash is now available in Devin]]></title>
+            <description><![CDATA[Gemini 3.7 Flash is now live in Devin Desktop and Devin CLI, reaching Claude Sonnet 5-level performance at less than half the cost. Available at a 50% discount for two weeks.]]></description>
+            <link>https://windsurf.com/blog/gemini-37-flash</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gemini-37-flash</guid>
+            <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Cursor earns AIUC-1 certification for agent security and reliability]]></title>
             <link>https://cursor.com/blog/aiuc-1</link>
@@ -338,13 +345,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-1</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Windsurf is now Devin Desktop]]></title>
-            <description><![CDATA[The next generation of Windsurf: a full IDE with the Agent Command Center built in for managing fleets of local and cloud agents from one surface.]]></description>
-            <link>https://windsurf.com/blog/windsurf-is-now-devin-desktop</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-is-now-devin-desktop</guid>
-            <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Dagster Compass Powers Brooklyn Data’s Self-Service Analytics]]></title>

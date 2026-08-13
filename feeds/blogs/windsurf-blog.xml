@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 16:49:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 18:53:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Gemini 3.7 Flash is now available in Devin]]></title>
+            <description><![CDATA[Gemini 3.7 Flash is now live in Devin Desktop and Devin CLI, reaching Claude Sonnet 5-level performance at less than half the cost. Available at a 50% discount for two weeks.]]></description>
+            <link>https://windsurf.com/blog/gemini-37-flash</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gemini-37-flash</guid>
+            <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Grok 4.6 is now available in Devin]]></title>
             <description><![CDATA[Grok 4.6 is now live in Devin Desktop and the Devin CLI, marking a significant improvement over Grok 4.5 on FrontierCode 1.1.]]></description>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/security-in-devin-review</link>
             <guid isPermaLink="false">https://windsurf.com/blog/security-in-devin-review</guid>
             <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Windsurf is now Devin Desktop]]></title>
-            <description><![CDATA[The next generation of Windsurf: a full IDE with the Agent Command Center built in for managing fleets of local and cloud agents from one surface.]]></description>
-            <link>https://windsurf.com/blog/windsurf-is-now-devin-desktop</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/windsurf-is-now-devin-desktop</guid>
-            <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>
