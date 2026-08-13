@@ -4,11 +4,23 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Aug 2026 16:51:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 05:28:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Patterns and problems in emerging multiagent systems]]></title>
+            <link>https://www.anthropic.com/research/multiagent-systems</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/multiagent-systems</guid>
+            <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reviewing the evidence on worker retraining programs]]></title>
+            <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
+            <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Learning more about Claude's mathematical capabilities]]></title>
             <description><![CDATA[An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.]]></description>
@@ -58,18 +70,6 @@
             <link>https://www.anthropic.com/research/global-workspace</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
             <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic Economic Index report: Cadences]]></title>
-            <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
-            <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Project Fetch: Phase two]]></title>
-            <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-phase-two</guid>
-            <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Teaching Claude why]]></title>

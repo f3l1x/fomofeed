@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Hamel Husain's Blog]]></description>
         <link>https://hamel.dev</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Aug 2026 16:50:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 05:28:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/hamel.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 11 Jul 2026 07:00:00 GMT</pubDate>
+        <pubDate>Wed, 12 Aug 2026 07:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[AI Product Engineering Notes]]></title>
+            <link>https://hamel.dev/notes/llm/ai-product-engineering/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/llm/ai-product-engineering/index.html</guid>
+            <pubDate>Wed, 12 Aug 2026 07:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Do Automated Evals Work?]]></title>
             <link>https://parlance-labs.com/blog/posts/auto-evals.html</link>
@@ -245,8 +251,8 @@
         </item>
         <item>
             <title><![CDATA[How to Automate Tasks on GitHub With Machine Learning for Fun and Profit]]></title>
-            <link>https://medium.com/@hamelhusain/mlapp-419f90e8f007?source=friends_link&amp;sk=760e18a2d6e60999d7eb2887352a92a8</link>
-            <guid isPermaLink="false">https://medium.com/@hamelhusain/mlapp-419f90e8f007?source=friends_link&amp;sk=760e18a2d6e60999d7eb2887352a92a8</guid>
+            <link>https://medium.com/%40hamelhusain/mlapp-419f90e8f007?sk=760e18e8f007</link>
+            <guid isPermaLink="false">https://medium.com/%40hamelhusain/mlapp-419f90e8f007?sk=760e18e8f007</guid>
             <pubDate>Wed, 10 Apr 2019 07:00:00 GMT</pubDate>
         </item>
         <item>
@@ -257,8 +263,8 @@
         </item>
         <item>
             <title><![CDATA[How To Create Magical Data Products Using Sequence-to-Sequence Models]]></title>
-            <link>https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</link>
-            <guid isPermaLink="false">https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</guid>
+            <link>https://medium.com/data-science/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</link>
+            <guid isPermaLink="false">https://medium.com/data-science/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</guid>
             <pubDate>Thu, 18 Jan 2018 08:00:00 GMT</pubDate>
         </item>
         <item>

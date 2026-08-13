@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Aug 2026 16:52:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 05:30:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 12 Aug 2026 07:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[AI Product Engineering Notes]]></title>
+            <link>https://hamel.dev/notes/llm/ai-product-engineering/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/notes/llm/ai-product-engineering/index.html</guid>
+            <pubDate>Wed, 12 Aug 2026 07:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Grok 4.6 is now available in Devin]]></title>
             <description><![CDATA[Grok 4.6 is now live in Devin Desktop and the Devin CLI, marking a significant improvement over Grok 4.5 on FrontierCode 1.1.]]></description>
@@ -1040,8 +1046,8 @@
         </item>
         <item>
             <title><![CDATA[How to Automate Tasks on GitHub With Machine Learning for Fun and Profit]]></title>
-            <link>https://medium.com/@hamelhusain/mlapp-419f90e8f007?source=friends_link&amp;sk=760e18a2d6e60999d7eb2887352a92a8</link>
-            <guid isPermaLink="false">https://medium.com/@hamelhusain/mlapp-419f90e8f007?source=friends_link&amp;sk=760e18a2d6e60999d7eb2887352a92a8</guid>
+            <link>https://medium.com/%40hamelhusain/mlapp-419f90e8f007?sk=760e18e8f007</link>
+            <guid isPermaLink="false">https://medium.com/%40hamelhusain/mlapp-419f90e8f007?sk=760e18e8f007</guid>
             <pubDate>Wed, 10 Apr 2019 07:00:00 GMT</pubDate>
         </item>
         <item>
@@ -1052,8 +1058,8 @@
         </item>
         <item>
             <title><![CDATA[How To Create Magical Data Products Using Sequence-to-Sequence Models]]></title>
-            <link>https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</link>
-            <guid isPermaLink="false">https://towardsdatascience.com/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</guid>
+            <link>https://medium.com/data-science/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</link>
+            <guid isPermaLink="false">https://medium.com/data-science/how-to-create-data-products-that-are-magical-using-sequence-to-sequence-models-703f86a231f8</guid>
             <pubDate>Thu, 18 Jan 2018 08:00:00 GMT</pubDate>
         </item>
         <item>

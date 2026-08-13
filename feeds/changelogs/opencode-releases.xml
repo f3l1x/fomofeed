@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Aug 2026 16:52:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 05:28:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 10 Aug 2026 06:07:08 GMT</pubDate>
+        <pubDate>Thu, 13 Aug 2026 01:15:04 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.18]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Select the Kimi system prompt correctly for official Moonshot and Kimi providers - Fix xhigh reasoning effort for xai models]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.18</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.18</guid>
+            <pubDate>Thu, 13 Aug 2026 01:15:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.17]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Made session compaction keep complete recent turns and produce clearer summaries for smaller models. - Added MERGE Gateway reasoning variants so those model options work correctly. (@MatthewFeroz) - Capped automatic session retries and added jitter to reduce repeated retry storms. - Enabled PDF attachments for GitHub Copilot models that advertise PDF vision support. (@stevenao) - Applied the correct sampling defaults to DeepSeek V4 Flash on supported providers. - Routed all Muse family models to the correct Meta system prompt. (@mreso) ## Desktop ### Bugfixes - Updated Chinese developer terminology to use more widely recognized translations. - Used the server's current default model instead of stale local config when choosing the default model. **Thank you to 6 community contributors:** - @mreso: - fix(session): route all Muse family models to the Meta system prompt (#41581) - @OpeOginni: - fix(ui): correct OC-2 weak icon color (#41504) - @peculiarnewbie: - feat(console): add go usage endpoint (#16513) - @stevenao: - fix(opencode): detect Copilot PDF input support (#41522) - @MatthewFeroz: - fix(provider): add Merge Gateway reasoning variants (#41867) - @skyzhao1223: - docs: fix broken DigitalOcean and Daytona links (#42048) - docs: fix provider display name and PAT typos (#42034)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.17</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.17</guid>
+            <pubDate>Wed, 12 Aug 2026 20:25:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.16]]></title>
             <description><![CDATA[## Core ### Bugfixes - Ignore unknown top-level config fields instead of failing config parsing - Register projects opened from Home so they are available to the rest of the app ## Desktop ### Improvements - Open the project menu with a right-click in Home ### Bugfixes - Fall back to listing and matching local directories when the project picker server does not support search - Use 词元 instead of 令牌 for token-related labels in Simplified Chinese (@Speechlessmanbilibili) - Keep the macOS app running after the last window closes and reopen a window when the app is activated **Thank you to 1 community contributor:** - @Speechlessmanbilibili: - fix(i18n): use 词元 instead of 令牌 for token in zh locale (#40977)]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.5</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.5</guid>
             <pubDate>Wed, 15 Apr 2026 04:25:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.4]]></title>
-            <description><![CDATA[## Core - Restored instance and logger context during prompt runs so prompt-time tools and logging behave correctly. - Kept GitHub Copilot compaction requests valid. - Restored the flat reply shape for question API responses. - Persisted MCP OAuth connections that finish immediately, so authenticated servers stay connected. - Prevented duplicate user messages in ACP clients. - Stopped emitting user_message_chunk events during session and prompt turns in ACP clients. (@RAIT-09) - Fixed reasoning summary injection for @ai-sdk/openai-compatible providers. (@nazarhnatyshen) - Added the experimental compaction.autocontinue hook to stop auto-continuing after compaction. - Added Alibaba provider support with cache support. - Snapshots now fully respect .gitignore, including previously tracked files. - Reading images no longer counts against quota. - Sessions can now update project permissions mid-run. (@remorses) - Enabled thinking for zhipuai-coding-plan and fixed Korean IME truncation. (@claudianus) ## TUI - Added opencode export --sanitize to redact PII and confidential transcript data. - Fixed diff line number contrast in built-in themes. - Plugin auth login now asks for an API key when a plugin needs authorization. (@goniz) - Plugin auth no longer asks for an API key when the plugin has no authorize method. (@goniz) ## Desktop - Fixed the Windows desktop backend hanging before shutdown. ## SDK - The JavaScript SDK now throws a clear error when an older server responds with HTML instead of the API. ## Extensions - Plugins can now register custom workspace adaptors that appear in workspace creation. **Thank you to 9 community contributors:** - @claudianus: - fix: enable thinking for zhipuai-coding-plan & prevent Korean IME truncation (#22041) - @remorses: - feat: allow session permission updates (#22070) - @simonklee: - chore(github): vouch simonklee (#22127) - @shafdev: - fix(opencode): remove spurious scripts and randomField from package.json (#22160) - @goniz: - fix(cli): auth login now asks for api key in handlePluginAuth (#21641) - fix(cli): handlePluginAuth asks for api key only if authorize method exists (#22475) - @github-actions[bot]: - Update VOUCHED list - @nazarhnatyshen: - fix(provider): guard reasoningSummary injection for @ai-sdk/openai-compatible providers (#22352) - @RAIT-09: - fix(acp): stop emitting user_message_chunk during session/prompt turn (#21851) - @gigamonster256: - chore(nix): remove external ripgrep (#22482)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.4</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.4</guid>
-            <pubDate>Wed, 15 Apr 2026 00:04:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.3]]></title>
-            <description><![CDATA[## Core - Fixed agent create for OpenAI accounts authenticated with OAuth. - Interrupted Bash commands now keep their final output and truncation details instead of ending as aborted. - Added fast mode variants for supported Claude and GPT models. ## TUI - Restored the hidden session scrollbar as the default. ## Extensions - Added configurable OAuth redirect URIs for remote MCP servers. (@egze) **Thank you to 2 community contributors:** - @egze: - feat(mcp): add OAuth redirect URI configuration for MCP servers (#21385) - @simonklee: - opencode: lazy-load top-level CLI commands - Revert "opencode: lazy-load top-level CLI commands" (#21726)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.3</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.3</guid>
-            <pubDate>Fri, 10 Apr 2026 01:00:36 GMT</pubDate>
         </item>
     </channel>
 </rss>
