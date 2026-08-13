@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 14:53:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 16:51:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 13 Aug 2026 01:19:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -171,13 +171,6 @@
             <pubDate>Thu, 30 Jul 2026 01:27:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How to use Google microbenchmarks for evaluating TPU performance]]></title>
-            <description><![CDATA[Google's open-source TPU microbenchmark suite provides developers with granular performance metrics across Network, Compute, HBM, Host Transfer, and Attention components to validate real-world hardware capabilities. By leveraging these benchmarks to establish a Roofline model, engineers can accurately diagnose whether their machine learning workloads are compute-, memory-, or network-bound. This empirical baseline directly guides targeted software optimizations—such as kernel tuning, mesh sharding, and rematerialization—to maximize hardware utilization for large-scale model deployments.]]></description>
-            <link>https://developers.googleblog.com/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/</guid>
-            <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Release v0.55.0-nightly.20260729.g3499c84f7]]></title>
             <description><![CDATA[## What's Changed * chore/release: bump version to 0.54.0-nightly.20260728.gbef611950 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28552 * feat(pr-generator-db): implement Firestore concurrency dual-locking and test ingestion utilities by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28432 * feat(pr-generator-agent): implement Antigravity agent runner and prompt templates … by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28434 * fix(core): skip merged function-response turns when finding the active loop by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/28565 * chore(release): bump version to 0.55.0-nightly.20260728.gd29268d36 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28569 ## New Contributors * @joneba-google made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28432 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260728.gbef611950...v0.55.0-nightly.20260729.g3499c84f7]]></description>
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260729.g3499c84f7</link>
@@ -218,13 +211,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf</guid>
             <pubDate>Sun, 26 Jul 2026 01:31:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Run Ray on TPU, Part 2: Ray AI libraries]]></title>
-            <description><![CDATA[This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correctly gang-schedule large multi-host models, while Ray Data eliminates data-loading bottlenecks by feeding accelerators directly with native JAX batches. Finally, JaxTrainer streamlines distributed training across TPUs by automatically handling cross-slice coordination, checkpointing, and fault tolerance.]]></description>
-            <link>https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/</guid>
-            <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.52.0-nightly.20260723.g9681621c6]]></title>
@@ -736,6 +722,20 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-preview.1</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-preview.1</guid>
             <pubDate>Tue, 05 May 2026 22:48:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Credentio: Open Source C++ Library for C2PA Content Credentials from Google]]></title>
+            <description><![CDATA[Credentio is a newly released, open-source C++ library from Google that allows developers to integrate high-performance, local-first validation of C2PA Content Credentials into their client and server applications. By processing assets entirely locally with a highly optimized memory footprint, the library delivers instant validation verdicts for multi-gigabyte media files without incurring cloud latency, bandwidth costs, or data privacy risks. The library currently features deep manifest parsing alongside configurable trust list integration, and is available now on Google Source with future plans to support full credential generation and embedding.]]></description>
+            <link>https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/</guid>
+            <pubDate>Fri, 27 Nov 2020 18:24:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[HeyGen x Google Cloud: Bringing Avatar IV to TPUs]]></title>
+            <description><![CDATA[HeyGen ported their 18B+ parameter Avatar IV video generation model to Google Cloud's Trillium (v6e) TPUs via torchax and XLA, utilizing FSDP and Ulysses sequence parallelism across an eight-chip mesh. To achieve a 1.86x speedup for real-time streaming, the engineering team pipelined exposed all-to-all collectives, aligned sparse attention block sizes to eliminate mask padding, and bypassed softmax serial dependencies using a precomputed Cauchy-Schwarz upper bound. These custom Pallas kernel and compiler optimizations were deployed only after passing rigorous two-tier quality gates to guarantee byte-identical or mathematically equivalent pixel outputs.]]></description>
+            <link>https://developers.googleblog.com/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/</guid>
+            <pubDate>Fri, 10 Jul 2020 19:47:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why Go is an Ideal Language for AI-Assisted Software Engineering]]></title>
