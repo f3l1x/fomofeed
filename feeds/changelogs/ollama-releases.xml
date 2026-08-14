@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 14 Aug 2026 14:45:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Aug 2026 16:43:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 14 Aug 2026 01:22:12 GMT</pubDate>
+        <pubDate>Fri, 14 Aug 2026 16:37:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.12]]></title>
+            <description><![CDATA[## Qwen 3.8 - 27B model support This release adds the support of Qwen 3.8 27B. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. Qwen 3.8 model page: https://ollama.com/library/qwen3.8 Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.12</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.12</guid>
+            <pubDate>Fri, 14 Aug 2026 16:37:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.11]]></title>
             <description><![CDATA[## What's Changed * ollama launch dsh now supports DeepSeek Harness, DeepSeek's open-source agent harness * ollama launch muse now supports Muse Code, Meta's agentic coding CLI * The OpenAI-compatible Responses API now supports web search * Muse Glimmer template updates **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.10...v0.32.11]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.11.7</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.7</guid>
             <pubDate>Mon, 25 Aug 2025 18:04:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.11.6]]></title>
-            <description><![CDATA[## What's Changed * Ollama's app will now switch between chats faster * Improved layout of messages in Ollama's app * Fixed issue where command prompt would show when Ollama's app detected an old version of Ollama running * Improved performance when using flash attention * Fixed boundary case when encoding text using BPE **Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.5...v0.11.6]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.11.6</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.6</guid>
-            <pubDate>Wed, 20 Aug 2025 21:00:13 GMT</pubDate>
         </item>
     </channel>
 </rss>
