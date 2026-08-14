@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 18:55:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Aug 2026 05:28:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 12 Aug 2026 22:36:49 GMT</pubDate>
+        <pubDate>Fri, 14 Aug 2026 01:22:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.32.11]]></title>
+            <description><![CDATA[## What's Changed * launch: add Muse Code integration by @dhiltgen in https://github.com/ollama/ollama/pull/17594 * model/renderers: match Muse Glimmer reasoning template by @dhiltgen in https://github.com/ollama/ollama/pull/17732 * launch: add DeepSeek Harness integration by @ParthSareen in https://github.com/ollama/ollama/pull/17733 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.10...v0.32.11]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.32.11</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.11</guid>
+            <pubDate>Fri, 14 Aug 2026 01:22:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.32.10]]></title>
             <description><![CDATA[## What's Changed - Models that don't set a repeat_penalty now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself. - Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer. - Fixed blob verification being skipped when an OCI manifest's config and layer share a digest. ## New Contributors * @vigneshakaviki made their first contribution in https://github.com/ollama/ollama/pull/15504 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.8...v0.32.10-rc1]]></description>
@@ -876,13 +883,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.11.6</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.6</guid>
             <pubDate>Wed, 20 Aug 2025 21:00:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.11.5]]></title>
-            <description><![CDATA[## What's Changed * Performance improvements for the gpt-oss models * New memory management: this release of Ollama includes improved memory management for scheduling models on GPUs, leading to better VRAM utilization, model performance and less out of memory errors. These new memory estimations can be enabled with OLLAMA_NEW_ESTIMATES=1 ollama serve and will soon be enabled by default. * Improved multi-GPU scheduling and reduced VRAM allocation when using more than 2 GPUs * Ollama's new app will now remember default selections for default model, Turbo and Web Search between restarts * Fix error when parsing bad harmony tool calls * OLLAMA_FLASH_ATTENTION=1 will also enable flash attention for pure-CPU models * Fixed OpenAI-compatible API not supporting reasoning_effort * Reduced size of installation on Windows and Linux ## New Contributors * @vorburger made their first contribution in https://github.com/ollama/ollama/pull/11755 * @dan-and made their first contribution in https://github.com/ollama/ollama/pull/10678 * @youzichuan made their first contribution in https://github.com/ollama/ollama/pull/11880 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.4...v0.11.5]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.11.5</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.5</guid>
-            <pubDate>Fri, 15 Aug 2025 02:38:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI gpt-oss]]></title>

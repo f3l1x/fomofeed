@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Aug 2026 18:55:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Aug 2026 05:28:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,13 @@
             <description><![CDATA[Gemini 3.7 Flash is now live in Devin Desktop and Devin CLI, reaching Claude Sonnet 5-level performance at less than half the cost. Available at a 50% discount for two weeks.]]></description>
             <link>https://windsurf.com/blog/gemini-37-flash</link>
             <guid isPermaLink="false">https://windsurf.com/blog/gemini-37-flash</guid>
+            <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Firetiger joins Cursor]]></title>
+            <link>https://cursor.com/blog/firetiger</link>
+            <guid isPermaLink="false">https://cursor.com/blog/firetiger</guid>
+            <category><![CDATA[company]]></category>
             <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -210,13 +217,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/grok-4-5</guid>
             <category><![CDATA[research]]></category>
             <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CFOs and the new economics of AI]]></title>
-            <link>https://cursor.com/blog/cfo-council</link>
-            <guid isPermaLink="false">https://cursor.com/blog/cfo-council</guid>
-            <category><![CDATA[company]]></category>
-            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Update on Claude Fable 5 in Devin]]></title>
