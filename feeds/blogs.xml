@@ -4,11 +4,19 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 14 Aug 2026 09:03:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Aug 2026 14:46:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 13 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Cursor is joining SpaceX]]></title>
+            <description><![CDATA[Cursor has officially been acquired by SpaceX.]]></description>
+            <link>https://cursor.com/blog/joining-spacex</link>
+            <guid isPermaLink="false">https://cursor.com/blog/joining-spacex</guid>
+            <category><![CDATA[Company]]></category>
+            <pubDate>Thu, 13 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Gemini 3.7 Flash is now available in Devin]]></title>
             <description><![CDATA[Gemini 3.7 Flash is now live in Devin Desktop and Devin CLI, reaching Claude Sonnet 5-level performance at less than half the cost. Available at a 50% discount for two weeks.]]></description>
@@ -212,13 +220,6 @@
             <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing Grok 4.5]]></title>
-            <link>https://cursor.com/blog/grok-4-5</link>
-            <guid isPermaLink="false">https://cursor.com/blog/grok-4-5</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Update on Claude Fable 5 in Devin]]></title>
             <description><![CDATA[Claude Fable 5 is now available in Devin Cloud’s Ultra agent, Devin Desktop, and Devin CLI.]]></description>
             <link>https://windsurf.com/blog/claude-fable-5-available-in-devin</link>
@@ -265,14 +266,6 @@
             <description><![CDATA[Gemma 4 is now significantly faster in Ollama 0.31 on Apple Silicon via multi-token prediction (MTP), powered by MLX. Performance is now up to 90% faster when used with coding agents, as measured using the Aider polyglot benchmark.]]></description>
             <link>https://ollama.com/blog/faster-gemma-4-mlx-mtp</link>
             <guid isPermaLink="false">https://ollama.com/blog/faster-gemma-4-mlx-mtp</guid>
-            <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Build from anywhere with Cursor for iOS]]></title>
-            <description><![CDATA[Cursor is available as a native iOS app on your phone, now in public beta.]]></description>
-            <link>https://cursor.com/blog/ios-mobile-app</link>
-            <guid isPermaLink="false">https://cursor.com/blog/ios-mobile-app</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
