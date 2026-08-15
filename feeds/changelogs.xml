@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Aug 2026 04:24:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Aug 2026 06:26:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 15 Aug 2026 04:11:49 GMT</pubDate>
+        <pubDate>Sat, 15 Aug 2026 05:24:03 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10437]]></title>
+            <description><![CDATA[model : add support for MiniMaxText01ForCausalLM and MiniMaxM1ForCausalLM (#27018) * llama : support for MiniMax-Text-01 model * chore : renames to match the other MiniMax models * model : add logits mask as MiniMax-Text-01 embeddings tensor has zero-valued embeddings for tokens >= 200032 that produce zero logits disrupting the token sampling process * llama : replace hardcoded conditions with hparams.is_recr() * model : used build_rs() for recurrent state management * chore : code cleanup * model : optimized MiniMax-Text-01 by removing the state tranpose operations * chore : removed unnecessary ggml_cont() in MiniMax-Text-01 implementation * llama : add generic logits mask graph input * model : permuted diag_decay dimensions to avoid doing it inside MiniMax-Text-01 graph * chore : code cleanup * chore : code cleanup * model : use token positions when calculating MiniMax-Text-01 decay tensors * convert : add support for MiniMaxM1ForCausalLM as it seems to be the same as MiniMaxText01ForCausalLM * chat : add jinja template for MiniMax-M1 Co-authored-by: QscQ * chore : code cleanup * tests : MINIMAX_01-related fixes * chore : silence Python lint errors * vocab : remove unnecessary vocab type * convert : update MiniMaxText01Model conversion to use yield when modifying tensors * convert : suppress tokens with zero-valued embeddings during MiniMax-Text-01 conversion * llama : removed logits mask - no longer necessary as token suppression is used instead * model : use common functions to make MiniMax-Text-01 implementation more concise Co-authored-by: Sigbjørn Skjæret * model : use common functions to make MiniMax-Text-01 implementation more concise Co-authored-by: Sigbjørn Skjæret * convert : override non-working built-in chat template during conversion * tests : skip arch MINIMAX_01 tests for WebGPU backend (it breaks again) --------- Co-authored-by: Stanisław Szymczyk Co-authored-by: QscQ Co-authored-by: Sigbjørn Skjæret **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10437</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10437</guid>
+            <pubDate>Sat, 15 Aug 2026 05:24:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10436]]></title>
             <description><![CDATA[mtmd, common: various fixes (#27071) * apply fixes * cont * revert gguf fix **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -116,7 +123,7 @@
         </item>
         <item>
             <title><![CDATA[v0.32.12]]></title>
-            <description><![CDATA[## Qwen 3.8 - 27B model support This release adds the support of Qwen 3.8 27B. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. Qwen 3.8 model page: https://ollama.com/library/qwen3.8 Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.]]></description>
+            <description><![CDATA[## Qwen 3.8 27B This release adds the support of Qwen 3.8 27B. Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents.]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.32.12</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.12</guid>
             <pubDate>Fri, 14 Aug 2026 16:37:00 GMT</pubDate>
@@ -1625,13 +1632,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10254</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10254</guid>
             <pubDate>Tue, 04 Aug 2026 04:53:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10253]]></title>
-            <description><![CDATA[vendor : update cpp-httplib to 0.52.0 (#26485) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10253</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10253</guid>
-            <pubDate>Tue, 04 Aug 2026 04:22:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.18.12]]></title>

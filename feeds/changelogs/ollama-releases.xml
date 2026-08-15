@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Aug 2026 04:23:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Aug 2026 06:24:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 14 Aug 2026 19:16:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -18,7 +18,7 @@
         </item>
         <item>
             <title><![CDATA[v0.32.12]]></title>
-            <description><![CDATA[## Qwen 3.8 - 27B model support This release adds the support of Qwen 3.8 27B. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. Qwen 3.8 model page: https://ollama.com/library/qwen3.8 Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.]]></description>
+            <description><![CDATA[## Qwen 3.8 27B This release adds the support of Qwen 3.8 27B. Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents.]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.32.12</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.12</guid>
             <pubDate>Fri, 14 Aug 2026 16:37:00 GMT</pubDate>
