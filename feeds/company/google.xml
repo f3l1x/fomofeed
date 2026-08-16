@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Aug 2026 18:19:57 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Aug 2026 04:30:28 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 15 Aug 2026 01:15:26 GMT</pubDate>
+        <pubDate>Sun, 16 Aug 2026 01:09:18 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.56.0-nightly.20260816.g2a87e7be1]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260815.g2a87e7be1...v0.56.0-nightly.20260816.g2a87e7be1]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260816.g2a87e7be1</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260816.g2a87e7be1</guid>
+            <pubDate>Sun, 16 Aug 2026 01:09:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.56.0-nightly.20260815.g2a87e7be1]]></title>
             <description><![CDATA[## What's Changed * [SSR Agent] Issue Fix (19826): Migrate process.env to vi.stubEnv in a2a-server tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28811 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260814.gc0d192452...v0.56.0-nightly.20260815.g2a87e7be1]]></description>
@@ -715,13 +722,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-preview.2</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-preview.2</guid>
             <pubDate>Wed, 06 May 2026 18:06:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.42.0-nightly.20260506.g80d269054]]></title>
-            <description><![CDATA[## What's Changed * fix(a2a-server): resolve tool approval race condition and improve status reporting by @kschaab in https://github.com/google-gemini/gemini-cli/pull/26479 * fix(cli): prevent settings dialog border clipping using maxHeight by @jackwotherspoon in https://github.com/google-gemini/gemini-cli/pull/26507 * feat: allow queuing messages during compression (#24071) by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/26506 * fix(core): retry on ERR_STREAM_PREMATURE_CLOSE errors by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/26519 * fix(core): Minor fixes for generalist profile. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/26357 * feat(core): steer model to use edit tool for surgical edits, fix a typo by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/26480 * docs: clarify Auto Memory proposes memory updates and skills by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/26527 * fix(core): reject numeric project IDs in GOOGLE_CLOUD_PROJECT (#24695) by @Abhijit-2592 in https://github.com/google-gemini/gemini-cli/pull/26532 * fix(core): remove unsafe type assertion suppressions in error utils by @himanshu748 in https://github.com/google-gemini/gemini-cli/pull/19881 * fix(core): allow redirection in YOLO and AUTO_EDIT modes without sandboxing by @galz10 in https://github.com/google-gemini/gemini-cli/pull/26542 * ci(release): build and attach unsigned macOS binaries to releases by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/26462 * fix(core): Fix chat corruption bug in context manager. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/26534 ## New Contributors * @himanshu748 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/19881 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.42.0-nightly.20260505.g8f0edcd64...v0.42.0-nightly.20260506.g80d269054]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260506.g80d269054</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260506.g80d269054</guid>
-            <pubDate>Wed, 06 May 2026 17:08:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Credentio: Open Source C++ Library for C2PA Content Credentials from Google]]></title>
