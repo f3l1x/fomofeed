@@ -4,9 +4,710 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Aug 2026 14:21:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Aug 2026 16:19:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 13 Aug 2026 01:15:04 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.18]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Select the Kimi system prompt correctly for official Moonshot and Kimi providers - Fix xhigh reasoning effort for xai models]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.18</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.18</guid>
+            <pubDate>Thu, 13 Aug 2026 01:15:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.17]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Made session compaction keep complete recent turns and produce clearer summaries for smaller models. - Added MERGE Gateway reasoning variants so those model options work correctly. (@MatthewFeroz) - Capped automatic session retries and added jitter to reduce repeated retry storms. - Enabled PDF attachments for GitHub Copilot models that advertise PDF vision support. (@stevenao) - Applied the correct sampling defaults to DeepSeek V4 Flash on supported providers. - Routed all Muse family models to the correct Meta system prompt. (@mreso) ## Desktop ### Bugfixes - Updated Chinese developer terminology to use more widely recognized translations. - Used the server's current default model instead of stale local config when choosing the default model. **Thank you to 6 community contributors:** - @mreso: - fix(session): route all Muse family models to the Meta system prompt (#41581) - @OpeOginni: - fix(ui): correct OC-2 weak icon color (#41504) - @peculiarnewbie: - feat(console): add go usage endpoint (#16513) - @stevenao: - fix(opencode): detect Copilot PDF input support (#41522) - @MatthewFeroz: - fix(provider): add Merge Gateway reasoning variants (#41867) - @skyzhao1223: - docs: fix broken DigitalOcean and Daytona links (#42048) - docs: fix provider display name and PAT typos (#42034)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.17</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.17</guid>
+            <pubDate>Wed, 12 Aug 2026 20:25:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.16]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Ignore unknown top-level config fields instead of failing config parsing - Register projects opened from Home so they are available to the rest of the app ## Desktop ### Improvements - Open the project menu with a right-click in Home ### Bugfixes - Fall back to listing and matching local directories when the project picker server does not support search - Use 词元 instead of 令牌 for token-related labels in Simplified Chinese (@Speechlessmanbilibili) - Keep the macOS app running after the last window closes and reopen a window when the app is activated **Thank you to 1 community contributor:** - @Speechlessmanbilibili: - fix(i18n): use 词元 instead of 令牌 for token in zh locale (#40977)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.16</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.16</guid>
+            <pubDate>Mon, 10 Aug 2026 06:07:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.15]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Chronological message ordering now stays correct even when imported or legacy message IDs are out of order. - Revert and fork actions now use real message chronology instead of message ID ordering. - Truncation cleanup now removes stale files by file timestamp more reliably. - Repeated compaction now keeps earlier tool-call history in summaries instead of dropping orphaned results. - Blob-based attachments now load correctly in the web UI. (@rexdotsh) ## Desktop ### Improvements - Added much broader locale coverage across the desktop app. - Export full session transcripts as JSON from the UI. ### Bugfixes - Session timelines now respect chronological message boundaries more reliably. - Stored messages now stay ordered by creation time. - Session lists now sort by persisted activity time more reliably. - Language names now stay native in the locale picker. - Filled in missing translations across existing locales. **Thank you to 3 community contributors:** - @rexdotsh: - fix(server): allow blob attachments in web UI (#40692) - @ayubun: - fix(tui): support copying over ssh with set-clipboard on tmux config (#30472) - @dangooddd: - feat(tui): add cursor style configuration (#32295)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.15</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.15</guid>
+            <pubDate>Fri, 07 Aug 2026 06:49:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.14]]></title>
+            <description><![CDATA[## Core ### Improvements - Simplified xAI login to a single device-code flow that works better in headless and remote environments. ### Bugfixes - Preserved structured mid-stream provider errors so compatible providers can retry failed responses. - Retried more transient provider and network errors instead of failing immediately. - Counted cache writes in ACP usage totals. - Logged remote workspace 5xx response bodies in the host logs to make proxy failures easier to debug. (@jamesmurdza) - Stopped sending the host directory path to remote workspaces so prompts resolve from the remote project root. (@jamesmurdza) - Waited for queued ACP session updates before ending a turn. **Thank you to 1 community contributor:** - @jamesmurdza: - fix(server): don't forward host directory to remote workspace (#40136) - fix(server): log upstream 5xx bodies from proxied workspace requests (#40135)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.14</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.14</guid>
+            <pubDate>Wed, 05 Aug 2026 20:58:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.13]]></title>
+            <description><![CDATA[## TUI ### Bugfixes - GitHub pull request reviews now include the pull request number and URL in context. ## Desktop ### Bugfixes - Fixed several right-to-left layout issues across tabs, drawers, resizing, and titlebar interactions. - Fixed shared right-to-left UI behavior such as directional icons and drawer placement. - Sessions without titles now fall back to generated names instead of appearing blank. - Moved markdown parsing off the main thread to keep the app more responsive while rendering messages. ### Improvements - Localized more desktop UI copy, including native menus, update dialogs, and help content. - Added early right-to-left layout support across the app and session views. - Added locale-aware plural rules so translated counts and summaries read correctly. - Expanded translation coverage and added more supported desktop languages. **Thank you to 1 community contributor:** - @amypoolside: - docs: add Poolside provider setup (#39187)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.13</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.13</guid>
+            <pubDate>Tue, 04 Aug 2026 12:12:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.12]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Fixed Azure GPT-5.5+ completion requests failing when reasoning is enabled. (@frederiknsgo) ## Desktop ### Bugfixes - Reduced composer lag when drafts include large pasted images or attachments. - Let project search match any known recent project instead of only the first five. (@NumerousJLs) - Cleared stale assistant errors from the timeline once the same turn resumes streaming. - Skipped legacy config reads against v2 servers to avoid spurious config loading issues. (@resetsix) **Thank you to 4 community contributors:** - @resetsix: - fix(app): skip legacy config reads for v2 (#40211) - @NumerousJLs: - fix(app): search every known project in the open project dialog (#40202) - @MagnumGoYB: - docs: remove obsolete vouch system section (#40266) - @frederiknsgo: - fix: gpt-5.5+ in combination with azure fails with reasoningEffort (#40265)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.12</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.12</guid>
+            <pubDate>Tue, 04 Aug 2026 00:55:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.11]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Stopped MCP SSE connections from getting stuck in reconnect loops after server error responses. - Fixed provider model configs that use interleaved reasoning fields like reasoning_text or custom field names. ## Desktop ### Bugfixes - Open external links in the system browser instead of inside the app. - Fixed stale session tab state in the desktop title bar. (@OpeOginni) - Open the legacy directory picker at your home folder when no home path is loaded yet. - Prevent the file tree tab from clipping when resized smaller. (@OpeOginni) - Fixed debug gutter labels and values misaligning. **Thank you to 2 community contributors:** - @devennavani: - docs: add Modal provider setup (#39710) - @OpeOginni: - fix(app): prevent file tree tab clipping (#39770) - fix(app): prevent stale session tab reads (#39767) - fix(app): prevent stale prompt control reads (#39842)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.11</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.11</guid>
+            <pubDate>Sat, 01 Aug 2026 11:44:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.10]]></title>
+            <description><![CDATA[## Core - Discover available Modal models automatically. (@devennavani) ## Desktop ### Improvements - Prevent adding the same attachment more than once. - Always show the new session button. - Improve toast notifications with better stacking, dismissal, and mobile layout. - Refine tab hover, active, and overflow states. ### Bugfixes - Repair malformed saved tabs so broken tab state no longer persists across launches. (@OpeOginni) - Hide the model variant selector until model data finishes loading. - Preserve the custom agent picker for existing users. **Thank you to 3 community contributors:** - @lakshyaag-tavily: - docs(ecosystem): add opencode-tavily plugin (#38709) - @devennavani: - feat: discover Modal models (#39066) - @OpeOginni: - fix(app): repair malformed persisted tabs (#39645)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.10</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.10</guid>
+            <pubDate>Thu, 30 Jul 2026 14:43:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.9]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Restored compatibility with legacy MCP SDK clients. ## Desktop ### Bugfixes - Fixed a Solid cleanup crash that could break navigation in the desktop app. - Fixed home session loading so the session list can update without suspending the whole page. ### Improvements - Removed the extra vertical borders from the V2 home projects view. - Added an opt-in V2 desktop sidecar backed by the bundled CLI service. - Added collapsible model provider sections in V2 settings. **Thank you to 1 community contributor:** - @roborew: - fix(desktop): patch @dnd-kit/solid to preserve core scroll plugins (#38119)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.9</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.9</guid>
+            <pubDate>Tue, 28 Jul 2026 18:15:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.8]]></title>
+            <description><![CDATA[## Core ### Improvements - Improved compatibility with newer MCP servers and OAuth flows. ### Bugfixes - Reconnects MCP servers after expired SDK sessions, including concurrent requests. - Honors configured MCP OAuth callback ports in mcp debug. - Stops sending deprecated sampling defaults to newer Gemini models. ## Desktop ### Improvements - Added a shortcut to open the project selector in new sessions. ### Bugfixes - Tab keyboard navigation now follows the visible tab order. - Opening files now expands Windows folders with trailing separators. - Server status uses blue when an integration needs attention. - Provider connection state now refreshes immediately after changes. - Linux packages now install AppStream metadata. (@develop7) - Local desktop runs now use the channel database. - Prevents freezes when closing projects from the home view. - Prevents the right panel from freezing the session view while loading. **Thank you to 2 community contributors:** - @OpeOginni: - fix(core): correct MCP environment field in built-in skill (#39175) - @develop7: - fix(desktop): install AppStream metainfo in Linux packages (#36872)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.8</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.8</guid>
+            <pubDate>Tue, 28 Jul 2026 06:07:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.7]]></title>
+            <description><![CDATA[## Desktop ### Bugfixes - Remove the extra titlebar inset in fullscreen on macOS. - Keep command palette entries from reappearing incorrectly when shadowed commands are removed. - Add scrolling to the project selector dropdown when the list is long. (@david1gp) **Thank you to 2 community contributors:** - @ProdigyRahul: - fix(ui): keep mutable selects open (#39027) - @david1gp: - fix(app): add scroll to project selector dropdown (#39016)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.7</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.7</guid>
+            <pubDate>Mon, 27 Jul 2026 07:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.6]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Fixed branch-specific repository caches so refreshing one reference no longer moves another branch checkout. ## Desktop ### Improvements - Improved compatibility with the newer client API across directory, project, session, and terminal flows. ### Bugfixes - Fixed legacy MCP state refreshing when opening a V1 workspace. - Fixed provider lists not refreshing after connecting a provider or finishing provider OAuth on V1 servers.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.6</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.6</guid>
+            <pubDate>Mon, 27 Jul 2026 02:47:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.5]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Improve Claude adaptive thinking handling across more response shapes. - Avoid OpenAI Responses phase handling that could break some conversations. - Preserve grep symlink paths in search results. (@remixz) - Preserve Mistral reasoning history across turns. - Stabilize Mistral prompt caching. - Use the correct prompt cache keys for each SDK. - Fix MiniMax M3 thinking variant selection. ## Desktop ### Improvements - Support the current server terminal transport. - Support current-server review data in the desktop app. - Update server discovery flows for current servers. - Support current-server session actions, including prompts and commands. - Render current-server session timelines. - Stream current-server events in the desktop app. - Detect legacy and current servers so the desktop app can work with both. ### Bugfixes - Restore optimistic timeline updates while responses are still streaming. - Hide legacy-only features when connected to current servers. - Preserve inline file mentions when sending prompts to legacy servers. - Stop auto-accepting config permissions on current servers. - Keep current servers out of the legacy layout. - Show plain file contents in file-specific tabs instead of review diffs. - Keep the prompt input agent toggle in sync. - Keep paginated session timelines in the right order. - Restore directory-scoped session status for legacy servers. - Reload legacy session progress after hydration. **Thank you to 2 community contributors:** - @dleopold: - fix(app): classify existing web profiles for layout transition (#38117) - @remixz: - fix(opencode): preserve grep symlink paths (#38581)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.5</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.5</guid>
+            <pubDate>Fri, 24 Jul 2026 22:18:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PR #38252 verification videos]]></title>
+            <description><![CDATA[Before/after verification recordings for PR #38252.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/pr-38252-videos</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/pr-38252-videos</guid>
+            <pubDate>Wed, 22 Jul 2026 05:01:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PR #37967 screenshots (final)]]></title>
+            <description><![CDATA[Final visual evidence for PR #37967.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots-final</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots-final</guid>
+            <pubDate>Mon, 20 Jul 2026 17:34:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PR #37967 final screenshots]]></title>
+            <description><![CDATA[Final visual evidence for PR #37967.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots-v2</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots-v2</guid>
+            <pubDate>Mon, 20 Jul 2026 17:33:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PR #37967 screenshots]]></title>
+            <description><![CDATA[Visual evidence for PR #37967.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/pr-37967-screenshots</guid>
+            <pubDate>Mon, 20 Jul 2026 17:28:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.4]]></title>
+            <description><![CDATA[## Core ### Improvements - Use adaptive thinking controls for Kimi models on Anthropic-compatible providers, with summarized reasoning output by default. (@chouqin) ### Bugfixes - Reduce OpenAI provider header timeouts during slow connection setup. - Respect provider-defined reasoning options instead of falling back to the wrong reasoning controls. - Restore Azure Cognitive Services endpoint support for Azure-hosted models. ## Desktop ### Improvements - Sync the embedded terminal theme with the app theme. - Improve the review panel so open file tabs can stay aligned with the current diff view. - Rewrite the v2 prompt input for more reliable command, context, shell, attachment, and history interactions. - Improve review panel resizing and sticky controls. ### Bugfixes - Preserve command drafts in the command menu. - Avoid session view failures when message parent links are missing. - Prevent sending empty prompt text parts. - Restore model variant selection accessibility. - Show keybind tooltips on prompt input controls. (@ProdigyRahul) - Deduplicate repeated file entries in diff summaries. - Prevent recovery window handling from touching destroyed windows. **Thank you to 3 community contributors:** - @jerome-benoit: - fix(nix): relax Bun version check for desktop build (#36767) - fix(nix): restore desktop integration (#37197) - @ProdigyRahul: - fix(app): show keybind tooltips on prompt input controls (#37824) - @chouqin: - feat(opencode): use adaptive thinking effort for kimi family on anthr… (#37696)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.4</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.4</guid>
+            <pubDate>Mon, 20 Jul 2026 15:28:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.3]]></title>
+            <description><![CDATA[## Core ### Improvements - Added an Up Arrow shortcut to close the subagent picker when the first item is selected. ## Desktop ### Bugfixes - Fixed home page scrolling so sticky headers and the session list behave correctly. - Fixed startup readiness so WSL server loading is included before the desktop app reports ready. - Removed the inactive help button from the app layout. - Fixed custom agent selector visibility when custom agents are available. ### Improvements - Home page command palette search can now find and open sessions.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.3</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.3</guid>
+            <pubDate>Thu, 16 Jul 2026 15:34:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.2]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Stopped subagents from launching nested subagents by default, with a configurable subagent_depth limit when needed. - Improved default reasoning depth for Meta models. ## Desktop ### Improvements - Added Mod+N as another shortcut for opening a new tab. ### Bugfixes - Restored the Help button in release builds. - Kept sessions with null archive times visible instead of dropping them from the home list. - Hid the drawer close button on Windows where it conflicts with the window chrome. **Thank you to 1 community contributor:** - @BB-84C: - fix(core): tolerate AlreadyExists in FSUtil.ensureDir (#36542)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.2</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.2</guid>
+            <pubDate>Wed, 15 Jul 2026 16:15:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.1]]></title>
+            <description><![CDATA[## Desktop ### Bugfixes - Fixed spacing between model provider sections in Settings.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.1</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.1</guid>
+            <pubDate>Tue, 14 Jul 2026 21:37:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.18.0]]></title>
+            <description><![CDATA[## Desktop ### Improvements - Completed the Desktop v2 migration, including upgrade handling for the new layout and first-launch onboarding. - Added a setting to switch between the new and old Desktop layouts during the transition period. ### Bugfixes - Fixed file views using the wrong background in the v2 layout. - Fixed connected project picker positioning when its anchor is still loading. - Kept permission auto-accept state separate for each server. - Fixed a project picker positioning crash. - Kept terminal tab rename focused while editing. - Enabled remote sessions to auto-accept permissions correctly. - Fixed terminal tabs stealing focus when they mount. - Loaded more timeline history at once to reduce repeated backfill while scrolling. - Resynced the timeline correctly after reconnecting. - Preserved the composer caret after request updates. - Reduced Home cold-load time substantially. - Preserved timeline bottom anchoring more reliably. - Clarified status indicator severity.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.0</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.0</guid>
+            <pubDate>Tue, 14 Jul 2026 20:29:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.20]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Removed an obsolete Codex workaround that could interfere with OpenAI Luna Responses Lite requests. ### Improvements - Updated Azure AI support for GPT-5.6.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.20</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.20</guid>
+            <pubDate>Mon, 13 Jul 2026 21:09:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.19]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Supported OpenAI pro reasoning mode. - Disabled response storage by default for xAI Responses. (@geraint0923) - Added OAuth support for Luna Responses Lite. - Switched to another available org after logging out in the console. - Used Codex context limits for GPT-5.6 over OAuth. (@nabilfreeman) ## TUI ### Bugfixes - Forwarded CLI environment variables to the TUI worker. ## Desktop ### Bugfixes - Removed interface transition changes that were accidentally shipped to dev. - Fixed clipped labels and branch tooltips. - Stopped the review panel width from jumping when opening or closing it. - Focused the prompt input when starting a new session. - Prevented some new-session updates from blocking the UI. - Fixed timeline outlines getting clipped. - Aligned context token counts with usage totals. - Kept the file tree visible while opening files. ### Improvements - Redesigned attachment cards and file comment chips in the new interface. - Updated the review panel with persistent file browsing, better file tabs, and easier open-in-app actions. - Restyled the Edit Project modal to match the new interface. - Added middle-click to open sessions in a new tab. - Added a temporary setting to switch between the old and new interface. - Added per-prompt model selection in the composer. - Polished the new interface styling across the session view and terminal. **Thank you to 2 community contributors:** - @nabilfreeman: - fix(openai): use codex context limits for gpt-5.6 (#36248) - @geraint0923: - fix(xai): default store to false for Responses (#36629)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.19</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.19</guid>
+            <pubDate>Mon, 13 Jul 2026 16:34:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.18]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Prevent crashes and bad pricing data when GitHub Copilot returns models with a zero billing batch size. ### Improvements - Add a model-specific system prompt for Meta Muse Spark.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.18</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.18</guid>
+            <pubDate>Thu, 09 Jul 2026 18:51:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.17]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Improved Meta model handling for reasoning variants and provider requests. ## Desktop ### Bugfixes - Fixed clipped descenders in model selector labels. ### Improvements - Added a dismissible tabs intro popup and refreshed the help entry point. - Updated sub-agent task rows to match the v2 session design more closely. - Restyled the revert dock in v2 sessions for clearer restore actions. - Added a v2 free-model selector with faster access to more providers.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.17</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.17</guid>
+            <pubDate>Thu, 09 Jul 2026 15:03:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.16]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Exposed reasoning effort variants for Grok models. - Improved xAI prompt cache routing and PDF file support in Responses models. ## Desktop ### Improvements - Added an Open containing folder action for projects on the home screen. - Added a composer add menu for files, commands, context, and shell mode without losing draft text. - Added a provider setup tip on new sessions when no external providers are connected. - Remember review panel mode and selected file per session. - Added inline file browser tabs for opening and previewing files from the side panel. - Updated desktop translations. ### Bugfixes - Kept the review pane usable on wide screens by reserving its minimum width. - Fixed hidden session panes staying mounted and causing side-panel glitches. - Routed legacy drafts back to the session page. - Loaded full review diffs for large patches when the initial diff is capped. - Removed the first-open flash in the command palette. - Routed the new session shortcut through tabs in the new layout. - Kept session routes inside the correct layout when opening legacy session URLs.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.16</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.16</guid>
+            <pubDate>Thu, 09 Jul 2026 06:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.15]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Better classify Z.ai context-window overflow errors so oversized requests surface the right failure mode (@fengjikui) - Handle unavailable config directories more gracefully when reading config files ## Desktop ### Improvements - Restore model details tooltips in the model picker (@arvsrn) - Refresh the v2 command palette to better match the rest of the new desktop UI (@arvsrn) ### Bugfixes - Make terminal shortcuts take priority when the terminal is focused - Show unread state on tabs with pending questions - Keep session tab titles available after reloads while session data is still loading - Apply theme changes only after you select them in Settings - Fix macOS titlebar appearance mismatches in Sequoia and adjust traffic light placement (@arvsrn) **Thank you to 3 community contributors:** - @arvsrn: - feat(app): align cmd k menu with v2 styles (#35152) - feat(app): visual improvements (#35134) - feat(app): reintroduce model context tooltip in model selector (#35087) - feat(app): change traffic light position, fix sequoia bug (#35081) - @StarpTech: - fix(core): expand home-relative permission paths (#35737) - @fengjikui: - fix(llm): classify zai token limit overflow (#35671)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.15</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.15</guid>
+            <pubDate>Tue, 07 Jul 2026 15:31:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.14]]></title>
+            <description><![CDATA[## Core ### Improvements - Added a code mode MCP adapter for running confined orchestration scripts against connected MCP tools. - Hid the execute tool unless code mode is enabled. ### Bugfixes - Fixed paginated MCP tool catalogs losing tool metadata and output schema validation. - Preserved low reasoning effort for OpenRouter small-model variants instead of disabling it. - Fixed GitHub Copilot model routing to honor each model's advertised chat or responses endpoint. - Fixed session lists to match equivalent instance directories reliably. - Fixed Cerebras reasoning replay so earlier assistant reasoning is sent back in the provider-supported field. ## TUI ### Bugfixes - Fixed spinner registration so loading indicators keep rendering across TUI surfaces. ## Desktop ### Improvements - Show draft server status in the title bar. - Unified the provider connect flow across the app. - Improved the integrated terminal experience. (@arvsrn) - Added reopening for closed tabs and background tab opening. (@usrnk1) - Improved model search in picker dialogs. (@arvsrn) - Added recently closed projects to Home. (@usrnk1) - Made tab navigation respond on mouse down in the new layout. - Overhauled the v2 review panel. (@arvsrn) - Refined the session tab preview popover. (@usrnk1) ### Bugfixes - Fixed new sessions from Home using the wrong project. - Fixed first-launch onboarding so it only appears when appropriate. - Improved large review pane performance. - Fixed timeline loads that started on assistant replies by backfilling the missing user turn. - Restored typing in the composer while the window is unfocused. - Fixed dropdown search behavior. (@arvsrn) - Kept the v2 review pane mounted when switching session tabs. - Kept the terminal mounted when switching session tabs in a workspace. - Fixed session tab busy indicators to stay scoped to the correct server. - Fixed child-session navigation and lineage resolution during tab transitions. - Kept desktop window tabs after closing and reopening the app. **Thank you to 3 community contributors:** - @usrnk1: - feat(desktop): refine session tab preview popover (#34792) - feat(desktop): add recently closed projects to home (#34926) - feat(desktop): papercut fixes (#34939) - feat(desktop): reopen closed tabs and background tab open (#35010) - @arvsrn: - feat(app): v2 review panel overhaul (#31882) - feat(app): align subagent UI with v2 (#34931) - feat(app): improvements to model search (#34954) - feat(app): dropdown search fix (#34961) - feat(app): terminal improvements (#34747) - @StarpTech: - feat(tui): add debug info dialog with copy to clipboard (#35004)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.14</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.14</guid>
+            <pubDate>Mon, 06 Jul 2026 18:50:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.13]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Force reasoning mode for OpenAI-compatible reasoning models so reasoning settings apply reliably on custom deployments - Stop replaying stale GitHub Copilot response item IDs, avoiding follow-up request failures ## Desktop ### Bugfixes - Let question prompts be minimized and restored without dismissing them (@arvsrn) - Clean up stale empty and old draft store files to reduce desktop state buildup - Keep pending question requests open while reviewing them, instead of dismissing them accidentally (@eXamadeus) - Keep session page failures scoped to the affected tab instead of breaking the whole app ### Improvements - Improve markdown and message layout alignment in the v2 session UI (@arvsrn) - Add a searchable v2 model picker and model management flow in the composer (@arvsrn) - Show a hover preview for session tabs with the project, path, branch, and server (@usrnk1) - Streamline WSL server setup with clearer distro checks and install flows (@arvsrn) - Keep desktop tabs scoped to each window so windows restore their own tab sets **Thank you to 3 community contributors:** - @arvsrn: - feat(app): v2 wsl ui (#34233) - feat(app): composer improvements (#34720) - feat(app): more v2 ui alignment (#34465) - feat(app): minor fixes (#34748) - @eXamadeus: - fix(app): question UI fixes and UX improvements (#34116) - @usrnk1: - feat(desktop): session tab hover preview popover (#34678) - feat(desktop): improve markdown heading spacing in session timeline (#34738)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.13</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.13</guid>
+            <pubDate>Wed, 01 Jul 2026 15:19:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.12]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Enable adaptive thinking for Claude Sonnet 5. - Prefer MCP content responses over structured output when both are present. - Reconnect MCP servers after OAuth even if the server was disabled. (@MaxAnderson95) - Request MCP refresh-token scope during OAuth. - Show MCP OAuth completion errors instead of a generic failure. - Refresh cached remote skills. - Preserve skill resource paths. - Pick better default small models across providers. - Scope MCP auth status to each server URL. ## TUI ### Improvements - Add a yolo mode to auto-approve permissions. - Pass ServerAuth headers through external served TUI connections. (@OpeOginni) ## Desktop ### Improvements - Autocomplete MCP resources in the composer. - Add workspace controls when starting a new session. - Show stored token and cost totals in the session context. (@OpeOginni) ### Bugfixes - Autocomplete configured references in prompts. - Restore the prompt cursor when the composer regains focus. - Remember the last active desktop URL across restarts. - Preserve the selected model when promoting a session. (@usrnk1) - Keep session pages in sync during concurrent events. - Support normal auth input prompts in the desktop connect-provider dialog. (@OpeOginni) - Prevent hidden terminal tabs from hanging or resizing incorrectly. - Re-enable auto-accept in session settings. - Keep session tabs scoped to the correct server. - Remember the selected home project and server. ## SDK ### Improvements - Add a live event subscription stream. - Add SDK access to active sessions. - Restore session runtime operations such as event streaming, interrupts, and message lookup. - Add paged durable session history. - Add session permission request create and fetch endpoints. ### Bugfixes - Preserve V2Event names in SSE streams. - Wake embedded session execution after new prompts. - Improve V2 runtime tool results and avoid duplicate model switch events. - Resolve MIME types for prompt attachments sent by URI. **Thank you to 11 community contributors:** - @usrnk1: - feat(app): refine session UI styling (#33860) - fix(desktop): preserve selected model during session promotion (#34466) - fix(desktop): context menu button / tab intermittent issue (#34420) - feat(desktop): add hover background to session title and single-click edit (#34589) - feat(app): hide separators around active tabs (#34591) - feat(desktop): polish inline session title editing (#34607) - feat(desktop): make error view draggable (#34627) - feat(desktop): polish tooltips and session search (#34632) - @arvsrn: - feat(app): updates to design system (#34066) - feat(app): update home screen alignment + markdown styles (#34172) - feat(app): minor visual updates (#34205) - feat(app): new debug bar (#34237) - feat(app): sticky session list header (#34220) - feat(app): show loader on session hover (#34224) - feat(app): new timeline header (#34192) - feat(app): improve projects sidebar reactivity (#34391) - feat(app): update message part ui to v2 (#34394) - feat(app): align slash popover to v2 tokens (#34286) - @ariane-emory: - docs(providers): document blacklist and whitelist model filtering (#33792) - @Slickstef11: - docs: route enterprise contact links (#34080) - @affanali2k3: - fix(app): slow tooltip display for models (#30745) - @OpeOginni: - fix(desktop): recognize normal auth metadata input prompts in connect provider dialog (#33024) - feat(desktop): Display stored totals for Tokens and Cost in Desktop Session Context (#28887) - feat(tui): integrate ServerAuth headers into transport configuration for external served TUI thread (#29876) - @BenGu3: - fix(tui): register prompt.skills keybinds (#34180) - @neriousy: - fix(app): disable add project when given server is offline (#34294) - fix(app): disable empty server chevron (#34292) - @MaxAnderson95: - fix(mcp): reconnect after OAuth even when server is disabled - @StarpTech: - fix(console): cancel upstream provider requests (#34467) - @runvip: - fix(docs): fix Russian translation for index.mdx (#34001)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.12</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.12</guid>
+            <pubDate>Tue, 30 Jun 2026 19:48:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.11]]></title>
+            <description><![CDATA[## Core ### Improvements - Add session snapshots and revert controls so you can roll a session back to an earlier message, including file changes. ### Bugfixes - Always print the MCP OAuth URL so manual sign-in still works when opening the browser flow. ## Desktop ### Improvements - Add Chrome-style tab cycle shortcuts with mod+1 through mod+9. - Add draggable tabs. (@arvsrn) - Improve the empty home state when you have no sessions. (@arvsrn) - Restyle the jump-to-latest button in the v2 session view. (@arvsrn) - Improve the redesigned desktop layout, including better titlebar tabs and archived sessions. (@arvsrn) ### Bugfixes - Keep prompt drafts attached to the correct project server. - Restore consistent titlebar tab sizing and layout. - Restore home actions when session lists are empty or still loading. - Keep todo docks in place when switching between sessions. - Automatically close tabs for sessions that no longer exist. - Keep provider dialogs, prompt rollbacks, and async attachments tied to the session where they started. - Clear late session notifications after you open the session. - Remove the session loading stripe. **Thank you to 2 community contributors:** - @isaachuangGMICLOUD: - docs: add GMI Cloud provider entry to providers directory (#32914) - @arvsrn: - feat(app): draggable tabs (#31364) - feat(app): ui improvements (#32438) - fix(app): update all v1 new-session icons (#32017) - feat(app): no sesssions empty state (#33315) - feat(app): restyle v2 jump-to-latest button (#33809)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.11</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.11</guid>
+            <pubDate>Thu, 25 Jun 2026 12:09:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.10]]></title>
+            <description><![CDATA[## Core ### Improvements - Added MCP server instructions to session context. (@Arcadi4) - Added Opencode-managed provider integration support. - Added MCP resource template listing. - Added MCP resource read tools. - Added a --mini CLI mode. ### Bugfixes - Hid MCP resource template tools when access is denied. - Prevented MCP resource tools from colliding when servers expose the same keys. - Emitted skill base directories as filesystem paths instead of file:// URLs. (@shyuan) - Restored legacy MCP tool names for existing integrations. - Restored v1 account config loading. - Bound MCP OAuth callbacks to IPv4 loopback for better local auth reliability. (@he-yufeng) - Preserved structured error details in surfaced failures. - Fixed snapshots from subdirectories so they only include the right files and paths. - Fixed ACP resource text sourcing on Windows and other cross-platform path cases. - Preserved file source paths in ACP resource text. - Waited for plugins before loading reference-backed config and system context. - Hid gpt-5.5-pro when using Codex OAuth. ## TUI ### Improvements - Added a configurable keybind to open the diff viewer. - Added diff viewer support for comparing against the main branch. ### Bugfixes - Prevented worker rejections from breaking the TUI process. ## Desktop ### Improvements - Kept draft prompt state per tab. - Added a new session progress indicator. (@arvsrn) - Added mobile bottom navigation. - Added collapsible server sections. (@arvsrn) - Added server-aware session routes to keep same-session navigation separated across servers. ### Bugfixes - Always applied safe-area insets. - Made session navigation more stable and faster. - Routed new sessions through tabs correctly. - Cleared viewed session notifications reliably. - Scoped drafts created from Home to the right server and project. - Throttled directory tree loading. - Persisted drafts and prompt state more reliably. - Improved iOS PWA shell behavior. - Refined the mobile session layout. - Added the server button dropdown. (@arvsrn) - Restored review line comments. - Improved the mobile home layout. ## SDK ### Improvements - Exposed provider integration IDs in the SDK. ## Extensions ### Improvements - Added namespaced plugin hook APIs. - Added the V2 plugin API for Effect and Promise plugins. **Thank you to 6 community contributors:** - @remorses: - feat(llm): add video and audio media support to Gemini protocol (#31889) - @arvsrn: - feat(app): collapsible servers (#33384) - fix(app): add server button dropdown (#33358) - feat(app): new session progress indicator (#32662) - feat(app): update all components to use v2 tokens (#33598) - @ReStranger: - fix: Skip bun version check for nix version (#33166) - @he-yufeng: - fix(mcp): bind oauth callback to IPv4 loopback (#30022) - @shyuan: - fix(skill): emit base directory as filesystem path, not file:// URL (#33580) - @Arcadi4: - feat(mcp): append server instructions to context (#32490)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.10</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.10</guid>
+            <pubDate>Wed, 24 Jun 2026 20:37:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.9]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Honor configured agent step limits by forcing a final text response instead of failing mid-run. - Fix Devstral model detection when provider IDs use different casing. (@Robin1987China) - Pass configured custom headers to Copilot model requests. ### Improvements - Add high and max thinking variants for GLM-5.2 across supported providers. (@imranshaiedi-byte) - Stop wrapping follow-up user messages in a steering reminder so prompt caching stays effective. ## TUI ### Bugfixes - Only show the background subagent shortcut when the server supports it. **Thank you to 4 community contributors:** - @Grantmartin2002: - fix(core): fix command docs in customize-opencode skill (#32718) - @Robin1987China: - fix(opencode): use toLowerCase for Devstral model detection (#33109) - @kimnamu: - fix(experimental llm pkg): forward topK to Converse via additionalModelRequestFields (#33030) - @imranshaiedi-byte: - feat(opencode): expose High/Max thinking variants for GLM-5.2 (#32446)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.9</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.9</guid>
+            <pubDate>Sun, 21 Jun 2026 00:03:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.8]]></title>
+            <description><![CDATA[## Core ### Improvements - Session timelines load much faster and avoid flicker or scroll jumps. ### Bugfixes - OpenAI-compatible providers now accept MCP tool schemas that previously failed validation. (@jquense) - Cloudflare AI Gateway now receives the configured API key correctly. (@keefetang) - MCP tools without declared schema properties now work with providers that expect object properties. - Long-running MCP tools now keep their timeout alive when they report progress. (@Nomadcxx) - The MCP OAuth callback server now shuts down once authorization finishes or is cancelled. - MCP tool failures now surface the server's error text instead of a generic failure. - MCP OAuth error pages now escape provider error text correctly. ## Desktop ### Improvements - Added a Home tab toggle so you can quickly switch between Home and your last tab. - The new desktop file and folder picker is faster and easier to navigate in the v2 layout. **Thank you to 3 community contributors:** - @Nomadcxx: - fix(mcp): enable progress timeout resets (#32477) - @keefetang: - fix(provider): pass apiKey to createUnified for Cloudflare AI Gateway (#32052) - @jquense: - fix(opencode): sanitize OpenAI MCP tool schemas (#32489)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.8</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.8</guid>
+            <pubDate>Wed, 17 Jun 2026 21:27:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.7]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Plugin client requests now reuse the active server instead of assuming the default local port. - ACP shell tool calls now show the command and working directory from the start. - Plugin-provided shell environment variables now apply to PTY sessions. ### Improvements - MCP servers can now receive the current workspace as a client root. ## TUI ### Bugfixes - MCP debug now uses the SDK's latest protocol version. ## Desktop ### Bugfixes - The new session route now stays scoped to its own draft server, so prompts and state target the right workspace. ## SDK ### Improvements - SDK clients now refresh model and provider availability when integrations change, and credential update and remove calls accept location.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.7</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.7</guid>
+            <pubDate>Sun, 14 Jun 2026 18:49:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.6]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Improved MCP server compatibility by declaring OpenCode's supported client capabilities.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.6</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.6</guid>
+            <pubDate>Sat, 13 Jun 2026 22:39:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.5]]></title>
+            <description><![CDATA[## Core ### Improvements - Added external browser OAuth for the Snowflake Cortex provider (@santigc6) - Improved project copy management and move-session flows in v2 ### Bugfixes - Recovered expired MCP sessions instead of leaving MCP tools disconnected - Cleared closed MCP clients so stale MCP connections do not linger - Returned structured MCP tool output in a readable form - Fixed duplicate renderable IDs that could break TUI rendering - Fixed commands using $ARGUMENTS so file contents are not injected twice (@verdverm) ## TUI ### Bugfixes - Added auth headers to RunCommand fetch requests (@OpeOginni) ## Desktop ### Improvements - Brought v2 visibility settings to the web app - Refreshed the oc-2 color theme (@arvsrn) ### Bugfixes - Made the terminal resize gutter easier to grab - Faded overflowing titlebar tabs instead of clipping them abruptly **Thank you to 5 community contributors:** - @verdverm: - fix(tui): double file content injection in commands using $ARGUMENTS (#31245) - @arvsrn: - feat(app): update oc-2 colors (#31071) - @Slickstef11: - docs: update North Mini Code privacy terms (#32096) - @santigc6: - feat(opencode): add external browser OAuth for snowflake cortex provider (#31700) - @OpeOginni: - fix(opencode): add authorization header to fetch requests in RunCommand (#29877)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.5</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.5</guid>
+            <pubDate>Sat, 13 Jun 2026 19:59:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.4]]></title>
+            <description><![CDATA[## Core ### Improvements - Added cwd support for local MCP servers so they can start from a workspace-relative directory. (@Grantmartin2002) - Added connector-based authentication flows and support for stored provider credentials. - Added v2 API endpoints to create and fetch sessions, list session questions, and resolve the active location. - File reads now return raw content with the correct content type for API and SDK clients. - MCP server log notifications are now surfaced in opencode logs. ### Bugfixes - Fixed Gemini tool schemas that used multi-type fields so compatible tools keep working. (@Killusions) - Content-filtered model responses now surface as visible errors instead of failing silently. (@kkdawkins) - Fixed MCP auth and debug requests dropping configured headers. - Snapshot creation now reuses source Git objects to avoid long re-hashing delays on huge repos. (@dmtrKovalenko) - Fixed MCP catalog request timeouts not applying when listing prompts, resources, or tools. **Thank you to 5 community contributors:** - @dmtrKovalenko: - fix(snapshot): reuse source git objects to avoid re-hashing huge repos (#31798) - @tobwen: - fix(tui): preserve exit epilogue during scoped shutdown (#31805) - @kkdawkins: - fix(opencode): surface content-filter finish reason as visible error (#31745) - @Killusions: - fix(gemini): prevent gemini incompatibility with some tools (#31877) - @Grantmartin2002: - feat(opencode): support cwd on local MCP servers (#30676)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.4</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.4</guid>
+            <pubDate>Fri, 12 Jun 2026 02:19:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.3]]></title>
+            <description><![CDATA[Fixed issue with 1.17.2 desktop crashing]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.3</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.3</guid>
+            <pubDate>Wed, 10 Jun 2026 18:00:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.2]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Recover from expired remote config auth by prompting you to log in again instead of failing to load config (@Ayushlm10) - Let subagents use their own configured permissions again ## Desktop ### Bugfixes - Restore Linux launcher and icon identity so pinned apps keep opening correctly (@neriousy) - Restore the device attachment picker (@rexdotsh) **Thank you to 3 community contributors:** - @Ayushlm10: - fix: recover from expired enterprise auth on remote config load (#31661) - @rexdotsh: - fix(app): restore device attachment picker (#31707) - @neriousy: - fix(desktop): restore linux launcher identity (#31709)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.2</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.2</guid>
+            <pubDate>Wed, 10 Jun 2026 16:42:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.1]]></title>
+            <description><![CDATA[## Core ### Improvements - References can include usage descriptions for agents, show up in the new docs, and be hidden from @ autocomplete when needed. ### Bugfixes - Deprecated reference config entries continue to load under the newer references config key. - MCP prompt and resource requests now respect configured server timeouts. - Anthropic fallback responses are handled correctly again. - MCP servers that fail during client setup now fail cleanly instead of leaving a broken connection behind. ## Desktop ### Improvements - The new desktop session flow now has a dedicated /new-session route with draft tabs that keep your prompt and project selection together until you start the session. ### Bugfixes - Restored macOS auto-updates.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.1</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.1</guid>
+            <pubDate>Wed, 10 Jun 2026 11:38:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.17.0]]></title>
+            <description><![CDATA[## Core ### Improvements - Faster file search across large projects with the new fff-backed search tools. (@dmtrKovalenko) - Added X-Session-Id headers for proxy setups that need sticky routing. (@songchaow) - Added Cohere North model support. - Added reasoning as an interleaved field option for vLLM providers. (@delta9000) - mcp add now works in non-interactive flows. - auth logout now supports search when choosing an account. ### Bugfixes - Improved MCP connection status messages so failures are easier to act on. - Added Claude Fable reasoning support. - MCP tool calls now receive abort signals, so cancellations stop more reliably. - MCP catalogs now paginate correctly instead of truncating larger lists. - OpenRouter reasoning variants now generate for all models. (@AnthonyMLau) - Added MiniMax M3 thinking toggle support. - Java multi-module Maven workspaces now resolve JDTLS from the topmost pom.xml. (@areyouok) - MCP servers now respect advertised capabilities. - Session lists now respect directory filters in workspace setups. (@rexdotsh) - Sessions can recover once from provider context-overflow errors instead of failing immediately. - Bedrock Mantle config now honors configured API key and region settings. ## TUI ### Improvements - The session move flow now highlights project copies more clearly and keeps the current location selected. - Project copies can now be deleted directly from the move dialog. ### Bugfixes - New project copies are now bootstrapped before the TUI switches into them. - Moving a session now injects a reminder about the new working directory. ## Desktop ### Improvements - Added a help button to the tabs bar. - Prompt drafts are preserved while you switch tabs. - File attachments now open in the active project. - App updates now stay responsive and persist across restarts. - Added WSL-backed Desktop support and WSL server management on Windows. - Improved the sessions list UI. (@arvsrn) - Improved the servers UI. (@arvsrn) ### Bugfixes - Updated Electron and fixed related panel layout issues. - Fixed several WSL Desktop bugs. (@neriousy) - Hidden agents no longer get cycled accidentally. - MCP status now refreshes when the active directory changes. - The Home screen now keeps a larger recent-session list with scrolling. ## SDK ### Improvements - Large v2 tool outputs are now bounded and expose retained output paths for follow-up inspection. **Thank you to 11 community contributors:** - @rexdotsh: - fix(session): respect directory filter with workspaces (#30804) - @arvsrn: - feat(app): improve servers UI (#30961) - feat(app): updates to project avatar (#30964) - feat(app): sessions list improvements (#30941) - @dmtrKovalenko: - feat(opencode): fff search tools (#27802) - @fancive: - docs: fix MCP header interpolation example to {env:VAR} (#31078) - @robertDouglass: - fix(tui): sort connect providers alphabetically (#30891) - @neriousy: - fix(desktop): few WSL bugs (#31095) - @areyouok: - fix(lsp): resolve JDTLS root to topmost pom.xml in Java Maven multi-module projects (#28761) - @remorses: - fix(session): merge per-call tool rules into session permission (#30529) - @AnthonyMLau: - fix(opencode): generate reasoning variants for all OpenRouter models. (#30332) - @delta9000: - feat: add "reasoning" as interleaved field option for vLLM providers (#30477) - @songchaow: - feat: add X-Session-Id header for proxy cache routing affinity (#31511)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.17.0</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.17.0</guid>
+            <pubDate>Wed, 10 Jun 2026 03:12:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.16.2]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Reasoning summaries now only run on providers that support them, avoiding GPT-5 request failures on compatible backends. - Edit operations now refuse loose matches that could overwrite the wrong code or replace an existing file by mistake. - Fixed Bedrock sessions hanging before a model response starts. (@alblez) ### Improvements - Diff viewer now supports next and previous hunk navigation. - Terminal themes now refresh after live terminal reloads without stale colors or broken highlighting. - Running subagents can now be sent to the background so you can keep working. - Sessions now persist system context updates during long-running conversations. - Added Snowflake Cortex provider support. (@kameshsampath) ## TUI ### Bugfixes - Fixed the external editor fallback so attach-mode sessions still open when the original project path is unavailable locally. (@pcadena-lila) - Permission replies now route through the correct session directory. - /mo now prefers the models command in slash autocomplete. - Fixed crashes from malformed path or diff metadata in permission and session views. ## Desktop ### Bugfixes - Fixed titlebar tab overflow clipping. - Fixed overflowed titlebar tabs so scrolling and drag regions behave correctly. - Improved tab closing and navigation so the next tab is selected more reliably. ### Improvements - Improved multi-server desktop support with per-server home state and session tabs. **Thank you to 5 community contributors:** - @kameshsampath: - feat(core): add Snowflake Cortex provider (#29901) - @pcadena-lila: - fix(tui): fall back to local cwd when editor spawns in attach mode (#30583) - @weiconghe: - fix: use mapError instead of orDie for context snapshot decoding (#30905) - @alblez: - fix(opencode): resolve Bedrock hang by using node build conditions (#30873) - @jerome-benoit: - fix(workflows): retry nix-hashes compute-hash on transient failure (#30743)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.16.2</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.16.2</guid>
+            <pubDate>Fri, 05 Jun 2026 15:58:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.16.0]]></title>
+            <description><![CDATA[## Core ### Improvements - Added managed workspace cloning that keeps dirty and untracked files. - Added moving sessions between workspaces and directories. - Added proper OpenAI model support through AWS Bedrock. - Added skill discovery and file-based agent loading. - Updated GitHub Copilot usage tracking for token-based billing. - Added run --replay for interactive session replay. - Improved startup time. (@StarpTech) ### Bugfixes - Added Vue syntax highlighting. - Restored full ACP session replay when loading saved sessions. (@imnotlxy) - Fixed shell cancellation races. - Fixed SAP AI Core OpenAI reasoning variants. (@jerome-benoit) - Fixed delegated tasks losing their selected reasoning variant. - Fixed OpenAI websocket sessions getting stuck idle. - Fixed Windows path normalization in migrated storage. - Fixed prompt corruption when pasting near wide characters. (@dauphinYan) - Fixed ACP cancel so it aborts the active run. (@smagnuso) - Fixed SAP AI Core Anthropic Opus 4.7+ adaptive reasoning. (@jerome-benoit) ## TUI ### Improvements - Improved the experimental session switcher. - Truncated long sidebar file paths. ### Bugfixes - Show a toast when the variant hotkey is used with no variants. (@ariane-emory) - Routed question responses to the right session directory. - Stopped the background task spinner from sticking. ## Desktop ### Improvements - Added color themes. (@arvsrn) - Show local server startup failures in the app. - Added a thinking level selector for v2 prompts. - Added a Servers tab in Settings. - Added an update button. (@arvsrn) ### Bugfixes - Fixed session review refresh and VCS diff caching. - Hid update actions when desktop updates are unavailable. - Fixed tab title truncation and close button placement. - Show project sessions before path sync finishes. (@mhart) ## SDK - Exposed session location data in v2 responses. ## Extensions ### Bugfixes - GitHub now refuses to commit without an existing git author identity. (@ulises-jeremias) **Thank you to 10 community contributors:** - @jerome-benoit: - fix(opencode): support sap-ai-core anthropic opus 4.7+ adaptive reasoning (#29991) - fix(opencode): route SAP AI Core reasoning variants through modelParams (#30482) - @mhart: - fix(app): show project sessions before path sync resolves (#30167) - @smagnuso: - fix(acp): honor session/cancel by aborting the running turn (#30145) - @dauphinYan: - fix(tui): prevent prompt corruption when pasting near wide characters (#29710) - @arvsrn: - feat(app): v2 desktop UI improvements (#29689) - feat(app): polish home projects list UI (#30436) - feat(app): polish select-v2 component (#30446) - feat(app): new update button (#30460) - feat(app): color themes (#30824) - @StarpTech: - refactor(opencode): improve startup time by 38% (#30453) - @ulises-jeremias: - fix(github): enforce existing git author identity (#30507) - fix(opencode): fallback to sh for curl upgrade (#30499) - @ariane-emory: - fix(tui): show toast when variant_list keybind used with no variants (#30724) - @imnotlxy: - fix(opencode): ACP.loadSession should replay all messages (#30761) - @colinhacks: - fix: bump @openrouter/ai-sdk-provider to 2.9.0 (#30800)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.16.0</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.16.0</guid>
+            <pubDate>Fri, 05 Jun 2026 03:08:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.13]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Gateway Anthropic Opus 4.7+ adaptive reasoning now keeps summarized thinking instead of returning empty thinking blocks. ### Improvements - Sessions can now store custom metadata through the API and SDK. (@shantur) - Config now loads from the opened location upward, so directory-specific settings and provider policies apply more predictably. ## TUI ### Bugfixes - Wrapped inline tool rows now stay aligned, and failed inline tools can expand their error details in place. **Thank you to 1 community contributor:** - @shantur: - feat(core): add session metadata support (#23068)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.13</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.13</guid>
+            <pubDate>Sat, 30 May 2026 23:40:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.12]]></title>
+            <description><![CDATA[## Core ### Improvements - ACP integrations can now send prompts, slash commands, and usage updates through acp-next - Added WebSocket transport for OpenAI responses on supported channels (set OPENCODE_EXPERIMENTAL_WEBSOCKETS=true) ### Bugfixes - Enabled adaptive reasoning controls for Anthropic Opus 4.7+ models - Allowed colons in passwords (@neriousy) - Sped up warm acp-next model and config switches - Improved first-session acp-next startup time - Kept OpenAI WebSocket response timeouts active - Retried failed OpenAI WebSocket streams before falling back - Handled acp-next permission prompts correctly - Used the persisted session directory for existing-session requests - Forwarded remote workspace request bodies correctly - Supported custom base URLs for OpenAI WebSocket responses (@Tarquinen) ## TUI ### Improvements - Added a workspace management dialog ### Bugfixes - Kept session navigation working while prompt modes are open - Restored the thinking spinner - Surfaced subagent retry status - Fixed opening editors from non-Git project paths (@OpeOginni) ## Desktop ### Improvements - Added a setting to switch tab layouts ### Bugfixes - Improved the home empty state and fixed V2 font usage - Fixed tab close buttons not showing reliably **Thank you to 5 community contributors:** - @OpeOginni: - fix(tui): handle non-git project paths when opening editor (#29180) - @gotjoshua: - docs: fix ts error in math examples (#18244) - @Tarquinen: - fix(openai): support websocket custom base URLs (#29636) - @24KaratAu: - docs: fix grammar in config.mdx (#29683) - @neriousy: - fix(core): allow colons inside passwords (#29576)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.12</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.12</guid>
+            <pubDate>Thu, 28 May 2026 19:34:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.11]]></title>
+            <description><![CDATA[## Core ### Improvements - Added headerTimeout config for provider requests, with a 10s default for default OpenAI setups. - Experimental background agents now push updates without polling. - You can now set only modalities.input or modalities.output in config. (@robposch) - Remote-backed projects now resolve a stable project identity. ### Bugfixes - Dynamically added MCP servers now disconnect cleanly when removed. - DigitalOcean inference now uses your OAuth token directly instead of creating a MAK. (@Spherrrical) - Config loading now falls back cleanly when user info is unavailable. - Fixed Google tool calling after the upstream tool ID regression. - Experimental flags can now override the umbrella experimental flag. - Resumed sessions no longer continue orphaned interrupted tools. (@edevil) - OpenAI reasoning summaries now render as separate blocks. - Updated Google Vertex support for reasoning signatures. - The shell tool now advertises your configured timeout to the model. ## TUI ### Improvements - Made the prompt resize with terminal width and added prompt size config. (@bjschafer) ### Bugfixes - Accelerated diff viewer scrolling. - External editors now open from the worktree directory when available. ## Desktop ### Improvements - Refined the Desktop v2 home screen, prompt, status popover, and session controls. ### Bugfixes - Fixed V2 titlebar errors when a session sync cache was deleted. (@Eric-Guo) - Web deployments no longer run desktop health checks. - Duplicate server connections are now merged in the server list. - Stabilized virtualized session timeline interactions. - Fixed the white flash when restoring the desktop window. ## Extensions ### Improvements - Added a dispose hook for plugins. ### Bugfixes - Fixed Codex plugin requests to send the expected session ID header. **Thank you to 7 community contributors:** - @jerome-benoit: - fix(nix): re-inherit patches in desktop, ad-hoc sign .app on darwin (#27869) - @edevil: - fix(session): exclude orphaned interrupted tools from run-loop continuation (#26178) - @bjschafer: - feat(tui): make prompt size responsive and configurable (#28255) - @robposch: - tweak (config): make modalities input/output fields optional so that u can specify one without both being required (#29268) - @Eric-Guo: - fix(app): handle deleted session sync cache in V2 titlebar (#29328) - @StarpTech: - docs(web): update LSP docs wording (#29435) - docs: add tip to lsp section (#29444) - @Spherrrical: - fix(digitalocean): use OAuth token directly for inference instead of creating MAK (#28897)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.11</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.11</guid>
+            <pubDate>Wed, 27 May 2026 04:01:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.10]]></title>
+            <description><![CDATA[## Desktop ### Bugfixes - Restored the legacy production desktop flows for opening projects and starting sessions.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.10</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.10</guid>
+            <pubDate>Sat, 23 May 2026 01:04:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.9]]></title>
+            <description><![CDATA[## Core ### Improvements - Redesigned the diff viewer with a file tree and refreshed layout. ### Bugfixes - Return to the previous screen when closing the diff viewer. - Show clearer errors when a default model is invalid or unavailable. - Surface missing PTY session errors instead of failing generically. - Improve diff viewer empty states and context handling. - Show clearer errors when a skill invocation fails as expected. - Show clearer errors when an installation upgrade fails. - Show clearer project not found errors from the HTTP API. - Return PTY error bodies from the HTTP API. - Enable the diff viewer by default. - Return MCP server not found errors from the HTTP API. - Let MCP OAuth configs set a callback port and include configured scopes in client metadata. (@sebin) - Use working Vertex Anthropic endpoints for us and eu multi-region setups. (@JPFrancoia) - Return session busy error bodies from the HTTP API. - Preserve native reasoning continuation metadata across turns. ## TUI ### Improvements - Copy the current worktree path from the command palette. ### Bugfixes - Refine diff viewer keyboard shortcuts. - Restore question prompt key handling. - Keep the spinner color aligned with the active agent. (@OpeOginni) ## Desktop ### Improvements - Move tab navigation into the title bar and tighten session tab shortcuts. - Show session status in the title bar. ### Bugfixes - Extract user codes correctly from callback URLs that contain multiple colons. (@OpeOginni) - Debounce VCS refreshes to reduce session page churn. **Thank you to 4 community contributors:** - @vglafirov: - chore(deps): bump gitlab-ai-provider to 6.7.0 (#28218) - @OpeOginni: - fix(opencode): update spinner color logic (#28032) - fix(desktop): correct user code extraction when URL contains colons (#28837) - @JPFrancoia: - fix(vertex): Vertex (Antropic) provider: use .rep.googleapis.com for continental multi-region endpoints (us, eu) (#28347) - @sebin: - fix(mcp): include scope in clientMetadata and add callbackPort option (#28810)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.9</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.9</guid>
+            <pubDate>Fri, 22 May 2026 21:18:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.7]]></title>
+            <description><![CDATA[## Core ### Improvements - Added Grok OAuth sign-in, including device-code login. (@Jaaneek) ### Bugfixes - V2 session APIs now return safe UnknownError responses with log reference IDs when stored messages are corrupt. - Generic API 500s no longer expose config details from server errors. - Unknown API errors now include reference IDs so you can match responses to server logs. - V2 session APIs now return 503 ServiceUnavailableError for mutations that are not available yet. - V2 session APIs now return SessionNotFoundError for missing sessions. - Deduped concurrent Codex OAuth refreshes to avoid repeated refresh failures. (@cooper-oai) - Restored native OpenAI OAuth requests. - Tool schema failures now surface as friendly tool errors. - Added PDF attachment support for Grok. - Restored OpenAI reasoning streams. ## TUI ### Bugfixes - Collapsed thinking labels now use clearer punctuation. - New sessions now default to the local project. - Single-select question checkmarks no longer run into option labels. ## Desktop ### Improvements - Added a pinch zoom setting for the desktop app. - Added a new desktop home view, session entry flow, and titlebar. - Refined the new desktop UI and moved app update actions into the titlebar. - Added desktop log export. ## SDK ### Bugfixes - V2 global event streams now include account add, remove, and switch events. **Thank you to 3 community contributors:** - @cooper-oai: - fix(opencode): dedupe concurrent Codex OAuth refreshes (#28236) - @Jaaneek: - feat(opencode): add xAI Grok OAuth (SuperGrok) + device-code login (#28557) - @kagura-agent: - fix(ui): preserve target attribute in DOMPurify config for markdown links (#28598)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.7</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.7</guid>
+            <pubDate>Thu, 21 May 2026 15:51:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.6]]></title>
+            <description><![CDATA[## Core ### Improvements - Added a diff viewer in the TUI for reviewing changes. - Collapsed single-child directories in the diff viewer file tree. - Added shell mode to the run prompt. - Replaced subagent tabs with an on-demand picker in run. - Plugin file load errors no longer break the rest of plugin loading. - Anthropic API-key models now use the native runtime. - The v2 HTTP API now exposes structured public error schemas. ### Bugfixes - Zed editor context now only activates inside Zed terminals. - The v2 HTTP API now exposes catalog errors. - The v2 HTTP API now exposes request errors. - The v2 OpenAPI spec now preserves endpoint error responses. - opencode login now defaults to https://console.opencode.ai. - Agent and command names now resolve correctly from relative config paths. - Invalid OPENCODE_PERMISSION JSON no longer crashes startup. - Plugin tools with missing args no longer break tool loading. - Restored legacy PgUp and PgDn TUI keybind aliases. - Native runtime now prefers the console provider token for OpenCode models. ## TUI ### Improvements - The diff viewer now focuses the first file automatically. ### Bugfixes - Imported sessions now refresh their directory and relative path fields correctly. (@OpeOginni) ## Desktop ### Improvements - Added initial desktop tabs support. - Added a native app menu on Windows. - Added Ukrainian locale support. (@MYMDO) ### Bugfixes - Custom providers now appear immediately after config updates. (@tianxiaoliang) ## SDK - Updated opentui dependencies to 0.2.15. **Thank you to 4 community contributors:** - @MYMDO: - feat(i18n): add Ukrainian (uk) locale support (#28061) - @StarpTech: - chore(team): add starptech to the team members list (#28320) - chore(docs): remove beta zen go (#28317) - chore(triage): add 'starptech' to core and inference teams (#28376) - @tianxiaoliang: - fix(app): invalidate provider queries after config update to show custom providers immediately (#28313) - @OpeOginni: - fix(opencode): Update directory and path fields of imported session (#27516) - fix(enterprise): message nav hovercard and active state (#23964)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.6</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.6</guid>
+            <pubDate>Wed, 20 May 2026 21:44:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.5]]></title>
+            <description><![CDATA[## Core ### Improvements - Preview the native OpenAI runtime path behind an experimental flag - Add --replay and --replay-limit to show recent history when resuming interactive runs ### Bugfixes - Fix plugin tools using ask so tool calls complete correctly - Reduce missed /event updates caused by a subscription race - Sort the v2 session list by most recently updated ## TUI ### Improvements - Refresh the prompt layout after pasting content ### Bugfixes - Keep file references scoped to the current workspace - Preserve pasted prompt content when copying - Collapse very long tool output lines to keep the layout readable - Use a higher-contrast paste summary badge color in some themes (@kagura-agent) ## Desktop ### Improvements - Allow desktop notifications from the renderer - Show free-limit and usage-exceeded dialogs in Desktop - Speed up large session timelines ### Bugfixes - Fix question dock overflow and message layout clipping - Hide the prompt placeholder when the input only contains whitespace (@ShrootBuck) - Sync the PWA status bar color with the active theme (@heimoshuiyu) - Install the newest available desktop update instead of reusing a stale download **Thank you to 4 community contributors:** - @heimoshuiyu: - fix: sync PWA status bar theme-color with app color scheme (#28006) - @ShrootBuck: - fix(app): hide prompt placeholder for whitespace input (#28101) - @kagura-agent: - fix(tui): use contrast-aware foreground for paste summary badge (#27969) - @SpiritChen51: - fix(ui): fallback to execCommand for clipboard copy when navigator.clipboard fails (#27993)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.5</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.5</guid>
+            <pubDate>Mon, 18 May 2026 20:57:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.4]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Fixed project-scoped bus events so file watcher and update notifications reach the right instance. - Fixed custom LSP servers not sending refresh events after they initialize. - Hid background subagent task instructions unless experimental background mode is enabled. ## TUI ### Improvements - Made Markdown H1 headings easier to distinguish. **Thank you to 1 community contributor:** - @necropheus: - docs: update README.es.md (#27739)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.4</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.4</guid>
+            <pubDate>Sun, 17 May 2026 17:44:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.3]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Reduced wasted work when reading very large files after output truncation. ## TUI ### Bugfixes - Fixed async commands losing the active instance context, which could break agent generation and GitHub-driven runs.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.3</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.3</guid>
+            <pubDate>Sat, 16 May 2026 14:07:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.2]]></title>
+            <description><![CDATA[## Core ### Improvements - Reduced unnecessary prompting around shell, task, and todo flows. ### Bugfixes - Fixed sync events not reaching project-scoped subscribers in injected instances. ## TUI ### Improvements - Newly pinned sessions now stay at the end of the pinned list instead of jumping to the top. ### Bugfixes - Fixed opencode run --agent resolving project-local agents. **Thank you to 1 community contributor:** - @gigamonster256: - feat(nix): add opencode-electron derivation (#16163)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.2</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.2</guid>
+            <pubDate>Sat, 16 May 2026 12:53:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.1]]></title>
+            <description><![CDATA[## Core ### Improvements - Clarified how to recover when the npm package is installed without its native binary. ### Bugfixes - Avoid duplicate consecutive entries in prompt history. - Show full config validation errors during TUI startup instead of a generic failure. - Fixed npm installs so the CLI can recover and fetch the right native binary on more setups. - Fixed multiline @ mentions in prompts. - Preserved custom tool metadata from Zod schemas. - Preserved custom tool argument descriptions in generated schemas. - Fixed file watching in repos where .git is a symlink. (@kagura-agent) ## TUI ### Improvements - Added a collapsed thinking view that can be expanded inline. - Added pinned sessions with quick-switch slots in the session picker. ### Bugfixes - Fixed thinking mode defaults so reasoning starts collapsed consistently. - Limited session quick-switching to pinned sessions. - Fixed Markdown table rendering in chat output. **Thank you to 1 community contributor:** - @kagura-agent: - fix(watcher): resolve symlinked .git path before subscribing (#27016)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.1</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.1</guid>
+            <pubDate>Sat, 16 May 2026 05:44:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.15.0]]></title>
+            <description><![CDATA[## Core ### Improvements - Added an Effect-based core event system for more complete event delivery across sessions and integrations. ### Bugfixes - Ignored invalid exports in custom tool modules instead of failing tool loading. - Ignored project instruction lookup errors so sessions keep loading when project instruction discovery fails. - Fixed versioned event projector lookups so event replay uses the right handlers. ## Desktop ### Improvements - Auto-hide the menu bar on Linux and Windows. (@shi-gg) ### Bugfixes - Fixed archived sessions being reprocessed when their archive state did not change. ## SDK ### Bugfixes - Restored missing event types in the JavaScript SDK, including session and message events. **Thank you to 1 community contributor:** - @shi-gg: - feat(desktop): auto-hide menu bar on Linux and Windows (#27618)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.15.0</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.15.0</guid>
+            <pubDate>Fri, 15 May 2026 04:03:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.51]]></title>
+            <description><![CDATA[## Core ### Improvements - Added experimental background subagents so tasks can keep running while you continue working. - Added the required billing origin header for NVIDIA endpoints. (@nv-kasikritc) ### Bugfixes - Fixed worktree creation requests that omitted the POST body. - Fixed sessions getting stuck with interrupted assistant messages after cancellation. - Fixed repeated auto-compaction in sessions after compaction reordered messages. - Updated LiteLLM compatibility to require v1.85.0-rc.2+ for current GPT-5 and tool-call behavior. (@Sameerlite) - Fixed truncated shell output streams closing cleanly. - Stopped exposing internal named defect details from the HTTP API. - Fixed Azure gpt-5.5 requests through the completions API. (@frederiknsgo) - Restored automatic image resizing for oversized image attachments. ## TUI ### Bugfixes - Preserved text selection when clicking question prompt options. (@nikhil-patel-whatnot) ## Desktop ### Improvements - Added MCP connection status for client registration and authentication, with direct re-auth flows in the app. (@OpeOginni) ### Bugfixes - Fixed Windows app detection by reading where output correctly. ## Extensions ### Bugfixes - Fixed DigitalOcean OAuth to request only the GenAI scopes it needs. (@Spherrrical) **Thank you to 7 community contributors:** - @nikhil-patel-whatnot: - fix(tui): preserve text selection on question prompt options (#24988) - @frederiknsgo: - fix: bug encountered when using azure gpt-5.5 w/ completions api (#26222) - @OpeOginni: - feat(desktop): add mcp client registration status and authentication handling (#27525) - @Sameerlite: - fix(provider): remove LiteLLM workarounds ported upstream, requires LiteLLM v1.85.0-rc.2+ (#26819) - @bo-tato: - docs(app): stale reference to removed multi-edit tool (#27579) - @Spherrrical: - fix(plugin): scope digitalocean oauth to genai (#27599) - @nv-kasikritc: - feat(provider): add NVIDIA endpoints origin header (#27394)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.51</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.51</guid>
+            <pubDate>Fri, 15 May 2026 00:39:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.50]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Kept HTTP event streams open after the initial connect event so subscribers continue receiving instance updates. - Returned proper busy errors when a session is already running prompt or shell work. - Let invalid small_model config values fall back cleanly instead of breaking small-model selection. - Improved missing-model errors with suggestions across CLI and typed callers. ## TUI ### Improvements - Restored markdown rendering for session output by default. ## SDK ### Improvements - Added instance.directory and instance.workspace query support to the v2 model and provider calls.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.50</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.50</guid>
+            <pubDate>Thu, 14 May 2026 03:03:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.49]]></title>
+            <description><![CDATA[## Core ### Improvements - Added the v2 model and provider listing API. - Added DigitalOcean OAuth and Inference Router support. (@Spherrrical) - Create a global opencode.jsonc automatically when no config exists. - Enable customize-opencode by default with a linked full schema. - Autocomplete configured @mentions in prompts. - Parse fenced Markdown code blocks in patch diffs by default. ### Bugfixes - Fix keymap fallback priority and make TUI config errors clearer. - Restore model suggestions for unloaded providers and missing models. - Preserve layered permission rule order in config merges. (@asuffield) - Preserve attachments returned by custom tools. - Keep recent turns after compaction instead of folding them into the summary. - Fix prompt cursor movement and mentions for wide characters. - Prevent duplicate submits from creating empty phantom sessions. - Keep compacted tail history when forking a session. - Return proper busy-session errors from the HTTP API. ## TUI ### Improvements - Add pinned recent sessions, quick slots, and recent-session cycling. ### Bugfixes - Restore non-interactive run exit behavior. - Make the websearch provider label update reactively. (@NormallyGaussian) - Reduce flicker when switching workspaces. - Fix run --json output draining. - Fix prompt history and line up/down commands. ## Desktop ### Improvements - Add Ctrl/Cmd+number shortcuts to switch projects. - Remember whether the todo dock is collapsed. - Restore AppStream metadata in Linux desktop builds. ### Bugfixes - Show clearer wrapped server errors in the app. (@OpeOginni) - Use the login shell when loading desktop environment variables. (@qwq202) - Remember the selected model variant when switching sessions or projects. - Open the next available project when closing the current one. - Prevent streamed Markdown from being cut off. **Thank you to 5 community contributors:** - @NormallyGaussian: - fix(tui): make websearch provider label reactive (#26943) - @Spherrrical: - feat(plugin): add DigitalOcean OAuth + Inference Routers (#26095) - @asuffield: - fix: preserve permission ordering by accepting a layered array (#23214) - @qwq202: - fix(desktop): resolve login shell when loading env (#26449) - @OpeOginni: - fix(app): enhance error handling by unwrapping SDK-wrapped errors in formatServerError (#27061)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.49</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.49</guid>
+            <pubDate>Wed, 13 May 2026 22:18:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.48]]></title>
+            <description><![CDATA[## Core ### Improvements - Preserve original image attachments instead of resizing them before sending them to the model]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.48</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.48</guid>
+            <pubDate>Mon, 11 May 2026 02:07:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.47]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Restored prompt editing keybindings in the TUI textarea, including aliases like esc and enter - Model changes now persist reliably across session activity - HTTP API schema validation errors now return a readable 400 response body ### Improvements - Scout can now materialize configured reference repositories up front so they are ready to search - Large image attachments are now auto-resized before sending, with configurable size limits ## TUI - File and directory paths now render relative to the session directory when possible]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.47</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.47</guid>
+            <pubDate>Mon, 11 May 2026 00:23:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.46]]></title>
+            <description><![CDATA[## Core ### Improvements - Added a built-in customize-opencode skill so opencode config edits are less likely to break startup. ### Bugfixes - Fixed numeric HTTP API query parameters in the generated OpenAPI spec and SDK for session and file endpoints. - Fixed boolean HTTP API query handling so SDK types and runtime validation stay aligned. - Tolerated legacy stored numeric values in sessions, diffs, and retry events instead of failing to load old data. - Fixed old sessions with negative token counts causing message loads and Desktop startup to fail. - Fixed MCP tool discovery when a server publishes broken outputSchema references. - Fixed workspace HTTP API query drift so workspace-routed endpoints expose the right query parameters in OpenAPI and the SDK. - Fixed a Plan Mode security bypass where subagents could ignore parent-agent deny rules.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.46</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.46</guid>
+            <pubDate>Sun, 10 May 2026 02:34:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.45]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Provider configs and API responses now accept models marked as active. - Read tool permission rules now match worktree-relative paths, so read allowlists and denylists apply correctly. - Workspace-routed HTTP API endpoints no longer reject valid directory and workspace query params. ## TUI ### Bugfixes - Startup errors now report every failed bootstrap request instead of only the first one. - Opening a session no longer crashes when the messages request fails. ## Desktop ### Bugfixes - Older migrated sessions with missing diff file details load again. - Older migrated sessions with missing diff patches load again. (@OpeOginni) ## SDK ### Bugfixes - throwOnError: true now throws a real Error with the server message and preserves the response body in cause. ## Extensions ### Improvements - TUI plugins using the deprecated api.command API keep working while you migrate to api.keymap. ### Bugfixes - Provider plugins can no longer mutate shared provider model state for the rest of the app. **Thank you to 1 community contributor:** - @OpeOginni: - fix(sessions): allow optional patch field in diff for migrated sessions (#26574)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.45</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.45</guid>
+            <pubDate>Sun, 10 May 2026 00:07:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.44]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Fixed upgrades failing for existing workspaces when adding the time_used field.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.44</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.44</guid>
+            <pubDate>Sat, 09 May 2026 19:33:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.43]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Keep provider and config API responses working when auth loaders add non-JSON options to providers. - Include tool image attachments in ACP updates and session replays. (@SteffenDE) **Thank you to 1 community contributor:** - @SteffenDE: - fix(acp): include tool image attachments in updates (#25128)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.43</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.43</guid>
+            <pubDate>Sat, 09 May 2026 18:06:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.42]]></title>
+            <description><![CDATA[## Core ### Improvements - Added HTTP API response compression for large non-streaming responses. - Added the Scout agent for repo research, docs lookup, and dependency-source inspection. - Added workspace sync so adapter-backed workspaces can be discovered and registered automatically. - Added an interactive split-footer mode for opencode run. - Simplified TUI keybinding config into a flat keybind format. - Made duplicate worktree names fall back to the parent directory for clearer labels. ### Bugfixes - Fixed HTTP API auth responses to match the previous wire format for empty authorize results and share errors. - Returned structured validation errors from the HTTP API. - Rejected invalid permission and question IDs in the HTTP API. - Included auth challenges on typed HTTP API 401 responses. - Fixed the HTTP API OpenAPI document route. - Fixed detached sessions so they are claimed by the source project again. - Forwarded SIGINT, SIGTERM, and SIGHUP correctly when running through the npm shim. (@chubes4) - Allowed skills without descriptions to load correctly. - Required auth on effect HTTP API root routes. (@RajvardhanPatil07) - Kept tool ordering stable so tool lists stop reshuffling between runs. - Made retry dialogs more specific to the provider and failure reason. - Fixed Gemini reasoning controls so supported effort levels and small-mode defaults match the model. - Fixed Anthropic Opus 4.5 reasoning effort options. - Limited OpenAI deep research models to the reasoning level they actually support. - Fixed GPT-5 reasoning variants so the exposed effort options match each model family. ## TUI ### Improvements - Show retrying sessions as active in the project sidebar. (@edemaine) ### Bugfixes - Fixed the sidebar message shown for language server state. (@Polo123456789) - Sorted the session picker by full last-updated time instead of day buckets. (@Sleepful) - Kept longer cleared prompts in draft history so they can be restored. ## Desktop ### Improvements - Switched desktop updates to silent per-user install flow. **Thank you to 5 community contributors:** - @edemaine: - feat(desktop): working indicator on project sidebar (#26223) - @RajvardhanPatil07: - fix(server): require auth for effect root routes (#26361) - @chubes4: - fix(cli): forward signals from npm shim (#26259) - @Sleepful: - fix(tui): sort session picker by full updated timestamp (#24725) - @Polo123456789: - fix(sidebar): fix logic and missleading message #26469 (#26470)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.42</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.42</guid>
+            <pubDate>Sat, 09 May 2026 16:54:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.41]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Restored formatter output handling so formatting still works when formatters write to stdout or stderr. (@ferdinandyb) ### Improvements - Warping a session to another workspace can now carry over your uncommitted file changes. ## TUI ### Bugfixes - Restored custom provider setup in /connect. ## Desktop ### Bugfixes - Added a macOS Settings menu entry. (@jessedi0n) ### Improvements - Moved the desktop app's local server into a separate utility process for more reliable startup and shutdown. ## Extensions ### Improvements - ACP clients now restore the last model, mode, and effort when loading sessions, and can close sessions cleanly. **Thank you to 4 community contributors:** - @carmithersh: - docs: add opencode-jfrog-plugin to ecosystem list for JFrog integration (#26019) - @jessedi0n: - fix(desktop): add macOS settings menu entry (#26081) - @ferdinandyb: - fix(format): restore stdout/stderr ignore for formatter processes (#26037) - @YGoetschel: - fix: guard undefined contents in diff renderer to fix share viewer SSR crash (#21763)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.41</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.41</guid>
+            <pubDate>Thu, 07 May 2026 14:52:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.40]]></title>
+            <description><![CDATA[## Core ### Improvements - Support .well-known/opencode configs that point to a separate remote config file. ### Bugfixes - Preserve assistant text when replaying signed reasoning blocks. (@edevil) - Return consistent not-found errors for missing sessions. - Apply CORS headers before auth so browser clients can reach legacy server endpoints. - Fix serve, web, and ACP network options triggering runtime re-entry errors. - Only show connected workspaces in warp flows, and carry the new directory into the session after warping. - Restore web terminal CSP allowances. - Sanitize invalid surrogate characters before provider transforms. - Fix Cloudflare AI Gateway provider options for OpenAI-compatible models. (@NathanDrake2406) - Use the current workspace with /new, including local-project warps. - Keep editor selection context stable until it is sent. - Retry server_is_overloaded API errors automatically. - Restore Mistral Medium 3.5 variants so model selection works correctly. - Show compaction summaries before retained tail messages. ## TUI ### Bugfixes - Keep the selected model when model data refreshes. - Fix /agent create to use the /agents path. (@OpeOginni) ## Desktop ### Improvements - Allow trusted app windows to write to the clipboard without permission failures. ### Bugfixes - Ignore broken pipe (EPIPE) errors in desktop console logging. - Stop auto-installing updates when quitting the app. - Silence noisy browser API Sentry reports in production. - Prevent sync bootstrap queries from failing during app startup. **Thank you to 6 community contributors:** - @OpeOginni: - fix(TUI): update agent create target path from "/agent" to "/agents" (#14427) - @NathanDrake2406: - fix(cf-ai-gateway): route provider options through openaiCompatible key (#24432) (#25573) - @imduchuyyy: - docs: update desktop app references from Tauri to Electron (#25965) - @kill74: - docs: fix CLI attach section order (#25749) - @zharinov: - fix(ui): preserve SVG tags in DOMPurify config for KaTeX math rendering (#25866) - @edevil: - fix(provider): preserve assistant message content when reasoning blocks present (#21370)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.40</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.40</guid>
+            <pubDate>Thu, 07 May 2026 00:34:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.39]]></title>
+            <description><![CDATA[## Desktop ### Bugfixes - Respect HTTP_PROXY and related proxy environment variables in the desktop app. - Return null instead of failing when the desktop app cannot read a stored value.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.39</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.39</guid>
+            <pubDate>Tue, 05 May 2026 10:57:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.38]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Embedded UI requests now work with arbitrary connect-src origins under the default CSP. ## Desktop ### Bugfixes - Desktop now trusts system CA certificates for HTTPS connections.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.38</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.38</guid>
+            <pubDate>Tue, 05 May 2026 09:48:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.37]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Canceling a task now also cancels child subtask sessions. ### Improvements - Improved v2 session rendering with cleaner tool states, better compaction summaries, and more accurate timing. - Warp a session into another workspace or back to the local project. ## Desktop ### Bugfixes - Run the desktop migration on startup so existing installs transition correctly after the desktop packaging move. - Stabilized the Windows titlebar when changing zoom levels.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.37</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.37</guid>
+            <pubDate>Tue, 05 May 2026 07:26:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.35]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Preserve diff patch boundaries so session diffs keep rendering correctly when file contents include diff --git text.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.35</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.35</guid>
+            <pubDate>Tue, 05 May 2026 01:01:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.34]]></title>
+            <description><![CDATA[## Core ### Improvements - Add PTY connection tickets so authenticated terminal websockets work more reliably across clients. - Add v2 session failure events so clients can detect and show failed runs. - Improve shell command handling for Bash, PowerShell, and cmd sessions. ### Bugfixes - Return structured error bodies from the effect HTTP server instead of empty failures. - Reload server auth environment variables correctly for each new HTTP listener. - Stop worktree creation from hanging while bootstrap commands run. - Fix Azure Anthropic model resolution when using the Anthropic SDK. - Fix the web UI proxy so public manifest assets load and proxied responses do not break on transfer-encoding. (@OpeOginni) - Allow Codex Spark models when signing in with Codex OAuth. (@Utkub24) - Fix embedded UI serving from the standalone server build. - Fix PTY websocket connections from Desktop when using the HttpApi server. - Respect custom basic auth usernames in opencode clients. - Prompt browsers for basic auth on protected server logins. (@OpeOginni) - Show real server error messages in the CLI and SDK instead of bare {}. - Prevent large diffs from using unbounded memory. - Fix v2 session API responses to encode optional fields correctly. - Fix pagination Link headers to use the real request host. ## TUI ### Improvements - Add debug info to print environment and diagnostic details. ### Bugfixes - Add a --username option for basic-auth server connections. (@OpeOginni) - Pass server auth through internal ACP connections. - Show provider login errors from stderr instead of swallowing them. ## Desktop ### Bugfixes - Prevent terminal reconnect loops after recovery failures. - Preserve auth-token credentials when reopening the app. **Thank you to 4 community contributors:** - @PanAchy: - chore(opencode): exclude .map files from CLI binary build (#25500) - @OpeOginni: - fix(httpapi): add basic auth challenge for browser login - fix(auth): add username option for basic auth in RunCommand (#25600) - fix(opencode): strip transfer-encoding in UI proxy and allow public manifest assets (#25698) - @Utkub24: - fix: allow Codex Spark with Codex OAuth (#25640) - @cgilly2fast: - chore(docs): rename firmware provider to frogbot (#25453)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.34</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.34</guid>
+            <pubDate>Mon, 04 May 2026 23:26:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.33]]></title>
+            <description><![CDATA[## Core - Fix issue with custom agents in plugins not loading **Thank you to 3 community contributors:** - @jerome-benoit: - fix(nix): remove stale packages/shared filter (#24930) - @OpeOginni: - docs: CLI docs for current commands and flags (#25399) - @HyeokjaeLee: - fix(instance): restore InstanceBootstrap init parameter for non-Effec… (#25449)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.33</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.33</guid>
+            <pubDate>Sat, 02 May 2026 19:53:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.32]]></title>
+            <description><![CDATA[## Core - Shell mode in the prompt stays editable, so backspace, cursor movement, and other editing keys work again. - Fixed HTTP API workspace adapters losing instance context, which could break workspace create, sync, and routing flows. - Fixed experimental workspace creation requests that omit extra. - Fixed OpenAPI parameter schemas so generated clients match the public API. - Unsupported image formats now fall back to text reads instead of being sent as image attachments. (@zeke) - Agents can use the global temp directory without extra permission prompts. - Fixed Bedrock sessions that include reasoning content when switching models. - Session archive timestamps now reject non-finite values, avoiding invalid JSON in API payloads. ## TUI - Reduced startup theme flashing when using the system theme. - The animated logo now avoids subpixel rendering on terminals without truecolor support. **Thank you to 2 community contributors:** - @luojiyin1987: - fix: correct documentation typos (#25260) - @zeke: - fix(read): prevent unsupported image formats from being sending to provider (#21114)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.32</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.32</guid>
+            <pubDate>Sat, 02 May 2026 15:34:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.31]]></title>
+            <description><![CDATA[## Core - Azure setup now prompts for the resource name when needed and saves it with the API key. - Task child sessions now preserve parent external_dir and deny permissions. (@remorses) - Invalid remote MCP URLs now fail with a clear error instead of breaking setup. ## Desktop - Restoring saved messages no longer crashes the app when a model is missing. **Thank you to 1 community contributor:** - @remorses: - fix(opencode): preserve external_dir and deny parent permissions in task child sessions (#23290)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.31</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.31</guid>
+            <pubDate>Fri, 01 May 2026 06:13:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.30]]></title>
+            <description><![CDATA[## Core - Fixed missing sessions in Desktop caused by path mismatches, including recovery for existing stored data. - Fixed Azure Responses defaults to avoid reasoning item ordering errors. - Improved DeepSeek compatibility with providers that vary model naming. - Added Mistral Medium 3.5 with reasoning support. (@rubdos) - Made instruction precedence more predictable by applying global instructions before project and skill instructions. - Reconnected editor context when switching to a session in another directory. - Fixed forked sessions so compacted history stays intact. (@spark4862) - Reduced memory growth in long-running bash tool usage. - Sessions now filter to the current path by default, with a setting to show the whole project. - Kept GitHub Copilot model variants in sync with the latest API capabilities. - Fixed Zed selections with UTF-8 text so editor context uses the right ranges. ## TUI - Added a quick toggle for paste summaries. - Invalid custom themes no longer crash the TUI on startup. **Thank you to 3 community contributors:** - @Vect0rM: - docs: add Atomic Chat provider section (#23069) - @spark4862: - fix(session): remap compaction tail_start_id when forking (#24898) - @rubdos: - feat: add Mistral Medium 3.5 with reasoning support (#24996)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.30</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.30</guid>
+            <pubDate>Wed, 29 Apr 2026 23:33:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.29]]></title>
+            <description><![CDATA[## Core - Sessions now keep a relative workspace path. - Moonshot and Kimi tool schemas are sanitized to avoid rejected tool calls. - MCP OAuth errors now match the native API more closely. - Provider OAuth authorize errors now match the native API more closely. - Shell cancellations now finish cleanly instead of leaving aborted commands in a bad state. - Creating a session over HTTP now works with an empty request body. - Workspace HTTP API routes are now mounted through the bridge. - Tool streaming now defaults off for non-Anthropic models when using the Anthropic SDK. - DeepSeek OpenAI-compatible setups now keep reasoning_content interleaved by default. - The experimental LSP tool now forwards the workspace symbol query. - Google Vertex now defaults tool call streaming off. ## TUI - Zed context polling stays responsive. - Pressing Enter in dialogs now triggers the dialog instead of leaking through. (@CasualDeveloper) - File context is clearer, can be turned off, and clears after sending. - opencode agent create now writes a valid permissions.deny config. (@21pounder) ## Desktop - Per-workspace icon overrides now stay applied for subdirectories in the same repo. - Sync state loading is more reliable for MCP, LSP, and workspace refreshes. **Thank you to 3 community contributors:** - @21pounder: - fix(opencode): agent create generates permissions field with deny ins… (#24482) - @SeashoreShi: - docs: fix duplicated word in CLI env var table (#24614) - @CasualDeveloper: - fix(tui): consume Enter in dialog useKeyboard handlers (#23390)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.29</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.29</guid>
+            <pubDate>Tue, 28 Apr 2026 18:34:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.28]]></title>
+            <description><![CDATA[## Core - Fixed issue with opencode upgrade failing for bun installs unless in a directory with package.json]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.28</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.28</guid>
+            <pubDate>Mon, 27 Apr 2026 04:23:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.27]]></title>
+            <description><![CDATA[## Core - Added a configurable default shell for terminals and agent shell commands, with a Desktop setting to manage it. - Reduced extra terminal noise while creating TUI workspaces. ## TUI - Hid provider connection checks until onboarding is complete. - Restored the default toast timeout when no custom duration is provided. (@OpeOginni) **Thank you to 1 community contributor:** - @OpeOginni: - fix(tui): update toast duration handling to use default value (#23395)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.27</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.27</guid>
+            <pubDate>Mon, 27 Apr 2026 02:09:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.26]]></title>
+            <description><![CDATA[## Core - Fixed config parsing to preserve permission rule order. - Fixed OpenRouter DeepSeek reasoning output handling. - Sent an opencode/ User-Agent header with HTTP requests. ## TUI - Added Zed editor selection support for editor context. - Show a /connect tip when no models are configured. - Fixed editor lock detection to ignore locks from unrelated workspaces. (@jjjermiah) **Thank you to 2 community contributors:** - @ariane-emory: - fix: correct typo in comment (#24420) - @jjjermiah: - fix(editor): reject lock files with no workspace match for cwd (#24323)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.26</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.26</guid>
+            <pubDate>Sun, 26 Apr 2026 21:01:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.25]]></title>
+            <description><![CDATA[## Core - Fixed permission config preserving rule order and exposes full IntelliSense for tool permission keys - LSP permission prompts now include request details like the operation, file, and cursor position - Shell commands keep the correct working directory after login shell startup files run - Added Roslyn LSP support for Razor, .cshtml, and C# script files - GPT-5.5 with OpenAI OAuth now uses the correct context limits to avoid compaction issues **Thank you to 2 community contributors:** - @altendky: - fix(opencode): clarify git amend condition to require verifying commit landed (#19937) - @b0o: - fix(build): add prettier to devDependencies (#23255)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.25</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.25</guid>
+            <pubDate>Sat, 25 Apr 2026 14:37:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.24]]></title>
+            <description><![CDATA[## Core - Fixed DeepSeek assistant messages so reasoning is always included, avoiding provider formatting failures. - Fixed inherited model configs so interleaved-capability models keep working when that field falls back to an existing model. (@07akioni) - Added an experimental HTTP API endpoint for MCP server status. - Added experimental HTTP API endpoints to list files, read file contents, and check project file status. **Thank you to 1 community contributor:** - @07akioni: - fix: use existingModel as fallback for interleaved field (#24172)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.24</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.24</guid>
+            <pubDate>Fri, 24 Apr 2026 15:53:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.23]]></title>
+            <description><![CDATA[## Core - Respect custom .npmrc registry settings when checking package versions and updates. ## TUI - Render all non-synthetic text in a user message instead of showing only the first text block.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.23</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.23</guid>
+            <pubDate>Fri, 24 Apr 2026 13:17:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.22]]></title>
+            <description><![CDATA[## Core - Respect .npmrc settings during npm installs. - Let projects store a custom icon override so the chosen icon persists correctly. ## Desktop - Fix session views and nested session items not getting stuck with stale state when switching between sessions.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.22</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.22</guid>
+            <pubDate>Thu, 23 Apr 2026 15:56:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.21]]></title>
+            <description><![CDATA[## Core - Support pull diagnostics from LSP servers that use them, including C# and Kotlin. - Fix project detection and caching for bare Git repos and worktrees. (@StevenTCramer) - Improve session compaction so long threads keep more useful context when older history is summarized. - Preserve UTF-8 BOMs when files are edited, patched, or rewritten through tools. - Use Roslyn Language Server for C# support instead of csharp-ls. (@jmbryan4) - Add the high reasoning variant for supported Mistral Small models. (@rubdos) - Hide unsupported variants for Kimi models that do not expose them. ## TUI - Fail fast when opening an invalid or missing session instead of starting the TUI in a broken state. - Skip upgrade checks when auto-update is disabled. (@rahuliyer95) ## Desktop - Keep project avatar previews consistent between the sidebar and edit dialog. - Improve project icon overrides so uploaded icons and color fallbacks behave correctly in the edit dialog. - Improve Linux desktop metadata for app listings and categorization. (@NN708) **Thank you to 6 community contributors:** - @rahuliyer95: - fix(tui): don't check for version upgrades if it's disabled by the user (#20089) - @github-actions[bot]: - Update VOUCHED list - @rubdos: - feat: add Mistral Small reasoning variant support (issue #19479) (#23735) - @jmbryan4: - feat: replace csharp-ls with roslyn-language-server (#14463) - @NN708: - fix(desktop): update desktop file and MetaInfo file (#14933) - @StevenTCramer: - fix(project): use git common dir for bare repo project cache (#19054)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.21</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.21</guid>
+            <pubDate>Thu, 23 Apr 2026 05:45:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.20]]></title>
+            <description><![CDATA[## Core - Fixed a system theme regression in the TUI. - Added GET /config to the experimental HTTP API. - Fixed local dynamic imports on Windows when running under Node, improving plugin and tool loading. ## TUI - Fixed permission replies using remote workspaces so they are sent to the correct workspace. ## Desktop - Stopped prompt controls from replaying their fade-in animation on every render. - Added a setting to hide the session progress bar while the agent is working. - Fixed the Select Server dialog layout so the server list and actions size correctly. (@OpeOginni) - Fixed synced project updates so desktop project state changes apply reliably. - Fixed sidebar project avatars to fall back to icon.url when no override is set. (@ysm-dev) ## SDK - Fixed the WorkspaceAdaptor.create type to include the env parameter. (@jamesmurdza) **Thank you to 4 community contributors:** - @heimoshuiyu: - fix(ui): use parentID matching instead of positional scan for assistant messages (#23093) - @ysm-dev: - fix(app): fall back to icon.url in sidebar avatar (#18747) - @jamesmurdza: - fix(plugin): add env parameter to WorkspaceAdaptor.create type (#23235) - @OpeOginni: - fix(desktop): adjust layout properties in DialogSelectServer component (#23589)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.20</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.20</guid>
+            <pubDate>Tue, 21 Apr 2026 19:07:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.19]]></title>
+            <description><![CDATA[## Core - Prevented compiled binaries from failing on startup because of a circular session schema dependency. - Renamed the compaction setting to preserve_recent_tokens for the budget that keeps recent turns verbatim. - Preserved concurrent edits to the same file instead of letting parallel edits overwrite each other. - Fixed managed installs on Windows and added bundled ripgrep support for Windows ARM64. - Added NVIDIA as a built-in provider option, including connection docs and required attribution headers. (@anniesurla) - Kept recent conversation turns verbatim during session compaction so follow-up work keeps more local context. - Fell back to summarizing the full conversation when preserved recent turns include too much media to fit safely. ## Desktop - Reduced loading flicker when opening projects and bringing prompt controls online. - Added a separate terminal font setting and bundled JetBrainsMono Nerd Font Mono. **Thank you to 1 community contributor:** - @anniesurla: - feat(provider): add NVIDIA to popular providers, docs, and attribution headers (#22927)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.19</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.19</guid>
+            <pubDate>Mon, 20 Apr 2026 07:21:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.18]]></title>
+            <description><![CDATA[## Core - Restore the native ripgrep backend so file search and file listing work reliably again. **Thank you to 1 community contributor:** - @ariane-emory: - docs: document --dangerously-skip-permissions CLI flag (#23371)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.18</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.18</guid>
+            <pubDate>Sun, 19 Apr 2026 09:36:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.14.17]]></title>
+            <description><![CDATA[## Core - Preserve executable permissions before Docker builds when artifacts lose their exec bits. - Fix plugins reinstalling more often than needed. - Use display: summarized by default for Anthropic Bedrock Opus 4.7 requests. - Detect attachment types from file contents so images and PDFs still work with incorrect or missing extensions. - Support OTEL_RESOURCE_ATTRIBUTES for custom telemetry resource tags. - Fix package installs when node_modules is missing. - Fix GitHub Copilot Anthropic Haiku requests by disabling unsupported tool streaming. ## TUI - Add a full-session option when forking from the session dialog. - Show the session ID in the sidebar on non-production channels. **Thank you to 1 community contributor:** - @OpeOginni: - fix(desktop): adjust ui tool diff sticky header offset (#23149)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.17</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.17</guid>
+            <pubDate>Sun, 19 Apr 2026 03:02:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.11]]></title>
+            <description><![CDATA[## Core - Fixed workspace routing so requests reach the correct workspace instance. - Stopped share sync attempts for sessions that were never shared.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.11</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.11</guid>
+            <pubDate>Sat, 18 Apr 2026 00:29:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.10]]></title>
+            <description><![CDATA[## Core - Restored workspace history on connect so existing sessions catch up before live sync resumes - Passed OTEL exporter settings into managed workspaces so telemetry works there too - Normalized provider metadata defaults so models still load when catalog data is incomplete - Passed EXA_API_KEY to the websearch tool to reduce rate limits (@rasdani) ## TUI - Added a restore flow for sessions whose workspace is unavailable, with clearer workspace status indicators - Fixed agent cycling when no agent is selected and improved prompt key handling **Thank you to 1 community contributor:** - @rasdani: - fix(opencode): pass EXA_API_KEY to websearch tool to avoid rate limits (#16362)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.10</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.10</guid>
+            <pubDate>Fri, 17 Apr 2026 20:13:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.9]]></title>
+            <description><![CDATA[## Core - Added LLM Gateway as a provider, including config support and model usage reporting. (@smakosh) - Limited GitHub Copilot Opus 4.7 models to medium reasoning effort to avoid unsupported variants. (@OpeOginni) - Improved remote workspace reconnection with exponential backoff and clearer failure handling. ## TUI - Fixed --session-id so it opens the requested session after app startup. - Fixed light mode detection in Ghostty. ## Desktop - Fixed the beta desktop app so the file tree still appears when enabled in settings. **Thank you to 3 community contributors:** - @OpeOginni: - fix(opencode): rescrict github copilot opus 4.7 variants to "medium" (#23097) - @jenperson: - docs: adding Mistral to docs as a provider (it is already a provider, just docs update) #23070 (#23072) - @smakosh: - feat: add LLM Gateway provider (#7847)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.9</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.9</guid>
+            <pubDate>Fri, 17 Apr 2026 16:20:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.8]]></title>
+            <description><![CDATA[## Core - Fixed a crash when experimental mode was enabled. - Let plugin tools return metadata in execute results. (@jquense) - Show real filenames instead of /dev/null in revert diffs. - Improved workspace session handling when a workspace no longer exists. - Fixed Windows ctrl+z terminal suspend and input undo behavior. - Enabled Azure prompt caching with a default per-session cache key. ## TUI - Preserve prompt input when views unmount and remount. - Keep session list dialogs ordered more consistently within each day. ## Desktop - Fixed desktop workspace loading so ready state persists correctly. - Fixed desktop session syncing when loading project data from query cache. - Added beta desktop settings to hide title bar tools like navigation, search, terminal, status, and file tree. - Improved desktop session change loading in the review panel. **Thank you to 1 community contributor:** - @jquense: - fix: preserve plugin tool metadata in execute result (#22827)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.8</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.8</guid>
+            <pubDate>Fri, 17 Apr 2026 13:37:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.7]]></title>
+            <description><![CDATA[## Core - GitHub Copilot gpt-5-mini now uses low reasoning effort for better request compatibility. (@thakrarsagar) - Fixed Github Copilot overbilling issue - Workspaces now receive your auth context, so provider sign-in carries across workspace sessions. - Cloudflare AI Gateway now drops max_tokens for OpenAI reasoning models so GPT-5 and o-series requests stop failing. (@kobicovaldev) - Azure models now default store=true, fixing requests that require stored responses. - Claude Opus 4.7 now supports xhigh adaptive reasoning. (@GrahamCampbell) - Claude Opus 4.7 now shows summarized thinking by default. - TUI plugins now load against the correct project when multiple directories are open. - The bash tool uses less memory on large command output. - Experimental workspaces now wait for sync to finish before returning writes, reducing stale reads and missed updates. - Session restore can now replay a session into another workspace in batches. - Sessions now retry provider 5xx errors even when the provider SDK does not mark them retryable. ## TUI - Pasting files or large text no longer inserts content twice. - --agent on the command line is no longer overwritten by the session's saved agent. (@CarloWood) - Empty LSP, MCP, formatter, and session status responses no longer break TUI sync state. ## Desktop - Desktop builds now show a Beta or Dev badge in the title bar when applicable. **Thank you to 8 community contributors:** - @ariane-emory: - fix(core): Remove dead code and documentation related to the obsolete list tool. (#22672) - @CarloWood: - fix(tui): Don't overwrite the agent that was specified on the command line (#20554) - @jerome-benoit: - fix(nix): add shared package to bun install filters (#22665) - @GrahamCampbell: - feat: Add support for claude opus 4.7 xhigh adaptive reasoning effort (#22833) - @B67687: - fix: align stale bot message with actual 60-day threshold (#22842) - @trbutler4: - fix: add missing glob dependency (#22851) - @kobicovaldev: - fix(opencode): drop max_tokens for OpenAI reasoning models on Cloudflare AI Gateway (#22864) - @thakrarsagar: - fix(opencode): use low reasoning effort for GitHub Copilot gpt-5 models (#22824)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.7</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.7</guid>
+            <pubDate>Thu, 16 Apr 2026 21:55:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.6]]></title>
+            <description><![CDATA[## Core - Fixed snapshot staging for very long file lists and improved staging performance. - Fixed OTEL header parsing when a header value contains =. ## Desktop - Fixed prompt submission state updates to avoid failed or inconsistent sends. - Improved session title input spacing while editing. **Thank you to 1 community contributor:** - @github-actions[bot]: - Update VOUCHED list]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.6</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.6</guid>
+            <pubDate>Wed, 15 Apr 2026 07:26:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.5]]></title>
+            <description><![CDATA[## Core - Export AI SDK telemetry spans to OTLP trace backends. - Expose the experimental question API schema and OpenAPI spec from @opencode-ai/server. - Expose a reusable question handler factory for custom question API hosts. ## Desktop - Start desktop shell commands from the home directory. - Avoid bootstrap error popups while global sync initializes.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.5</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.5</guid>
+            <pubDate>Wed, 15 Apr 2026 04:25:45 GMT</pubDate>
+        </item>
     </channel>
 </rss>
