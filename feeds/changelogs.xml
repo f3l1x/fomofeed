@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Aug 2026 04:36:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Aug 2026 06:40:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 17 Aug 2026 01:08:01 GMT</pubDate>
+        <pubDate>Mon, 17 Aug 2026 06:29:29 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10456]]></title>
+            <description><![CDATA[sycl: fix thread/block count in quantized cpy kernel launches (#27160) Adjusts the thread/block count to be proportional to the size of the quant, reducing under/over subscription. Largest perf improvement is the q4_0 -> f32 path, with, on a Arc 70, throughput goes from 20.21 GB/s to 158.19 GB/s The rest of the quants are flat in performance uplift. **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10456</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10456</guid>
+            <pubDate>Mon, 17 Aug 2026 06:29:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10455]]></title>
+            <description><![CDATA[[SYCL] support OP OPT_STEP_ADAMW, OPT_STEP_SGD (#25268) * fix conflict * fix conflict of ops.md * fix conflict of ops.md * update the ops.md --------- Co-authored-by: Neo Zhang Jianyu **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10455</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10455</guid>
+            <pubDate>Mon, 17 Aug 2026 05:47:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.56.0-nightly.20260817.g9a15c45fb]]></title>
             <description><![CDATA[## What's Changed * [SSR Agent] Issue Fix (21911): Add composite flag to packages/cli tsconfig by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28813 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260816.g2a87e7be1...v0.56.0-nightly.20260817.g9a15c45fb]]></description>
@@ -1639,20 +1653,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.32.6</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.32.6</guid>
             <pubDate>Tue, 04 Aug 2026 18:49:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10270]]></title>
-            <description><![CDATA[mtmd: support Qwen3-TTS (note: breaking change to llama-tts binary) (#26254) * convert text model * main model load ok * convert encoder ok * speaker encoder loading ok * speaker enc graph * adapt vocab for backbone (with some tricks) * add suppress_tokens * poc new mtmd gen api * convert code_predictor to gguf * load gen_code model ok * add clip_encode * wire up * code gen cgraph init version Co-authored-by: Pascal * code2wav convert to gguf * code2wav graph ok * wire up in/out * (wip) subgraph * wire up * wip, correct code2wav * demo (to be removed) * code2wav preserve kv between calls * demo voice clone * llama: add llama_model_get_tok_embd * mtmd_helper_gen_audio API * fix clamp cold prefix Co-authored-by: Pascal * fuse snake op Co-authored-by: Pascal * demo: use proper sampling * update dev docs * polymorphism helper * revamp llama-tts binary * update docs * fix compile * fix lint * nits * add guide + docs * more timings info * clean up code comments * security fixes * update docs * use ggml_build_forward_select, clean up comments * fix ci * use ISO 639-1 language code * rename CODE2WAV --> GEN_WAV, update docs * clean up * clean up tts.cpp * add seq_id * add step_prompt() * mtmd_helper_model_can_chat * clean up comments --------- Co-authored-by: Pascal **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10270</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10270</guid>
-            <pubDate>Tue, 04 Aug 2026 18:03:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10269]]></title>
-            <description><![CDATA[models : fix dflash wo_a reshape on load (#26577) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10269</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10269</guid>
-            <pubDate>Tue, 04 Aug 2026 17:22:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.147.0-alpha.6.1]]></title>
