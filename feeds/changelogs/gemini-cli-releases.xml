@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Aug 2026 18:29:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 04:29:41 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 17 Aug 2026 01:08:01 GMT</pubDate>
+        <pubDate>Tue, 18 Aug 2026 01:00:05 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.56.0-nightly.20260818.g194edea47]]></title>
+            <description><![CDATA[## What's Changed * [SSR Agent] Issue Fix (26120): Clarify privacy notice wording and selection options by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28820 * [SSR Agent] Issue Fix (21919): Fix TypeScript strict-null errors in integration tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28814 * [SSR Agent] Issue Fix (21477): Prevent indefinite TUI hang by adding execution timeouts by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28812 * [SSR Agent] Issue Fix (19239): Update /clear command docs to include context reset by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28847 * [SSR Agent] Issue Fix (24587): Fix misleading admin error for personal accounts by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28819 * [SSR Agent] Issue Fix (19463): Format cli_help subagent output as markdown by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28864 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260817.g9a15c45fb...v0.56.0-nightly.20260818.g194edea47]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260818.g194edea47</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260818.g194edea47</guid>
+            <pubDate>Tue, 18 Aug 2026 01:00:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.56.0-nightly.20260817.g9a15c45fb]]></title>
             <description><![CDATA[## What's Changed * [SSR Agent] Issue Fix (21911): Add composite flag to packages/cli tsconfig by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28813 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260816.g2a87e7be1...v0.56.0-nightly.20260817.g9a15c45fb]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260511.g1a894c18e</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260511.g1a894c18e</guid>
             <pubDate>Mon, 11 May 2026 17:12:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.42.0-nightly.20260507.ga809bc7c5]]></title>
-            <description><![CDATA[## What's Changed * fix(cli): provide JSON output for AgentExecutionStopped in non-interactive mode by @cynthialong0-0 in https://github.com/google-gemini/gemini-cli/pull/26504 * feat(evals): add shell command safety evals by @akh64bit in https://github.com/google-gemini/gemini-cli/pull/26528 * fix(core): handle invalid custom plans directory gracefully by @cynthialong0-0 in https://github.com/google-gemini/gemini-cli/pull/26560 * fix(acp): move tool explanation from thought stream to tool call content by @sripasg in https://github.com/google-gemini/gemini-cli/pull/26554 * fix(a2a-server): Resolve race condition in tool completion waiting by @kschaab in https://github.com/google-gemini/gemini-cli/pull/26568 * fix(cli): randomize sandbox container names by @Kkartik14 in https://github.com/google-gemini/gemini-cli/pull/26014 * fix(core): Fix hysteresis in async context management pipelines. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/26452 * Tighten private Auto Memory patch allowlist by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/26535 * fix(cli): hide read-only settings scopes by @cvan20191 in https://github.com/google-gemini/gemini-cli/pull/26249 * fix(ci): preserve executable bit for mac binaries by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/26600 * fix(cli): improve mcp list UX in untrusted folders by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/26457 * fix(core): prevent silent hang during OAuth auth on headless Linux by @RhysSullivan in https://github.com/google-gemini/gemini-cli/pull/26571 * Changelog for v0.42.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26537 * ci: fix Argument list too long in triage workflows by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/26603 * refactor(cli): migrate core tools to native ToolDisplay property and fix UI rendering by @mbleigh in https://github.com/google-gemini/gemini-cli/pull/25186 * don't wrap args unnecessarily by @scidomino in https://github.com/google-gemini/gemini-cli/pull/26599 ## New Contributors * @Kkartik14 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/26014 * @cvan20191 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/26249 * @RhysSullivan made their first contribution in https://github.com/google-gemini/gemini-cli/pull/26571 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.42.0-nightly.20260506.g80d269054...v0.42.0-nightly.20260507.ga809bc7c5]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260507.ga809bc7c5</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0-nightly.20260507.ga809bc7c5</guid>
-            <pubDate>Thu, 07 May 2026 17:08:05 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Aug 2026 18:29:01 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 04:29:28 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 14 Aug 2026 17:42:55 GMT</pubDate>
+        <pubDate>Tue, 18 Aug 2026 01:42:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Cline Code desktop beta (auto-update feed)]]></title>
+            <description><![CDATA[Rolling release backing the beta desktop app auto-updater. The latest.json asset points at the newest desktop-vX.Y.Z-beta.N release. Only beta installs poll this feed; stable installs use desktop-latest. Do not delete.]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-beta</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-beta</guid>
+            <pubDate>Tue, 18 Aug 2026 01:42:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Desktop v0.0.14-beta.1]]></title>
+            <description><![CDATA[- First beta release. Cline Code Beta installs side by side with the stable app so you can compare the two, and updates automatically from its own beta channel — stable installs are unaffected. - Cloud sessions (preview): run sessions in Cline's cloud straight from the desktop app. Connect GitHub during onboarding, pick a repository and branch, and hand sessions off between devices — transcripts, approvals, and queued prompts stay in sync, and you can rename cloud sessions and switch models mid-session. Turn it on with the Cloud sessions toggle in Settings. - Avatar overlay (preview): a floating desktop companion that reacts to what your sessions are doing. - Onboarding now includes a GitHub integration step. - Early proof of concept for running sessions in SSH remote environments. - Includes everything from the upcoming stable release: microphone voice input in the composer, model-driven image generation, redesigned question prompts, animated reasoning and tool disclosures, and session list polish. **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.13...desktop-v0.0.14-beta.1]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.14-beta.1</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.14-beta.1</guid>
+            <pubDate>Tue, 18 Aug 2026 01:42:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Desktop v0.0.13]]></title>
             <description><![CDATA[- Added an app font size setting. A slider in Settings scales the interface, and your size is applied before the window paints, so launching no longer flashes at the old size first. - Models that support it can now search the web during a task. Turn it on with the Web Search toggle in Settings; the searches and their results appear in the transcript and are still there when you reopen the session. - Extended thinking budgets reach the provider again on Cline Pass — they had silently stopped applying when the gateway moved off the generic OpenAI-compatible path. - Two Cline installs on different builds no longer shut each other's Hub down in a loop, which was killing live sessions with an abnormal disconnect. - The app no longer replaces a Hub that is still serving sessions. It attaches to it instead, and the swap happens once that Hub goes idle. - The "update required" dialog no longer interrupts when the Hub is only finishing an update on its own. This app is already the newer build, nothing was being asked of you, and the Hub replaces itself once its sessions end. - Idle plugin sandbox processes are now reclaimed instead of lingering for the life of the session. - Refreshed the model catalog, which adds Crusoe as a provider and updates model lists and per-provider default models across the board. **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.12...desktop-v0.0.13]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/cli-v3.0.16</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.16</guid>
             <pubDate>Wed, 03 Jun 2026 20:33:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.86.2]]></title>
-            <description><![CDATA[### Fixed - Fix @ file mentions and workspace file search on VS Code 1.122+ by resolving the new bundled @vscode/ripgrep-universal per-platform binary layout before falling back to legacy ripgrep paths. **Full Changelog**: https://github.com/cline/cline/compare/v3.86.1...v3.86.2]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.86.2</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.86.2</guid>
-            <pubDate>Mon, 01 Jun 2026 16:48:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.86.1]]></title>
-            <description><![CDATA[### Fixed - Fix @ file mentions failing to find files in some environments (notably VS Code Remote SSH, and after certain VS Code updates) by keeping the file-search fallback alive when the workspace index or bundled ripgrep binary is unavailable. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.15...v3.86.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.86.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.86.1</guid>
-            <pubDate>Mon, 01 Jun 2026 06:51:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
