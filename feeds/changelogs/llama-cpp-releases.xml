@@ -4,11 +4,46 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Aug 2026 08:27:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 14:26:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 17 Aug 2026 17:16:25 GMT</pubDate>
+        <pubDate>Tue, 18 Aug 2026 11:05:53 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10488]]></title>
+            <description><![CDATA[ci : Update OpenVINO to 2026.3, skip nemotron-h rollback test (#27292) * update to ov-2026.3, update device drivers * ci: skip nemotron-h rollback test on OpenVINO The OpenVINO backend does not support SSM_SCAN, so the Nemotron-H recurrent state rollback graph is split and cannot preserve the recurrent cache output shape. Keep the test enabled for other backends and retain the qwen35 OpenVINO rollback coverage. --------- Co-authored-by: ravi9 **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10488</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10488</guid>
+            <pubDate>Tue, 18 Aug 2026 11:05:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10486]]></title>
+            <description><![CDATA[mtmd: fix LFM2 image tiling threshold (#27057) * mtmd: fix LFM2 image tiling threshold * refactor testing * fix * fix on windows --------- Co-authored-by: Xuan Son Nguyen **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10486</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10486</guid>
+            <pubDate>Tue, 18 Aug 2026 10:43:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.1.2]]></title>
+            <description><![CDATA[> [!NOTE] > Semantic versioning is still work in progress. > More info can be found in https://github.com/ggml-org/ggml/discussions/1579 **Nightly build:** b10485 ## Change log since v0.1.1 1511ce3bc sync : ggml da786dc23 ggml : bump version to 0.20.2 (ggml/1589) 27e345b57 build : fix xcframework + cmake clean-up (#27304) 8b8640097 ci : create pre-release with change log and nightly link in make-release (#27302) 25ae3a9b3 CUDA: MMVQ nwarps=8 for bs=1 for dense models on DGX Spark (#26843) 01818e495 ui: enforce alphabetical enum member ordering (#27272) 0021a77de ui: Refactor Built-In Tools naming (Server/Browser) (#27271) 058df671b ci: more optimizations (#26983) 087f94d82 doc: document MCP stdio servers and CORS defaults in the server README [no release] [no ci] (#26847) 533b18257 server: save processed mtmd chunks as placeholder (#27278) ed1c3a20f mtmd: use sha256 for input hashing (#27274) d8df12ebc vocab : support integer tokenizer scores (#27260) b75ecd197 mtmd : skip thumbnail for non-tiled LFM2 images (#27246) 60eeeb608 cuda : skip UMA override for HIP builds (#27083) 39be55c97 vendor: move hash to vendor (#27262)]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.2</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.2</guid>
+            <pubDate>Tue, 18 Aug 2026 10:23:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10485]]></title>
+            <description><![CDATA[sync : ggml **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10485</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10485</guid>
+            <pubDate>Tue, 18 Aug 2026 10:08:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10483]]></title>
+            <description><![CDATA[build : fix xcframework + cmake clean-up (#27304) * xcframework : fix build * mtmd : remove unused include path * vendor : use vendor::hash alias target in cmake CMake reserves "::" in target names for imported/alias targets, so the real target keeps the name vendor-hash and a vendor::hash ALIAS target is added. Consumers (mtmd, llama-gguf-hash) now link against the namespaced alias. Assisted-by: pi:llama.cpp/Qwen3.8-27B * vendor : add cmake targets for all vendored libs with vendor:: aliases Add INTERFACE targets for the header-only vendor libs (miniaudio, nlohmann, sheredom, stb) and ALIAS targets named vendor:: for all of them, including cpp-httplib and hash. Each exposes the vendor/ root so includes are namespaced, e.g. . Consolidate the per-lib add_subdirectory calls into a single add_subdirectory(vendor), keeping the cpp-httplib gate on LLAMA_BUILD_COMMON. Consumers (llama-common, mtmd) now link the aliases instead of relying on raw vendor/ include paths. hash: consumers now include via "hash/hash.h"; the vendor/hash dir is kept as a PRIVATE include so the synced upstream sources compile unmodified. Assisted-by: pi:llama.cpp/Qwen3.8-27B * readme : use foo/bar names in acknowledgements Assisted-by: pi:llama.cpp/Qwen3.8-27B * ocd : fix valign **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10483</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10483</guid>
+            <pubDate>Tue, 18 Aug 2026 09:24:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10472]]></title>
             <description><![CDATA[cuda : skip UMA override for HIP builds (#27083) AMD APUs report accurate memory via hipMemGetInfo. Using MemAvailable over-promises on small-carveout systems. fixes #18159 **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -673,41 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10282</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10282</guid>
             <pubDate>Wed, 05 Aug 2026 13:50:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10280]]></title>
-            <description><![CDATA[vendor : apply patches for subprocess.h (#26606) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10280</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10280</guid>
-            <pubDate>Wed, 05 Aug 2026 11:35:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10278]]></title>
-            <description><![CDATA[build : remove GGML_METAL_USE_BF16 from all build scripts (#26604) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10278</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10278</guid>
-            <pubDate>Wed, 05 Aug 2026 10:16:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10276]]></title>
-            <description><![CDATA[Prefer npm ci over install for security (#26601) **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10276</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10276</guid>
-            <pubDate>Wed, 05 Aug 2026 00:21:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10275]]></title>
-            <description><![CDATA[server: decode Windows OEM output to UTF-8 in built-in tools (#26597) a child process writes in the OEM code page, which is not UTF-8 on a western Windows install, so accented output reaches the JSON layer as invalid bytes and gets replaced there, silently losing the characters run() spawns without a console, so the child never inherits the console code page and GetOEMCP is the one that applies decode with MB_ERR_INVALID_CHARS so a wrong code page returns the text untouched instead of emitting replacement characters, and pass text that already decodes as UTF-8 through so a child emitting UTF-8 is never decoded twice the check drops an incomplete trailing sequence before validating, since a streamed chunk can end in the middle of a multi-byte character **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10275</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10275</guid>
-            <pubDate>Tue, 04 Aug 2026 23:49:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10274]]></title>
-            <description><![CDATA[mtmd: correcting duplicate empty audio chunks for short inputs (#26536) * correcting duplicate empty audio chunks for short inputs * tests.sh code restored **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10274</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10274</guid>
-            <pubDate>Tue, 04 Aug 2026 23:11:48 GMT</pubDate>
         </item>
     </channel>
 </rss>
