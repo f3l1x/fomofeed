@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Aug 2026 18:30:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Aug 2026 04:31:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 13 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How Claude is accelerating protein design and analytical chemistry]]></title>
+            <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
+            <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How Claude’s text watermark works]]></title>
             <link>https://www.anthropic.com/news/claude-text-watermark</link>

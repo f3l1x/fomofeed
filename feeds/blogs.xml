@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Aug 2026 18:30:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Aug 2026 04:31:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[GPT-5.6 Sol: 70% off in Devin]]></title>
+            <description><![CDATA[GPT-5.6 Sol is available at a 70% discount on Devin Desktop and Devin CLI through October 3, 2026.]]></description>
+            <link>https://windsurf.com/blog/gpt-5-6-sol-promo</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-6-sol-promo</guid>
+            <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Git at any scale]]></title>
             <link>https://cursor.com/blog/git-at-any-scale</link>
@@ -287,13 +294,6 @@
             <link>https://cursor.com/blog/coinbase</link>
             <guid isPermaLink="false">https://cursor.com/blog/coinbase</guid>
             <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Security in Devin Review]]></title>
-            <description><![CDATA[Every pull request in Devin Review now gets a security review. Devin catches auth bypasses and logic flaws that pattern-matching scanners miss.]]></description>
-            <link>https://windsurf.com/blog/security-in-devin-review</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/security-in-devin-review</guid>
-            <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Wayfair cut ML model costs by 90% (twice!) with Cursor]]></title>
@@ -2502,6 +2502,13 @@
             <pubDate>Sat, 25 Jul 2020 18:24:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Tuesday: A Frontier Index for AI at Work]]></title>
+            <description><![CDATA[Introducing the Tuesday Index, a composite benchmark measuring how well frontier AI models handle the capabilities required for real professional work.]]></description>
+            <link>https://www.surgehq.ai/blog/tuesday-frontier-work-index</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/tuesday-frontier-work-index</guid>
+            <pubDate>Thu, 16 Jul 2020 13:39:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[We Trained a Model on Office Work. It Got Better at Coding.]]></title>
             <description><![CDATA[A model post-trained on non-coding office tasks gained 5.8 points on SWE-Bench Pro. Our analysis points to transferable Goal-Directed Execution.]]></description>
             <link>https://www.surgehq.ai/blog/office-work-post-training-improves-coding</link>
@@ -2822,13 +2829,6 @@
             <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
             <pubDate>Tue, 30 Jun 2020 16:28:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing the Frontier Index]]></title>
-            <description><![CDATA[Internal test post for the CMS-driven Frontier Index figure.]]></description>
-            <link>https://www.surgehq.ai/blog/frontier-index-embed-test</link>
-            <guid isPermaLink="false">https://www.surgehq.ai/blog/frontier-index-embed-test</guid>
-            <pubDate>Wed, 19 Feb 2020 12:18:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
