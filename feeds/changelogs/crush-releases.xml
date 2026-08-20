@@ -4,9 +4,9 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 19 Aug 2026 18:25:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 04:30:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 19 Aug 2026 00:29:52 GMT</pubDate>
+        <pubDate>Thu, 20 Aug 2026 00:24:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
@@ -14,7 +14,14 @@
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Wed, 19 Aug 2026 00:29:52 GMT</pubDate>
+            <pubDate>Thu, 20 Aug 2026 00:24:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.90.0]]></title>
+            <description><![CDATA[## Tiny patch This is a tiny release, but we thought it would be worth it. * Updated Bubble Tea with a couple fixes for some terminal emulators. * Updated Fantasy with fixes for AWS SSO and better cache hitting. * Fixed wrong background color on permissions dialog. This was a regression from adding Bash syntax highlighting on v0.89.0. * Updated our .gitattributes to make development easier on Windows. We're normalizing LF (instead of CRLF) as line breaks to fix some tests on Windows. ## Changelog ### Fixed * ed15da4c46e0bdc3afae4842db54e7def7b9f15e: fix(ui): use dialog background for bash syntax highlighting in permissions (#3575) (@andreynering) ### Other stuff * 0f14334fb03703a5557f875d182e347e6375e0e7: chore: normalize line endings to lf via .gitattributes (#3555) (@Lin-BoYuan) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.90.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.90.0</guid>
+            <pubDate>Wed, 19 Aug 2026 21:01:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.89.0]]></title>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.23.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.23.0</guid>
             <pubDate>Thu, 11 Dec 2025 20:15:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.22.2]]></title>
-            <description><![CDATA[# Long Sesh in Claude Max? No problem. This release improves how Crush refresh tokens from Claude Code or API key templates. It'll now automatically refresh when it expires and continue transparently. This affected long session only (8+ hours), and was only partially working until now. Kudos to @taciturnaxolotl for reporting and helping with this fix! Additionally, @taigrr made a change to sort sessions by activity instead of creation on the dialog opened by ctrl+s . @meowgorithm also fixed the need to press ctrl+c twice to close crush run. Pressing a single time will now work. Happy coding! 🎄 ## Changelog ### Fixed * ab55cb6ce2636a7d6fd2dfce1cd6aba7c2e6c23e: fix(claude): add authentication refresh on 401 errors (#1581) (@taciturnaxolotl) * 3c7ee39258d0b47f7602160096103baad73bf2b4: fix(noninteractive): cancel on signal (#1584) (@meowgorithm) * be746ce1f680abe22c1c89969a77b8c1d71bcaf9: fix: typo choise -> choice (#1579) (@caarlos0) ### Other stuff * 409773299ad33b436e10f93d28c27e0a3c25d612: perf: improve startup, specifically provider updates (#1577) (@caarlos0) * 94a87508f832a15c29e9257c4fe2c23bbf0f26c9: sort sessions by most recently used instead of creation (#1467) (@taigrr) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.22.2</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.22.2</guid>
-            <pubDate>Wed, 10 Dec 2025 13:32:07 GMT</pubDate>
         </item>
     </channel>
 </rss>
