@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Aug 2026 16:25:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 18:28:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 19 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Devin's Slack Etiquette]]></title>
+            <description><![CDATA[How we refined Devin's behavior in Slack over the past year, across prompts, Devin's harness, and our usage of the Slack API.]]></description>
+            <link>https://windsurf.com/blog/devins-slack-etiquette</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/devins-slack-etiquette</guid>
+            <pubDate>Wed, 19 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[GPT-5.6 Sol: 70% off in Devin]]></title>
             <description><![CDATA[GPT-5.6 Sol is available at a 70% discount on Devin Desktop and Devin CLI through October 3, 2026.]]></description>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/claude-sonnet-5</link>
             <guid isPermaLink="false">https://windsurf.com/blog/claude-sonnet-5</guid>
             <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Kimi K2.7 and GLM 5.2 Now Available in Devin Desktop and CLI]]></title>
-            <description><![CDATA[Kimi K2.7 and GLM 5.2 are now available in Devin Desktop and CLI, with strong FrontierCode Extended scores and no quota use until July 5.]]></description>
-            <link>https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/kimi-k27-glm-52-devin-desktop</guid>
-            <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>
