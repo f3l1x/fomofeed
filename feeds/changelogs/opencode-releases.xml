@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Aug 2026 04:29:59 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 06:33:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 13 Aug 2026 01:15:04 GMT</pubDate>
+        <pubDate>Thu, 20 Aug 2026 06:22:06 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.19]]></title>
+            <description><![CDATA[## Core ### Improvements - Added native OpenAI and Anthropic passthroughs for Cloudflare AI Gateway models. - Matched Codex rate limits more closely to ChatGPT subscription limits. (@GameOn223) ### Bugfixes - Removed built-in Qwen sampling defaults that could send unsupported settings. - Properly show authenticated providers in /connect. (@OpeOginni) - Ignore malformed model pricing instead of breaking usage cost calculation. - Fall back when OpenAI websocket requests exceed message size limits. - Forward ChatGPT workspace compute residency to Codex requests. - Updated the default Console URL used by account connection flows. - Enabled web search when using the OpenCode Go provider. - Preserved compatibility with existing v1 databases. ## Desktop ### Bugfixes - Kept saved server details editable in the server dialog. **Thank you to 4 community contributors:** - @TechyAditya: - fix(skills): Update global config path in documentation (#42337) - @GameOn223: - tweak: match codex limits for openai models exactly when using chatgpt subscription (#39082) - @OpeOginni: - fix(opencode): properly show authed providers on /connect command (#39915) - @bhuvan2134686: - docs: add SCX.ai to the providers list (#42520)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.19</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.19</guid>
+            <pubDate>Thu, 20 Aug 2026 06:22:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.18]]></title>
             <description><![CDATA[## Core ### Bugfixes - Select the Kimi system prompt correctly for official Moonshot and Kimi providers - Fix xhigh reasoning effort for xai models]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.6</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.6</guid>
             <pubDate>Wed, 15 Apr 2026 07:26:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.5]]></title>
-            <description><![CDATA[## Core - Export AI SDK telemetry spans to OTLP trace backends. - Expose the experimental question API schema and OpenAPI spec from @opencode-ai/server. - Expose a reusable question handler factory for custom question API hosts. ## Desktop - Start desktop shell commands from the home directory. - Avoid bootstrap error popups while global sync initializes.]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.5</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.5</guid>
-            <pubDate>Wed, 15 Apr 2026 04:25:45 GMT</pubDate>
         </item>
     </channel>
 </rss>
