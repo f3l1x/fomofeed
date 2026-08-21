@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 21 Aug 2026 06:35:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2026 08:33:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Aug 2026 05:56:11 GMT</pubDate>
+        <pubDate>Fri, 21 Aug 2026 08:09:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.20]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Surface failed subagent tool calls with a resumable task_id. - Retry provider responses that end with finish_reason: network_error. - Retry more network error variants, including network-error and network_error. - Surface resumable subagent failures instead of returning an empty result. - Preserve Cerebras max_completion_tokens without applying an extra output cap. - Answer permission requests triggered by subagents during opencode run. - Retry xAI capacity and temporary unavailability stream errors.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.20</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.20</guid>
+            <pubDate>Fri, 21 Aug 2026 08:09:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Desktop v0.0.15]]></title>
             <description><![CDATA[- The app is now called Cline, renamed from Cline Code. Your settings, sessions, and credentials carry over untouched — only the name and icon change - Refreshed app icons and branding - Reskinned the first-run onboarding, with an interactive welcome graphic - Plugins, MCP servers, and Skills are now one Plugins hub with a dedicated Marketplace page - The composer's model selector now leads with Recommended and Free tiers (Subscribed and Free on ClinePass), labeled by display name with descriptions, instead of an alphabetized list of raw model ids. Provider settings show the same badges and descriptions - Agents can now create and manage durable todos and one-time or recurring schedules - Fixed checkpoint restore wedging permanently. Sessions that were never prompted — and persistence-only updates — reported a bogus "running" status, so anything gated on an active turn stayed blocked forever - Fixed "No sessions found" flashing while session history was still loading - Fixed the work summary undercounting elapsed time when thinking before a tool call attached to the answer instead of the run - Fixed the settings gear keeping its hover state while the Account screen is open - Fixed ClinePass not being recognized as OAuth-managed in the chat credential gate, which asked for credentials it already had - Fixed copying a user message bringing along its internal envelope - Fixed multi-line code blocks collapsing onto a single line - Image, voice, and other non-chat models are no longer offered in chat model pickers - Fixed PreToolUse hook contextModification never reaching the model, and PostToolUse hook output and cancel control being discarded - Fixed provider-executed tool activity — every tool the Claude Code provider runs inside its own session — being dropped instead of shown - PowerShell commands now fail fast on the first error instead of flooding output and still reporting success - Usage now displays the billed gateway cost - Refreshed the model catalog, which adds AMD, Arcee, Echo, Jalapeno, Kosmik, LLM Gateway, RunInfra, and SCNet as providers and updates model lists, pricing, and per-provider default models across the board **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.14...desktop-v0.0.15]]></description>
@@ -7323,13 +7330,6 @@
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.14.0</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.14.0</guid>
             <pubDate>Wed, 15 Apr 2026 17:11:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.6]]></title>
-            <description><![CDATA[## Core - Fixed snapshot staging for very long file lists and improved staging performance. - Fixed OTEL header parsing when a header value contains =. ## Desktop - Fixed prompt submission state updates to avoid failed or inconsistent sends. - Improved session title input spacing while editing. **Thank you to 1 community contributor:** - @github-actions[bot]: - Update VOUCHED list]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.6</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.6</guid>
-            <pubDate>Wed, 15 Apr 2026 07:26:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.20.7]]></title>

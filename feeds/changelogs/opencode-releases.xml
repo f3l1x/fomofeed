@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 21 Aug 2026 06:33:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2026 08:31:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 20 Aug 2026 06:22:06 GMT</pubDate>
+        <pubDate>Fri, 21 Aug 2026 08:09:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.20]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Surface failed subagent tool calls with a resumable task_id. - Retry provider responses that end with finish_reason: network_error. - Retry more network error variants, including network-error and network_error. - Surface resumable subagent failures instead of returning an empty result. - Preserve Cerebras max_completion_tokens without applying an extra output cap. - Answer permission requests triggered by subagents during opencode run. - Retry xAI capacity and temporary unavailability stream errors.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.20</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.20</guid>
+            <pubDate>Fri, 21 Aug 2026 08:09:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.19]]></title>
             <description><![CDATA[## Core ### Improvements - Added native OpenAI and Anthropic passthroughs for Cloudflare AI Gateway models. - Matched Codex rate limits more closely to ChatGPT subscription limits. (@GameOn223) ### Bugfixes - Removed built-in Qwen sampling defaults that could send unsupported settings. - Properly show authenticated providers in /connect. (@OpeOginni) - Ignore malformed model pricing instead of breaking usage cost calculation. - Fall back when OpenAI websocket requests exceed message size limits. - Forward ChatGPT workspace compute residency to Codex requests. - Updated the default Console URL used by account connection flows. - Enabled web search when using the OpenCode Go provider. - Preserved compatibility with existing v1 databases. ## Desktop ### Bugfixes - Kept saved server details editable in the server dialog. **Thank you to 4 community contributors:** - @TechyAditya: - fix(skills): Update global config path in documentation (#42337) - @GameOn223: - tweak: match codex limits for openai models exactly when using chatgpt subscription (#39082) - @OpeOginni: - fix(opencode): properly show authed providers on /connect command (#39915) - @bhuvan2134686: - docs: add SCX.ai to the providers list (#42520)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.7</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.7</guid>
             <pubDate>Thu, 16 Apr 2026 21:55:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.6]]></title>
-            <description><![CDATA[## Core - Fixed snapshot staging for very long file lists and improved staging performance. - Fixed OTEL header parsing when a header value contains =. ## Desktop - Fixed prompt submission state updates to avoid failed or inconsistent sends. - Improved session title input spacing while editing. **Thank you to 1 community contributor:** - @github-actions[bot]: - Update VOUCHED list]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.6</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.6</guid>
-            <pubDate>Wed, 15 Apr 2026 07:26:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
