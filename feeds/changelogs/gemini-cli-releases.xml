@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Aug 2026 18:29:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2026 04:31:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 20 Aug 2026 01:27:23 GMT</pubDate>
+        <pubDate>Fri, 21 Aug 2026 01:08:09 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.56.0-nightly.20260821.g30573d2e4]]></title>
+            <description><![CDATA[## What's Changed * fix(core): ensure consistent symlink evaluation in ignore path handling by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28915 * refactor(core): remove eslint-disable and type-asserts from shellExecutionService by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28862 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260820.ge90c63fa1...v0.56.0-nightly.20260821.g30573d2e4]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260821.g30573d2e4</guid>
+            <pubDate>Fri, 21 Aug 2026 01:08:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.56.0-nightly.20260820.ge90c63fa1]]></title>
             <description><![CDATA[## What's Changed * fix(core): preserve empty text turns with tools or media by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28892 * Changelog for v0.57.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28918 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260819.g571851b10...v0.56.0-nightly.20260820.ge90c63fa1]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260515.g928a311fb</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260515.g928a311fb</guid>
             <pubDate>Fri, 15 May 2026 02:51:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.44.0-nightly.20260514.g77078b3e8]]></title>
-            <description><![CDATA[## What's Changed * fix(ci): replace brittle --no-tag with explicit staging-tmp tag by @scidomino in https://github.com/google-gemini/gemini-cli/pull/26940 * Incremental refactor repo agent towards skills-based composition by @gundermanc in https://github.com/google-gemini/gemini-cli/pull/26717 * fix(ui): fixed line wrap padding for selection lists by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/26944 * fix(core): update read_file schema for v1 compatibility (#22183) by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/26922 * fix(ci): configure git remote with token for authentication by @scidomino in https://github.com/google-gemini/gemini-cli/pull/26949 * chore(release): bump version to 0.44.0-nightly.20260512.g022e8baef by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26957 * Changelog for v0.42.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26958 * Refactor: Eliminate no-unsafe-return suppressions via strict type validation by @M-DEV-1 in https://github.com/google-gemini/gemini-cli/pull/20668 * Changelog for v0.43.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26959 * feat(core): change agent registration to first-wins and prioritize project by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/26953 * feat(cli): merge Auto modes into a single Auto mode by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/26714 * fix(core): preserve OAuth refresh tokens during rotation and retrieval by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/26924 * fix(cli): allow keychain auth for --list-sessions and non-interactive mode by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/26921 * fix(core): handle EISDIR on virtual drives in memory discovery by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/26985 * fix(cli): auto-approve shell redirections in AUTO_EDIT mode by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/27003 * ci: suppress bot comments during standard triage maintenance by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/27006 * fix(core): refresh MCP OAuth token usage after re-auth by @sahilkirad in https://github.com/google-gemini/gemini-cli/pull/26312 * fix(ui): clamped table column widths by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/26991 * fix(core): isolate subagent thread context by @akh64bit in https://github.com/google-gemini/gemini-cli/pull/26449 * chore: add execution permission to scripts/review.sh by @scidomino in https://github.com/google-gemini/gemini-cli/pull/27009 * fix(core): made context files append instead of replace by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/26950 * fix: add system PATH fallback for ripgrep resolution (#26777) by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/26868 * chore: clean up launched memory features by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/26941 * fix(core): throttle shell text output and bound live UI buffer by @emersonbusson in https://github.com/google-gemini/gemini-cli/pull/26955 * fix(cli): don't crash when an @-mention captures a non-path blob by @ifitisit in https://github.com/google-gemini/gemini-cli/pull/25980 * fix(core): ensure stable fallback for restricted preview models by @galz10 in https://github.com/google-gemini/gemini-cli/pull/26999 ## New Contributors * @emersonbusson made their first contribution in https://github.com/google-gemini/gemini-cli/pull/26955 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.42.0-nightly.20260512.gc987b9939...v0.44.0-nightly.20260514.g77078b3e8]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260514.g77078b3e8</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260514.g77078b3e8</guid>
-            <pubDate>Thu, 14 May 2026 17:31:29 GMT</pubDate>
         </item>
     </channel>
 </rss>

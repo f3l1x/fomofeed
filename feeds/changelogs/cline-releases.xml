@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Aug 2026 18:29:08 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2026 04:31:39 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 20 Aug 2026 18:18:42 GMT</pubDate>
+        <pubDate>Fri, 21 Aug 2026 02:39:16 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[SDK v0.0.76]]></title>
+            <description><![CDATA[- Added model-driven image generation. Models that support it can generate images during a turn, and generated images are persisted in session history and exports - Agents can now create and manage scheduled tasks and a durable todo agenda. Schedules are scoped to the workspace that registered them - Skill slash commands now load through the skills tool instead of being pasted into the user message. The persisted transcript records what you typed (/my-skill ...) rather than the whole SKILL.md body, and skill instructions arrive once instead of twice. Workflows keep textual expansion - Fixed provider-executed tool activity being dropped entirely — every tool the Claude Code provider ran inside its own session modified the workspace with no tool activity in runtime events, transcripts, or the UI. These now surface as observational tool events - Fixed PreToolUse hook contextModification never reaching the model on the next engine; it is delivered again as a block stamped with the tool name and call id, hidden from user-facing transcripts - Fixed PostToolUse hooks running fire-and-forget with their output discarded. They are awaited now (120s bound) and their contextModification and cancel controls are honored, matching legacy - Fixed run_commands failing with ENOENT for the structured { command } form when the command contained a space; it routes through the shell when no args key is present - PowerShell commands now run fail-fast ($ErrorActionPreference='Stop'). A pipeline erroring per item no longer emits tens of thousands of stderr records and then reports success - Fixed Gemini custom base URLs configured as a host root - Image and voice models no longer appear in chat model pickers - Provider model lists now carry featured tiers (Recommended/Free, and Subscribed/Free for ClinePass) plus model descriptions, served from the SDK with a cached recommended-models feed and a bundled offline fallback, so clients no longer join the feed themselves - Fixed sessions reporting a bogus "running" status — interactive sessions that were never prompted, and snapshot-only session updates — which left clients that gate on turn activity (desktop checkpoint restore) stuck busy forever - Detached command output now streams live and survives hub restarts instead of being reaped - Gateway usage now displays the billed cost - Fixed Windows crashes from the agenda spec watcher when the specs directory resolved through an 8.3 short path - AI SDK telemetry spans now carry user, session, conversation, run, provider, and model context under a stable cline-sdk service name - Refreshed the model catalog, which adds AMD, Arcee, Echo, Jalapeno, Kosmik, LLM Gateway, RunInfra, and SCNet as providers, renames scx to scx-ai, and updates model lists and per-provider default models across the board **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.75...sdk/sdk/v0.0.76]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.76</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.76</guid>
+            <pubDate>Fri, 21 Aug 2026 02:39:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Desktop v0.0.15-beta.1]]></title>
             <description><![CDATA[- Beta: hand off a local session to Cline Cloud with /handoff — the conversation, attached images, and an optional follow-up command move to a cloud workspace that keeps working after you close the app. A preflight confirms the repository, branch, and commit are pushed; the composer shows handoff progress and finishes with a receipt linking to the cloud session. - Beta: Cloud now lives in the existing Local / Remote environment menu. It is selectable when the Cloud sessions feature flag is on and shows as "Coming soon" otherwise. The separate Local / Cloud toggle is gone; repository and branch controls are unchanged. - If a handoff is interrupted — the app restarts, the network drops, or the branch moves mid-transfer — reopening the session recovers or cleanly retries it, and your typed draft and attachments are restored. - Includes the 0.0.14 stable release and everything on main since: the unified Plugins hub with a Marketplace page, recommended and free model tiers in the model picker, scheduled tasks for agents, and the app rename to "Cline" (this beta is now "Cline Beta"). **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.14-beta.1...desktop-v0.0.15-beta.1]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/cli-v3.0.18</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.18</guid>
             <pubDate>Thu, 04 Jun 2026 20:54:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.17]]></title>
-            <description><![CDATA[- Fix a regression introduced in 3.0.15 where the interactive CLI could get stuck after stopping and restarting Cline Hub and then pressing Escape to cancel a request. The CLI now detects stale or missing sessions, recovers any pending messages, and starts a fresh session instead of failing with "session not found". - Fix Ctrl+C and Hub shutdown races that surfaced as "hook dispatch failed" and WebSocket connection errors from late hook events racing against Hub shutdown. - Fix the Hub daemon being shut down prematurely when a runtime request was aborted, so the daemon now stays alive. - Improve the Telegram connector with a new --allowed-user-id flag to restrict which Telegram users are authorized to interact with the agent. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.16...cli-v3.0.17]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.17</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.17</guid>
-            <pubDate>Thu, 04 Jun 2026 04:12:19 GMT</pubDate>
         </item>
     </channel>
 </rss>
