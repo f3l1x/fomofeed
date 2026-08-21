@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 21 Aug 2026 16:24:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2026 18:26:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Aug 2026 05:21:49 GMT</pubDate>
+        <pubDate>Fri, 21 Aug 2026 18:12:34 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.150.0-alpha.5]]></title>
+            <description><![CDATA[Release 0.150.0-alpha.5]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.5</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.5</guid>
+            <pubDate>Fri, 21 Aug 2026 18:12:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.150.0-alpha.3]]></title>
+            <description><![CDATA[Release 0.150.0-alpha.3]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.3</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.3</guid>
+            <pubDate>Fri, 21 Aug 2026 16:43:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.149.0-alpha.7.1]]></title>
             <description><![CDATA[Release 0.149.0-alpha.7.1]]></description>
@@ -693,20 +707,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.4</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.4</guid>
             <pubDate>Sat, 11 Jul 2026 00:10:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.145.0-alpha.3]]></title>
-            <description><![CDATA[Release 0.145.0-alpha.3]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.3</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.3</guid>
-            <pubDate>Fri, 10 Jul 2026 23:11:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.144.1]]></title>
-            <description><![CDATA[## Bug Fixes - Fixed standalone installs failing when GitHub returns compact or reordered release metadata. (#31913) - Ensured macOS package installs expose the code-mode host alongside the codex executable. (#31913) - Kept code mode working when the companion host binary is unavailable by falling back to the embedded runtime. (#31913) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.144.0...rust-v0.144.1 - #31913 [0.144] Backport installer and code-mode reliability fixes @bolinfest]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.144.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.144.1</guid>
-            <pubDate>Thu, 09 Jul 2026 23:02:40 GMT</pubDate>
         </item>
     </channel>
 </rss>

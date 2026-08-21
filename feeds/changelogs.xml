@@ -4,11 +4,39 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 21 Aug 2026 16:25:39 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2026 18:28:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Aug 2026 14:51:11 GMT</pubDate>
+        <pubDate>Fri, 21 Aug 2026 18:25:36 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10566]]></title>
+            <description><![CDATA[llama.cpp : bump version to 0.2.0 (#27498) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14)DISABLED - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10566</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10566</guid>
+            <pubDate>Fri, 21 Aug 2026 18:25:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.47.0]]></title>
+            <description><![CDATA[## ✨ Features - Interactive git branch indicator in chat bottom bar #11290 - Support for pre-registered OAuth clients for streamable_http extensions #11182 - Show recently used models in chat footer model picker #11097 ## 🐛 Bug Fixes - Isolate concurrent subagent notifications in summon #10772 - Validate recipe parameter values #11234 - Re-enable minijinja builtins so documented recipe filters work #11310 - Send explicit thinking disabled to adaptive Claude models #11177 - Handle error code for context length exceeded #11283 - Include required annotations field on replayed output_text items #11263 - Reject context commands for context-owning providers #11094 - Prevent recipe parameter form from reloading the app on Enter #10522 - Enforce secure token transport in OAuth #11183 - Deprecate Gemini OAuth provider #11223 - Stop paying the prompt-cache write premium on one-shot fast-model calls #11179 - Skip local Stdio/StreamableHttp extension spawn when provider manages own context #11203 - Navigation toggle showing hamburger menu icon to open navigation #11144 - Return auth error for ACP provider from goose ACP server #11202 - Ignore ACP provider generated title and use goose generated title #11197 - Render visualizer data as text #11186 - Bound XLSX range reads #11190 - Update SQLite to 3.51.3 #11157 - Classify byte-size request limit errors as context-length-exceeded #11173 - Prevent large-session disconnects in ACP #11159 - Narrow desktop file read IPC #11149 - Avoid reading file params in recipe explain #11119 - Bound local image reads #11114 - Bound action-required stream admission #11113 - Bound partial thinking tags #11108 - Avoid following untracked review symlinks #10995 - Bind deeplink recipe parameters to startup session #11123 - Rename compare_tasks skill to a spec-valid name #11068 - Suppress extension loading toast when all extensions succeed #11016 ## 🔧 Improvements - Improve ACP provider setup and unify setup metadata #11100 - Create goose-agent crate with unrolled agent loop state machine #11216 - Make the unrolled loop state machine generic #11139 - Retry ACP handoff context after failed prompts #10660 - Remove automation_script, web_scrape, and cache tools from computercontroller #11198 - Upgrade ACP SDK to 1.3.0 #11218 - Pin V1 SDK and narrow ACP crate features #11289 - Migrate session/delete to the standard ACP SDK #11286 - Use rmcp ContentBlock in goose-sdk UniFFI #11210]]></description>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.47.0</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.47.0</guid>
+            <pubDate>Fri, 21 Aug 2026 18:14:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.150.0-alpha.5]]></title>
+            <description><![CDATA[Release 0.150.0-alpha.5]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.5</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.5</guid>
+            <pubDate>Fri, 21 Aug 2026 18:12:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.150.0-alpha.3]]></title>
+            <description><![CDATA[Release 0.150.0-alpha.3]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.3</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.3</guid>
+            <pubDate>Fri, 21 Aug 2026 16:43:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.21]]></title>
             <description><![CDATA[## Core ### Bugfixes - Continue responses when a model reports an unknown finish reason instead of stopping early - Route Vertex AI eu and us multi-region Gemini requests through REP endpoints ## Desktop ### Bugfixes - Keep file search results visible while the next search is loading - Register the archive session command in both desktop layouts (@NathanTCode) **Thank you to 1 community contributor:** - @NathanTCode: - fix(app): register archive session command in both layouts (#41741)]]></description>
@@ -1737,13 +1765,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10312</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10312</guid>
             <pubDate>Fri, 07 Aug 2026 16:18:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10311]]></title>
-            <description><![CDATA[mtmd: stop feeding the text stream again during Qwen3-TTS generation (#26706) The reference implementation has two mutually exclusive prompt layouts. In non streaming mode the prefill carries the whole utterance text plus tts_eos summed with codec_pad, and the trailing text hidden collapses to a single tts_pad row. In streaming mode the prefill carries only the first text token and the trailing rows stream the rest of the text followed by tts_eos. The pipeline built the non streaming prefill but the streaming overlay, so the talker saw the utterance a second time during generation and read it twice before emitting codec_eos. The overlay is now the single tts_pad row that matches the prefill. **Website:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.2) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (HIP) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10311</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10311</guid>
-            <pubDate>Fri, 07 Aug 2026 15:44:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.148.0-alpha.2]]></title>
@@ -3656,13 +3677,6 @@
             <pubDate>Sat, 11 Jul 2026 00:10:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.145.0-alpha.3]]></title>
-            <description><![CDATA[Release 0.145.0-alpha.3]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.3</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.3</guid>
-            <pubDate>Fri, 10 Jul 2026 23:11:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[cloud: 1.46.0]]></title>
             <description><![CDATA[## 1.46.0 (2026-07-10) ## What's Changed ### Features * feat(app-server): enrich final archive manifests and remove initial snapshots by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/15058 * feat(enterprise): make BYOR key alias pattern configurable by @tofarr in https://github.com/OpenHands/OpenHands/pull/15232 ### Bug Fixes * fix(frontend): mention SMTP env vars for budget alerts by @saurya in https://github.com/OpenHands/OpenHands/pull/15218 * fix(enterprise): cascade-delete conversation_cost_events on conversation delete by @tofarr in https://github.com/OpenHands/OpenHands/pull/15220 * fix: Enable LIFO database connection pooling by @tofarr in https://github.com/OpenHands/OpenHands/pull/15225 * fix(app-server): preserve observability context metadata by @hxaxd in https://github.com/OpenHands/OpenHands/pull/15215 ### Maintenance * ci: PLTF-2960 sync chart appVersion with cloud image tag by @aivong-openhands in https://github.com/OpenHands/OpenHands/pull/15219 ## New Contributors * @hxaxd made their first contribution in https://github.com/OpenHands/OpenHands/pull/15215 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/cloud-1.45.1...cloud-1.46.0 --- This PR was generated with Release Please. See documentation.]]></description>
             <link>https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.46.0</link>
@@ -3731,13 +3745,6 @@
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.18.1</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.18.1</guid>
             <pubDate>Thu, 09 Jul 2026 23:38:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.144.1]]></title>
-            <description><![CDATA[## Bug Fixes - Fixed standalone installs failing when GitHub returns compact or reordered release metadata. (#31913) - Ensured macOS package installs expose the code-mode host alongside the codex executable. (#31913) - Kept code mode working when the companion host binary is unavailable by falling back to the embedded runtime. (#31913) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.144.0...rust-v0.144.1 - #31913 [0.144] Backport installer and code-mode reliability fixes @bolinfest]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.144.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.144.1</guid>
-            <pubDate>Thu, 09 Jul 2026 23:02:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cloud: 1.45.1]]></title>
@@ -11687,13 +11694,6 @@
             <link>https://github.com/janhq/jan/releases/tag/v0.5.18-rc4-beta</link>
             <guid isPermaLink="false">https://github.com/janhq/jan/releases/tag/v0.5.18-rc4-beta</guid>
             <pubDate>Sun, 15 Jun 2025 07:54:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.0.28 - 2025-06-13]]></title>
-            <description><![CDATA[- chore(release): release version 1.0.28 (#2906) - Enable updater and remove unzipping and installing update text (#2918) - docs: updates for lead-worker model (#2916) - fix: correct spelling in error messages and documentation (#2840) - Change updater to use platform agnostic and secure zip library (#2913) - Docs: Edit recipes on Goose desktop (#2912) - Disable updater until we can debug more in release (#2908) - fix router trait error (#2910) - fix: Check for stderr error in receive() (#2905) - Damien/sagemaker tgi (#2888) - feat: (tool router) llm tool selector (#2866) - feat: (tool router) adds extension name in vector db & search tool (#2855) - Check for UPDATES_ENABLED flag before running update logic or in ui (#2897) - fix: handled the missing keyring error gracefully with a user-friendly message (#2900) - fix: handle JsonRPC error variants as responses (#2903) - fix: Revert downgrade to version number (#2894) - Goose recipes have settings now (#2397) - docs: update Snowflake link and description verbiage (#2882) - Fixed typos and wording for endpoint info for ollama (#2861) - Docs: Unlist blog post called What's in my goosehints file (#2891) - Docs: Fix Nav Bar and wrong command in docs (#2889) - fix the claude model name (#2890) - disable temporal by default (#2886) - feat(desktop): Add auto-update functionality to Goose desktop app (#2852) - docs: add goose web command (#2856) - Docs: Schedule recipes with the CLI (#2881) - Docs: Fix readme (#2880) - fix: CPU hogging GUI (#2877) - feat/fix: don't stop cli starting if MCPs don't load (#2860) - fix invalid context length for claude models (#2872) - dynamic port selection for temporal (#2865) - Docs: Session Export via CLI (#2867) - Docs: Adding Snowflake as a Provider (#2868) - [goose-llm] update example to add toolResult status error (#2854) - fix: cap the repeat time when display usage (#2864)]]></description>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.28</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.28</guid>
-            <pubDate>Sat, 14 Jun 2025 00:11:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.30.0-rc.0]]></title>

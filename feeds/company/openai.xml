@@ -4,11 +4,25 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 21 Aug 2026 16:25:39 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2026 18:28:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Aug 2026 05:21:49 GMT</pubDate>
+        <pubDate>Fri, 21 Aug 2026 18:12:34 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.150.0-alpha.5]]></title>
+            <description><![CDATA[Release 0.150.0-alpha.5]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.5</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.5</guid>
+            <pubDate>Fri, 21 Aug 2026 18:12:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.150.0-alpha.3]]></title>
+            <description><![CDATA[Release 0.150.0-alpha.3]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.3</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.3</guid>
+            <pubDate>Fri, 21 Aug 2026 16:43:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.149.0-alpha.7.1]]></title>
             <description><![CDATA[Release 0.149.0-alpha.7.1]]></description>
@@ -772,25 +786,11 @@
             <pubDate>Sat, 11 Jul 2026 00:10:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.145.0-alpha.3]]></title>
-            <description><![CDATA[Release 0.145.0-alpha.3]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.3</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.3</guid>
-            <pubDate>Fri, 10 Jul 2026 23:11:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.18.1]]></title>
             <description><![CDATA[## What's Changed * feat: add GPT-5.6 model defaults and migrate examples by @seratch in https://github.com/openai/openai-agents-python/pull/3774 * fix: support cache-write usage across OpenAI Python versions by @seratch in https://github.com/openai/openai-agents-python/pull/3773 * fix(realtime): make session cleanup deterministic by @seratch in https://github.com/openai/openai-agents-python/pull/3767 * fix: preserve nested tool state during restoration by @seratch in https://github.com/openai/openai-agents-python/pull/3753 * fix: close Chat Completions streams on early exit by @fallintoplace in https://github.com/openai/openai-agents-python/pull/3689 * fix(sessions): handle list content in AdvancedSQLiteSession browsing helpers by @anxkhn in https://github.com/openai/openai-agents-python/pull/3761 * fix(models): accumulate streamed logprobs in place to avoid O(n^2) copies by @anxkhn in https://github.com/openai/openai-agents-python/pull/3762 * fix: send logprobs=True when top_logprobs is set on Chat Completions by @winklemad in https://github.com/openai/openai-agents-python/pull/3763 ### Documentation & Other Changes * docs: updates for v0.18.0 by @seratch in https://github.com/openai/openai-agents-python/pull/3741 * docs(realtime): fix RealtimeRunner context docstring by @anxkhn in https://github.com/openai/openai-agents-python/pull/3748 * docs: clarify agent tool state options by @william-xue in https://github.com/openai/openai-agents-python/pull/3754 * test(items): document refusal None invariant by @seratch in https://github.com/openai/openai-agents-python/pull/3751 * Release 0.18.1 by @github-actions[bot] in https://github.com/openai/openai-agents-python/pull/3775 ## New Contributors * @william-xue made their first contribution in https://github.com/openai/openai-agents-python/pull/3754 * @winklemad made their first contribution in https://github.com/openai/openai-agents-python/pull/3763 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.18.0...v0.18.1]]></description>
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.18.1</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.18.1</guid>
             <pubDate>Thu, 09 Jul 2026 23:38:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.144.1]]></title>
-            <description><![CDATA[## Bug Fixes - Fixed standalone installs failing when GitHub returns compact or reordered release metadata. (#31913) - Ensured macOS package installs expose the code-mode host alongside the codex executable. (#31913) - Kept code mode working when the companion host binary is unavailable by falling back to the embedded runtime. (#31913) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.144.0...rust-v0.144.1 - #31913 [0.144] Backport installer and code-mode reliability fixes @bolinfest]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.144.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.144.1</guid>
-            <pubDate>Thu, 09 Jul 2026 23:02:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.18.0]]></title>
