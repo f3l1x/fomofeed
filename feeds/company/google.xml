@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 21 Aug 2026 18:28:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2026 04:27:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Aug 2026 01:08:09 GMT</pubDate>
+        <pubDate>Sat, 22 Aug 2026 01:10:05 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.56.0-nightly.20260822.g5411f113c]]></title>
+            <description><![CDATA[## What's Changed * fix(sandbox): isolate Docker and container runtime sockets and binaries in macOS Seatbelt by @josebalius in https://github.com/google-gemini/gemini-cli/pull/28935 ## New Contributors * @josebalius made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28935 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260821.g30573d2e4...v0.56.0-nightly.20260822.g5411f113c]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260822.g5411f113c</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260822.g5411f113c</guid>
+            <pubDate>Sat, 22 Aug 2026 01:10:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.56.0-nightly.20260821.g30573d2e4]]></title>
             <description><![CDATA[## What's Changed * fix(core): ensure consistent symlink evaluation in ignore path handling by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28915 * refactor(core): remove eslint-disable and type-asserts from shellExecutionService by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28862 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260820.ge90c63fa1...v0.56.0-nightly.20260821.g30573d2e4]]></description>
@@ -708,13 +715,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260517.g77e65c0db</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260517.g77e65c0db</guid>
             <pubDate>Sun, 17 May 2026 23:28:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.44.0-nightly.20260515.g928a311fb]]></title>
-            <description><![CDATA[## What's Changed * feat(core): expose RAG snippets to local log file for debugging by @spencer426 in https://github.com/google-gemini/gemini-cli/pull/27016 * fix(acp/auth): prevent conflicting credentials on enterprise gateways and support optional API keys natively by @sripasg in https://github.com/google-gemini/gemini-cli/pull/27021 * fix(core): respect NO_PROXY for network-based MCP servers by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/27012 * fix(cli): resolve permission denied in sandbox on NixOS and other distros by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/27004 * fix(ui): preserve new line at the end of edit window by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/27057 * fix(core): ensure Vertex AI sets hasAccessToPreviewModels and remove aggressive 404 fallback revocation by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27067 * fix(core): ensure stable admin settings comparison across IPC to prevent restart loop by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27066 * fix(deps): update vulnerable dependencies by @scidomino in https://github.com/google-gemini/gemini-cli/pull/27062 * fix(core): resolve EISDIR errors during file processing (#21527) by @ProthamD in https://github.com/google-gemini/gemini-cli/pull/27041 * docs(extensions): clarify env var sanitization policy for MCP and ext… by @galz10 in https://github.com/google-gemini/gemini-cli/pull/22854 * fix(ui): add ENAMETOOLONG and ENOTDIR to exceptions for file parsing errors by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/27069 * fix(cli): explicitly clear entrypoint when spawning sandbox container by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/27059 * docs: update sandbox image command by @sjhddh in https://github.com/google-gemini/gemini-cli/pull/26774 * fix(core): externalize https-proxy-agent to fix proxy support by @sotokisehiro in https://github.com/google-gemini/gemini-cli/pull/26361 ## New Contributors * @sjhddh made their first contribution in https://github.com/google-gemini/gemini-cli/pull/26774 * @sotokisehiro made their first contribution in https://github.com/google-gemini/gemini-cli/pull/26361 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.44.0-nightly.20260514.g77078b3e8...v0.44.0-nightly.20260515.g928a311fb]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260515.g928a311fb</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260515.g928a311fb</guid>
-            <pubDate>Fri, 15 May 2026 02:51:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Build zero-trust AI agents with Google's Agent Development Kit]]></title>
