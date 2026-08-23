@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 23 Aug 2026 08:21:10 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 14:16:34 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 23 Aug 2026 00:04:14 GMT</pubDate>
+        <pubDate>Sun, 23 Aug 2026 10:11:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v4.1.14]]></title>
+            <description><![CDATA[Everything here lands through the SDK bundle, so it applies to windows running that bundle. ### Added - Refresh the built-in model catalog. New entries include Claude Fable 5, Grok 4.6 on Vertex, several DeepSeek V4 Flash variants (including the vision preview), MiMo v2.5, Qwen3.8 27B, Gemma 4 26B, LongCat 2.0, Nemotron 3.5 Lightning, and Thinking Machines' Inkling models. ### Fixed - Restore task completion telemetry for interactive sessions. A share of interactive stops routed through a teardown path that never reported completion after 4.1.11 changed how session status is tracked; every session now reports it exactly once. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.13...v4.1.14]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.1.14</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.14</guid>
+            <pubDate>Sun, 23 Aug 2026 10:11:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.57]]></title>
             <description><![CDATA[- Added cline hub drain, which stops a hub from accepting new mutating work while it finishes what it is already running, and cline hub drain --off to lift it - Added cline hub upgrade, which drains the hub, waits for it to go idle, stops it, and starts a fresh one on the current build. An aborted upgrade lifts the drain again, so the hub is never left refusing work - Sessions now survive a hub restart. A reconnecting client replays the events it missed while disconnected, deduped by event id so nothing is delivered twice - Fixed tool calling being silently disabled for custom OpenAI-Compatible models whose capability list was inferred from convenience flags like supportsReasoning. The inferred list read as an authoritative denial and stripped every tool from the request - Langfuse traces now carry session and client identity for hub-backed and delegated-agent runs, instead of arriving without their session grouping or client version - Refreshed the model catalog, which updates model lists and pricing across providers and changes the resolved default model for several of them (DeepSeek, Crof, CrossModel, Eden AI, Kilo, and NanoGPT) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.56...cli-v3.0.57]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.89.2</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.89.2</guid>
             <pubDate>Thu, 11 Jun 2026 11:30:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.89.1]]></title>
-            <description><![CDATA[### Fixed - Restore the Anthropic provider on VS Code 1.123 and later, where the updated Node 24 runtime broke the bundled Anthropic SDK. - Handle the DeepSeek V4 reasoning format. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.23...v3.89.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.89.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.89.1</guid>
-            <pubDate>Thu, 11 Jun 2026 10:09:17 GMT</pubDate>
         </item>
     </channel>
 </rss>
