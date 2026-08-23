@@ -4,11 +4,39 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 22 Aug 2026 18:19:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 04:29:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Aug 2026 22:39:29 GMT</pubDate>
+        <pubDate>Sun, 23 Aug 2026 00:04:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.57]]></title>
+            <description><![CDATA[- Added cline hub drain, which stops a hub from accepting new mutating work while it finishes what it is already running, and cline hub drain --off to lift it - Added cline hub upgrade, which drains the hub, waits for it to go idle, stops it, and starts a fresh one on the current build. An aborted upgrade lifts the drain again, so the hub is never left refusing work - Sessions now survive a hub restart. A reconnecting client replays the events it missed while disconnected, deduped by event id so nothing is delivered twice - Fixed tool calling being silently disabled for custom OpenAI-Compatible models whose capability list was inferred from convenience flags like supportsReasoning. The inferred list read as an authoritative denial and stripped every tool from the request - Langfuse traces now carry session and client identity for hub-backed and delegated-agent runs, instead of arriving without their session grouping or client version - Refreshed the model catalog, which updates model lists and pricing across providers and changes the resolved default model for several of them (DeepSeek, Crof, CrossModel, Eden AI, Kilo, and NanoGPT) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.56...cli-v3.0.57]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.57</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.57</guid>
+            <pubDate>Sun, 23 Aug 2026 00:04:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SDK v0.0.78]]></title>
+            <description><![CDATA[- The hub can now be drained and upgraded without losing work. A draining hub refuses new mutating work while it finishes what it is running, a durable event log lets a reconnecting client replay everything it missed, and durable runs are queued rather than dropped. Replayed events are deduped by event id, so an event that arrives on both the replay and the live stream is delivered once - Fixed tool calling being silently disabled for custom OpenAI-Compatible models whose capability list was synthesized from convenience flags like supportsReasoning. An inferred list read as an authoritative denial and stripped every tool from the request; explicitly authored capability lists still decide - Langfuse traces now carry session and client identity for hub-backed and delegated-agent runs. Hub sessions rebuild client name and version from request headers, and delegated agents group under their parent session instead of appearing as unattributed traces - Refreshed the model catalog, which updates model lists and pricing across providers and changes the resolved default model for several of them (DeepSeek, Crof, CrossModel, Eden AI, Kilo, and NanoGPT). If you use one of those providers without pinning a model, you will get a different default **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.77...sdk/sdk/v0.0.78]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.78</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.78</guid>
+            <pubDate>Sat, 22 Aug 2026 23:58:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Desktop v0.0.16]]></title>
+            <description><![CDATA[- The agent can now be handed off between Hub instances without losing work: a Hub that is restarting refuses new work while it finishes what it is running, and the app replays anything it missed while disconnected instead of dropping it - Fixed tool calling being silently disabled for custom OpenAI-Compatible models whose capability list was inferred from convenience flags like supportsReasoning - Refreshed the model catalog, which updates model lists and pricing across providers and changes the resolved default model for several of them (DeepSeek, Crof, CrossModel, Eden AI, Kilo, and NanoGPT) - The app now honors server-side feature flags, refreshing them when your account changes **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.15...desktop-v0.0.16]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.16</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.16</guid>
+            <pubDate>Sat, 22 Aug 2026 23:45:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v4.1.13]]></title>
+            <description><![CDATA[Everything here lands through the SDK bundle, so it applies to windows running that bundle. ### Fixed - Restore tool calling for custom OpenAI-Compatible models whose capability list was inferred from convenience flags like supportsReasoning. The inferred list read as an authoritative denial and stripped every tool from the request; an explicitly authored capability list still decides. - Keep Hub-backed sessions intact across a Hub restart or upgrade. Clients replay the events they missed while disconnected, and the same event is no longer delivered twice when the replay and live streams overlap. - Carry session and client identity into Langfuse traces for Hub-backed and delegated-agent runs, which previously arrived without their session grouping or client version. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.12...v4.1.13]]></description>
+            <link>https://github.com/cline/cline/releases/tag/v4.1.13</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.13</guid>
+            <pubDate>Sat, 22 Aug 2026 20:23:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v4.1.12]]></title>
             <description><![CDATA[Everything here lands through the SDK bundle, so it applies to windows running that bundle. ### Fixed - Enforce enterprise MCP controls on the Customize marketplace. MCP entries are now hidden when remote config disables the marketplace, and limited to allowedMCPServers when an allowlist is configured. - Restore tool calling for custom OpenAI-Compatible models whose stored capability list was empty. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.11...v4.1.12]]></description>
@@ -668,13 +696,6 @@
             <pubDate>Wed, 17 Jun 2026 03:26:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[CLI v3.0.24]]></title>
-            <description><![CDATA[- Plugin commands can now submit prompts to the agent - Added support for overriding the API base URL - Open the verification URL automatically when starting device authentication - Enforced a single shared Cline Hub, so a stale hub is respawned after an upgrade - Suppressed flickering console windows on Windows - Fixed truncation of structured tool operation result strings so oversized tool output stays within limits - Stopped echoing the full command text in run_commands tool results **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.23...cli-v3.0.24]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.24</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.24</guid>
-            <pubDate>Thu, 11 Jun 2026 21:31:45 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v3.89.2]]></title>
             <description><![CDATA[### Fixed - Complete the fix for the Anthropic provider on VS Code 1.123 and later by upgrading the bundled Anthropic SDK to a release compatible with the Node 24 runtime. - Update the Vertex AI provider to a compatible Anthropic Vertex SDK release so it works with the upgraded Anthropic SDK. **Full Changelog**: https://github.com/cline/cline/compare/v3.89.1...v3.89.2]]></description>
             <link>https://github.com/cline/cline/releases/tag/v3.89.2</link>
@@ -687,27 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v3.89.1</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.89.1</guid>
             <pubDate>Thu, 11 Jun 2026 10:09:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.23]]></title>
-            <description><![CDATA[- Fixed Vertex AI GCP settings configuration - Fixed the Azure Foundry API version - Added support for configured agents as subagent tools - Centralized OAuth management into the SDK - Fixed an error caused by disabled reasoning on Fable 5 **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.22...cli-v3.0.23]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.23</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.23</guid>
-            <pubDate>Wed, 10 Jun 2026 00:52:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v3.89.0]]></title>
-            <description><![CDATA[### Added - Add Claude Fable 5 model support. ### Fixed - Fix MiniMax M3 thinking controls across gateways. ### Changed - Clean up the Codex model list. **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.21...v3.89.0]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v3.89.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v3.89.0</guid>
-            <pubDate>Tue, 09 Jun 2026 19:19:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.22]]></title>
-            <description><![CDATA[- Added support for the Claude Fable 5 model - Fixed MiniMax M3 thinking controls so they route correctly across gateways **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.21...cli-v3.0.22]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.22</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.22</guid>
-            <pubDate>Tue, 09 Jun 2026 19:13:14 GMT</pubDate>
         </item>
     </channel>
 </rss>

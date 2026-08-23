@@ -4,9 +4,9 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 22 Aug 2026 18:19:26 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 04:30:14 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 22 Aug 2026 00:29:25 GMT</pubDate>
+        <pubDate>Sun, 23 Aug 2026 00:31:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
@@ -14,7 +14,14 @@
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Sat, 22 Aug 2026 00:29:25 GMT</pubDate>
+            <pubDate>Sun, 23 Aug 2026 00:31:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.91.0]]></title>
+            <description><![CDATA[# Text selection and better mouse support Just a few QOL improvements to the prompt editor and session picker for the weekend! ## Text selection Hold shift and use the arrow keys or click and drag with your mouse to select text in the prompt editor. From there, you can use any of the fancy new shortcuts 👀 * ctrl+shift+a selects everything * ctrl+shift+c copies the selection * ctrl+shift+x cuts the selection * ctrl+shift+v pastes text Typing or pasting over selected text replaces it. ## Mouse support in the session picker We've been missing mouse support in the session picker for too long! You can now scroll through sessions with the mouse wheel, click an entry to select it, or double-click to open it. ## A small Windows fix Pressing a modifier key by itself could send some dialogs back to the top on Windows. They should stay put now. Keep crushing! Charm 💌 ## Changelog ### New! * 08552fb918a3b6247c2f8366d330f3b7f02fc891: feat: textarea selection (#3507) (@andrinoff) * 90bc466d6f35b120070b6fd8a73f4262f155086a: session picker: add mouse support (@Amolith) ### Fixed * 8661a1c4baa171f49b6f7ab3d4db7836cf5b5548: fix(windows): scrolling up on modifier keys alone (#3598) (@andrinoff) ### Other stuff * 37f36e93824e5c4f892e4a817f7f628e2682fe14: chore: auto-update files (@charmcli) * 7d78d7422a92918441a68d01d96d48fa3b9fd9db: chore: standardize go toolchain on v1.26.6 (#3592) (@aleksclark) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.91.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.91.0</guid>
+            <pubDate>Sat, 22 Aug 2026 20:56:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.90.0]]></title>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.24.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.24.0</guid>
             <pubDate>Fri, 12 Dec 2025 20:41:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.23.0]]></title>
-            <description><![CDATA[# GPT 5.2 is here! ✨ OpenAI just released GPT 5.2 and Crush already supports it. Enjoy! We also added GPT 5.1 Codex _Max_, which was missing until today. And of course, star contributors @Amolith is back with some nice small additions. More good stuff coming soon! 💘 ## Changelog ### New! * 47b50d4622eb65862e5d10fe78d5b444ea13e442: feat(tui): show / hint when editor is empty (#1512) (@Amolith) * 0cc2bf5f86676a6ce0334e9ee769dfd0ebf72370: feat: update fantasy and catwalk for support to gpt 5.2 and 5.1 codex max (@andreynering) ### Other stuff * 954872edd64a021fcc964531ff0098b281c22c69: chore(taskfile): add task to update fantasy and catwalk (@andreynering) * ef61c051eaae57dea2406eebe368bf29f5361ec4: chore: bump bt and uv to fix scroll empty line artifact bug (@aymanbagabas) * de451cc1390edd420ae070d40166a394b545ded8: chore: bump bubbletea and ultraviolet to fix cursor related rendering artifacts (@aymanbagabas) * 4143ccd46f4d131d867e834efc4c457533dccd18: chore: bump bubbletea and ultraviolet to fix kitty keyboard exiting (@aymanbagabas) * 23cf8afd75334a09bd404e8870fa94766cc218bb: chore: bump bubbletea to module replace (@aymanbagabas) * d354b61eceedfc50c3da54fdfcf83a7f8e8cdafa: chore: bump dependencies (@aymanbagabas) * d8f8889faaae63484cdf33464447ac65c071032a: chore: bump lipgloss to the latest v2 version (@aymanbagabas) * 6219de7ca9a8625fa88b02414477f4fe7cc891a8: feat(mcp-config): add list of disabled_tools (#1533) (@Amolith) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.23.0</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.23.0</guid>
-            <pubDate>Thu, 11 Dec 2025 20:15:15 GMT</pubDate>
         </item>
     </channel>
 </rss>

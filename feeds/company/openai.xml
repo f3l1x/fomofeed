@@ -4,11 +4,25 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 22 Aug 2026 18:20:57 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 04:31:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Aug 2026 22:42:06 GMT</pubDate>
+        <pubDate>Sat, 22 Aug 2026 21:26:34 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.150.0-alpha.7]]></title>
+            <description><![CDATA[Release 0.150.0-alpha.7]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.7</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.7</guid>
+            <pubDate>Sat, 22 Aug 2026 21:26:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.149.0-alpha.7.2]]></title>
+            <description><![CDATA[Release 0.149.0-alpha.7.2]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.7.2</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.7.2</guid>
+            <pubDate>Sat, 22 Aug 2026 19:48:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.150.0-alpha.6]]></title>
             <description><![CDATA[Release 0.150.0-alpha.6]]></description>
@@ -758,25 +772,11 @@
             <pubDate>Tue, 14 Jul 2026 02:09:48 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.145.0-alpha.7]]></title>
-            <description><![CDATA[Release 0.145.0-alpha.7]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.7</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.7</guid>
-            <pubDate>Mon, 13 Jul 2026 10:49:55 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[0.144.3]]></title>
             <description><![CDATA[## Chores - Published a version-only release with no merged pull request changes since rust-v0.144.2. ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.144.2...rust-v0.144.3]]></description>
             <link>https://github.com/openai/codex/releases/tag/rust-v0.144.3</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.144.3</guid>
             <pubDate>Mon, 13 Jul 2026 06:12:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.144.2]]></title>
-            <description><![CDATA[## Bug Fixes - Restored the previous Guardian auto-review policy, request format, and tool behavior after rolling back a prompting regression. (#32672) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.144.1...rust-v0.144.2 - #32672 [release/0.144] Revert "Update auto review prompting" @dylan-hurd-oai]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.144.2</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.144.2</guid>
-            <pubDate>Mon, 13 Jul 2026 04:39:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.18.2]]></title>
