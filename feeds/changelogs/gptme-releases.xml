@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for gptme Releases]]></description>
         <link>https://github.com/gptme/gptme/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Aug 2026 08:40:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 14:34:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gptme-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 20 Aug 2026 12:50:49 GMT</pubDate>
+        <pubDate>Mon, 24 Aug 2026 12:48:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.33.1.dev20260824]]></title>
+            <description><![CDATA[These are the release notes for gptme version v0.33.1.dev20260824. ## Contributors Thanks to everyone who contributed to this release: @erikbjare, @TimeToBuildBob ## Changelog Changes since v0.33.1.dev20260820: ## 📦 gptme ### ✨ Features (5) - feat(service-init): add launchd support for macOS agents (#3586) (7c52dc6f9) - feat(harness): audit assistant harness update requests (#3529) (79750b000) - feat(cli): add gptme service init scaffold for headless agents (#3574) (d27f98d3a) - feat(precommit): add check-root-structure hook from gptme-contrib (#3580) (77010664a) - feat(server): BYOK key validation — warn not block when provider unreachable (#3569) (0fc8208e9) ### 🐛 Fixes (2) - fix(server): install SIGTERM handler before slow init to prevent silent failure (#3591) (3cd609a9f) - fix(precommit): update gptme-contrib rev to post-#1479 merge (#3584) (904de13a1) ### 🔨 Misc (6) - chore: bump version to 0.33.1.dev20260824 (7c205ef04) - docs: add headless agents section with gptme service init example (#3588) (a4d403a91) - test(server): add subprocess integration test for server startup (#3589) (#3590) (6e4e0015b) - test(webui): add regression test for BYOK 422 invalid-key rejection (#3545) (#3581) (b36c05f41) - docs: document subscription auth (ChatGPT Plus/Pro, SuperGrok) in README and providers docs (#3582) (433f47f28) - chore: bump version to 0.33.1.dev20260820 (327bc2dd9) *(excluded 3 less relevant commits)* **Full Changelog**: https://github.com/gptme/gptme/compare/v0.33.1.dev20260820...v0.33.1.dev20260824]]></description>
+            <link>https://github.com/gptme/gptme/releases/tag/v0.33.1.dev20260824</link>
+            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.33.1.dev20260824</guid>
+            <pubDate>Mon, 24 Aug 2026 12:48:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.33.1.dev20260820]]></title>
             <description><![CDATA[These are the release notes for gptme version v0.33.1.dev20260820. ## Contributors Thanks to everyone who contributed to this release: @TimeToBuildBob ## Changelog Changes since v0.33.0: ## 📦 gptme ### ✨ Features (2) - feat(shell): opt-in per-shell memory ceiling via GPTME_SHELL_MEMORY_LIMIT (#3565) (7092325b2) - feat(computer): allow out-of-tree transports via register_transport() (#3577) (ddb9dea0f) ### 🐛 Fixes (2) - fix(tauri): include pyproject.toml and lock file in sidecar freshness check (#3573) (fe99c6635) - fix(android): open cloud sign-in in the system browser, not the app WebView (#3578) (f206f94a5) ### 🔨 Misc (1) - chore: bump version to 0.33.1.dev20260820 (327bc2dd9) **Full Changelog**: https://github.com/gptme/gptme/compare/v0.33.0...v0.33.1.dev20260820]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/gptme/gptme/releases/tag/v0.10.0</link>
             <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.10.0</guid>
             <pubDate>Fri, 03 Nov 2023 08:36:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.4]]></title>
-            <description><![CDATA[These are the release notes for GPTMe version v0.9.4. # Contributors Thanks to everyone who contributed to this release: @erikbjare # Changelog Changes since v0.9.3: ## 📦 gptme ### 🐛 Fixes (4) - fix: include instructions for append in system prompt (50b00a0) - fix: removed /continue and /load commands (9ba41f5) - fix: fixed ctags test (fa7d409) - fix: improved tabcomplete and added tests (e8aa4a9) ### 🔨 Misc (4) - docs: added docs badge (fae0320) - refactor: extracted server stuff to seperate script gptme-server (e871a2c) - test: fixed tabcomplete test in ci (9ac4fa0) - docs: fixed !NOTE (8616718) **Full Changelog**: https://github.com/ErikBjare/gptme/compare/v0.9.3...v0.9.4]]></description>
-            <link>https://github.com/gptme/gptme/releases/tag/v0.9.4</link>
-            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.9.4</guid>
-            <pubDate>Tue, 31 Oct 2023 15:43:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
