@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Aug 2026 16:30:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 18:31:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -55,13 +55,6 @@
             <link>https://www.anthropic.com/news/tino-cuellar</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/tino-cuellar</guid>
             <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA]]></title>
-            <description><![CDATA[Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.]]></description>
-            <link>https://developers.googleblog.com/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</guid>
-            <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Investigating three real-world incidents in our cybersecurity evaluations]]></title>
@@ -366,6 +359,13 @@
             <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
             <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
             <pubDate>Thu, 09 Apr 2020 14:12:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Evaluate Live & Voice Agents in ADK]]></title>
+            <description><![CDATA[Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining evaluation scenarios and natural-language rubrics, you can automatically score audio responses and tool executions, inspect the resulting transcripts in ADK Web, or run the CLI directly in your CI/CD pipeline.]]></description>
+            <link>https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk/</guid>
+            <pubDate>Sat, 14 Nov 2020 22:54:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Build zero-trust AI agents with Google's Agent Development Kit]]></title>
