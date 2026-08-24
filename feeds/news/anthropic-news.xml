@@ -4,19 +4,21 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Aug 2026 14:34:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 16:28:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 13 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[How Claude’s text watermark works]]></title>
+            <description><![CDATA[In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.]]></description>
             <link>https://www.anthropic.com/news/claude-text-watermark</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-text-watermark</guid>
             <pubDate>Thu, 13 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Improving Fable 5's biology safeguards]]></title>
+            <description><![CDATA[We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query.]]></description>
             <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</guid>
             <pubDate>Thu, 06 Aug 2026 22:00:00 GMT</pubDate>
@@ -69,20 +71,6 @@
             <link>https://www.anthropic.com/news/donation-public-first-action</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/donation-public-first-action</guid>
             <pubDate>Mon, 20 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Inviting hard questions]]></title>
-            <description><![CDATA[We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.]]></description>
-            <link>https://www.anthropic.com/news/hard-questions</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/hard-questions</guid>
-            <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Redeploying Fable 5]]></title>
-            <description><![CDATA[Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.]]></description>
-            <link>https://www.anthropic.com/news/redeploying-fable-5</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/redeploying-fable-5</guid>
-            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Claude Sonnet 5]]></title>

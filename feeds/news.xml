@@ -4,19 +4,21 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Aug 2026 14:36:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 16:30:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[How Claude is accelerating protein design and analytical chemistry]]></title>
+            <description><![CDATA[In this post, we share two results that show how Claude can help life scientists increase the pace of their research.]]></description>
             <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
             <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How Claude’s text watermark works]]></title>
+            <description><![CDATA[In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.]]></description>
             <link>https://www.anthropic.com/news/claude-text-watermark</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-text-watermark</guid>
             <pubDate>Thu, 13 Aug 2026 22:00:00 GMT</pubDate>
@@ -29,6 +31,7 @@
         </item>
         <item>
             <title><![CDATA[Reviewing the evidence on worker retraining programs]]></title>
+            <description><![CDATA[We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.]]></description>
             <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
             <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
@@ -42,6 +45,7 @@
         </item>
         <item>
             <title><![CDATA[Improving Fable 5's biology safeguards]]></title>
+            <description><![CDATA[We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query.]]></description>
             <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</guid>
             <pubDate>Thu, 06 Aug 2026 22:00:00 GMT</pubDate>
@@ -127,13 +131,6 @@
             <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Inviting hard questions]]></title>
-            <description><![CDATA[We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.]]></description>
-            <link>https://www.anthropic.com/news/hard-questions</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/hard-questions</guid>
-            <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Claude plays robotics]]></title>
             <link>https://www.anthropic.com/research/claude-plays-robotics</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-plays-robotics</guid>
@@ -151,13 +148,6 @@
             <link>https://www.anthropic.com/research/global-workspace</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
             <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Redeploying Fable 5]]></title>
-            <description><![CDATA[Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.]]></description>
-            <link>https://www.anthropic.com/news/redeploying-fable-5</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/redeploying-fable-5</guid>
-            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Claude Sonnet 5]]></title>
