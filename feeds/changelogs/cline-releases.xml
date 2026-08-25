@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Aug 2026 08:33:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 14:37:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 24 Aug 2026 23:07:51 GMT</pubDate>
+        <pubDate>Tue, 25 Aug 2026 09:06:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Desktop v0.0.17]]></title>
+            <description><![CDATA[- Plugins, MCP, Skills, Rules, Hooks, and Tools are now one Customize hub with tabbed sections and live counts. Catalog-backed tabs show what you have installed followed by an inline Browse section, so installing something from the catalog immediately appears above — the separate Marketplace page is gone - Redesigned the Models page: providers are grouped into Connected, Popular, and All with their auth kind and configuration status instead of per-row toggles. OAuth providers now offer a browser sign-in rather than an API key field, with a collapsed manual-key escape hatch where supported, and explicit Connect / Disconnect / Sign out actions - Voice input moved to its own Settings → Voice page that only offers connected transcription-capable providers and preselects a default model. The composer's microphone button now appears only once a voice model is configured - Sidebar sessions are always grouped by project, with pinned sessions leading each group and scheduled sessions marked by an inline clock. The Favorite action is now called Pin - New, Schedule, and Customize each got their own labeled row below the logo. New starts a fresh task and puts your cursor straight in the composer - Session search moved into a dialog behind the search icon in the logo row, and it now searches your full history instead of only the sessions already loaded in the sidebar - Added suggested schedule templates to the Schedule page - Add Provider opens a dialog instead of swapping out the page - Desktop notifications are now a single section under General, so the Event/Notify/Sound matrix no longer reads as a peer of settings like Dark mode - The agent's todo tool and the Agenda panel have been removed; scheduled tasks are unaffected - Fixed the provider list being unscrollable while a provider detail panel was open - Fixed a failed settings save leaving the Models page claiming a provider configuration that was never written to disk - Fixed Uninstall buttons collapsing to a broken square next to Install - Fixed unreadable selected text inside input fields - New files are now created with your platform's native line endings - Fixed the codebase search tool crashing the app on files containing a single enormous line - The hub's event log can no longer grow until it fills your disk **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.16...desktop-v0.0.17]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.17</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.17</guid>
+            <pubDate>Tue, 25 Aug 2026 09:06:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.58]]></title>
             <description><![CDATA[- The first-launch "Try ClinePass" dialog no longer advertises the $4.99 first-month promo, which is ending - The hub's event log is now capped at 64 MiB on disk. Events carrying full session snapshots could previously grow the log to tens of gigabytes on a long-running hub, since deleting rows never shrinks the file. Oldest events are dropped first and the space is returned, and pruning runs on volume as well as on a timer - Refreshed the model catalog. Adds two providers (AgentRouter and Opper) and updates model lists and pricing across providers. The resolved default model changes for Aki.io and NanoGPT, so if you use one of those without pinning a model you will get a different default **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.57...cli-v3.0.58]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/cli-v3.0.28</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.28</guid>
             <pubDate>Fri, 19 Jun 2026 22:04:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.27]]></title>
-            <description><![CDATA[- Added a cline skill command to install and manage skills, matching cline plugin install and cline mcp (installs default to the Cline agent directory) - Added a prefilled MCP install wizard command for quicker MCP server setup - Improved error handling and messaging when plugin MCP OAuth authorization fails - The CLI now rejects unknown commands and unquoted multi-word input with a clear error instead of silently treating bad arguments as a prompt **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.26...cli-v3.0.27]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.27</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.27</guid>
-            <pubDate>Wed, 17 Jun 2026 07:00:25 GMT</pubDate>
         </item>
     </channel>
 </rss>
