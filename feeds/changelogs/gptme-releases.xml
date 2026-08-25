@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for gptme Releases]]></description>
         <link>https://github.com/gptme/gptme/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Aug 2026 14:38:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 16:28:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gptme-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 24 Aug 2026 12:48:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
