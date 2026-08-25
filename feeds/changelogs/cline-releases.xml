@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Aug 2026 18:29:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 04:32:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 23 Aug 2026 19:56:07 GMT</pubDate>
+        <pubDate>Mon, 24 Aug 2026 23:07:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[CLI v3.0.58]]></title>
+            <description><![CDATA[- The first-launch "Try ClinePass" dialog no longer advertises the $4.99 first-month promo, which is ending - The hub's event log is now capped at 64 MiB on disk. Events carrying full session snapshots could previously grow the log to tens of gigabytes on a long-running hub, since deleting rows never shrinks the file. Oldest events are dropped first and the space is returned, and pruning runs on volume as well as on a timer - Refreshed the model catalog. Adds two providers (AgentRouter and Opper) and updates model lists and pricing across providers. The resolved default model changes for Aki.io and NanoGPT, so if you use one of those without pinning a model you will get a different default **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.57...cli-v3.0.58]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.58</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.58</guid>
+            <pubDate>Mon, 24 Aug 2026 23:07:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SDK v0.0.79]]></title>
+            <description><![CDATA[- The hub's durable event log is now capped at 64 MiB on disk. Event envelopes carrying full session snapshots could previously accumulate to tens of gigabytes, since row and time retention alone did not bound file size and deletes never shrink a SQLite file. Oldest events are dropped first and the file is vacuumed to return the space, and pruning now also runs after every 16 MiB appended instead of waiting for the hourly sweep - Fixed task.completed telemetry being dropped for most interactive sessions. The event is now emitted from every session teardown path, exactly once per session - Refreshed the model catalog. Adds two providers (AgentRouter and Opper) and updates model lists and pricing across providers. The resolved default model changes for Aki.io and NanoGPT, so if you use one of those without pinning a model you will get a different default **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.78...sdk/sdk/v0.0.79]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.79</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.79</guid>
+            <pubDate>Mon, 24 Aug 2026 23:01:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v4.1.15]]></title>
             <description><![CDATA[Everything here lands through the SDK bundle, so it applies to windows running that bundle. ### Fixed - Auto-approve every MCP tool call while the "Use MCP servers" toggle is on. The toggle only took effect on tools that had also been opted in individually, so turning it on appeared to do nothing; it now governs all MCP tools on its own. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.14...v4.1.15]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/cli-v3.0.27</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.27</guid>
             <pubDate>Wed, 17 Jun 2026 07:00:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.26]]></title>
-            <description><![CDATA[- Reverted the expandable model picker sections and ClinePass models, restoring the previous model-selection UI **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.25...cli-v3.0.26]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.26</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.26</guid>
-            <pubDate>Wed, 17 Jun 2026 04:11:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.25]]></title>
-            <description><![CDATA[- Added ClinePass support, with selectable ClinePass models in the model picker - Made model picker sections expandable - Added MCP server support to plugins, including authorizing plugin MCP OAuth during install - Encouraged parallel tool calls for faster task execution - Capped tool output for bash commands and file reads to keep large output within context limits - Allowed ranged reads on large files - Fixed apply_patch to fail when a hunk is skipped - Fixed run_commands to return captured stdout on failure and handle split heredocs - Fixed search tools to treat zero results as success - Fixed disabled-reasoning handling for StepFun flash - Fixed history resume rendering isolation - Fixed the Hugging Face URL - Fixed Cline OAuth token formatting in provider config **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.24...cli-v3.0.25]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.25</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.25</guid>
-            <pubDate>Wed, 17 Jun 2026 03:26:31 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,25 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Aug 2026 18:31:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 04:34:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 24 Aug 2026 00:59:21 GMT</pubDate>
+        <pubDate>Tue, 25 Aug 2026 01:08:28 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.56.0-nightly.20260825.g812f7a2bc]]></title>
+            <description><![CDATA[## What's Changed * fix(a2a-server): clear stale cancellation error on new message turns by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28940 * fix(core): declare top-level safety checkers in write policy configuration by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28961 * (FIX) history rollback and retry nudge optimizations by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28934 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260824.g5411f113c...v0.56.0-nightly.20260825.g812f7a2bc]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260825.g812f7a2bc</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260825.g812f7a2bc</guid>
+            <pubDate>Tue, 25 Aug 2026 01:08:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Release v0.57.0-preview.1]]></title>
+            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 812f7a2 to release/v0.57.0-preview.0-pr-28934 to patch version v0.57.0-preview.0 and create version 0.57.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29024 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.57.0-preview.0...v0.57.0-preview.1]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.57.0-preview.1</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.57.0-preview.1</guid>
+            <pubDate>Mon, 24 Aug 2026 23:24:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.56.0-nightly.20260824.g5411f113c]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260823.g5411f113c...v0.56.0-nightly.20260824.g5411f113c]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-preview.0</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-preview.0</guid>
             <pubDate>Fri, 22 May 2026 00:52:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.44.0-nightly.20260521.g57c42a5c4]]></title>
-            <description><![CDATA[## What's Changed * fix(core): enforce compile-time exhaustiveness in content-utils by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/27207 * feat(skills): add agent-tui and tui-tester skills by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/27121 * fix(context): Fix snapshot recovery across sessions. by @joshualitt in https://github.com/google-gemini/gemini-cli/pull/26939 * fix(core): add unit tests for stableStringify by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/27212 * fix(core): prefer pwsh.exe over Windows PowerShell 5.1 (#25859) by @kaluchi in https://github.com/google-gemini/gemini-cli/pull/25900 * feat(core): add LocalSessionInvocation by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/26665 * refactor: decouple auto model description and configuration from releaseChannel by @danielweis in https://github.com/google-gemini/gemini-cli/pull/27227 * fix(core): prevent isBinary false-positive on Windows PTY streams by @TirthNaik-99 in https://github.com/google-gemini/gemini-cli/pull/26565 * fix(cli): Prevent unmapped keys in Vim Normal mode from inserting text into prompt Input. by @Rajeshpatel07 in https://github.com/google-gemini/gemini-cli/pull/25139 * fix(a2a-server): Implement default policy loading for parity with CLI by @kschaab in https://github.com/google-gemini/gemini-cli/pull/27073 * feat(core): add RemoteSessionInvocation by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/26937 * fix: allow configured MCP servers in non-interactive mode by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/27215 * fix(core): add exception handling to migrateFromFileStorage by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/27229 * fix(cli): bundle ink worker-entry.js by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/27249 * feat(core): wire AgentSession invocations into agent-tool by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/26948 * fix(core): prevent path traversal in custome command file injection by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/27234 * fix(core): respect NO_PROXY in global fetch dispatcher by @cocosheng-g in https://github.com/google-gemini/gemini-cli/pull/27216 * fix(core): correctly handle nullable array types in MCP tools by @devr0306 in https://github.com/google-gemini/gemini-cli/pull/27228 * fix(cli): preserve proxy-agent named exports in ESM bundle by @ashishch432 in https://github.com/google-gemini/gemini-cli/pull/27145 * Proposal: deterministic encoding for child-process I/O by @kaluchi in https://github.com/google-gemini/gemini-cli/pull/27247 * feat(cli): add Sublime Text and Emacs Client editors, improve error messages and documentation by @alberti42 in https://github.com/google-gemini/gemini-cli/pull/21090 ## New Contributors * @kaluchi made their first contribution in https://github.com/google-gemini/gemini-cli/pull/25900 * @Rajeshpatel07 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/25139 * @ompatel-aiml made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27234 * @ashishch432 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27145 * @alberti42 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/21090 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.44.0-nightly.20260518.g5611ff40e...v0.44.0-nightly.20260521.g57c42a5c4]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4</guid>
-            <pubDate>Thu, 21 May 2026 00:42:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.43.0-preview.1]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 85566a7 to release/v0.43.0-preview.0-pr-27073 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27256 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.43.0-preview.0...v0.43.0-preview.1]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0-preview.1</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0-preview.1</guid>
-            <pubDate>Tue, 19 May 2026 19:35:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to Evaluate Live & Voice Agents in ADK]]></title>
