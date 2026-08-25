@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Aug 2026 04:32:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 06:34:02 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 24 Aug 2026 14:37:19 GMT</pubDate>
+        <pubDate>Tue, 25 Aug 2026 06:30:49 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.23]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Fixed Cloudflare AI Gateway routing for third-party providers so non-Workers models work through the gateway's REST API. (@superhighfives) - Fixed Anthropic models through Cloudflare AI Gateway by converting dotted model IDs like claude-haiku-4.5 to the dashed slug Anthropic expects. (@superhighfives) - Fixed parent session IDs being sent in request headers for session-aware providers. ## TUI ### Bugfixes - Fixed GitHub auth for immutable OIDC subject tokens. **Thank you to 1 community contributor:** - @superhighfives: - fix(provider): send Anthropic's dashed native slug through the AI Gateway (#44281) - fix(provider): route non-native Cloudflare AI Gateway providers via the REST API (#44828)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.23</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.23</guid>
+            <pubDate>Tue, 25 Aug 2026 06:30:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.22]]></title>
             <description><![CDATA[## Core ### Bugfixes - Removed outdated OpenCode Go first-month discount messaging and pricing. - Fixed OpenCode device login links when servers return relative verification URLs or use a base path. - Fixed textVerbosity being sent to OpenAI-compatible providers that do not support it. (@joelstucki-taulia) - Updated the Amazon Bedrock provider for compatibility fixes. ## Desktop ### Bugfixes - Keep model provider headers visible while scrolling the model picker. **Thank you to 1 community contributor:** - @joelstucki-taulia: - fix(provider): guard textVerbosity injection for @ai-sdk/openai-compatible providers (#43915)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.10</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.10</guid>
             <pubDate>Fri, 17 Apr 2026 20:13:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.4.9]]></title>
-            <description><![CDATA[## Core - Added LLM Gateway as a provider, including config support and model usage reporting. (@smakosh) - Limited GitHub Copilot Opus 4.7 models to medium reasoning effort to avoid unsupported variants. (@OpeOginni) - Improved remote workspace reconnection with exponential backoff and clearer failure handling. ## TUI - Fixed --session-id so it opens the requested session after app startup. - Fixed light mode detection in Ghostty. ## Desktop - Fixed the beta desktop app so the file tree still appears when enabled in settings. **Thank you to 3 community contributors:** - @OpeOginni: - fix(opencode): rescrict github copilot opus 4.7 variants to "medium" (#23097) - @jenperson: - docs: adding Mistral to docs as a provider (it is already a provider, just docs update) #23070 (#23072) - @smakosh: - feat: add LLM Gateway provider (#7847)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.4.9</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.4.9</guid>
-            <pubDate>Fri, 17 Apr 2026 16:20:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
