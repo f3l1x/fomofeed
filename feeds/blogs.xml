@@ -4,16 +4,29 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Aug 2026 18:30:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 04:34:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
+            <title><![CDATA[Claude Desktop support with Ollama]]></title>
+            <description><![CDATA[Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.]]></description>
+            <link>https://ollama.com/blog/claude-desktop</link>
+            <guid isPermaLink="false">https://ollama.com/blog/claude-desktop</guid>
+            <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[How Devin rebuilt its renderer]]></title>
             <description><![CDATA[The largest Devin sessions took 20+ seconds to load and crawled afterwards. We built a new chat renderer — skeleton outlines, island loading, and scroll anchoring — so even sessions with hundreds of thousands of messages load fast and scroll smoothly.]]></description>
             <link>https://windsurf.com/blog/rebuilding-devins-chat-renderer</link>
             <guid isPermaLink="false">https://windsurf.com/blog/rebuilding-devins-chat-renderer</guid>
+            <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[IMDEX uses Cursor to build integrated subsurface data and analytics platform in months, not years]]></title>
+            <link>https://cursor.com/blog/imdex</link>
+            <guid isPermaLink="false">https://cursor.com/blog/imdex</guid>
             <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -360,12 +373,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/snowflake-runs-your-data-dagster-runs-everything-else</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Faire doubles PR throughput with Cursor Cloud Agents]]></title>
-            <link>https://cursor.com/blog/faire</link>
-            <guid isPermaLink="false">https://cursor.com/blog/faire</guid>
-            <pubDate>Mon, 25 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[We Tried ty for Performance. It Found Real Bugs]]></title>

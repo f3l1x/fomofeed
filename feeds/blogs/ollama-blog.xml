@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Blog]]></description>
         <link>https://ollama.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Aug 2026 18:28:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 04:32:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/ollama-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 10 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude Desktop support with Ollama]]></title>
+            <description><![CDATA[Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.]]></description>
+            <link>https://ollama.com/blog/claude-desktop</link>
+            <guid isPermaLink="false">https://ollama.com/blog/claude-desktop</guid>
+            <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[NVIDIA Nemotron 3.5 Lightning]]></title>
             <description><![CDATA[NVIDIA Nemotron 3.5 Lightning is now available on Ollama. It's a 30 billion parameter (3B active) open model built for agents that stay running, gathering context, calling tools, and working through multi-step tasks on your own hardware.]]></description>
