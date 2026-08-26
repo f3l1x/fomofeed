@@ -4,14 +4,14 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Aug 2026 14:39:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 16:45:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[How Devin rebuilt its renderer]]></title>
-            <description><![CDATA[The largest Devin sessions took 20+ seconds to load and crawled afterwards. We built a new chat renderer — skeleton outlines, island loading, and scroll anchoring — so even sessions with hundreds of thousands of messages load fast and scroll smoothly.]]></description>
+            <description><![CDATA[The largest Devin sessions took 20+ seconds to load and crawled afterwards. We built a new chat renderer — skeleton outlines, island loading, and scroll anchoring — so even sessions with hundreds of thousands of events load fast and scroll smoothly.]]></description>
             <link>https://windsurf.com/blog/rebuilding-devins-chat-renderer</link>
             <guid isPermaLink="false">https://windsurf.com/blog/rebuilding-devins-chat-renderer</guid>
             <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
