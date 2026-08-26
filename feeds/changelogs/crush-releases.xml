@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Aug 2026 16:43:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 19:39:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Aug 2026 00:30:38 GMT</pubDate>
+        <pubDate>Wed, 26 Aug 2026 17:03:03 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.91.2]]></title>
+            <description><![CDATA[# Fixed GitHub MCP + UI fixes A small patch with a couple fixes. ## Fixed GitHub MCP The GitHub MCP stopped working in Crush in the recent days, but it's now working again. We "sessionless": true (or --sessionless true) that some MCPs might need to work correctly. For GitHub MCP, we're enabling that automatically so it works without extra config for you. ## Code indentation fixes We fixed a couple bugs with wrong indentation in code in the UI. This could happen on tool calls previews or code inside markdown. Example screenshots: Before After ## New Hyper models Last news, we have 3 new models available in Hyper! * Qwen3.8-Flash * Qwen3.8-27B * Qwen3.8-2.4T-A95B These are really good models, I hope you enjoy! Don't know Hyper yet? Hyper is Charm's provider with a $20/m subscription. Check it out! That's all for today. Keep crushing! Charm 💌 ## Changelog ### Fixed * 82557e2af69ff67fe50e53055bbe83dddbe07f6b: fix(mcp): fix sessionless mcp servers (e.g. github mcp) (#3651) (@andreynering) * 460a877fcb60c32d3194a09f262be4cb4d5928bf: fix: preserve first line indentation in tool call previews (#3652) (@andreynering) * 75962c4887d87dcd203b5fba9bf46fd3b52c77c3: fix: weird indentation on code blocks (#3642) (@andrinoff) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.91.2</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.91.2</guid>
+            <pubDate>Wed, 26 Aug 2026 17:03:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nightly]]></title>
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.26.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.26.0</guid>
             <pubDate>Tue, 16 Dec 2025 20:03:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.25.0]]></title>
-            <description><![CDATA[# Project tracking ’n’ bug fixes This release introduces a new crush projects command that you can use to see all the projects where you used Crush that it knows about. Keep in mind that you need to start Crush at least once, with this new release, to get it recognized. It was primarily designed for programmatic use (see the --json flag, but maybe people will like it too). For details see crush projects --help). We're also shipping some important bug fixes, including a patch for a possible broken session that could occur when OpenAI-compatible providers like Grok if you interrupted the model while it was thinking. Keep crushing it! 💘 ## Changelog ### New! * 4b86d090392a761106d4b33b2937e183af62bcd6: feat: add centralized project tracking (for Splitrail) (#1553) (@mike1858) ### Fixed * a2678eb4c642faf52e5496da9af1ad94d847a336: fix(uiutil): add Cursor interface (@aymanbagabas) * 9ca655702eaebdbc058a11361c2af9968689516a: fix: typo in Subscriber type name (#1616) (@meowgorithm) * 33d8aafb54b884f2bbcea4f1b21e75cd850c6007: fix: update fantasy with fix for empty messages bug (#1639) (@andreynering) * c822651c9bfe6071fe6d29c1f470c9221faf0613: fix:remove 100MB file size limit from download tool (#1631) (@Gustave-241021) ### Deps * a7d13872fe1ba8b6b3c8b1690583dbc74281e338: fix(deps): use charm.land glamour and log (#1469) (@caarlos0) ### Other stuff * b1d93ebbadd2e3ec4d74015f3b8eeadbbc0b18cc: chore(ui): remove left padding in thinking blocks (#1629) (@meowgorithm) * 69d3ac961bfccc36a1df5b3b680a7b67fb929b01: chore: search improvements (#1632) (@kujtimiihoxha) * 0d0ac7ce6776844e1bd2ad3e97bec67c14f3ad38: chore: send interactive attribute (for crush run) (#1635) (@andreynering) * df6f35a694dd3e36ead0b985b996b45b9a68489d: refactor(tui): move UI message handling to internal/uiutil (@aymanbagabas) * 7918c90ed0587dc67a178f6bd7884b6899387a63: refactor(tui): move command loading to uicmd package (@aymanbagabas) * 31e155c2ce1a7a906c244d381daf15dd5481c5e7: refactor(tui): unify commandType definition (@aymanbagabas) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.25.0</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.25.0</guid>
-            <pubDate>Tue, 16 Dec 2025 14:41:02 GMT</pubDate>
         </item>
     </channel>
 </rss>

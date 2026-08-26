@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Aug 2026 16:45:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 19:41:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 25 Aug 2026 22:31:52 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.246</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.246</guid>
             <pubDate>Tue, 25 Aug 2026 22:31:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Enabling independent research on how people use Claude]]></title>
+            <link>https://www.anthropic.com/research/enabling-independent-research</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/enabling-independent-research</guid>
+            <pubDate>Tue, 25 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.245]]></title>
@@ -394,12 +400,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.204</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.204</guid>
             <pubDate>Wed, 08 Jul 2026 00:27:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[An off switch for dual-use knowledge in AI models]]></title>
-            <link>https://www.anthropic.com/research/off-switch-dual-use</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/off-switch-dual-use</guid>
-            <pubDate>Tue, 07 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.203]]></title>
@@ -1000,6 +1000,12 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Claude in Chrome is generally available]]></title>
+            <link>https://claude.com/blog/claude-in-chrome-generally-available</link>
+            <guid isPermaLink="false">https://claude.com/blog/claude-in-chrome-generally-available</guid>
+            <pubDate>Tue, 08 Dec 2020 12:59:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Claude Code now supports artifacts]]></title>
             <link>https://claude.com/blog/artifacts-in-claude-code</link>
             <guid isPermaLink="false">https://claude.com/blog/artifacts-in-claude-code</guid>
@@ -1052,12 +1058,6 @@
             <link>https://claude.com/blog/claude-managed-agents</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents</guid>
             <pubDate>Fri, 10 Apr 2020 12:03:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence]]></title>
-            <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
-            <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
-            <pubDate>Thu, 09 Apr 2020 14:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>

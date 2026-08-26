@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Aug 2026 16:43:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 19:39:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 21 Aug 2026 22:52:46 GMT</pubDate>
+        <pubDate>Wed, 26 Aug 2026 18:09:57 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.33.1]]></title>
+            <description><![CDATA[## What's Changed * MLX: Qwen3.8 Flash Next support * cmake: make external compat patches idempotent * MLX and llama.cpp update * mlxrunner: add structured output support * mlxrunner: avoid Metal GPU timeouts when loading models from slow storage ## New Contributors * @pd95 made their first contribution in https://github.com/ollama/ollama/pull/17948 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.0...v0.33.1-rc1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1</guid>
+            <pubDate>Wed, 26 Aug 2026 18:09:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.33.0]]></title>
             <description><![CDATA[## What's Changed ### Claude Desktop Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. ### Improved caching * Fixed a hang where agent clients that cancel long prefills * Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries resume where they stopped instead of restarting from scratch * Resumed prefills no longer record restore points that fail to cover what they claim; on models with recurrent layers this previously forced a request matching 46k of 47k tokens to reprocess from zero * Disabled Claude Code's "tokens left" token-countdown system message, which Ollama moved to the front of the prompt and broke the KV cache on every request ### Other improvements * DeepSeek Harness launcher now falls back to npx when the global npm install fails, with Windows command-shim support * MLX dependency update (#17886) * Fixed broken default packaging caused by macOS-specific assumptions affecting Linux/Windows builds **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.15...v0.33.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.0</guid>
             <pubDate>Thu, 18 Sep 2025 17:29:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.11.11]]></title>
-            <description><![CDATA[## What's Changed * Support for CUDA 13 * Improved memory usage when using gpt-oss in Ollama's app * Better scrolling better in Ollama's app when submitting long prompts * Cmd +/- will now zoom and shrink text in Ollama's app * Assistant messages can now by copied in Ollama's app * Fixed error that would occur when attempting to import satefensor files by @rick-github in https://github.com/ollama/ollama/pull/12176 * Improved memory estimates for hybrid and recurrent models by @gabe-l-hart in https://github.com/ollama/ollama/pull/12186 * Fixed error that would occur when when batch size was greater than context length * Flash attention & KV cache quantization validation fixes by @jessegross in https://github.com/ollama/ollama/pull/12231 * Add dimensions field to embed requests by @mxyng in https://github.com/ollama/ollama/pull/12242 * Enable new memory estimates in Ollama's new engine by default by @jessegross in https://github.com/ollama/ollama/pull/12252 * Ollama will no longer load split vision models in the Ollama engine by @jessegross in https://github.com/ollama/ollama/pull/12241 ## New Contributors * @KashyapTan made their first contribution in https://github.com/ollama/ollama/pull/12188 * @carbonatedWaterOrg made their first contribution in https://github.com/ollama/ollama/pull/12230 * @fengyuchuanshen made their first contribution in https://github.com/ollama/ollama/pull/12249 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.10...v0.11.11]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.11.11</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.11.11</guid>
-            <pubDate>Thu, 11 Sep 2025 21:02:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
