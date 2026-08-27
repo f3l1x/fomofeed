@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Claude Blog]]></description>
         <link>https://claude.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Aug 2026 19:39:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Aug 2026 14:54:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/claude-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 08 Dec 2020 12:59:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,12 @@
             <link>https://claude.com/blog/claude-in-chrome-generally-available</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-in-chrome-generally-available</guid>
             <pubDate>Tue, 08 Dec 2020 12:59:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude gets its own browser in Cowork]]></title>
+            <link>https://claude.com/blog/cowork-built-in-browser</link>
+            <guid isPermaLink="false">https://claude.com/blog/cowork-built-in-browser</guid>
+            <pubDate>Tue, 11 Aug 2020 06:23:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude Code now supports artifacts]]></title>
@@ -62,12 +68,6 @@
             <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
             <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
             <pubDate>Thu, 13 Feb 2020 11:18:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Managed Agents: get to production 10x faster]]></title>
-            <link>https://claude.com/blog/claude-managed-agents</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents</guid>
-            <pubDate>Fri, 10 Apr 2020 12:03:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

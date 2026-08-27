@@ -4,24 +4,24 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Aug 2026 19:39:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Aug 2026 14:54:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Aug 2026 17:03:03 GMT</pubDate>
+        <pubDate>Thu, 27 Aug 2026 02:03:58 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Thu, 27 Aug 2026 02:03:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.91.2]]></title>
             <description><![CDATA[# Fixed GitHub MCP + UI fixes A small patch with a couple fixes. ## Fixed GitHub MCP The GitHub MCP stopped working in Crush in the recent days, but it's now working again. We "sessionless": true (or --sessionless true) that some MCPs might need to work correctly. For GitHub MCP, we're enabling that automatically so it works without extra config for you. ## Code indentation fixes We fixed a couple bugs with wrong indentation in code in the UI. This could happen on tool calls previews or code inside markdown. Example screenshots: Before After ## New Hyper models Last news, we have 3 new models available in Hyper! * Qwen3.8-Flash * Qwen3.8-27B * Qwen3.8-2.4T-A95B These are really good models, I hope you enjoy! Don't know Hyper yet? Hyper is Charm's provider with a $20/m subscription. Check it out! That's all for today. Keep crushing! Charm 💌 ## Changelog ### Fixed * 82557e2af69ff67fe50e53055bbe83dddbe07f6b: fix(mcp): fix sessionless mcp servers (e.g. github mcp) (#3651) (@andreynering) * 460a877fcb60c32d3194a09f262be4cb4d5928bf: fix: preserve first line indentation in tool call previews (#3652) (@andreynering) * 75962c4887d87dcd203b5fba9bf46fd3b52c77c3: fix: weird indentation on code blocks (#3642) (@andrinoff) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.91.2</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.91.2</guid>
             <pubDate>Wed, 26 Aug 2026 17:03:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Wed, 26 Aug 2026 00:30:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.91.1]]></title>
