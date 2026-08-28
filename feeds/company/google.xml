@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 27 Aug 2026 14:56:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 00:44:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 27 Aug 2026 02:31:17 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,6 +710,13 @@
             <pubDate>Wed, 27 May 2026 19:08:23 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Decoding cosmic signals with deep learning and Keras]]></title>
+            <description><![CDATA[Astroparticle physics sits at the exciting intersection of astrophysics and particle physics and stu...]]></description>
+            <link>https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</guid>
+            <pubDate>Wed, 08 Jan 2020 19:20:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU]]></title>
             <description><![CDATA[Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token contexts for models like Qwen3-Embedding-8B, the engineering team implemented TPU-specific optimizations such as hardware-safe tensor alignment, JAX/XLA compilation pre-warming, and a hybrid StepPool architecture for chunked prefill management. These enhancements achieve near-perfect numerical parity with reference GPU baselines, and developers can immediately leverage the open-sourced setup recipes on the AI-Hypercomputer GitHub to build their own high-throughput semantic retrieval applications.]]></description>
             <link>https://developers.googleblog.com/enterprise-grade-precision-for-long-context-multimodal-embedding-inference-on-cloud-tpu/</link>
@@ -771,13 +778,6 @@
             <link>https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/</guid>
             <pubDate>Mon, 09 Nov 2020 03:28:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Model routing with Google Cloud API Gateway]]></title>
-            <description><![CDATA[Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications by mapping virtual model names to specific backend targets on a shared host. Once deployed, the Gateway acts as a serverless ingress layer that accepts standard OpenAI-compatible requests, automatically transcodes the payload to the native schema of the target model, and routes the traffic on the fly.]]></description>
-            <link>https://developers.googleblog.com/a-unified-api-for-ai-model-routing/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/a-unified-api-for-ai-model-routing/</guid>
-            <pubDate>Mon, 24 Aug 2020 11:03:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

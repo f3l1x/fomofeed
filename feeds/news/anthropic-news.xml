@@ -4,11 +4,24 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 27 Aug 2026 14:54:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 00:42:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 26 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Previewing the Model Hardware Standard]]></title>
+            <description><![CDATA[We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.]]></description>
+            <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
+            <pubDate>Wed, 26 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Expanding our support for scientists]]></title>
+            <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
+            <pubDate>Wed, 26 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Funding better evaluations of AI’s impact on wellbeing]]></title>
             <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
@@ -24,7 +37,6 @@
         </item>
         <item>
             <title><![CDATA[Improving Fable 5's biology safeguards]]></title>
-            <description><![CDATA[We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query.]]></description>
             <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</guid>
             <pubDate>Thu, 06 Aug 2026 22:00:00 GMT</pubDate>
@@ -59,18 +71,6 @@
             <link>https://www.anthropic.com/news/claude-opus-5</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-5</guid>
             <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A research agenda for the Economic Futures Research Fund]]></title>
-            <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/economic-futures-research-fund-agenda</guid>
-            <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ask Claude about the Anthropic Economic Index]]></title>
-            <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-economic-index-connector</guid>
-            <pubDate>Tue, 21 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Claude Sonnet 5]]></title>

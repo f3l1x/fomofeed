@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 27 Aug 2026 14:54:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 00:42:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Aug 2026 18:09:57 GMT</pubDate>
+        <pubDate>Thu, 27 Aug 2026 20:31:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.33.2]]></title>
+            <description><![CDATA[## What's Changed * app: restore system dark mode by @hoyyeva in https://github.com/ollama/ollama/pull/18049 * proxy: continue requests when the model catalog changes by @ParthSareen in https://github.com/ollama/ollama/pull/18058 * app: synchronize macOS app handoff by @ParthSareen in https://github.com/ollama/ollama/pull/18056 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.1...v0.33.2-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1</guid>
+            <pubDate>Thu, 27 Aug 2026 20:31:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.33.1]]></title>
             <description><![CDATA[## What's Changed * MLX: Qwen3.8 Flash Next support * cmake: make external compat patches idempotent * MLX and llama.cpp update * mlxrunner: add structured output support * mlxrunner: avoid Metal GPU timeouts when loading models from slow storage ## New Contributors * @pd95 made their first contribution in https://github.com/ollama/ollama/pull/17948 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.0...v0.33.1]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.1</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.1</guid>
             <pubDate>Sun, 21 Sep 2025 23:19:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.0]]></title>
-            <description><![CDATA[## Cloud models Cloud models are now available in preview, allowing you to run a group of larger models with fast, datacenter-grade hardware. To run a cloud model, use: * View all cloud models * Blog post ## What's Changed * Models with the Bert architecture now run on Ollama's engine * Models with the Qwen 3 architecture now run on Ollama's engine * Fix issue where older NVIDIA GPUs would not be detected if newer drivers were installed * Fixed issue where models would not be imported correctly with ollama create * Ollama will skip parsing the initial if provided in the prompt for /api/generate by @rick-github ## New Contributors * @egyptianbman made their first contribution in https://github.com/ollama/ollama/pull/12300 * @russcoss made their first contribution in https://github.com/ollama/ollama/pull/12280 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.11.11...v0.12.0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.0</guid>
-            <pubDate>Thu, 18 Sep 2025 17:29:57 GMT</pubDate>
         </item>
     </channel>
 </rss>

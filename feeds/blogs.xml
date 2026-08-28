@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 27 Aug 2026 14:56:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 00:44:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2513,6 +2513,13 @@
             <link>https://windsurf.com/blog/page/2</link>
             <guid isPermaLink="false">https://windsurf.com/blog/page/2</guid>
             <pubDate>Sat, 25 Jul 2020 18:24:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DeepSeek V4 Pro: 59.7 on the Tuesday Work Index]]></title>
+            <description><![CDATA[DeepSeek V4 Pro scores 59.7 on the Tuesday Work Index and delivers standout cost-performance on Riemann-bench and ComplexConstraints.]]></description>
+            <link>https://www.surgehq.ai/blog/deepseek-v4-pro-tuesday-work-index</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/deepseek-v4-pro-tuesday-work-index</guid>
+            <pubDate>Thu, 10 Dec 2020 07:29:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Qwen 3.8 Max Scores 58.7 on the Tuesday Work Index]]></title>
