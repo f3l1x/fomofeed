@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 28 Aug 2026 00:43:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 15:50:14 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 27 Aug 2026 22:15:23 GMT</pubDate>
+        <pubDate>Fri, 28 Aug 2026 15:32:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.151.0-alpha.9]]></title>
+            <description><![CDATA[Release 0.151.0-alpha.9]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.9</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.9</guid>
+            <pubDate>Fri, 28 Aug 2026 15:32:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.151.0-alpha.8]]></title>
+            <description><![CDATA[Release 0.151.0-alpha.8]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.8</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.8</guid>
+            <pubDate>Fri, 28 Aug 2026 04:42:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.151.0-alpha.7]]></title>
             <description><![CDATA[Release 0.151.0-alpha.7]]></description>
@@ -693,20 +707,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.27</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.27</guid>
             <pubDate>Tue, 21 Jul 2026 01:59:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.145.0-alpha.25]]></title>
-            <description><![CDATA[Release 0.145.0-alpha.25]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.25</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.25</guid>
-            <pubDate>Mon, 20 Jul 2026 18:51:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.144.6]]></title>
-            <description><![CDATA[## Bug Fixes - Refreshed bundled instructions for GPT-5.6 Sol, Terra, and Luna, and corrected their context windows to 272,000 tokens. (#33972, #34009) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.144.5...rust-v0.144.6 - #33972 Backport refreshed bundled model metadata to 0.144 @sayan-oai - #34009 Narrow 0.144 hotfix to GPT-5.6 prompts and context @sayan-oai]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.144.6</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.144.6</guid>
-            <pubDate>Sat, 18 Jul 2026 13:51:52 GMT</pubDate>
         </item>
     </channel>
 </rss>

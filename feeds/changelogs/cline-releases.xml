@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 28 Aug 2026 00:42:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 15:50:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Aug 2026 09:43:26 GMT</pubDate>
+        <pubDate>Fri, 28 Aug 2026 01:33:08 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Desktop v0.0.20]]></title>
+            <description><![CDATA[- Cline Desktop now ships on Windows: releases include a code-signed x64 installer, and installed apps auto-update on the same feed macOS does - Windows shell fixes: background processes (the sidecar, git) no longer pop visible console windows; updates now download in the background and install when you restart the app; the MCP settings path falls back to USERPROFILE when HOME is unset - Tool results that return images — screenshots from browser or MCP tools — now render as inline images you can click to expand, with a carousel for stepping through multiple images, instead of raw base64 text - Session search now covers your full indexed history. The sidebar search icon opens the command bar (Cmd/Ctrl+P) with server-ranked results, instead of a sidebar-local dialog that first loaded every session into memory - Onboarding has a new GitHub integration step - Fixed scheduled tasks disappearing after the app updated — hub-managed schedules were being wiped by cron reconciliation on restart - Agent-created schedules now live in one user-level home (~/.cline/schedules) instead of being scattered across whichever chat folder created them, and they now appear on the Schedules page - A finished scheduled session now surfaces its final answer: the completing step auto-expands, is labeled "Scheduled task completed" (or failed), and its summary renders as markdown - Suggested routine templates now ask for a specific final report, so a scheduled run ends with something readable - Providers no longer show as "Configured" on the strength of a leftover settings entry with no real credentials, and the badge now updates live after connecting or saving credentials instead of waiting for a remount - Fixed OpenAI Codex (ChatGPT subscription) sign-in silently dead-ending when callback port 1455 was already in use — it now fails immediately with an actionable error, and OAuth redirect errors surface instead of a confusing "Missing authorization code" - Codex and OCA sign-ins are no longer dropped when a token refresh hits a transient network failure or server error - Checkpoint restore now refuses to reset your workspace when commits were made after the checkpoint, instead of silently knocking them off the branch - Fixed an enabled-but-offline remote MCP server stalling session startup until the session was torn down - Global rules stored at ~/Cline/Rules are now discovered (previously only ~/Documents/Cline/Rules), fixing rules that never reached the model on WSL and headless installs - apply_patch now preserves a file's own CRLF line endings - The window title bar stays draggable across every view - Voice input's Live and After recording badges now have tooltips explaining them - Removed the box shadow from the chat message actions row - The hub no longer watches agenda spec directories while the todo tool is disabled, dropping an OS watch handle per known workspace **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.19...desktop-v0.0.20]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.20</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.20</guid>
+            <pubDate>Fri, 28 Aug 2026 01:33:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[CLI v3.0.60]]></title>
             <description><![CDATA[- Fixed the background hub process ballooning in memory during long sessions — session status updates were broadcasting a full copy of the conversation transcript to every connected client, which on a large task could grow the process to tens of gigabytes. Upgrading retires the running hub so the fix takes effect on the next command - New files are now created with your platform's native line endings - Fixed the codebase search tool crashing on files that contain a single enormous line - Cost estimates are no longer shown for Claude Code. Its usage is typically covered by a Claude Pro/Max subscription, but its models reuse Anthropic API pricing, so Cline was showing charges you were not being billed - Credentials embedded in git remote URLs are now redacted from the workspace information sent to the model - Installing an MCP server no longer misreads a -- separator in the install arguments as part of the server command - Refreshed the model catalog. Adds seven providers (Agnes AI, Aixy, IteraCompute, LLM Tech, NeoSmith, Pendra, and Standard Compute) and updates model lists and pricing across providers. The resolved default model changes for ClinePass (now GLM 5.3), Z.ai, Hugging Face, evroc, LLM Gateway, NanoGPT, and Weights & Biases, so if you use one of those without pinning a model you will get a different default **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.59...cli-v3.0.60]]></description>
@@ -694,13 +701,6 @@
             <link>https://github.com/cline/cline/releases/tag/cli-v3.0.33</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.33</guid>
             <pubDate>Mon, 29 Jun 2026 06:53:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CLI v3.0.32]]></title>
-            <description><![CDATA[- Improved the ClinePass onboarding experience - Added an intermediate step before going to ClinePass model selection - Made the ClinePass subscription screen selectable - Promoted ClinePass in the startup notice - Used "ClinePass" as one word consistently and refined the provider UI copy - More accurate context compaction and clearer error messages (from SDK v0.0.54) **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.31...cli-v3.0.32]]></description>
-            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.32</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.32</guid>
-            <pubDate>Mon, 29 Jun 2026 04:47:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v4.0.2]]></title>
