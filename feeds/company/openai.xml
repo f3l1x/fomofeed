@@ -4,11 +4,18 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 29 Aug 2026 10:40:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Aug 2026 17:30:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 29 Aug 2026 09:55:39 GMT</pubDate>
+        <pubDate>Sat, 29 Aug 2026 10:47:53 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.152.0-alpha.1]]></title>
+            <description><![CDATA[Release 0.152.0-alpha.1]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.1</guid>
+            <pubDate>Sat, 29 Aug 2026 10:47:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.151.0]]></title>
             <description><![CDATA[## New Features - Added a configurable grace period for discovering tools from optional MCP servers. (#41199) - Extensions can now inspect or replace MCP tool results before they reach the model. (#41202) - Plugin catalogs now combine per-repository configuration and report invalid project marketplaces without hiding valid plugins. (#41208) ## Bug Fixes - Preserved restored permission profiles across TUI turns and prevented /cd from weakening sandbox restrictions. (#41192) - Kept tool availability and reasoning effort correct when switching models or falling back to another model. (#41195, #41206) - Improved remote sandbox enforcement using the executor’s actual home directory, operating system, and path conventions. (#41196, #41204, #41207, #41209) - Preserved structured MCP tool and resource errors in app-server responses. (#41196) - Counted nested subagent token usage toward root goal budgets. (#41183) - Prevented stale Guardian classifications from authorizing actions after permission state changes. (#41196) ## Chores - Added telemetry for escalated stdin reviews and remote executor MCP discovery. (#41189, #41205) - Stabilized Guardian WebSocket and core fixture tests under slow or highly concurrent CI. (#41191, #41194) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.150.0...rust-v0.151.0 - #41183 Account subagent token usage toward root goals @copyberry - #41189 Instrument stdin review size checks @copyberry - #41191 Stabilize Guardian WebSocket tests @copyberry - #41192 Preserve restored permission profiles in TUI sessions @copyberry - #41193 Report affected capabilities from remote plugin syncs @copyberry - #41194 Harden core test fixture startup assertions @copyberry - #41195 Finalize model-specific tool plans in ToolRouter @copyberry - #41196 Improve sandboxing, MCP errors, and cached approvals @copyberry - #41199 Make the optional MCP startup grace configurable @copyberry - #41202 Let extensions process MCP tool results @copyberry - #41204 Propagate executor home directories into sandbox contexts @copyberry - #41205 Track executor MCP discovery telemetry @copyberry - #41206 Make Ultra reasoning fallback model-aware @copyberry - #41207 Propagate executor OS into turn environments @copyberry - #41208 Honor per-repository plugin configuration in catalog requests @copyberry - #41209 Align deny-read matching with executor path semantics @copyberry]]></description>
@@ -763,13 +770,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.2</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.2</guid>
             <pubDate>Wed, 22 Jul 2026 07:22:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.146.0-alpha.1]]></title>
-            <description><![CDATA[Release 0.146.0-alpha.1]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.1</guid>
-            <pubDate>Wed, 22 Jul 2026 05:01:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.18.3]]></title>
