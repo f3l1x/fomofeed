@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 28 Aug 2026 15:51:53 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Aug 2026 00:20:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 26 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 27 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Automated researchers can reliably mitigate alignment failures]]></title>
+            <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
+            <pubDate>Thu, 27 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Previewing the Model Hardware Standard]]></title>
             <description><![CDATA[We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.]]></description>
@@ -128,12 +134,6 @@
             <link>https://www.anthropic.com/research/claude-values-models-languages</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-values-models-languages</guid>
             <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude plays robotics]]></title>
-            <link>https://www.anthropic.com/research/claude-plays-robotics</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/claude-plays-robotics</guid>
-            <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A global workspace in language models]]></title>
