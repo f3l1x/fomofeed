@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 29 Aug 2026 20:16:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 30 Aug 2026 09:38:29 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 29 Aug 2026 01:56:42 GMT</pubDate>
+        <pubDate>Sun, 30 Aug 2026 01:27:35 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.59.0-nightly.20260830.g0bd1d4397]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260829.g0bd1d4397...v0.59.0-nightly.20260830.g0bd1d4397]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260830.g0bd1d4397</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260830.g0bd1d4397</guid>
+            <pubDate>Sun, 30 Aug 2026 01:27:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.59.0-nightly.20260829.g0bd1d4397]]></title>
             <description><![CDATA[## What's Changed * fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29099 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260828.g3c311beac...v0.59.0-nightly.20260829.g0bd1d4397]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-preview.1</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-preview.1</guid>
             <pubDate>Thu, 28 May 2026 17:40:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.45.0-nightly.20260528.g5cac7c10f]]></title>
-            <description><![CDATA[## What's Changed * fix(cli): ignore unmapped vim normal keys by @MukundaKatta in https://github.com/google-gemini/gemini-cli/pull/27102 ## New Contributors * @MukundaKatta made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27102 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.45.0-nightly.20260527.g41c9260ca...v0.45.0-nightly.20260528.g5cac7c10f]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260528.g5cac7c10f</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260528.g5cac7c10f</guid>
-            <pubDate>Thu, 28 May 2026 06:24:21 GMT</pubDate>
         </item>
     </channel>
 </rss>
