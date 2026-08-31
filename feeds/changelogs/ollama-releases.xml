@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 31 Aug 2026 10:20:33 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Aug 2026 19:47:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 27 Aug 2026 20:31:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
