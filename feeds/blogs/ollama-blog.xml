@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Blog]]></description>
         <link>https://ollama.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 31 Aug 2026 19:47:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 09:03:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/ollama-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 30 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Ollama's transparent pricing]]></title>
+            <description><![CDATA[Ollama's Pro, Max, and Team plans now use industry-standard per-token pricing with usage included on every plan.]]></description>
+            <link>https://ollama.com/blog/transparent-pricing</link>
+            <guid isPermaLink="false">https://ollama.com/blog/transparent-pricing</guid>
+            <pubDate>Sun, 30 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude Desktop support with Ollama]]></title>
             <description><![CDATA[Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.]]></description>

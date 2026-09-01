@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Hamel Husain's Blog]]></description>
         <link>https://hamel.dev</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 31 Aug 2026 19:47:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 09:04:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/hamel.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 12 Aug 2026 07:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -64,7 +64,7 @@
             <pubDate>Mon, 23 Jun 2025 07:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[LLM Evals: Everything You Need to Know]]></title>
+            <title><![CDATA[AI Evals: Everything You Need to Know]]></title>
             <link>https://hamel.dev/blog/posts/evals-faq/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-faq/index.html</guid>
             <pubDate>Wed, 28 May 2025 07:00:00 GMT</pubDate>

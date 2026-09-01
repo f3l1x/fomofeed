@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 31 Aug 2026 19:49:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 09:06:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 27 Aug 2026 20:31:47 GMT</pubDate>
+        <pubDate>Sun, 30 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Ollama's transparent pricing]]></title>
+            <description><![CDATA[Ollama's Pro, Max, and Team plans now use industry-standard per-token pricing with usage included on every plan.]]></description>
+            <link>https://ollama.com/blog/transparent-pricing</link>
+            <guid isPermaLink="false">https://ollama.com/blog/transparent-pricing</guid>
+            <pubDate>Sun, 30 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.33.2]]></title>
             <description><![CDATA[## What's Changed * Ollama's app now follows the system appearance again, restoring dark mode support * Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one * The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog updates **Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.1...v0.33.2]]></description>

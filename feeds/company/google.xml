@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 31 Aug 2026 19:49:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 09:06:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 31 Aug 2026 01:30:31 GMT</pubDate>
+        <pubDate>Tue, 01 Sep 2026 01:33:41 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.59.0-nightly.20260901.g0bd1d4397]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260831.g0bd1d4397...v0.59.0-nightly.20260901.g0bd1d4397]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260901.g0bd1d4397</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260901.g0bd1d4397</guid>
+            <pubDate>Tue, 01 Sep 2026 01:33:41 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.59.0-nightly.20260831.g0bd1d4397]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260830.g0bd1d4397...v0.59.0-nightly.20260831.g0bd1d4397]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260530.g013914071</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260530.g013914071</guid>
             <pubDate>Sat, 30 May 2026 02:45:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.45.0-nightly.20260529.gc82e2b597]]></title>
-            <description><![CDATA[## What's Changed * fix(core): harden PTY resize against native crashes by @scidomino in https://github.com/google-gemini/gemini-cli/pull/27496 * Changelog for v0.45.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27495 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.45.0-nightly.20260528.g5cac7c10f...v0.45.0-nightly.20260529.gc82e2b597]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260529.gc82e2b597</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260529.gc82e2b597</guid>
-            <pubDate>Fri, 29 May 2026 17:00:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Decoding cosmic signals with deep learning and Keras]]></title>
