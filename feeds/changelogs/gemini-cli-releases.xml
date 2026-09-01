@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 01 Sep 2026 17:31:47 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 20:22:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Sep 2026 01:33:41 GMT</pubDate>
+        <pubDate>Tue, 01 Sep 2026 20:19:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.59.0-preview.0]]></title>
+            <description><![CDATA[## What's Changed * Changelog for v0.58.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29082 * chore(release): bump version to 0.59.0-nightly.20260825.g812f7a2bc by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29083 * fix(core): prevent SSRF in MCP OAuth metadata discovery and authentication by @josebalius in https://github.com/google-gemini/gemini-cli/pull/29081 * fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29099 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.58.0-preview.0...v0.59.0-preview.0]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-preview.0</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-preview.0</guid>
+            <pubDate>Tue, 01 Sep 2026 20:19:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.59.0-nightly.20260901.g0bd1d4397]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260831.g0bd1d4397...v0.59.0-nightly.20260901.g0bd1d4397]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260602.g665228e98</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260602.g665228e98</guid>
             <pubDate>Tue, 02 Jun 2026 01:08:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.45.0-nightly.20260530.g013914071]]></title>
-            <description><![CDATA[## What's Changed * Changelog for v0.44.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27569 * fix(cli): prevent spam loop when preferredEditor is invalid by @Niralisj in https://github.com/google-gemini/gemini-cli/pull/25324 * Adding quote by @scidomino in https://github.com/google-gemini/gemini-cli/pull/27571 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.45.0-nightly.20260529.gc82e2b597...v0.45.0-nightly.20260530.g013914071]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260530.g013914071</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0-nightly.20260530.g013914071</guid>
-            <pubDate>Sat, 30 May 2026 02:45:08 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 01 Sep 2026 17:33:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 20:24:29 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 30 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 31 Aug 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Developing Enterprise Frontier Safeguards with our customers]]></title>
+            <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
+            <pubDate>Mon, 31 Aug 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Improving our alignment and security efforts]]></title>
             <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
@@ -111,12 +117,6 @@
             <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients]]></title>
-            <link>https://www.anthropic.com/news/cognizant-anthropic</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/cognizant-anthropic</guid>
-            <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Introducing Claude Opus 5]]></title>
             <description><![CDATA[Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.]]></description>
             <link>https://www.anthropic.com/news/claude-opus-5</link>
@@ -147,13 +147,6 @@
             <link>https://www.anthropic.com/research/global-workspace</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
             <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Sonnet 5]]></title>
-            <description><![CDATA[Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.]]></description>
-            <link>https://www.anthropic.com/news/claude-sonnet-5</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-sonnet-5</guid>
-            <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Teaching Claude why]]></title>
