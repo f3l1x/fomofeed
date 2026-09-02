@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 02 Sep 2026 08:19:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Sep 2026 17:34:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 02 Sep 2026 01:29:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,6 +710,13 @@
             <pubDate>Wed, 03 Jun 2026 00:44:56 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[4 engineering patterns behind the strongest AI Agents Challenge submissions]]></title>
+            <description><![CDATA[The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, strict unified validation for model fallbacks, and tiered routing to minimize expensive inference calls. By prioritizing these structural practices over simple linear prompt chains, developers can build more resilient, low-latency, and cost-effective agentic workflows.]]></description>
+            <link>https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</guid>
+            <pubDate>Sat, 19 Sep 2020 21:07:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Decoding cosmic signals with deep learning and Keras]]></title>
             <description><![CDATA[Astroparticle physics sits at the exciting intersection of astrophysics and particle physics and stu...]]></description>
             <link>https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</link>
@@ -771,13 +778,6 @@
             <link>https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/</guid>
             <pubDate>Tue, 28 Apr 2020 19:18:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Scaling AI Agent Infrastructure with the MCP Stateless updates]]></title>
-            <description><![CDATA[The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load balancing. This architectural shift introduces standardized HTTP headers for efficient routing without deep packet inspection, caching controls, and Multi Round-Trip Requests (MRTR) to handle interactive and long-running tasks without blocking connections. Developers can immediately begin migrating their agentic applications to this highly scalable infrastructure using the newly available beta SDKs for Python, TypeScript, Go, and C#.]]></description>
-            <link>https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/scaling-ai-agent-infrastructure-with-the-mcp-stateless-updates/</guid>
-            <pubDate>Mon, 09 Nov 2020 03:28:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
