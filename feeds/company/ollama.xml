@@ -4,16 +4,16 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 03 Sep 2026 08:28:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:27:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 02 Sep 2026 00:11:33 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.33.3]]></title>
-            <description><![CDATA[## What's Changed * Report cached prompt tokens * Honor GGUF model defined default parameters * MLX, MLX-C, llama.cpp update ## New Contributors * @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.2...v0.33.3-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2</guid>
+            <description><![CDATA[## What's Changed * gemma4 now supports images and audio on MLX engine * Report cached prompt tokens * Honor GGUF model defined default parameters * MLX, MLX-C, llama.cpp update ## New Contributors * @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.2...v0.33.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.33.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.33.3</guid>
             <pubDate>Wed, 02 Sep 2026 00:11:33 GMT</pubDate>
         </item>
         <item>

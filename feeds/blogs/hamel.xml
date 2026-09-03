@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Hamel Husain's Blog]]></description>
         <link>https://hamel.dev</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 03 Sep 2026 08:26:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 17:25:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/hamel.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 12 Aug 2026 07:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
