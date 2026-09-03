@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 03 Sep 2026 17:27:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 20:24:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 02 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[GPT-6 Astra is coming to Devin]]></title>
+            <description><![CDATA[OpenAI released GPT-6 Astra today. It will be available soon in Devin Desktop and Devin CLI, and is being added to Devin Cloud. On FrontierCode 1.1 it surpasses Fable 5.1 and is second only to Fable 5, at 64% lower cost.]]></description>
+            <link>https://windsurf.com/blog/gpt-6-astra</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gpt-6-astra</guid>
+            <pubDate>Wed, 02 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Run cloud agents on machines you manage]]></title>
             <link>https://cursor.com/blog/self-hosted-machines</link>
@@ -278,13 +285,6 @@
             <link>https://windsurf.com/blog/gpt-5-6</link>
             <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-6</guid>
             <pubDate>Wed, 08 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Update on Claude Fable 5 in Devin]]></title>
-            <description><![CDATA[Claude Fable 5 is now available in Devin Cloud’s Ultra agent, Devin Desktop, and Devin CLI.]]></description>
-            <link>https://windsurf.com/blog/claude-fable-5-available-in-devin</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/claude-fable-5-available-in-devin</guid>
-            <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Community Showcase Part 2]]></title>

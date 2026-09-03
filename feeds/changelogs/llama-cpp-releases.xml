@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 03 Sep 2026 17:26:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 20:22:59 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 03 Sep 2026 12:44:27 GMT</pubDate>
+        <pubDate>Thu, 03 Sep 2026 20:22:55 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10791]]></title>
+            <description><![CDATA[opencl: quant lm_head / decode GEMV and medium-batch GEMM optimizations (speculative decoding/MTP) (#26477) * opencl: quant lm_head / decode GEMV and medium-batch GEMM optimizations * opencl: guard q4_K/q6_K tiled_ns convert-kernel registration for non-Adreno build * opencl: gate q4_K MUL_MAT+GLU fusion dispatch to Adreno * opencl: require the noshuffle weight layout in the q4_K GLU fusion gate * opencl: do not take the vectorized f16 mrow GEMV path on an unaligned row stride * opencl: pass the new get_scale_min_k4 stride argument at the row-major call sites * opencl: enable the q4_K split-K decode GEMV only where it is measured to win * opencl: record the X1-85 split-K datapoint (neutral, exclusion confirmed) * opencl: restrict the tiled lm_head/embed GEMV default to X2E/A8X * opencl: fix q4_K variant kernels to read the transposed scales layout * opencl: keep the flat-GEMV large-m escape opt-in * opencl: guard the o4 GEMV store against the rounded-up dispatch tail * opencl: restore the tiled q4_K/q6_K layout on tensor read-back * opencl: split-K for the q8_0 decode GEMV at small M * opencl: keep the q6_K noshuffle correctness escape ahead of the opt-in gate **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10791</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10791</guid>
+            <pubDate>Thu, 03 Sep 2026 20:22:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10790]]></title>
+            <description><![CDATA[tune MMVQ to MMQ crossover for SM87 (#28285) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10790</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10790</guid>
+            <pubDate>Thu, 03 Sep 2026 19:52:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10786]]></title>
             <description><![CDATA[mtmd: propagate const to preproc class (#28310) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10672</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10672</guid>
             <pubDate>Fri, 28 Aug 2026 13:51:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10670]]></title>
-            <description><![CDATA[sycl: use TILE for quantized KV decode on BMG (#26689) Route quantized KV decode to TILE on Xe2 (BMG) only, keep VEC on other archs until validated there. **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10670</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10670</guid>
-            <pubDate>Fri, 28 Aug 2026 13:12:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10669]]></title>
-            <description><![CDATA[sycl: bind the f16 KV cache in place for the oneDNN SDPA path (#27468) Measured at a live KV length of 34816 (32768 depth plus one 2048 ubatch), on Qwen3.8 27B Q4_K_S: per tensor 4 * 34816 * 256 * 2 B = 71.3 MB staged per call K and V, so 2x = 142.6 MB traffic per call read once, write once = 285.2 MB traffic per ubatch 285.2 MB * 16 calls = 4.56 GB One ubatch is one ggml_cgraph submission (llama_context::process_ubatch -> graph_compute), so that 4.56 GB is the cost of a single 2048-token prefill chunk, and it scales with the live KV length: the first ubatch of the same run, at seq = 2048, moves 0.27 GB. Reproduce the two measured inputs with: GGML_SCHED_DEBUG=2 llama-bench -m MODEL -p 8 -n 0 -r 1 -ngl 0 \ -fa on -ctk f16 -ctv f16 -v > nd.txt 2>&1 grep -E 'n_layer|n_head_kv|n_embd_head_k' nd.txt awk '/node # 0 /{g++} g==1 && /\(FLASH_ATTN\)/{n++} END{print n+0}' nd.txt **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10669</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10669</guid>
-            <pubDate>Fri, 28 Aug 2026 12:44:20 GMT</pubDate>
         </item>
     </channel>
 </rss>
