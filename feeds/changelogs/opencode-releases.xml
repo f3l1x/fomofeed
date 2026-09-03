@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 02 Sep 2026 20:23:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 08:27:01 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Sep 2026 21:52:15 GMT</pubDate>
+        <pubDate>Wed, 02 Sep 2026 21:41:01 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.27]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Default provider header timeouts to five minutes so slow model startups fail less often. - Default streamed chunk timeouts to five minutes, with false supported to disable them. - Let Anthropic thinking.blockBinding opt out via config when you need to keep the provider default. (@dkindlund) - Limit Anthropic thinking block binding to Claude 5.1+ models so older deployments do not reject requests. - Avoid unhandled errors when canceling timed-out SSE reads. (@AlexanderWillner) **Thank you to 2 community contributors:** - @AlexanderWillner: - fix(provider): handle SSE reader cancel rejections (#44944) - @dkindlund: - fix(opencode): let config opt out of Anthropic thinking blockBinding (#46820)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.27</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.27</guid>
+            <pubDate>Wed, 02 Sep 2026 21:41:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.26]]></title>
             <description><![CDATA[## Core ### Bugfixes - Claude 5 sessions now tolerate stale thinking blocks instead of failing after prompt or tool changes. - Bedrock GPT-5.6 models now accept none reasoning effort. - Bedrock reasoning and replay handling is more reliable. (@pengzh1) - Tool call timing now stays accurate when tools update their metadata while still running. (@bartlettroscoe) - apply_patch no longer emits an empty move path in permission metadata. (@altendky) ### Improvements - Azure CLI sign-in now asks for the resource name directly instead of querying Azure management APIs. ## Desktop ### Bugfixes - Session renames now save reliably from the title editor and tab context menu. **Thank you to 3 community contributors:** - @altendky: - fix(opencode): omit empty apply patch move path (#45329) - @pengzh1: - fix(core): bump @ai-sdk/amazon-bedrock to 4.0.166 for reasoning and replay fixes (#45520) - @bartlettroscoe: - fix(core): Fix for incorrect time.start reset in tool call logging (#32574) (#32596)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.19</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.19</guid>
             <pubDate>Mon, 20 Apr 2026 07:21:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.14.18]]></title>
-            <description><![CDATA[## Core - Restore the native ripgrep backend so file search and file listing work reliably again. **Thank you to 1 community contributor:** - @ariane-emory: - docs: document --dangerously-skip-permissions CLI flag (#23371)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.18</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.18</guid>
-            <pubDate>Sun, 19 Apr 2026 09:36:58 GMT</pubDate>
         </item>
     </channel>
 </rss>
