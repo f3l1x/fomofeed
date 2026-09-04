@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 04 Sep 2026 17:19:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 04 Sep 2026 20:15:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 04 Sep 2026 00:57:42 GMT</pubDate>
+        <pubDate>Fri, 04 Sep 2026 19:01:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.153.3]]></title>
+            <description><![CDATA[## New Features - Added GPT-6-Astra to the Amazon Bedrock model picker for Mantle and Runtime global/US routes. (#42805) ## Bug Fixes - Corrected GPT-6-Astra’s guidance for asynchronous clarification questions to use the supported tool and recognize that it accepts text only. (#42809) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.153.2...rust-v0.153.3 - #42805 [0.153 hotfix] Add GPT-6-Astra to Amazon Bedrock catalogs @celia-oai - #42809 [0.153 hotfix] Update Astra async-question guidance @rhan-oai]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.153.3</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.153.3</guid>
+            <pubDate>Fri, 04 Sep 2026 19:01:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.154.0-alpha.3]]></title>
             <description><![CDATA[Release 0.154.0-alpha.3]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.3</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.3</guid>
             <pubDate>Fri, 31 Jul 2026 15:36:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.147.0-alpha.1.1]]></title>
-            <description><![CDATA[Release 0.147.0-alpha.1.1]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1.1</guid>
-            <pubDate>Fri, 31 Jul 2026 09:48:25 GMT</pubDate>
         </item>
     </channel>
 </rss>

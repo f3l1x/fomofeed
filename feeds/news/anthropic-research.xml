@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 04 Sep 2026 17:19:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 04 Sep 2026 20:15:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 27 Aug 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 03 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Formalizing Fermat's Last Theorem]]></title>
+            <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
+            <pubDate>Thu, 03 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Automated researchers can reliably mitigate alignment failures]]></title>
             <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
@@ -65,12 +71,6 @@
             <link>https://www.anthropic.com/research/how-canada-uses-claude</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/how-canada-uses-claude</guid>
             <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude’s values across models and languages]]></title>
-            <link>https://www.anthropic.com/research/claude-values-models-languages</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/claude-values-models-languages</guid>
-            <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A global workspace in language models]]></title>
