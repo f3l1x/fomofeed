@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 04 Sep 2026 08:24:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 04 Sep 2026 17:21:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 02 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 03 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How Basis builds long-horizon accounting agents with Cursor]]></title>
+            <link>https://cursor.com/blog/basis</link>
+            <guid isPermaLink="false">https://cursor.com/blog/basis</guid>
+            <pubDate>Thu, 03 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[GPT-6 Astra is coming to Devin]]></title>
             <description><![CDATA[OpenAI released GPT-6 Astra today. It will be available soon in Devin Desktop and Devin CLI, and is being added to Devin Cloud. On FrontierCode 1.1 it surpasses Fable 5.1 and is second only to Fable 5, at 64% lower cost.]]></description>
@@ -314,12 +320,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</guid>
             <category><![CDATA[Engineering]]></category>
             <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coinbase reduces time from idea to production by 90% with Cursor]]></title>
-            <link>https://cursor.com/blog/coinbase</link>
-            <guid isPermaLink="false">https://cursor.com/blog/coinbase</guid>
-            <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ollama's highest performance on Apple Silicon yet with MLX]]></title>
