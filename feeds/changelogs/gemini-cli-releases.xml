@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 04 Sep 2026 20:15:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 05 Sep 2026 07:58:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 04 Sep 2026 01:40:22 GMT</pubDate>
+        <pubDate>Sat, 05 Sep 2026 01:26:55 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.60.0-nightly.20260905.g85aca163f]]></title>
+            <description><![CDATA[## What's Changed * fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28863 * fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29170 * fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29115 ## New Contributors * @jesussamuel-byte made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29170 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260904.g87a9c71d5...v0.60.0-nightly.20260905.g85aca163f]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260905.g85aca163f</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260905.g85aca163f</guid>
+            <pubDate>Sat, 05 Sep 2026 01:26:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.60.0-nightly.20260904.g87a9c71d5]]></title>
             <description><![CDATA[## What's Changed * fix(core): enforce RFC 9207 issuer identification in MCP OAuth flow by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29117 * chore(release): bump version to 0.60.0-nightly.20260901.g0bd1d4397 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29162 * Changelog for v0.58.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29161 * fix(cli): isolate temporary directory for macOS Seatbelt sandbox by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29171 * feat(extensions): harden path resolution and boundary validation in extension loader by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29169 * Changelog for v0.59.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29159 * fix(core): sanitize and remove hardcoded Google CrUX API key in chrome-devtools-mcp by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29158 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260902.g4963a4456...v0.60.0-nightly.20260904.g87a9c71d5]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-nightly.20260604.g4196596f7</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-nightly.20260604.g4196596f7</guid>
             <pubDate>Thu, 04 Jun 2026 04:08:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.46.0-preview.1]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick e4315b3 to release/v0.46.0-preview.0-pr-27645 to patch version v0.46.0-preview.0 and create version 0.46.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27655 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.46.0-preview.0...v0.46.0-preview.1]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.1</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.1</guid>
-            <pubDate>Wed, 03 Jun 2026 18:03:12 GMT</pubDate>
         </item>
     </channel>
 </rss>

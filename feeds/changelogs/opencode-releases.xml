@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 04 Sep 2026 20:15:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 05 Sep 2026 07:58:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 04 Sep 2026 15:38:23 GMT</pubDate>
+        <pubDate>Fri, 04 Sep 2026 23:47:16 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.29]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Allow Codex OAuth model filtering to recognize integer GPT versions like gpt-6 - Fixes issue of gpt-6-astra not showing up for openai subscription users **Thank you to 2 community contributors:** - @Peter267: - docs(zh): fix bold rendering by adding spaces around asterisks (#46231) - @heimoshuiyu: - feat(console): add quota reset support action (#47313)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.29</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.29</guid>
+            <pubDate>Fri, 04 Sep 2026 23:47:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.28]]></title>
             <description><![CDATA[## Core ### Improvements - Send the session ID as GitHub Copilot's interaction header to improve request tracking across a session. ## Desktop ### Bugfixes - Use the desktop client ID during OpenCode account device authentication. - Increase the open-in app icon size for better visibility. **Thank you to 1 community contributor:** - @MVS-source: - docs: add Eden AI to the providers list (#43386)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.21</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.21</guid>
             <pubDate>Thu, 23 Apr 2026 05:45:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.14.20]]></title>
-            <description><![CDATA[## Core - Fixed a system theme regression in the TUI. - Added GET /config to the experimental HTTP API. - Fixed local dynamic imports on Windows when running under Node, improving plugin and tool loading. ## TUI - Fixed permission replies using remote workspaces so they are sent to the correct workspace. ## Desktop - Stopped prompt controls from replaying their fade-in animation on every render. - Added a setting to hide the session progress bar while the agent is working. - Fixed the Select Server dialog layout so the server list and actions size correctly. (@OpeOginni) - Fixed synced project updates so desktop project state changes apply reliably. - Fixed sidebar project avatars to fall back to icon.url when no override is set. (@ysm-dev) ## SDK - Fixed the WorkspaceAdaptor.create type to include the env parameter. (@jamesmurdza) **Thank you to 4 community contributors:** - @heimoshuiyu: - fix(ui): use parentID matching instead of positional scan for assistant messages (#23093) - @ysm-dev: - fix(app): fall back to icon.url in sidebar avatar (#18747) - @jamesmurdza: - fix(plugin): add env parameter to WorkspaceAdaptor.create type (#23235) - @OpeOginni: - fix(desktop): adjust layout properties in DialogSelectServer component (#23589)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.20</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.20</guid>
-            <pubDate>Tue, 21 Apr 2026 19:07:38 GMT</pubDate>
         </item>
     </channel>
 </rss>
