@@ -4,13 +4,14 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 07 Sep 2026 08:48:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 18:31:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 03 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Formalizing Fermat's Last Theorem]]></title>
+            <description><![CDATA[We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language. Below, we describe how the formalization was done and share some thoughts about what this work could mean for research mathematics.]]></description>
             <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
             <pubDate>Thu, 03 Sep 2026 22:00:00 GMT</pubDate>
@@ -78,13 +79,6 @@
             <link>https://www.anthropic.com/research/global-workspace</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
             <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Teaching Claude why]]></title>
-            <description><![CDATA[New research on how we've reduced agentic misalignment.]]></description>
-            <link>https://www.anthropic.com/research/teaching-claude-why</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/teaching-claude-why</guid>
-            <pubDate>Thu, 07 May 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
