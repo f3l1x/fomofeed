@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 08 Sep 2026 17:43:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Sep 2026 20:35:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 08 Sep 2026 17:31:06 GMT</pubDate>
+        <pubDate>Tue, 08 Sep 2026 19:32:41 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.50.0]]></title>
+            <description><![CDATA[## ✨ Features - Support GPT-6 Astra models #11869 - Tool calling for goose-agent #11627 - Kotlin callers can now configure Databricks AI Gateway path #11631 ## 🐛 Bug Fixes - Require HTTPS for Snowflake connections #11745 - Bind CLI session naming to trusted path #11787 - Honor content capture opt-out in tracing #11782 - Enforce subagent platform guards #11604 - Show authoritative tool approval details #11743 - Preserve permission revocations across managers #11383 - Resolve UI freeze after renaming session #11759 - Count durable background turns in summon #11841 - Anchor chat-payload breakpoints on the agentic tail #11429 - Preserve cwd and child status in node launchers #11753 ## 🔧 Improvements - Prefer latest MCP version #11827 - Remove keyring timeout #11798 - Publish goose ACP client and acp binary as separate npm packages #11846 - Remove managed model registry from local inference #11789 - Remove fast model routing #11469 - AIML API integration #11758 ## 📚 Documentation - Move ACP reference under GDK section #11805 - Generate ACP reference documentation from release schemas #11770 - ClawMetry session observability tutorial #11554]]></description>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.50.0</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.50.0</guid>
+            <pubDate>Tue, 08 Sep 2026 19:32:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.154.0-alpha.7]]></title>
+            <description><![CDATA[Release 0.154.0-alpha.7]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.7</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.7</guid>
+            <pubDate>Tue, 08 Sep 2026 17:44:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10867]]></title>
             <description><![CDATA[llama: disable lazy tensor loading by default on iGPUs (#28326) * llama: add lazy mode auto, fix iGPU regression * revert changes except disabling lazy load on iGPUs in AUTO **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -3298,13 +3312,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.9.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.9.0</guid>
             <pubDate>Mon, 03 Aug 2026 18:49:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.147.0-alpha.1.2]]></title>
-            <description><![CDATA[Release 0.147.0-alpha.1.2]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1.2</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1.2</guid>
-            <pubDate>Mon, 03 Aug 2026 17:22:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.55.0-nightly.20260803.gf47d6c6f7]]></title>
@@ -11653,13 +11660,6 @@
             <link>https://github.com/janhq/jan/releases/tag/v0.6.4</link>
             <guid isPermaLink="false">https://github.com/janhq/jan/releases/tag/v0.6.4</guid>
             <pubDate>Tue, 01 Jul 2025 12:27:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.0.31 - 2025-06-30]]></title>
-            <description><![CDATA[- chore(release): release version 1.0.31 (#3185) - feat: additional sub recipes via command line (#3163) - Add Internal Recipes To Recipes Cookbook (#3179) - pipe the argument to storage (#3184) - docs: removing comment (#3183) - docs: add generator option to create recipe (#3182) - update the path for temporal (#3131) - docs: add link to Square MCP (#3181) - attempt to fix build #3 (#3180) - attempt fix folde permissions for windows build (#3178) - attempt to fix windows cli permission issue (#3177) - allow to use dev/null for no-session mode (#3176) - feat: change naming of recipe creation in more menu links (#3175) - Docs: Add Recipe video to landing page (#3173) - Docs: Create new directory when starting new session (#3174) - fixes cron parsing issues (#3172) - fix: handle Windows package subdirectory in CLI installation script (#3171) - fixed the npx/uvx content (#3170) - Mark helper scripts as executable (#3169) - docs: adding Netlify mcp tutorial (#3165) - feat: implement async token counter with network resilience and performance optimizations (#3111) - return missign npx/uvx (#3148) - docs: add more instructions about resuming a session for cli users (#3146) - add claude 4 models (#3143) - docs: cross reference recipe docs (#3141) - docs: add recipes tutorial (#3132) - Docs: recipe landing page (#3122) - Run cargo fmt (#3135) - Update Recipe Cookbook Submission Flow (#3064)]]></description>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.31</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.31</guid>
-            <pubDate>Tue, 01 Jul 2025 01:37:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Aider v0.85.0]]></title>
