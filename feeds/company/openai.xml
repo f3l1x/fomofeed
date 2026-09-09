@@ -4,11 +4,32 @@
         <description><![CDATA[All Openai feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 09 Sep 2026 08:33:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 17:29:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/openai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 09 Sep 2026 07:55:45 GMT</pubDate>
+        <pubDate>Wed, 09 Sep 2026 12:36:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.22.2]]></title>
+            <description><![CDATA[## What's Changed * feat: support current image generation tool options by @seratch in https://github.com/openai/openai-agents-python/pull/4932 * fix(sandbox): prevent UnixLocal file API symlink races by @seratch in https://github.com/openai/openai-agents-python/pull/4931 * fix(sessions): reset compaction response chain after pop by @rksharma-owg in https://github.com/openai/openai-agents-python/pull/4934 ### Documentation & Other Changes * docs: document v0.22.1 behavior updates by @seratch in https://github.com/openai/openai-agents-python/pull/4577 * release: 0.22.2 by @seratch in https://github.com/openai/openai-agents-python/pull/4935 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.22.1...v0.22.2]]></description>
+            <link>https://github.com/openai/openai-agents-python/releases/tag/v0.22.2</link>
+            <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.22.2</guid>
+            <pubDate>Wed, 09 Sep 2026 12:36:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.154.0-alpha.6.1]]></title>
+            <description><![CDATA[Release 0.154.0-alpha.6.1]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.1</guid>
+            <pubDate>Wed, 09 Sep 2026 11:51:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.154.0-alpha.11]]></title>
+            <description><![CDATA[Release 0.154.0-alpha.11]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.11</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.11</guid>
+            <pubDate>Wed, 09 Sep 2026 09:14:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.154.0-alpha.10.2]]></title>
             <description><![CDATA[Release 0.154.0-alpha.10.2]]></description>
@@ -731,20 +752,6 @@
             <pubDate>Wed, 05 Aug 2026 02:58:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.147.0-alpha.6.4]]></title>
-            <description><![CDATA[Release 0.147.0-alpha.6.4]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6.4</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6.4</guid>
-            <pubDate>Tue, 04 Aug 2026 21:02:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.147.0-alpha.6.3]]></title>
-            <description><![CDATA[Release 0.147.0-alpha.6.3]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6.3</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6.3</guid>
-            <pubDate>Tue, 04 Aug 2026 19:36:48 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[0.147.0-alpha.7]]></title>
             <description><![CDATA[Release 0.147.0-alpha.7]]></description>
             <link>https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.7</link>
@@ -1401,13 +1408,6 @@
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.2.1</link>
             <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.2.1</guid>
             <pubDate>Wed, 16 Jul 2025 19:58:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.2.0]]></title>
-            <description><![CDATA[Please note that this version includes a small breaking change (breaks Agent into AgentBase + Agent), hence the minor version bump. See https://openai.github.io/openai-agents-python/release/ for the breaking change changelog. Key changes include: 1. Support for Sessions, a way to manage conversation sessions. 2. Beta support for Realtime agents (likely buggy, and we are evolving/fixing it as we speak) ## What's Changed * docs: mention 'name' is required in Agent constructor . fix: mention 'name' as required in Agent init doc by @maneeshanif in https://github.com/openai/openai-agents-python/pull/1033 * Fix agent lifecycle example output to reflect correct hook execution order by @DanielHashmi in https://github.com/openai/openai-agents-python/pull/1015 * Support mcp prompts by @thoo in https://github.com/openai/openai-agents-python/pull/1010 * Add on_start support to VoiceWorkflowBase and VoicePipeline by @vrtnis in https://github.com/openai/openai-agents-python/pull/922 * Add Makefile check rule to run all the linters and checkers by @ant31 in https://github.com/openai/openai-agents-python/pull/1038 * Support for file_input content (#fix 893) by @ant31 in https://github.com/openai/openai-agents-python/pull/1009 * description_override is not properly used for function_schema.description by @HafizFasih in https://github.com/openai/openai-agents-python/pull/1000 * avoid concat tool call delta id by @DeoLeung in https://github.com/openai/openai-agents-python/pull/990 * Fix #976 MCP filtering, make agent and run ctx optional by @njbrake in https://github.com/openai/openai-agents-python/pull/977 * Add Sessions for Automatic Conversation History Management by @knowsuchagency in https://github.com/openai/openai-agents-python/pull/752 * Updated llm_as_a_judge.py by @zaidrj in https://github.com/openai/openai-agents-python/pull/1055 * [1/n] Break Agent into AgentBase+Agent by @rm-openai in https://github.com/openai/openai-agents-python/pull/1068 * [2/n] Introduce RealtimeAgent by @rm-openai in https://github.com/openai/openai-agents-python/pull/1069 * [3/n] Config and items for realtime by @rm-openai in https://github.com/openai/openai-agents-python/pull/1070 * [4/n] Transport interface + events by @rm-openai in https://github.com/openai/openai-agents-python/pull/1071 * [5/n] OpenAI realtime transport impl by @rm-openai in https://github.com/openai/openai-agents-python/pull/1072 * [6/n] RealtimeSession + events by @rm-openai in https://github.com/openai/openai-agents-python/pull/1073 * [7/n] Demo for realtime by @rm-openai in https://github.com/openai/openai-agents-python/pull/1074 * Fix typo in Evaluator Instructions (capitalization of "After 5 attemp… by @mshsheikh in https://github.com/openai/openai-agents-python/pull/1067 * [8/n] Make realtime more like the rest of agents sdk by @rm-openai in https://github.com/openai/openai-agents-python/pull/1076 * Tests for realtime runner by @rm-openai in https://github.com/openai/openai-agents-python/pull/1079 * Tests for realtime session by @rm-openai in https://github.com/openai/openai-agents-python/pull/1080 * Add tests for openai realtime model by @rm-openai in https://github.com/openai/openai-agents-python/pull/1081 * Fix #968 by upgrading openai package to the latest by @seratch in https://github.com/openai/openai-agents-python/pull/1034 * Realtime guardrail support by @rm-openai in https://github.com/openai/openai-agents-python/pull/1082 * Realtime tracing by @rm-openai in https://github.com/openai/openai-agents-python/pull/1084 * enhancement: Add tool_name to ToolContext to support shared tool handlers by @vrtnis in https://github.com/openai/openai-agents-python/pull/1043 * Fix incorrect comment order when popping session items by @MuhammadHassaanArain in https://github.com/openai/openai-agents-python/pull/1086 * Back out "enhancement: Add tool_name to ToolContext to support shared tool handlers (#1043)" by @rm-openai in https://github.com/openai/openai-agents-python/pull/1105 * Realtime: run guardrails without blockign event loop by @rm-openai in https://github.com/openai/openai-agents-python/pull/1104 * Run make format by @rm-openai in https://github.com/openai/openai-agents-python/pull/1106 * Realtime: forward exceptions from transport layer by @rm-openai in https://github.com/openai/openai-agents-python/pull/1107 * Realtime: update model to have a single send_event method by @rm-openai in https://github.com/openai/openai-agents-python/pull/1111 * Realtime: send session.update event at connection/handoffs by @rm-openai in https://github.com/openai/openai-agents-python/pull/1112 * add numpy dev dependency by @jhills20 in https://github.com/openai/openai-agents-python/pull/1117 * feat(function_schema): Add support for pydantic Field annotations in tool arguments (for tools decorated with @function_schema) by @georg-wolflein in https://github.com/openai/openai-agents-python/pull/1124 * Fix typos and update async for loop variable by @sarmadalikhanofficial in https://github.com/openai/openai-agents-python/pull/1122 * Realtime: export everything by @rm-openai in https://github.com/openai/openai-agents-python/pull/1118 * Update examples docs with realtime section by @jhills20 in https://github.com/openai/openai-agents-python/pull/1113 * Retry: Add tool_name to ToolContext for generic tool handlers by @vrtnis in https://github.com/openai/openai-agents-python/pull/1110 * update-input-guardrail-name by @Quratulain-bilal in https://github.com/openai/openai-agents-python/pull/1053 * Realtime: fix item parsing by @rm-openai in https://github.com/openai/openai-agents-python/pull/1119 ## New Contributors * @maneeshanif made their first contribution in https://github.com/openai/openai-agents-python/pull/1033 * @thoo made their first contribution in https://github.com/openai/openai-agents-python/pull/1010 * @vrtnis made their first contribution in https://github.com/openai/openai-agents-python/pull/922 * @ant31 made their first contribution in https://github.com/openai/openai-agents-python/pull/1038 * @HafizFasih made their first contribution in https://github.com/openai/openai-agents-python/pull/1000 * @DeoLeung made their first contribution in https://github.com/openai/openai-agents-python/pull/990 * @knowsuchagency made their first contribution in https://github.com/openai/openai-agents-python/pull/752 * @zaidrj made their first contribution in https://github.com/openai/openai-agents-python/pull/1055 * @mshsheikh made their first contribution in https://github.com/openai/openai-agents-python/pull/1067 * @MuhammadHassaanArain made their first contribution in https://github.com/openai/openai-agents-python/pull/1086 * @georg-wolflein made their first contribution in https://github.com/openai/openai-agents-python/pull/1124 * @sarmadalikhanofficial made their first contribution in https://github.com/openai/openai-agents-python/pull/1122 * @Quratulain-bilal made their first contribution in https://github.com/openai/openai-agents-python/pull/1053 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.1.0...v0.2.0]]></description>
-            <link>https://github.com/openai/openai-agents-python/releases/tag/v0.2.0</link>
-            <guid isPermaLink="false">https://github.com/openai/openai-agents-python/releases/tag/v0.2.0</guid>
-            <pubDate>Tue, 15 Jul 2025 15:49:07 GMT</pubDate>
         </item>
     </channel>
 </rss>

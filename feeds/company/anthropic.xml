@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 09 Sep 2026 08:33:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 17:29:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 08 Sep 2026 23:55:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -512,13 +512,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.202</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.202</guid>
             <pubDate>Mon, 06 Jul 2026 22:51:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A global workspace in language models]]></title>
-            <description><![CDATA[New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.]]></description>
-            <link>https://www.anthropic.com/research/global-workspace</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
-            <pubDate>Sun, 05 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.201]]></title>

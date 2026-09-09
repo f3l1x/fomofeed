@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 09 Sep 2026 08:31:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 17:27:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 29 Dec 2020 14:43:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond]]></title>
+            <description><![CDATA[Google has officially released version 1.0 of the Agent Development Kit (ADK) for Kotlin, achieving full feature parity with the Python and Java ADK cores to enable idiomatic, multi-agent AI development. Built on Kotlin Multiplatform (KMP), the framework leverages Kotlin Symbol Processing (KSP) for zero-reflection, type-safe function calling, alongside advanced orchestration capabilities like human-in-the-loop workflows and context compaction. Additionally, the release introduces a robust suite of Android-first extensions, allowing mobile developers to integrate local models via LiteRT-LM, cloud reasoning through Firebase AI, session persistence using Room, and semantic memory powered by AppSearch.]]></description>
+            <link>https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/</guid>
+            <pubDate>Sun, 31 May 2020 21:18:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Anatomy of Harness Engineering: How to Evaluate, Iterate, and Guard AI Coding Agents]]></title>
+            <description><![CDATA[While end-to-end benchmarks like SWE-bench provide broad performance scores for AI agents, they are often expensive, slow, and lack the root-cause diagnostics needed to explain exactly where an agent's logic broke down. To solve this, developers should adopt behavioral evaluations—fast, local, unit-style tests that assert on discrete intermediate actions, such as verifying specific tool calls or file modifications rather than final string equality. By building these inexpensive micro-checks alongside macro benchmarks, engineering teams can confidently iterate on system prompts and upgrade models without the risk of regressions.]]></description>
+            <link>https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/</guid>
+            <pubDate>Sun, 02 Aug 2020 23:59:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Driving Developer Excellence: Inside the Program Sprints]]></title>
             <description><![CDATA[The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This recent sprint focused on optimizing enterprise AI governance, including refining setup prerequisites, securing extension configurations, and clarifying policy enforcement mechanics to ensure a smoother, more reliable deployment. Developers can now leverage updated documentation and standardized code samples to improve their experience with Agent Gateway and Semantic Governance configurations.]]></description>
@@ -64,20 +78,6 @@
             <link>https://developers.googleblog.com/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/</guid>
             <pubDate>Fri, 10 Jul 2020 19:47:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Why Go is an Ideal Language for AI-Assisted Software Engineering]]></title>
-            <description><![CDATA[As AI coding assistants shift the developer's primary role from writing boilerplate to reviewing and maintaining systems, language choice becomes critical for long-term architectural integrity. Go directly addresses this new paradigm by utilizing its strict compiler, integrated toolchain, and uncompromising readability to provide deterministic guardrails that help AI models self-correct and generate highly standardized code. By enforcing ecosystem-wide consistency and strict backward compatibility, the Go platform empowers engineering teams to efficiently verify, optimize, and maintain high-velocity, AI-generated output in production environments.]]></description>
-            <link>https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</guid>
-            <pubDate>Thu, 03 Dec 2020 12:35:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Mastering Edge AI on Raspberry Pi with LiteRT and Gemma]]></title>
-            <description><![CDATA[Deploying secure, real-time Edge AI on Raspberry Pi is now simplified using LiteRT and lightweight Gemma open models. LiteRT optimizes CPU and GPU performance, delivering fast token speeds for models like Gemma4, enabling real-time local reasoning for robotics. Developers can quickly convert, quantize, and run these models using the lightweight LiteRT CLI tool. Support for Hailo AI accelerators is also coming very soon.]]></description>
-            <link>https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</guid>
-            <pubDate>Fri, 02 Oct 2020 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
