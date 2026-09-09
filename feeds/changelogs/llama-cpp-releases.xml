@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 09 Sep 2026 17:28:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 20:16:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 09 Sep 2026 15:32:07 GMT</pubDate>
+        <pubDate>Wed, 09 Sep 2026 17:29:28 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10883]]></title>
+            <description><![CDATA[vulkan: use spec constant for matrix matrix multiplication A-type (#25773) * vulkan: use spec constant for mul mat type_a vulkan: use map for mul_mm shapes cleanup fix indentation fix cm2 and shmem init fix cm2 spec constants fix cm2 bindings consolidate shmem tables and reduce size by type spec constant fix compiler warning fix missing Q2_0 type fix unused warning when integer dot glslc support is missing use minimal shmem size 8 instead of 1 to workaround cm2 compiler bug fix missing Q2_0 type in cm2 matmul fix types * remove LUT quants from unified shader * clean up * restore coopmat2 q4_k/q5_k optimization * split out q4_k/q5_k cm2 shader to fix Ampere regression * revert iq shmem table renames * simplify cm2 code with single uint8_t buffer * fix fp4 extension use switch being overwritten by generic shader * clean up * adapt TQ1_0 changes * adapt #27471 f16 Intel tuning changes **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10883</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10883</guid>
+            <pubDate>Wed, 09 Sep 2026 17:29:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10881]]></title>
             <description><![CDATA[vulkan: Convert FILL to distribute workgroups in 2D to avoid exceeding maxComputeWorkGroupCount (#28592) * divide workload to 2D This is to workaround FILL exceeding maxComputeWorkGroupCount for Intel GPUs on Qwen 3.8 flash next * minor change * Fixed comment **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10737</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10737</guid>
             <pubDate>Tue, 01 Sep 2026 14:03:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10736]]></title>
-            <description><![CDATA[tests : fix log verbosity for test-llama-archs (#28147) * tests : fix log verbosity for test-llama-archs * cont : naming * cont : add note **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10736</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10736</guid>
-            <pubDate>Tue, 01 Sep 2026 13:29:54 GMT</pubDate>
         </item>
     </channel>
 </rss>
