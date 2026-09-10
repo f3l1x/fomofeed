@@ -4,11 +4,32 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 10 Sep 2026 17:26:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 20:18:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 10 Sep 2026 15:42:27 GMT</pubDate>
+        <pubDate>Thu, 10 Sep 2026 19:00:20 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b10900]]></title>
+            <description><![CDATA[vulkan: use add_alloc_dep to enable topk_moe fusion for prefill (#28422) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10900</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10900</guid>
+            <pubDate>Thu, 10 Sep 2026 19:00:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10899]]></title>
+            <description><![CDATA[vulkan: small M matrix optimizations for qwen (#28457) * vulkan: optimize m=1 mul_mat by swapping A/B * vulkan: Improve small M perf Allow split_k with small M. Make small vs med tile selection (for coopmat2) depend on M, not just N. **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10899</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10899</guid>
+            <pubDate>Thu, 10 Sep 2026 18:33:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b10897]]></title>
+            <description><![CDATA[ci : Update WoA CUDA 13.4 release to use 13.4.1 GA redistributables (#28687) - Move Windows ARM64 CUDA 13.4 builds from the Developer Preview archives to the 13.4.1 GA redistributables **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10897</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10897</guid>
+            <pubDate>Thu, 10 Sep 2026 17:59:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b10896]]></title>
             <description><![CDATA[spec: fix failed to decode mtmd chunk with DFlash (#28587) * speculative: fix failed to decode mtmd chunk with DFlash When using DFlash w/ vision models, the drafter memory fails to allocate new tokens because images report a fixed offset. Stop copying them to allow the drafter to continue. * address PR feedback limit M-RoPE skip to images only, allow audio to pass through. Clean up comments to align to the updated implementation **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -687,27 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10756</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10756</guid>
             <pubDate>Wed, 02 Sep 2026 08:17:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10754]]></title>
-            <description><![CDATA[opencl: fix out‐of‐bound reads in the Adreno image kernels (#27632) * opencl: clamp the q4_K decode GEMV's fetch row on a padded x-grid * opencl: enforce the tiling contract of the image KQ/KQV GEMMs * opencl: decide the image KQ/KQV split at the dispatch, not from strides **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10754</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10754</guid>
-            <pubDate>Wed, 02 Sep 2026 06:26:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10753]]></title>
-            <description><![CDATA[hexagon: add missing FARF logs for cpy/get_rows/set_rows/gdn ops (#28217) * hexagon: fix bug ne[2] printed in proc_op_req prep-src log * hexagon: add shape/VTCM farf logs to cpy, get/set rows, gdn **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10753</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10753</guid>
-            <pubDate>Wed, 02 Sep 2026 06:00:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10752]]></title>
-            <description><![CDATA[metal : add metallib build support for xcframework (#28163) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 7.14) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 7.14) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10752</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10752</guid>
-            <pubDate>Wed, 02 Sep 2026 00:13:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
