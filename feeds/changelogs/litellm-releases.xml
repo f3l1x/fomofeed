@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for LiteLLM Releases]]></description>
         <link>https://github.com/BerriAI/litellm/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 10 Sep 2026 08:33:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 17:26:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/litellm-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 10 Sep 2026 07:39:23 GMT</pubDate>
+        <pubDate>Thu, 10 Sep 2026 16:58:02 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.100.1]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #39568 and #39572 to stable/1.100.x and cut 1.100.1 by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/40176 * fix(router): backport #39491 to stable/1.100.x so retry breadcrumbs stop retaining every earlier request by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/40455 * revert: drop the spend attribution backports from stable/1.100.x by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/40495 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.100.0...v1.100.1]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.100.1</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.100.1</guid>
+            <pubDate>Thu, 10 Sep 2026 16:58:02 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.101.0-rc.2]]></title>
             <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * feat: backport MongoDB sidecar to rc/1.101.0 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/40316 * feat(otel): backport tenant trace destinations to rc/1.101.0 (#39654) by @yuneng-berri in https://github.com/BerriAI/litellm/pull/40321 * chore(ui): backport dashboard dependencies to rc/1.101.0 (#40312) by @yuneng-berri in https://github.com/BerriAI/litellm/pull/40324 * feat(team): backport team admin callbacks to rc/1.101.0 (#37667) by @yuneng-berri in https://github.com/BerriAI/litellm/pull/40325 * fix(otel): backport auth spans and callback merge to rc/1.101.0 (#40335) by @yuneng-berri in https://github.com/BerriAI/litellm/pull/40346 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.101.0-rc.1...v1.101.0-rc.2]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/BerriAI/litellm/releases/tag/v1.86.6</link>
             <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.86.6</guid>
             <pubDate>Sun, 14 Jun 2026 01:04:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.84.8]]></title>
-            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #27319, #27756, #27921, #28395, #29983, #29984, #29986, #30160, #30327 to stable/1.84.x and cut 1.84.8 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/30332 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.84.7...v1.84.8]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.84.8</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.84.8</guid>
-            <pubDate>Sat, 13 Jun 2026 01:45:28 GMT</pubDate>
         </item>
     </channel>
 </rss>
