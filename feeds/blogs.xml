@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 11 Sep 2026 17:29:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2026 20:19:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -2520,6 +2520,13 @@
             <link>https://windsurf.com/blog/page/2</link>
             <guid isPermaLink="false">https://windsurf.com/blog/page/2</guid>
             <pubDate>Sat, 25 Jul 2020 18:24:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hill-Climbing a SWE Agent: What 1,700 Coding Tasks Taught Kimi K2.7]]></title>
+            <description><![CDATA[We post-trained Kimi K2.7 on 1,700 Surge agentic coding tasks. The trained model improved on all five external benchmarks we tested, including +20.0pp on SWE-Marathon and +14.6pp on Terminal-Bench 2.1.]]></description>
+            <link>https://www.surgehq.ai/blog/hill-climbing-swe-agent-kimi-k-2-7</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/hill-climbing-swe-agent-kimi-k-2-7</guid>
+            <pubDate>Tue, 31 Mar 2020 18:58:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Fable 5.1 Scores 68.7 on the Tuesday Work Index]]></title>
