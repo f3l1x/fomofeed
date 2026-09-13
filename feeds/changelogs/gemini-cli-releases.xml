@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 12 Sep 2026 19:59:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Sep 2026 08:41:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 12 Sep 2026 01:25:00 GMT</pubDate>
+        <pubDate>Sun, 13 Sep 2026 01:29:27 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.61.0-nightly.20260913.g9c1b0a610]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260912.g9c1b0a610...v0.61.0-nightly.20260913.g9c1b0a610]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260913.g9c1b0a610</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260913.g9c1b0a610</guid>
+            <pubDate>Sun, 13 Sep 2026 01:29:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.61.0-nightly.20260912.g9c1b0a610]]></title>
             <description><![CDATA[## What's Changed * fix(core): prevent indirect prompt injection via build file modifications and untrusted flags by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29250 * fix(sandbox): harden filesystem boundaries and isolate runtime state by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29214 ## New Contributors * @villahernandez-coder made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29250 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260911.ged2ac40df...v0.61.0-nightly.20260912.g9c1b0a610]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-nightly.20260613.g9e5599c32</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-nightly.20260613.g9e5599c32</guid>
             <pubDate>Sat, 13 Jun 2026 00:21:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.47.0-preview.0]]></title>
-            <description><![CDATA[## What's Changed * chore(release): bump version to 0.47.0-nightly.20260602.gcfcecebe8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27644 * Changelog for v0.46.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27641 * Respect backend definitions for 3.5 flash and Update auto mode to use 3.5 flash when the flag is enabled. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27645 * fix(policy): add EBUSY fallback and TOML parse recovery (#19919) by @krishdef7 in https://github.com/google-gemini/gemini-cli/pull/21541 * Changelog for v0.45.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27642 * update the max amount of times the Antigravity transition banner can be displayed. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27676 * chore: remove experimental text from browser agent docs by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/27746 * fix(core): implement atomic update in MCP tool discovery by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27619 * Vertex ai model mapping fix by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27749 * Add documentation and migration commands for Antigravity CLI by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27765 * Avoid persisting empty resume sessions by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/27770 ## New Contributors * @luisfelipe-alt made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27619 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.46.0-preview.3...v0.47.0-preview.0]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0</guid>
-            <pubDate>Wed, 10 Jun 2026 00:11:55 GMT</pubDate>
         </item>
     </channel>
 </rss>
