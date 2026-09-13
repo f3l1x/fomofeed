@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 13 Sep 2026 17:10:59 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Sep 2026 20:05:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 13 Sep 2026 01:06:24 GMT</pubDate>
         <language><![CDATA[en]]></language>
