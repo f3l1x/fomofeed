@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 14 Sep 2026 09:27:45 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 18:59:06 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 14 Sep 2026 01:00:06 GMT</pubDate>
+        <pubDate>Mon, 14 Sep 2026 13:11:45 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.94.2]]></title>
+            <description><![CDATA[## Lil’ OpenAI-Compatible Protocol Fix This is a hot little mini patch to fix a regression in OpenAI-compatible endpoints that could occur when turns were stopped partway through. This regression happened because we were _furiously_ making improvements for the DeepSeek V4.X Flash series that you all cannot seem to get enough of! Thanks also to the very patient @teddytennant who fixed a small bug around turning home dirs into ~s. xoxo, Charm ## Changelog * 6f670995436a0bab99e3fdddd0eebc5c52c39072: fix(home): require path boundary when shortening or expanding ~ (#3552) (@teddytennant) * 066f4444d086aeac877ec0a67eb2a3d56fedde27: openaicompat: bump fantasy to fix regression around reasoning-only turns (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.94.2</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.94.2</guid>
+            <pubDate>Mon, 14 Sep 2026 13:11:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nightly]]></title>
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.29.1</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.29.1</guid>
             <pubDate>Mon, 22 Dec 2025 18:36:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.29.0]]></title>
-            <description><![CDATA[# Paste, drag ’n drop, and other things from Xerox Parc How's it going? We just added support for dragging and pasting attachments of all kinds into Crush, in an effort to make Crush your favorite desktop app in the terminal. We also added support to treat big pieces of pasted text as attachments. Oh, and we also fixed a handful of bugs. Hope you're staying warm (unless you're in the southern hemisphere, in which case, stay cool). See you soon and thanks for all the support! 🎁 ## Changelog ### New! * b3f73213fd7ee20329632d3b9d47f792ba00482c: feat: paste long content as an attachment (#1634) (@caarlos0) ### Fixed * 1c5443358e99bb196bdd812969109126cb99937f: fix: initial api key load (#1672) (@kujtimiihoxha) * 4f6d0e9373ffb015cba1715a4985298e037d6d14: fix: race condition (#1649) (@kujtimiihoxha) * 0f76e63276c5d17bcf12bdf973f91a7feca7df19: fix: remove unsupported image types (@kujtimiihoxha) * ec226090e2865b5bc9f3d4a186c6d71afdce6dc8: fix: splash padding y (#1680) (@caarlos0) * 5d419e806bdd202e84549ff580922e1a6f150d6c: fix(aws-bedrock): update fantasy with panic fix (#1681) (@andreynering) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.29.0</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.29.0</guid>
-            <pubDate>Fri, 19 Dec 2025 19:51:58 GMT</pubDate>
         </item>
     </channel>
 </rss>
