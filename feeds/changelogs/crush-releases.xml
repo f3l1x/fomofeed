@@ -4,24 +4,24 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 14 Sep 2026 18:59:06 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 09:07:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 14 Sep 2026 13:11:45 GMT</pubDate>
+        <pubDate>Tue, 15 Sep 2026 01:01:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Tue, 15 Sep 2026 01:01:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.94.2]]></title>
             <description><![CDATA[## Lil’ OpenAI-Compatible Protocol Fix This is a hot little mini patch to fix a regression in OpenAI-compatible endpoints that could occur when turns were stopped partway through. This regression happened because we were _furiously_ making improvements for the DeepSeek V4.X Flash series that you all cannot seem to get enough of! Thanks also to the very patient @teddytennant who fixed a small bug around turning home dirs into ~s. xoxo, Charm ## Changelog * 6f670995436a0bab99e3fdddd0eebc5c52c39072: fix(home): require path boundary when shortening or expanding ~ (#3552) (@teddytennant) * 066f4444d086aeac877ec0a67eb2a3d56fedde27: openaicompat: bump fantasy to fix regression around reasoning-only turns (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.94.2</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.94.2</guid>
             <pubDate>Mon, 14 Sep 2026 13:11:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Mon, 14 Sep 2026 01:00:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.94.1]]></title>

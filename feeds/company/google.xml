@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 14 Sep 2026 19:00:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 09:08:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 14 Sep 2026 01:45:58 GMT</pubDate>
+        <pubDate>Tue, 15 Sep 2026 01:28:16 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.61.0-nightly.20260915.g9c1b0a610]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260914.g9c1b0a610...v0.61.0-nightly.20260915.g9c1b0a610]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260915.g9c1b0a610</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260915.g9c1b0a610</guid>
+            <pubDate>Tue, 15 Sep 2026 01:28:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.61.0-nightly.20260914.g9c1b0a610]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260913.g9c1b0a610...v0.61.0-nightly.20260914.g9c1b0a610]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0</guid>
             <pubDate>Thu, 18 Jun 2026 01:51:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.48.0-preview.0]]></title>
-            <description><![CDATA[## What's Changed * chore(release): bump version to 0.48.0-nightly.20260609.g3a13b8eeb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27779 * ci(dependabot): enable cooldown period for npm packages by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/27743 * refactor(core): standardize tool output formatting by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27772 * ci: update workflow logging and policy configurations by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27853 * fix(core): Ensure zero-quota limits fail fast to prevent retry loop hang by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27698 * fix(core): handle multi-line escaped quotes in stripShellWrapper by @sanchezcoraspe in https://github.com/google-gemini/gemini-cli/pull/27467 * fix(cli): prevent path traversal vulnerabilities during skill install… by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/27767 * Fix/pending tools and trust overrides by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/27854 * ci: use internal environment for scheduled nightly releases (#27865) by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/27939 * feat(core): Support GDC air-gapped Service Identity after auth library update by @sidhantgoyal-droid in https://github.com/google-gemini/gemini-cli/pull/27956 * fix(cli): handle tmux false positive background detection by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27572 * Add static eval source analyzer by @ved015 in https://github.com/google-gemini/gemini-cli/pull/27631 * fix(config): migrate coreTools setting to tools.core by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27947 * fix(core-tools): resolve defensive path resolution for at-reference files by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27943 * Revert "fix(core-tools): resolve defensive path resolution for at-reference files" by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27992 ## New Contributors * @sanchezcoraspe made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27467 * @sidhantgoyal-droid made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27956 * @amelidev made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27572 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.47.0-preview.0...v0.48.0-preview.0]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-preview.0</guid>
-            <pubDate>Wed, 17 Jun 2026 22:58:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Autonomous LLM post-training with Tunix on TPUs]]></title>

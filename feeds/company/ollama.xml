@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 14 Sep 2026 19:00:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 09:08:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 05 Sep 2026 23:49:00 GMT</pubDate>
+        <pubDate>Mon, 14 Sep 2026 22:14:03 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.34.1]]></title>
+            <description><![CDATA[## What's Changed * app: fix ChatGPT model selector spacing * mlxrunner: Evict prefix cache snapshots from the active conversation * mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model * llm: raise token repeat limit to 100 and return error instead of incomplete result * mlx: scope array lifetimes instead of pinning and sweeping * llm: keep gemma3n projector off the CPU * app: refresh Apps layout and command copy feedback * MLX and llama.cpp updates **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.0...v0.34.1-rc1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2</guid>
+            <pubDate>Mon, 14 Sep 2026 22:14:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.34.0]]></title>
             <description><![CDATA[## Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.3...v0.34.0]]></description>
@@ -869,13 +876,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.4</guid>
             <pubDate>Fri, 03 Oct 2025 16:38:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.3]]></title>
-            <description><![CDATA[## New models - DeepSeek-V3.1-Terminus: DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode. It delivers more stable & reliable outputs across benchmarks compared to the previous version: Run on Ollama's cloud: Run locally (requires 500GB+ of VRAM) - Kimi-K2-Instruct-0905: Kimi K2-Instruct-0905 is the latest, most capable version of Kimi K2. It is a state-of-the-art mixture-of-experts (MoE) language model, featuring 32 billion activated parameters and a total of 1 trillion parameters. ## What's Changed * Fixed issue where tool calls provided as stringified JSON would not be parsed correctly * ollama push will now provide a URL to follow to sign in * Fixed issues where qwen3-coder would output unicode characters incorrectly * Fix issue where loading a model with /load would crash ## New Contributors * @gr4ceG made their first contribution in https://github.com/ollama/ollama/pull/12385 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.2...v0.12.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.3</guid>
-            <pubDate>Fri, 26 Sep 2025 05:08:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Web search]]></title>

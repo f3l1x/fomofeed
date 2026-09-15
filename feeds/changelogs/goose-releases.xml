@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Goose Releases]]></description>
         <link>https://github.com/block/goose/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 14 Sep 2026 18:58:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 09:06:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/goose-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 08 Sep 2026 19:32:41 GMT</pubDate>
+        <pubDate>Mon, 14 Sep 2026 21:00:01 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.50.1]]></title>
+            <description><![CDATA[## 🐛 **Bug Fixes** - Revert model updates for patch release - Roll back MCP default version selection update #6d8152a]]></description>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.50.1</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.50.1</guid>
+            <pubDate>Mon, 14 Sep 2026 21:00:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.50.0]]></title>
             <description><![CDATA[## ✨ Features - Support GPT-6 Astra models #11869 - Tool calling for goose-agent #11627 - Kotlin callers can now configure Databricks AI Gateway path #11631 ## 🐛 Bug Fixes - Require HTTPS for Snowflake connections #11745 - Bind CLI session naming to trusted path #11787 - Honor content capture opt-out in tracing #11782 - Enforce subagent platform guards #11604 - Show authoritative tool approval details #11743 - Preserve permission revocations across managers #11383 - Resolve UI freeze after renaming session #11759 - Count durable background turns in summon #11841 - Anchor chat-payload breakpoints on the agentic tail #11429 - Preserve cwd and child status in node launchers #11753 ## 🔧 Improvements - Prefer latest MCP version #11827 - Remove keyring timeout #11798 - Publish goose ACP client and acp binary as separate npm packages #11846 - Remove managed model registry from local inference #11789 - Remove fast model routing #11469 - AIML API integration #11758 ## 📚 Documentation - Move ACP reference under GDK section #11805 - Generate ACP reference documentation from release schemas #11770 - ClawMetry session observability tutorial #11554]]></description>
@@ -678,13 +685,6 @@
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.33</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.33</guid>
             <pubDate>Mon, 07 Jul 2025 20:30:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.0.32 - 2025-07-03]]></title>
-            <description><![CDATA[- Add fuzzy file search functionality (#3240) - update styling of user messages (#3247) - Add support for escape key to dismiss settings menu (#3225) - fix: Refactor string truncation logic into reusable utility function to avoid panic (#2818) (#2819) - fix: Prevent modal from closing on text select. (#3127) - fix: Add back lazy_static (#3243) - chore: remove unused dependencies (#3049) - feat: Add close button (X) to toast notifications (#3197) - Adds json schema validation to goose recipe validate cli (#3234) - feat: Adds max_turns for the agent without user input (#3208) - feat: GUI can use structured output present in recipes (#3218) - Enable running sub-recipes from GitHub (#3207) - Defend against invalid sessions (#3229) - Clean up session file optionality for --no-session (#3230) - Feat: Support Recipe Parameters in Goose desktop app (#3155) - docs: update recipe example (#3222) - Add native OAuth 2.0 authentication support to MCP client (#3213) - build: Check in Cargo.lock changes (#3220) - fix: fix desktop recipe url generation (#3209) - feat: improve UX for saving recipes (#3214) - fix: Pass Google AI API key in HTTP header, not query param (#3192) - docs: add linter to CONTRIBUTING.md (#3168) - feat: Structured output for recipes (#3188) - Fix cost tracking accuracy and OpenRouter model pricing (#3189) - docs: update cli install instructions for windows (#3205) - Docs: Cost tracking on the desktop app (#3204) - feat: Adding streamable-http transport support for backend, desktop and cli (#2942) - fix: use the correct contains syntax on create-recipe-pr.yml (#3193) - Temporarily Remove GH Copilot Provider (#3199) - docs: fix tab navigation (#3201) - feat: use tiktoken-rs instead of tokenizers, single global tokenizer (#3115) - add playwright-mcp server to extensions list (#3010) - Add /extension path for extension installation (#3011) - feat(desktop): Prioritize suffix when truncating path in header (#3110)]]></description>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.32</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.32</guid>
-            <pubDate>Thu, 03 Jul 2025 21:59:36 GMT</pubDate>
         </item>
     </channel>
 </rss>
