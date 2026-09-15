@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Claude Blog]]></description>
         <link>https://claude.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 15 Sep 2026 09:06:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 17:51:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/claude-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 08 Dec 2020 12:59:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude for Small Business launches new workflows, integrations, and training programs]]></title>
+            <link>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</link>
+            <guid isPermaLink="false">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
+            <pubDate>Tue, 31 Mar 2020 23:30:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude in Chrome is generally available]]></title>
             <link>https://claude.com/blog/claude-in-chrome-generally-available</link>
@@ -62,12 +68,6 @@
             <link>https://claude.com/blog/claude-code-desktop-redesign</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-code-desktop-redesign</guid>
             <pubDate>Wed, 04 Nov 2020 14:39:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Preparing your security program for AI-accelerated offense]]></title>
-            <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
-            <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
-            <pubDate>Thu, 13 Feb 2020 11:18:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

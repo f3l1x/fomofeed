@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 15 Sep 2026 09:08:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 17:53:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -287,6 +287,12 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Claude for Small Business launches new workflows, integrations, and training programs]]></title>
+            <link>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</link>
+            <guid isPermaLink="false">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
+            <pubDate>Tue, 31 Mar 2020 23:30:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Claude in Chrome is generally available]]></title>
             <link>https://claude.com/blog/claude-in-chrome-generally-available</link>
             <guid isPermaLink="false">https://claude.com/blog/claude-in-chrome-generally-available</guid>
@@ -341,10 +347,11 @@
             <pubDate>Wed, 04 Nov 2020 14:39:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Preparing your security program for AI-accelerated offense]]></title>
-            <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
-            <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
-            <pubDate>Thu, 13 Feb 2020 11:18:00 GMT</pubDate>
+            <title><![CDATA[Build zero-trust AI agents that judge intent, not just syntax]]></title>
+            <description><![CDATA[This blog post explores how to transition AI agents from static, build-time security controls to dynamic runtime governance using the Gemini Enterprise Agent Platform. It highlights three primary managed defenses: Model Armor for screening edge prompts, Semantic Governance Policies for evaluating tool intent against business rules, and Agent Anomaly Detection for catching multi-turn exploits. By shifting these capabilities to the platform level, security administrators can dynamically enforce policies and neutralize complex attacks without needing to modify or redeploy the agent's underlying code.]]></description>
+            <link>https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax/</guid>
+            <pubDate>Sat, 26 Sep 2020 03:48:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Autonomous LLM post-training with Tunix on TPUs]]></title>
@@ -408,13 +415,6 @@
             <link>https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/</guid>
             <pubDate>Tue, 03 Nov 2020 15:25:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Credentio: Open Source C++ Library for C2PA Content Credentials from Google]]></title>
-            <description><![CDATA[Credentio is a newly released, open-source C++ library from Google that allows developers to integrate high-performance, local-first validation of C2PA Content Credentials into their client and server applications. By processing assets entirely locally with a highly optimized memory footprint, the library delivers instant validation verdicts for multi-gigabyte media files without incurring cloud latency, bandwidth costs, or data privacy risks. The library currently features deep manifest parsing alongside configurable trust list integration, and is available now on Google Source with future plans to support full credential generation and embedding.]]></description>
-            <link>https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/</guid>
-            <pubDate>Fri, 27 Nov 2020 18:24:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>

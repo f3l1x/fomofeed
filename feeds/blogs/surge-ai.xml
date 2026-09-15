@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 15 Sep 2026 09:06:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 17:51:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Helping Anthropic Build Automated Alignment Researchers]]></title>
+            <description><![CDATA[Anthropic recently published new work on automated alignment researchers. Surge contributed to the research by building the human baseline, including researcher recruitment, structured submissions, quality control, and expert review.]]></description>
+            <link>https://www.surgehq.ai/blog/anthropic-automated-alignment-research</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/anthropic-automated-alignment-research</guid>
+            <pubDate>Fri, 19 Jun 2020 13:26:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Hill-Climbing a SWE Agent: What 1,700 Coding Tasks Taught Kimi K2.7]]></title>
             <description><![CDATA[We post-trained Kimi K2.7 on 1,700 Surge agentic coding tasks. The trained model improved on all five external benchmarks we tested, including +20.0pp on SWE-Marathon and +14.6pp on Terminal-Bench 2.1.]]></description>

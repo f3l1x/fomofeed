@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 15 Sep 2026 09:06:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 17:51:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 08 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Bringing macOS to Devin]]></title>
+            <description><![CDATA[Today, we're launching macOS support for Devin, extending Devin's autonomous cloud development workflows to iOS apps, native macOS applications, and any project that depends on Apple's development tools.]]></description>
+            <link>https://windsurf.com/blog/devin-gets-a-mac</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/devin-gets-a-mac</guid>
+            <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Governing AI agents at scale with BlackRock]]></title>
             <description><![CDATA[We’re introducing Devin Plugins, which give enterprises a way to manage the context and capabilities their agents use at scale. Plugins bundle skills, rules, MCP servers, hooks, and subagents, with consistent configuration and governance across local and cloud agents.]]></description>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/claude-opus-5</link>
             <guid isPermaLink="false">https://windsurf.com/blog/claude-opus-5</guid>
             <pubDate>Wed, 22 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Devin Outposts]]></title>
-            <description><![CDATA[Give Devin the ability to run on any machine.]]></description>
-            <link>https://windsurf.com/blog/introducing-devin-outposts</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/introducing-devin-outposts</guid>
-            <pubDate>Mon, 20 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>
