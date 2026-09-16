@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for llama.cpp Releases]]></description>
         <link>https://github.com/ggml-org/llama.cpp/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Sep 2026 17:54:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Sep 2026 20:44:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/llama-cpp-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 16 Sep 2026 17:45:31 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2026 19:37:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b11009]]></title>
+            <description><![CDATA[TP: fix split state and granularity for fused QKV gemma4, qwen35 (#28965) * model: calculate split states for attn_qkv from n_head * n_embd_head_k required for gemma4 with --fuse-qkv, where n_embd is 5376 but Q is 8192. * model: handle fused full attention layers for qwen35/qwen35moe * model: add TODO: [TAG_SPLIT_QGATE_QWEN] **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11009</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11009</guid>
+            <pubDate>Wed, 16 Sep 2026 19:37:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b11007]]></title>
             <description><![CDATA[Enable CUDA graph for MTP draft (#28549) * Improve CUDA graph usage for MTP * Rename field * Address review feedback **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10863</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10863</guid>
             <pubDate>Tue, 08 Sep 2026 13:58:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10859]]></title>
-            <description><![CDATA[llama : add missing headers (#28566) * fix compile-error: add missing header Bug: #28557 Signed-off-by: Pepper Gray * fix compile-error: add missing header Bug: #28559 Signed-off-by: Pepper Gray * fix compile-error: add missing header Bug: #28560 Signed-off-by: Pepper Gray * fix compile-error: add missing header Bug: #28561 Signed-off-by: Pepper Gray * fix compile-error: add missing header Bug: #28562 Signed-off-by: Pepper Gray * fix compile-error: add missing header Bug: #28564 Signed-off-by: Pepper Gray --------- Signed-off-by: Pepper Gray **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10859</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10859</guid>
-            <pubDate>Tue, 08 Sep 2026 12:35:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
