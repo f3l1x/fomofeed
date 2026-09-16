@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 15 Sep 2026 20:44:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Sep 2026 08:59:07 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 14 Sep 2026 22:14:03 GMT</pubDate>
+        <pubDate>Tue, 15 Sep 2026 21:21:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.34.2]]></title>
+            <description><![CDATA[## What's Changed * llama.cpp updates **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0</guid>
+            <pubDate>Tue, 15 Sep 2026 21:21:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.34.1]]></title>
             <description><![CDATA[## What's Changed * MLX safetensors ollama create no longer experimental. GGUF model creation now requires using llama.cpp tooling for safetensor conversion and quantization. * Improved MLX memory handling on Apple Silicon * Runaway repeat token detection now requires 100 repeat tokens for reduced false positives (e.g. OCR) * /api/tags is much faster on large model libraries (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently. * Deprecated typical_p: it can no longer be set when creating new models, existing GGUF models retain support. * MLX and llama.cpp updates **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.0...v0.34.1-rc1]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.5</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.5</guid>
             <pubDate>Fri, 10 Oct 2025 16:30:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.4]]></title>
-            <description><![CDATA[## What's Changed * Flash attention is now enabled by default for Qwen 3 and Qwen 3 Coder * Fixed minor memory estimation issues when scheduling models on NVIDIA GPUs * Fixed an issue where keep_alive in the API would accept different values for the /api/chat and /api/generate endpoints * Fixed tool calling rendering with qwen3-coder * More reliable and accurate VRAM detection * OLLAMA_FLASH_ATTENTION can now be overridden to 0 for models that have flash attention enabled by default * macOS 12 Monterey and macOS 13 Ventura are no longer supported * Fixed crash where templates were not correctly defined * Fix memory calculations on NVIDIA iGPUs * AMD gfx900 and gfx906 (MI50, MI60, etc) GPUs are no longer supported via ROCm. We're working to support these GPUs via Vulkan in a future release. ## New Contributors * @Fachep made their first contribution in https://github.com/ollama/ollama/pull/12412 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.3...v0.12.4-rc3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.4</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.4</guid>
-            <pubDate>Fri, 03 Oct 2025 16:38:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
