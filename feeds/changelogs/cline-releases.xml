@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Sep 2026 08:59:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Sep 2026 17:54:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 15 Sep 2026 07:55:48 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2026 17:21:06 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Desktop v0.0.29]]></title>
+            <description><![CDATA[- Queued messages can now be sent into the running turn with Enter. While the agent is working, pressing Enter with an empty composer steers the first message in the queue, so it is picked up at the next turn boundary instead of waiting for the whole task to finish; the composer placeholder says so whenever the queue is non-empty. The queue head is claimed atomically, so a fast second Enter can't steer a message that has already left the queue, and a steer that fails now surfaces as a toast rather than silently doing nothing - The macOS Dock icon now has the standard margin other apps use. The bundled icon and the selectable runtime icons (Classic, Chip, Hologram, Midnight) were edge-to-edge, so Cline rendered visibly larger than its neighbours in the Dock. Windows keeps its existing artwork - The session sidebar's sort toggle now shows the mode a click switches to, not the one already active — a folder icon while sorted by time, a clock while grouped by project **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.28...desktop-v0.0.29]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.29</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.29</guid>
+            <pubDate>Wed, 16 Sep 2026 17:21:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Desktop v0.0.28]]></title>
             <description><![CDATA[- The app no longer gets stuck on "Desktop backend unavailable" when the backend is slow to start. The window asked for the backend's address exactly once and the shell stops waiting after about 15 seconds, so on a slower machine — where starting the hub pushed past that — you were left on the error screen until you relaunched, and the relaunch could lose the same race. Connection attempts now keep retrying and re-resolve the address each time, so a backend that has since restarted is reached at its current one - Confirming text with a Chinese or Japanese IME no longer sends the message. The Enter that commits an in-progress composition also reached the composer, so choosing a candidate fired off a half-typed message; Enter and the arrow keys now belong to the IME while you are composing - The model picker refreshes its list every time you open it, instead of staying frozen until you restart the app. The Recommended and Free groupings come from a live feed, so a newly promoted free model would otherwise not show up for the rest of the session - Signing in with Cline now explains what the plan includes. The sign-in card lists the regular free model promotions, ClinePass for generous usage across open-weight models like DeepSeek, Kimi, and GLM, and that no API key is needed; the last onboarding step then shows the current free models alongside a ClinePass summary. This only appears when you sign in with Cline, not when you bring your own API key - Cline Pass now starts you on a model from your subscription. Its model list carries both subscription and free models and the default was simply the most recently published entry, so a subscriber who never picked a model was left on a free model instead of the tier they pay for - A turn that fails partway through with a temporary provider error is now retried up to three times instead of failing the task. A single rate-limit response passed along by a provider gateway previously ended the turn outright. A turn that has already produced output is never retried, so nothing is duplicated - Long responses stream faster. Every chunk of a streaming reply was being handed to client-side hooks as a round trip carrying a full copy of the session, with the agent waiting on each one before continuing - The command-running tool now tells the model which PowerShell edition it is talking to — Windows PowerShell (powershell.exe) versus PowerShell (pwsh.exe) — and to write commands directly rather than wrapping them in a second shell invocation, which was corrupting pipelines that use $_ - Refreshed the model catalog. Adds three providers (Infer by Flow7, Melious, and Wallaby) and takes the catalog from 5,923 to 6,079 models. The resolved default model changes for 33 providers, most of them landing on DeepSeek V4.1 Flash — among them Hugging Face, Fireworks, Requesty, Cortecs, CrossModel, DigitalOcean, Eden AI, and OpenCode Go — while NVIDIA moves to GLM 5.3 Flash and NanoGPT to GPT Astra. If you use a provider without pinning a model, expect a different default **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.27...desktop-v0.0.28]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.62</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.62</guid>
             <pubDate>Thu, 16 Jul 2026 02:59:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SDK v0.0.61]]></title>
-            <description><![CDATA[- Context compaction now reports progress status while it runs - Workspace git info (branch/remote) is now persisted and refreshed across sessions - Fixed benign git states being reported as workspace initialization errors - Plan/Act mode guidance added to the system prompt, with nudges when switching modes - Editor diff view restored for SDK edit tools - Model IDs are now suggested from OpenAI-compatible endpoints - VS Code terminal reliability improvements (OSC 633 parsing, exit codes, timeout handling) - Provider-specific request headers are now centralized in the LLM layer - Telemetry now attaches organization context when identifying with cached credentials - Added a shared @cline/ui theme package **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.60...sdk/sdk/v0.0.61]]></description>
-            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.61</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.61</guid>
-            <pubDate>Wed, 15 Jul 2026 17:57:42 GMT</pubDate>
         </item>
     </channel>
 </rss>

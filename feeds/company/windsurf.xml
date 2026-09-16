@@ -4,11 +4,18 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Sep 2026 09:00:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Sep 2026 17:55:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Code Scans]]></title>
+            <description><![CDATA[Code Scans turns broad engineering goals into concrete improvements across your codebase. Tell Devin what you want to achieve, and it investigates what needs to change, evaluates the findings, and turns them into pull requests.]]></description>
+            <link>https://windsurf.com/blog/introducing-code-scans</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/introducing-code-scans</guid>
+            <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Bringing macOS to Devin]]></title>
             <description><![CDATA[Today, we're launching macOS support for Devin, extending Devin's autonomous cloud development workflows to iOS apps, native macOS applications, and any project that depends on Apple's development tools.]]></description>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/kimi-k3</link>
             <guid isPermaLink="false">https://windsurf.com/blog/kimi-k3</guid>
             <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Opus 5 is now available in Devin]]></title>
-            <description><![CDATA[Claude Opus 5 is now live in Devin Desktop, Devin CLI, and Devin Cloud's mode mix, approaching Fable-level performance at half the cost.]]></description>
-            <link>https://windsurf.com/blog/claude-opus-5</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/claude-opus-5</guid>
-            <pubDate>Wed, 22 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>

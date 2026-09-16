@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Sep 2026 08:59:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Sep 2026 17:54:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 16 Sep 2026 01:00:37 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2026 10:04:08 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.95.0]]></title>
+            <description><![CDATA[# Hello, Plan Mode This release introduces many improvements but, most importantly, and a solid new feature from one of our very talented contributors: ## Let’s plan At last, thanks to the very talented work of @vadiminshakov and @andrinoff, we present the long awaited Plan Mode. Plan Mode is for…planning. Talk to the agent, answer questions, and put together a plan and then, when you’re ready, get to to work. You can activate plan mode with shift+tab . ## Juicing more perf @andreynering and @taciturnaxolotl marched forward in the quest for max perf in this release. Details below. That's all for now. See you soon! Cheers, Charm xx 🌟 ## Changelog ### New! * 1648f10ac039e126635e26d4a16647331b2d6f0c: feat: add plan mode (#2822) (@vadiminshakov) ### Fixed * 051fb37ae1d6bd6d6f2f6cbc8a629d5f85aa9bd7: fifix(ui): color the to-do task name while the tool is still running (@taciturnaxolotl) * 2019da14717e4e00aeee7664873c6b78f147a3eb: fix(tui): unfreeze spinner clock when the boot busy probe lands (#3839) (@andreynering) * fd58b5ed201f490641d018cab6f06a29cdaff2c0: fix(ui): read the session transcript off the event loop (@taciturnaxolotl) ### Other stuff * d55e017d60cdb87ecb21a19a9fed9a2097c0da64: perf(agent): read only the post-summary tail of a compacted session (@taciturnaxolotl) * 978d49d53f9343f2e57406cc503daddf282e12ae: perf(db): cap prompt history at the 200 most recent messages (@taciturnaxolotl) * 296b5c396260ece70fdceed288ed25c7a99ba349: perf(db): index messages by role so user-message reads stop scanning (@taciturnaxolotl) * 595f625f19a6a186307b911d59dd37c764541251: perf(message): decode message parts in one structural pass (@taciturnaxolotl) * 9207cb2c053ecbe3ec5c0c3985b746877c1f322d: perf(ui): skip the global prompt-history scan when a session is loading (@taciturnaxolotl) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.95.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.95.0</guid>
+            <pubDate>Wed, 16 Sep 2026 10:04:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nightly]]></title>
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.30.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.30.0</guid>
             <pubDate>Sat, 27 Dec 2025 20:17:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.29.1]]></title>
-            <description><![CDATA[# Mini Attachments Patch This is tiny update to improve the behavior when files are dragged and dropped into Crush, and when long blocks of text are pasted in. Hope you're chilling out! 💘 ## Changelog ### Fixed * 41335547790de560fad7f33a69ef32d53591c41f: fix: prevent filename insertion when dragging attachments (#1683) (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.29.1</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.29.1</guid>
-            <pubDate>Mon, 22 Dec 2025 18:36:24 GMT</pubDate>
         </item>
     </channel>
 </rss>
