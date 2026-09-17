@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 17:54:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 20:51:06 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 17 Sep 2026 00:12:02 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -20,6 +20,12 @@
             <title><![CDATA[Introducing the Life Sciences Verification Program]]></title>
             <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/life-sciences-verification-program</guid>
+            <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Claude is uplifting biomolecular modeling]]></title>
+            <link>https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</guid>
             <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -203,7 +209,6 @@
         </item>
         <item>
             <title><![CDATA[Previewing the Model Hardware Standard]]></title>
-            <description><![CDATA[We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.]]></description>
             <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
             <pubDate>Wed, 26 Aug 2026 22:00:00 GMT</pubDate>
@@ -431,12 +436,6 @@
             <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Discovering cryptographic weaknesses with Claude]]></title>
-            <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</guid>
-            <pubDate>Mon, 27 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v2.1.220]]></title>
             <description><![CDATA[## What's changed - Bug fixes and reliability improvements]]></description>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.220</link>
@@ -449,13 +448,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.219</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.219</guid>
             <pubDate>Fri, 24 Jul 2026 17:14:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Claude Opus 5]]></title>
-            <description><![CDATA[Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.]]></description>
-            <link>https://www.anthropic.com/news/claude-opus-5</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-opus-5</guid>
-            <pubDate>Thu, 23 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.218]]></title>

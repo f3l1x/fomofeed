@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 17:54:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 20:51:06 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 17 Sep 2026 17:30:53 GMT</pubDate>
+        <pubDate>Thu, 17 Sep 2026 19:15:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.51.0]]></title>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.51.0</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.51.0</guid>
+            <pubDate>Thu, 17 Sep 2026 19:15:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b11028]]></title>
             <description><![CDATA[ci : add missing evict-old-files (#29041) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -452,8 +458,8 @@
         <item>
             <title><![CDATA[v0.34.2]]></title>
             <description><![CDATA[## What's Changed * llama.cpp updates **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2</guid>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3</guid>
             <pubDate>Tue, 15 Sep 2026 21:21:07 GMT</pubDate>
         </item>
         <item>
@@ -11661,12 +11667,6 @@
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.34</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.34</guid>
             <pubDate>Mon, 07 Jul 2025 22:15:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.0.33]]></title>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.33</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.33</guid>
-            <pubDate>Mon, 07 Jul 2025 20:30:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.9.2]]></title>

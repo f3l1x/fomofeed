@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Goose Releases]]></description>
         <link>https://github.com/block/goose/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 17:53:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 20:49:29 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/goose-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 14 Sep 2026 21:00:01 GMT</pubDate>
+        <pubDate>Thu, 17 Sep 2026 19:15:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.51.0]]></title>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.51.0</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.51.0</guid>
+            <pubDate>Thu, 17 Sep 2026 19:15:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.50.1]]></title>
             <description><![CDATA[## 🐛 **Bug Fixes** - Revert model updates for patch release - Roll back MCP default version selection update #6d8152a]]></description>
@@ -679,12 +685,6 @@
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.34</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.34</guid>
             <pubDate>Mon, 07 Jul 2025 22:15:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.0.33]]></title>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.33</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.33</guid>
-            <pubDate>Mon, 07 Jul 2025 20:30:07 GMT</pubDate>
         </item>
     </channel>
 </rss>
