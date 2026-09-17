@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 16 Sep 2026 20:46:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 09:06:37 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -21,6 +21,12 @@
             <description><![CDATA[Today, we're launching macOS support for Devin, extending Devin's autonomous cloud development workflows to iOS apps, native macOS applications, and any project that depends on Apple's development tools.]]></description>
             <link>https://windsurf.com/blog/devin-gets-a-mac</link>
             <guid isPermaLink="false">https://windsurf.com/blog/devin-gets-a-mac</guid>
+            <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Grab put Cursor in the hands of Design, Ops, and Engineering]]></title>
+            <link>https://cursor.com/blog/grab</link>
+            <guid isPermaLink="false">https://cursor.com/blog/grab</guid>
             <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -258,12 +264,6 @@
             <link>https://cursor.com/blog/cursor-start-india</link>
             <guid isPermaLink="false">https://cursor.com/blog/cursor-start-india</guid>
             <category><![CDATA[product]]></category>
-            <pubDate>Mon, 27 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How Vercel used Cursor to build Queues]]></title>
-            <link>https://cursor.com/blog/vercel</link>
-            <guid isPermaLink="false">https://cursor.com/blog/vercel</guid>
             <pubDate>Mon, 27 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
