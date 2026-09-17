@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 09:06:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 17:54:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing the Life Sciences Verification Program]]></title>
+            <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/life-sciences-verification-program</guid>
+            <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Measuring tactical intelligence targeting and conventional weapons capabilities of AI models]]></title>
             <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
@@ -128,12 +134,6 @@
             <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</guid>
             <pubDate>Mon, 27 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Our position on open-weights models]]></title>
-            <link>https://www.anthropic.com/news/position-open-weights-models</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/position-open-weights-models</guid>
-            <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Claude Opus 5]]></title>

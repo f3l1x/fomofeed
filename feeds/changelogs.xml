@@ -4,11 +4,88 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 09:06:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 17:54:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 17 Sep 2026 08:58:59 GMT</pubDate>
+        <pubDate>Thu, 17 Sep 2026 17:30:53 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b11028]]></title>
+            <description><![CDATA[ci : add missing evict-old-files (#29041) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11028</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11028</guid>
+            <pubDate>Thu, 17 Sep 2026 17:30:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.33.1.dev20260917]]></title>
+            <description><![CDATA[These are the release notes for gptme version v0.33.1.dev20260917. ## Contributors Thanks to everyone who contributed to this release: @TimeToBuildBob ## Changelog Changes since v0.33.1.dev20260914: ## 📦 gptme ### ✨ Features (3) - feat(site): deploy design-v3 landing page to gptme.org (#3849) (170f28bb4) - feat(site): prototype of new gptme.org site (design v3) (#3839) (0881c1d98) - feat(memory): trigger keyworded entries through the lesson matcher (#3817) (1ced9ccca) ### 🐛 Fixes (10) Click to expand - fix(shell): restore cwd/env after a shell death and tell the model (#3844) (c09a0b3e9) - fix(tests): reset leaked shell workspace cwd state between tests (#3854) (55be1b2aa) - fix(webui): log readable auth-code exchange failure cause (#3853) (9d576ba93) - fix(cli): emit clean error on attest sign --out write failure (#3850) (f32f045c3) - fix(llm): _merge_consecutive must not merge parallel tool results with different call_ids (#3847) (8dc34d3ff) - fix(eval): keep token counts on timeout instead of zeroing them (#3845) (53fd88323) - fix(shell): wake idle sessions on background completion (#3843) (5fa6b67ef) - fix(webui): guard console-proxy injection against cross-origin iframes (#3840) (424bd1df7) - fix(cli): emit clean error on dataset export -o write failure (#3842) (76113984e) - fix(webui): guard undefined values before toLowerCase calls (#3841) (1541e48c6) ### 🔨 Misc (5) - chore: bump version to 0.33.1.dev20260917 (4f75b6215) - test(llm): strip ANSI codes before asserting IPython source in terminal output (#3856) (e81224353) - docs: add CITATION.cff and a Citation section to README (#3855) (dff9d0e33) - test(lessons): stop seeding the global RNG in dropout tests (#3851) (e60462be2) - chore: bump version to 0.33.1.dev20260914 (6744e63b4) **Full Changelog**: https://github.com/gptme/gptme/compare/v0.33.1.dev20260914...v0.33.1.dev20260917]]></description>
+            <link>https://github.com/gptme/gptme/releases/tag/v0.33.1.dev20260917</link>
+            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.33.1.dev20260917</guid>
+            <pubDate>Thu, 17 Sep 2026 16:19:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11027]]></title>
+            <description><![CDATA[rpc : skip ACCEL devices (#29020) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11027</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11027</guid>
+            <pubDate>Thu, 17 Sep 2026 16:03:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11026]]></title>
+            <description><![CDATA[model : skip gate_up_exps if TENSOR_SKIP is set (#29014) required for qwen35moe if MTP tensors are fused but not loaded **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11026</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11026</guid>
+            <pubDate>Thu, 17 Sep 2026 13:31:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11025]]></title>
+            <description><![CDATA[model : extend Nemotron MTP support (#29018) * first fix * removed unnecessary declarations **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11025</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11025</guid>
+            <pubDate>Thu, 17 Sep 2026 13:02:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11024]]></title>
+            <description><![CDATA[openvino : Update OpenVINO to 2026.4;fix clangd,MSVC warnings; (#29009) * Update to openvino-2026.4 * Update OV docs * ggml-openvino : fix clangd and MSVC warnings * fix int to ptr cast, more internal linkage enforcement, and avoiding duplicate switch case --------- Co-authored-by: Mostafa Faheem **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11024</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11024</guid>
+            <pubDate>Thu, 17 Sep 2026 12:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11022]]></title>
+            <description><![CDATA[vulkan: split buffers and debug code into separate files, add shared headers (#28732) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11022</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11022</guid>
+            <pubDate>Thu, 17 Sep 2026 11:36:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11020]]></title>
+            <description><![CDATA[chat : add message delimiters to the DeepSeek V3.2/V4 parser (#29008) * chat : add message delimiters to the DeepSeek V3.2/V4 parser Assisted-by: Claude Co-authored-by: Sigbjørn Skjæret **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11020</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11020</guid>
+            <pubDate>Thu, 17 Sep 2026 11:07:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11019]]></title>
+            <description><![CDATA[gguf : align the data section relative to the GGUF start, not the file (#28993) * gguf : align the data section relative to the GGUF start, not the file gguf_init_from_file_ptr reads a GGUF from the current file position, but padded the data section from file offset 0, so a GGUF embedded at an offset that is not a multiple of the alignment loaded without error and returned wrong tensor data. Also adds llama_adapter_lora_init_from_file_ptr, and disables mmap with a warning when an embedded data section is not aligned, instead of asserting in ggml. Assisted-by: Claude Opus 5 * llama : load lora from path through the FILE* variant The test now checks that mmap is disabled only for an unaligned offset. Assisted-by: Claude Fable 5.1 * Update ggml/src/gguf.cpp Co-authored-by: Johannes Gäßler * Update include/llama.h Co-authored-by: Johannes Gäßler * llama : error on unaligned mmap of an embedded GGUF, drop test-load-file-ptr --------- Co-authored-by: Johannes Gäßler **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11019</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11019</guid>
+            <pubDate>Thu, 17 Sep 2026 10:35:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11018]]></title>
+            <description><![CDATA[sycl : fix the B70 mem allocate error when >19.3GB (#28953) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11018</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11018</guid>
+            <pubDate>Thu, 17 Sep 2026 09:58:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11017]]></title>
+            <description><![CDATA[vulkan: skip unneeded MoE work in mul_mm coopmat1 path (#25483) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11017</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11017</guid>
+            <pubDate>Thu, 17 Sep 2026 09:27:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b11016]]></title>
             <description><![CDATA[sycl: ssm_conv: fuse the SiLU epilogue into the ssm_conv kernel (#28929) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -375,8 +452,8 @@
         <item>
             <title><![CDATA[v0.34.2]]></title>
             <description><![CDATA[## What's Changed * llama.cpp updates **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1</guid>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2</guid>
             <pubDate>Tue, 15 Sep 2026 21:21:07 GMT</pubDate>
         </item>
         <item>
@@ -1227,27 +1304,6 @@
             <pubDate>Wed, 09 Sep 2026 17:29:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b10881]]></title>
-            <description><![CDATA[vulkan: Convert FILL to distribute workgroups in 2D to avoid exceeding maxComputeWorkGroupCount (#28592) * divide workload to 2D This is to workaround FILL exceeding maxComputeWorkGroupCount for Intel GPUs on Qwen 3.8 flash next * minor change * Fixed comment **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10881</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10881</guid>
-            <pubDate>Wed, 09 Sep 2026 15:32:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10878]]></title>
-            <description><![CDATA[llama : use int32_t for llama_sampler_chain_n return type (#28631) Contributes to #4574 Co-authored-by: linsen **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10878</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10878</guid>
-            <pubDate>Wed, 09 Sep 2026 13:23:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10877]]></title>
-            <description><![CDATA[CUDA: size routed MoE MMQ N-tiles from typical expert width on RDNA3 (#28552) Recreated from #24546 --------- Co-authored-by: Carl Philipp Klemm * CUDA: pick MMQ tile size against ncols_opt set on the host side Assisted-by: Claude Fable 5.1 Claude-Session: https://claude.ai/code/session_011SYPfRhKoUpU3gMsGxq6go --------- Co-authored-by: ravel7524 <58877666+ravel7524@users.noreply.github.com> Co-authored-by: Carl Philipp Klemm **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10877</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10877</guid>
-            <pubDate>Wed, 09 Sep 2026 12:53:34 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.22.2]]></title>
             <description><![CDATA[## What's Changed * feat: support current image generation tool options by @seratch in https://github.com/openai/openai-agents-python/pull/4932 * fix(sandbox): prevent UnixLocal file API symlink races by @seratch in https://github.com/openai/openai-agents-python/pull/4931 * fix(sessions): reset compaction response chain after pop by @rksharma-owg in https://github.com/openai/openai-agents-python/pull/4934 ### Documentation & Other Changes * docs: document v0.22.1 behavior updates by @seratch in https://github.com/openai/openai-agents-python/pull/4577 * release: 0.22.2 by @seratch in https://github.com/openai/openai-agents-python/pull/4935 **Full Changelog**: https://github.com/openai/openai-agents-python/compare/v0.22.1...v0.22.2]]></description>
             <link>https://github.com/openai/openai-agents-python/releases/tag/v0.22.2</link>
@@ -1260,34 +1316,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.1</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.1</guid>
             <pubDate>Wed, 09 Sep 2026 11:51:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10876]]></title>
-            <description><![CDATA[CUDA: replace GGML_FA_ALL_QUANTS with GGML_FA_QUANTS, more control over what is compiled (#28079) * CUDA: add configurable FA quant combinations Assisted-by: Codex * remove all flags but , add runtime fallback with warning for uncompiled combination * Update docs/build.md Co-authored-by: Johannes Gäßler * apply code review comments --------- Co-authored-by: Johannes Gäßler **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10876</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10876</guid>
-            <pubDate>Wed, 09 Sep 2026 11:45:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10875]]></title>
-            <description><![CDATA[args: officially deprecate --mmap|mlock|dio (#28334) Signed-off-by: Aaron Teo **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10875</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10875</guid>
-            <pubDate>Wed, 09 Sep 2026 11:14:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10874]]></title>
-            <description><![CDATA[model: fix granite3 moe unknown parameter count (#28632) Signed-off-by: Aaron Teo **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10874</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10874</guid>
-            <pubDate>Wed, 09 Sep 2026 09:55:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10873]]></title>
-            <description><![CDATA[mtmd: propagate video ID to bitmap (#28601) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10873</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10873</guid>
-            <pubDate>Wed, 09 Sep 2026 09:21:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.154.0-alpha.11]]></title>
@@ -1316,27 +1344,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.2</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.10.2</guid>
             <pubDate>Wed, 09 Sep 2026 07:55:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10872]]></title>
-            <description><![CDATA[jinja: treat a null left operand of in as a plain lookup (#28620) Templates that default an optional variable to none and then test its membership in a map hit an error, while the same expression is a normal lookup returning false in Jinja. The undefined counterpart of this case was already handled just above. **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10872</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10872</guid>
-            <pubDate>Wed, 09 Sep 2026 07:44:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10871]]></title>
-            <description><![CDATA[vulkan: add dedicated iq4_xs mat-vec shader (#28426) * vulkan: add dedicated iq4_xs mat-vec shader Dedicated mul_mat_vec_iq4_xs for the dmmv path, replacing the generic fallback. ~+6-17% token generation on RDNA4 depending on model. Assisted-by: Pi agent with Qwen3.8 27B * vulkan iq4_xs: remove dead n_it unroll branch Remove the n_it <= 8 experimental branch that attempted to fully unroll the block loop. Since n_it is a runtime value, [[unroll]] is ignored by the compiler, making both branches equivalent. Kept the simple loop matching mul_mat_vec_iq3_s.comp. **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10871</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10871</guid>
-            <pubDate>Wed, 09 Sep 2026 07:17:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10870]]></title>
-            <description><![CDATA[vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 (#27471) * vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 * simplify mmp selection in mul_mat_id per review comment * vulkan: enable f16 B-type pipeline for dense matmul on all vendors (MoE stays Intel-only) * vulkan: add missing ocp_fp4 branches, restrict required_subgroup_size to Intel, fix mmp selection * refine mmp selection in mul_mat_id * add f16B pipeline selection just like q8_1 * update f16B pipeline selection in dense function **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) (preview) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10870</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10870</guid>
-            <pubDate>Wed, 09 Sep 2026 06:38:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.102.0-dev.1]]></title>
@@ -14317,13 +14324,6 @@
             <link>https://github.com/vllm-project/vllm/releases/tag/v0.2.2</link>
             <guid isPermaLink="false">https://github.com/vllm-project/vllm/releases/tag/v0.2.2</guid>
             <pubDate>Sun, 19 Nov 2023 05:58:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.10.5]]></title>
-            <description><![CDATA[These are the release notes for GPTMe version v0.10.5. # Contributors Thanks to everyone who contributed to this release: @erikbjare # Changelog Changes since v0.10.4: ## 📦 gptme ### 🐛 Fixes (4) - fix: fixed regression in 78e5f52 (7160b97) - fix: output stdout/stderr directly for shell commands, to indicate progress (be40f10) - fix: fixed handling codeblocks that contain triple backticks (78e5f52) - fix: fix uncaught assert when patching missing file (fixes #39) (e34fb2c) ### 🔨 Misc (2) - docs: added link to issue (0a0f7ca) - test: added complex plotting example to test-integration.sh (3c1524e) **Full Changelog**: https://github.com/ErikBjare/gptme/compare/v0.10.4...v0.10.5]]></description>
-            <link>https://github.com/gptme/gptme/releases/tag/v0.10.5</link>
-            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.10.5</guid>
-            <pubDate>Sat, 18 Nov 2023 10:40:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.18.0]]></title>

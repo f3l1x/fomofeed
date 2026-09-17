@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 09:06:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 17:54:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 17 Sep 2026 00:12:02 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,12 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.274</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.274</guid>
             <pubDate>Thu, 17 Sep 2026 00:12:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing the Life Sciences Verification Program]]></title>
+            <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/life-sciences-verification-program</guid>
+            <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.273]]></title>
@@ -429,12 +435,6 @@
             <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</guid>
             <pubDate>Mon, 27 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Our position on open-weights models]]></title>
-            <link>https://www.anthropic.com/news/position-open-weights-models</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/position-open-weights-models</guid>
-            <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.220]]></title>
