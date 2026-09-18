@@ -4,16 +4,16 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 20:49:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 08:39:08 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 15 Sep 2026 21:21:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.34.2]]></title>
-            <description><![CDATA[## What's Changed * llama.cpp updates **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3</guid>
+            <description><![CDATA[## What's Changed - Added first-run setup when running ollama, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. - Added ollama://apps to open the desktop app’s Apps page directly on macOS and Windows. - Fixed excessive memory growth during long generations with MLX speculative decoding. - Updated llama.cpp. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.34.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.2</guid>
             <pubDate>Tue, 15 Sep 2026 21:21:07 GMT</pubDate>
         </item>
         <item>

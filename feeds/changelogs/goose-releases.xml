@@ -4,13 +4,14 @@
         <description><![CDATA[RSS feed for Goose Releases]]></description>
         <link>https://github.com/block/goose/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 17 Sep 2026 20:49:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 08:39:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/goose-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 17 Sep 2026 19:15:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v1.51.0]]></title>
+            <description><![CDATA[## ✨ Features - Route Desktop to state-machine loop via ACP prompt meta #11247 - EUrouter as a declarative provider #11619 - Connect external backend ACP socket to redirect-resolved backend URL #11829 - GPT-live API support #12011 - Operator allowlist for gateway pairing #11979 - Opt-in terminal bell when a turn finishes or approval is needed #10182 - Report real cause of external backend connection failures #11828 - Scope Toolshim to custom providers #11414 ## 🐛 Bug Fixes - Treat auto-compact 100% as disabled #11932 - Validate recipes consistently in scheduler #11561 - MCP preferred version and HTTP retries #12066 - Require Developer extension for doctor command #11437 - Keep streamed thinking ahead of text and tool calls #11837 - Preserved-thinking compliance for Anthropic provider layer #11836 - Context management dependency resolution #11768 - Stop mapping Astra Off to reasoning.effort none #11976 - Return failure for interrupted headless runs #11938 - Send session ID header for OpenCode Go #11944 - Pair Google functionResponse names with preceding request #11888 - Show output for failed tool calls in desktop #11940 - Translate session actions menu in missing locales #11894 - Stop re-nudging on every tool call for goals #11697 - Bound image response bodies in developer extension #11411 - Bind MCP app tools to extension owners #11416 - Protect gateway pairing codes #11427 - Bound local audio resampling for dictation #11379 - Restrict session storage permissions #11613 - Build recipes from one validated snapshot #11612 - Filter scheduled session content #11603 - Stream chat completions by default for LiteLLM #11870 ## 🔧 Improvements - Preserve resource links that cannot be inlined in ACP #11941 - Remove planning mode from the CLI #12061 - Remove create recipe command in CLI #11942 - RTL support for chat content #11851 - Use 词元/詞元 for model tokens in Chinese localization #11945 - Guard recipe-before-inference ordering on scheduled runs #11502 ## 📚 Documentation - Remove Inkeep search integration #12085 - Clarify extension directory policy #11923 - RISC-V build support #11933]]></description>
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.51.0</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.51.0</guid>
             <pubDate>Thu, 17 Sep 2026 19:15:25 GMT</pubDate>
