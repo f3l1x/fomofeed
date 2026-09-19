@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 18 Sep 2026 20:15:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 08:26:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 15 Sep 2026 21:21:07 GMT</pubDate>
+        <pubDate>Sat, 19 Sep 2026 00:02:57 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.34.3]]></title>
+            <description><![CDATA[## What's Changed GET /api/show now advertises each model's thinking controls and default: * **Nemotron H** vision models are now supported on Apple Silicon with MLX * Ollama's macOS app will now no longer reopen windows you've closed when activating it * Fix for model pulls from HuggingFace **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.2...v0.34.3-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1</guid>
+            <pubDate>Sat, 19 Sep 2026 00:02:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.34.2]]></title>
             <description><![CDATA[## What's Changed - Added first-run setup when running ollama, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. - Added ollama://apps to open the desktop app’s Apps page directly on macOS and Windows. - Fixed excessive memory growth during long generations with MLX speculative decoding. - Updated llama.cpp. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.6</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.6</guid>
             <pubDate>Wed, 15 Oct 2025 23:02:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.5]]></title>
-            <description><![CDATA[## What's Changed * Thinking models now support structured outputs when using the /api/chat API * Ollama's app will now wait until Ollama is running to allow for a conversation to be started * Fixed issue where "think": false would show an error instead of being silently ignored * Fixed deepseek-r1 output issues * macOS 12 Monterey and macOS 13 Ventura are no longer supported * AMD gfx900 and gfx906 (MI50, MI60, etc) GPUs are no longer supported via ROCm. We're working to support these GPUs via Vulkan in a future release. ## New Contributors * @shengxinjing made their first contribution in https://github.com/ollama/ollama/pull/12415 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.4...v0.12.5-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.5</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.5</guid>
-            <pubDate>Fri, 10 Oct 2025 16:30:53 GMT</pubDate>
         </item>
     </channel>
 </rss>

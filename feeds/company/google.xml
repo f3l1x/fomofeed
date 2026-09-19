@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 18 Sep 2026 20:17:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 08:28:02 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 18 Sep 2026 01:23:37 GMT</pubDate>
+        <pubDate>Sat, 19 Sep 2026 01:25:15 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.62.0-nightly.20260919.gcfbcaa8df]]></title>
+            <description><![CDATA[## What's Changed * chore/release: bump version to 0.62.0-nightly.20260918.g9450ade79 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29383 * fix(core): synchronize ConPTY process exit lifecycle and harden PTY output finalization by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29379 * fix(cli): suppress uncaught AbortError logs during request cancellation by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29343 * fix(core,cli): improve terminal buffer memory management and format Windows diagnostic paths by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29380 * fix(vscode-ide-companion): preserve terminal focus when closing diff tabs by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29378 * fix(core): update auth error documentation link to valid anchor and add fallback (#26140) by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29377 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260918.g9450ade79...v0.62.0-nightly.20260919.gcfbcaa8df]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260919.gcfbcaa8df</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260919.gcfbcaa8df</guid>
+            <pubDate>Sat, 19 Sep 2026 01:25:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.62.0-nightly.20260918.g9450ade79]]></title>
             <description><![CDATA[## What's Changed * fix(core): retain oauth refresh token on refresh and make credential deletion idempotent by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29339 * fix(ui): guard against negative layout dimensions in border rendering by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29347 * test(integration): deflake run_shell_command and file-system-interactive tests by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29185 * fix(core): improve PTY file descriptor cleanup and execution lifecycle management by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29340 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260917.g6a466a7e2...v0.62.0-nightly.20260918.g9450ade79]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260629.gae0a3aa7b</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260629.gae0a3aa7b</guid>
             <pubDate>Mon, 29 Jun 2026 01:48:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.51.0-nightly.20260628.gae0a3aa7b]]></title>
-            <description><![CDATA[## What's Changed * fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260626.gb14416447...v0.51.0-nightly.20260628.gae0a3aa7b]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260628.gae0a3aa7b</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260628.gae0a3aa7b</guid>
-            <pubDate>Sun, 28 Jun 2026 01:45:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why client SDK generation belongs in the open]]></title>
