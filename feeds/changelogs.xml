@@ -4,11 +4,81 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Sep 2026 20:08:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 09:31:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 20 Sep 2026 15:19:21 GMT</pubDate>
+        <pubDate>Mon, 21 Sep 2026 09:07:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.96.0]]></title>
+            <description><![CDATA[# Themes and more! This release is *HUGE* and we are so excited to share what our team and contributors have done! ## The long awaited feature! Crush now has themes! 🎨 Open the new Themes dialog from the command palette to switch looks with live preview, try the built-in Gruvbox Dark, or create and edit your own custom palettes right inside the TUI. Thank @meowgorithm and @gurnben for this feature! ## QoL and fixes Small changes but no less important. * Hypercredits are now displayed in real time! * Added spaces to errors in chat by @taciturnaxolotl * Increased default timeout to 2 minutes by @andreynering * Fixed extended help, while in a mode by @meowgorithm * Fixed wrapping while displaying the plan * Fixed syntax highlighting on long bash calls by @taciturnaxolotl * More bang mode and bash tools improvement also by our favorite @taciturnaxolotl See more below! Happy week! Charm XX 💫 ## Changelog ### New! * b07464e98e61248469ca2307ceb30520b1316d5b: feat(hyper): live display of hypercredits (#3699) (@andrinoff) * f38b7947fd52b635b84f9b4ce70713675534080c: feat: add theme support (#3884) (@gurnben) ### Fixed * 051fb37ae1d6bd6d6f2f6cbc8a629d5f85aa9bd7: fifix(ui): color the to-do task name while the tool is still running (@taciturnaxolotl) * b8e93d119273032cb51cb249d87ca994d61fe7e5: fix(bash): let the agent recover truncated tool output (@taciturnaxolotl) * 10ec02a58c581c060aaa52279347bf716ad7ef08: fix(shell): bound bang-mode output and spill the rest to a file (@taciturnaxolotl) * 2019da14717e4e00aeee7664873c6b78f147a3eb: fix(tui): unfreeze spinner clock when the boot busy probe lands (#3839) (@andreynering) * 242b4d3aaa024e26937f7579869d81e007c17c42: fix(ui): drop the empty gap under a failed edit (#3851) (@taciturnaxolotl) * e41ae8ee78dafe884eb4f6e18ffd38d3d6d706e5: fix(ui): keep syntax highlighting across a wrapped tool parameter (#3850) (@taciturnaxolotl) * eb845a9eacd25c5ce6522ae90c82289f43b5833d: fix(ui): nudge the yolo/plan badges + align help (#3863) (@meowgorithm) * fd58b5ed201f490641d018cab6f06a29cdaff2c0: fix(ui): read the session transcript off the event loop (@taciturnaxolotl) * 87a5bbd874d4d78a506237ba4b6d94d8a4f5b59e: fix(ui): set the finish banner off from the message above it (#3815) (@taciturnaxolotl) * 9636af6446be2274b9b5b048c1d122ebad9c7b41: fix: wrapping in plan display (#3888) (@andrinoff) ### Other stuff * 239d00630d719b8cc8838806201ae9205c12466e: chore: auto-update files (@charmcli) * 3bc8ff4fc76ef38fbecf3f6df338fce3d1616001: chore: auto-update files (@charmcli) * 27a53ef82b8b63817f92540d37850482dd9daddd: chore: auto-update files (@charmcli) * 591167920d6850effe669c423d8e76b184057570: chore: bump devShell to Go 1.27 (#3832) (@LarsArtmann) * 460653aa2599329a99b9c0d493e53e0f356d8ea5: chore: double default request timeout from 60 to 120 seconds (#3862) (@andreynering) * d55e017d60cdb87ecb21a19a9fed9a2097c0da64: perf(agent): read only the post-summary tail of a compacted session (@taciturnaxolotl) * 978d49d53f9343f2e57406cc503daddf282e12ae: perf(db): cap prompt history at the 200 most recent messages (@taciturnaxolotl) * 296b5c396260ece70fdceed288ed25c7a99ba349: perf(db): index messages by role so user-message reads stop scanning (@taciturnaxolotl) * 595f625f19a6a186307b911d59dd37c764541251: perf(message): decode message parts in one structural pass (@taciturnaxolotl) * 9207cb2c053ecbe3ec5c0c3985b746877c1f322d: perf(ui): skip the global prompt-history scan when a session is loading (@taciturnaxolotl) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.96.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.96.0</guid>
+            <pubDate>Mon, 21 Sep 2026 09:07:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11067]]></title>
+            <description><![CDATA[webgpu : add fused gdn + cpy (#28976) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11067</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11067</guid>
+            <pubDate>Mon, 21 Sep 2026 08:15:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.156.0-alpha.14]]></title>
+            <description><![CDATA[Release 0.156.0-alpha.14]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.14</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.14</guid>
+            <pubDate>Mon, 21 Sep 2026 04:09:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.156.0-alpha.13]]></title>
+            <description><![CDATA[Release 0.156.0-alpha.13]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.13</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.13</guid>
+            <pubDate>Mon, 21 Sep 2026 02:15:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Release v0.62.0-nightly.20260921.gcfbcaa8df]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260920.gcfbcaa8df...v0.62.0-nightly.20260921.gcfbcaa8df]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260921.gcfbcaa8df</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260921.gcfbcaa8df</guid>
+            <pubDate>Mon, 21 Sep 2026 01:32:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Mon, 21 Sep 2026 01:05:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.156.0-alpha.12]]></title>
+            <description><![CDATA[Release 0.156.0-alpha.12]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.12</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.12</guid>
+            <pubDate>Mon, 21 Sep 2026 00:06:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.156.0-alpha.11]]></title>
+            <description><![CDATA[Release 0.156.0-alpha.11]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.11</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.11</guid>
+            <pubDate>Sun, 20 Sep 2026 22:49:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11065]]></title>
+            <description><![CDATA[CUDA: tune FA for Gemma 4 on Ampere or newer (#29152) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11065</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11065</guid>
+            <pubDate>Sun, 20 Sep 2026 21:52:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.156.0-alpha.10]]></title>
+            <description><![CDATA[Release 0.156.0-alpha.10]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.10</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.10</guid>
+            <pubDate>Sun, 20 Sep 2026 21:18:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b11064]]></title>
             <description><![CDATA[metal : support arbitrary hc in dsv4_hc_pre (#29169) the dsv4_hc_pre kernels hardcoded hc = 4 via a constexpr used with simd_shuffle, so the op was rejected by supports_op for any other hc and fell back to CPU. Kimi-K3 uses dsv4_hc_pre with hc equal to the number of banked checkpoints in the cross-layer residual stack, which grows with the layer index. pass n_hc as a function constant (FC_DSV4_HC) with per-n_hc pipeline variants, and loop over it in both pre kernels with direct loads add test-backend-ops cases for hc = 1, 2, 3, 5, 8 and 65, gated and not gated Assisted-by: pi:llama.cpp/Qwen3.8-27B **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.3 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -57,13 +127,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260920.gcfbcaa8df</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260920.gcfbcaa8df</guid>
             <pubDate>Sun, 20 Sep 2026 01:25:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Sun, 20 Sep 2026 00:59:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.156.0-alpha.9]]></title>
@@ -1281,20 +1344,6 @@
             <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10929</link>
             <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10929</guid>
             <pubDate>Sat, 12 Sep 2026 12:28:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10927]]></title>
-            <description><![CDATA[vendor : update cpp-httplib to 0.56.0 (#28787) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10927</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10927</guid>
-            <pubDate>Sat, 12 Sep 2026 10:57:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b10926]]></title>
-            <description><![CDATA[syscl : Handle (fail gracefully) unsupported tq1_0 quants (#28681) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) **Android:** - Android arm64 (CPU) **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.3 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10926</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b10926</guid>
-            <pubDate>Sat, 12 Sep 2026 10:30:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.94.1]]></title>
@@ -2648,20 +2697,6 @@
             <pubDate>Mon, 24 Aug 2026 00:59:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.149.1]]></title>
-            <description><![CDATA[## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.149.0...rust-v0.149.1]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.149.1</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.149.1</guid>
-            <pubDate>Mon, 24 Aug 2026 00:28:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.149.0-alpha.4.3]]></title>
-            <description><![CDATA[Release 0.149.0-alpha.4.3]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.4.3</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.4.3</guid>
-            <pubDate>Sun, 23 Aug 2026 23:29:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v4.1.15]]></title>
             <description><![CDATA[Everything here lands through the SDK bundle, so it applies to windows running that bundle. ### Fixed - Auto-approve every MCP tool call while the "Use MCP servers" toggle is on. The toggle only took effect on tools that had also been opted in individually, so turning it on appeared to do nothing; it now governs all MCP tools on its own. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.14...v4.1.15]]></description>
             <link>https://github.com/cline/cline/releases/tag/v4.1.15</link>
@@ -2725,13 +2760,6 @@
             <pubDate>Sat, 22 Aug 2026 23:45:18 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[0.150.0-alpha.7]]></title>
-            <description><![CDATA[Release 0.150.0-alpha.7]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.7</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.7</guid>
-            <pubDate>Sat, 22 Aug 2026 21:26:34 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.91.0]]></title>
             <description><![CDATA[# Text selection and better mouse support Just a few QOL improvements to the prompt editor and session picker for the weekend! ## Text selection Hold shift and use the arrow keys or click and drag with your mouse to select text in the prompt editor. From there, you can use any of the fancy new shortcuts 👀 * ctrl+shift+a selects everything * ctrl+shift+c copies the selection * ctrl+shift+x cuts the selection * ctrl+shift+v pastes text Typing or pasting over selected text replaces it. ## Mouse support in the session picker We've been missing mouse support in the session picker for too long! You can now scroll through sessions with the mouse wheel, click an entry to select it, or double-click to open it. ## A small Windows fix Pressing a modifier key by itself could send some dialogs back to the top on Windows. They should stay put now. Keep crushing! Charm 💌 ## Changelog ### New! * 08552fb918a3b6247c2f8366d330f3b7f02fc891: feat: textarea selection (#3507) (@andrinoff) * 90bc466d6f35b120070b6fd8a73f4262f155086a: session picker: add mouse support (@Amolith) ### Fixed * 8661a1c4baa171f49b6f7ab3d4db7836cf5b5548: fix(windows): scrolling up on modifier keys alone (#3598) (@andrinoff) ### Other stuff * 37f36e93824e5c4f892e4a817f7f628e2682fe14: chore: auto-update files (@charmcli) * 7d78d7422a92918441a68d01d96d48fa3b9fd9db: chore: standardize go toolchain on v1.26.6 (#3592) (@aleksclark) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.91.0</link>
@@ -2744,13 +2772,6 @@
             <link>https://github.com/cline/cline/releases/tag/v4.1.13</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.13</guid>
             <pubDate>Sat, 22 Aug 2026 20:23:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.149.0-alpha.7.2]]></title>
-            <description><![CDATA[Release 0.149.0-alpha.7.2]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.7.2</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.149.0-alpha.7.2</guid>
-            <pubDate>Sat, 22 Aug 2026 19:48:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.240]]></title>
@@ -2772,13 +2793,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.33.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.33.0</guid>
             <pubDate>Fri, 21 Aug 2026 22:52:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.150.0-alpha.6]]></title>
-            <description><![CDATA[Release 0.150.0-alpha.6]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.6</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.6</guid>
-            <pubDate>Fri, 21 Aug 2026 22:42:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v4.1.12]]></title>
@@ -5537,13 +5551,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.197</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.197</guid>
             <pubDate>Tue, 30 Jun 2026 17:56:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.51.0-nightly.20260630.gae0a3aa7b]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260629.gae0a3aa7b...v0.51.0-nightly.20260630.gae0a3aa7b]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260630.gae0a3aa7b</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260630.gae0a3aa7b</guid>
-            <pubDate>Tue, 30 Jun 2026 01:54:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v2.1.196]]></title>
@@ -10224,13 +10231,6 @@
             <link>https://github.com/RooCodeInc/Roo-Code/releases/tag/v3.38.0</link>
             <guid isPermaLink="false">https://github.com/RooCodeInc/Roo-Code/releases/tag/v3.38.0</guid>
             <pubDate>Sat, 27 Dec 2025 20:27:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.30.0]]></title>
-            <description><![CDATA[# Skills (to pay the bills?) This release adds support for the Agent Skills open format. Skills are a great, simple way to give the agent new capabilities, and they're automatically loaded on demand so they won't clutter up the context. Anyway, it's a pretty cool feature and we recommend giving it a try! For more info, and some instructions getting started, see the Agent Skills section in the README. See you soon, Charm 💘 ## Changelog ### New! * 1fbe7d48900d8734d4a8c4aaffe734e95f2b786d: feat: agent skills (#1690) (@kujtimiihoxha) ### Fixed * 63a3d831881d76b9a4aab615ba8581498fcb5ae0: fix(tui): guard model selection when list is empty (#1715) (@jamestrew) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.30.0</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.30.0</guid>
-            <pubDate>Sat, 27 Dec 2025 20:17:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Beta Release v1.5.29-beta.20251227]]></title>

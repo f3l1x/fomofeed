@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Sep 2026 20:08:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 09:31:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
