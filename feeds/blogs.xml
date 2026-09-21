@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Sep 2026 09:31:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2026 19:02:11 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Bringing Devin Cloud to your terminal]]></title>
+            <description><![CDATA[Starting today, you can create, steer, resume, and watch your Devin Cloud sessions right from your favorite terminal. Just use devin --cloud or /cloud.]]></description>
+            <link>https://windsurf.com/blog/devin-cloud-in-your-terminal</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/devin-cloud-in-your-terminal</guid>
+            <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Code Scans]]></title>
             <description><![CDATA[Code Scans turns broad engineering goals into concrete improvements across your codebase. Tell Devin what you want to achieve, and it investigates what needs to change, evaluates the findings, and turns them into pull requests.]]></description>
@@ -190,10 +197,9 @@
         </item>
         <item>
             <title><![CDATA[Introducing Grok 4.6]]></title>
-            <description><![CDATA[Built for long-running agents and more ambitious interactive and visual work.]]></description>
             <link>https://cursor.com/blog/grok-4-6</link>
             <guid isPermaLink="false">https://cursor.com/blog/grok-4-6</guid>
-            <category><![CDATA[Research]]></category>
+            <category><![CDATA[research]]></category>
             <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -258,20 +264,6 @@
             <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-3</guid>
             <category><![CDATA[Product]]></category>
             <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Cursor Start]]></title>
-            <link>https://cursor.com/blog/cursor-start-india</link>
-            <guid isPermaLink="false">https://cursor.com/blog/cursor-start-india</guid>
-            <category><![CDATA[product]]></category>
-            <pubDate>Mon, 27 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Kimi K3 is now available in Devin]]></title>
-            <description><![CDATA[Kimi K3 is now live in Devin Desktop and Devin CLI. Optimized for long horizon agentic coding, it approaches frontier-level FrontierCode 1.1 performance.]]></description>
-            <link>https://windsurf.com/blog/kimi-k3</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/kimi-k3</guid>
-            <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Classifying a Million Snowflake Columns in 9 Days, Solo, with Dagster]]></title>
