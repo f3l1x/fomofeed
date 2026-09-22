@@ -4,16 +4,16 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 22 Sep 2026 17:51:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 20:43:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 19 Sep 2026 00:02:57 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.34.3]]></title>
-            <description><![CDATA[## What's Changed GET /api/show now advertises each model's thinking controls and default: * **Nemotron H** vision models are now supported on Apple Silicon with MLX * Ollama's macOS app will now no longer reopen windows you've closed when activating it * Fix for model pulls from HuggingFace **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.2...v0.34.3-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1</guid>
+            <description><![CDATA[## What's Changed GET /api/show now advertises each model's thinking controls and default: Available in the CLI with: Available in the API with: Also available on ollama.com directly for cloud models. * **Nemotron H** vision models are now supported on Apple Silicon with MLX * Ollama's macOS app will now no longer reopen windows you've closed when activating it * Fix for model pulls from HuggingFace **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.2...v0.34.3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.34.3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.3</guid>
             <pubDate>Sat, 19 Sep 2026 00:02:57 GMT</pubDate>
         </item>
         <item>

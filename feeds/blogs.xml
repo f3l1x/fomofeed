@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 22 Sep 2026 17:53:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 20:45:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[GPT-6 Sol and GPT-6 Luna are now available in Devin]]></title>
+            <description><![CDATA[OpenAI released GPT-6 Sol and GPT-6 Luna. Both are live now in Devin Desktop and Devin CLI. On FrontierCode 1.1, Sol matches GPT-5.6 Sol at 61% lower cost per task, and Luna beats GPT-5.6 Luna at a quarter of the cost, making it the cheapest model on the leaderboard.]]></description>
+            <link>https://windsurf.com/blog/gpt-6-sol-luna</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gpt-6-sol-luna</guid>
+            <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude Opus 5.5 is now available in Devin]]></title>
             <description><![CDATA[Claude Opus 5.5 is now live in Devin Desktop and Devin CLI. It is the new #1 on FrontierCode 1.1, edging out Fable 5 and GPT-6 Astra at less than a tenth of the cost of Fable 5.]]></description>
@@ -173,13 +180,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/joining-spacex</guid>
             <category><![CDATA[Company]]></category>
             <pubDate>Thu, 13 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gemini 3.7 Flash is now available in Devin]]></title>
-            <description><![CDATA[Gemini 3.7 Flash is now live in Devin Desktop and Devin CLI, reaching Claude Sonnet 5-level performance at less than half the cost. Available at a 50% discount for two weeks.]]></description>
-            <link>https://windsurf.com/blog/gemini-37-flash</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gemini-37-flash</guid>
-            <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Firetiger joins Cursor]]></title>
