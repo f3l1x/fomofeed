@@ -4,23 +4,30 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 22 Sep 2026 08:58:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 17:53:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Bringing Devin Cloud to your terminal]]></title>
-            <description><![CDATA[Starting today, you can create, steer, resume, and watch your Devin Cloud sessions right from your favorite terminal. Just use devin --cloud or /cloud.]]></description>
-            <link>https://windsurf.com/blog/devin-cloud-in-your-terminal</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/devin-cloud-in-your-terminal</guid>
-            <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
+            <title><![CDATA[Claude Opus 5.5 is now available in Devin]]></title>
+            <description><![CDATA[Claude Opus 5.5 is now live in Devin Desktop and Devin CLI. It is the new #1 on FrontierCode 1.1, edging out Fable 5 and GPT-6 Astra at less than a tenth of the cost of Fable 5.]]></description>
+            <link>https://windsurf.com/blog/claude-opus-5-5</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/claude-opus-5-5</guid>
+            <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Grok 4.7 is now available in Devin]]></title>
             <description><![CDATA[Grok 4.7 is now live in Devin Desktop and the Devin CLI. On FrontierCode 1.1 it is strongest on hard, multi-module backend tasks, and trails Grok 4.6 on the aggregate because it tends to over-scope.]]></description>
             <link>https://windsurf.com/blog/grok-4-7</link>
             <guid isPermaLink="false">https://windsurf.com/blog/grok-4-7</guid>
+            <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bringing Devin Cloud to your terminal]]></title>
+            <description><![CDATA[Starting today, you can create, steer, resume, and watch your Devin Cloud sessions right from your favorite terminal. Just use devin --cloud or /cloud.]]></description>
+            <link>https://windsurf.com/blog/devin-cloud-in-your-terminal</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/devin-cloud-in-your-terminal</guid>
             <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/gemini-37-flash</link>
             <guid isPermaLink="false">https://windsurf.com/blog/gemini-37-flash</guid>
             <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Grok 4.6 is now available in Devin]]></title>
-            <description><![CDATA[Grok 4.6 is now live in Devin Desktop and the Devin CLI, marking a significant improvement over Grok 4.5 on FrontierCode 1.1.]]></description>
-            <link>https://windsurf.com/blog/grok-4-6</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/grok-4-6</guid>
-            <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>

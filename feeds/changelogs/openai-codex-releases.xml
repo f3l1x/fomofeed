@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 22 Sep 2026 08:56:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 17:51:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 22 Sep 2026 07:00:44 GMT</pubDate>
+        <pubDate>Tue, 22 Sep 2026 12:34:27 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.157.0-alpha.8]]></title>
+            <description><![CDATA[Release 0.157.0-alpha.8]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.8</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.8</guid>
+            <pubDate>Tue, 22 Sep 2026 12:34:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.157.0-alpha.7]]></title>
             <description><![CDATA[Release 0.157.0-alpha.7]]></description>
@@ -679,13 +686,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.6</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.6</guid>
             <pubDate>Thu, 27 Aug 2026 12:31:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.150.0-alpha.12.2]]></title>
-            <description><![CDATA[Release 0.150.0-alpha.12.2]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.12.2</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.12.2</guid>
-            <pubDate>Thu, 27 Aug 2026 07:22:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.151.0-alpha.5]]></title>
