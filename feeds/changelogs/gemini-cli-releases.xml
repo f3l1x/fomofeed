@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Sep 2026 19:00:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 08:56:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 21 Sep 2026 01:32:58 GMT</pubDate>
+        <pubDate>Tue, 22 Sep 2026 01:33:34 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.62.0-nightly.20260922.gd5b3e3acc]]></title>
+            <description><![CDATA[## What's Changed * fix(core): normalize proxy-agent esbuild interop for environment proxy resolution by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29401 * fix(cli): emit tool_call update prior to request_permission in ACP mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29439 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260921.gcfbcaa8df...v0.62.0-nightly.20260922.gd5b3e3acc]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260922.gd5b3e3acc</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260922.gd5b3e3acc</guid>
+            <pubDate>Tue, 22 Sep 2026 01:33:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.62.0-nightly.20260921.gcfbcaa8df]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260920.gcfbcaa8df...v0.62.0-nightly.20260921.gcfbcaa8df]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260702.gff00dacd9</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260702.gff00dacd9</guid>
             <pubDate>Thu, 02 Jul 2026 01:44:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.51.0-nightly.20260701.g7f00c5fe5]]></title>
-            <description><![CDATA[## What's Changed * fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053 * feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015 ## New Contributors * @chadd28 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28015 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260630.gae0a3aa7b...v0.51.0-nightly.20260701.g7f00c5fe5]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260701.g7f00c5fe5</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260701.g7f00c5fe5</guid>
-            <pubDate>Wed, 01 Jul 2026 01:49:23 GMT</pubDate>
         </item>
     </channel>
 </rss>

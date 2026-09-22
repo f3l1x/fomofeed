@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Sep 2026 19:00:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 08:56:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 17 Sep 2026 07:15:18 GMT</pubDate>
+        <pubDate>Tue, 22 Sep 2026 01:50:44 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.21.0]]></title>
+            <description><![CDATA[## 1.21.0 (2026-09-22) ## What's Changed ### Features * feat: request Docker execution workspaces from Docker servers by @neubig in https://github.com/OpenHands/OpenHands/pull/17177 ### Bug Fixes * fix: prevent stale conversation history merges by @adbcodes in https://github.com/OpenHands/OpenHands/pull/16913 * fix: query the Forgejo host for Forgejo PR and issue lists by @Harsh23Kashyap in https://github.com/OpenHands/OpenHands/pull/17486 * fix(apps): accept GitHub tree URLs as app source by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/17504 * fix: Disable PostHog autocapture by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/17502 * fix(static-server): serve current assets after rebuilding Canvas by @neubig in https://github.com/OpenHands/OpenHands/pull/17402 * fix: show non-resumable local conversations as archived by @neubig in https://github.com/OpenHands/OpenHands/pull/17500 * fix: advertise host services to Docker conversations by @neubig in https://github.com/OpenHands/OpenHands/pull/17518 ### Documentation * docs: refresh AGENTS.md guidance by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/17590 * docs(codereview): clarify Agent Canvas checkpoints by @neubig in https://github.com/OpenHands/OpenHands/pull/17523 ### Maintenance * chore: consume SDK 1.49.2 and Automation 1.13.2 by @neubig in https://github.com/OpenHands/OpenHands/pull/17515 * test: cover draft persistence by @aivong-openhands in https://github.com/OpenHands/OpenHands/pull/17334 * test: strengthen LLM profile configuration by @aivong-openhands in https://github.com/OpenHands/OpenHands/pull/17338 * test: strengthen shared utility behavior by @aivong-openhands in https://github.com/OpenHands/OpenHands/pull/17341 * test: cover MCP config utilities by @aivong-openhands in https://github.com/OpenHands/OpenHands/pull/17344 * chore: remove merged PR artifacts by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/17507 * refactor(shadcn-lint): agentic linting - first pass, map --oh-* tokens into the Tailwind theme by @smolpaws in https://github.com/OpenHands/OpenHands/pull/17435 * chore: consume SDK 1.49.3 and Automation 1.13.3 by @neubig in https://github.com/OpenHands/OpenHands/pull/17600 ## New Contributors * @Harsh23Kashyap made their first contribution in https://github.com/OpenHands/OpenHands/pull/17486 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.20.0...v1.21.0 --- This PR was generated with Release Please. See documentation.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.21.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.21.0</guid>
+            <pubDate>Tue, 22 Sep 2026 01:50:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.20.0]]></title>
             <description><![CDATA[## 1.20.0 (2026-09-17) ## What's Changed ### Features * feat(agent-profiles): select secrets available to a profile by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/17237 * feat: forward Docker conversation runtime settings by @neubig in https://github.com/OpenHands/OpenHands/pull/17462 * feat(automations): select saved agent profiles by @neubig in https://github.com/OpenHands/OpenHands/pull/17396 ### Maintenance * test: isolate Mock-LLM profiles from ambient secrets by @neubig in https://github.com/OpenHands/OpenHands/pull/17482 * chore: bump released agent runtime dependencies by @neubig in https://github.com/OpenHands/OpenHands/pull/17489 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.19.0...v1.20.0 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.24.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.24.0</guid>
             <pubDate>Thu, 13 Feb 2025 15:22:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.23.0 - 2025-02-04]]></title>
-            <description><![CDATA[## What's Changed ### Added * Show LLM retries as they happen and allow resume from Rate-Limited state by @raymyers in https://github.com/All-Hands-AI/OpenHands/pull/6438 * Support o3-mini by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/6570 ### Fixed * Filtering lost+found directory from root of workspace by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/6487 * Fix some situations where conversations could not be resumed after an agent error by @raymyers in https://github.com/All-Hands-AI/OpenHands/pull/6549 * Better error toast handling mechanism by @amanape in https://github.com/All-Hands-AI/OpenHands/pull/6561 ## New Contributors * @ryanpeach made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/6507 * @wolph made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/6582 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.22.0...0.23.0]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.23.0</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.23.0</guid>
-            <pubDate>Tue, 04 Feb 2025 20:54:21 GMT</pubDate>
         </item>
     </channel>
 </rss>

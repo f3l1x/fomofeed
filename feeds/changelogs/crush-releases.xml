@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Sep 2026 19:00:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 08:56:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 21 Sep 2026 16:22:02 GMT</pubDate>
+        <pubDate>Tue, 22 Sep 2026 01:00:35 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Tue, 22 Sep 2026 01:00:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.96.1]]></title>
             <description><![CDATA[# Quick little theme API adjustment Hey! ICYMI we released support for themes a few hours ago. Before they get too widely adopted, we’re making one small breaking API change to the names of keys.: insert_bg -> insert_code_bg delete_bg -> delete_code_bg This is what it looks like in code: See ya! Charm 🎸 ## Changelog ### Other stuff * 56abdfa7f1fa2cbe1e073f553bc10b06598046f9: themes: prefix diff theme keys with diff_ (@meowgorithm) * a88b5735ff056b52eee8d30121b85c8a8ca79601: themes: small adjustments to the key names in the theme API (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -22,13 +29,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.96.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.96.0</guid>
             <pubDate>Mon, 21 Sep 2026 09:07:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Mon, 21 Sep 2026 01:05:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.95.0]]></title>

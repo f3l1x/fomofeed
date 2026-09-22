@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Sep 2026 19:02:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 08:58:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,19 @@
             <link>https://windsurf.com/blog/devin-cloud-in-your-terminal</link>
             <guid isPermaLink="false">https://windsurf.com/blog/devin-cloud-in-your-terminal</guid>
             <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Grok 4.7 is now available in Devin]]></title>
+            <description><![CDATA[Grok 4.7 is now live in Devin Desktop and the Devin CLI. On FrontierCode 1.1 it is strongest on hard, multi-module backend tasks, and trails Grok 4.6 on the aggregate because it tends to over-scope.]]></description>
+            <link>https://windsurf.com/blog/grok-4-7</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/grok-4-7</guid>
+            <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI Evals: Everything You Need to Know]]></title>
+            <link>https://hamel.dev/blog/posts/evals-faq/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-faq/index.html</guid>
+            <pubDate>Fri, 18 Sep 2026 07:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Code Scans]]></title>
@@ -242,13 +255,6 @@
             <link>https://thinkingmachines.ai/blog/a-safe-path-to-open-weights/</link>
             <guid isPermaLink="false">https://thinkingmachines.ai/blog/a-safe-path-to-open-weights/</guid>
             <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Stacked PRs in Devin]]></title>
-            <description><![CDATA[Devin now breaks large tasks into stacks of small, independently reviewable PRs — handling rebasing, conflict resolution, and CI verification for you.]]></description>
-            <link>https://windsurf.com/blog/introducing-pr-stacks</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/introducing-pr-stacks</guid>
-            <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How we set up our cloud agent environment]]></title>
@@ -624,12 +630,6 @@
             <link>https://ollama.com/blog/thinking</link>
             <guid isPermaLink="false">https://ollama.com/blog/thinking</guid>
             <pubDate>Thu, 29 May 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AI Evals: Everything You Need to Know]]></title>
-            <link>https://hamel.dev/blog/posts/evals-faq/index.html</link>
-            <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-faq/index.html</guid>
-            <pubDate>Wed, 28 May 2025 07:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Streaming responses with tool calling]]></title>

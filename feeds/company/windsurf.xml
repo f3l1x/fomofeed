@@ -4,7 +4,7 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 21 Sep 2026 19:02:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 08:58:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,13 @@
             <description><![CDATA[Starting today, you can create, steer, resume, and watch your Devin Cloud sessions right from your favorite terminal. Just use devin --cloud or /cloud.]]></description>
             <link>https://windsurf.com/blog/devin-cloud-in-your-terminal</link>
             <guid isPermaLink="false">https://windsurf.com/blog/devin-cloud-in-your-terminal</guid>
+            <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Grok 4.7 is now available in Devin]]></title>
+            <description><![CDATA[Grok 4.7 is now live in Devin Desktop and the Devin CLI. On FrontierCode 1.1 it is strongest on hard, multi-module backend tasks, and trails Grok 4.6 on the aggregate because it tends to over-scope.]]></description>
+            <link>https://windsurf.com/blog/grok-4-7</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/grok-4-7</guid>
             <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/grok-4-6</link>
             <guid isPermaLink="false">https://windsurf.com/blog/grok-4-6</guid>
             <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Stacked PRs in Devin]]></title>
-            <description><![CDATA[Devin now breaks large tasks into stacks of small, independently reviewable PRs — handling rebasing, conflict resolution, and CI verification for you.]]></description>
-            <link>https://windsurf.com/blog/introducing-pr-stacks</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/introducing-pr-stacks</guid>
-            <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>
