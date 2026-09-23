@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 22 Sep 2026 20:45:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 09:00:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 19 Sep 2026 00:02:57 GMT</pubDate>
+        <pubDate>Wed, 23 Sep 2026 02:24:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.34.4]]></title>
+            <description><![CDATA[## What's Changed * server: fix intermittent "model not found" errors. by @rick-github in https://github.com/ollama/ollama/pull/18438 * server: apply structured outputs in a single pass on thinking models by @jessegross in https://github.com/ollama/ollama/pull/18479 * app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in https://github.com/ollama/ollama/pull/18601 * llama.cpp: version update by @dhiltgen in https://github.com/ollama/ollama/pull/18577 * MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18576 * mlx: select Gemma 4 image resolution dynamically by @dhiltgen in https://github.com/ollama/ollama/pull/18603 * mlx: speed up Qwen 3.8 prompt processing by @dhiltgen in https://github.com/ollama/ollama/pull/18550 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.3...v0.34.4-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0</guid>
+            <pubDate>Wed, 23 Sep 2026 02:24:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.34.3]]></title>
             <description><![CDATA[## What's Changed GET /api/show now advertises each model's thinking controls and default: Available in the CLI with: Available in the API with: Also available on ollama.com directly for cloud models. * **Nemotron H** vision models are now supported on Apple Silicon with MLX * Ollama's macOS app will now no longer reopen windows you've closed when activating it * Fix for model pulls from HuggingFace **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.2...v0.34.3]]></description>
@@ -848,13 +855,6 @@
             <link>https://ollama.com/blog/nvidia-spark-performance</link>
             <guid isPermaLink="false">https://ollama.com/blog/nvidia-spark-performance</guid>
             <pubDate>Wed, 22 Oct 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.6]]></title>
-            <description><![CDATA[## What's Changed * Ollama's app now supports searching when running DeepSeek-V3.1, Qwen3 and other models that support tool calling. * Flash attention is now enabled by default for Gemma 3, improving performance and memory utilization * Fixed issue where Ollama would hang while generating responses * Fixed issue where qwen3-coder would act in raw mode when using /api/generate or ollama run qwen3-coder * Fixed qwen3-embedding providing invalid results * Ollama will now evict models correctly when num_gpu is set * Fixed issue where tool_index with a value of 0 would not be sent to the model ## Experimental Vulkan Support Experimental support for Vulkan is now available when you build locally from source. This will enable additional GPUs from AMD, and Intel which are not currently supported by Ollama. To build locally, install the Vulkan SDK and set VULKAN_SDK in your environment, then follow the developer instructions. In a future release, Vulkan support will be included in the binary release as well. Please file issues if you run into any problems. ## New Contributors * @yajianggroup made their first contribution in https://github.com/ollama/ollama/pull/12377 * @inforithmics made their first contribution in https://github.com/ollama/ollama/pull/11835 * @sbhavani made their first contribution in https://github.com/ollama/ollama/pull/12619 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.5...v0.12.6]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.6</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.6</guid>
-            <pubDate>Wed, 15 Oct 2025 23:02:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[New coding models & integrations]]></title>
