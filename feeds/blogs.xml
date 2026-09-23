@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 23 Sep 2026 09:00:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 18:09:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Devin now works across Microsoft Teams and Microsoft 365]]></title>
+            <description><![CDATA[Native support to @ mention Devin in Microsoft Teams, plus a first-party Microsoft 365 integration that connects Devin to mail, calendar, files, tasks, chats, and your directory.]]></description>
+            <link>https://windsurf.com/blog/microsoft-teams-and-microsoft-365</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/microsoft-teams-and-microsoft-365</guid>
+            <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[GPT-6 Sol and GPT-6 Luna are now available in Devin]]></title>
             <description><![CDATA[OpenAI released GPT-6 Sol and GPT-6 Luna. Both are live now in Devin Desktop and Devin CLI. On FrontierCode 1.1, Sol matches GPT-5.6 Sol at 61% lower cost per task, and Luna beats GPT-5.6 Luna at a quarter of the cost, making it the cheapest model on the leaderboard.]]></description>
@@ -158,13 +165,6 @@
             <link>https://windsurf.com/blog/devins-slack-etiquette</link>
             <guid isPermaLink="false">https://windsurf.com/blog/devins-slack-etiquette</guid>
             <pubDate>Wed, 19 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GPT-5.6 Sol: 70% off in Devin]]></title>
-            <description><![CDATA[GPT-5.6 Sol is available at a 70% discount on Devin Desktop and Devin CLI through October 3, 2026.]]></description>
-            <link>https://windsurf.com/blog/gpt-5-6-sol-promo</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-6-sol-promo</guid>
-            <pubDate>Mon, 17 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Git at any scale]]></title>
@@ -2882,6 +2882,13 @@
             <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
             <pubDate>Tue, 30 Jun 2020 16:28:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DAYJOB: Can Agents Survive a 9 to 5?]]></title>
+            <description><![CDATA[Introducing DAYJOB, Surge AI’s benchmark family for knowledge work agents: realistic requests, complex environments, and end-to-end professional reasoning and judgment.]]></description>
+            <link>https://www.surgehq.ai/blog/dayjob</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/dayjob</guid>
+            <pubDate>Wed, 04 Nov 2020 00:04:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

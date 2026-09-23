@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 23 Sep 2026 09:00:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 18:09:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 23 Sep 2026 01:24:23 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,6 +710,13 @@
             <pubDate>Fri, 03 Jul 2026 01:52:36 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Introducing Support for Local AI Models in the Antigravity SDK]]></title>
+            <description><![CDATA[The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowing a cloud model to act as a lightweight planner while local models securely handle token-intensive tasks—like code auditing and patching—directly on-device. Furthermore, the SDK provides drop-in support for OpenAI-compatible inference servers like Ollama and vLLM, enabling the seamless creation of privacy-first, autonomous local utilities.]]></description>
+            <link>https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</guid>
+            <pubDate>Thu, 09 Jul 2020 21:56:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Colab is now part of your Google AI plan]]></title>
             <description><![CDATA[Unlock premium Google Colab compute with Google AI. Subscribers now get priority accelerators, Premium GPUs, and background execution for long training runs.]]></description>
             <link>https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/</link>
@@ -771,13 +778,6 @@
             <link>https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</guid>
             <pubDate>Sat, 19 Sep 2020 21:07:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Decoding cosmic signals with deep learning and Keras]]></title>
-            <description><![CDATA[Astroparticle physics sits at the exciting intersection of astrophysics and particle physics and stu...]]></description>
-            <link>https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/decoding-cosmic-signals-with-deep-learning-and-keras/</guid>
-            <pubDate>Wed, 08 Jan 2020 19:20:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

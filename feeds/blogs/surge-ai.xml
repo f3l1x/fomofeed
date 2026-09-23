@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 23 Sep 2026 08:58:53 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 18:07:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -372,6 +372,13 @@
             <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
             <pubDate>Tue, 30 Jun 2020 16:28:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DAYJOB: Can Agents Survive a 9 to 5?]]></title>
+            <description><![CDATA[Introducing DAYJOB, Surge AI’s benchmark family for knowledge work agents: realistic requests, complex environments, and end-to-end professional reasoning and judgment.]]></description>
+            <link>https://www.surgehq.ai/blog/dayjob</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/dayjob</guid>
+            <pubDate>Wed, 04 Nov 2020 00:04:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
