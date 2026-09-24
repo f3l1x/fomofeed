@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 24 Sep 2026 08:56:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Sep 2026 18:07:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 24 Sep 2026 01:25:37 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,6 +710,20 @@
             <pubDate>Tue, 07 Jul 2026 01:56:36 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Reproducing OLMo 3 7B Pre-training in MaxText: case study of large scale training on TPUs]]></title>
+            <description><![CDATA[The MaxText team successfully reproduced AI2’s OLMo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.]]></description>
+            <link>https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</guid>
+            <pubDate>Sun, 22 Mar 2020 01:49:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Turn your REST APIs into MCP tools with Google Cloud API Gateway]]></title>
+            <description><![CDATA[Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard REST operations into discoverable, agent-ready tools. The gateway automatically transcodes incoming MCP JSON-RPC requests into REST calls, ensuring that your existing authentication, quotas, and logging policies apply seamlessly to agent traffic without requiring new infrastructure.]]></description>
+            <link>https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/</guid>
+            <pubDate>Wed, 04 Mar 2020 19:49:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Introducing Support for Local AI Models in the Antigravity SDK]]></title>
             <description><![CDATA[The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowing a cloud model to act as a lightweight planner while local models securely handle token-intensive tasks—like code auditing and patching—directly on-device. Furthermore, the SDK provides drop-in support for OpenAI-compatible inference servers like Ollama and vLLM, enabling the seamless creation of privacy-first, autonomous local utilities.]]></description>
             <link>https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</link>
@@ -764,20 +778,6 @@
             <link>https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/</guid>
             <pubDate>Sun, 02 Aug 2020 23:59:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Driving Developer Excellence: Inside the Program Sprints]]></title>
-            <description><![CDATA[The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This recent sprint focused on optimizing enterprise AI governance, including refining setup prerequisites, securing extension configurations, and clarifying policy enforcement mechanics to ensure a smoother, more reliable deployment. Developers can now leverage updated documentation and standardized code samples to improve their experience with Agent Gateway and Semantic Governance configurations.]]></description>
-            <link>https://developers.googleblog.com/driving-developer-excellence-inside-the-program-sprints/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/driving-developer-excellence-inside-the-program-sprints/</guid>
-            <pubDate>Tue, 29 Dec 2020 14:43:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[4 engineering patterns behind the strongest AI Agents Challenge submissions]]></title>
-            <description><![CDATA[The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, strict unified validation for model fallbacks, and tiered routing to minimize expensive inference calls. By prioritizing these structural practices over simple linear prompt chains, developers can build more resilient, low-latency, and cost-effective agentic workflows.]]></description>
-            <link>https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</guid>
-            <pubDate>Sat, 19 Sep 2020 21:07:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
