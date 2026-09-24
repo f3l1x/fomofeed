@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for LiteLLM Releases]]></description>
         <link>https://github.com/BerriAI/litellm/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 23 Sep 2026 18:08:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Sep 2026 08:55:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/litellm-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 23 Sep 2026 07:10:52 GMT</pubDate>
+        <pubDate>Thu, 24 Sep 2026 00:17:20 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.101.2]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #40639 to stable/1.101.x by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/42635 * chore(release): backport #42607 to stable/1.101.x and cut 1.101.2 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/42795 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.101.1...v1.101.2]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.101.2</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.101.2</guid>
+            <pubDate>Thu, 24 Sep 2026 00:17:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.99.3]]></title>
             <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * chore(release): backport #41230 to stable/1.99.x and cut 1.99.2 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/41323 * fix(anthropic): backport #42152 and #42288 to stable/1.99.x for v1.99.2 by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/42531 * feat(typesafe): backport #41607 to stable/1.99.x for v1.99.2 by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/42598 * chore(release): bump stable/1.99.x to 1.99.3 by @devin-ai-integration[bot] in https://github.com/BerriAI/litellm/pull/42682 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.99.1...v1.99.3]]></description>
@@ -680,13 +687,6 @@
             <link>https://github.com/BerriAI/litellm/releases/tag/v1.85.7</link>
             <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.85.7</guid>
             <pubDate>Fri, 26 Jun 2026 18:50:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.84.10]]></title>
-            <description><![CDATA[## What's Changed * chore(release): backport #30787, #30788, #31035, #31122, #31133 to stable/1.84.x and cut 1.84.10 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/31169 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.84.9...v1.84.10]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.84.10</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.84.10</guid>
-            <pubDate>Fri, 26 Jun 2026 18:48:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.89.4]]></title>

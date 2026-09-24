@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 23 Sep 2026 18:09:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Sep 2026 08:56:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -14,6 +14,20 @@
             <description><![CDATA[Native support to @ mention Devin in Microsoft Teams, plus a first-party Microsoft 365 integration that connects Devin to mail, calendar, files, tasks, chats, and your directory.]]></description>
             <link>https://windsurf.com/blog/microsoft-teams-and-microsoft-365</link>
             <guid isPermaLink="false">https://windsurf.com/blog/microsoft-teams-and-microsoft-365</guid>
+            <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Improved token efficiency for longer agent runs]]></title>
+            <link>https://cursor.com/blog/improved-token-efficiency</link>
+            <guid isPermaLink="false">https://cursor.com/blog/improved-token-efficiency</guid>
+            <category><![CDATA[research]]></category>
+            <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bots for the last mile: Rollouts, Security Review]]></title>
+            <link>https://cursor.com/blog/rollouts-and-security-reviewer</link>
+            <guid isPermaLink="false">https://cursor.com/blog/rollouts-and-security-reviewer</guid>
+            <category><![CDATA[product]]></category>
             <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -244,24 +258,10 @@
             <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Mixture-of-Kittens: our open-source MoE megakernel for NVL72s]]></title>
-            <link>https://cursor.com/blog/mixture-of-kittens</link>
-            <guid isPermaLink="false">https://cursor.com/blog/mixture-of-kittens</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[A Safe Path to Open Weights]]></title>
             <link>https://thinkingmachines.ai/blog/a-safe-path-to-open-weights/</link>
             <guid isPermaLink="false">https://thinkingmachines.ai/blog/a-safe-path-to-open-weights/</guid>
             <pubDate>Thu, 30 Jul 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How we set up our cloud agent environment]]></title>
-            <link>https://cursor.com/blog/cloud-agent-environment</link>
-            <guid isPermaLink="false">https://cursor.com/blog/cloud-agent-environment</guid>
-            <category><![CDATA[research]]></category>
-            <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Community Showcase Part 3]]></title>
@@ -2520,6 +2520,13 @@
             <pubDate>Sat, 25 Jul 2020 18:24:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[DAYJOB: Can Agents Survive a 9 to 5?]]></title>
+            <description><![CDATA[Introducing DAYJOB, Surge AI’s benchmark family for economically valuable agents: realistic requests in complex environments, requiring end-to-end professional judgment.]]></description>
+            <link>https://www.surgehq.ai/blog/dayjob</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/dayjob</guid>
+            <pubDate>Wed, 04 Nov 2020 00:04:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Helping Anthropic Build Automated Alignment Researchers]]></title>
             <description><![CDATA[Anthropic recently published new work on automated alignment researchers. Surge contributed to the research by building the human baseline, including researcher recruitment, structured submissions, quality control, and expert review.]]></description>
             <link>https://www.surgehq.ai/blog/anthropic-automated-alignment-research</link>
@@ -2555,7 +2562,7 @@
             <pubDate>Sun, 05 Apr 2020 23:03:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing the Tuesday Work Index: Can AI Do the Job?]]></title>
+            <title><![CDATA[Introducing the Tuesday Work Index: Can AI Get Through an Ordinary Day?]]></title>
             <description><![CDATA[Introducing the Tuesday Work Index, a composite benchmark measuring how well frontier AI models handle the capabilities required for real professional work.]]></description>
             <link>https://www.surgehq.ai/blog/tuesday-frontier-work-index</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/tuesday-frontier-work-index</guid>
@@ -2882,13 +2889,6 @@
             <link>https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/why-context-aware-datasets-are-crucial-for-data-centric-ai</guid>
             <pubDate>Tue, 30 Jun 2020 16:28:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DAYJOB: Can Agents Survive a 9 to 5?]]></title>
-            <description><![CDATA[Introducing DAYJOB, Surge AI’s benchmark family for knowledge work agents: realistic requests, complex environments, and end-to-end professional reasoning and judgment.]]></description>
-            <link>https://www.surgehq.ai/blog/dayjob</link>
-            <guid isPermaLink="false">https://www.surgehq.ai/blog/dayjob</guid>
-            <pubDate>Wed, 04 Nov 2020 00:04:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
