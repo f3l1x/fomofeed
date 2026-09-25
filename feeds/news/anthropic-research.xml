@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 24 Sep 2026 18:05:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 25 Sep 2026 09:15:35 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 23 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Project Swap: What happens when agents trade for us?]]></title>
+            <link>https://www.anthropic.com/research/project-swap</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
+            <pubDate>Wed, 23 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How Claude is uplifting biomolecular modeling]]></title>
             <link>https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</link>
@@ -64,12 +70,6 @@
             <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
             <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Learning more about Claude's mathematical capabilities]]></title>
-            <link>https://www.anthropic.com/research/riemann-zeta</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/riemann-zeta</guid>
-            <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

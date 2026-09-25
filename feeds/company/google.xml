@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 24 Sep 2026 18:07:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 25 Sep 2026 09:17:29 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 24 Sep 2026 01:25:37 GMT</pubDate>
+        <pubDate>Fri, 25 Sep 2026 01:23:57 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.62.0-nightly.20260925.gbedef96ef]]></title>
+            <description><![CDATA[## What's Changed * Changelog for v0.61.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29469 * Changelog for v0.61.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29472 * fix(cli): distinguish missing MCP enablement config from malformed JSON by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29446 * fix(cli): restore paused stdin after capability detection by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29487 * fix(core): bound tool output size and optimize memory lifecycle in long-running agent loops by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29451 ## New Contributors * @ugorla-dev made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29487 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260924.g8e70c862f...v0.62.0-nightly.20260925.gbedef96ef]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260925.gbedef96ef</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260925.gbedef96ef</guid>
+            <pubDate>Fri, 25 Sep 2026 01:23:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.62.0-nightly.20260924.g8e70c862f]]></title>
             <description><![CDATA[## What's Changed * Check for vsc integration test presence when attempting to run. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29462 * fix(cli): display retry progress indicator during connection recovery (#28340) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29468 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260923.g62364cb20...v0.62.0-nightly.20260924.g8e70c862f]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-preview.0</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-preview.0</guid>
             <pubDate>Wed, 08 Jul 2026 17:45:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.51.0-nightly.20260707.g15a9429b6]]></title>
-            <description><![CDATA[## What's Changed * fix(sandbox): make ~/.gitconfig read-only in the macOS sandbox by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28221 * fix(core): preserve escape sequences in string literals for modern models by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28299 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260706.gf7af4e518...v0.51.0-nightly.20260707.g15a9429b6]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260707.g15a9429b6</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260707.g15a9429b6</guid>
-            <pubDate>Tue, 07 Jul 2026 01:56:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Reproducing OLMo 3 7B Pre-training in MaxText: case study of large scale training on TPUs]]></title>
