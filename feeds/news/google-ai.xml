@@ -4,14 +4,14 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 28 Sep 2026 10:22:31 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2026 20:20:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 08 Dec 2020 00:06:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Reproducing OLMo 3 7B Pre-training in MaxText: case study of large scale training on TPUs]]></title>
-            <description><![CDATA[The MaxText team successfully reproduced AI2’s OLMo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.]]></description>
+            <title><![CDATA[Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs]]></title>
+            <description><![CDATA[The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.]]></description>
             <link>https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</guid>
             <pubDate>Sun, 22 Mar 2020 01:49:00 GMT</pubDate>

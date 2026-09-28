@@ -4,11 +4,25 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 28 Sep 2026 10:24:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2026 20:22:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 27 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Devin is now up to 40% more cost-efficient]]></title>
+            <description><![CDATA[Devin is now 30-40% cheaper in Fusion and Normal mode, 15-20% cheaper in Ultra, and up to 70% cheaper in Devin Review, thanks to the latest models and a more efficient harness.]]></description>
+            <link>https://windsurf.com/blog/more-efficient-devin</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/more-efficient-devin</guid>
+            <pubDate>Sun, 27 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Sonnet 5.5 is now available in Devin]]></title>
+            <description><![CDATA[On FrontierCode 1.1, Sonnet 5.5 is a significant improvement from Sonnet 5 at 64.4%, surpassing even Fable 5.1 at extra high reasoning effort.]]></description>
+            <link>https://windsurf.com/blog/claude-sonnet-5-5</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/claude-sonnet-5-5</guid>
+            <pubDate>Sun, 27 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Devin now works across Microsoft Teams and Microsoft 365]]></title>
             <description><![CDATA[Native support to @ mention Devin in Microsoft Teams, plus a first-party Microsoft 365 integration that connects Devin to mail, calendar, files, tasks, chats, and your directory.]]></description>
@@ -85,20 +99,6 @@
             <link>https://windsurf.com/blog/rebuilding-devins-chat-renderer</link>
             <guid isPermaLink="false">https://windsurf.com/blog/rebuilding-devins-chat-renderer</guid>
             <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GPT-5.6 Sol: Now even cheaper in Devin]]></title>
-            <description><![CDATA[OpenAI is lowering GPT-5.6 Sol list prices to $4/$20 per 1M tokens, and the 70% discount we announced still applies on top through October 3, 2026.]]></description>
-            <link>https://windsurf.com/blog/gpt-5-6-sol-price-drop</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-5-6-sol-price-drop</guid>
-            <pubDate>Thu, 20 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Devin's Slack Etiquette]]></title>
-            <description><![CDATA[How we refined Devin's behavior in Slack over the past year, across prompts, Devin's harness, and our usage of the Slack API.]]></description>
-            <link>https://windsurf.com/blog/devins-slack-etiquette</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/devins-slack-etiquette</guid>
-            <pubDate>Wed, 19 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>
