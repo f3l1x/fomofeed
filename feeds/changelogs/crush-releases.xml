@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 29 Sep 2026 10:18:59 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 19:03:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Sep 2026 01:04:54 GMT</pubDate>
+        <pubDate>Tue, 29 Sep 2026 11:57:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.97.1]]></title>
+            <description><![CDATA[# Tiny patch Removed the glyph for Git branch display, as it won't display on when nerdfonts are not available. ## Changelog ### Fixed * f2d66d286950109082c102d780013df84f741e55: fix: remove the powerline symbol (@andrinoff) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.97.1</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.97.1</guid>
+            <pubDate>Tue, 29 Sep 2026 11:57:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.97.0]]></title>
+            <description><![CDATA[# Crushed It! This release introduces many new features that improve QoL by a ton! Brought to you by Charm and our favorite contributors! ## Toggle MCPs Thanks to awesome @BrunoKrugel, you can now turn off MCP servers from the UI, globally, or locally. ## Git Branches At last: @taciturnaxolotl and @Gustave-241021 have brought Git branch display to Crush, *which is so useful*. ## More UI and QoL changes: * ChatGPT OAuth now refreshes with Catwalk * Claude Channels, part 2/3 by @joestump * Toggle Sidebar on and off with ctrl+b by @andreynering * Quit dialog improvements and mouse support by @meowgorithm ## Fixed! * Fixed clipboard false reporting successful copies by @taciturnaxolotl * Count Anthropic cache-creating tokens by @yanyukang2003-ux * Correctly resolving the project data directory in session and stats by @devYRPauli This release is filled with improvements! Read more below! See you next time, Charm XX 🔆 ## Changelog ### New! * a9a257c46616a4ff32e0a796743384060c3e11c0: feat(mcp): Allow toggle MCPs on/off (#3725) (@BrunoKrugel) * 2da6f781c5473cc4f2525ebf315846ff37b6b8b2: feat(tui): display git branch (#2437) (@Gustave-241021) * 564d14e4453828614a3d631599fda796e6d2de7b: feat: Claude Channels delivery — session injection, exactly-once routing, reply-back (2/3) (#3346) (@joestump-agent) * 62de0deb86f87f704d5388bed6bd9f40419a3e0a: feat: toggle the sidebar with ctrl+b (#3935) (@andreynering) ### Fixed * a98394ff35cd97379f4a68bdf9169879eb4d7b2b: fix(agent): count Anthropic cache-creation tokens (#3841) (@yanyukang2003-ux) * 4ab302dd44cc25895c69ca1aefd199380d56aa25: fix(clipboard): stop reporting successful copies as failures (#3952) (@taciturnaxolotl) * 00b33e4b92a290425c15be7aa675251cec47df5f: fix(cmd): resolve the project data directory in session and stats (#3936) (@devYRPauli) * fded9d7d7dffe33a0994c73b7b2e16310225825d: fix: reload OpenAI OAuth with Catwalk (#3949) (@andrinoff) * 1f3827bcd2d20f38076b2d46123683271e6ed9ba: fix: reorder migrations (@taciturnaxolotl) ### Other stuff * 06e50a330e2b05b677726737d06852a35f5ff93f: chore: auto-update files (@charmcli) * 8b1139bbbe8bea2e48f2b485d6e229e1e366089c: chore: auto-update files (@charmcli) * 72654940d9e46961a7d804d536c45761e7084a08: chore: fantasy v0.45.1 (@andreynering) * e3dc6d2a66c0d0d4f22dfa185d1e0e4cac985b62: ui: add mouse support to the quit dialogue (@meowgorithm) * 04a2cd85d4e62e7ed2b2c51a8cc9391496e0c2ee: ui: align quit dialog button hit regions with centered row (@meowgorithm) * 6f1fd614952306c5788381d2681f76636cae6e6f: ui: cover quit dialog mouse buttons and hover reporting in tests (@meowgorithm) * 5c6dd666aa64fe0f3893521597a61b0dc698562d: ui: keep quit dialog buttons visible in small terminals (@meowgorithm) * f043451debd3cc1ddc2c9831923fc36efa2b5f99: ui: report all mouse motion while hoverable dialogs are open (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.97.0</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.97.0</guid>
+            <pubDate>Tue, 29 Sep 2026 10:48:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nightly]]></title>
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.31.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.31.0</guid>
             <pubDate>Wed, 07 Jan 2026 16:27:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.30.3]]></title>
-            <description><![CDATA[# More Models This release brings new models to GitHub Copilot users: * Claude Opus 4.5 * GPT 5.2 * GPT 5.1 * GPT 5.1 Codex * GPT 5.1 Max Remember that you need to enable those in Copilot settings in order for them to work properly! Also included are fixes to reduce the number of count requests on Copilot when using sub-agents (searches, etc). ## Changelog ### Fixed * 5f7beb0e8c647fd6e8326db2df61760a28c955c4: fix: enable responses api for github copilot (@andreynering) * a94866c85c68f036c343710145bbc5e71e755382: fix: quota for subagents in copilot (@kujtimiihoxha) ### Other stuff * 58b2c5b26d54421ae4e3303bc366b20220b46786: chore(copilot): update message: "wait a minute" -> "wait 5 minutes" (@andreynering) * c70d34db16b603bc5cfd9b861f2eae492df552dd: chore: make it so the small model also is always considered a subagent (@kujtimiihoxha) * 65e20ea8ad8dea9c90c31402d4bc2866719b48ae: chore: update fantasy to v0.6.0 (@andreynering) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.30.3</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.30.3</guid>
-            <pubDate>Mon, 05 Jan 2026 17:03:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.30.2]]></title>
-            <description><![CDATA[# Quick ’Lil Patch This is a tiny patch release to fix a nil pointer issue in the last release, as reported by @umairimtiaz9. Thanks, Umair! 💘 ## Changelog ### Fixed * b618a5bc98367c6011f6ed2a2d85d1faa90ad500: fix(sessions): nil pointer dereference (#1759) (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.30.2</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.30.2</guid>
-            <pubDate>Sun, 04 Jan 2026 02:09:17 GMT</pubDate>
         </item>
     </channel>
 </rss>

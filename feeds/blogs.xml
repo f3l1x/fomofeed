@@ -4,23 +4,44 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 29 Sep 2026 10:20:26 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 19:04:44 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 27 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Devin is now up to 40% more cost-efficient]]></title>
-            <description><![CDATA[Devin is now 30-40% cheaper in Fusion and Normal mode, 15-20% cheaper in Ultra, and up to 70% cheaper in Devin Review, thanks to the latest models and a more efficient harness.]]></description>
-            <link>https://windsurf.com/blog/more-efficient-devin</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/more-efficient-devin</guid>
-            <pubDate>Sun, 27 Sep 2026 22:00:00 GMT</pubDate>
+            <title><![CDATA[Sign in with ChatGPT]]></title>
+            <description><![CDATA[You can now sign in to Devin with ChatGPT and use your eligible ChatGPT Plus or Pro plan for OpenAI model usage across Devin Cloud, Devin Desktop, and Devin CLI.]]></description>
+            <link>https://windsurf.com/blog/sign-in-with-chatgpt</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/sign-in-with-chatgpt</guid>
+            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GPT-6.1 Sol is now available in Devin]]></title>
+            <description><![CDATA[OpenAI released GPT-6.1 Sol. It is live now in Devin Desktop and Devin CLI. Same $2/$10 list price as GPT-6 Sol, but cache reads are now 95% off, and on FrontierCode 1.1 it matches GPT-6 Sol's score at roughly half the cost per task at every reasoning effort. At low effort it scores 58.1% for $0.21 per task, the best score of any model under $0.30.]]></description>
+            <link>https://windsurf.com/blog/gpt-6-1-sol</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gpt-6-1-sol</guid>
+            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cognition and MongoDB partner to modernize enterprise infrastructure in months, not years]]></title>
+            <description><![CDATA[Cognition and MongoDB are bringing Devin into MongoDB’s Application Modernization Platform (AMP) to help customers migrate legacy applications to MongoDB Atlas.]]></description>
+            <link>https://windsurf.com/blog/devin-for-mongodb-modernizations</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/devin-for-mongodb-modernizations</guid>
+            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude Sonnet 5.5 is now available in Devin]]></title>
             <description><![CDATA[On FrontierCode 1.1, Sonnet 5.5 is a significant improvement from Sonnet 5 at 64.4%, surpassing even Fable 5.1 at extra high reasoning effort.]]></description>
             <link>https://windsurf.com/blog/claude-sonnet-5-5</link>
             <guid isPermaLink="false">https://windsurf.com/blog/claude-sonnet-5-5</guid>
+            <pubDate>Sun, 27 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Devin is now up to 40% more cost-efficient]]></title>
+            <description><![CDATA[Devin is now 30-40% cheaper in Fusion and Normal mode, 15-20% cheaper in Ultra, and up to 70% cheaper in Devin Review, thanks to the latest models and a more efficient harness.]]></description>
+            <link>https://windsurf.com/blog/more-efficient-devin</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/more-efficient-devin</guid>
             <pubDate>Sun, 27 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -117,7 +138,6 @@
             <description><![CDATA[This article draws on a Dagster+ Hybrid deployment on Kubernetes and Azure at a very large enterprise. It covers the work outside the Helm chart: workload ownership, isolation, networking, identity, sizing, and capacity.]]></description>
             <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
             <guid isPermaLink="false">https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</guid>
-            <category><![CDATA[Engineering]]></category>
             <pubDate>Mon, 07 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -125,13 +145,6 @@
             <link>https://cursor.com/blog/basis</link>
             <guid isPermaLink="false">https://cursor.com/blog/basis</guid>
             <pubDate>Thu, 03 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 Astra is now available in Devin]]></title>
-            <description><![CDATA[OpenAI released GPT-6 Astra. It is available now in Devin Desktop and Devin CLI, and is part of the model mixture in Devin Cloud. On FrontierCode 1.1 it surpasses Fable 5.1 and is second only to Fable 5, at 64% lower cost.]]></description>
-            <link>https://windsurf.com/blog/gpt-6-astra</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-6-astra</guid>
-            <pubDate>Wed, 02 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Run cloud agents on machines you manage]]></title>
@@ -154,24 +167,10 @@
             <pubDate>Sun, 30 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Fable 5.1 in Devin and Why It’s Cheaper than Opus 5]]></title>
-            <description><![CDATA[Introducing Fable 5.1 in Devin. Fable-level intelligence is now 54% cheaper – making it even cheaper than Opus – due to a change in caching. Devin’s Fusion harness is now even smarter and cheaper than before, matching Fable 5.1 on FrontierCode at 47% lower cost.]]></description>
-            <link>https://windsurf.com/blog/fable-5-1</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/fable-5-1</guid>
-            <pubDate>Sun, 30 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Claude Desktop support with Ollama]]></title>
             <description><![CDATA[Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.]]></description>
             <link>https://ollama.com/blog/claude-desktop</link>
             <guid isPermaLink="false">https://ollama.com/blog/claude-desktop</guid>
-            <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How Devin rebuilt its renderer]]></title>
-            <description><![CDATA[The largest Devin sessions took 20+ seconds to load and crawled afterwards. We built a new chat renderer — skeleton outlines, island loading, and scroll anchoring — so even sessions with hundreds of thousands of events load fast and scroll smoothly.]]></description>
-            <link>https://windsurf.com/blog/rebuilding-devins-chat-renderer</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/rebuilding-devins-chat-renderer</guid>
             <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -268,7 +267,6 @@
             <description><![CDATA[Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications.]]></description>
             <link>https://dagster.io/blog/community-showcase-part-3</link>
             <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-3</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -276,8 +274,14 @@
             <description><![CDATA[data governance. I built a tiered AI classification system, human review workflow, and the Dagster orchestration that ties it all together in production in nine days.]]></description>
             <link>https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</link>
             <guid isPermaLink="false">https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster</guid>
-            <category><![CDATA[Engineering]]></category>
             <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Prefect is Acquiring Dagster]]></title>
+            <description><![CDATA[A letter from Nick Schrock, founder and creator of Dagster]]></description>
+            <link>https://dagster.io/blog/prefect-is-acquiring-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/prefect-is-acquiring-dagster</guid>
+            <pubDate>Sun, 12 Jul 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Do Automated Evals Work?]]></title>
@@ -303,7 +307,6 @@
             <description><![CDATA[Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications.]]></description>
             <link>https://dagster.io/blog/community-showcase-part-2</link>
             <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-2</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Mon, 29 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -324,7 +327,6 @@
             <description><![CDATA[A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.]]></description>
             <link>https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</link>
             <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration</guid>
-            <category><![CDATA[Engineering]]></category>
             <pubDate>Tue, 23 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -339,7 +341,6 @@
             <description><![CDATA[Mature orchestration environments often work operationally while still leaving critical data dependencies implicit. This post introduces the Orchestration Maturity Model, explains the architectural ceiling of job-centric systems, and shows how Dagster’s asset-aware approach helps teams reason about freshness, lineage, quality, and self-service at enterprise scale.]]></description>
             <link>https://dagster.io/blog/how-to-make-the-architectural-case-for-dagster</link>
             <guid isPermaLink="false">https://dagster.io/blog/how-to-make-the-architectural-case-for-dagster</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Mon, 08 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -361,7 +362,6 @@
             <description><![CDATA[Some of the most interesting Dagster projects come from the community. This post highlights creative community-built applications.]]></description>
             <link>https://dagster.io/blog/community-showcase-part-1</link>
             <guid isPermaLink="false">https://dagster.io/blog/community-showcase-part-1</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -369,7 +369,6 @@
             <description><![CDATA[Text-to-analytics promises self-service access to data, but adoption depends on usability, governance, and trust. In this guest post, Brooklyn Data explains how it evaluated Compass, deployed it on top of Snowflake, and enabled teams to answer operational questions directly in Slack while maintaining centralized governance and business context.]]></description>
             <link>https://dagster.io/blog/how-dagster-compass-powers-brooklyn-datas-self-service-analytics</link>
             <guid isPermaLink="false">https://dagster.io/blog/how-dagster-compass-powers-brooklyn-datas-self-service-analytics</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -384,7 +383,6 @@
             <description><![CDATA[Snowflake increasingly handles transformation and data freshness internally through features like Dynamic Tables and Cortex. Dagster complements Snowflake by providing orchestration, lineage, automation, and cost visibility across your broader data platform from SQL-defined assets to downstream automation and Snowflake query attribution.]]></description>
             <link>https://dagster.io/blog/snowflake-runs-your-data-dagster-runs-everything-else</link>
             <guid isPermaLink="false">https://dagster.io/blog/snowflake-runs-your-data-dagster-runs-everything-else</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Wed, 27 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -392,8 +390,14 @@
             <description><![CDATA[We adopted Astral’s new Python type checker, ty, to speed up type checking in the Dagster monorepo. The performance gains were dramatic, but the bigger surprise was that ty caught real runtime bugs Pyright missed. Here’s what we learned migrating a large Python codebase incrementally to ty.]]></description>
             <link>https://dagster.io/blog/we-tried-ty-for-performance-it-found-real-bugs</link>
             <guid isPermaLink="false">https://dagster.io/blog/we-tried-ty-for-performance-it-found-real-bugs</guid>
-            <category><![CDATA[Engineering]]></category>
             <pubDate>Wed, 20 May 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Dagster Almanack: From Complexity to Composability]]></title>
+            <description><![CDATA[A complete guide with all the insights, tips, and some predictions for the data platform engineer, just like an Almanack provides, with practical information for daily life.]]></description>
+            <link>https://dagster.io/blog/the-dagster-almanack-from-complexity-to-composability</link>
+            <guid isPermaLink="false">https://dagster.io/blog/the-dagster-almanack-from-complexity-to-composability</guid>
+            <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Interaction Models: A Scalable Approach to Human-AI Collaboration]]></title>
@@ -406,7 +410,6 @@
             <description><![CDATA[The Dagster+ Terraform provider lets platform teams manage deployments, access controls, alerting, and more as code. Define entire environments declaratively, review changes through pull requests, and integrate Dagster+ into your existing infrastructure workflows.]]></description>
             <link>https://dagster.io/blog/announcing-the-dagster-terraform-provider</link>
             <guid isPermaLink="false">https://dagster.io/blog/announcing-the-dagster-terraform-provider</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Mon, 27 Apr 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -414,8 +417,35 @@
             <description><![CDATA[AI agents that only understand business definitions without knowing whether the underlying pipeline actually succeeded are confidently wrong and operational context from the orchestrator is the missing piece.]]></description>
             <link>https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</link>
             <guid isPermaLink="false">https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer</guid>
-            <category><![CDATA[Product]]></category>
             <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Orchestrate Across Multiple Databricks Workspaces Without Losing Your Mind]]></title>
+            <description><![CDATA[Once your pipelines span multiple Databricks workspaces, you're no longer orchestrating a single system you're coordinating a distributed one.]]></description>
+            <link>https://dagster.io/blog/how-to-orchestrate-across-multiple-databricks-workspaces-without-losing-your-mind</link>
+            <guid isPermaLink="false">https://dagster.io/blog/how-to-orchestrate-across-multiple-databricks-workspaces-without-losing-your-mind</guid>
+            <pubDate>Sun, 19 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster 1.13: Octopus's Garden]]></title>
+            <description><![CDATA[Dagster skills, partitioned asset checks, state backed components, virtual assets, and stronger integrations.]]></description>
+            <link>https://dagster.io/blog/dagster-1-13-octopuss-garden</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-13-octopuss-garden</guid>
+            <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Monorepos, the hub-and-spoke model, and Copybara]]></title>
+            <description><![CDATA[How we configure Copybara for bi-directional syncing to enable a hub-and-spoke model for Git repositories]]></description>
+            <link>https://dagster.io/blog/monorepos-the-hub-and-spoke-model-and-copybara</link>
+            <guid isPermaLink="false">https://dagster.io/blog/monorepos-the-hub-and-spoke-model-and-copybara</guid>
+            <pubDate>Thu, 02 Apr 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Making Dagster Easier to Contribute to in an AI-Driven World]]></title>
+            <description><![CDATA[AI has made contributing to open source easier but reviewing contributions is still hard. At Dagster, we’re improving the contributor experience with smarter review tooling, clearer guidelines, and a focus on contributions that are easier to evaluate, merge, and maintain.]]></description>
+            <link>https://dagster.io/blog/making-dagster-easier-to-contribute</link>
+            <guid isPermaLink="false">https://dagster.io/blog/making-dagster-easier-to-contribute</guid>
+            <pubDate>Tue, 31 Mar 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ollama is now powered by MLX on Apple Silicon in preview]]></title>
@@ -431,10 +461,38 @@
             <pubDate>Thu, 26 Mar 2026 07:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[DataOps with Dagster: A Practical Guide to Building a Reliable Data Platform]]></title>
+            <description><![CDATA[DataOps is about building a system that provides visibility into what's happening and control over how it behaves]]></description>
+            <link>https://dagster.io/blog/dataops-with-dagster-a-practical-guide-to-building-a-reliable-data-platform</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dataops-with-dagster-a-practical-guide-to-building-a-reliable-data-platform</guid>
+            <pubDate>Mon, 16 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unlocking the Full Value of Your Databricks]]></title>
+            <description><![CDATA[Standardizing on Databricks is a smart strategic move, but consolidation alone does not create a working operating model across teams, tools, and downstream systems. By pairing Databricks and Unity Catalog with Dagster, enterprises can add the coordination layer needed for dependency visibility, end-to-end lineage, and faster, more confident delivery at scale.]]></description>
+            <link>https://dagster.io/blog/unlocking-the-full-value-of-your-databricks</link>
+            <guid isPermaLink="false">https://dagster.io/blog/unlocking-the-full-value-of-your-databricks</guid>
+            <pubDate>Wed, 11 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing AI Driven Data Engineering]]></title>
+            <description><![CDATA[AI coding agents are changing how data engineers work. This Dagster University course shows how to build a production-ready ELT pipeline from prompts while learning practical patterns for reliable AI-assisted development.]]></description>
+            <link>https://dagster.io/blog/announcing-ai-driven-data-engineering</link>
+            <guid isPermaLink="false">https://dagster.io/blog/announcing-ai-driven-data-engineering</guid>
+            <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Evals Skills for Coding Agents]]></title>
             <link>https://hamel.dev/blog/posts/evals-skills/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-skills/index.html</guid>
             <pubDate>Mon, 02 Mar 2026 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[When to Move from Dagster OSS to Dagster+]]></title>
+            <description><![CDATA[Dagster OSS is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster+ and shift your focus back to building data products.]]></description>
+            <link>https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</guid>
+            <pubDate>Wed, 25 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The simplest and fastest way to setup OpenClaw]]></title>
@@ -451,6 +509,34 @@
             <pubDate>Sun, 15 Feb 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Sample-Level Versioning for ML Pipelines with Dagster and Metaxy]]></title>
+            <description><![CDATA[Learn how Metaxy can be used to build multimodal data pipelines with sample-level granularity on Dagster]]></description>
+            <link>https://dagster.io/blog/building-real-time-interactive-avatars-with-metaxy</link>
+            <guid isPermaLink="false">https://dagster.io/blog/building-real-time-interactive-avatars-with-metaxy</guid>
+            <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Evaluating Skills]]></title>
+            <description><![CDATA[We built a light weight evaluation framework to quantiatively measure the effectiveness of the Dagster Skills, and these are our findings.]]></description>
+            <link>https://dagster.io/blog/evaluating-agent-skills</link>
+            <guid isPermaLink="false">https://dagster.io/blog/evaluating-agent-skills</guid>
+            <pubDate>Thu, 05 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Great Infrastructure Needs Great Stories: Designing our Children’s Book]]></title>
+            <description><![CDATA[We set out to explain Dagster assets in the simplest possible way: as living characters that wait, react, and change with their dependencies. By designing a children’s book with warmth, visuals, and motion, we rediscovered what makes assets compelling in the first place.]]></description>
+            <link>https://dagster.io/blog/great-infrastructure-needs-great-stories</link>
+            <guid isPermaLink="false">https://dagster.io/blog/great-infrastructure-needs-great-stories</guid>
+            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Closing the DataOps Loop: Why We Built Compass for Dagster+]]></title>
+            <description><![CDATA[Detection isn't the bottleneck anymore. Understanding is. Compass closes the loop by turning Dagster+ operational data into a conversation.]]></description>
+            <link>https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</guid>
+            <pubDate>Mon, 02 Feb 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[OpenClaw]]></title>
             <description><![CDATA[OpenClaw is a personal AI assistant that connects your messaging apps to local AI coding agents, all running on your own device.]]></description>
             <link>https://ollama.com/blog/openclaw</link>
@@ -458,11 +544,25 @@
             <pubDate>Sat, 31 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Pytest for Agent-Generated Code: Concrete Testing Strategies to Put Into Practice]]></title>
+            <description><![CDATA[When agents write tests, intent matters as much as correctness. By defining clear testing levels, preferred patterns, and explicit anti-patterns, we give agents the structure they need to produce fast, reliable Pytest suites that scale with automation.]]></description>
+            <link>https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</link>
+            <guid isPermaLink="false">https://dagster.io/blog/pytest-for-agent-generated-code-concrete-testing-strategies-to-put-into-practice</guid>
+            <pubDate>Sun, 25 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ollama launch]]></title>
             <description><![CDATA[ollama launch is a new command which sets up and runs coding tools like Claude Code, OpenCode, and Codex with local or cloud models. No environment variables or config files needed.]]></description>
             <link>https://ollama.com/blog/launch</link>
             <guid isPermaLink="false">https://ollama.com/blog/launch</guid>
             <pubDate>Thu, 22 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster + Snowflake: Building Production AI Pipelines with Cortex]]></title>
+            <description><![CDATA[Snowflake handles AI compute while Dagster handles orchestration, observability, and the operational patterns that turn AI experiments into reliable production pipelines.]]></description>
+            <link>https://dagster.io/blog/dagster-snowflake-cortex</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-snowflake-cortex</guid>
+            <pubDate>Tue, 20 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Image generation (experimental)]]></title>
@@ -492,6 +592,111 @@
             <pubDate>Wed, 14 Jan 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Your GTM Data, Finally Untangled]]></title>
+            <description><![CDATA[Compass now connects directly to your go-to-market tools, letting you ask questions about pipeline, ad spend, and sales conversations in Slack without exporting CSVs or waiting on the data team.]]></description>
+            <link>https://dagster.io/blog/your-gtm-data-finally-untangled</link>
+            <guid isPermaLink="false">https://dagster.io/blog/your-gtm-data-finally-untangled</guid>
+            <pubDate>Wed, 14 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dignified Python: 10 Rules to Improve your LLM Agents]]></title>
+            <description><![CDATA[Modern LLMs generate patterns, not principles. Dignified Python gives agents the intent they lack, ensuring code is explicit, consistent, and engineered with care. Here are ten rules from our Claude prompt.]]></description>
+            <link>https://dagster.io/blog/dignified-python-10-rules-to-improve-your-llm-agents</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dignified-python-10-rules-to-improve-your-llm-agents</guid>
+            <pubDate>Thu, 08 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Evaluating Model Behavior Through Chess]]></title>
+            <description><![CDATA[Benchmarks measure outcomes, not behavior. By letting AI models play chess in repeatable tournaments, we can observe how they handle risk, repetition, and long-term objectives, revealing patterns that static evals hide.]]></description>
+            <link>https://dagster.io/blog/evaluating-model-behavior-through-chess</link>
+            <guid isPermaLink="false">https://dagster.io/blog/evaluating-model-behavior-through-chess</guid>
+            <pubDate>Tue, 06 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Enforce Data Quality at Every Stage: A Practical Guide to Catching Issues Before They Cost You]]></title>
+            <description><![CDATA[This post gives you a framework for enforcing data quality at every stage so you catch issues early, maintain trust, and build platforms that actually work in production.]]></description>
+            <link>https://dagster.io/blog/how-to-enforce-data-quality-at-every-stage</link>
+            <guid isPermaLink="false">https://dagster.io/blog/how-to-enforce-data-quality-at-every-stage</guid>
+            <pubDate>Mon, 05 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[When Sync Isn’t Enough]]></title>
+            <description><![CDATA[This post introduces a custom async executor for Dagster that enables high-concurrency fan-out, async-native libraries, and incremental adoption, without changing how runs are launched or monitored.]]></description>
+            <link>https://dagster.io/blog/when-sync-isnt-enough</link>
+            <guid isPermaLink="false">https://dagster.io/blog/when-sync-isnt-enough</guid>
+            <pubDate>Sun, 04 Jan 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Build a Data Platform That Actually Scales]]></title>
+            <description><![CDATA[Most teams build data platforms reactively when you should be architecting one that scales with your business, not against it.]]></description>
+            <link>https://dagster.io/blog/how-to-build-a-data-platform-that-actually-scales</link>
+            <guid isPermaLink="false">https://dagster.io/blog/how-to-build-a-data-platform-that-actually-scales</guid>
+            <pubDate>Sun, 21 Dec 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Orchestrating Nanochat: Deploying the Model]]></title>
+            <description><![CDATA[Once the model is trained, the final step is getting it into users’ hands. This guide walks through turning your model into a fast, reliable RunPod endpoint—complete with orchestration and automated updates from Dagster.]]></description>
+            <link>https://dagster.io/blog/orchestrating-nanochat-deploying-the-model</link>
+            <guid isPermaLink="false">https://dagster.io/blog/orchestrating-nanochat-deploying-the-model</guid>
+            <pubDate>Mon, 15 Dec 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Data Ingestion Patterns: When to Use Push, Pull, and Poll (With Real Examples)]]></title>
+            <description><![CDATA[A practical guide to choosing between push, pull, and poll data ingestion patterns. With real Dagster code examples to help you build reliable, maintainable pipelines.]]></description>
+            <link>https://dagster.io/blog/data-ingestion-patterns-when-to-use-push-pull-and-poll</link>
+            <guid isPermaLink="false">https://dagster.io/blog/data-ingestion-patterns-when-to-use-push-pull-and-poll</guid>
+            <pubDate>Sun, 14 Dec 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster + Atlan: Real-Time Asset Observability in Your Data Catalog]]></title>
+            <description><![CDATA[Automatically sync asset materialization events and lineage from Dagster Cloud to Atlan]]></description>
+            <link>https://dagster.io/blog/dagster-atlan-integration</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-atlan-integration</guid>
+            <pubDate>Wed, 10 Dec 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Orchestrating Nanochat: Training the Models]]></title>
+            <description><![CDATA[Training an LLM isn’t one job—it’s a sequence of carefully managed stages. This part shows how Dagster coordinates your training steps on RunPod so every experiment is reproducible, scalable, and GPU-efficient.]]></description>
+            <link>https://dagster.io/blog/orchestrating-nanochat-training-the-models</link>
+            <guid isPermaLink="false">https://dagster.io/blog/orchestrating-nanochat-training-the-models</guid>
+            <pubDate>Mon, 08 Dec 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Orchestrating Nanochat: Building the Tokenizer]]></title>
+            <description><![CDATA[Every great model starts with great data. This first part walks through how to structure ingestion with Dagster, prepare your text corpus, and build a tokenizer that shapes how your model understands the world.]]></description>
+            <link>https://dagster.io/blog/orchestrating-nanochat-building-the-tokenizer</link>
+            <guid isPermaLink="false">https://dagster.io/blog/orchestrating-nanochat-building-the-tokenizer</guid>
+            <pubDate>Tue, 02 Dec 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[When (and When Not) to Optimize Data Pipelines]]></title>
+            <description><![CDATA[Engineers often optimize the wrong parts of their pipelines, here's a profiling-first framework to identify real bottlenecks and avoid the premature optimization trap.]]></description>
+            <link>https://dagster.io/blog/when-and-when-not-to-optimize-data-pipelines</link>
+            <guid isPermaLink="false">https://dagster.io/blog/when-and-when-not-to-optimize-data-pipelines</guid>
+            <pubDate>Sun, 16 Nov 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Your Data Team Shouldn't Be a Help Desk: Use Compass with Your Data]]></title>
+            <description><![CDATA[Compass now supports every major data warehouse. Connect your own data and get AI-powered answers directly in Slack, with your governance intact and your data staying exactly where it is.]]></description>
+            <link>https://dagster.io/blog/compass-now-available</link>
+            <guid isPermaLink="false">https://dagster.io/blog/compass-now-available</guid>
+            <pubDate>Wed, 12 Nov 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Our New eBook: Scaling Data Teams]]></title>
+            <description><![CDATA[Learn how real data teams, from solo practitioners to enterprise-scale organizations, build in Dagster’s new eBook, Scaling Data Teams.]]></description>
+            <link>https://dagster.io/blog/introducing-our-new-ebook-scaling-data-teams</link>
+            <guid isPermaLink="false">https://dagster.io/blog/introducing-our-new-ebook-scaling-data-teams</guid>
+            <pubDate>Tue, 04 Nov 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster 1.12: Monster Mash]]></title>
+            <description><![CDATA[A refined Dagster experience. Faster navigation, GA Components, plug-and-play deployment, improved orchestration with FreshnessPolicies, and a new Support Center for builders at scale.]]></description>
+            <link>https://dagster.io/blog/dagster-1-12-monster-mash</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-12-monster-mash</guid>
+            <pubDate>Wed, 29 Oct 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[OpenAI gpt-oss-safeguard]]></title>
             <description><![CDATA[Ollama is partnering with OpenAI and ROOST (Robust Open Online Safety Tools) to bring the latest gpt-oss-safeguard reasoning models to users for safety classification tasks. gpt-oss-safeguard models are available in two sizes: 20B and 120B, and are permissively licensed under the Apache 2.0 license.]]></description>
             <link>https://ollama.com/blog/gpt-oss-safeguard</link>
@@ -517,6 +722,20 @@
             <link>https://ollama.com/blog/nvidia-spark-performance</link>
             <guid isPermaLink="false">https://ollama.com/blog/nvidia-spark-performance</guid>
             <pubDate>Wed, 22 Oct 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Compass Turns Questions Into Queries]]></title>
+            <description><![CDATA[Go behind the scenes of Compass, Dagster’s analyst copilot, to see how it transforms plain-language questions into precise, optimized SQL queries. Learn how each step of the query-generation process helps analysts move faster and stay focused on insights.]]></description>
+            <link>https://dagster.io/blog/how-compass-turns-questions-into-queries</link>
+            <guid isPermaLink="false">https://dagster.io/blog/how-compass-turns-questions-into-queries</guid>
+            <pubDate>Wed, 22 Oct 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Analysis Without Scaling the Team]]></title>
+            <description><![CDATA[Learn how to maximize the impact of your data stack with a lean team—keeping your analysts at the heart of every decision.]]></description>
+            <link>https://dagster.io/blog/scaling-analysis-without-scaling-the-team</link>
+            <guid isPermaLink="false">https://dagster.io/blog/scaling-analysis-without-scaling-the-team</guid>
+            <pubDate>Sun, 19 Oct 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[New coding models & integrations]]></title>
@@ -546,6 +765,20 @@
             <pubDate>Wed, 01 Oct 2025 07:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Bridging High-Code and Low-Code]]></title>
+            <description><![CDATA[Empowering engineers with flexibility and analysts with accessibility]]></description>
+            <link>https://dagster.io/blog/bridging-high-code-and-low-code</link>
+            <guid isPermaLink="false">https://dagster.io/blog/bridging-high-code-and-low-code</guid>
+            <pubDate>Tue, 30 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building a Better Lakehouse: From Airflow to Dagster]]></title>
+            <description><![CDATA[How I took an excellent lakehouse tutorial and made it even better with modern data orchestration]]></description>
+            <link>https://dagster.io/blog/building-a-better-lakehouse-from-airflow-to-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/building-a-better-lakehouse-from-airflow-to-dagster</guid>
+            <pubDate>Mon, 29 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[LoRA Without Regret]]></title>
             <link>https://thinkingmachines.ai/blog/lora/</link>
             <guid isPermaLink="false">https://thinkingmachines.ai/blog/lora/</guid>
@@ -556,6 +789,13 @@
             <link>https://thinkingmachines.ai/blog/modular-manifolds/</link>
             <guid isPermaLink="false">https://thinkingmachines.ai/blog/modular-manifolds/</guid>
             <pubDate>Thu, 25 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Designing User-Friendly Dagster Components]]></title>
+            <description><![CDATA[The difference between components that thrive and components that collect digital dust? User experience design.]]></description>
+            <link>https://dagster.io/blog/designing-user-friendly-dagster-components</link>
+            <guid isPermaLink="false">https://dagster.io/blog/designing-user-friendly-dagster-components</guid>
+            <pubDate>Wed, 24 Sep 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Web search]]></title>
@@ -579,10 +819,66 @@
             <pubDate>Thu, 18 Sep 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Dagster+ Now Available in the EU]]></title>
+            <description><![CDATA[We're thrilled to announce that Dagster+ has arrived in Europe!]]></description>
+            <link>https://dagster.io/blog/dagster-plus-now-available-in-the-eu</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-now-available-in-the-eu</guid>
+            <pubDate>Thu, 18 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster Components are Generally Available (GA)]]></title>
+            <description><![CDATA[Featuring YAML-based pipeline definitions, plug-and-play integrations, automatic documentation, and a unified CLI experience.]]></description>
+            <link>https://dagster.io/blog/dagster-components-ga</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-components-ga</guid>
+            <pubDate>Wed, 17 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Defeating Nondeterminism in LLM Inference]]></title>
             <link>https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</link>
             <guid isPermaLink="false">https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</guid>
             <pubDate>Tue, 09 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Compass: Data-driven decisions right in Slack]]></title>
+            <description><![CDATA[Converse with your company's data right in Dagster. Compass moves beyond static dashboards by enabling a natural language, two-way conversation with your data. This allows anyone to ask follow-up questions, incorporate their own business context, and achieve true data fluency without writing a single line of SQL.]]></description>
+            <link>https://dagster.io/blog/introducing-compass</link>
+            <guid isPermaLink="false">https://dagster.io/blog/introducing-compass</guid>
+            <pubDate>Tue, 09 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing the new Dagster+ UI – Your Data Platform’s Command Center]]></title>
+            <description><![CDATA[Featuring a new modern homepage, enhanced asset health and freshness monitoring, customizable dashboards, and real-time insights with cost monitoring.]]></description>
+            <link>https://dagster.io/blog/introducing-the-new-dagster-plus-ui</link>
+            <guid isPermaLink="false">https://dagster.io/blog/introducing-the-new-dagster-plus-ui</guid>
+            <pubDate>Tue, 09 Sep 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dbt Fusion Support Comes to Dagster]]></title>
+            <description><![CDATA[Learn how to use the beta dbt Fusion engine in your Dagster pipelines, and the technical details of how support was added]]></description>
+            <link>https://dagster.io/blog/dbt-fusion-support-comes-to-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dbt-fusion-support-comes-to-dagster</guid>
+            <pubDate>Thu, 21 Aug 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What CoPilot Won’t Teach You About Python (Part 2)]]></title>
+            <description><![CDATA[Explore another set of powerful yet overlooked Python features—from overload and cached_property to contextvars and ExitStack]]></description>
+            <link>https://dagster.io/blog/what-copilot-wont-teach-you-about-python-part-2</link>
+            <guid isPermaLink="false">https://dagster.io/blog/what-copilot-wont-teach-you-about-python-part-2</guid>
+            <pubDate>Tue, 19 Aug 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Software-Defined Assets Explained]]></title>
+            <description><![CDATA[Software-Defined Assets are a new abstraction that allows data teams to focus on the end products, not just the individual tasks, in their data pipeline.]]></description>
+            <link>https://dagster.io/blog/software-defined-assets</link>
+            <guid isPermaLink="false">https://dagster.io/blog/software-defined-assets</guid>
+            <pubDate>Wed, 06 Aug 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Untangling Python Packages Part 2]]></title>
+            <description><![CDATA[A deep dive into how Dagster leverages pyproject.toml for modern Python packaging, from project metadata and dependencies to build systems and development tooling.]]></description>
+            <link>https://dagster.io/blog/untangling-python-packages-part-2</link>
+            <guid isPermaLink="false">https://dagster.io/blog/untangling-python-packages-part-2</guid>
+            <pubDate>Wed, 06 Aug 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI gpt-oss]]></title>
@@ -592,11 +888,39 @@
             <pubDate>Mon, 04 Aug 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Untangling Python Packages Part 1]]></title>
+            <description><![CDATA[Python's clean syntax makes it easy to jump into unfamiliar codebases, but this simplicity often masks the intricate world of packaging that confuses many developers.]]></description>
+            <link>https://dagster.io/blog/untangling-python-packages-part-1</link>
+            <guid isPermaLink="false">https://dagster.io/blog/untangling-python-packages-part-1</guid>
+            <pubDate>Wed, 30 Jul 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Ollama's new app]]></title>
             <description><![CDATA[Ollama's new app is now available for macOS and Windows.]]></description>
             <link>https://ollama.com/blog/new-app</link>
             <guid isPermaLink="false">https://ollama.com/blog/new-app</guid>
             <pubDate>Tue, 29 Jul 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A Practical Guide to Dagster Resources]]></title>
+            <description><![CDATA[How dependency injection and smart resource management can save your sanity (and your deployments)]]></description>
+            <link>https://dagster.io/blog/a-practical-guide-to-dagster-resources</link>
+            <guid isPermaLink="false">https://dagster.io/blog/a-practical-guide-to-dagster-resources</guid>
+            <pubDate>Tue, 29 Jul 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Structure Your Dagster Project]]></title>
+            <description><![CDATA[Setting up your Dagster project the right way from day one saves you headaches later, makes your team more effective, and helps scale.]]></description>
+            <link>https://dagster.io/blog/how-to-structure-your-dagster-project</link>
+            <guid isPermaLink="false">https://dagster.io/blog/how-to-structure-your-dagster-project</guid>
+            <pubDate>Thu, 24 Jul 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What CoPilot Won’t Teach You About Python (Part 1)]]></title>
+            <description><![CDATA[Advanced Python features that AI agents may miss]]></description>
+            <link>https://dagster.io/blog/what-copilot-wont-teach-you-about-python-part-1</link>
+            <guid isPermaLink="false">https://dagster.io/blog/what-copilot-wont-teach-you-about-python-part-1</guid>
+            <pubDate>Tue, 22 Jul 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Stop Saying RAG Is Dead]]></title>
@@ -605,16 +929,44 @@
             <pubDate>Fri, 11 Jul 2025 07:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Announcing ETL Course with Dagster]]></title>
+            <description><![CDATA[Dagster is excited to announce the launch of ETL with Dagster, a comprehensive seven-lesson course. This free course guides you through practical ETL implementation and architectural considerations, from single-file ingestion to full-scale database replication]]></description>
+            <link>https://dagster.io/blog/annoucing-etl-with-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/annoucing-etl-with-dagster</guid>
+            <pubDate>Wed, 09 Jul 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster 1.11: Build Me Up Buttercup]]></title>
+            <description><![CDATA[Significantly improved pipeline-building experience with Components and dg, enhanced orchestration capabilities, integration power-ups, and more.]]></description>
+            <link>https://dagster.io/blog/dagster-1-11-build-me-up-buttercup</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-11-build-me-up-buttercup</guid>
+            <pubDate>Wed, 25 Jun 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Inspect AI, An OSS Python Library For LLM Evals]]></title>
             <link>https://hamel.dev/notes/llm/evals/inspect.html</link>
             <guid isPermaLink="false">https://hamel.dev/notes/llm/evals/inspect.html</guid>
             <pubDate>Mon, 23 Jun 2025 07:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[DSLs to the Rescue]]></title>
+            <description><![CDATA[Designing better data tooling with DSLs]]></description>
+            <link>https://dagster.io/blog/dsls-to-the-rescue</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dsls-to-the-rescue</guid>
+            <pubDate>Mon, 16 Jun 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Golden Ages]]></title>
             <description><![CDATA[Every industry has a golden era. And once it ends, it is impossible to break through. Why do Golden Ages begin, and why do they end?]]></description>
             <link>https://chanderramesh.com/writing/golden-ages</link>
             <guid isPermaLink="false">https://chanderramesh.com/writing/golden-ages</guid>
+            <pubDate>Wed, 11 Jun 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Code Location Best Practices]]></title>
+            <description><![CDATA[How to organize your code locations for clarity, maintainability, and reuse.]]></description>
+            <link>https://dagster.io/blog/code-location-best-practices</link>
+            <guid isPermaLink="false">https://dagster.io/blog/code-location-best-practices</guid>
             <pubDate>Wed, 11 Jun 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -639,11 +991,81 @@
             <pubDate>Tue, 27 May 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Beyond Point to Point]]></title>
+            <description><![CDATA[Why Modern Data Teams Need Orchestration, Not Just Integration]]></description>
+            <link>https://dagster.io/blog/beyond-point-to-point</link>
+            <guid isPermaLink="false">https://dagster.io/blog/beyond-point-to-point</guid>
+            <pubDate>Mon, 19 May 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Ollama's new engine for multimodal models]]></title>
             <description><![CDATA[Ollama now supports new multimodal models with its new engine.]]></description>
             <link>https://ollama.com/blog/multimodal-models</link>
             <guid isPermaLink="false">https://ollama.com/blog/multimodal-models</guid>
             <pubDate>Wed, 14 May 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vibe Coding Survival Guide]]></title>
+            <description><![CDATA[How data engineers can get the most from AI coding]]></description>
+            <link>https://dagster.io/blog/vibe-coding-survival-guide</link>
+            <guid isPermaLink="false">https://dagster.io/blog/vibe-coding-survival-guide</guid>
+            <pubDate>Wed, 14 May 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster Pipes: Now available for TypeScript, Rust, and Java]]></title>
+            <description><![CDATA[Expanding Dagster pipes to support Typescript, Rust, and Java]]></description>
+            <link>https://dagster.io/blog/pipes-typescript-rust-java</link>
+            <guid isPermaLink="false">https://dagster.io/blog/pipes-typescript-rust-java</guid>
+            <pubDate>Sun, 11 May 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cut Through the Noise: Precision Data Management with Dagster's Asset Selection Framework]]></title>
+            <description><![CDATA[Data platforms can be complex, Dagster's understanding of Lineage makes it easy to get to whats important.]]></description>
+            <link>https://dagster.io/blog/updated-asset-selection-syntax</link>
+            <guid isPermaLink="false">https://dagster.io/blog/updated-asset-selection-syntax</guid>
+            <pubDate>Wed, 07 May 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Accelerate Data Pipeline Development with Dagster Components]]></title>
+            <description><![CDATA[Introducing Dagster Components, a simplified approach to developing and managing your data pipelines]]></description>
+            <link>https://dagster.io/blog/accelerate-data-pipeline-development-with-dagster-components</link>
+            <guid isPermaLink="false">https://dagster.io/blog/accelerate-data-pipeline-development-with-dagster-components</guid>
+            <pubDate>Thu, 01 May 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Case for Dagster: Moving Beyond Airflow in the Modern Data Stack™]]></title>
+            <description><![CDATA[How we think about data orchestration needs to fundamentally change, and Dagster represents that shift in thinking.]]></description>
+            <link>https://dagster.io/blog/moving-beyond-airflow-in-the-modern-data-stack</link>
+            <guid isPermaLink="false">https://dagster.io/blog/moving-beyond-airflow-in-the-modern-data-stack</guid>
+            <pubDate>Tue, 22 Apr 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why we love uv]]></title>
+            <description><![CDATA[Making Python package management simple and how Dagster leverages uv.]]></description>
+            <link>https://dagster.io/blog/why-we-love-uv</link>
+            <guid isPermaLink="false">https://dagster.io/blog/why-we-love-uv</guid>
+            <pubDate>Sun, 20 Apr 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Free Your Mind With Dagster]]></title>
+            <description><![CDATA[You need tools that handle the trivial stuff and give you, your team, and your company space to think and act decisively.]]></description>
+            <link>https://dagster.io/blog/free-your-mind-with-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/free-your-mind-with-dagster</guid>
+            <pubDate>Tue, 08 Apr 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[MS Fabric vs. Dagster: Why Your Architecture Choices Matter]]></title>
+            <description><![CDATA[The fundamental challenge facing data teams today is building scalable platforms that enable self-service for data consumers.]]></description>
+            <link>https://dagster.io/blog/dagster-fabric</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-fabric</guid>
+            <pubDate>Mon, 07 Apr 2025 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster University Presents: Testing with Dagster]]></title>
+            <description><![CDATA[Learn best practices for writing Pythonic tests for Dagster.]]></description>
+            <link>https://dagster.io/blog/dagster-university-presents-testing-with-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-university-presents-testing-with-dagster</guid>
+            <pubDate>Sun, 30 Mar 2025 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Field Guide to Rapidly Improving AI Products]]></title>
@@ -652,11 +1074,32 @@
             <pubDate>Mon, 24 Mar 2025 07:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Observability That Matters with Dagster+ Alerts]]></title>
+            <description><![CDATA[Broken pipelines are unavoidable. Catch problems as soon as they happen with the improved alerting suite in Dagster+.]]></description>
+            <link>https://dagster.io/blog/observability-that-matters-with-dagster-alerts</link>
+            <guid isPermaLink="false">https://dagster.io/blog/observability-that-matters-with-dagster-alerts</guid>
+            <pubDate>Wed, 05 Mar 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building with Dagster vs Airflow]]></title>
+            <description><![CDATA[Rebuilding Airflow's tutorial in Dagster]]></description>
+            <link>https://dagster.io/blog/building-with-dagster-vs-airflow</link>
+            <guid isPermaLink="false">https://dagster.io/blog/building-with-dagster-vs-airflow</guid>
+            <pubDate>Mon, 03 Mar 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Minions: where local and cloud LLMs meet]]></title>
             <description><![CDATA[Avanika Narayan, Dan Biderman, and Sabri Eyuboglu from Christopher Ré's Stanford Hazy Research lab, along with Avner May, Scott Linderman, James Zou, have developed a way to shift a substantial portion of LLM workloads to consumer devices by having small on-device models (such as Llama 3.2 with Ollama) collaborate with larger models in the cloud (such as GPT-4o).]]></description>
             <link>https://ollama.com/blog/minions</link>
             <guid isPermaLink="false">https://ollama.com/blog/minions</guid>
             <pubDate>Mon, 24 Feb 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster 1.10: Mambo No 5]]></title>
+            <description><![CDATA[Intuitive Concurrency Controls, Improved ELT integrations, and Developer Experience Upgrades]]></description>
+            <link>https://dagster.io/blog/dagster-1-10-mambo-no-5</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-10-mambo-no-5</guid>
+            <pubDate>Tue, 11 Feb 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Everything You Call Life]]></title>
@@ -673,6 +1116,20 @@
             <pubDate>Sun, 02 Feb 2025 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[AI Reference Architectures]]></title>
+            <description><![CDATA[Guide to the some common AI Architectures patterns with Dagster]]></description>
+            <link>https://dagster.io/blog/ai-reference-architectures</link>
+            <guid isPermaLink="false">https://dagster.io/blog/ai-reference-architectures</guid>
+            <pubDate>Thu, 23 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[From Prototype to Production: Building AI Products That Scale with Dagster]]></title>
+            <description><![CDATA[Modern AI development requires different patterns than traditional software. By combining familiar engineering practices with new approaches for handling the probabilistic nature of AI, teams can successfully scale their AI products into production.]]></description>
+            <link>https://dagster.io/blog/building-ai-products-that-scale</link>
+            <guid isPermaLink="false">https://dagster.io/blog/building-ai-products-that-scale</guid>
+            <pubDate>Thu, 23 Jan 2025 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Thoughts On A Month With Devin]]></title>
             <link>https://www.answer.ai/posts/2025-01-08-devin.html</link>
             <guid isPermaLink="false">https://www.answer.ai/posts/2025-01-08-devin.html</guid>
@@ -686,6 +1143,13 @@
             <pubDate>Tue, 31 Dec 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Data Platform Week 2024]]></title>
+            <description><![CDATA[The future of data platforms are composable, unified, and leveraged]]></description>
+            <link>https://dagster.io/blog/data-platform-week-2024</link>
+            <guid isPermaLink="false">https://dagster.io/blog/data-platform-week-2024</guid>
+            <pubDate>Mon, 16 Dec 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[nbsanity - Share Notebooks as Polished Web Pages in Seconds]]></title>
             <link>https://www.answer.ai/posts/2024-12-13-nbsanity.html</link>
             <guid isPermaLink="false">https://www.answer.ai/posts/2024-12-13-nbsanity.html</guid>
@@ -697,6 +1161,13 @@
             <link>https://ollama.com/blog/structured-outputs</link>
             <guid isPermaLink="false">https://ollama.com/blog/structured-outputs</guid>
             <pubDate>Thu, 05 Dec 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Interactive Debugging With Dagster and Docker]]></title>
+            <description><![CDATA[Step-by-step guide to debugging Dagster code directly in Docker, bridging the gap between development and deployment.]]></description>
+            <link>https://dagster.io/blog/interactive-debugging-with-dagster-and-docker</link>
+            <guid isPermaLink="false">https://dagster.io/blog/interactive-debugging-with-dagster-and-docker</guid>
+            <pubDate>Sun, 01 Dec 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building an Audience Through Technical Writing: Strategies and Mistakes]]></title>
@@ -719,6 +1190,19 @@
             <pubDate>Thu, 14 Nov 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Announcing 4 New Integrations: Dagster + Your Favorite BI Tools]]></title>
+            <link>https://dagster.io/blog/dagster-power-bi</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-power-bi</guid>
+            <pubDate>Wed, 13 Nov 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bridging Business Intelligence and Data Orchestration with Dagster + Sigma]]></title>
+            <description><![CDATA[Break down the silos between data engineering and BI tools]]></description>
+            <link>https://dagster.io/blog/dagster-sigma</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-sigma</guid>
+            <pubDate>Wed, 13 Nov 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Llama 3.2 Vision]]></title>
             <description><![CDATA[Llama 3.2 Vision 11B and 90B models are now available in Ollama.]]></description>
             <link>https://ollama.com/blog/llama3.2-vision</link>
@@ -726,10 +1210,24 @@
             <pubDate>Tue, 05 Nov 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Dagster 1.9: Spooky]]></title>
+            <description><![CDATA[Declarative automation has officially graduated, BI in your asset graph, Airlift to streamline migrations, and more.]]></description>
+            <link>https://dagster.io/blog/dagster-1-9-spooky</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-9-spooky</guid>
+            <pubDate>Wed, 30 Oct 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Using LLM-as-a-Judge For Evaluation: A Complete Guide]]></title>
             <link>https://hamel.dev/blog/posts/llm-judge/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/llm-judge/index.html</guid>
             <pubDate>Tue, 29 Oct 2024 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI's Long-Term Impact on Data Engineering Roles]]></title>
+            <description><![CDATA[Expectations for Data Engineering will rapidly inflate; the nature of the work will change.]]></description>
+            <link>https://dagster.io/blog/ai-and-data-engineering-roles</link>
+            <guid isPermaLink="false">https://dagster.io/blog/ai-and-data-engineering-roles</guid>
+            <pubDate>Sun, 27 Oct 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[IBM Granite 3.0 models]]></title>
@@ -739,10 +1237,24 @@
             <pubDate>Sun, 20 Oct 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[From Chaos to Control: How Dagster Unifies Orchestration and Data Cataloging]]></title>
+            <description><![CDATA[Navigate complex data environments more effectively, and ensure that valuable data assets are easily discoverable and usable.]]></description>
+            <link>https://dagster.io/blog/data-catalog</link>
+            <guid isPermaLink="false">https://dagster.io/blog/data-catalog</guid>
+            <pubDate>Sun, 13 Oct 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Concurrency Foundations For FastHTML]]></title>
             <link>https://hamel.dev/notes/fasthtml/concurrency.html</link>
             <guid isPermaLink="false">https://hamel.dev/notes/fasthtml/concurrency.html</guid>
             <pubDate>Thu, 10 Oct 2024 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10 Reasons Why No-Code Solutions Almost Always Fail]]></title>
+            <description><![CDATA[No-code solutions sound easy – until they aren’t. Here’s why they often fail and what you can do about it for your data engineering.]]></description>
+            <link>https://dagster.io/blog/why-no-code-solutions-almost-always-fail</link>
+            <guid isPermaLink="false">https://dagster.io/blog/why-no-code-solutions-almost-always-fail</guid>
+            <pubDate>Wed, 02 Oct 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product Market Fit]]></title>
@@ -752,6 +1264,27 @@
             <pubDate>Sun, 29 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[5 Best Practices AI Engineers Should Learn From Data Engineering]]></title>
+            <description><![CDATA[AI engineering is data engineering. Here are 5 best practices the former should adopt from the latter to succeed.]]></description>
+            <link>https://dagster.io/blog/ai-engineering-is-data-engineering</link>
+            <guid isPermaLink="false">https://dagster.io/blog/ai-engineering-is-data-engineering</guid>
+            <pubDate>Sun, 29 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster Deep Dive Recap: Orchestrating Flexible Compute for ML with Dagster and Modal]]></title>
+            <description><![CDATA[Learn how to use Dagster and Modal to automate and streamline your machine learning model training and data processing.]]></description>
+            <link>https://dagster.io/blog/deepdive-recap-dagster-modal</link>
+            <guid isPermaLink="false">https://dagster.io/blog/deepdive-recap-dagster-modal</guid>
+            <pubDate>Thu, 26 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Rise of the Data Platform Engineer]]></title>
+            <description><![CDATA[How the next step in the evolution of the Data Engineering role requires a platform approach.]]></description>
+            <link>https://dagster.io/blog/rise-of-the-data-platform-engineer</link>
+            <guid isPermaLink="false">https://dagster.io/blog/rise-of-the-data-platform-engineer</guid>
+            <pubDate>Wed, 25 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Llama 3.2 goes small and multimodal]]></title>
             <description><![CDATA[Ollama partners with Meta to bring Llama 3.2 to Ollama.]]></description>
             <link>https://ollama.com/blog/llama3.2</link>
@@ -759,11 +1292,53 @@
             <pubDate>Tue, 24 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Dagster vs. Airflow]]></title>
+            <description><![CDATA[Get the tale of the tape between the two orchestration giants and see why Dagster stands tall as the superior choice.]]></description>
+            <link>https://dagster.io/blog/dagster-airflow</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-airflow</guid>
+            <pubDate>Sun, 22 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Reduce hallucinations with Bespoke-Minicheck]]></title>
             <description><![CDATA[Bespoke-Minicheck is a new grounded factuality checking model developed by Bespoke Labs that is now available in Ollama. It can fact-check responses generated by other models to detect and reduce hallucinations.]]></description>
             <link>https://ollama.com/blog/reduce-hallucinations-with-bespoke-minicheck</link>
             <guid isPermaLink="false">https://ollama.com/blog/reduce-hallucinations-with-bespoke-minicheck</guid>
             <pubDate>Tue, 17 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What is Data Visibility?]]></title>
+            <description><![CDATA[The unseen data is often the deadliest. Here’s how to shine a light on it in your business.]]></description>
+            <link>https://dagster.io/blog/data-visibility-primer</link>
+            <guid isPermaLink="false">https://dagster.io/blog/data-visibility-primer</guid>
+            <pubDate>Wed, 11 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster Deep Dive Recap: Building a True Data Platform]]></title>
+            <description><![CDATA[Move past the MDS and build a data platform for observability, cost-efficiency, and top-tier orchestrating.]]></description>
+            <link>https://dagster.io/blog/deepdive-recap-building-a-true-data-platform</link>
+            <guid isPermaLink="false">https://dagster.io/blog/deepdive-recap-building-a-true-data-platform</guid>
+            <pubDate>Thu, 05 Sep 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster Deep Dive Recap: Evolution of the Data Platform]]></title>
+            <description><![CDATA[Dagster and SDF show how the power of two can connect local development and production orchestration.]]></description>
+            <link>https://dagster.io/blog/deepdive-recap-evolution-data-platform</link>
+            <guid isPermaLink="false">https://dagster.io/blog/deepdive-recap-evolution-data-platform</guid>
+            <pubDate>Thu, 29 Aug 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster 1.8: Call Me Maybe]]></title>
+            <description><![CDATA[Ecosystem and integration improvements, data catalog improvements, new asset checks, new declarative automation, and more.]]></description>
+            <link>https://dagster.io/blog/dagster-1-8-call-me-maybe</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-8-call-me-maybe</guid>
+            <pubDate>Wed, 07 Aug 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster Deep Dive Recap: Building Reliable Data Platforms]]></title>
+            <description><![CDATA[Explore the importance of data quality and learn strategies for integrating quality checks using Dagster.]]></description>
+            <link>https://dagster.io/blog/deepdive-recap-data-reliability</link>
+            <guid isPermaLink="false">https://dagster.io/blog/deepdive-recap-data-reliability</guid>
+            <pubDate>Tue, 06 Aug 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[An Open Course on LLMs, Led by Practitioners]]></title>
@@ -777,6 +1352,20 @@
             <link>https://ollama.com/blog/tool-support</link>
             <guid isPermaLink="false">https://ollama.com/blog/tool-support</guid>
             <pubDate>Wed, 24 Jul 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A Look Inside the Dagster Labs Culture]]></title>
+            <description><![CDATA[Operations Lead Eunice Ho dives into the Dagster Labs culture and why it makes for an ideal work environment.]]></description>
+            <link>https://dagster.io/blog/a-look-inside-dagster-labs-culture</link>
+            <guid isPermaLink="false">https://dagster.io/blog/a-look-inside-dagster-labs-culture</guid>
+            <pubDate>Wed, 17 Jul 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Enabling Data Quality with Dagster and Great Expectations]]></title>
+            <description><![CDATA[Use Dagster and GX to improve data pipeline reliability without writing custom logic for data testing.]]></description>
+            <link>https://dagster.io/blog/ensuring-data-quality-with-dagster-and-great-expectations</link>
+            <guid isPermaLink="false">https://dagster.io/blog/ensuring-data-quality-with-dagster-and-great-expectations</guid>
+            <pubDate>Sun, 07 Jul 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Google Gemma 2]]></title>
@@ -793,6 +1382,20 @@
             <pubDate>Mon, 24 Jun 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[The Rise of Medium Code]]></title>
+            <description><![CDATA[Why the reports of software’s demise are greatly exaggerated.]]></description>
+            <link>https://dagster.io/blog/the-rise-of-medium-code</link>
+            <guid isPermaLink="false">https://dagster.io/blog/the-rise-of-medium-code</guid>
+            <pubDate>Sun, 09 Jun 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ELT Options in Dagster]]></title>
+            <description><![CDATA[Why running data ingestion jobs straight from the orchestrator is often a preferred approach.]]></description>
+            <link>https://dagster.io/blog/elt-options-in-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/elt-options-in-dagster</guid>
+            <pubDate>Tue, 04 Jun 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[What We’ve Learned From A Year of Building with LLMs]]></title>
             <link>https://applied-llms.org/</link>
             <guid isPermaLink="false">https://applied-llms.org/</guid>
@@ -806,11 +1409,39 @@
             <pubDate>Thu, 30 May 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Dagster’s Code Location Architecture]]></title>
+            <description><![CDATA[A structure for a reliable, maintainable data platform design.]]></description>
+            <link>https://dagster.io/blog/dagster-code-locations</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-code-locations</guid>
+            <pubDate>Mon, 27 May 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Google announces Firebase Genkit with Ollama support]]></title>
             <description><![CDATA[At Google IO 2024, Google announced Ollama support in Firebase Genkit, a new open-source framework for developers to build, deploy and monitor production-ready AI-powered apps.]]></description>
             <link>https://ollama.com/blog/firebase-genkit</link>
             <guid isPermaLink="false">https://ollama.com/blog/firebase-genkit</guid>
             <pubDate>Sun, 19 May 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What is Dagster: A Guide to the Data Orchestrator]]></title>
+            <description><![CDATA[Get to know the tool that sets the standard for modern data orchestration.]]></description>
+            <link>https://dagster.io/blog/what-is-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/what-is-dagster</guid>
+            <pubDate>Thu, 16 May 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building Cost Effective AI Pipelines with OpenAI, LangChain, and Dagster]]></title>
+            <description><![CDATA[Leverage the power of LLMs while keeping the costs in check using the Dagster OpenAI integration.]]></description>
+            <link>https://dagster.io/blog/building-cost-effective-ai-pipelines-openai-langchain-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/building-cost-effective-ai-pipelines-openai-langchain-dagster</guid>
+            <pubDate>Tue, 07 May 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unlocking Flexible Pipelines: Customizing the Asset Decorator]]></title>
+            <description><![CDATA[Use Asset Factories within Dagster to streamline data asset creation, promote code reusability, and maintain data engineering workflows.]]></description>
+            <link>https://dagster.io/blog/unlocking-flexible-pipelines-customizing-asset-decorator</link>
+            <guid isPermaLink="false">https://dagster.io/blog/unlocking-flexible-pipelines-customizing-asset-decorator</guid>
+            <pubDate>Mon, 29 Apr 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Llama 3 is not very censored]]></title>
@@ -827,10 +1458,45 @@
             <pubDate>Wed, 17 Apr 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Change Tracking Branch Deployments in Dagster+]]></title>
+            <description><![CDATA[Dagster+ further enhances identification and collaboration around changes to your data pipelines.]]></description>
+            <link>https://dagster.io/blog/change-tracking-branch-deployments-in-dagster-plus</link>
+            <guid isPermaLink="false">https://dagster.io/blog/change-tracking-branch-deployments-in-dagster-plus</guid>
+            <pubDate>Tue, 16 Apr 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster+ Catalog: A New Built-in Asset Library for All Practitioners]]></title>
+            <description><![CDATA[Give your data teams a powerful new system of record without the overhead of maintaining a third-party catalog.]]></description>
+            <link>https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</guid>
+            <pubDate>Tue, 16 Apr 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ensuring Reliable Data with Dagster+]]></title>
+            <description><![CDATA[Dagster+ helps you monitor the freshness, quality, and schema of your data.]]></description>
+            <link>https://dagster.io/blog/ensuring-reliable-data-dagster-plus</link>
+            <guid isPermaLink="false">https://dagster.io/blog/ensuring-reliable-data-dagster-plus</guid>
+            <pubDate>Tue, 16 Apr 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[See Both the Forest and the Trees with Dagster+ Insights]]></title>
+            <description><![CDATA[How Dagster+ Insights helps you control costs and elevate your data platform’s observability.]]></description>
+            <link>https://dagster.io/blog/see-the-forest-and-trees-dagster-plus</link>
+            <guid isPermaLink="false">https://dagster.io/blog/see-the-forest-and-trees-dagster-plus</guid>
+            <pubDate>Tue, 16 Apr 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Debugging AI With Adversarial Validation]]></title>
             <link>https://hamel.dev/blog/posts/drift/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/drift/index.html</guid>
             <pubDate>Fri, 12 Apr 2024 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Data Engineering Impedance Mismatch]]></title>
+            <description><![CDATA[A case for asset-oriented over workflow-oriented in data orchestration.]]></description>
+            <link>https://dagster.io/blog/impedance-mismatch-in-data-orchestration</link>
+            <guid isPermaLink="false">https://dagster.io/blog/impedance-mismatch-in-data-orchestration</guid>
+            <pubDate>Tue, 09 Apr 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Embedding models]]></title>
@@ -838,6 +1504,27 @@
             <link>https://ollama.com/blog/embedding-models</link>
             <guid isPermaLink="false">https://ollama.com/blog/embedding-models</guid>
             <pubDate>Sun, 07 Apr 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Dagster 1.7: Love Plus One]]></title>
+            <description><![CDATA[A major set of updates to Dagster Core ahead of our Dagster+ launch.]]></description>
+            <link>https://dagster.io/blog/dagster-1-7-love-plus-one</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-7-love-plus-one</guid>
+            <pubDate>Sun, 07 Apr 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Expanding the Dagster Embedded ELT Ecosystem with dltHub for Data Ingestion]]></title>
+            <description><![CDATA[We now have an officially supported dlt integration.]]></description>
+            <link>https://dagster.io/blog/expanding-dagsters-embedded-elt-ecosystem-with-dlthub-for-data-ingestion</link>
+            <guid isPermaLink="false">https://dagster.io/blog/expanding-dagsters-embedded-elt-ecosystem-with-dlthub-for-data-ingestion</guid>
+            <pubDate>Thu, 04 Apr 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sling Out Your ETL Provider with Embedded ELT]]></title>
+            <description><![CDATA[How we saved $40k and gained better control over our ingestion steps.]]></description>
+            <link>https://dagster.io/blog/sling-out-your-etl-provider-with-embedded-elt</link>
+            <guid isPermaLink="false">https://dagster.io/blog/sling-out-your-etl-provider-with-embedded-elt</guid>
+            <pubDate>Tue, 02 Apr 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Your AI Product Needs Evals]]></title>
@@ -852,11 +1539,39 @@
             <pubDate>Wed, 27 Mar 2024 07:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Exploring The Data Engineering Lifecycle]]></title>
+            <description><![CDATA[Learn the fundamentals of a healthy data engineering lifecycle to optimize pipeline and asset production.]]></description>
+            <link>https://dagster.io/blog/the-data-engineering-lifecycle</link>
+            <guid isPermaLink="false">https://dagster.io/blog/the-data-engineering-lifecycle</guid>
+            <pubDate>Mon, 25 Mar 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Ollama now supports AMD graphics cards]]></title>
             <description><![CDATA[Ollama now supports AMD graphics cards in preview on Windows and Linux. All the features of Ollama can now be accelerated by AMD graphics cards on Ollama for Linux and Windows.]]></description>
             <link>https://ollama.com/blog/amd-preview</link>
             <guid isPermaLink="false">https://ollama.com/blog/amd-preview</guid>
             <pubDate>Wed, 13 Mar 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[New Dagster Integration: Include OpenAI Calls Into Your Data Pipelines]]></title>
+            <description><![CDATA[The new dagster-openai integration lets you tap into the power of LLMs in a cost-efficient way.]]></description>
+            <link>https://dagster.io/blog/dagster-openai</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-openai</guid>
+            <pubDate>Sun, 10 Mar 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Breaking Packages in Python]]></title>
+            <description><![CDATA[An exposé of the nooks and crannies of Python’s modules and packages.]]></description>
+            <link>https://dagster.io/blog/python-breaking-packages</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-breaking-packages</guid>
+            <pubDate>Mon, 26 Feb 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Balancing the Data Scales: Centralization vs. Decentralization]]></title>
+            <description><![CDATA[Learn how organizations can harness the strengths of both approaches to optimize their data operations.]]></description>
+            <link>https://dagster.io/blog/balancing-the-data-scales-centralization-vs-decentralization</link>
+            <guid isPermaLink="false">https://dagster.io/blog/balancing-the-data-scales-centralization-vs-decentralization</guid>
+            <pubDate>Thu, 22 Feb 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Windows preview]]></title>
@@ -879,11 +1594,32 @@
             <pubDate>Wed, 07 Feb 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Standardize Pipelines with Domain-Specific Languages]]></title>
+            <description><![CDATA[By implementing DSLs, data teams can open their data platform to many more users without compromising on standards.]]></description>
+            <link>https://dagster.io/blog/scale-and-standardize-data-pipelines-with-dsl</link>
+            <guid isPermaLink="false">https://dagster.io/blog/scale-and-standardize-data-pipelines-with-dsl</guid>
+            <pubDate>Wed, 07 Feb 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Thinking in Assets When Building Data Pipelines]]></title>
+            <description><![CDATA[How to develop data pipelines using Software-defined Assets.]]></description>
+            <link>https://dagster.io/blog/thinking-in-assets</link>
+            <guid isPermaLink="false">https://dagster.io/blog/thinking-in-assets</guid>
+            <pubDate>Sun, 04 Feb 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Vision models]]></title>
             <description><![CDATA[New vision models are now available: LLaVA 1.6, in 7B, 13B and 34B parameter sizes. These models support higher resolution images, improved text recognition and logical reasoning.]]></description>
             <link>https://ollama.com/blog/vision-models</link>
             <guid isPermaLink="false">https://ollama.com/blog/vision-models</guid>
             <pubDate>Thu, 01 Feb 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What Dagster Believes About Data Platforms]]></title>
+            <description><![CDATA[The beliefs that organizations adopt about the way their data platforms should function influence their outcomes. Here are ours.]]></description>
+            <link>https://dagster.io/blog/what-dagster-believes-about-data-platforms</link>
+            <guid isPermaLink="false">https://dagster.io/blog/what-dagster-believes-about-data-platforms</guid>
+            <pubDate>Sun, 28 Jan 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Python & JavaScript Libraries]]></title>
@@ -893,10 +1629,24 @@
             <pubDate>Mon, 22 Jan 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Announcing Dagster 1.6: Back to Black]]></title>
+            <description><![CDATA[Major UI enhancements, Dagster Pipes upgrades and of course, dark mode :-)]]></description>
+            <link>https://dagster.io/blog/dagster-1-6-back-to-black</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-6-back-to-black</guid>
+            <pubDate>Thu, 11 Jan 2024 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[How To Debug Axolotl]]></title>
             <link>https://hamel.dev/blog/posts/axolotl/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/axolotl/index.html</guid>
             <pubDate>Thu, 11 Jan 2024 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Retain.ai joins Dagster Labs]]></title>
+            <description><![CDATA[We’re excited and humbled to bring the Retain.ai organization into our fold to help build out Dagster’s data orchestration capabilities.]]></description>
+            <link>https://dagster.io/blog/dagster-labs-retain-ai</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-labs-retain-ai</guid>
+            <pubDate>Tue, 09 Jan 2024 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Dokku: my favorite personal serverless platform]]></title>
@@ -918,16 +1668,51 @@
             <pubDate>Sun, 17 Dec 2023 08:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[How Dagster Labs runs Dagster: Open-Sourcing our Own Pipelines]]></title>
+            <description><![CDATA[A technical deep dive into the patterns and implementations of the Dagster Open Platform using our open-sourced code and dbt models.]]></description>
+            <link>https://dagster.io/blog/how-dagster-labs-runs-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/how-dagster-labs-runs-dagster</guid>
+            <pubDate>Sun, 03 Dec 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Dagster’s DAG Visualization to Handle Tens of Thousands of Assets]]></title>
+            <description><![CDATA[How the Dagster frontend team rapidly scaled Dagster’s DAG visualization for enterprise-sized data asset graphs.]]></description>
+            <link>https://dagster.io/blog/scaling-dag-visualization</link>
+            <guid isPermaLink="false">https://dagster.io/blog/scaling-dag-visualization</guid>
+            <pubDate>Tue, 28 Nov 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[High-performance Python for Data Engineering]]></title>
+            <description><![CDATA[Learn how to optimize your Python data pipeline code to run faster with our high-performance Python guide for data engineers.]]></description>
+            <link>https://dagster.io/blog/python-high-performance</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-high-performance</guid>
+            <pubDate>Sun, 19 Nov 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Tools for curating LLM Data]]></title>
             <link>https://hamel.dev/notes/llm/finetuning/data_cleaning.html</link>
             <guid isPermaLink="false">https://hamel.dev/notes/llm/finetuning/data_cleaning.html</guid>
             <pubDate>Wed, 15 Nov 2023 08:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Orchestrate Unstructured Data Pipelines with Dagster and dlt]]></title>
+            <description><![CDATA[Load messy data sources into well-structured tables or datasets, through automatic schema inference and evolution.]]></description>
+            <link>https://dagster.io/blog/dagster-dlt</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-dlt</guid>
+            <pubDate>Tue, 07 Nov 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[vLLM & Large Models]]></title>
             <link>https://hamel.dev/notes/llm/inference/big_inference.html</link>
             <guid isPermaLink="false">https://hamel.dev/notes/llm/inference/big_inference.html</guid>
             <pubDate>Sat, 28 Oct 2023 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CI/CD and Data Pipeline Automation (with Git)]]></title>
+            <description><![CDATA[Learn how to automate data pipelines and deployments by integrating Git and CI/CD in our Python for data engineering series.]]></description>
+            <link>https://dagster.io/blog/python-ci-cd-automation</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-ci-cd-automation</guid>
+            <pubDate>Thu, 19 Oct 2023 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Optimizing LLM latency]]></title>
@@ -943,11 +1728,74 @@
             <pubDate>Thu, 12 Oct 2023 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Introducing Dagster External Assets]]></title>
+            <description><![CDATA[Use Dagster’s External Assets feature for data observability, lineage, data quality, and cataloging while bringing your own orchestration and scheduling.]]></description>
+            <link>https://dagster.io/blog/dagster-external-assets</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-external-assets</guid>
+            <pubDate>Thu, 12 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Dagster Pipes]]></title>
+            <description><![CDATA[A new protocol and toolkit for integrating and launching compute into remote execution environments from Dagster.]]></description>
+            <link>https://dagster.io/blog/dagster-pipes</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-pipes</guid>
+            <pubDate>Thu, 12 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stop Reinventing Orchestration: Embedded ELT in the Orchestrator]]></title>
+            <description><![CDATA[Solve data ingestion issues with Dagster's Embedded ELT feature, a lightweight embedded library.]]></description>
+            <link>https://dagster.io/blog/dagster-embedded-elt</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-embedded-elt</guid>
+            <pubDate>Wed, 11 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Improving the Dagster learning curve]]></title>
+            <description><![CDATA[Learn Dagster essentials and build asset-based data pipelines with Dagster University, our new self-guided course for beginners.]]></description>
+            <link>https://dagster.io/blog/announcing-dagster-university</link>
+            <guid isPermaLink="false">https://dagster.io/blog/announcing-dagster-university</guid>
+            <pubDate>Tue, 10 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Improving visibility into data operations with Dagster Insights]]></title>
+            <description><![CDATA[Gain operational observability on your data pipelines and bring cloud costs back under control with the Dagster Insights feature.]]></description>
+            <link>https://dagster.io/blog/dagster-insights</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-insights</guid>
+            <pubDate>Mon, 09 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Dagster Asset Checks]]></title>
+            <description><![CDATA[Deliver high-quality data with Dagster Asset Checks, the ability to embed data quality checks into your data pipeline.]]></description>
+            <link>https://dagster.io/blog/dagster-asset-checks</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-asset-checks</guid>
+            <pubDate>Sun, 08 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Ollama is now available as an official Docker image]]></title>
             <description><![CDATA[Ollama can now run with Docker Desktop on the Mac, and run inside Docker containers with GPU acceleration on Linux.]]></description>
             <link>https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image</link>
             <guid isPermaLink="false">https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image</guid>
             <pubDate>Wed, 04 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Dagster 1.5: How Will I Know?]]></title>
+            <description><![CDATA[Ahead of Launch Week, we are proud to be rolling out some exciting new capabilities.]]></description>
+            <link>https://dagster.io/blog/dagster-1-5-how-will-i-know</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-5-how-will-i-know</guid>
+            <pubDate>Sun, 01 Oct 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Write-Audit-Publish in data pipelines]]></title>
+            <description><![CDATA[We look at the write-audit-publish software design pattern used in ETL to ensure quality and reliability in data engineering workflows.]]></description>
+            <link>https://dagster.io/blog/python-write-audit-publish</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-write-audit-publish</guid>
+            <pubDate>Thu, 28 Sep 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Escaping the Modern Data Trap]]></title>
+            <description><![CDATA[Launch Week kicks off October 9th with new functionality being shared each day. Our theme: Escaping the Modern Data Trap!]]></description>
+            <link>https://dagster.io/blog/dagster-escaping-the-modern-data-trap</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-escaping-the-modern-data-trap</guid>
+            <pubDate>Wed, 27 Sep 2023 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Leveraging LLMs in your Obsidian Notes]]></title>
@@ -957,11 +1805,25 @@
             <pubDate>Wed, 20 Sep 2023 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Pedram Navid: Why I Joined Dagster Labs]]></title>
+            <description><![CDATA[It is not every day you get to join a company working on building a product purpose-built for you.]]></description>
+            <link>https://dagster.io/blog/pedram-why-i-joined-dagster-labs</link>
+            <guid isPermaLink="false">https://dagster.io/blog/pedram-why-i-joined-dagster-labs</guid>
+            <pubDate>Tue, 19 Sep 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[How to prompt Code Llama]]></title>
             <description><![CDATA[This guide walks through the different ways to structure prompts for Code Llama and its different variations and features including instructions, code completion and fill-in-the-middle (FIM).]]></description>
             <link>https://ollama.com/blog/how-to-prompt-code-llama</link>
             <guid isPermaLink="false">https://ollama.com/blog/how-to-prompt-code-llama</guid>
             <pubDate>Fri, 08 Sep 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Factory Patterns in Python]]></title>
+            <description><![CDATA[We explore design patterns — reusable solutions to common problems in software design — as used in data engineering, specifically factory patterns in Python.]]></description>
+            <link>https://dagster.io/blog/python-factory-patterns</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-factory-patterns</guid>
+            <pubDate>Sun, 03 Sep 2023 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Run Code Llama locally]]></title>
@@ -971,11 +1833,88 @@
             <pubDate>Wed, 23 Aug 2023 22:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Introducing Dagster Labs]]></title>
+            <description><![CDATA[In the spirit of simplification, the company formerly known as Elementl is now doing business as Dagster Labs.]]></description>
+            <link>https://dagster.io/blog/introducing-dagster-labs</link>
+            <guid isPermaLink="false">https://dagster.io/blog/introducing-dagster-labs</guid>
+            <pubDate>Sun, 20 Aug 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building an Outbound Reporting Pipeline]]></title>
+            <description><![CDATA[Learn how to use data engineering patterns and Dagster’s dynamic partitioning to build an outbound email report delivery pipeline.]]></description>
+            <link>https://dagster.io/blog/outbound-reporting-pipeline</link>
+            <guid isPermaLink="false">https://dagster.io/blog/outbound-reporting-pipeline</guid>
+            <pubDate>Thu, 17 Aug 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Type Hinting in Python]]></title>
+            <description><![CDATA[In part VI of our Data Engineering with Python series, we explore type hinting functions and classes, and how type hints reduce errors.]]></description>
+            <link>https://dagster.io/blog/python-type-hinting</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-type-hinting</guid>
+            <pubDate>Thu, 10 Aug 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Environment Variables in Python]]></title>
+            <description><![CDATA[In part V of our series on Data Engineering with Python, we cover best practices for managing environment variables in Python.]]></description>
+            <link>https://dagster.io/blog/python-environment-variables</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-environment-variables</guid>
+            <pubDate>Sun, 06 Aug 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Podcast: Drill to Detail - Dagster, Orchestration and Software-Defined Assets]]></title>
+            <description><![CDATA[Dagster Labs founder Nick Shrock is interviewed by Rittman Analytics founder Mark Rittman]]></description>
+            <link>https://dagster.io/blog/podcast-drill-to-detail-aug-2023</link>
+            <guid isPermaLink="false">https://dagster.io/blog/podcast-drill-to-detail-aug-2023</guid>
+            <pubDate>Wed, 02 Aug 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Run Llama 2 uncensored locally]]></title>
             <description><![CDATA[This post will give some example comparisons running Llama 2 uncensored model versus its censored model.]]></description>
             <link>https://ollama.com/blog/run-llama2-uncensored-locally</link>
             <guid isPermaLink="false">https://ollama.com/blog/run-llama2-uncensored-locally</guid>
             <pubDate>Mon, 31 Jul 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Orchestrating dbt™ with Dagster]]></title>
+            <description><![CDATA[Orchestrate dbt with Dagster’s popular dbt integration, now with major enhancements to supercharge your dbt models as part of your data pipeline.]]></description>
+            <link>https://dagster.io/blog/orchestrating-dbt-with-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/orchestrating-dbt-with-dagster</guid>
+            <pubDate>Mon, 31 Jul 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Speeding up the dbt™ docs by 20x with React Server Components]]></title>
+            <description><![CDATA[dbt docs slow? See how we dropped page load time and memory usage for a large dbt project by 20x using React Server Components.]]></description>
+            <link>https://dagster.io/blog/dbt-docs-on-react</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dbt-docs-on-react</guid>
+            <pubDate>Sun, 30 Jul 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Dagster 1.4: Material Girl]]></title>
+            <description><![CDATA[The latest release brings major new dbt capabilities, new asset materialization controls, and more.]]></description>
+            <link>https://dagster.io/blog/dagster-1-4-material-girl</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-4-material-girl</guid>
+            <pubDate>Thu, 20 Jul 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LLM training pipelines with Langchain, Airbyte, and Dagster]]></title>
+            <description><![CDATA[This tutorial shows you how to combine Langchain, Airbyte, and Dagster to build maintainable and scalable pipelines for training LLMs.]]></description>
+            <link>https://dagster.io/blog/training-llms</link>
+            <guid isPermaLink="false">https://dagster.io/blog/training-llms</guid>
+            <pubDate>Tue, 04 Jul 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Dagster Master Plan]]></title>
+            <description><![CDATA[Elementl CEO Pete Hunt shares the three priorities that guide how we will evolve Dagster.]]></description>
+            <link>https://dagster.io/blog/dagster-master-plan</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-master-plan</guid>
+            <pubDate>Wed, 14 Jun 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Backfills in Data & Machine Learning: A Primer]]></title>
+            <description><![CDATA[A step-by-step guide to using backfills and partitions to make data management more simple for data & ML engineers.]]></description>
+            <link>https://dagster.io/blog/backfills-in-ml</link>
+            <guid isPermaLink="false">https://dagster.io/blog/backfills-in-ml</guid>
+            <pubDate>Mon, 05 Jun 2023 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[On commercializing nbdev]]></title>
@@ -984,10 +1923,241 @@
             <pubDate>Tue, 30 May 2023 07:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Dagster and the Decade of Data Engineering]]></title>
+            <description><![CDATA[We are pleased to announce Elementl's $33M Series B and share our vision for what's next for Dagster and the practice of data engineering.]]></description>
+            <link>https://dagster.io/blog/decade-of-data-engineering</link>
+            <guid isPermaLink="false">https://dagster.io/blog/decade-of-data-engineering</guid>
+            <pubDate>Tue, 23 May 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Elementl Raises $33 Million in Series B Funding to Accelerate Data Orchestration and Unleash Advanced Data Use Cases]]></title>
+            <description><![CDATA[The new capital will accelerate the development and adoption of Dagster, the open-source, cloud-native data orchestrator.]]></description>
+            <link>https://dagster.io/blog/elementl-series-b</link>
+            <guid isPermaLink="false">https://dagster.io/blog/elementl-series-b</guid>
+            <pubDate>Tue, 23 May 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building Better Analytics Pipelines]]></title>
+            <description><![CDATA[A recap of our live event on the benefits and techniques for orchestrating analytics pipelines.]]></description>
+            <link>https://dagster.io/blog/building-better-analytics-pipelines</link>
+            <guid isPermaLink="false">https://dagster.io/blog/building-better-analytics-pipelines</guid>
+            <pubDate>Mon, 22 May 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Dynamic Definitions for Flexible Asset Partitioning]]></title>
+            <description><![CDATA[Dagster’s dynamic partition definitions allow engineers to use the power of partitions in a broader range of scenarios.]]></description>
+            <link>https://dagster.io/blog/dynamic-partitioning</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dynamic-partitioning</guid>
+            <pubDate>Thu, 18 May 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Deciphering Arcane Kubernetes and ECS Errors with Dagster]]></title>
+            <description><![CDATA[Recent enhancements allow Dagster to surface clearer and more actionable errors to accelerate your development cycles.]]></description>
+            <link>https://dagster.io/blog/surfacing-errors</link>
+            <guid isPermaLink="false">https://dagster.io/blog/surfacing-errors</guid>
+            <pubDate>Tue, 16 May 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Maintain High Product & Code Quality As Your Startup Scales]]></title>
+            <description><![CDATA[Raising the quality bar requires process adjustments and a cultural shift.]]></description>
+            <link>https://dagster.io/blog/product-and-code-quality</link>
+            <guid isPermaLink="false">https://dagster.io/blog/product-and-code-quality</guid>
+            <pubDate>Mon, 08 May 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Dagster 1.3: Smooth Operator]]></title>
+            <description><![CDATA[Dagster 1.3 officially inducts Pythonic Config and Resources and brings new enhancements to Software-Defined Assets, integrations, documentation, and guides.]]></description>
+            <link>https://dagster.io/blog/dagster-1-3-smooth-operator</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-3-smooth-operator</guid>
+            <pubDate>Tue, 25 Apr 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[From Python Projects to Dagster Pipelines]]></title>
+            <description><![CDATA[In part IV of our series, we explore setting up a Dagster project, and the key concept of Data Assets.]]></description>
+            <link>https://dagster.io/blog/data-engineering-in-python</link>
+            <guid isPermaLink="false">https://dagster.io/blog/data-engineering-in-python</guid>
+            <pubDate>Thu, 13 Apr 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Community Memo: Pythonic Config and Resources]]></title>
+            <description><![CDATA[Major ergonomic improvements are coming to Dagster's config and resources systems, including a Pydantic frontend.]]></description>
+            <link>https://dagster.io/blog/pythonic-config-and-resources</link>
+            <guid isPermaLink="false">https://dagster.io/blog/pythonic-config-and-resources</guid>
+            <pubDate>Sun, 02 Apr 2023 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Best Practices in Structuring Python Projects]]></title>
+            <description><![CDATA[We cover 9 best practices and examples on structuring your Python projects for collaboration and productivity.]]></description>
+            <link>https://dagster.io/blog/python-project-best-practices</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-project-best-practices</guid>
+            <pubDate>Mon, 20 Mar 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Partitions in Data Pipelines]]></title>
+            <description><![CDATA[Partitioning is a technique that helps data engineers and ML engineers organize data and the computations that produce that data.]]></description>
+            <link>https://dagster.io/blog/partitioned-data-pipelines</link>
+            <guid isPermaLink="false">https://dagster.io/blog/partitioned-data-pipelines</guid>
+            <pubDate>Sun, 19 Mar 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tracking the Fake GitHub Star Black Market with Dagster, dbt and BigQuery]]></title>
+            <description><![CDATA[It's easy for an open-source project to buy fake GitHub stars. We share two approaches for detecting them.]]></description>
+            <link>https://dagster.io/blog/fake-stars</link>
+            <guid isPermaLink="false">https://dagster.io/blog/fake-stars</guid>
+            <pubDate>Wed, 15 Mar 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Dagster 1.2: Formation]]></title>
+            <description><![CDATA[Enhanced partitioned asset support and the introduction of Pythonic config and resources, and integration updates.]]></description>
+            <link>https://dagster.io/blog/dagster-1-2-formation</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-2-formation</guid>
+            <pubDate>Wed, 08 Mar 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Dagster Deploys 5X Faster with Warm Docker Containers]]></title>
+            <description><![CDATA[Using pex, Serverless Dagster Cloud now deploys 4 to 5 times faster by avoiding the overhead of building and launching Docker images.]]></description>
+            <link>https://dagster.io/blog/fast-deploys-with-pex-and-docker</link>
+            <guid isPermaLink="false">https://dagster.io/blog/fast-deploys-with-pex-and-docker</guid>
+            <pubDate>Mon, 06 Mar 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python Packages: a Primer for Data People (part 1 of 2)]]></title>
+            <description><![CDATA[The foundation of a solid Python project is mastering modules, packages and imports.]]></description>
+            <link>https://dagster.io/blog/python-packages-primer-1</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-packages-primer-1</guid>
+            <pubDate>Sun, 05 Mar 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python Packages: a Primer for Data People (part 2 of 2)]]></title>
+            <description><![CDATA[An introduction to managing Python dependencies and some virtual environment best practices.]]></description>
+            <link>https://dagster.io/blog/python-packages-primer-2</link>
+            <guid isPermaLink="false">https://dagster.io/blog/python-packages-primer-2</guid>
+            <pubDate>Sun, 05 Mar 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Why Should ML Engineers Learn Kubernetes?]]></title>
             <link>https://hamel.dev/blog/posts/k8s/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/k8s/index.html</guid>
             <pubDate>Mon, 16 Jan 2023 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Build a GitHub Support Bot with GPT3, LangChain, and Python]]></title>
+            <description><![CDATA[In this tutorial, we tap into the power of OpenAI's ChatGPT to build a GitHub support bot using GPT3, LangChain, and Python.]]></description>
+            <link>https://dagster.io/blog/chatgpt-langchain</link>
+            <guid isPermaLink="false">https://dagster.io/blog/chatgpt-langchain</guid>
+            <pubDate>Sun, 08 Jan 2023 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Dagster 1.1: Thank U, Next]]></title>
+            <description><![CDATA[A major release with Declarative Scheduling, multi-asset scheduling, and SDA partitioning. Plus Secrets management, Dagit enhancements, Integrations updates and more...]]></description>
+            <link>https://dagster.io/blog/dagster-1-1-thank-u-next</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-1-thank-u-next</guid>
+            <pubDate>Tue, 13 Dec 2022 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Getting Stuff Done: a Guide to Productive Software Engineering]]></title>
+            <description><![CDATA[To be a more productive software engineer you need to master changes, how these affect the program and others on the team.]]></description>
+            <link>https://dagster.io/blog/productive-software-engineering</link>
+            <guid isPermaLink="false">https://dagster.io/blog/productive-software-engineering</guid>
+            <pubDate>Tue, 29 Nov 2022 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[My Path to Elementl - Part 2]]></title>
+            <description><![CDATA[Pete Hunt takes over as CEO as Nick Schrock takes on the CTO role.]]></description>
+            <link>https://dagster.io/blog/pete-hunt-path-to-elementl-part2</link>
+            <guid isPermaLink="false">https://dagster.io/blog/pete-hunt-path-to-elementl-part2</guid>
+            <pubDate>Thu, 17 Nov 2022 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pushing REST-API data to Google Sheets with Dagster]]></title>
+            <description><![CDATA[A total beginners tutorial in which we store REST API data in Google Sheets and learn some key abstractions.]]></description>
+            <link>https://dagster.io/blog/dagster-google-sheets-tutorial</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-google-sheets-tutorial</guid>
+            <pubDate>Thu, 10 Nov 2022 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Adding Types to a Large Python Codebase]]></title>
+            <description><![CDATA[What we learned when we introduced dynamically typed code to a large Python codebase, bringing Dagster's public API to 100% type coverage.]]></description>
+            <link>https://dagster.io/blog/adding-python-types</link>
+            <guid isPermaLink="false">https://dagster.io/blog/adding-python-types</guid>
+            <pubDate>Sun, 06 Nov 2022 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Orchestrating Machine Learning Pipelines with Dagster]]></title>
+            <description><![CDATA[How to use Dagster’s open source data orchestrator to build machine learning pipelines and train ML models.]]></description>
+            <link>https://dagster.io/blog/dagster-ml-pipelines</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-ml-pipelines</guid>
+            <pubDate>Sun, 30 Oct 2022 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Build a poor man’s data lake from scratch with DuckDB]]></title>
+            <description><![CDATA[DuckDB is so hot right now. Learn how to build a data lake from dbt using DuckDB for SQL transformations, along with Python, Dagster, and Parquet files.]]></description>
+            <link>https://dagster.io/blog/duckdb-data-lake</link>
+            <guid isPermaLink="false">https://dagster.io/blog/duckdb-data-lake</guid>
+            <pubDate>Mon, 24 Oct 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Unreasonable Effectiveness of Data Pipeline Smoke Tests]]></title>
+            <description><![CDATA[Data practitioners waste time writing unit tests to catch bugs they could have caught with smoke tests.]]></description>
+            <link>https://dagster.io/blog/smoke-test-data-pipeline</link>
+            <guid isPermaLink="false">https://dagster.io/blog/smoke-test-data-pipeline</guid>
+            <pubDate>Tue, 18 Oct 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web Workers are not the Answer]]></title>
+            <description><![CDATA[A tale of overstretched logs, counterintuitive web worker behavior, and ultimately a troublesome cursor issue.]]></description>
+            <link>https://dagster.io/blog/web-workers-performance-issue</link>
+            <guid isPermaLink="false">https://dagster.io/blog/web-workers-performance-issue</guid>
+            <pubDate>Sun, 16 Oct 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster at all 5 Steps of the Development Lifecycle]]></title>
+            <description><![CDATA[Dagster facilitates a data engineers work across all five steps in the development lifecycle.]]></description>
+            <link>https://dagster.io/blog/dagster-five-stages-development-lifecycle</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-five-stages-development-lifecycle</guid>
+            <pubDate>Sat, 15 Oct 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A Dagster Crash Course]]></title>
+            <description><![CDATA[If you are looking to get up and running with Dagster in 10 minutes or less, this is a good place to start. Buckle up.]]></description>
+            <link>https://dagster.io/blog/dagster-crash-course-oct-2022</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-crash-course-oct-2022</guid>
+            <pubDate>Wed, 05 Oct 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Postgres: a Better Message Queue than Kafka?]]></title>
+            <description><![CDATA[When lots of event logs must be stored and indexed, Kafka is the obvious choice. Naturally, our queue runs on Postgres.]]></description>
+            <link>https://dagster.io/blog/skip-kafka-use-postgres-message-queue</link>
+            <guid isPermaLink="false">https://dagster.io/blog/skip-kafka-use-postgres-message-queue</guid>
+            <pubDate>Mon, 03 Oct 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Spend Less Time Debugging with Dagster]]></title>
+            <description><![CDATA[It’s not uncommon for a data engineer to devote 80% of their day to debugging. Dagster radically improves on this.]]></description>
+            <link>https://dagster.io/blog/dagster-debugging</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-debugging</guid>
+            <pubDate>Tue, 16 Aug 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Launching Dagster Cloud to GA]]></title>
+            <description><![CDATA[The enterprise orchestration platform that puts developer experience first: hybrid or serverless deployments, native branching, and out-of-the-box CI/CD.]]></description>
+            <link>https://dagster.io/blog/dagster-cloud-ga-launch</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-cloud-ga-launch</guid>
+            <pubDate>Mon, 08 Aug 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Dagster 1.0: Hello]]></title>
+            <description><![CDATA[Announcing Dagster 1.0. - a stable foundation for building the orchestration layer for modern data platforms.]]></description>
+            <link>https://dagster.io/blog/dagster-1-0-hello</link>
+            <guid isPermaLink="false">https://dagster.io/blog/dagster-1-0-hello</guid>
+            <pubDate>Thu, 04 Aug 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Open Core Business Model]]></title>
+            <description><![CDATA[The relationship between Dagster, the open-source project, and Dagster Cloud, our hosted SaaS platform.]]></description>
+            <link>https://dagster.io/blog/open-core-business-model-dagster</link>
+            <guid isPermaLink="false">https://dagster.io/blog/open-core-business-model-dagster</guid>
+            <pubDate>Tue, 02 Aug 2022 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[nbdev + Quarto: A new secret weapon for productivity]]></title>
@@ -996,10 +2166,52 @@
             <pubDate>Thu, 28 Jul 2022 07:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Dagster Cloud goes SOC 2]]></title>
+            <description><![CDATA[Elementl, the company behind the Dagster data orchestration tool achieves SOC2 compliance.]]></description>
+            <link>https://dagster.io/blog/soc2-compliance-dagster-blog</link>
+            <guid isPermaLink="false">https://dagster.io/blog/soc2-compliance-dagster-blog</guid>
+            <pubDate>Mon, 25 Jul 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dagster Day:  Announcing Dagster 1.0 and Dagster Cloud]]></title>
+            <description><![CDATA[The release of Dagster 1.0 and the GA launch of Dagster Cloud represent major milestones in the evolution of our orchestration solution.]]></description>
+            <link>https://dagster.io/blog/announcing-dagster-day</link>
+            <guid isPermaLink="false">https://dagster.io/blog/announcing-dagster-day</guid>
+            <pubDate>Sun, 24 Jul 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[My Path to Elementl: Pete Hunt]]></title>
+            <description><![CDATA[Pete Hunt discusses what caused him to make the leap from Twitter to Elementl.]]></description>
+            <link>https://dagster.io/blog/pete-hunt-path-to-elementl</link>
+            <guid isPermaLink="false">https://dagster.io/blog/pete-hunt-path-to-elementl</guid>
+            <pubDate>Tue, 21 Jun 2022 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rebundling the Data Platform]]></title>
+            <description><![CDATA[The Unbundling of Airflow' argued that modern data stack solutions (data ingestion, data transformation, reverse ETL) manage their own data orchestration. Data teams need is a control plane for the modern data stack.]]></description>
+            <link>https://dagster.io/blog/rebundling-the-data-platform</link>
+            <guid isPermaLink="false">https://dagster.io/blog/rebundling-the-data-platform</guid>
+            <pubDate>Wed, 16 Feb 2022 23:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Notebooks in production with Metaflow]]></title>
             <link>https://outerbounds.com/blog/notebooks-in-production-with-metaflow/</link>
             <guid isPermaLink="false">https://outerbounds.com/blog/notebooks-in-production-with-metaflow/</guid>
             <pubDate>Wed, 09 Feb 2022 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Dagster Cloud]]></title>
+            <description><![CDATA[Dagster Cloud, the enterprise orchestration platform that puts developer experience first, with fully serverless or hybrid deployments, is now here.]]></description>
+            <link>https://dagster.io/blog/introducing-dagster-cloud</link>
+            <guid isPermaLink="false">https://dagster.io/blog/introducing-dagster-cloud</guid>
+            <pubDate>Wed, 01 Dec 2021 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why Elementl and Dagster: The Decade of Data]]></title>
+            <description><![CDATA[Announcing our $14M Series A led by Index Ventures, alongside Sequoia Capital, Slow Ventures, Coatue, Amplify Partners, OSS Capital, and others.]]></description>
+            <link>https://dagster.io/blog/decade-of-data</link>
+            <guid isPermaLink="false">https://dagster.io/blog/decade-of-data</guid>
+            <pubDate>Mon, 15 Nov 2021 23:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ghapi, a new third-party Python client for the GitHub API]]></title>
@@ -2518,6 +3730,13 @@
             <link>https://windsurf.com/blog/page/2</link>
             <guid isPermaLink="false">https://windsurf.com/blog/page/2</guid>
             <pubDate>Sat, 25 Jul 2020 18:24:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What Does GDP.pdf Teach — Beyond PDFs?]]></title>
+            <description><![CDATA[Post-training on GDP.pdf improved Kimi K2.7 on GDPval, including tasks without PDFs, and changed how it gathered information and used tools before building deliverables.]]></description>
+            <link>https://www.surgehq.ai/blog/gdp-pdf-post-training</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/gdp-pdf-post-training</guid>
+            <pubDate>Sat, 04 Jul 2020 02:57:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[DAYJOB: Can Agents Survive a 9 to 5?]]></title>
