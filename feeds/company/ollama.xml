@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 28 Sep 2026 20:22:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 10:20:26 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 25 Sep 2026 03:31:52 GMT</pubDate>
+        <pubDate>Mon, 28 Sep 2026 21:23:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.35.0]]></title>
+            <description><![CDATA[## Decision models Ollama now supports decision models through /v1/systemone, based on TypeSafe’s Jev API. Decision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification. Available models: - **Nimble** from Bespoke Labs - **Tev1** from Together AI Send context and one or more questions: Example response: The API supports three question types: - choice: Select an option and return probabilities for each. - noul: Return the probability that a condition is true. - score: Return a score across an ordered set of criteria ## What's Changed - Settings now opens without waiting for model discovery. - Fixed the macOS update menu and icon not reflecting an available update at startup. - Fixed stalled MLX model downloads hanging indefinitely. - Requests containing the deprecated typical_p parameter now log a warning instead of failing. **Full Changelog:** https://github.com/ollama/ollama/compare/v0.34.4...v0.35.0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.35.0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.35.0</guid>
+            <pubDate>Mon, 28 Sep 2026 21:23:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.0]]></title>
             <description><![CDATA[## What's Changed **Models run on MLX on Apple Silicon by default** In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. During the pre-release we will be testing and enabling additional models. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0]]></description>
@@ -827,13 +834,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.9</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.9</guid>
             <pubDate>Fri, 31 Oct 2025 23:33:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.8]]></title>
-            <description><![CDATA[## What's Changed * qwen3-vl performance improvements, including flash attention support by default * qwen3-vl will now output less leading whitespace in the response when thinking * Fixed issue where deepseek-v3.1 thinking could not be disabled in Ollama's new app * Fixed issue where qwen3-vl would fail to interpret images with transparent backgrounds * Ollama will now stop running a model before removing it via ollama rm * Fixed issue where prompt processing would be slower on Ollama's engine * Ignore unsupported iGPUs when doing device discovery on Windows ## New Contributors * @athshh made their first contribution in https://github.com/ollama/ollama/pull/12822 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.7...v0.12.8]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.8</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.8</guid>
-            <pubDate>Thu, 30 Oct 2025 23:22:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI gpt-oss-safeguard]]></title>
