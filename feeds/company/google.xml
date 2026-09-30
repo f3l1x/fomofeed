@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 30 Sep 2026 10:12:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 18:50:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Sep 2026 01:33:55 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,6 +710,13 @@
             <pubDate>Thu, 16 Jul 2026 01:38:12 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs]]></title>
+            <description><![CDATA[To address the quadratic latency bottleneck of self-attention in high-resolution video diffusion models, developers implemented Sparse VideoGen (SVG) to dynamically route attention heads to highly structured spatial or temporal sparse masks. Translating this algorithmic sparsity into physical hardware speedups on TPUs required optimizing the Splash Attention kernel by bypassing empty memory tiles, restricting exact coordinate masking strictly to boundary tiles, and permuting token memory layouts into temporal-major order for contiguous access. By aligning these sparse masks with actual hardware tile execution, the combined optimizations significantly reduced wasted matrix operations and achieved up to a 1.69x end-to-end inference speedup for 1440p video generation.]]></description>
+            <link>https://developers.googleblog.com/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/</guid>
+            <pubDate>Wed, 12 Feb 2020 13:36:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs]]></title>
             <description><![CDATA[The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.]]></description>
             <link>https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</link>
@@ -771,13 +778,6 @@
             <link>https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/</guid>
             <pubDate>Sun, 31 May 2020 21:18:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The Anatomy of Harness Engineering: How to Evaluate, Iterate, and Guard AI Coding Agents]]></title>
-            <description><![CDATA[While end-to-end benchmarks like SWE-bench provide broad performance scores for AI agents, they are often expensive, slow, and lack the root-cause diagnostics needed to explain exactly where an agent's logic broke down. To solve this, developers should adopt behavioral evaluations—fast, local, unit-style tests that assert on discrete intermediate actions, such as verifying specific tool calls or file modifications rather than final string equality. By building these inexpensive micro-checks alongside macro benchmarks, engineering teams can confidently iterate on system prompts and upgrade models without the risk of regressions.]]></description>
-            <link>https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/</guid>
-            <pubDate>Sun, 02 Aug 2020 23:59:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
