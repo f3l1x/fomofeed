@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 29 Sep 2026 19:03:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 10:11:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Sep 2026 11:57:00 GMT</pubDate>
+        <pubDate>Wed, 30 Sep 2026 01:06:34 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[nightly]]></title>
+            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
+            <pubDate>Wed, 30 Sep 2026 01:06:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.97.1]]></title>
             <description><![CDATA[# Tiny patch Removed the glyph for Git branch display, as it won't display on when nerdfonts are not available. ## Changelog ### Fixed * f2d66d286950109082c102d780013df84f741e55: fix: remove the powerline symbol (@andrinoff) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -22,13 +29,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.97.0</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.97.0</guid>
             <pubDate>Tue, 29 Sep 2026 10:48:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nightly]]></title>
-            <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/nightly</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/nightly</guid>
-            <pubDate>Tue, 29 Sep 2026 01:04:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.96.1]]></title>

@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 29 Sep 2026 19:04:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 10:12:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Ollama now supports Jev-style decision models]]></title>
+            <description><![CDATA[Ollama now supports decision models, based on TypeSafe's Jev API for fast, typed decisions. Decision models can now be run at no cost with low latency. Based on text, decision models answer yes-or-no questions, choices and scores about it, with a probability for every option.]]></description>
+            <link>https://ollama.com/blog/ollama-now-supports-jev-style-decision-models</link>
+            <guid isPermaLink="false">https://ollama.com/blog/ollama-now-supports-jev-style-decision-models</guid>
+            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Sign in with ChatGPT]]></title>
             <description><![CDATA[You can now sign in to Devin with ChatGPT and use your eligible ChatGPT Plus or Pro plan for OpenAI model usage across Devin Cloud, Devin Desktop, and Devin CLI.]]></description>

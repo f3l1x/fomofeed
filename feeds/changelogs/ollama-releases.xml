@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 29 Sep 2026 19:02:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 10:10:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 28 Sep 2026 21:23:22 GMT</pubDate>
+        <pubDate>Tue, 29 Sep 2026 20:14:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.35.1]]></title>
+            <description><![CDATA[## What's Changed * feat: allow ten web searches per response by @ParthSareen in https://github.com/ollama/ollama/pull/18602 * MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18651 * llama.cpp: version bump b11232 by @dhiltgen in https://github.com/ollama/ollama/pull/18652 * create: support explicit model capabilities by @dhiltgen in https://github.com/ollama/ollama/pull/18708 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0</guid>
+            <pubDate>Tue, 29 Sep 2026 20:14:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.35.0]]></title>
             <description><![CDATA[## Decision models Ollama now supports decision models through /v1/systemone, based on TypeSafe’s Jev API. Decision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification. Available models: - **Nimble** from Bespoke Labs - **Tev1** from Together AI Send context and one or more questions: Example response: The API supports three question types: - choice: Select an option and return probabilities for each. - noul: Return the probability that a condition is true. - score: Return a score across an ordered set of criteria ## What's Changed - Settings now opens without waiting for model discovery. - Fixed the macOS update menu and icon not reflecting an available update at startup. - Fixed stalled MLX model downloads hanging indefinitely. - Requests containing the deprecated typical_p parameter now log a warning instead of failing. **Full Changelog:** https://github.com/ollama/ollama/compare/v0.34.4...v0.35.0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.10</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.10</guid>
             <pubDate>Wed, 05 Nov 2025 21:41:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.9]]></title>
-            <description><![CDATA[## What's Changed * Fix performance regression on CPU-only systems **Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.8...v0.12.9]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.9</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.9</guid>
-            <pubDate>Fri, 31 Oct 2025 23:33:13 GMT</pubDate>
         </item>
     </channel>
 </rss>
