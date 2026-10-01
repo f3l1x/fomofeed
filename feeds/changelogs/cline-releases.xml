@@ -4,11 +4,32 @@
         <description><![CDATA[RSS feed for Cline Releases]]></description>
         <link>https://github.com/cline/cline/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 30 Sep 2026 18:48:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Oct 2026 10:38:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/cline-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 30 Sep 2026 07:18:19 GMT</pubDate>
+        <pubDate>Wed, 30 Sep 2026 23:56:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Desktop v0.0.40]]></title>
+            <description><![CDATA[- Custom providers added with **Add Provider** now work when you run a task. They showed up in the provider and model pickers but failed with Unknown or disabled provider - New chats remember whether you last used **Cloud** or **Local**, and which Cloud model you picked, instead of always going back to Local. Switching a thread from Local to Cloud also opens on your remembered Cloud model - Saving provider credentials no longer fails when the provider's model list can't be fetched, and the model list refreshes when you change a provider's API key or endpoint - MCP settings always use the same file. With CLINE_MCP_SETTINGS_PATH, CLINE_DATA_DIR, or CLINE_DIR set, reading and saving servers, MCP OAuth sign-in, and **Open MCP settings** now all use that path, where some could open a different file before - Tool diffs now follow the app's font size setting instead of a fixed 13px - When an MCP tool returns more output than fits in context, the agent can now read the rest. It gets a preview plus a link it can page through, so the output past the cutoff is no longer lost - Refreshed the model catalog. The Cline recommended list adds GPT-6.1 Sol. Default models change for 302.AI (Claude Sonnet 5.5), NanoGPT (Ling 3.1 Flash), Vivgrid (GPT-6.1 Sol), and Vultr (MiMo V2.6 Flash RL). Vultr's model ids were renamed upstream, so a pinned Vultr model may need to be re-selected **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.39...desktop-v0.0.40]]></description>
+            <link>https://github.com/cline/cline/releases/tag/desktop-v0.0.40</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/desktop-v0.0.40</guid>
+            <pubDate>Wed, 30 Sep 2026 23:56:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CLI v3.0.67]]></title>
+            <description><![CDATA[- When an MCP tool returns more output than fits in context, the agent can now read the rest. It gets a preview plus a link it can page through with read_files, so the output past the cutoff is no longer lost - Custom providers defined in providers.json/models.json now work when you run a task. They showed up in the provider and model pickers but failed with Unknown or disabled provider - If saving provider credentials fails during onboarding or in the provider settings dialog, the error now shows in place instead of failing silently - On Linux, the auto-approve indicator in the status bar uses a glyph that common monospace fonts include, instead of rendering as a blank box or nothing - Refreshed the model catalog. The Cline recommended list adds GPT-6.1 Sol. Default models change for 302.AI (Claude Sonnet 5.5), NanoGPT (Ling 3.1 Flash), Vivgrid (GPT-6.1 Sol), and Vultr (MiMo V2.6 Flash RL). Vultr's model ids were renamed upstream, so a pinned Vultr model may need to be re-selected **Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.66...cli-v3.0.67]]></description>
+            <link>https://github.com/cline/cline/releases/tag/cli-v3.0.67</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/cli-v3.0.67</guid>
+            <pubDate>Wed, 30 Sep 2026 23:42:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SDK v0.0.89]]></title>
+            <description><![CDATA[- Oversized MCP and Composio tool results can now be recovered in full. Core caches the oversized output in a per-session in-memory cache and sends the model a bounded preview plus a cline://cache/... URI that read_files can page through by line range. Custom tools can opt in with resultPolicy: "cache-oversized" on createTool. Entries expire after five model iterations without a read, the cache is capped at 16 MiB per session, and original output stays in history and tool events - Custom providers from providers.json/models.json now run on the agent path. They appeared in pickers but failed with Unknown or disabled provider " ", because createAgentModelFromConfig only registered builtin providers with the gateway. @cline/llms now exports resolveGatewayProviderRegistration(Sync) - Provider settings saves are more robust. Settings still save when model discovery fails, mutations are serialized, a failed catalog write restores the previous settings, and persistence errors propagate to the caller (saveLocalProviderSettings is now async). Model source requests are authenticated, and source catalogs refresh when credentials or endpoints change - Refreshed the model catalog. The Cline recommended list adds GPT-6.1 Sol and drops the Pixel Canary stealth model. Default models change for 302.AI (Claude Sonnet 5.5), NanoGPT (Ling 3.1 Flash), Vivgrid (GPT-6.1 Sol), and Vultr (MiMo V2.6 Flash RL). Vultr's model ids were renamed upstream (for example zai-org/GLM-5.2-FP8 is now glm-5.2), so a pinned Vultr model may need to be re-selected **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.88...sdk/sdk/v0.0.89]]></description>
+            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.89</link>
+            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.89</guid>
+            <pubDate>Wed, 30 Sep 2026 23:34:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Desktop v0.0.39]]></title>
             <description><![CDATA[- On Linux with the proprietary NVIDIA driver, the app window no longer opens blank. The app now turns off WebKitGTK's DMA-BUF renderer when it detects the NVIDIA driver. To keep that renderer on (for example, on a hybrid-GPU system), set WEBKIT_DISABLE_DMABUF_RENDERER=0 - The Linux .deb and .rpm packages now include app info, so GNOME Software and KDE Discover show Cline's icon and description and list it under Installed **Full Changelog**: https://github.com/cline/cline/compare/desktop-v0.0.38...desktop-v0.0.39]]></description>
@@ -687,27 +708,6 @@
             <link>https://github.com/cline/cline/releases/tag/v4.1.2</link>
             <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.2</guid>
             <pubDate>Fri, 31 Jul 2026 05:23:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v4.1.1]]></title>
-            <description><![CDATA[### Changed - Remove vestigial MCP server-key machinery from McpHub — native MCP tool calls now route by server name instead of a random in-memory uid, so routing survives restarts and server list changes. **Full Changelog**: https://github.com/cline/cline/compare/v4.1.0...v4.1.1]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v4.1.1</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.1</guid>
-            <pubDate>Fri, 31 Jul 2026 04:30:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v4.1.0]]></title>
-            <description><![CDATA[## What's in 4.1.0 4.1.0 converts the stable extension to a **combined A/B package**: one VSIX containing both the current (legacy) extension and the new SDK-based extension, plus a small loader that activates exactly one per window, controlled by a staged remote rollout. **For nearly everyone, nothing changes** — the loader activates the same extension you were running in 4.0.12. A small percentage of users (starting at 1%) are gradually opted into the new SDK-based extension, which will become the default for everyone as the rollout completes. ### Details - The rollout is staged and remotely controlled; assignments apply on window reload, never mid-session. - If the new extension fails to activate for any reason, the loader automatically falls back to the current extension in the same window — no user action needed. - Settings, credentials, and preferences are shared: nothing is migrated or lost when a machine switches between the two. - Tasks created on the new extension aren't visible while on the old one (they return if re-promoted). Legacy bundle: legacy-extension @ 3fdc186f1 (4.0.12 + free-model button wording). Next bundle: main @ 0746ea72bf6. Rollout machinery: apps/vscode-rollout (see its README for design + runbook).]]></description>
-            <link>https://github.com/cline/cline/releases/tag/v4.1.0</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/v4.1.0</guid>
-            <pubDate>Fri, 31 Jul 2026 04:00:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SDK v0.0.67]]></title>
-            <description><![CDATA[- Reasoning controls (effort, budget, on/off) are now driven by the models.dev catalog and normalized once before provider encoding, so requests match what each provider actually advertises; Anthropic's mandatory and impossible thinking modes are handled explicitly, and out-of-range budgets are clamped - OpenRouter now defaults to anthropic/claude-sonnet-5 - The per-server timeout in cline_mcp_settings.json is now honored by the SDK's MCP clients for initialize, tools/list, and tools/call instead of hardcoded 1.5s and 5s limits — it defaults to 60 seconds and is clamped to 1–3600 seconds - Fixed the China and international endpoint toggles being ignored for Qwen, Moonshot, and Z AI - Legacy API keys are now migrated for every secret-backed provider instead of a subset - Legacy OpenAI Compatible model-info overrides are now carried into the seeded models.json instead of being dropped - Removed the "Enable R1 messages format" option from the OpenAI Compatible provider - Fixed checkpoint restores across session resumes - Added session forking and user-run message APIs so a host can edit an earlier prompt: fork the session before a selected user run, trim checkpoint history, and restore the prior messages - Fixed auto-compaction state being rejected as stale on every save, which forced a full re-compaction — an extra summarizer call — on every turn past the trigger, and could leave a dead sidecar permanently blocking replacements after a resume - Added ClineCore.readLiveMessages for reading a resident session's in-memory transcript, so a plan/act rebuild during an in-flight turn no longer starts from an empty history - insert_line and the read_files line bounds now accept numbers emitted as JSON strings instead of failing the whole tool call - Plugins can now emit telemetry through ctx.telemetry, from both the subprocess sandbox and in-process execution - A legacy single-file .clinerules no longer aborts the config scan - Telemetry events now carry device_id - A malformed OTEL header entry no longer discards the valid ones **Full Changelog**: https://github.com/cline/cline/compare/sdk/sdk/v0.0.66...sdk/sdk/v0.0.67]]></description>
-            <link>https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.67</link>
-            <guid isPermaLink="false">https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.67</guid>
-            <pubDate>Fri, 31 Jul 2026 01:16:35 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 30 Sep 2026 18:48:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Oct 2026 10:38:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 28 Sep 2026 04:22:46 GMT</pubDate>
+        <pubDate>Wed, 30 Sep 2026 22:39:45 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.34]]></title>
+            <description><![CDATA[## Core ### Bugfixes - Send namespaced session and parent-session identity headers with model requests. - Re-sign locally compiled macOS binaries so they run reliably on macOS 27+. (@ryangamerdev) - Sign macOS CLI release binaries with a Developer ID. **Thank you to 3 community contributors:** - @dc85: - docs(web): correct GPT 6.1 Sol cache pricing (#52176) - @metal-huang: - fix(tui): use path.sep for plugin name extraction in /status dialog (#52328) - @ryangamerdev: - fix(opencode): ad-hoc re-sign darwin binaries after local compile (#52183)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.34</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.34</guid>
+            <pubDate>Wed, 30 Sep 2026 22:39:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.33]]></title>
             <description><![CDATA[## Core ### Bugfixes - Cloudflare AI Gateway models now honor provider response and stream timeouts. (@danlapid) - MCP browser launch failures are now reported when the launcher exits immediately. - Debug configuration output now redacts credentials and sensitive headers. - Gemini thinking defaults and effort options now match the supported controls across model generations. (@markmcd) **Thank you to 5 community contributors:** - @dc85: - docs(web): add Claude Opus 5.5, GPT 6 Sol, and GPT 6 Luna to Zen (#50708) - @vglafirov: - maint(gitlab): bump gitlab-ai-provider to 6.16.0 (#50742) - @markmcd: - fix(gemini): switch thinking default logic (#50841) - @remorses: - docs(web): link kimaki to product website (#49735) - @danlapid: - fix(opencode): apply provider timeouts to Cloudflare AI Gateway models (#51549)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.26</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.26</guid>
             <pubDate>Sun, 26 Apr 2026 21:01:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.14.25]]></title>
-            <description><![CDATA[## Core - Fixed permission config preserving rule order and exposes full IntelliSense for tool permission keys - LSP permission prompts now include request details like the operation, file, and cursor position - Shell commands keep the correct working directory after login shell startup files run - Added Roslyn LSP support for Razor, .cshtml, and C# script files - GPT-5.5 with OpenAI OAuth now uses the correct context limits to avoid compaction issues **Thank you to 2 community contributors:** - @altendky: - fix(opencode): clarify git amend condition to require verifying commit landed (#19937) - @b0o: - fix(build): add prettier to devDependencies (#23255)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.25</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.25</guid>
-            <pubDate>Sat, 25 Apr 2026 14:37:03 GMT</pubDate>
         </item>
     </channel>
 </rss>

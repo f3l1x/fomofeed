@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 30 Sep 2026 18:50:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Oct 2026 10:39:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 30 Sep 2026 07:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude’s new auto eval tool]]></title>
+            <link>https://hamel.dev/blog/posts/claude-auto-evals/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/claude-auto-evals/index.html</guid>
+            <pubDate>Wed, 30 Sep 2026 07:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Ollama now supports Jev-style decision models]]></title>
             <description><![CDATA[Ollama now supports decision models, based on TypeSafe's Jev API for fast, typed decisions. Decision models can now be run at no cost with low latency. Based on text, decision models answer yes-or-no questions, choices and scores about it, with a probability for every option.]]></description>
@@ -3737,6 +3743,13 @@
             <link>https://windsurf.com/blog/page/2</link>
             <guid isPermaLink="false">https://windsurf.com/blog/page/2</guid>
             <pubDate>Sat, 25 Jul 2020 18:24:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GDP.xlsx: Can Agents Understand the Spreadsheets That Run the World?]]></title>
+            <description><![CDATA[GDP.xlsx tests whether frontier agents can read the professional spreadsheets that run the world. It spans 70 tasks across 12 knowledge-work domains: finance, healthcare, engineering, manufacturing, insurance, real estate, legal, human resources, agriculture, energy, logistics, and public sector.]]></description>
+            <link>https://www.surgehq.ai/blog/gdp-xlsx</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/gdp-xlsx</guid>
+            <pubDate>Tue, 29 Sep 2020 00:54:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What Does GDP.pdf Teach — Beyond PDFs?]]></title>
