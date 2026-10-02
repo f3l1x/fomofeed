@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Goose Releases]]></description>
         <link>https://github.com/block/goose/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 02 Oct 2026 10:13:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Oct 2026 18:52:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/goose-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 23 Sep 2026 14:59:14 GMT</pubDate>
+        <pubDate>Fri, 02 Oct 2026 18:44:11 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.53.0]]></title>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.53.0</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.53.0</guid>
+            <pubDate>Fri, 02 Oct 2026 18:44:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.52.0]]></title>
             <description><![CDATA[## ✨ Features - Live voice conversations in the desktop app #12093 - Decisions provider crate with OpenRouter and Jev implementations #12418 - Z.AI Coding Plan provider with streaming tool calls #12205 - Recipe parameter limits enforcement (max 32 params, 200 select options, 128 KiB) #12259 - OpenAI provider custom base URL support in SDK #11967 - Support for Opus 5.5, GPT-6-sol, and GPT-6-luna models #12447 ## 🐛 Bug Fixes - Cancel elicitation on incomplete CLI input #11403 - Protect custom provider configuration files #11438 - Prevent duplicate schedules from overwriting recipes #12434 - Classify many-image dimension limit errors as context length-exceeded #12208 - Set strict:false on chat-completions tools #12272 - Show CoreWeave in bundled provider metadata #12149 - Allow 60 seconds for provider readiness #12240 - Write PATH to login shell files idempotently in installer #12072 - De-duplicate @radix-ui packages to fix pointer-events stranded on body #11792 - Drive pre-key model lists from the canonical registry #11475 - Make todo opt-in and soften its prompts #12123 - Prevent updates to unsupported macOS versions #12115 - Require recipe consent before session/new spawns extensions #12094 - Skills follow working directory updates #11443 - Create updater staging atomically #11741 - Require opt-in for roaming TCP bridge #11701 - Omit unsupported socket MCP servers #11417 - Let recipe settings outrank GOOSE_SUBAGENT_MODEL/PROVIDER #12070 - Send session usage updates after each provider call #12006 - Start a chat with no extensions when the user selects none #11908 - Databricks GLM-5.3 and Kimi K3 reasoning effort #12079 - Avoid splitting graphemes in skills list #12074 - Keep the subagent prompt prefix cacheable #12062 - Install libclang and cmake in devcontainer #12091 ## 🔧 Improvements - Redesign settings as a full-screen view #12163 - Split extension transports out of ExtensionManager #12088 - Compress canonical_models.json #12385 - Resolve data_dir from Paths::data_dir() instead of config #12203 ## 📚 Documentation - Use the real developer tool names in the hooks guide #12260 - Fix stale declarative provider file paths in providers.md #12192 - Clarify public crate APIs #12186 - Remove Rube extension documentation (service discontinued) #12116]]></description>
@@ -680,13 +686,6 @@
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha</guid>
             <pubDate>Fri, 11 Jul 2025 18:19:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.0.35]]></title>
-            <description><![CDATA[- docs: enhanced code editing topic (#3287) - fix cu (#3291) - feat: Add environment variables to override model context limits (#3260)]]></description>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.35</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.35</guid>
-            <pubDate>Tue, 08 Jul 2025 02:36:55 GMT</pubDate>
         </item>
     </channel>
 </rss>

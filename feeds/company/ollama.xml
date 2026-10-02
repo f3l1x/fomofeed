@@ -4,16 +4,16 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 02 Oct 2026 10:15:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Oct 2026 18:53:54 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 29 Sep 2026 20:14:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.35.1]]></title>
-            <description><![CDATA[## What's Changed * feat: allow ten web searches per response by @ParthSareen in https://github.com/ollama/ollama/pull/18602 * MLX: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18651 * llama.cpp: version bump b11232 by @dhiltgen in https://github.com/ollama/ollama/pull/18652 * create: support explicit model capabilities by @dhiltgen in https://github.com/ollama/ollama/pull/18708 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2</guid>
+            <description><![CDATA[## Clef decision models Ollama now supports Clef and Clef Flash, Cloudflare's new open-source decision models, through /v1/systemone. Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it. ## What's Changed * Models using web search can now perform up to ten searches per response, up from three * Modelfiles now support CAPABILITY declarations, so model creators can explicitly declare what a model can do. Declarations are preserved when creating from GGUF or safetensors, through model inheritance, and on Modelfile export * ollama show and the model list now report only decision as the capability for decision models, so clients no longer offer them for general chat, tools, or thinking * Updated llama.cpp and the MLX engine **Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.35.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.35.1</guid>
             <pubDate>Tue, 29 Sep 2026 20:14:22 GMT</pubDate>
         </item>
         <item>
