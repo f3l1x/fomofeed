@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 02 Oct 2026 18:53:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Oct 2026 09:36:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 02 Oct 2026 01:33:21 GMT</pubDate>
+        <pubDate>Sat, 03 Oct 2026 01:29:14 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.64.0-nightly.20261003.gfb972b2f8]]></title>
+            <description><![CDATA[## What's Changed * fix(cli): ensure Enter and Spacebar reliably confirm selection list options by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29502 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261002.gc9096a847...v0.64.0-nightly.20261003.gfb972b2f8]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261003.gfb972b2f8</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261003.gfb972b2f8</guid>
+            <pubDate>Sat, 03 Oct 2026 01:29:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.64.0-nightly.20261002.gc9096a847]]></title>
             <description><![CDATA[## What's Changed * fix(core): implement append-only delta patching and bounded history windowing in ChatRecordingService by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29568 * fix(cli): persist state atomically and recover from backup on corruption by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29558 * fix(cli): ensure Ctrl+C emergency abort reaches cancellation handler during active operations by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29586 * fix(cli): resolve @file:line references and prevent ghost text wrap hang by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29581 * fix(ui): ensure Windows ConPTY forwards IME cursor position by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29560 * fix(cli): retry directory removal on Windows locking errors during extension updates by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29540 * fix(acp): resolve session by exact id and handle listener cleanup on session failure by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29580 * fix(cli): preserve scroll position and partition pending height budget by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29520 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261001.gc6bccb7ec...v0.64.0-nightly.20261002.gc9096a847]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260718.gacae7124b</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260718.gacae7124b</guid>
             <pubDate>Sat, 18 Jul 2026 01:27:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.52.0-preview.0]]></title>
-            <description><![CDATA[## What's Changed * Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216 * feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163 * feat(caretaker-egress): implement octokit github action handler for egress service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28303 * chore(release): bump version to 0.52.0-nightly.20260707.g27a3da3e8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28323 * Changelog for v0.51.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28320 * Changelog for v0.50.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28322 * fix(core-tools): bypass LLM correction for JSON and IPYNB files in write_file and replace by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28223 * fix(core): use unambiguous previous intent label in fallback summary by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28343 * feat(caretaker-triage): implement main worker execution loop and egress action publisher by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28306 * fix(privacy): show a clear message when the account has no Code Assist tier by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28304 * fix(core): enrich shared project quota limit errors with setup hint by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28391 * fix(a2a-server): ensure task cancellation aborts execution loop by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28316 * fix(core): simplify plan mode write policy to support relative paths by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28398 * feat(core): Bump node google-auth-library version to 10.9.0 by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28385 * chore/release: bump version to 0.52.0-nightly.20260715.gfa975395b by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28402 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-preview.0...v0.52.0-preview.0]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-preview.0</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-preview.0</guid>
-            <pubDate>Thu, 16 Jul 2026 17:04:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs]]></title>
