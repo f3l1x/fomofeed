@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 04 Oct 2026 20:50:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 11:05:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 03 Oct 2026 01:29:14 GMT</pubDate>
+        <pubDate>Mon, 05 Oct 2026 01:39:02 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.64.0-nightly.20261005.gfb972b2f8]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261003.gfb972b2f8...v0.64.0-nightly.20261005.gfb972b2f8]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261005.gfb972b2f8</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261005.gfb972b2f8</guid>
+            <pubDate>Mon, 05 Oct 2026 01:39:02 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.64.0-nightly.20261003.gfb972b2f8]]></title>
             <description><![CDATA[## What's Changed * fix(cli): ensure Enter and Spacebar reliably confirm selection list options by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29502 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261002.gc9096a847...v0.64.0-nightly.20261003.gfb972b2f8]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260719.gacae7124b</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260719.gacae7124b</guid>
             <pubDate>Sun, 19 Jul 2026 01:32:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.52.0-nightly.20260718.gacae7124b]]></title>
-            <description><![CDATA[## What's Changed * feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28345 * refactor(cli): align macOS permissive Seatbelt profiles with deny-default model by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28424 * fix(core): mitigate infinite ReAct loops and prompt injection loops by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28429 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260716.g3ff5ba20f...v0.52.0-nightly.20260718.gacae7124b]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260718.gacae7124b</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260718.gacae7124b</guid>
-            <pubDate>Sat, 18 Jul 2026 01:27:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs]]></title>

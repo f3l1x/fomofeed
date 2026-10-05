@@ -4,7 +4,7 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 04 Oct 2026 20:50:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 11:05:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 29 Sep 2026 20:14:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -32,9 +32,9 @@
         </item>
         <item>
             <title><![CDATA[v0.40.0]]></title>
-            <description><![CDATA[## What's Changed **Models run on MLX on Apple Silicon by default** In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. During the pre-release we will be testing and enabling additional models. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2</guid>
+            <description><![CDATA[## What's Changed **Models run on MLX on Apple Silicon by default** In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. Additional models include gemma4, qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash We will continue testing and enabling additional models. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc3]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3</guid>
             <pubDate>Fri, 25 Sep 2026 03:31:52 GMT</pubDate>
         </item>
         <item>
