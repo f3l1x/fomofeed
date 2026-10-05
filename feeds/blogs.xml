@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Oct 2026 11:05:58 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 21:21:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 30 Sep 2026 07:00:00 GMT</pubDate>
+        <pubDate>Sun, 04 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Memory and dreaming: how Devin learns from working with you]]></title>
+            <description><![CDATA[Memory lets Devin carry useful learnings about the way you like to work across sessions. Dreaming is a daily asynchronous process that improves the index of Devin's memories about you.]]></description>
+            <link>https://windsurf.com/blog/memory-and-dreaming</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/memory-and-dreaming</guid>
+            <pubDate>Sun, 04 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude’s new auto eval tool]]></title>
             <link>https://hamel.dev/blog/posts/claude-auto-evals/index.html</link>
@@ -23,17 +30,17 @@
             <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Sign in with ChatGPT]]></title>
-            <description><![CDATA[You can now sign in to Devin with ChatGPT and use your eligible ChatGPT Plus or Pro plan for OpenAI model usage across Devin Cloud, Devin Desktop, and Devin CLI.]]></description>
-            <link>https://windsurf.com/blog/sign-in-with-chatgpt</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/sign-in-with-chatgpt</guid>
-            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[GPT-6.1 Sol is now available in Devin]]></title>
             <description><![CDATA[OpenAI released GPT-6.1 Sol. It is live now in Devin Desktop and Devin CLI. Same $2/$10 list price as GPT-6 Sol, but cache reads are now 95% off, and on FrontierCode 1.1 it matches GPT-6 Sol's score at roughly half the cost per task at every reasoning effort. At low effort it scores 58.1% for $0.21 per task, the best score of any model under $0.30.]]></description>
             <link>https://windsurf.com/blog/gpt-6-1-sol</link>
             <guid isPermaLink="false">https://windsurf.com/blog/gpt-6-1-sol</guid>
+            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sign in with ChatGPT]]></title>
+            <description><![CDATA[You can now sign in to Devin with ChatGPT and use your eligible ChatGPT Plus or Pro plan for OpenAI model usage across Devin Cloud, Devin Desktop, and Devin CLI.]]></description>
+            <link>https://windsurf.com/blog/sign-in-with-chatgpt</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/sign-in-with-chatgpt</guid>
             <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -138,13 +145,6 @@
             <guid isPermaLink="false">https://cursor.com/blog/projects</guid>
             <category><![CDATA[product]]></category>
             <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Governing AI agents at scale with BlackRock]]></title>
-            <description><![CDATA[We’re introducing Devin Plugins, which give enterprises a way to manage the context and capabilities their agents use at scale. Plugins bundle skills, rules, MCP servers, hooks, and subagents, with consistent configuration and governance across local and cloud agents.]]></description>
-            <link>https://windsurf.com/blog/governing-ai-agents-at-scale-with-blackrock</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/governing-ai-agents-at-scale-with-blackrock</guid>
-            <pubDate>Tue, 08 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Data Plane Is Yours: Dagster+ Hybrid on Kubernetes and Azure]]></title>

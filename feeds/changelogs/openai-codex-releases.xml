@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenAI Codex Releases]]></description>
         <link>https://github.com/openai/codex/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Oct 2026 11:04:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 21:20:08 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openai-codex-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 05 Oct 2026 02:05:59 GMT</pubDate>
+        <pubDate>Mon, 05 Oct 2026 18:29:37 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[0.160.1]]></title>
+            <description><![CDATA[## Bug Fixes - Preserve SYSTEMROOT, TEMP, and TMP when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment. ## Changelog - #51121: Backport Windows remote MCP environment preservation to 0.160.]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.160.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.160.1</guid>
+            <pubDate>Mon, 05 Oct 2026 18:29:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.162.0-alpha.15]]></title>
+            <description><![CDATA[Release 0.162.0-alpha.15]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15</guid>
+            <pubDate>Mon, 05 Oct 2026 13:10:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[0.162.0-alpha.14]]></title>
             <description><![CDATA[Release 0.162.0-alpha.14]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9</guid>
             <pubDate>Sun, 20 Sep 2026 00:17:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.156.0-alpha.8]]></title>
-            <description><![CDATA[Release 0.156.0-alpha.8]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.8</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.8</guid>
-            <pubDate>Sat, 19 Sep 2026 17:20:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.156.0-alpha.7]]></title>
-            <description><![CDATA[Release 0.156.0-alpha.7]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.7</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.7</guid>
-            <pubDate>Sat, 19 Sep 2026 04:08:15 GMT</pubDate>
         </item>
     </channel>
 </rss>
