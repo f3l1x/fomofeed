@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Oct 2026 10:57:19 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Oct 2026 19:16:02 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 08 Dec 2020 00:06:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Bring multimodal semantic search to the edge with EmbeddingGemma 2]]></title>
+            <description><![CDATA[EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.]]></description>
+            <link>https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</guid>
+            <pubDate>Sat, 23 May 2020 08:21:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[EmbeddingGemma 2: The Developer Guide]]></title>
+            <description><![CDATA[EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshka Representation Learning enables dynamic dimension truncation down to 128d, significantly reducing vector database storage requirements while maintaining high retrieval performance.]]></description>
+            <link>https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/</guid>
+            <pubDate>Wed, 25 Mar 2020 20:51:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs]]></title>
             <description><![CDATA[To address the quadratic latency bottleneck of self-attention in high-resolution video diffusion models, developers implemented Sparse VideoGen (SVG) to dynamically route attention heads to highly structured spatial or temporal sparse masks. Translating this algorithmic sparsity into physical hardware speedups on TPUs required optimizing the Splash Attention kernel by bypassing empty memory tiles, restricting exact coordinate masking strictly to boundary tiles, and permuting token memory layouts into temporal-major order for contiguous access. By aligning these sparse masks with actual hardware tile execution, the combined optimizations significantly reduced wasted matrix operations and achieved up to a 1.69x end-to-end inference speedup for 1440p video generation.]]></description>
@@ -64,20 +78,6 @@
             <link>https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax/</guid>
             <pubDate>Sat, 26 Sep 2020 03:48:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Autonomous LLM post-training with Tunix on TPUs]]></title>
-            <description><![CDATA[The "autofinetune" project introduces an autonomous research loop that fully automates LLM post-training workflows, including Supervised Fine-Tuning (SFT) and Reinforcement Learning via GRPO. By defining boundary conditions and evaluation metrics in a single Markdown specification, developers can deploy an AI agent to iteratively edit training scripts, launch experiments, and automatically commit verified hyperparameter optimizations to Git. Built on Google’s AI stack—including Tunix, Gemma, and Cloud TPUs—this framework eliminates manual tuning cycles, successfully demonstrating hands-off performance gains in both function calling and math reasoning models.]]></description>
-            <link>https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus/</guid>
-            <pubDate>Sun, 26 Jan 2020 12:41:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond]]></title>
-            <description><![CDATA[Google has officially released version 1.0 of the Agent Development Kit (ADK) for Kotlin, achieving full feature parity with the Python and Java ADK cores to enable idiomatic, multi-agent AI development. Built on Kotlin Multiplatform (KMP), the framework leverages Kotlin Symbol Processing (KSP) for zero-reflection, type-safe function calling, alongside advanced orchestration capabilities like human-in-the-loop workflows and context compaction. Additionally, the release introduces a robust suite of Android-first extensions, allowing mobile developers to integrate local models via LiteRT-LM, cloud reasoning through Firebase AI, session persistence using Room, and semantic memory powered by AppSearch.]]></description>
-            <link>https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/</guid>
-            <pubDate>Sun, 31 May 2020 21:18:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

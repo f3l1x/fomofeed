@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Oct 2026 10:59:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Oct 2026 19:18:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 01 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Mon, 05 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Expanding the Cyber Verification Program]]></title>
+            <link>https://www.anthropic.com/news/cyber-verification-program</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/cyber-verification-program</guid>
+            <pubDate>Mon, 05 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap]]></title>
             <link>https://www.anthropic.com/news/claude-frontier-academy</link>
@@ -124,12 +130,6 @@
             <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
             <pubDate>Wed, 26 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Funding better evaluations of AI’s impact on wellbeing]]></title>
-            <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/wellbeing-research-grants</guid>
-            <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[An update on recent Claude Code quality reports]]></title>
@@ -276,64 +276,32 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude Cowork and chat are now one Claude]]></title>
-            <link>https://claude.com/blog/cowork-is-now-claude</link>
-            <guid isPermaLink="false">https://claude.com/blog/cowork-is-now-claude</guid>
-            <pubDate>Sat, 21 Mar 2020 13:58:00 GMT</pubDate>
+            <title><![CDATA[How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases]]></title>
+            <description><![CDATA[Showing 11 of 272 resources]]></description>
+            <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
+            <guid isPermaLink="false">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
+            <pubDate>Tue, 17 Mar 2020 03:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude for Small Business launches new workflows, integrations, and training programs]]></title>
-            <link>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
-            <pubDate>Tue, 31 Mar 2020 23:30:00 GMT</pubDate>
+            <title><![CDATA[How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases]]></title>
+            <description><![CDATA[Showing 11 of 272 resources]]></description>
+            <link>https://claude.dev/blog/building-with-claude-sonnet-5-5/</link>
+            <guid isPermaLink="false">https://claude.dev/blog/building-with-claude-sonnet-5-5/</guid>
+            <pubDate>Tue, 25 Aug 2020 23:01:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude in Chrome is generally available]]></title>
-            <link>https://claude.com/blog/claude-in-chrome-generally-available</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-in-chrome-generally-available</guid>
-            <pubDate>Tue, 08 Dec 2020 12:59:00 GMT</pubDate>
+            <title><![CDATA[Bring multimodal semantic search to the edge with EmbeddingGemma 2]]></title>
+            <description><![CDATA[EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.]]></description>
+            <link>https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</guid>
+            <pubDate>Sat, 23 May 2020 08:21:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude gets its own browser in Cowork]]></title>
-            <link>https://claude.com/blog/cowork-built-in-browser</link>
-            <guid isPermaLink="false">https://claude.com/blog/cowork-built-in-browser</guid>
-            <pubDate>Tue, 11 Aug 2020 06:23:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Code now supports artifacts]]></title>
-            <link>https://claude.com/blog/artifacts-in-claude-code</link>
-            <guid isPermaLink="false">https://claude.com/blog/artifacts-in-claude-code</guid>
-            <pubDate>Fri, 21 Feb 2020 22:22:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building intelligent apps for Apple platforms with Claude in the Foundation Models framework]]></title>
-            <link>https://claude.com/blog/claude-for-foundation-models</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-for-foundation-models</guid>
-            <pubDate>Sun, 14 Jun 2020 03:59:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels]]></title>
-            <link>https://claude.com/blog/claude-managed-agents-updates</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents-updates</guid>
-            <pubDate>Thu, 29 Oct 2020 13:42:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration]]></title>
-            <link>https://claude.com/blog/new-in-claude-managed-agents</link>
-            <guid isPermaLink="false">https://claude.com/blog/new-in-claude-managed-agents</guid>
-            <pubDate>Fri, 17 Jul 2020 01:50:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[New connectors in Claude for everyday life]]></title>
-            <link>https://claude.com/blog/connectors-for-everyday-life</link>
-            <guid isPermaLink="false">https://claude.com/blog/connectors-for-everyday-life</guid>
-            <pubDate>Sat, 05 Dec 2020 08:37:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Built-in memory for Claude Managed Agents]]></title>
-            <link>https://claude.com/blog/claude-managed-agents-memory</link>
-            <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents-memory</guid>
-            <pubDate>Fri, 11 Sep 2020 05:53:00 GMT</pubDate>
+            <title><![CDATA[EmbeddingGemma 2: The Developer Guide]]></title>
+            <description><![CDATA[EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshka Representation Learning enables dynamic dimension truncation down to 128d, significantly reducing vector database storage requirements while maintaining high retrieval performance.]]></description>
+            <link>https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/</guid>
+            <pubDate>Wed, 25 Mar 2020 20:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs]]></title>
@@ -390,20 +358,6 @@
             <link>https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax/</guid>
             <pubDate>Sat, 26 Sep 2020 03:48:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Autonomous LLM post-training with Tunix on TPUs]]></title>
-            <description><![CDATA[The "autofinetune" project introduces an autonomous research loop that fully automates LLM post-training workflows, including Supervised Fine-Tuning (SFT) and Reinforcement Learning via GRPO. By defining boundary conditions and evaluation metrics in a single Markdown specification, developers can deploy an AI agent to iteratively edit training scripts, launch experiments, and automatically commit verified hyperparameter optimizations to Git. Built on Google’s AI stack—including Tunix, Gemma, and Cloud TPUs—this framework eliminates manual tuning cycles, successfully demonstrating hands-off performance gains in both function calling and math reasoning models.]]></description>
-            <link>https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus/</guid>
-            <pubDate>Sun, 26 Jan 2020 12:41:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond]]></title>
-            <description><![CDATA[Google has officially released version 1.0 of the Agent Development Kit (ADK) for Kotlin, achieving full feature parity with the Python and Java ADK cores to enable idiomatic, multi-agent AI development. Built on Kotlin Multiplatform (KMP), the framework leverages Kotlin Symbol Processing (KSP) for zero-reflection, type-safe function calling, alongside advanced orchestration capabilities like human-in-the-loop workflows and context compaction. Additionally, the release introduces a robust suite of Android-first extensions, allowing mobile developers to integrate local models via LiteRT-LM, cloud reasoning through Firebase AI, session persistence using Room, and semantic memory powered by AppSearch.]]></description>
-            <link>https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/</guid>
-            <pubDate>Sun, 31 May 2020 21:18:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>
