@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Oct 2026 19:16:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Oct 2026 10:45:50 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 30 Sep 2026 22:39:45 GMT</pubDate>
+        <pubDate>Tue, 06 Oct 2026 20:18:39 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.18.35]]></title>
+            <description><![CDATA[## Core ### Improvements - Added canonical redirects and JSON and Markdown data formats for agent-readable stats. ### Bugfixes - xAI tool results now include supported images, while unsupported image formats are skipped. (@Jaaneek) **Thank you to 3 community contributors:** - @dc85: - docs(web): add Fledge Alpha Free to Zen docs (#52895) - @jm0ney337: - docs(ecosystem): add opencode-supabase to ecosystem plugins (#49848) - @Jaaneek: - fix(opencode): bump @ai-sdk/xai to 3.0.139 so tool-result images reach xAI (#53549)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.18.35</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.18.35</guid>
+            <pubDate>Tue, 06 Oct 2026 20:18:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.34]]></title>
             <description><![CDATA[## Core ### Bugfixes - Send namespaced session and parent-session identity headers with model requests. - Re-sign locally compiled macOS binaries so they run reliably on macOS 27+. (@ryangamerdev) - Sign macOS CLI release binaries with a Developer ID. **Thank you to 3 community contributors:** - @dc85: - docs(web): correct GPT 6.1 Sol cache pricing (#52176) - @metal-huang: - fix(tui): use path.sep for plugin name extraction in /status dialog (#52328) - @ryangamerdev: - fix(opencode): ad-hoc re-sign darwin binaries after local compile (#52183)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.27</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.27</guid>
             <pubDate>Mon, 27 Apr 2026 02:09:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.14.26]]></title>
-            <description><![CDATA[## Core - Fixed config parsing to preserve permission rule order. - Fixed OpenRouter DeepSeek reasoning output handling. - Sent an opencode/ User-Agent header with HTTP requests. ## TUI - Added Zed editor selection support for editor context. - Show a /connect tip when no models are configured. - Fixed editor lock detection to ignore locks from unrelated workspaces. (@jjjermiah) **Thank you to 2 community contributors:** - @ariane-emory: - fix: correct typo in comment (#24420) - @jjjermiah: - fix(editor): reject lock files with no workspace match for cwd (#24323)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.26</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.26</guid>
-            <pubDate>Sun, 26 Apr 2026 21:01:18 GMT</pubDate>
         </item>
     </channel>
 </rss>

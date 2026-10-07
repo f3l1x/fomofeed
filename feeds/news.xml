@@ -4,13 +4,14 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Oct 2026 19:18:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Oct 2026 10:47:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 05 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[Expanding the Cyber Verification Program]]></title>
+            <description><![CDATA[We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.]]></description>
             <link>https://www.anthropic.com/news/cyber-verification-program</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/cyber-verification-program</guid>
             <pubDate>Mon, 05 Oct 2026 22:00:00 GMT</pubDate>
@@ -41,6 +42,7 @@
         </item>
         <item>
             <title><![CDATA[What do you want from AI?]]></title>
+            <description><![CDATA[We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI.]]></description>
             <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
             <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
@@ -59,6 +61,7 @@
         </item>
         <item>
             <title><![CDATA[Project Swap: What happens when agents trade for us?]]></title>
+            <description><![CDATA[To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.]]></description>
             <link>https://www.anthropic.com/research/project-swap</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
             <pubDate>Wed, 23 Sep 2026 22:00:00 GMT</pubDate>
@@ -95,14 +98,12 @@
         </item>
         <item>
             <title><![CDATA[An alignment assessment of recent cybersecurity incidents]]></title>
-            <description><![CDATA[We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.]]></description>
             <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
             <pubDate>Tue, 08 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Formalizing Fermat's Last Theorem]]></title>
-            <description><![CDATA[We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.]]></description>
             <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
             <pubDate>Thu, 03 Sep 2026 22:00:00 GMT</pubDate>

@@ -4,11 +4,32 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Oct 2026 19:18:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Oct 2026 10:47:42 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 06 Oct 2026 01:46:47 GMT</pubDate>
+        <pubDate>Wed, 07 Oct 2026 01:31:41 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.65.0-nightly.20261007.gef59c532f]]></title>
+            <description><![CDATA[## What's Changed * fix(cli): enforce read-only workspace settings in untrusted folders by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29583 * fix(core): avoid duplicate tool response turns when resuming sessions by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29618 * fix(core): prevent deletion of resumed session history on quick exit (#29198) by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29584 * Changelog for v0.64.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29656 * Changelog for v0.63.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29659 * fix(core): align OAuth callback iss parameter validation with RFC 9207 metadata by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29616 * fix(cli): prevent unnecessary terminal clears and scroll resets when expanding with Ctrl+O by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29640 * chore(release): bump version to 0.65.0-nightly.20261006.gfb972b2f8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29657 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261006.gfb972b2f8...v0.65.0-nightly.20261007.gef59c532f]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261007.gef59c532f</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261007.gef59c532f</guid>
+            <pubDate>Wed, 07 Oct 2026 01:31:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Release v0.63.0]]></title>
+            <description><![CDATA[## What's Changed * fix(cli): display retry progress indicator during connection recovery (#28340) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29468 * Changelog for v0.61.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29469 * Changelog for v0.61.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29472 * fix(cli): distinguish missing MCP enablement config from malformed JSON by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29446 * fix(cli): restore paused stdin after capability detection by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29487 * fix(core): bound tool output size and optimize memory lifecycle in long-running agent loops by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29451 * fix(core): remove invalid diff.external override by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29467 * chore(release): bump version to 0.63.0-nightly.20260923.gf50ba8608 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29471 * Changelog for v0.62.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29470 * fix(core): clean up temporary directory when background shell execution exits by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29437 * fix(acp): resolve session before config initialization and avoid same-minute filename collisions by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29463 * fix(core): align policy redirection gates, path validation, and workflow parsing by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29506 * fix(auth): prevent infinite auth loop from file contention, headless keyring, and supervisor state drops (#28341) by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29448 * fix(core): enable autonomous plan execution in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29539 * fix(core): disable truncation when maxChars <= 0 in formatTruncatedToolOutput by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29542 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0...v0.63.0]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0</guid>
+            <pubDate>Tue, 06 Oct 2026 20:38:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Release v0.64.0-preview.0]]></title>
+            <description><![CDATA[## What's Changed * refactor(a2a-server): implement V1 to V2 settings migration logic by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29450 * fix(acp): bridge PromptResponse.usage and emit usage_update notifications (#29389) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29549 * Changelog for v0.63.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29565 * fix(cli): propagate resolved folder trust state in headless mode (#29031) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29528 * chore(release): bump version to 0.64.0-nightly.20260929.gd75234cae by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29567 * fix(cli): prevent CPU hang and quote swallowing on @ within code (#29434) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29557 * fix(core): serialize file tool operations and make writes atomic (#29078) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29499 * fix(core): implement append-only delta patching and bounded history windowing in ChatRecordingService by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29568 * fix(cli): persist state atomically and recover from backup on corruption by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29558 * fix(cli): ensure Ctrl+C emergency abort reaches cancellation handler during active operations by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29586 * fix(cli): resolve @file:line references and prevent ghost text wrap hang by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29581 * fix(ui): ensure Windows ConPTY forwards IME cursor position by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29560 * fix(cli): retry directory removal on Windows locking errors during extension updates by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29540 * fix(acp): resolve session by exact id and handle listener cleanup on session failure by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29580 * fix(cli): preserve scroll position and partition pending height budget by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29520 * fix(cli): ensure Enter and Spacebar reliably confirm selection list options by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29502 ## New Contributors * @elberthc-byte made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29549 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.63.0-preview.0...v0.64.0-preview.0]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-preview.0</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-preview.0</guid>
+            <pubDate>Tue, 06 Oct 2026 20:26:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.64.0-nightly.20261006.gfb972b2f8]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261005.gfb972b2f8...v0.64.0-nightly.20261006.gfb972b2f8]]></description>
@@ -687,27 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0-preview.0</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0-preview.0</guid>
             <pubDate>Wed, 22 Jul 2026 20:10:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.52.0-nightly.20260722.gc776c665b]]></title>
-            <description><![CDATA[## What's Changed * fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260721.gacae7124b...v0.52.0-nightly.20260722.gc776c665b]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260722.gc776c665b</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260722.gc776c665b</guid>
-            <pubDate>Wed, 22 Jul 2026 01:26:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.52.0-nightly.20260721.gacae7124b]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260720.gacae7124b...v0.52.0-nightly.20260721.gacae7124b]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260721.gacae7124b</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260721.gacae7124b</guid>
-            <pubDate>Tue, 21 Jul 2026 01:26:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.52.0-nightly.20260720.gacae7124b]]></title>
-            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260719.gacae7124b...v0.52.0-nightly.20260720.gacae7124b]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260720.gacae7124b</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260720.gacae7124b</guid>
-            <pubDate>Mon, 20 Jul 2026 01:26:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Bring multimodal semantic search to the edge with EmbeddingGemma 2]]></title>
