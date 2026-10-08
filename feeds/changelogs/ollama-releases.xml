@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 Oct 2026 11:05:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 19:36:16 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Oct 2026 23:22:59 GMT</pubDate>
+        <pubDate>Thu, 08 Oct 2026 16:53:47 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.2]]></title>
+            <description><![CDATA[## What's Changed * README: add oxi to community integrations by @maziluiosif in https://github.com/ollama/ollama/pull/18739 * server: hide duplicate and downgrade guards from list by @dhiltgen in https://github.com/ollama/ollama/pull/18874 ## New Contributors * @maziluiosif made their first contribution in https://github.com/ollama/ollama/pull/18739 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.1...v0.40.2-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.2</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.2</guid>
+            <pubDate>Thu, 08 Oct 2026 16:53:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.1]]></title>
             <description><![CDATA[## What's Changed * server: proxy cloud usage and balance APIs by @drifkin in https://github.com/ollama/ollama/pull/18829 * llama: fix clef head reads past 2GiB on windows by @Gigrise in https://github.com/ollama/ollama/pull/18777 * cmd: remove account step from CLI onboarding by @hoyyeva in https://github.com/ollama/ollama/pull/18826 * manifest: avoid symlinks on Windows by @dhiltgen in https://github.com/ollama/ollama/pull/18852 * docs: fix 6 dead links in README community integrations list by @aniketkrs in https://github.com/ollama/ollama/pull/18814 * docs: fix broken download links in app README by @chenlichao in https://github.com/ollama/ollama/pull/18233 * mlx: drop carried metal residency patch now that it is upstream by @dhiltgen in https://github.com/ollama/ollama/pull/18854 ## New Contributors * @Gigrise made their first contribution in https://github.com/ollama/ollama/pull/18777 * @aniketkrs made their first contribution in https://github.com/ollama/ollama/pull/18814 * @chenlichao made their first contribution in https://github.com/ollama/ollama/pull/18233 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.0...v0.40.1-rc0]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.13.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.0</guid>
             <pubDate>Wed, 19 Nov 2025 14:16:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.11]]></title>
-            <description><![CDATA[## Logprobs Ollama's API and OpenAI-compatible API now support log probabilities. Log probabilities of output tokens indicate the likelihood of each token occurring in the sequence given the context. This is useful for different use cases: 1. Classification tasks 2. Retrieval (Q&A) evaluation 3. Autocomplete 4. Token highlighting and outputting bytes 5. Calculating perplexity To enable Logprobs, provide "logprobs": true to Ollama's API: When log probabilities are requested, response chunks will now include a "logprobs" field with the token, log probability and raw bytes (for partial unicode). ### top_logprobs When setting "top_logprobs", a number of most-likely tokens are also provided, making it possible to introspect alternative tokens. Below is an example request. This will generate a stream of response chunks with the following fields: ### Special thanks Thank you @baptistejamin for adding Logprobs to Ollama's API. ## Vulkan support (opt-in) Ollama 0.12.11 includes support for Vulkan acceleration. Vulkan brings support for a broad range of GPUs from AMD, Intel, and iGPUs. Vulkan support is not yet enabled by default, and requires opting in by running Ollama with a custom environment variable: On Powershell, use: For issues or feedback on using Vulkan with Ollama, create an issue labelled **Vulkan** and make sure to include server logs where possible to aid in debugging. ## What's Changed * Ollama's API and the OpenAI-compatible API now supports Logprobs * Ollama's new app now supports WebP images * Improved rendering performance in Ollama's new app, especially when rendering code * The "required" field in tool definitions will now be omitted if not specified * Fixed issue where "tool_call_id" would be omitted when using the OpenAI-compatible API. * Fixed issue where ollama create would import data from both consolidated.safetensors and other safetensor files. * Ollama will now prefer dedicated GPUs over iGPUs when scheduling models * Vulkan can now be enabled by setting OLLAMA_VULKAN=1. For example: OLLAMA_VULKAN=1 ollama serve ## New Contributors * @mags0ft made their first contribution in https://github.com/ollama/ollama/pull/11371 * @macarronesc made their first contribution in https://github.com/ollama/ollama/pull/12973 * @breatn made their first contribution in https://github.com/ollama/ollama/pull/12985 * @cybardev made their first contribution in https://github.com/ollama/ollama/pull/13045 * @baptistejamin made their first contribution in https://github.com/ollama/ollama/pull/12899 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.10...v0.12.11]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.11</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.11</guid>
-            <pubDate>Wed, 12 Nov 2025 20:27:51 GMT</pubDate>
         </item>
     </channel>
 </rss>

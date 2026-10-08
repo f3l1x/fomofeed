@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Goose Releases]]></description>
         <link>https://github.com/block/goose/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 Oct 2026 11:05:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 19:36:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/goose-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 02 Oct 2026 18:44:11 GMT</pubDate>
+        <pubDate>Thu, 08 Oct 2026 18:44:54 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.54.0]]></title>
+            <description><![CDATA[## ✨ Features - Prompt for goose mode during first-time configure #12629 - HTML session export with an interactive viewer #11977 ## 🐛 Bug Fixes - Adaptive thinking for Claude Sonnet and Haiku 5.5 #12761 - Treat a client extension selection as the exact session set #12548 - Support hyphenated GPT 6.1 Sol effort aliases #12689 - Use a system Node.js in the Windows npx wrapper #12176 - Show thinking when GOOSE_CLI_SHOW_THINKING is set to any value #12454 - Price Databricks GLM aliases from the zhipuai catalog #12673 - Read messages from config for tom #12634 - Preserve the service total when folding cache input tokens for Bedrock #12586 - Refresh revoked Copilot tokens when listing models #12627 - Refresh revoked GitHub Copilot API token once #12616 - Recognize ASAR when validating update target #12599 - Stamp the implemented protocol version in initialize #12580 - Session naming/"none" reasoning effort fails for gpt-6.1-sol #12605 - Reflect loading state of chats #12603 - Read cache write tokens from Responses API usage #12509 ## 🔧 Improvements - Route every extension operation through a lease #12723 - Foreground subagents in the state machine loop #12632 - Resolve extensions into a per-inference lease #12161 - Remove Nostr session sharing from goose core #12453 - Detect vision support #12594 - Upgrade rust to 1.99.0 #12714 ## 📚 Documentation - Update Desktop permission mode instructions #12626 - Clarify self-serve LLM provider path #12552]]></description>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.54.0</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.54.0</guid>
+            <pubDate>Thu, 08 Oct 2026 18:44:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.53.0]]></title>
             <description><![CDATA[## ✨ Features - Resizable Picture-in-Picture window for MCP Apps #12417 - Fetch model metadata from models.dev live with bundled fallback #12560 - Quoting action to append selected conversation text to composer #12536 - Lean ACP-only Goose binary #11961 - Model discovery API for GDK Provider #12497 - Meta Muse Code provider #11765 - Support for Opus 5.5, GPT-6-sol, GPT-6-luna #12447 - Session rename command in CLI #12236 - Show working directory in session remove command #12232 - GDK agent loop runs on wasm32 #12569 ## 🐛 Bug Fixes - Session naming and "none" reasoning effort for GPT-6.1-sol #12605 - Strip inert parameters from session snapshots in recipes #11988 - Preserve session context across reply lifecycle #12516 - Report max_tokens truncation and flush tool calls for Bedrock #11872 - Require a terminal for elicitation input in CLI #12542 - Keep tool results consecutive when OpenAI-compatible tool images are emitted #12233 - GDK tools with no args still advertise empty params input schema #12527 - Passing thinking effort to Ollama models #12555 - Estimate costs through canonical provider aliases #11916 - Resolve vision support from the canonical catalog for all providers #12522 - Send Databricks v2 Claude model services through the Anthropic route #12486 - Show tool output for tools without a priority annotation #12436 - Treat an unavailable prompt classifier as no signal #12452 - Guard MCP streamable-HTTP client redirects against SSRF #11501 - Resolve vision support from the canonical catalog in GDK so tool result images reach the model #12440 - Prevent Extension Manager from disabling itself #12270 - Rename deepseek-v4-flash to deepseek-flash #12269 - Auto-compact at tool boundaries in the unrolled agent loop #12444 - Remediate GHSA-6mg9-3cvh-9939 security vulnerability #12537 ## 🔧 Improvements - Suppress warning when ending on a successful tool call #12468 - Update rmcp to 3.4.1 #12483 - Remove MCP sampling code #12193 - Remove production code only reachable from tests #12504 - Pin remaining GitHub Actions to commit SHAs #11989 ## 📚 Documentation - Warn about keyring hang in unattended ACP environments #12173]]></description>
@@ -680,13 +687,6 @@
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha.1</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha.1</guid>
             <pubDate>Sat, 12 Jul 2025 00:18:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.0-alpha]]></title>
-            <description><![CDATA[This release is for testing the new Ui before merge]]></description>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha</guid>
-            <pubDate>Fri, 11 Jul 2025 18:19:16 GMT</pubDate>
         </item>
     </channel>
 </rss>
