@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Oct 2026 19:41:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 11:04:47 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 04 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 06 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude Haiku 5.5 is now available in Devin]]></title>
+            <description><![CDATA[Claude Haiku 5.5 is now live in Devin. On FrontierCode 1.1 it scores 58.4%, ahead of Sonnet 5 at about an eighth of the cost per task, and it joins the sidekick lineup in Devin Fusion.]]></description>
+            <link>https://windsurf.com/blog/claude-haiku-5-5</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/claude-haiku-5-5</guid>
+            <pubDate>Tue, 06 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Memory and dreaming: how Devin learns from working with you]]></title>
             <description><![CDATA[Memory lets Devin carry useful learnings about the way you like to work across sessions. Dreaming is a daily asynchronous process that improves the index of Devin's memories about you.]]></description>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/introducing-code-scans</link>
             <guid isPermaLink="false">https://windsurf.com/blog/introducing-code-scans</guid>
             <pubDate>Tue, 15 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Bringing macOS to Devin]]></title>
-            <description><![CDATA[Today, we're launching macOS support for Devin, extending Devin's autonomous cloud development workflows to iOS apps, native macOS applications, and any project that depends on Apple's development tools.]]></description>
-            <link>https://windsurf.com/blog/devin-gets-a-mac</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/devin-gets-a-mac</guid>
-            <pubDate>Mon, 14 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>

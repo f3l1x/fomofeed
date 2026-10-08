@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Oct 2026 19:41:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 11:05:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Oct 2026 01:31:41 GMT</pubDate>
+        <pubDate>Thu, 08 Oct 2026 01:35:49 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.65.0-nightly.20261008.g44d764ee5]]></title>
+            <description><![CDATA[## What's Changed * fix(ci): add missing loop in unassign-inactive-assignees workflow by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29609 * fix(core): enforce terminal user turn invariant and normalize request contents by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29612 * feat(telemetry): support custom OTLP headers in telemetry configuration by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29641 * fix(auth): prevent infinite verification and OAuth retry loops by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29655 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261007.gef59c532f...v0.65.0-nightly.20261008.g44d764ee5]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261008.g44d764ee5</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261008.g44d764ee5</guid>
+            <pubDate>Thu, 08 Oct 2026 01:35:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.65.0-nightly.20261007.gef59c532f]]></title>
             <description><![CDATA[## What's Changed * fix(cli): enforce read-only workspace settings in untrusted folders by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29583 * fix(core): avoid duplicate tool response turns when resuming sessions by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29618 * fix(core): prevent deletion of resumed session history on quick exit (#29198) by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29584 * Changelog for v0.64.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29656 * Changelog for v0.63.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29659 * fix(core): align OAuth callback iss parameter validation with RFC 9207 metadata by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29616 * fix(cli): prevent unnecessary terminal clears and scroll resets when expanding with Ctrl+O by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29640 * chore(release): bump version to 0.65.0-nightly.20261006.gfb972b2f8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29657 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261006.gfb972b2f8...v0.65.0-nightly.20261007.gef59c532f]]></description>
@@ -694,13 +701,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260723.g9681621c6</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260723.g9681621c6</guid>
             <pubDate>Thu, 23 Jul 2026 01:30:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.52.0]]></title>
-            <description><![CDATA[## What's Changed * Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216 * feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163 * feat(caretaker-egress): implement octokit github action handler for egress service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28303 * chore(release): bump version to 0.52.0-nightly.20260707.g27a3da3e8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28323 * Changelog for v0.51.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28320 * Changelog for v0.50.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28322 * fix(core-tools): bypass LLM correction for JSON and IPYNB files in write_file and replace by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28223 * fix(core): use unambiguous previous intent label in fallback summary by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28343 * feat(caretaker-triage): implement main worker execution loop and egress action publisher by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28306 * fix(privacy): show a clear message when the account has no Code Assist tier by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28304 * fix(core): enrich shared project quota limit errors with setup hint by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28391 * fix(a2a-server): ensure task cancellation aborts execution loop by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28316 * fix(core): simplify plan mode write policy to support relative paths by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28398 * feat(core): Bump node google-auth-library version to 10.9.0 by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28385 * chore/release: bump version to 0.52.0-nightly.20260715.gfa975395b by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28402 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0...v0.52.0]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0</guid>
-            <pubDate>Wed, 22 Jul 2026 20:51:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.53.0-preview.0]]></title>

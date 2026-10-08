@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Oct 2026 19:43:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 11:06:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 05 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -278,21 +278,21 @@
         </item>
         <item>
             <title><![CDATA[Automating eval design and hillclimbing with Claude]]></title>
-            <description><![CDATA[Showing 11 of 276 resources]]></description>
+            <description><![CDATA[Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.]]></description>
             <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
             <guid isPermaLink="false">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
             <pubDate>Tue, 17 Mar 2020 03:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Automating eval design and hillclimbing with Claude]]></title>
-            <description><![CDATA[Showing 11 of 276 resources]]></description>
+            <title><![CDATA[Claude Haiku 5.5]]></title>
+            <description><![CDATA[Showing 11 of 277 resources]]></description>
             <link>https://claude.dev/blog/claude-code-in-the-cloud/</link>
             <guid isPermaLink="false">https://claude.dev/blog/claude-code-in-the-cloud/</guid>
             <pubDate>Fri, 10 Jan 2020 06:29:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Automating eval design and hillclimbing with Claude]]></title>
-            <description><![CDATA[Showing 11 of 276 resources]]></description>
+            <title><![CDATA[Claude Haiku 5.5]]></title>
+            <description><![CDATA[Showing 11 of 277 resources]]></description>
             <link>https://claude.dev/blog/getting-started-with-claude-code-mods/</link>
             <guid isPermaLink="false">https://claude.dev/blog/getting-started-with-claude-code-mods/</guid>
             <pubDate>Wed, 30 Dec 2020 00:45:00 GMT</pubDate>

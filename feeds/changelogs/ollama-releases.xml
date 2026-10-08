@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Oct 2026 19:41:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 11:05:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Sep 2026 20:14:22 GMT</pubDate>
+        <pubDate>Wed, 07 Oct 2026 23:22:59 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.1]]></title>
+            <description><![CDATA[## What's Changed * server: proxy cloud usage and balance APIs by @drifkin in https://github.com/ollama/ollama/pull/18829 * llama: fix clef head reads past 2GiB on windows by @Gigrise in https://github.com/ollama/ollama/pull/18777 * cmd: remove account step from CLI onboarding by @hoyyeva in https://github.com/ollama/ollama/pull/18826 * manifest: avoid symlinks on Windows by @dhiltgen in https://github.com/ollama/ollama/pull/18852 * docs: fix 6 dead links in README community integrations list by @aniketkrs in https://github.com/ollama/ollama/pull/18814 * docs: fix broken download links in app README by @chenlichao in https://github.com/ollama/ollama/pull/18233 * mlx: drop carried metal residency patch now that it is upstream by @dhiltgen in https://github.com/ollama/ollama/pull/18854 ## New Contributors * @Gigrise made their first contribution in https://github.com/ollama/ollama/pull/18777 * @aniketkrs made their first contribution in https://github.com/ollama/ollama/pull/18814 * @chenlichao made their first contribution in https://github.com/ollama/ollama/pull/18233 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.0...v0.40.1-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.1</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.1</guid>
+            <pubDate>Wed, 07 Oct 2026 23:22:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.35.1]]></title>
             <description><![CDATA[## Clef decision models Ollama now supports Clef and Clef Flash, Cloudflare's new open-source decision models, through /v1/systemone. Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it. ## What's Changed * Models using web search can now perform up to ten searches per response, up from three * Modelfiles now support CAPABILITY declarations, so model creators can explicitly declare what a model can do. Declarations are preserved when creating from GGUF or safetensors, through model inheritance, and on Modelfile export * ollama show and the model list now report only decision as the capability for decision models, so clients no longer offer them for general chat, tools, or thinking * Updated llama.cpp and the MLX engine **Full Changelog**: https://github.com/ollama/ollama/compare/v0.35.0...v0.35.1]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.12.11</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.11</guid>
             <pubDate>Wed, 12 Nov 2025 20:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.12.10]]></title>
-            <description><![CDATA[## ollama run now works with embedding models ollama run can now run embedding models to generate vector embeddings from text: Content can also be provided to ollama run via standard input: ## What's Changed * Fixed errors when running qwen3-vl:235b and qwen3-vl:235b-instruct * Enable flash attention for Vulkan (currently needs to be built from source) * Add Vulkan memory detection for Intel GPU using DXGI+PDH * Ollama will now return tool call IDs from the /api/chat API * Fixed hanging due to CPU discovery * Ollama will now show login instructions when switching to a cloud model in interactive mode * Fix reading stale VRAM data * ollama run now works with embedding models ## New Contributors * @ryanycoleman made their first contribution in https://github.com/ollama/ollama/pull/11740 * @Rajathbail made their first contribution in https://github.com/ollama/ollama/pull/12929 * @virajwad made their first contribution in https://github.com/ollama/ollama/pull/12664 * @AXYZdong made their first contribution in https://github.com/ollama/ollama/pull/8601 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.12.9...v0.12.10]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.12.10</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.12.10</guid>
-            <pubDate>Wed, 05 Nov 2025 21:41:21 GMT</pubDate>
         </item>
     </channel>
 </rss>
