@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Crush Releases]]></description>
         <link>https://github.com/charmbracelet/crush/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 Oct 2026 11:05:13 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Oct 2026 19:12:22 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/crush-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 09 Oct 2026 01:11:13 GMT</pubDate>
+        <pubDate>Fri, 09 Oct 2026 12:16:09 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.98.1]]></title>
+            <description><![CDATA[# Tiny patch This fixes new GPT-6 models via Copilot! Enjoy, Charm XX 💫 ## Changelog ### Fixed * 8584922dc75b0911bf5dea2cbaec64af557f7a45: fix: route newer Copilot models through the Responses API (#4048) (@DaVinci42) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.98.1</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.98.1</guid>
+            <pubDate>Fri, 09 Oct 2026 12:16:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nightly]]></title>
             <description><![CDATA[--- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.32.1</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.32.1</guid>
             <pubDate>Tue, 13 Jan 2026 21:04:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.32.0]]></title>
-            <description><![CDATA[# Optimizations and More Our most ripped dev @caarlos0 ripped more than his abs in today’s release. Thanks to him, Crush now uses less memory and has faster startup and shutdown times across the board. If you only use Crush because of local models, you might be interested in the contribution from @jonhoo who added a disable_default_providers setting to disable all default providers. Note that CRUSH_DISABLE_DEFAULT_PROVIDERS=1 has been around for a bit and will also work. See you on the internet! 🌐 ## Changelog ### New! * 163abdc1c4903bebbe19643e73f0335740ec7c6d: feat: add disable_default_providers option (#1675) (@jonhoo) * 617f9e28f634089fed552cc28a987851f23c48e0: feat: allow to send the prompt if its empty but has text attachments (#1806) (@caarlos0) * 467418d5346b5c253dc141ef44d60ca3e1f1f6f8: feat: open editor in the right position (#1804) (@caarlos0) ### Fixed * df6f51492ef104be308f77066442bb5eded86261: fix(sqlite): busy timeout (#1815) (@caarlos0) * 2350f7ea30658e7fe0240b901818b22896d32a37: fix: make sure to unlock in goroutine (#1820) (@caarlos0) ### Docs * a4f5d722761e9d3a8e90c5d9c3662b57ada6fe71: docs(README): add FreeBSD installation instructions (@meowgorithm) ### Other stuff * 6f0f5197e36c494d69ace2ee3d011696d5b656fc: Fix shutdown (#1833) (@kujtimiihoxha) * b2252f8f98ff5f60e8757b1fc47defeff2f4ae3a: chore: auto-update files (@charmcli) * a447f55c5c3091d0d1dd406ea9e96e97aaaa12ff: perf(config): simplify loadFromConfigPaths (#1821) (@caarlos0) * e4400ad2413fdf57d85e5e07d641c61e357d3c2a: perf(shell): reduce allocations in updateShellFromRunner (#1817) (@caarlos0) * b8847674247c0acb21b863c57f77ca44631185ca: perf: fix possibly unclosed resp.body (#1818) (@caarlos0) * 6f646c9151a63d2c609f349847ef670420dddc4e: perf: improve startup and shutdown speed (#1829) (@caarlos0) * d1382bb55d03936047df0fc81b3ab9da3cafe4b5: perf: reduce memory usage (#1812) (@caarlos0) * 0868681f6665c05552491ad1d9f71939fd47f68e: perf: use strings.Builder for string concatenation in loops (#1819) (@caarlos0) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.32.0</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.32.0</guid>
-            <pubDate>Mon, 12 Jan 2026 18:41:43 GMT</pubDate>
         </item>
     </channel>
 </rss>

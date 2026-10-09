@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 Oct 2026 11:05:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Oct 2026 19:12:58 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Thu, 08 Oct 2026 19:48:38 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -977,25 +977,25 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How Block orchestrates Claude Fable across thousands of pull requests]]></title>
-            <description><![CDATA[Showing 11 of 279 resources]]></description>
+            <title><![CDATA[Building effective agent automations]]></title>
+            <description><![CDATA[Showing 11 of 280 resources]]></description>
+            <link>https://claude.dev/blog/building-effective-agent-automations/</link>
+            <guid isPermaLink="false">https://claude.dev/blog/building-effective-agent-automations/</guid>
+            <pubDate>Sat, 28 Nov 2020 17:12:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building effective agent automations]]></title>
+            <description><![CDATA[Showing 11 of 280 resources]]></description>
             <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
             <guid isPermaLink="false">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
             <pubDate>Tue, 17 Mar 2020 03:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How Block orchestrates Claude Fable across thousands of pull requests]]></title>
-            <description><![CDATA[Showing 11 of 279 resources]]></description>
+            <title><![CDATA[Building effective agent automations]]></title>
+            <description><![CDATA[Showing 11 of 280 resources]]></description>
             <link>https://claude.dev/blog/claude-code-in-the-cloud/</link>
             <guid isPermaLink="false">https://claude.dev/blog/claude-code-in-the-cloud/</guid>
             <pubDate>Fri, 10 Jan 2020 06:29:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How Block orchestrates Claude Fable across thousands of pull requests]]></title>
-            <description><![CDATA[Showing 11 of 279 resources]]></description>
-            <link>https://claude.dev/blog/getting-started-with-claude-code-mods/</link>
-            <guid isPermaLink="false">https://claude.dev/blog/getting-started-with-claude-code-mods/</guid>
-            <pubDate>Wed, 30 Dec 2020 00:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>
