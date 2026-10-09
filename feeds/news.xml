@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 Oct 2026 19:38:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Oct 2026 11:05:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -25,6 +25,13 @@
             <title><![CDATA[Introducing the Anthropic Cyber Mission]]></title>
             <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-cyber-mission</guid>
+            <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The missing map of the sky]]></title>
+            <description><![CDATA[Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.]]></description>
+            <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
             <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -119,12 +126,6 @@
             <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
             <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[An alignment assessment of recent cybersecurity incidents]]></title>
-            <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
-            <pubDate>Tue, 08 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Developing Enterprise Frontier Safeguards with our customers]]></title>
@@ -277,22 +278,22 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Build live dashboards and animate explainers with Claude]]></title>
-            <description><![CDATA[Showing 11 of 278 resources]]></description>
+            <title><![CDATA[How Block orchestrates Claude Fable across thousands of pull requests]]></title>
+            <description><![CDATA[Showing 11 of 279 resources]]></description>
             <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
             <guid isPermaLink="false">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
             <pubDate>Tue, 17 Mar 2020 03:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Build live dashboards and animate explainers with Claude]]></title>
-            <description><![CDATA[Showing 11 of 278 resources]]></description>
+            <title><![CDATA[How Block orchestrates Claude Fable across thousands of pull requests]]></title>
+            <description><![CDATA[Showing 11 of 279 resources]]></description>
             <link>https://claude.dev/blog/claude-code-in-the-cloud/</link>
             <guid isPermaLink="false">https://claude.dev/blog/claude-code-in-the-cloud/</guid>
             <pubDate>Fri, 10 Jan 2020 06:29:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Build live dashboards and animate explainers with Claude]]></title>
-            <description><![CDATA[Showing 11 of 278 resources]]></description>
+            <title><![CDATA[How Block orchestrates Claude Fable across thousands of pull requests]]></title>
+            <description><![CDATA[Showing 11 of 279 resources]]></description>
             <link>https://claude.dev/blog/getting-started-with-claude-code-mods/</link>
             <guid isPermaLink="false">https://claude.dev/blog/getting-started-with-claude-code-mods/</guid>
             <pubDate>Wed, 30 Dec 2020 00:45:00 GMT</pubDate>

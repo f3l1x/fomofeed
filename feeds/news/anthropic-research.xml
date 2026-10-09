@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 Oct 2026 19:36:08 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Oct 2026 11:03:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The missing map of the sky]]></title>
+            <description><![CDATA[Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.]]></description>
+            <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
+            <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Launching an opt-in vulnerability-finding service for open-source software]]></title>
             <link>https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</link>
@@ -64,12 +71,6 @@
             <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
             <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[An alignment assessment of recent cybersecurity incidents]]></title>
-            <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
-            <pubDate>Tue, 08 Sep 2026 22:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
