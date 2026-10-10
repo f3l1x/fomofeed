@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 Oct 2026 19:12:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Oct 2026 10:22:08 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 08 Oct 2026 01:35:49 GMT</pubDate>
+        <pubDate>Sat, 10 Oct 2026 01:38:44 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.65.0-nightly.20261010.g9b6e0265d]]></title>
+            <description><![CDATA[## What's Changed * fix(cli): handle JSON parse and response stream errors in fetchJson by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29658 * fix(core): preserve line terminators in truncateString by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29673 * fix(vscode-ide-companion): make IdeServer.stop() resolve while MCP sessions are open by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29674 * fix(core): retain ask_user question text in the tool result display by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29677 * fix(core): eliminate false positives on untrusted command flags and compound loops by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29672 * fix(cli): clear cached credentials when re-selecting Google login by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29643 * fix(cli): resolve hang on Enter keypress in interactive mode (#23297) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29476 * perf(core): optimize ignore filtering and enable subtree pruning (#29077) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29582 * fix(a2a-server): isolate tool rejection to active call in sequential batches by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29683 * fix(cli): skip eager recursive file reading for @ references by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29617 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261008.g44d764ee5...v0.65.0-nightly.20261010.g9b6e0265d]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261010.g9b6e0265d</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261010.g9b6e0265d</guid>
+            <pubDate>Sat, 10 Oct 2026 01:38:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Release v0.64.0-preview.1]]></title>
+            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 2ce1a69 to release/v0.64.0-preview.0-pr-29672 to patch version v0.64.0-preview.0 and create version 0.64.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29696 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-preview.0...v0.64.0-preview.1]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-preview.1</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-preview.1</guid>
+            <pubDate>Fri, 09 Oct 2026 20:27:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.65.0-nightly.20261008.g44d764ee5]]></title>
             <description><![CDATA[## What's Changed * fix(ci): add missing loop in unassign-inactive-assignees workflow by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29609 * fix(core): enforce terminal user turn invariant and normalize request contents by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29612 * feat(telemetry): support custom OTLP headers in telemetry configuration by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29641 * fix(auth): prevent infinite verification and OAuth retry loops by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29655 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261007.gef59c532f...v0.65.0-nightly.20261008.g44d764ee5]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf</guid>
             <pubDate>Sun, 26 Jul 2026 01:31:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.52.0-nightly.20260723.g9681621c6]]></title>
-            <description><![CDATA[## What's Changed * fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472 * feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260722.gc776c665b...v0.52.0-nightly.20260723.g9681621c6]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260723.g9681621c6</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260723.g9681621c6</guid>
-            <pubDate>Thu, 23 Jul 2026 01:30:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.53.0-preview.0]]></title>
-            <description><![CDATA[## What's Changed * fix(core,a2a): group cancelled tool responses and coalesce consecutive roles to prevent 400 Bad Request by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28407 * feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28345 * refactor(cli): align macOS permissive Seatbelt profiles with deny-default model by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28424 * fix(core): mitigate infinite ReAct loops and prompt injection loops by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28429 * fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470 * fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472 * feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-preview.0...v0.53.0-preview.0]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0-preview.0</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0-preview.0</guid>
-            <pubDate>Wed, 22 Jul 2026 20:10:07 GMT</pubDate>
         </item>
     </channel>
 </rss>

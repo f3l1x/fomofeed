@@ -4,11 +4,17 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 Oct 2026 19:12:58 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Oct 2026 10:22:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 08 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Investigating unintended model actions in our evaluations and internal use]]></title>
+            <link>https://www.anthropic.com/research/investigating-unintended-model-actions</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/investigating-unintended-model-actions</guid>
+            <pubDate>Thu, 08 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2026 Usage Policy update]]></title>
             <link>https://www.anthropic.com/news/2026-usage-policy-update</link>
@@ -120,12 +126,6 @@
             <link>https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</guid>
             <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Measuring tactical intelligence targeting and conventional weapons capabilities of AI models]]></title>
-            <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
-            <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Developing Enterprise Frontier Safeguards with our customers]]></title>
