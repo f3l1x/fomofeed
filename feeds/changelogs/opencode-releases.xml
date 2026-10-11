@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Oct 2026 18:09:58 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 10:30:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 06 Oct 2026 20:18:39 GMT</pubDate>
+        <pubDate>Sun, 11 Oct 2026 01:39:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.19.0]]></title>
+            <description><![CDATA[## Core ### Improvements - Run opencode upgrade --major to upgrade to OpenCode 2. ### Bugfixes - Allow the OpenAI ultrafast service tier. - Validate PTY connection origins and tickets before checking whether a PTY exists. ## TUI ### Improvements - Use /update to install OpenCode updates or upgrade to OpenCode 2; updates are no longer installed automatically. **Thank you to 1 community contributor:** - @dc85: - docs(web): add Exo Free to Zen docs (#53622) - fix(stats): attribute exo usage to an unknown provider (#53621) - docs(web): remove Fledge Alpha Free from Zen docs (#53984)]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.19.0</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.19.0</guid>
+            <pubDate>Sun, 11 Oct 2026 01:39:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.18.35]]></title>
             <description><![CDATA[## Core ### Improvements - Added canonical redirects and JSON and Markdown data formats for agent-readable stats. ### Bugfixes - xAI tool results now include supported images, while unsupported image formats are skipped. (@Jaaneek) **Thank you to 3 community contributors:** - @dc85: - docs(web): add Fledge Alpha Free to Zen docs (#52895) - @jm0ney337: - docs(ecosystem): add opencode-supabase to ecosystem plugins (#49848) - @Jaaneek: - fix(opencode): bump @ai-sdk/xai to 3.0.139 so tool-result images reach xAI (#53549)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.28</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.28</guid>
             <pubDate>Mon, 27 Apr 2026 04:23:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.14.27]]></title>
-            <description><![CDATA[## Core - Added a configurable default shell for terminals and agent shell commands, with a Desktop setting to manage it. - Reduced extra terminal noise while creating TUI workspaces. ## TUI - Hid provider connection checks until onboarding is complete. - Restored the default toast timeout when no custom duration is provided. (@OpeOginni) **Thank you to 1 community contributor:** - @OpeOginni: - fix(tui): update toast duration handling to use default value (#23395)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.27</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.27</guid>
-            <pubDate>Mon, 27 Apr 2026 02:09:09 GMT</pubDate>
         </item>
     </channel>
 </rss>
