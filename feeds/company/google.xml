@@ -4,11 +4,18 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Oct 2026 18:36:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Oct 2026 11:33:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 10 Oct 2026 01:38:44 GMT</pubDate>
+        <pubDate>Mon, 12 Oct 2026 01:29:25 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.65.0-nightly.20261012.g9b6e0265d]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261010.g9b6e0265d...v0.65.0-nightly.20261012.g9b6e0265d]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261012.g9b6e0265d</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261012.g9b6e0265d</guid>
+            <pubDate>Mon, 12 Oct 2026 01:29:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.65.0-nightly.20261010.g9b6e0265d]]></title>
             <description><![CDATA[## What's Changed * fix(cli): handle JSON parse and response stream errors in fetchJson by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29658 * fix(core): preserve line terminators in truncateString by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29673 * fix(vscode-ide-companion): make IdeServer.stop() resolve while MCP sessions are open by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29674 * fix(core): retain ask_user question text in the tool result display by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29677 * fix(core): eliminate false positives on untrusted command flags and compound loops by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29672 * fix(cli): clear cached credentials when re-selecting Google login by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29643 * fix(cli): resolve hang on Enter keypress in interactive mode (#23297) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29476 * perf(core): optimize ignore filtering and enable subtree pruning (#29077) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29582 * fix(a2a-server): isolate tool rejection to active call in sequential batches by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29683 * fix(cli): skip eager recursive file reading for @ references by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29617 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261008.g44d764ee5...v0.65.0-nightly.20261010.g9b6e0265d]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260727.g3818efbbf</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260727.g3818efbbf</guid>
             <pubDate>Mon, 27 Jul 2026 01:32:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.54.0-nightly.20260726.g3818efbbf]]></title>
-            <description><![CDATA[## What's Changed * Changelog for v0.53.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28507 * Changelog for v0.52.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28508 * chore(release): bump version to 0.54.0-nightly.20260722.gf743ab579 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28510 * fix(caretaker): sanitize and wrap issue title in untrusted_context by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28352 * chore(caretaker): update vitest to v3.2.4 and add package-lock.json files by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28409 * fix(core): rotate session ID on model fallback to prevent stateful API errors by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28469 * feat(caretaker-triage): post comment before auto-closing issues by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28411 * fix(core): enforce HTTPS for GoogleCredentialsAuthProvider to prevent cleartext leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28517 * fix(core): filter out thought parts from getHistoryTurns when context management is disabled by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28509 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260723.g9681621c6...v0.54.0-nightly.20260726.g3818efbbf]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf</guid>
-            <pubDate>Sun, 26 Jul 2026 01:31:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ML Drift: Next-Gen GPU AI/ML Inference at the Edge]]></title>
