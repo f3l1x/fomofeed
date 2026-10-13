@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Engineering]]></description>
         <link>https://www.anthropic.com/engineering</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Oct 2026 11:19:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 20:00:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-engineering.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 22 Apr 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 24 May 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How we contain Claude across products]]></title>
+            <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
+            <pubDate>Sun, 24 May 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[An update on recent Claude Code quality reports]]></title>
             <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
@@ -154,11 +160,11 @@
             <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How we contain Claude across products]]></title>
-            <description><![CDATA[As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.]]></description>
-            <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
-            <pubDate>Sun, 12 Apr 2020 18:33:00 GMT</pubDate>
+            <title><![CDATA[Redesigning source control at Anthropic]]></title>
+            <description><![CDATA[As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.]]></description>
+            <link>https://www.anthropic.com/engineering/redesigning-source-control</link>
+            <guid isPermaLink="false">https://www.anthropic.com/engineering/redesigning-source-control</guid>
+            <pubDate>Fri, 31 Jan 2020 14:49:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
