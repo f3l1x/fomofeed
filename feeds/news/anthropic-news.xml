@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Oct 2026 20:00:52 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Oct 2026 09:11:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Tue, 13 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Anthropic opens Singapore office and signs MOU with the Government of Singapore]]></title>
+            <link>https://www.anthropic.com/news/singapore-office-opening</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/singapore-office-opening</guid>
+            <pubDate>Tue, 13 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2026 Usage Policy update]]></title>
             <link>https://www.anthropic.com/news/2026-usage-policy-update</link>
@@ -63,12 +69,6 @@
             <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/life-sciences-verification-program</guid>
             <pubDate>Wed, 16 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Developing Enterprise Frontier Safeguards with our customers]]></title>
-            <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
-            <pubDate>Mon, 31 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsible Scaling Policy]]></title>

@@ -4,16 +4,23 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Oct 2026 20:02:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Oct 2026 09:13:33 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 12 Oct 2026 19:00:12 GMT</pubDate>
+        <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
+            <title><![CDATA[Run AI agents safely with Ollama and Fly.io]]></title>
+            <description><![CDATA[AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.]]></description>
+            <link>https://ollama.com/blog/fly-io-sprites</link>
+            <guid isPermaLink="false">https://ollama.com/blog/fly-io-sprites</guid>
+            <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[v0.40.4]]></title>
-            <description><![CDATA[## What's Changed * llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in https://github.com/ollama/ollama/pull/18917 * server: reuse verified manifests and loaded models in inference routes by @dhiltgen in https://github.com/ollama/ollama/pull/18947 * mlx: compact restored recurrent state after speculative rollback by @dhiltgen in https://github.com/ollama/ollama/pull/18955 * launch: include installed models in Codex /model picker by @ParthSareen in https://github.com/ollama/ollama/pull/18887 * MLX, MLX-C: version bump by @dhiltgen in https://github.com/ollama/ollama/pull/18956 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.3...v0.40.4-rc1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1</guid>
+            <description><![CDATA[## Decision models in the CLI Decision models can now be used directly from the terminal with ollama run — ask yes/no questions, classify text into labels, or score against a rubric: ollama run nimble --ask "Is a refund being requested?" < ticket.txt ## What's Changed * Kev decision models are now supported by the MLX runner on Apple silicon * ollama launch can now be used with usage credits without upgrading to a paid plan * ollama launch codex now includes locally installed Ollama models in its model picker. Use /model within the Codex CLI to swap models. * Improved inference performance by reusing verified manifests and already loaded models * Added support for multimodal embeddings through llama-server * Fixed loading multimodal embedding models with small context windows * Improved Gemma 4 prefill performance on NVIDIA GPUs with the MLX runner * MLX runner now clips long Laya states instead of rejecting them * Improved speculative decoding reliability in the MLX runner, including recurrent state handling after rollback * Updated llama.cpp with native decision model support * Updated README and documentation with clearer privacy and cloud-services wording **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.3...v0.40.4]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.4</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.4</guid>
             <pubDate>Mon, 12 Oct 2026 19:00:12 GMT</pubDate>
         </item>
         <item>

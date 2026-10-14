@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Oct 2026 20:02:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Oct 2026 09:13:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Run AI agents safely with Ollama and Fly.io]]></title>
+            <description><![CDATA[AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.]]></description>
+            <link>https://ollama.com/blog/fly-io-sprites</link>
+            <guid isPermaLink="false">https://ollama.com/blog/fly-io-sprites</guid>
+            <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Gemini 4 Argon is now available in Devin]]></title>
             <description><![CDATA[Gemini 4 Argon is now live in Devin Desktop and Devin CLI, at 75% off list price through October 27, 2026. On FrontierCode 1.1 it scores 60.5%, surpassing GPT-6.1 Sol and matching GPT-6 Sol, the highest score of any Gemini model on the leaderboard.]]></description>
