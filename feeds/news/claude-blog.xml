@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Claude Blog]]></description>
         <link>https://claude.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 Oct 2026 18:14:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 08:44:18 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/claude-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 28 Nov 2020 17:12:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
