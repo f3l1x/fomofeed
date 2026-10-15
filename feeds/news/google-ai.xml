@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Oct 2026 17:57:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 20:55:28 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 23 Dec 2020 02:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -22,6 +22,13 @@
             <link>https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/</guid>
             <pubDate>Sun, 08 Nov 2020 23:28:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing DPoP Support for Google OAuth: Securing Refresh Tokens]]></title>
+            <description><![CDATA[Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.]]></description>
+            <link>https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
+            <pubDate>Wed, 07 Oct 2020 09:22:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster]]></title>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/</guid>
             <pubDate>Sat, 23 May 2020 08:21:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[EmbeddingGemma 2: The Developer Guide]]></title>
-            <description><![CDATA[EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshka Representation Learning enables dynamic dimension truncation down to 128d, significantly reducing vector database storage requirements while maintaining high retrieval performance.]]></description>
-            <link>https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/</guid>
-            <pubDate>Wed, 25 Mar 2020 20:51:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
