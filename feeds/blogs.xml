@@ -4,11 +4,18 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Oct 2026 08:46:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 17:59:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 14 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Introducing Devin Oncall]]></title>
+            <description><![CDATA[Devin Oncall is now generally available. Devin automatically investigates alerts and bug reports and helps your team diagnose and resolve production incidents.]]></description>
+            <link>https://windsurf.com/blog/introducing-devin-oncall</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/introducing-devin-oncall</guid>
+            <pubDate>Wed, 14 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Run AI agents safely with Ollama and Fly.io]]></title>
             <description><![CDATA[AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.]]></description>
@@ -17,17 +24,17 @@
             <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Gemini 4 Argon is now available in Devin]]></title>
-            <description><![CDATA[Gemini 4 Argon is now live in Devin Desktop and Devin CLI, at 75% off list price through October 27, 2026. On FrontierCode 1.1 it scores 60.5%, surpassing GPT-6.1 Sol and matching GPT-6 Sol, the highest score of any Gemini model on the leaderboard.]]></description>
-            <link>https://windsurf.com/blog/gemini-4-argon</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gemini-4-argon</guid>
-            <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Devin in Pylon: Driving faster Median Time To Fix]]></title>
             <description><![CDATA[Support teams can now start Devin investigations directly from Pylon, and engineers pick them up with the first pass of work already done.]]></description>
             <link>https://windsurf.com/blog/devin-in-pylon</link>
             <guid isPermaLink="false">https://windsurf.com/blog/devin-in-pylon</guid>
+            <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gemini 4 Argon is now available in Devin]]></title>
+            <description><![CDATA[Gemini 4 Argon is now live in Devin Desktop and Devin CLI, at 75% off list price through October 27, 2026. On FrontierCode 1.1 it scores 60.5%, surpassing GPT-6.1 Sol and matching GPT-6 Sol, the highest score of any Gemini model on the leaderboard.]]></description>
+            <link>https://windsurf.com/blog/gemini-4-argon</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gemini-4-argon</guid>
             <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -126,13 +133,6 @@
             <link>https://windsurf.com/blog/claude-opus-5-5</link>
             <guid isPermaLink="false">https://windsurf.com/blog/claude-opus-5-5</guid>
             <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Grok 4.7 is now available in Devin]]></title>
-            <description><![CDATA[Grok 4.7 is now live in Devin Desktop and the Devin CLI. On FrontierCode 1.1 it is strongest on hard, multi-module backend tasks, and trails Grok 4.6 on the aggregate because it tends to over-scope.]]></description>
-            <link>https://windsurf.com/blog/grok-4-7</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/grok-4-7</guid>
-            <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[AI Evals: Everything You Need to Know]]></title>
