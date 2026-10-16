@@ -4,11 +4,25 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 Oct 2026 08:40:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Oct 2026 17:47:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 16 Oct 2026 02:30:38 GMT</pubDate>
+        <pubDate>Fri, 16 Oct 2026 14:39:45 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[PR #56106 demo video]]></title>
+            <description><![CDATA[Demo video for #56106]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/pr-56106-video</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/pr-56106-video</guid>
+            <pubDate>Fri, 16 Oct 2026 14:39:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.19.3]]></title>
+            <description><![CDATA[## Core ### Improvements - Configure model reasoning options to generate reasoning variants, replacing catalog variants while preserving your configured variant overrides.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/v1.19.3</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.19.3</guid>
+            <pubDate>Fri, 16 Oct 2026 12:31:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.19.2]]></title>
             <description><![CDATA[## Core ### Bugfixes - OpenCode 1 now stays on the 1.x release line: update checks use only the npm opencode-ai latest version, so 1.x installs are never offered a 2.x build as a regular update. - Upgrading to OpenCode 2 remains a separate, explicit choice through the 2.0 offer in /update or opencode upgrade --major. - Fix upgrades for installs managed by yarn. - Skip 1.x updates for Homebrew Core installs, which now track OpenCode 2, and check tap and Chocolatey availability before offering an update. - The install script refuses to install 2.x versions.]]></description>
@@ -694,20 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.32</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.32</guid>
             <pubDate>Sat, 02 May 2026 15:34:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.14.31]]></title>
-            <description><![CDATA[## Core - Azure setup now prompts for the resource name when needed and saves it with the API key. - Task child sessions now preserve parent external_dir and deny permissions. (@remorses) - Invalid remote MCP URLs now fail with a clear error instead of breaking setup. ## Desktop - Restoring saved messages no longer crashes the app when a model is missing. **Thank you to 1 community contributor:** - @remorses: - fix(opencode): preserve external_dir and deny parent permissions in task child sessions (#23290)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.31</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.31</guid>
-            <pubDate>Fri, 01 May 2026 06:13:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.14.30]]></title>
-            <description><![CDATA[## Core - Fixed missing sessions in Desktop caused by path mismatches, including recovery for existing stored data. - Fixed Azure Responses defaults to avoid reasoning item ordering errors. - Improved DeepSeek compatibility with providers that vary model naming. - Added Mistral Medium 3.5 with reasoning support. (@rubdos) - Made instruction precedence more predictable by applying global instructions before project and skill instructions. - Reconnected editor context when switching to a session in another directory. - Fixed forked sessions so compacted history stays intact. (@spark4862) - Reduced memory growth in long-running bash tool usage. - Sessions now filter to the current path by default, with a setting to show the whole project. - Kept GitHub Copilot model variants in sync with the latest API capabilities. - Fixed Zed selections with UTF-8 text so editor context uses the right ranges. ## TUI - Added a quick toggle for paste summaries. - Invalid custom themes no longer crash the TUI on startup. **Thank you to 3 community contributors:** - @Vect0rM: - docs: add Atomic Chat provider section (#23069) - @spark4862: - fix(session): remap compaction tail_start_id when forking (#24898) - @rubdos: - feat: add Mistral Medium 3.5 with reasoning support (#24996)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.30</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.30</guid>
-            <pubDate>Wed, 29 Apr 2026 23:33:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
