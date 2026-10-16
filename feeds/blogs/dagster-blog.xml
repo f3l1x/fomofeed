@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Dagster Blog]]></description>
         <link>https://dagster.io/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 Oct 2026 17:46:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Oct 2026 20:22:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/dagster-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 08:03:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
