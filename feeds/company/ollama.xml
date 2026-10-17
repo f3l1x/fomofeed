@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 Oct 2026 20:24:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Oct 2026 08:12:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Fri, 16 Oct 2026 22:00:46 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.6]]></title>
+            <description><![CDATA[## What's Changed * win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500 * gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967 * Launch clef in Ollama's cloud by @jberg5 in https://github.com/ollama/ollama/pull/19036 * use identifiers for --ask mode question keys by @jberg5 in https://github.com/ollama/ollama/pull/19041 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.6</guid>
+            <pubDate>Fri, 16 Oct 2026 22:00:46 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Reflection's Beam is freely available on Ollama for a limited time]]></title>
             <description><![CDATA[Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.]]></description>
@@ -848,13 +855,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.13.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.4</guid>
             <pubDate>Sat, 13 Dec 2025 09:24:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.13.3]]></title>
-            <description><![CDATA[## New models * Devstral-Small-2: 24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents. * rnj-1: Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models. * nomic-embed-text-v2: nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval. ## What's Changed * Improved truncation logic when using /api/embed and /v1/embeddings * Extend Gemma 3 architecture to support rnj-1 model * Fix error that would occur when running qwen2.5vl with image input **Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.2...v0.13.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.13.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.3</guid>
-            <pubDate>Tue, 09 Dec 2025 02:14:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI gpt-oss-safeguard]]></title>

@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 Oct 2026 20:23:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Oct 2026 08:12:04 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 14 Oct 2026 19:45:22 GMT</pubDate>
+        <pubDate>Fri, 16 Oct 2026 22:00:46 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.6]]></title>
+            <description><![CDATA[## What's Changed * win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500 * gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967 * Launch clef in Ollama's cloud by @jberg5 in https://github.com/ollama/ollama/pull/19036 * use identifiers for --ask mode question keys by @jberg5 in https://github.com/ollama/ollama/pull/19041 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.6</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.6</guid>
+            <pubDate>Fri, 16 Oct 2026 22:00:46 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.5]]></title>
             <description><![CDATA[## NVIDIA Nemotron 3.5 Super NVIDIA Nemotron 3.5 Super is a vision-language model for coding, reasoning, tool use, and document understanding. It pairs a 120B-parameter hybrid Mamba-2/Transformer mixture-of-experts backbone (12B active per token) with a C-RADIO vision encoder, and supports tool calling, an on/off thinking mode, and context up to 1M tokens. A compact sibling, Nemotron 3.5 Bolt, distills Super down to 74B parameters (9B active) tuned to fit a 24 GB NVIDIA GPU for everyday agentic tasks, with speculative decoding via its included drafter. ## What's Changed * Decision models are now available on cloud — use clef:cloud and clef-flash:cloud to run decision models through ollama.com cloud without pulling them locally * Continuing an OpenAI-compatible Responses conversation that includes custom tool calls no longer fails with an error * Clearer error messages when cloud access fails: sign-in problems, payment issues in the desktop app, and upstream access errors from the ChatGPT gateway now explain what went wrong * Updated llama.cpp (adding Nemotron 3.5 support) and MLX ## New Contributors * @willietran made their first contribution in https://github.com/ollama/ollama/pull/18986 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.4...v0.40.5]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.13.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.4</guid>
             <pubDate>Sat, 13 Dec 2025 09:24:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.13.3]]></title>
-            <description><![CDATA[## New models * Devstral-Small-2: 24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents. * rnj-1: Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models. * nomic-embed-text-v2: nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval. ## What's Changed * Improved truncation logic when using /api/embed and /v1/embeddings * Extend Gemma 3 architecture to support rnj-1 model * Fix error that would occur when running qwen2.5vl with image input **Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.2...v0.13.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.13.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.3</guid>
-            <pubDate>Tue, 09 Dec 2025 02:14:37 GMT</pubDate>
         </item>
     </channel>
 </rss>
