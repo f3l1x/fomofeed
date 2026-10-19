@@ -4,16 +4,29 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Oct 2026 09:31:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 19:37:14 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 18 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[A smarter approach to AI cost controls: allocating spend by efficiency]]></title>
+            <description><![CDATA[Blanket usage caps hold back your most efficient engineers. Efficiency Score, Devin Coach, and efficiency-based approvals let enterprises allocate AI spend by engineering efficiency instead.]]></description>
+            <link>https://windsurf.com/blog/efficiency-based-cost-controls</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/efficiency-based-cost-controls</guid>
+            <pubDate>Sun, 18 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Reflection's Beam is freely available on Ollama for a limited time]]></title>
             <description><![CDATA[Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.]]></description>
             <link>https://ollama.com/blog/reflection-beam</link>
             <guid isPermaLink="false">https://ollama.com/blog/reflection-beam</guid>
+            <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Navan cuts a month-long migration down to a week, without freezing the codebase]]></title>
+            <link>https://cursor.com/blog/navan</link>
+            <guid isPermaLink="false">https://cursor.com/blog/navan</guid>
             <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
@@ -135,13 +148,6 @@
             <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Claude Opus 5.5 is now available in Devin]]></title>
-            <description><![CDATA[Claude Opus 5.5 is now live in Devin Desktop and Devin CLI. It is the new #1 on FrontierCode 1.1, edging out Fable 5 and GPT-6 Astra at less than a tenth of the cost of Fable 5.]]></description>
-            <link>https://windsurf.com/blog/claude-opus-5-5</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/claude-opus-5-5</guid>
-            <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[AI Evals: Everything You Need to Know]]></title>
             <link>https://hamel.dev/blog/posts/evals-faq/index.html</link>
             <guid isPermaLink="false">https://hamel.dev/blog/posts/evals-faq/index.html</guid>
@@ -191,12 +197,6 @@
             <description><![CDATA[Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.]]></description>
             <link>https://ollama.com/blog/claude-desktop</link>
             <guid isPermaLink="false">https://ollama.com/blog/claude-desktop</guid>
-            <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[IMDEX uses Cursor to build integrated subsurface data and analytics platform in months, not years]]></title>
-            <link>https://cursor.com/blog/imdex</link>
-            <guid isPermaLink="false">https://cursor.com/blog/imdex</guid>
             <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

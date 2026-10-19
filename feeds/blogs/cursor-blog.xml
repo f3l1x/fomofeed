@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Cursor Blog]]></description>
         <link>https://cursor.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Oct 2026 09:29:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 19:35:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/cursor-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
+        <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Navan cuts a month-long migration down to a week, without freezing the codebase]]></title>
+            <link>https://cursor.com/blog/navan</link>
+            <guid isPermaLink="false">https://cursor.com/blog/navan</guid>
+            <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Improved token efficiency for longer agent runs]]></title>
             <link>https://cursor.com/blog/improved-token-efficiency</link>
@@ -54,12 +60,6 @@
             <link>https://cursor.com/blog/nokia</link>
             <guid isPermaLink="false">https://cursor.com/blog/nokia</guid>
             <pubDate>Tue, 01 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[IMDEX uses Cursor to build integrated subsurface data and analytics platform in months, not years]]></title>
-            <link>https://cursor.com/blog/imdex</link>
-            <guid isPermaLink="false">https://cursor.com/blog/imdex</guid>
-            <pubDate>Mon, 24 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Git at any scale]]></title>

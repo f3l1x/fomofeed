@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Oct 2026 09:30:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 19:36:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 14 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 18 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[A smarter approach to AI cost controls: allocating spend by efficiency]]></title>
+            <description><![CDATA[Blanket usage caps hold back your most efficient engineers. Efficiency Score, Devin Coach, and efficiency-based approvals let enterprises allocate AI spend by engineering efficiency instead.]]></description>
+            <link>https://windsurf.com/blog/efficiency-based-cost-controls</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/efficiency-based-cost-controls</guid>
+            <pubDate>Sun, 18 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Introducing Devin Oncall]]></title>
             <description><![CDATA[Devin Oncall is now generally available. Devin automatically investigates alerts and bug reports and helps your team diagnose and resolve production incidents.]]></description>
@@ -91,13 +98,6 @@
             <description><![CDATA[OpenAI released GPT-6 Sol and GPT-6 Luna. Both are live now in Devin Desktop and Devin CLI. On FrontierCode 1.1, Sol matches GPT-5.6 Sol at 61% lower cost per task, and Luna beats GPT-5.6 Luna at a quarter of the cost, making it the cheapest model on the leaderboard.]]></description>
             <link>https://windsurf.com/blog/gpt-6-sol-luna</link>
             <guid isPermaLink="false">https://windsurf.com/blog/gpt-6-sol-luna</guid>
-            <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Opus 5.5 is now available in Devin]]></title>
-            <description><![CDATA[Claude Opus 5.5 is now live in Devin Desktop and Devin CLI. It is the new #1 on FrontierCode 1.1, edging out Fable 5 and GPT-6 Astra at less than a tenth of the cost of Fable 5.]]></description>
-            <link>https://windsurf.com/blog/claude-opus-5-5</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/claude-opus-5-5</guid>
             <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
