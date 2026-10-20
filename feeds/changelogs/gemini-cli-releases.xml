@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Oct 2026 19:36:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Oct 2026 09:03:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 19 Oct 2026 01:34:29 GMT</pubDate>
+        <pubDate>Tue, 20 Oct 2026 01:33:51 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.66.0-nightly.20261020.g76e4d7c04]]></title>
+            <description><![CDATA[## What's Changed * fix(ui): preserve terminal scrollback during viewport refreshes by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29792 * fix(cli): decode streamed Node HTTP activity chunks with StringDecoder by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29827 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.66.0-nightly.20261019.ged96faedf...v0.66.0-nightly.20261020.g76e4d7c04]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261020.g76e4d7c04</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261020.g76e4d7c04</guid>
+            <pubDate>Tue, 20 Oct 2026 01:33:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.66.0-nightly.20261019.ged96faedf]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.66.0-nightly.20261018.ged96faedf...v0.66.0-nightly.20261019.ged96faedf]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260802.gf47d6c6f7</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260802.gf47d6c6f7</guid>
             <pubDate>Sun, 02 Aug 2026 01:34:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.55.0-nightly.20260801.gf47d6c6f7]]></title>
-            <description><![CDATA[## What's Changed * fix(core): classify capacity exhaustion as terminal to prevent retry hangs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28599 * fix(core,cli): propagate InvalidStreamError details to UI for specific empty response guidance by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28566 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260730.gdc859e8e4...v0.55.0-nightly.20260801.gf47d6c6f7]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260801.gf47d6c6f7</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260801.gf47d6c6f7</guid>
-            <pubDate>Sat, 01 Aug 2026 01:27:07 GMT</pubDate>
         </item>
     </channel>
 </rss>

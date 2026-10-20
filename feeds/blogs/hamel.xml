@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Hamel Husain's Blog]]></description>
         <link>https://hamel.dev</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Oct 2026 19:35:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Oct 2026 09:02:35 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/hamel.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 30 Sep 2026 07:00:00 GMT</pubDate>
+        <pubDate>Tue, 20 Oct 2026 07:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[How To Use Decision Models for Evals]]></title>
+            <link>https://hamel.dev/blog/posts/decision-model-evals/index.html</link>
+            <guid isPermaLink="false">https://hamel.dev/blog/posts/decision-model-evals/index.html</guid>
+            <pubDate>Tue, 20 Oct 2026 07:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude’s new auto eval tool]]></title>
             <link>https://hamel.dev/blog/posts/claude-auto-evals/index.html</link>
