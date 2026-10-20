@@ -4,297 +4,11 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Oct 2026 09:04:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Oct 2026 18:15:45 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 17 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Sun, 27 Dec 2020 10:45:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
-        <item>
-            <title><![CDATA[Investing in the public benefit]]></title>
-            <link>https://www.anthropic.com/news/public-benefit-fund</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/public-benefit-fund</guid>
-            <pubDate>Sat, 17 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Designing more efficient quantum circuits with Claude]]></title>
-            <link>https://www.anthropic.com/research/designing-efficient-quantum-circuits</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/designing-efficient-quantum-circuits</guid>
-            <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude reveals ECDSA curve origins]]></title>
-            <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/ecdsa-curve-origins</guid>
-            <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The AI expectations gap]]></title>
-            <link>https://www.anthropic.com/research/ai-expectations-gap</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/ai-expectations-gap</guid>
-            <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How employment is changing at Anthropic]]></title>
-            <link>https://www.anthropic.com/research/employment-at-anthropic</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/employment-at-anthropic</guid>
-            <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Working at the frontier shapes expectations for the future]]></title>
-            <link>https://www.anthropic.com/research/expectations-for-the-future</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/expectations-for-the-future</guid>
-            <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[An update on independent evaluators]]></title>
-            <link>https://www.anthropic.com/news/an-update-on-independent-evaluators</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
-            <pubDate>Wed, 14 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Preparing for the 2026 US midterms]]></title>
-            <link>https://www.anthropic.com/news/2026-us-midterms</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/2026-us-midterms</guid>
-            <pubDate>Tue, 13 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic opens Singapore office and signs MOU with the Government of Singapore]]></title>
-            <link>https://www.anthropic.com/news/singapore-office-opening</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/singapore-office-opening</guid>
-            <pubDate>Tue, 13 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AI models may be capable of self-replicating without access to a datacenter]]></title>
-            <link>https://www.anthropic.com/research/self-replicating-ai</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/self-replicating-ai</guid>
-            <pubDate>Sun, 11 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Strengthening our defenses against distillation attacks]]></title>
-            <link>https://www.anthropic.com/research/distillation-defenses</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/distillation-defenses</guid>
-            <pubDate>Sun, 11 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Investigating unintended model actions in our evaluations and internal use]]></title>
-            <link>https://www.anthropic.com/research/investigating-unintended-model-actions</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/investigating-unintended-model-actions</guid>
-            <pubDate>Thu, 08 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2026 Usage Policy update]]></title>
-            <link>https://www.anthropic.com/news/2026-usage-policy-update</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/2026-usage-policy-update</guid>
-            <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building on our commitment to American scientific discovery]]></title>
-            <link>https://www.anthropic.com/news/genesis-mission-commitment</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/genesis-mission-commitment</guid>
-            <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing the Anthropic Cyber Mission]]></title>
-            <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-cyber-mission</guid>
-            <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The missing map of the sky]]></title>
-            <description><![CDATA[Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.]]></description>
-            <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
-            <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Launching an opt-in vulnerability-finding service for open-source software]]></title>
-            <link>https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</guid>
-            <pubDate>Wed, 07 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Expanding the Cyber Verification Program]]></title>
-            <description><![CDATA[We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.]]></description>
-            <link>https://www.anthropic.com/news/cyber-verification-program</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/cyber-verification-program</guid>
-            <pubDate>Mon, 05 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap]]></title>
-            <link>https://www.anthropic.com/news/claude-frontier-academy</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/claude-frontier-academy</guid>
-            <pubDate>Thu, 01 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Barclays scales Claude to upgrade operations and improve client experience]]></title>
-            <link>https://www.anthropic.com/news/barclays-scales-claude</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/barclays-scales-claude</guid>
-            <pubDate>Wed, 30 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[What do you want from AI?]]></title>
-            <description><![CDATA[We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI.]]></description>
-            <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
-            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Project Swap: What happens when agents trade for us?]]></title>
-            <description><![CDATA[To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.]]></description>
-            <link>https://www.anthropic.com/research/project-swap</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
-            <pubDate>Wed, 23 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How we contain Claude across products]]></title>
-            <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
-            <pubDate>Sun, 24 May 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[An update on recent Claude Code quality reports]]></title>
-            <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/april-23-postmortem</guid>
-            <pubDate>Wed, 22 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Scaling Managed Agents: Decoupling the brain from the hands]]></title>
-            <link>https://www.anthropic.com/engineering/managed-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
-            <pubDate>Tue, 07 Apr 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How we built Claude Code auto mode: a safer way to skip permissions]]></title>
-            <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-auto-mode</guid>
-            <pubDate>Tue, 24 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Harness design for long-running application development]]></title>
-            <link>https://www.anthropic.com/engineering/harness-design-long-running-apps</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/harness-design-long-running-apps</guid>
-            <pubDate>Mon, 23 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Eval awareness in Claude Opus 4.6’s BrowseComp performance]]></title>
-            <link>https://www.anthropic.com/engineering/eval-awareness-browsecomp</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/eval-awareness-browsecomp</guid>
-            <pubDate>Thu, 05 Mar 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Quantifying infrastructure noise in agentic coding evals]]></title>
-            <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
-            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building a C compiler with a team of parallel Claudes]]></title>
-            <link>https://www.anthropic.com/engineering/building-c-compiler</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/building-c-compiler</guid>
-            <pubDate>Wed, 04 Feb 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Designing AI-resistant technical evaluations]]></title>
-            <link>https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</guid>
-            <pubDate>Tue, 20 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Demystifying evals for AI agents]]></title>
-            <link>https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</guid>
-            <pubDate>Thu, 08 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Effective harnesses for long-running agents]]></title>
-            <link>https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</guid>
-            <pubDate>Tue, 25 Nov 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing advanced tool use on the Claude Developer Platform]]></title>
-            <link>https://www.anthropic.com/engineering/advanced-tool-use</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/advanced-tool-use</guid>
-            <pubDate>Sun, 23 Nov 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Code execution with MCP: Building more efficient agents]]></title>
-            <link>https://www.anthropic.com/engineering/code-execution-with-mcp</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/code-execution-with-mcp</guid>
-            <pubDate>Mon, 03 Nov 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Beyond permission prompts: making Claude Code more secure and autonomous]]></title>
-            <link>https://www.anthropic.com/engineering/claude-code-sandboxing</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-sandboxing</guid>
-            <pubDate>Sun, 19 Oct 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Equipping agents for the real world with Agent Skills]]></title>
-            <link>https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills</guid>
-            <pubDate>Wed, 15 Oct 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Effective context engineering for AI agents]]></title>
-            <link>https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</guid>
-            <pubDate>Sun, 28 Sep 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A postmortem of three recent issues]]></title>
-            <link>https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues</guid>
-            <pubDate>Tue, 16 Sep 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Writing effective tools for agents — with agents]]></title>
-            <link>https://www.anthropic.com/engineering/writing-tools-for-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/writing-tools-for-agents</guid>
-            <pubDate>Wed, 10 Sep 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Desktop Extensions: One-click MCP server installation for Claude Desktop]]></title>
-            <link>https://www.anthropic.com/engineering/desktop-extensions</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/desktop-extensions</guid>
-            <pubDate>Wed, 25 Jun 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How we built our multi-agent research system]]></title>
-            <link>https://www.anthropic.com/engineering/multi-agent-research-system</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/multi-agent-research-system</guid>
-            <pubDate>Thu, 12 Jun 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Code: Best practices for agentic coding]]></title>
-            <link>https://www.anthropic.com/engineering/claude-code-best-practices</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-best-practices</guid>
-            <pubDate>Thu, 17 Apr 2025 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The "think" tool: Enabling Claude to stop and think in complex tool use situations]]></title>
-            <link>https://www.anthropic.com/engineering/claude-think-tool</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-think-tool</guid>
-            <pubDate>Wed, 19 Mar 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet]]></title>
-            <link>https://www.anthropic.com/engineering/swe-bench-sonnet</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/swe-bench-sonnet</guid>
-            <pubDate>Sun, 05 Jan 2025 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building effective agents]]></title>
-            <link>https://www.anthropic.com/engineering/building-effective-agents</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/building-effective-agents</guid>
-            <pubDate>Wed, 18 Dec 2024 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Introducing Contextual Retrieval]]></title>
-            <link>https://www.anthropic.com/engineering/contextual-retrieval</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/contextual-retrieval</guid>
-            <pubDate>Wed, 18 Sep 2024 22:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[Redesigning source control at Anthropic]]></title>
             <description><![CDATA[Showing 11 of 286 resources]]></description>
@@ -315,6 +29,34 @@
             <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
             <guid isPermaLink="false">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
             <pubDate>Tue, 17 Mar 2020 03:15:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer]]></title>
+            <description><![CDATA[Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.]]></description>
+            <link>https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</guid>
+            <pubDate>Sat, 24 Oct 2020 22:13:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Integrating TorchTPU into TorchTitan and Optimizing Models for TPU]]></title>
+            <description><![CDATA[TorchTPU integrates a native torch.device("tpu") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this with production-grade scaling primitives like SimpleFSDP, Graph Trainer, and custom Pallas kernels that achieve high Model Flops Utilization (MFU) across dense and MoE architectures. Developers can leverage these battle-tested optimization playbooks, recipes, and the Hugging Face modeling backend to efficiently scale their own workloads on TPU infrastructure.]]></description>
+            <link>https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</guid>
+            <pubDate>Wed, 10 Jun 2020 12:38:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Announcing New vLLM and SGLang Inference Engines on TPU]]></title>
+            <description><![CDATA[This post announces native PyTorch backends for vLLM and SGLang powered by TorchTPU, enabling developers to run and optimize serving workloads using familiar PyTorch tools. Built in collaboration with open-source project maintainers, these engines include optimized TPU kernel implementations, production-ready features like KV cache management with TPU Sync, and disaggregated serving. Public benchmarks demonstrate state-of-the-art performance and industry-leading cost efficiency on Ironwood TPU across long-context and agentic workloads.]]></description>
+            <link>https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</guid>
+            <pubDate>Tue, 21 Apr 2020 17:56:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon]]></title>
+            <description><![CDATA[Google Research has completed the 32-bit open-source Coral NPU RISC-V architecture with the introduction of its Matrix Execution Unit, which delivers up to 1 TOPS while targeting 10 mW average power for edge inference. Alongside this architecture, the release of the v1.0 open-source IREE/MLIR compiler allows developers to take models from JAX, PyTorch, and TensorFlow straight to Coral NPU hardware without writing custom assembly. Developers can now prototype and deploy these multimodal edge applications using new hardware options like the Synaptics Astra SR200 MCU series and globally available Coralboard devkits.12]]></description>
+            <link>https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/</guid>
+            <pubDate>Sat, 05 Sep 2020 22:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Native Model Authoring for Edge with LiteRT Tensor API]]></title>
@@ -359,45 +101,305 @@
             <pubDate>Sun, 21 Jun 2020 03:22:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Gemini 4 Argon for Robotics]]></title>
-            <description><![CDATA[Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API, and Google Antigravity—to build and test sophisticated robotic applications. By leveraging simulation tools like MuJoCo and code-as-policies, engineers can seamlessly transition from real-world data or sketches to physically verified robot control and self-improvement workflows.]]></description>
-            <link>https://developers.googleblog.com/gemini-4-argon-for-robotics/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/gemini-4-argon-for-robotics/</guid>
-            <pubDate>Thu, 18 Jun 2020 11:42:00 GMT</pubDate>
+            <title><![CDATA[Announcements]]></title>
+            <link>https://www.anthropic.com/news/announcements</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/announcements</guid>
+            <pubDate>Tue, 15 Sep 2020 02:34:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon]]></title>
-            <description><![CDATA[How our engineering team ran Gemini 4 Argon unattended overnight with .agents/skills and /goal mode to cut in-memory session prep overhead by 40% in long sessions and speed up cold imports by 21% in Google's open-source Python Agent Development Kit (ADK).]]></description>
-            <link>https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/</guid>
-            <pubDate>Sat, 05 Dec 2020 14:01:00 GMT</pubDate>
+            <title><![CDATA[Expanding the Cyber Verification Program]]></title>
+            <description><![CDATA[We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.]]></description>
+            <link>https://www.anthropic.com/news/cyber-verification-program</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/cyber-verification-program</guid>
+            <pubDate>Sat, 25 Apr 2020 07:16:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ML Drift: Next-Gen GPU AI/ML Inference at the Edge]]></title>
-            <description><![CDATA[Google AI Edge has introduced ML Drift, a high-performance, universal GPU compute framework designed to accelerate on-device AI and machine learning inference. By abstracting the complexities of hardware and low-level APIs—including OpenGL ES, OpenCL, Metal, and WebGPU—ML Drift enables developers to build real-time, interactive ML experiences, from sophisticated video effects to generative AI, across mobile and desktop platforms.]]></description>
-            <link>https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</guid>
-            <pubDate>Wed, 08 Jul 2020 03:49:00 GMT</pubDate>
+            <title><![CDATA[Partnerships]]></title>
+            <link>https://www.anthropic.com/news/partnerships</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/partnerships</guid>
+            <pubDate>Sun, 30 Aug 2020 04:27:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent]]></title>
-            <description><![CDATA[How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference implementation that runs beside your production agent in Google Cloud, sweeps and verifies failure clusters against conversation transcripts, and diagnoses root causes anchored to the exact deployed source snapshot.]]></description>
-            <link>https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/</guid>
-            <pubDate>Tue, 15 Dec 2020 08:54:00 GMT</pubDate>
+            <title><![CDATA[Product]]></title>
+            <link>https://www.anthropic.com/news/product</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/product</guid>
+            <pubDate>Tue, 08 Dec 2020 10:17:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Responsible Scaling Policy]]></title>
-            <link>https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</guid>
-            <pubDate>Fri, 01 May 2020 09:39:00 GMT</pubDate>
+            <title><![CDATA[Investing in the public benefit]]></title>
+            <link>https://www.anthropic.com/news/public-benefit-fund</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/public-benefit-fund</guid>
+            <pubDate>Mon, 31 Aug 2020 01:11:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An update on independent evaluators]]></title>
+            <link>https://www.anthropic.com/news/an-update-on-independent-evaluators</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
+            <pubDate>Mon, 06 Jan 2020 20:11:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Policy]]></title>
+            <link>https://www.anthropic.com/news/policy</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/policy</guid>
+            <pubDate>Fri, 14 Aug 2020 03:20:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Preparing for the 2026 US midterms]]></title>
+            <link>https://www.anthropic.com/news/2026-us-midterms</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/2026-us-midterms</guid>
+            <pubDate>Thu, 27 Feb 2020 02:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Safeguards]]></title>
+            <link>https://www.anthropic.com/news/safeguards</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/safeguards</guid>
+            <pubDate>Fri, 03 Apr 2020 22:57:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic opens Singapore office and signs MOU with the Government of Singapore]]></title>
+            <link>https://www.anthropic.com/news/singapore-office-opening</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/singapore-office-opening</guid>
+            <pubDate>Sun, 27 Sep 2020 04:06:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Strengthening our defenses against distillation attacks]]></title>
+            <link>https://www.anthropic.com/news/distillation-defenses</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/distillation-defenses</guid>
+            <pubDate>Sun, 29 Mar 2020 03:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing the Anthropic Cyber Mission]]></title>
+            <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/anthropic-cyber-mission</guid>
+            <pubDate>Wed, 04 Nov 2020 02:55:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Security]]></title>
+            <link>https://www.anthropic.com/news/security</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/security</guid>
+            <pubDate>Tue, 24 Nov 2020 10:46:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2026 Usage Policy update]]></title>
+            <link>https://www.anthropic.com/news/2026-usage-policy-update</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/2026-usage-policy-update</guid>
+            <pubDate>Sun, 19 Jan 2020 03:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building on our commitment to American scientific discovery]]></title>
+            <link>https://www.anthropic.com/news/genesis-mission-commitment</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/genesis-mission-commitment</guid>
+            <pubDate>Tue, 07 Jan 2020 12:47:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap]]></title>
+            <link>https://www.anthropic.com/news/claude-frontier-academy</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-frontier-academy</guid>
+            <pubDate>Thu, 18 Jun 2020 07:07:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Barclays scales Claude to upgrade operations and improve client experience]]></title>
+            <link>https://www.anthropic.com/news/barclays-scales-claude</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/barclays-scales-claude</guid>
+            <pubDate>Fri, 03 Apr 2020 02:46:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Partnering with Accenture on embedded evaluation]]></title>
+            <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
+            <pubDate>Fri, 25 Sep 2020 10:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing the Life Sciences Verification Program]]></title>
+            <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/life-sciences-verification-program</guid>
+            <pubDate>Fri, 10 Jul 2020 18:13:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Developing Enterprise Frontier Safeguards with our customers]]></title>
+            <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
+            <pubDate>Sat, 05 Dec 2020 00:43:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Improving our alignment and security efforts]]></title>
+            <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
+            <pubDate>Thu, 24 Sep 2020 17:02:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Previewing the Model Hardware Standard]]></title>
+            <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
+            <pubDate>Sat, 29 Aug 2020 10:51:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Expanding our support for scientists]]></title>
+            <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
+            <pubDate>Thu, 03 Sep 2020 21:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Funding better evaluations of AI’s impact on wellbeing]]></title>
+            <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/wellbeing-research-grants</guid>
+            <pubDate>Sun, 01 Mar 2020 00:07:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Claude’s text watermark works]]></title>
+            <link>https://www.anthropic.com/news/claude-text-watermark</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/claude-text-watermark</guid>
+            <pubDate>Fri, 15 May 2020 18:21:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Natural Language Autoencoders: Turning Claude’s thoughts into text]]></title>
+            <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
+            <pubDate>Sat, 31 Oct 2020 03:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Emotion concepts and their function in a large language model]]></title>
+            <link>https://www.anthropic.com/research/emotion-concepts-function</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/emotion-concepts-function</guid>
+            <pubDate>Sun, 08 Nov 2020 02:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Project Vend: Phase two]]></title>
+            <link>https://www.anthropic.com/research/project-vend-2</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
+            <pubDate>Wed, 09 Sep 2020 02:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Claude designed protein binders against scorpion neurotoxins]]></title>
+            <link>https://www.anthropic.com/research/claude-scorpion-toxin-binder-design</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/claude-scorpion-toxin-binder-design</guid>
+            <pubDate>Sun, 27 Dec 2020 10:45:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Working at the frontier shapes expectations for the future]]></title>
+            <link>https://www.anthropic.com/research/expectations-for-the-future</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/expectations-for-the-future</guid>
+            <pubDate>Mon, 10 Feb 2020 13:57:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude reveals ECDSA curve origins]]></title>
+            <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/ecdsa-curve-origins</guid>
+            <pubDate>Sat, 27 Jun 2020 07:20:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How employment is changing at Anthropic]]></title>
+            <link>https://www.anthropic.com/research/employment-at-anthropic</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/employment-at-anthropic</guid>
+            <pubDate>Wed, 29 Jul 2020 16:21:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The AI expectations gap]]></title>
+            <link>https://www.anthropic.com/research/ai-expectations-gap</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/ai-expectations-gap</guid>
+            <pubDate>Mon, 05 Oct 2020 03:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Designing more efficient quantum circuits with Claude]]></title>
+            <link>https://www.anthropic.com/research/designing-efficient-quantum-circuits</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/designing-efficient-quantum-circuits</guid>
+            <pubDate>Mon, 10 Aug 2020 21:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Redesigning source control at Anthropic]]></title>
-            <description><![CDATA[As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.]]></description>
-            <link>https://www.anthropic.com/engineering/redesigning-source-control</link>
-            <guid isPermaLink="false">https://www.anthropic.com/engineering/redesigning-source-control</guid>
-            <pubDate>Fri, 31 Jan 2020 14:49:00 GMT</pubDate>
+            <link>https://www.anthropic.com/research/redesigning-source-control</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/redesigning-source-control</guid>
+            <pubDate>Sun, 23 Feb 2020 20:53:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI models may be capable of self-replicating without access to a datacenter]]></title>
+            <link>https://www.anthropic.com/research/self-replicating-ai</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/self-replicating-ai</guid>
+            <pubDate>Sat, 15 Aug 2020 17:18:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Investigating unintended model actions in our evaluations and internal use]]></title>
+            <link>https://www.anthropic.com/research/investigating-unintended-model-actions</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/investigating-unintended-model-actions</guid>
+            <pubDate>Sun, 28 Jun 2020 19:11:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The missing map of the sky]]></title>
+            <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
+            <pubDate>Mon, 07 Dec 2020 03:13:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Launching an opt-in vulnerability-finding service for open-source software]]></title>
+            <link>https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</guid>
+            <pubDate>Fri, 25 Dec 2020 23:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude-shaped science]]></title>
+            <link>https://www.anthropic.com/research/claude-shaped-science</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/claude-shaped-science</guid>
+            <pubDate>Mon, 13 Jul 2020 04:37:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What work can robots do?]]></title>
+            <link>https://www.anthropic.com/research/what-work-can-robots-do</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/what-work-can-robots-do</guid>
+            <pubDate>Sat, 06 Jun 2020 17:03:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What do you want from AI?]]></title>
+            <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
+            <pubDate>Tue, 15 Sep 2020 11:43:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GLM-5.3 and the spread of advanced cyber capabilities]]></title>
+            <link>https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</guid>
+            <pubDate>Mon, 09 Mar 2020 21:06:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Yes, Claude can do Nine Loops]]></title>
+            <link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/yes-claude-can-do-nine-loops</guid>
+            <pubDate>Mon, 21 Dec 2020 06:06:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Project Swap: What happens when agents trade for us?]]></title>
+            <link>https://www.anthropic.com/research/project-swap</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
+            <pubDate>Mon, 27 Jan 2020 23:23:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude discovers a novel enzyme system with CRISPR-like repeats]]></title>
+            <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
+            <pubDate>Thu, 21 May 2020 16:55:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Claude is uplifting biomolecular modeling]]></title>
+            <link>https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</guid>
+            <pubDate>Thu, 25 Jun 2020 20:29:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Measuring tactical intelligence targeting and conventional weapons capabilities of AI models]]></title>
+            <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
+            <pubDate>Thu, 03 Sep 2020 17:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An alignment assessment of recent cybersecurity incidents]]></title>
+            <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
+            <pubDate>Sat, 11 Jan 2020 05:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Formalizing Fermat's Last Theorem]]></title>
+            <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
+            <pubDate>Tue, 07 Jul 2020 07:49:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
