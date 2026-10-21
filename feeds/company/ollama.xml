@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Oct 2026 09:04:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Oct 2026 18:21:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 18 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Wed, 21 Oct 2026 16:20:30 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.8]]></title>
+            <description><![CDATA[## Recursive Flint Flint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and tool interactions. Flint is an Apache 2.0-licensed, 40B-parameter mixture-of-experts model with approximately 2.5B parameters active per token. In its release evaluations, Recursive reports 54.9% on Terminal-Bench 2.1 and 74.2% on SWE-bench Verified. Note: rc0 supports Flint on MacOS. Other GPU support will be enabled in later RC builds. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.7...v0.40.8-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0</guid>
+            <pubDate>Wed, 21 Oct 2026 16:20:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Clef is available on Ollama's cloud]]></title>
             <description><![CDATA[Clef, a 27B multimodal decision model from Cloudflare, is now available on Ollama. Run it locally or on Ollama's cloud.]]></description>
@@ -855,13 +862,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.14.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.0</guid>
             <pubDate>Sat, 10 Jan 2026 08:33:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.13.5]]></title>
-            <description><![CDATA[## New Models * Google's FunctionGemma a specialized version of Google's Gemma 3 270M model fine-tuned explicitly for function calling. ## What's Changed * bert architecture models now run on Ollama's engine * Added built-in renderer & tool parsing capabilities for DeepSeek-V3.1 * Fixed issue where nested properties in tools may not have been rendered properly ## New Contributors * @familom made their first contribution in https://github.com/ollama/ollama/pull/13220 * @nathannewyen made their first contribution in https://github.com/ollama/ollama/pull/13469 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.13.4...v0.13.5]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.13.5</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.13.5</guid>
-            <pubDate>Thu, 18 Dec 2025 16:39:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI gpt-oss-safeguard]]></title>

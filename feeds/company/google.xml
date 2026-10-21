@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Oct 2026 09:04:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Oct 2026 18:21:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 21 Oct 2026 01:33:29 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,6 +710,13 @@
             <pubDate>Thu, 06 Aug 2026 01:21:50 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond]]></title>
+            <description><![CDATA[The Agents CLI Extension System enables developers to use frameworks like LangChain, LangGraph, or custom enterprise stacks while retaining a unified deployment and evaluation workflow. It details a first-party LangChain template that scaffolds, runs, and deploys agents without requiring the Agent Development Kit (ADK). Additionally, it demonstrates how platform teams can author custom extensions to enforce policies such as automated software bill of materials (SBOM) scans during deployment.]]></description>
+            <link>https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</guid>
+            <pubDate>Fri, 27 Mar 2020 13:07:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer]]></title>
             <description><![CDATA[Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.]]></description>
             <link>https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
@@ -771,13 +778,6 @@
             <link>https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
             <pubDate>Wed, 07 Oct 2020 09:22:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster]]></title>
-            <description><![CDATA[Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Developers can expose OpenAPI 3.0.x specifications as discoverable MCP tools, leverage existing security policies and API products, and trace end-to-end requests using W3C trace context headers.]]></description>
-            <link>https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/</guid>
-            <pubDate>Sun, 21 Jun 2020 03:22:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
