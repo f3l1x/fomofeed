@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenHands Releases]]></description>
         <link>https://github.com/All-Hands-AI/OpenHands/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Oct 2026 18:15:04 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Oct 2026 09:03:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/openhands-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 19 Oct 2026 17:09:42 GMT</pubDate>
+        <pubDate>Tue, 20 Oct 2026 22:22:52 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.29.0]]></title>
+            <description><![CDATA[## 1.29.0 (2026-10-20) ## What's Changed ### Features * feat(backends): show full organization names in the backend selector by @ak684 in https://github.com/OpenHands/OpenHands/pull/18667 * feat(launchers): read public skills from the bundled extensions package by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18683 * feat(agent-profiles): choose skills per profile from the server catalog by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18686 * feat(agent-profiles): edit condenser and verification per profile by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18679 * feat(agent-profiles): choose a Model Router per profile by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18685 * feat(home): dismiss recommended automations rail from Home and Application settings by @lx3133584 in https://github.com/OpenHands/OpenHands/pull/18538 * feat(agent-profiles): launch default by id; profiles own their settings by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18720 ### Bug Fixes * fix(conversations): save a connected repository on the cloud conversation by @henriquehirako in https://github.com/OpenHands/OpenHands/pull/18158 * fix(chat): show git chip icons in light themes by @enyst in https://github.com/OpenHands/OpenHands/pull/18660 * fix(chat): catch up with the model within a second instead of ten by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18651 * fix(onboarding): skip the first-run modal on a canvas locked to a Cloud host (OHE-3670) by @hieptl in https://github.com/OpenHands/OpenHands/pull/18724 * fix(onboarding): turn the setup guide off from its close button (OHE-3658) by @hieptl in https://github.com/OpenHands/OpenHands/pull/18703 * fix(settings): filter and sort the LLM provider picker (OHE-3653) by @hieptl in https://github.com/OpenHands/OpenHands/pull/18710 * fix(automations): stop offering an agent profile to prompt and plugin presets by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18708 * fix(conversation): keep the first Cloud message when the history page lags the runtime by @enyst in https://github.com/OpenHands/OpenHands/pull/18719 * fix(library): ship a scoped stylesheet with the npm library by @enyst in https://github.com/OpenHands/OpenHands/pull/18663 * fix(launcher): pin uvx to Python 3.12-3.14 until deps ship 3.15 wheels by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18731 ### Maintenance * ci(docker): verify agent server version in image by @Xalzeroph in https://github.com/OpenHands/OpenHands/pull/17544 * ci(desktop-macos): surface the unquarantine workaround on the release by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18723 * chore: bump @openhands/extensions to 0.32.0 by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18730 * refactor(markdown): give alerts readable theme roles by @enyst in https://github.com/OpenHands/OpenHands/pull/18696 * refactor(theme): use semantic colors for failed health dots by @enyst in https://github.com/OpenHands/OpenHands/pull/18694 * chore: remove merged PR artifacts by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/18709 * chore: remove merged PR artifacts by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/18736 ## New Contributors * @Xalzeroph made their first contribution in https://github.com/OpenHands/OpenHands/pull/17544 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.28.1...v1.29.0 --- This PR was generated with Release Please. See documentation. ### macOS install note The app isn't signed with an Apple Developer ID yet, so macOS may call a downloaded build *"damaged"* — it's Gatekeeper quarantine, not a bad file. After moving the app to Applications, clear the flag once, then open normally: Signing + notarization is tracked in OpenHands/OpenHands#16774.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.29.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.29.0</guid>
+            <pubDate>Tue, 20 Oct 2026 22:22:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.28.1]]></title>
             <description><![CDATA[## 1.28.1 (2026-10-19) ## What's Changed ### Maintenance * chore: bump agent-server to 1.56.0 by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/18670 * chore: remove merged PR artifacts by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/18570 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.28.0...v1.28.1 --- This PR was generated with Release Please. See documentation.]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.31.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.31.0</guid>
             <pubDate>Wed, 02 Apr 2025 19:30:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.30.1]]></title>
-            <description><![CDATA[## What's Changed ### Added * Support trajectory replay on web app, can be enabled by FEATURE_TRAJECTORY_REPLAY feature flag by @li-boxuan in https://github.com/All-Hands-AI/OpenHands/pull/6348 ### Changed * Track accumulated token usage instead of per-request token usage by @xingyaoww in https://github.com/All-Hands-AI/OpenHands/pull/7511 * Better startup experience for VSCode by @tofarr in https://github.com/All-Hands-AI/OpenHands/pull/7518 * Set max iterations to 250 by default by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/7535 ### Fixed * Fixed Github token failing to refresh on OpenHands Cloud by @malhotra5 in https://github.com/All-Hands-AI/OpenHands/pull/7532 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.30.0...0.30.1]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.30.1</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.30.1</guid>
-            <pubDate>Thu, 27 Mar 2025 17:26:33 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,7 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Oct 2026 18:15:45 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Oct 2026 09:04:03 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 18 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -18,9 +18,9 @@
         </item>
         <item>
             <title><![CDATA[v0.40.7]]></title>
-            <description><![CDATA[## What's Changed * openai: allow Responses effort on non-thinking models by @hoyyeva in https://github.com/ollama/ollama/pull/19010 * llama-server: let llama-server infer the draft speculative type by @dhiltgen in https://github.com/ollama/ollama/pull/19064 * mlx: add PPLX Decider v1.2 support by @dhiltgen in https://github.com/ollama/ollama/pull/19072 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.6...v0.40.7-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0</guid>
+            <description><![CDATA[## What's Changed * pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B * Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items * Fixed streaming Responses requests where client tool calls (e.g. Codex with web search) could emit before open reasoning items, producing misordered/duplicate tool call events * Requests routed to remote models are now cancelled on ollama.com when the client disconnects, instead of continuing to run * ollama show now reports which renderer and parser a model uses and where its chat template comes from; the API exposes the same values in new renderer, parser, and template_source fields * More draft models now work with speculative decoding: llama-server infers the draft type automatically instead of requiring Ollama to identify it * ollama launch claude now clamps CLAUDE_CODE_AUTO_COMPACT_WINDOW to Claude Code's supported range, avoiding a "window too large" warning * Updated llama.cpp and MLX **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.6...v0.40.7]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.7</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.7</guid>
             <pubDate>Sun, 18 Oct 2026 00:28:57 GMT</pubDate>
         </item>
         <item>
