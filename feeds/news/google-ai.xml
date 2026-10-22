@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 22 Oct 2026 09:04:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2026 18:13:36 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 08 Nov 2020 23:28:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Architecting Governed, Self-Evolving AI Agents on the Gemini platform]]></title>
+            <description><![CDATA[Learn how Project Chrysalis combines Google Cloud's Gemini Enterprise Agent Platform, Agent Development Kit (ADK), BigQuery, and a four-gate defense-in-depth security stack (Model Armor, Cloud KMS, Binary Authorization, and OPA) to build governed, self-evolving AI agents that remediate live production outages in 1.8 seconds.]]></description>
+            <link>https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</guid>
+            <pubDate>Thu, 05 Nov 2020 11:20:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond]]></title>
             <description><![CDATA[The Agents CLI Extension System enables developers to use frameworks like LangChain, LangGraph, or custom enterprise stacks while retaining a unified deployment and evaluation workflow. It details a first-party LangChain template that scaffolds, runs, and deploys agents without requiring the Agent Development Kit (ADK). Additionally, it demonstrates how platform teams can author custom extensions to enforce policies such as automated software bill of materials (SBOM) scans during deployment.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/</guid>
             <pubDate>Sun, 08 Nov 2020 23:28:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing DPoP Support for Google OAuth: Securing Refresh Tokens]]></title>
-            <description><![CDATA[Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.]]></description>
-            <link>https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
-            <pubDate>Wed, 07 Oct 2020 09:22:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
