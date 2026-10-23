@@ -4,11 +4,74 @@
         <description><![CDATA[Aggregated changelogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/changelogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Oct 2026 09:01:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 18:04:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Oct 2026 08:20:06 GMT</pubDate>
+        <pubDate>Fri, 23 Oct 2026 16:46:35 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[b11840]]></title>
+            <description><![CDATA[hexagon: add CEIL op (#31006) * hex-ceil: add CEIL(f32) op * hex-ceil: add f16 version * hex-ops: update supported ops * hex-ops: update docs with supported ops **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) - Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Android:** - Android arm64 (CPU) - Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows arm64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11840</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11840</guid>
+            <pubDate>Fri, 23 Oct 2026 16:46:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.56.0]]></title>
+            <description><![CDATA[## ✨ Features - Automatic thinking level operation for improved model reasoning #12237 - Resume failed or cancelled delegate subagents #13015 - Subagent session link in UI with view-only subagent sessions #12998 - Limit concurrent subagents with GOOSE_MAX_CONCURRENT_SUBAGENTS #12946 - Report session status via OSC 7501 in CLI #12928 - Windows NSIS installer for desktop #12869 - IO Intelligence provider #12795 - Provider-defined cache prices support #12944 - Dangerous include history option #13051 - Replace PCTX code mode with Boa JavaScript runtime #12952 ## 🐛 Bug Fixes - Windows build error #13081 - Omit stream_options for Databricks Gemini model services #12675 - Stale models issue #13054 - Show model changes when provider reports no resolved model #12914 - Show why an update install failed in desktop #12628 - Keep ! in npx arguments on Windows #12680 - Inherit active chat folder for New Chat #12941 - Bound long conversation rendering in desktop #12976 - Drop ActionRequired and ToolConfirmationRequest blocks for Bedrock instead of sending blank text #12843 - Missing GLM models in OpenCode Go and Zen #12057 - Load the live model catalog in goose-acp #12962 - Load recipe extensions for slash commands and delegation #12938 - Use the context length OpenRouter reports #12853 - Context freeze preserved message must stay user-visible during compaction #12692 - Do not present compaction countdowns to models #12902 - Keep the agent's model list order in ACP #12823 - Send session id as prompt_cache_key on OpenAI Responses requests #12420 - Map Moonshot provider name to moonshotai for canonical model lookup #12041 - Tolerate missing created_at on OpenAI Responses stream events #12241 ## 🔧 Improvements - MCP tools now have provider-safe public names #12875 - Use global turn limit as subagent turn limit fallback #12992 - Optimise list session database query #12940 - Skills discovery moved into GDK #12935 - Run foreground subagents in the GDK #12792 - Leave the login-shell PATH to whoever launches goose #12799 ## 📚 Documentation - Distinguish native Rust APIs from shared bindings in GDK docs #13026 - Correct toggle sidebar shortcut #12901]]></description>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.56.0</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.56.0</guid>
+            <pubDate>Fri, 23 Oct 2026 15:49:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.98.2]]></title>
+            <description><![CDATA[# Keanu, OAuth re-sign-in and a crash fix This patch was brought to you by our team and our favorite contributors! ## The Keanu Theme > [!CAUTION] > This **will** make you feel like a hacker A theme made by @andreynering 🎉 💻 ## Fixed! • Fixed a crash when parallel tool calls finish together, by @andreynering • Fixed OAuth sign-in and credential refresh, by @taciturnaxolotl • Ctrl+C now interrupts startup, and custom provider model discovery no longer stalls it, by @taciturnaxolotl • Fixed server prompts and permission requests being scoped to the wrong session, by @meowgorithm • Fixed the TUI status, spinner and tool-header display, by @taciturnaxolotl Good luck, Charm XX ## Changelog ### New! * cd5f15d366f516c992ec8331f0bc158708bb69ec: feat(openrouter): send app attribution headers and session_id for sticky routing (#4115) (@Lee-Si-Yoon) * a8a8ec8aaeef8464ede0461407621f1e081a29c1: feat: add a built-in keanu theme (#3955) (@andreynering) * 78b6edb353f3fb11178c7e38bbac762772dfb8b0: feat: publish optional signed Packslip release manifests (#4085) (@jdx) ### Fixed * 20e73b45baaff59bf192887e177a90e9927ba40c: fix(agent): ask every OAuth sign-in to sign in again on a 401 (@taciturnaxolotl) * 02336b1a678d2cece3a7b89cef2c5379ece63dd2: fix(agent): give sub-agents the renewed credential after a refresh (@taciturnaxolotl) * acbf1a717c16a47c86d2277bcf3ebff8b91edd85: fix(agent): prevent crash when parallel tool calls finish together (#4129) (@andreynering) * a299286afa22b81ae39f77a2d6bd532a2cd95bb2: fix(agent): publish run-complete when a run fails during setup (@taciturnaxolotl) * ddf6f26b461089a56825a34d5ee922f67425f80b: fix(auth): ask for a new sign-in whenever a provider rejects the credential (@taciturnaxolotl) * e660fd9eb967752391756b1a694c2a6b26c4701b: fix(auth): stop retrying a refresh token the provider already refused (@taciturnaxolotl) * 510f6ea386ad4d341410e47a3d5a07a69e96d2b2: fix(bash): stop finished jobs from using up the background job budget (#3869) (@taciturnaxolotl) * 8fa35a0f10e675aae222fe8626d2d13c2dcb49f5: fix(ci): remove duplicate permissions block that broke the release workflow (@taciturnaxolotl) * 94f9364511033ca0242aebd8d3f8d10242b83328: fix(ci): scope workflow token permissions to least privilege (@taciturnaxolotl) * 00560cea759813e2a8f2c782a3a9131cb9811b52: fix(lint): stop gofumpt versions fighting over the session pager return (#4088) (@taciturnaxolotl) * b0f7811828a6775d7fa77fdac3cde162dd45aa30: fix(login): open the browser as a command so tests never launch it (#4071) (@taciturnaxolotl) * 1dbd303a64811a6752d3b7083f87b88d40989ee4: fix(tools): create parent dirs only after write permission is granted (@taciturnaxolotl) * d65d6850ca4ed4971e4cb1a3bebd960a79cc167b: fix(tools): drop empty images instead of failing the whole request (#3891) (@taciturnaxolotl) * f530936498c3a80d6262f32afa00b79764b3edfb: fix(tools): let the agent recover from failed web requests (#4086) (@andreynering) * 6a12bc6160f2f2a4f682d597448af524dd2c78ba: fix(ui): bring back the chat scrollbar's auto-hide (#4084) (@andreynering) * 0b750897625b233a87f9556e142caf74e8ff13a5: fix(ui): end a turn when the agent says the run is over (@taciturnaxolotl) * 12f96b4acd8f36312befbbf6fe7459da9ca07a72: fix(ui): give every status message its own time on screen (#3896) (@taciturnaxolotl) * 6eb691007ce3a2084f8efc13490047bbf970e1a9: fix(ui): keep the background flag colored in the bash tool header (@taciturnaxolotl) * fdcc7a100eba60b471ff6920a5ca34a5b922d53f: fix(ui): keep the question gutter bar unbroken when a choice wraps (@taciturnaxolotl) * a48dabea1a3562b24c39cc7f0dec10e867f8499b: fix(ui): keep the terminal's done and error status from vanishing (#4046) (@taciturnaxolotl) * c89ef9d3d1a7a6ad16519be952dd2862a3376264: fix(ui): show grep search parameters in pending tool state (#2070) (@LarsArtmann) * ddf6ccc86f09337a3249a6465ca5609c4c167d7a: fix(ui): show the turn spinner from the moment a prompt is sent (@taciturnaxolotl) * c446d3f0ddf59089ff43a617dd4f3ee233f01892: fix: grype (#4062) (@andrinoff) * 17e428f625937bb803ddd95860b33620b35c7533: fix: let Ctrl+C interrupt Crush startup (@taciturnaxolotl) * 1f5d7f0b775f3b370be657c49bc4f9198b3ec861: fix: measure provider silence only (#4031) (@andrinoff) * 623ba438144410d6c6f594c262f6efee37e08ed9: fix: never leave a tool call waiting for an answer that cannot come (@taciturnaxolotl) * 17fccc0c6d4289f159384d3aaa7315ef1f71015b: fix: show which model answered Prism-routed session summaries (#4116) (@andreynering) ### Docs * 205e2fa88924a4b2a250172ffdbd5f5c2a972881: docs(install): note npm supports macOS, Linux, and Windows (#3195) (@truffle-dev) * 75727040f2bfc12d4836075a5cc3a9e014f5c5c8: docs: Updated hooks config from legacy crush.json syntax (#3956) (@KevinFumbles) * f5aa29304cbd68efdf6124f6404be404baeda54f: docs: add missing XAI_API_KEY to environment variables table (#3291) (@albatrossflyon-coder) * 646d2bc8333dbe2d1eaab735913b953860aff0d4: docs: fix capitalization in the beginning sentence and word abbreviation (@afsuyadi) * f68ddeb914de2e4f5a45de19d6013ae75a42aa91: docs: fix missing apostrophe (@afsuyadi) * 3e0b0bff4c79828020bfd0a4774b22a578013851: docs: fix mistyped word in comment line (@afsuyadi) * 2ecab34047c188c81edcdf0ccc0c180d9aa9fec3: docs: fix typos in README.md (#3816) (@cloudcodec) * b46cd7a3b4901f83197486dc7b7a9083beeb061f: docs: remove the free subscription (#4128) (@andrinoff) * dd3018e1b76274f1078287fe904465c29e754651: docs: replace gpt-4 in the Nix configuration example (@pcbeingused333) ### Other stuff * 37a60b5027a7563989c9f95b407549f02294e463: Fix typo in data retention description (#3560) (@cobein27) * 0c16d5f4b49ce81dfdf09f8233adab15d71f9b55: chore: auto-update files (@charmcli) * 7ba09f3fa40d6ce306ac567e7a626143c979da69: chore: auto-update files (@charmcli) * 699ceeb9c3e9b1af02c3ae3b974cc9278be2a556: chore: auto-update files (@charmcli) * c32b779e5a8f2577b867594d38de675456203399: chore: gofumpt (@andreynering) * 7dadde0bb47649882891ab7943d17176e9b1c9c8: perf: stop custom provider model discovery from stalling startup (@taciturnaxolotl) * 80374e797db01e65854643ef137302edcd49c306: server: broadcast prompt events that carry an empty session ID (@meowgorithm) * f1425bd3745fd1bcf9b34b5ca1a6af61f8c593ff: server: fail open prompts for clients that never report a session (@meowgorithm) * e890891518aae670bed3230a09eb02e993b4d220: server: memoize root session resolution per workspace (@meowgorithm) * 305e072bcf4eee562f5e09cdd736246693a35d8f: server: scope permission/question prompts to the current session (@meowgorithm) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
+            <link>https://github.com/charmbracelet/crush/releases/tag/v0.98.2</link>
+            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.98.2</guid>
+            <pubDate>Fri, 23 Oct 2026 15:23:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v0.40.10]]></title>
+            <description><![CDATA[## NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.9...v0.40.10]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.10</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.10</guid>
+            <pubDate>Fri, 23 Oct 2026 15:03:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[0.165.0-alpha.1]]></title>
+            <description><![CDATA[Release 0.165.0-alpha.1]]></description>
+            <link>https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1</link>
+            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1</guid>
+            <pubDate>Fri, 23 Oct 2026 14:09:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.33.0]]></title>
+            <description><![CDATA[## 1.33.0 (2026-10-23) ## What's Changed ### Features * feat(verify-openhands): launch --mars-web and --lock-to-cloud by @enyst in https://github.com/OpenHands/OpenHands/pull/18848 * feat(digitalocean): keep the web build signed in across restarts by @enyst in https://github.com/OpenHands/OpenHands/pull/18705 ### Bug Fixes * fix(automations): render the shipped current_phase on live runs by @aartem1 in https://github.com/OpenHands/OpenHands/pull/17122 * fix(verify-openhands): bug run puts back the viewport a block changed by @enyst in https://github.com/OpenHands/OpenHands/pull/18850 * fix(digitalocean): default new agents to the smallest VM by @smolpaws in https://github.com/OpenHands/OpenHands/pull/18702 * fix: mask secret values in request and Settings forms by @neubig in https://github.com/OpenHands/OpenHands/pull/18870 ### Documentation * docs(verify-openhands): map maintenance 2026-10-22 by @enyst in https://github.com/OpenHands/OpenHands/pull/18811 * docs(verify-openhands): map maintenance 2026-10-23 by @enyst in https://github.com/OpenHands/OpenHands/pull/18865 * docs: remove beta badge from README by @jpshackelford in https://github.com/OpenHands/OpenHands/pull/18176 ### Maintenance * refactor(files): express tree indentation in CSS by @enyst in https://github.com/OpenHands/OpenHands/pull/18804 * refactor(sidebar): express mobile drawer duration in CSS by @enyst in https://github.com/OpenHands/OpenHands/pull/18805 * style(automations): restyle template filter chips as a draggable scroll rail by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/18832 * style(automations): tab the setup choice modal between native and MCP server by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/18833 * chore(verify-openhands): time network responses and order them by completion by @enyst in https://github.com/OpenHands/OpenHands/pull/18849 * chore: remove merged PR artifacts by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/18853 **Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.32.0...v1.33.0 --- This PR was generated with Release Please. See documentation. ### macOS install note The app isn't signed with an Apple Developer ID yet, so macOS may call a downloaded build *"damaged"* — it's Gatekeeper quarantine, not a bad file. After moving the app to Applications, clear the flag once, then open normally: Signing + notarization is tracked in OpenHands/OpenHands#16774.]]></description>
+            <link>https://github.com/OpenHands/OpenHands/releases/tag/v1.33.0</link>
+            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/v1.33.0</guid>
+            <pubDate>Fri, 23 Oct 2026 13:46:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.25.3]]></title>
+            <description><![CDATA[- Updated dependencies to address recent software ecosystem vulnerabilities. (#66023, #65963)]]></description>
+            <link>https://github.com/zed-industries/zed/releases/tag/v1.25.3</link>
+            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.25.3</guid>
+            <pubDate>Fri, 23 Oct 2026 13:45:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[v1.26.2-pre]]></title>
+            <description><![CDATA[- Updated dependencies to address recent software ecosystem vulnerabilities. (#66022, #65962)]]></description>
+            <link>https://github.com/zed-industries/zed/releases/tag/v1.26.2-pre</link>
+            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.26.2-pre</guid>
+            <pubDate>Fri, 23 Oct 2026 13:38:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[b11838]]></title>
+            <description><![CDATA[ggml : fix time overflow in ggml_time_us (#30969) * fix time overflow * use double **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) - Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Android:** - Android arm64 (CPU) - Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows arm64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
+            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11838</link>
+            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11838</guid>
+            <pubDate>Fri, 23 Oct 2026 13:37:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[b11836]]></title>
             <description><![CDATA[CANN: missing const qualifiers added for consistency (#30933) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) - Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Android:** - Android arm64 (CPU) - Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows arm64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
@@ -1158,13 +1221,6 @@
             <pubDate>Sat, 17 Oct 2026 00:21:45 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[b11701]]></title>
-            <description><![CDATA[model: add Beam (Reflection) (#30670) **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) - Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Android:** - Android arm64 (CPU) - Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows arm64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11701</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11701</guid>
-            <pubDate>Fri, 16 Oct 2026 23:20:45 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.40.6]]></title>
             <description><![CDATA[## What's Changed * win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500 * gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967 * Launch clef in Ollama's cloud by @jberg5 in https://github.com/ollama/ollama/pull/19036 * use identifiers for --ask mode question keys by @jberg5 in https://github.com/ollama/ollama/pull/19041 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.40.6</link>
@@ -1177,13 +1233,6 @@
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.302</link>
             <guid isPermaLink="false">https://github.com/anthropics/claude-code/releases/tag/v2.1.302</guid>
             <pubDate>Fri, 16 Oct 2026 20:53:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[b11700]]></title>
-            <description><![CDATA[model : Granite Switch Decision (#30676) * feat(convert): Add decision.chat to support decision models that can also chat Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart * feat(convert): Add conversion for Granite Switch as decision model The template follows from the usage sample: https://huggingface.co/ibm-granite/granite-switch-4.1-8b#guardian-and-decision-side-by-side Branch: GraniteSwitchDecision AI-usage: draft (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart * feat(common): Add support for chat+decision models in common Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart * feat(common): Add granite switch decision model enum Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart * feat(server): Plumb through decision_chat bool to support decision+chat models Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart * feat(server): Add Granite Switch decision support Branch: GraniteSwitchDecision AI-usage: draft (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart * docs: Update server README for granite switch decisions / chat+decisions Branch: GraniteSwitchDecision AI-usage: draft (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart * Revert "feat(convert): Add decision.chat to support decision models that can also chat" This reverts commit 952ef567647e53ac9beda7a1f79d6927240d068d. * Revert "feat(common): Add support for chat+decision models in common" This reverts commit 93ed782e3a8b2fd5968732c6525c7ad29ad4bea2. * Revert "feat(server): Plumb through decision_chat bool to support decision+chat models" This reverts commit 97e9af60ddaccbd82f1eb0a488adff43b16ee095. * fix: If Granite Switch supports decisions, it always supports text too Branch: GraniteSwitchDecision AI-usage: none Signed-off-by: Gabe Goodhart * docs: Remove reference to decision.chat in server README Branch: GraniteSwitchDecision AI-usage: none Signed-off-by: Gabe Goodhart **Website:** - **Attestations:** - **macOS/iOS:** - macOS Apple Silicon (arm64) - macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED - macOS Intel (x64) - iOS XCFramework **Linux:** - Ubuntu x64 (CPU) - Ubuntu arm64 (CPU) - Ubuntu s390x (CPU) - Ubuntu x64 (Vulkan) - Ubuntu arm64 (Vulkan) - Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries - Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries - Ubuntu x64 (ROCm 10.0) - Ubuntu x64 (OpenVINO) - Ubuntu x64 (SYCL FP32) - Ubuntu x64 (SYCL FP16) - Linux arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Android:** - Android arm64 (CPU) - Android arm64 (Snapdragon: CPU, Adreno GPU, Hexagon NPU) - setup guide **Windows:** - Windows x64 (CPU) - Windows arm64 (CPU) - Windows arm64 (OpenCL Adreno) - Windows x64 (CUDA 12) - CUDA 12.4 DLLs - Windows x64 (CUDA 13) - CUDA 13.4 DLLs - Windows arm64 (CUDA 13) - CUDA 13.4 DLLs - Windows x64 (Vulkan) - Windows arm64 (Vulkan) - Windows x64 (OpenVINO) - Windows x64 (SYCL) - Windows x64 (ROCm 10.0) **openEuler:** - DISABLED - openEuler x86 (310p) - openEuler x86 (910b, ACL Graph) - openEuler aarch64 (310p) - openEuler aarch64 (910b, ACL Graph) **UI:** - UI]]></description>
-            <link>https://github.com/ggml-org/llama.cpp/releases/tag/b11700</link>
-            <guid isPermaLink="false">https://github.com/ggml-org/llama.cpp/releases/tag/b11700</guid>
-            <pubDate>Fri, 16 Oct 2026 18:33:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[0.164.0-alpha.2]]></title>
@@ -2864,13 +2913,6 @@
             <link>https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.1</link>
             <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.1</guid>
             <pubDate>Fri, 25 Sep 2026 18:48:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.158.0-alpha.15]]></title>
-            <description><![CDATA[Release 0.158.0-alpha.15]]></description>
-            <link>https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15</link>
-            <guid isPermaLink="false">https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15</guid>
-            <pubDate>Fri, 25 Sep 2026 17:33:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.24.0]]></title>
@@ -7456,13 +7498,6 @@
             <pubDate>Wed, 13 May 2026 14:32:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.1.8]]></title>
-            <description><![CDATA[- Fixed some issues where the activity indicator would show the wrong icon and not be clickable on errors present. (#56471) - Fixed a memory leak with diffing non-existing files with Zed cli (#56445) - Fixed edit prediction provider menu checkmarks for active non-Zed providers. (#56292) - Fixed an issue where project files would take a long time to appear when opening Zed on a file system that requires polling (#56207)]]></description>
-            <link>https://github.com/zed-industries/zed/releases/tag/v1.1.8</link>
-            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.1.8</guid>
-            <pubDate>Tue, 12 May 2026 18:17:56 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v1.2.3-pre]]></title>
             <description><![CDATA[- Fixed some issues where the activity indicator would show the wrong icon and not be clickable on errors present. (#56470) - Fixed a memory leak with diffing non-existing files with Zed cli (#56444) - Fixed edit prediction provider menu checkmarks for active non-Zed providers. (#56291) - Fixed an issue where project files would take a long time to appear when opening Zed on a file system that requires polling (#56207)]]></description>
             <link>https://github.com/zed-industries/zed/releases/tag/v1.2.3-pre</link>
@@ -7587,13 +7622,6 @@
             <link>https://github.com/charmbracelet/crush/releases/tag/v0.66.1</link>
             <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.66.1</guid>
             <pubDate>Fri, 08 May 2026 21:13:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.2.2-pre]]></title>
-            <description><![CDATA[- bedrock: Always use 1M context windows for Anthropic models (#56201) - Fixed local zeta2 edit predictions using the wrong prompt format. (#56191) - Fixed an issue where broken symlinks, permission errors, or other fs errors in watched directories could cause excessive CPU usage (#56174) - Fixed a crash on Windows that could occur when closing the settings window - Improved the overall performance of the settings window (#56093) - Fixed a crash on Windows when the GPU device is lost and recovered during use (typically driver crash, suspend/resume, or display reconfiguration, most commonly on Intel iGPUs) (#56035) - Fixed missing reload implementation for markdown preview. (#56026)]]></description>
-            <link>https://github.com/zed-industries/zed/releases/tag/v1.2.2-pre</link>
-            <guid isPermaLink="false">https://github.com/zed-industries/zed/releases/tag/v1.2.2-pre</guid>
-            <pubDate>Fri, 08 May 2026 19:55:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.17.0]]></title>
@@ -10292,13 +10320,6 @@
             <pubDate>Wed, 14 Jan 2026 19:34:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v0.14.1]]></title>
-            <description><![CDATA[## Image generation models (experimental) Experimental image generation models are available for **macOS** and **Linux (CUDA)** in Ollama: ### Available models - Z-Image-Turbo > **Note**: x is a username on ollama.com where experimental models are uploaded More models coming soon: 1. Qwen-Image-2512 2. Qwen-Image-Edit-2511 3. GLM-Image ## What's Changed * fix macOS auto-update signature verification failure ## New Contributors * @joshxfi made their first contribution in https://github.com/ollama/ollama/pull/13711 * @maternion made their first contribution in https://github.com/ollama/ollama/pull/13709 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.14.0...v0.14.1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.14.1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.1</guid>
-            <pubDate>Wed, 14 Jan 2026 19:02:29 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[CLI Beta Release v1.5.32-beta.20260114]]></title>
             <description><![CDATA[Daily beta release for testing. This version will be promoted to stable after 7 days if no critical issues are found.]]></description>
             <link>https://github.com/continuedev/continue/releases/tag/v1.5.32-beta.20260114</link>
@@ -10325,13 +10346,6 @@
             <link>https://github.com/RooCodeInc/Roo-Code/releases/tag/v3.40.0</link>
             <guid isPermaLink="false">https://github.com/RooCodeInc/Roo-Code/releases/tag/v3.40.0</guid>
             <pubDate>Tue, 13 Jan 2026 23:37:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.32.1]]></title>
-            <description><![CDATA[# For a Few Fixes More This is tiny patch release where we fix a panic that could occur in Gemini as well as another a race condition where session titles might be generated but not applied. We also increased security jobs, turned on the race detector, and improved builds overall in CI. Cheers! Charm 💘 ## Changelog ### Fixed * 87df08c4088afb265a3886380db96ca6387c518d: fix: race condition where title might not be generated (#1844) (@meowgorithm) * 9d9cfa1bf20db357350e4a053d8f554d158941b4: fix: update fantasy with panic fix for google gemini (#1840) (@andreynering) ### Other stuff * dd0d6cf73d20a378961482aae74bbfbfca8d0a95: chore: fix some typos (@jeis4wpi) * 3fd9d970149e706149c47e86f3d007512472ff12: ci(sec): add more security jobs, improve build, enable race detector (#1849) (@caarlos0) --- Verifying the artifacts First, download the checksums.txt file and the checksums.txt.sigstore.json file files, for example, with wget: Then, verify it using cosign: If the output is Verified OK, you can safely use it to verify the checksums of other artifacts you downloaded from the release using sha256sum: Done! You artifacts are now verified! Thoughts? Questions? We love hearing from you. Feel free to reach out on X, Discord, Slack, The Fediverse, Bluesky.]]></description>
-            <link>https://github.com/charmbracelet/crush/releases/tag/v0.32.1</link>
-            <guid isPermaLink="false">https://github.com/charmbracelet/crush/releases/tag/v0.32.1</guid>
-            <pubDate>Tue, 13 Jan 2026 21:04:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[CLI Stable Release v1.5.31]]></title>
@@ -11906,13 +11920,6 @@
             <pubDate>Mon, 14 Jul 2025 02:46:38 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[v1.1.0-alpha.2]]></title>
-            <description><![CDATA[This release is for testing the new Ui before merge]]></description>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha.2</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha.2</guid>
-            <pubDate>Sun, 13 Jul 2025 17:44:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[v0.30.1]]></title>
             <description><![CDATA[## ⚠️ Notice * This is a patch release, please also check the full release note for 0.30. ## 🧰 Fixed and Improvements * Downgrade CUDA base image to version 12.4.1 to enhance compatibility. #4314]]></description>
             <link>https://github.com/TabbyML/tabby/releases/tag/v0.30.1</link>
@@ -12307,13 +12314,6 @@
             <link>https://github.com/OpenHands/OpenHands/releases/tag/0.36.0</link>
             <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.36.0</guid>
             <pubDate>Thu, 01 May 2025 19:34:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[0.35.0 - 2025-04-29]]></title>
-            <description><![CDATA[## What's Changed ### Added * Introduced API keys management UI to the settings page on OpenHands Cloud by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/7710 * Added the ability to view and launch suggested tasks for GitLab from the homepage by @malhotra5 in https://github.com/All-Hands-AI/OpenHands/pull/8049 * Replaced the workspace tab with a VS Code tab by @rbren in https://github.com/All-Hands-AI/OpenHands/pull/8033 * Enabled support for /new, /status, and /settings in the CLI by @pandukamuditha in https://github.com/All-Hands-AI/OpenHands/pull/8017 ### Changed * Github repos in OpenHands Cloud are sorted by when the repo was last pushed to by @malhotra5 in https://github.com/All-Hands-AI/OpenHands/pull/8083 * Simplified the use of microagents: names in the frontmatter are no longer required, only triggers matter for dynamically loaded microagents by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/8114 ### Fixed * Fixed short tool descriptions for o4-mini - less than 1024 tokens by @enyst in https://github.com/All-Hands-AI/OpenHands/pull/8022 * Resolved an issue where comments did not start with the expected error message on the cloud resolver by @malhotra5 in https://github.com/All-Hands-AI/OpenHands/pull/8053 * PATs are retained when resetting settings to default values by @malhotra5 in https://github.com/All-Hands-AI/OpenHands/pull/8076 by @malhotra5 in https://github.com/All-Hands-AI/OpenHands/pull/8075 * Allow cmd execution after running a background command by @li-boxuan in https://github.com/All-Hands-AI/OpenHands/pull/8093 * Fixed a bug where long-running setup scripts failed to complete due to being interrupted by @neubig in https://github.com/All-Hands-AI/OpenHands/pull/8101 ## New Contributors * @cshimmin made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/8021 * @LENSHOOD made their first contribution in https://github.com/All-Hands-AI/OpenHands/pull/8058 **Full Changelog**: https://github.com/All-Hands-AI/OpenHands/compare/0.34.0...0.35.0]]></description>
-            <link>https://github.com/OpenHands/OpenHands/releases/tag/0.35.0</link>
-            <guid isPermaLink="false">https://github.com/OpenHands/OpenHands/releases/tag/0.35.0</guid>
-            <pubDate>Tue, 29 Apr 2025 21:45:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.8.5]]></title>

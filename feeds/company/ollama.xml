@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Oct 2026 09:01:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 18:04:48 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 22 Oct 2026 01:33:10 GMT</pubDate>
+        <pubDate>Fri, 23 Oct 2026 15:03:59 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.10]]></title>
+            <description><![CDATA[## NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.9...v0.40.10]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.10</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.10</guid>
+            <pubDate>Fri, 23 Oct 2026 15:03:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.9]]></title>
             <description><![CDATA[## Speech Ollama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ## d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes. ## Flint on Linux and Windows Flint now runs on Linux and Windows as well as macOS. ## Other improvements - Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output. - ollama launch now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings. - Anthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9]]></description>
@@ -855,13 +862,6 @@
             <link>https://ollama.com/blog/codex</link>
             <guid isPermaLink="false">https://ollama.com/blog/codex</guid>
             <pubDate>Wed, 14 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.14.1]]></title>
-            <description><![CDATA[## Image generation models (experimental) Experimental image generation models are available for **macOS** and **Linux (CUDA)** in Ollama: ### Available models - Z-Image-Turbo > **Note**: x is a username on ollama.com where experimental models are uploaded More models coming soon: 1. Qwen-Image-2512 2. Qwen-Image-Edit-2511 3. GLM-Image ## What's Changed * fix macOS auto-update signature verification failure ## New Contributors * @joshxfi made their first contribution in https://github.com/ollama/ollama/pull/13711 * @maternion made their first contribution in https://github.com/ollama/ollama/pull/13709 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.14.0...v0.14.1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.14.1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.1</guid>
-            <pubDate>Wed, 14 Jan 2026 19:02:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI gpt-oss-safeguard]]></title>
