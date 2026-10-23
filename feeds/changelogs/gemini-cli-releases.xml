@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 22 Oct 2026 18:15:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 09:00:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 22 Oct 2026 01:23:52 GMT</pubDate>
+        <pubDate>Fri, 23 Oct 2026 01:35:10 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.67.0-nightly.20261023.ga713410ab]]></title>
+            <description><![CDATA[## What's Changed * fix(a2a-server,core): preserve extended token usage metadata and align per-turn reporting by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29834 * fix(core): ensure all model turns with function calls receive thought signatures by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29828 * fix(cli): handle termination signals and prevent tool execution after cancellation in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29849 * fix(cli): preserve ${VAR} placeholders during deprecated settings migration by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29867 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261022.g09d81bf11...v0.67.0-nightly.20261023.ga713410ab]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261023.ga713410ab</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261023.ga713410ab</guid>
+            <pubDate>Fri, 23 Oct 2026 01:35:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.67.0-nightly.20261022.g09d81bf11]]></title>
             <description><![CDATA[## What's Changed * Changelog for v0.66.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29852 * feat(cli): bridge the IDE companion into container sandboxes over exec stdio by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29858 * fix(core): prevent duplicate agent loading when workspace is home directory (#27692) by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29847 * fix(ide): exclude IDE settings and GEMINI.md files from open file con text by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29848 * fix(core): scope untrusted flag checks to external output and remember approved flags by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29833 * fix(a2a-server): mount express.json() before A2A SDK route registration by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29850 * fix(core): adhere to RFC 9110 token rules when splitting custom headers by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29865 * fix(core): respect read-only files and hard links in atomic writeTextFile by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29749 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261021.gd00859d6b...v0.67.0-nightly.20261022.g09d81bf11]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260807.gd5c9a97dc</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260807.gd5c9a97dc</guid>
             <pubDate>Fri, 07 Aug 2026 02:13:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.55.0-preview.1]]></title>
-            <description><![CDATA[## What's Changed * chore(release): bump version to 0.55.0-nightly.20260728.gd29268d36 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28569 * Changelog for v0.54.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28567 * Changelog for v0.53.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28568 * chore/release: bump version to 0.55.0-nightly.20260729.g3499c84f7 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28573 * fix(core): classify capacity exhaustion as terminal to prevent retry hangs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28599 * fix(core,cli): propagate InvalidStreamError details to UI for specific empty response guidance by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28566 * fix(cli): fall back to embedded macOS seatbelt profiles if missing by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28551 * feat(pr-generator-core): add environment config parser, command executor, GitHub R… by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28435 * feat(pr-generator-orchestrator): implement iterative bug-fixing state machine and container worker entrypoint by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28433 * feat(pr-generator-infra): configure Cloud Run job, Workflows definition, and Dockerfile by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28431 * fix(release): handle npm dist-tag deletion failures on registries that forbid it by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28694 * fix(core): stop a new user message fusing into an unanswered tool response by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/28700 * fix(core,cli): repair /compress session reload and quota-fallback tool response loss by @adamfweidman in https://github.com/google-gemini/gemini-cli/pull/28672 * fix(core): preserve functionCall thoughtSignature when stripping thought parts by @sarbojitrana in https://github.com/google-gemini/gemini-cli/pull/28607 * fix(core): unwrap and parse nested gaxios streaming errors from cause message by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28689 ## New Contributors * @sarbojitrana made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28607 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-preview.1...v0.55.0-preview.1]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.1</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.1</guid>
-            <pubDate>Thu, 06 Aug 2026 01:26:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
