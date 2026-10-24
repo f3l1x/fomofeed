@@ -4,16 +4,16 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Oct 2026 17:10:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 20:04:51 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 24 Oct 2026 00:30:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.40.11]]></title>
-            <description><![CDATA[## What's Changed * qwen3coder: preserve literal function closing tags in parameters by @hoyyeva in https://github.com/ollama/ollama/pull/19228 * launch: use allocated context for OpenCode by @hoyyeva in https://github.com/ollama/ollama/pull/19193 * decision: allow empty state for vllm-d3 by @SynapShift in https://github.com/ollama/ollama/pull/19173 * llama.cpp: version bump b11845 by @dhiltgen in https://github.com/ollama/ollama/pull/19250 * mlxrunner: spell out symbols, numbers and links for Phonon by @jmorganca in https://github.com/ollama/ollama/pull/19234 * voice: add voice catalog for Phonon by @jmorganca in https://github.com/ollama/ollama/pull/19242 ## New Contributors * @SynapShift made their first contribution in https://github.com/ollama/ollama/pull/19173 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.10...v0.40.11-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</guid>
+            <description><![CDATA[## Speech Ollama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ## d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes. ## New Contributors * @SynapShift made their first contribution in https://github.com/ollama/ollama/pull/19173 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.10...v0.40.11-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.11</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.11</guid>
             <pubDate>Sat, 24 Oct 2026 00:30:13 GMT</pubDate>
         </item>
         <item>
@@ -25,7 +25,7 @@
         </item>
         <item>
             <title><![CDATA[v0.40.9]]></title>
-            <description><![CDATA[## Speech Ollama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ## d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes. ## Flint on Linux and Windows Flint now runs on Linux and Windows as well as macOS. ## Other improvements - Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output. - ollama launch now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings. - Anthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9]]></description>
+            <description><![CDATA[## Flint on Linux and Windows Flint now runs on Linux and Windows as well as macOS. ## Other improvements - Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output. - ollama launch now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings. - Anthropic-compatible web search now uses the model's supported thinking setting in follow-up requests, preventing avoidable failures. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9]]></description>
             <link>https://github.com/ollama/ollama/releases/tag/v0.40.9</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.9</guid>
             <pubDate>Thu, 22 Oct 2026 01:33:10 GMT</pubDate>
