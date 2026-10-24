@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Oct 2026 18:03:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 08:34:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Oct 2026 15:03:59 GMT</pubDate>
+        <pubDate>Sat, 24 Oct 2026 00:30:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.11]]></title>
+            <description><![CDATA[## What's Changed * qwen3coder: preserve literal function closing tags in parameters by @hoyyeva in https://github.com/ollama/ollama/pull/19228 * launch: use allocated context for OpenCode by @hoyyeva in https://github.com/ollama/ollama/pull/19193 * decision: allow empty state for vllm-d3 by @SynapShift in https://github.com/ollama/ollama/pull/19173 * llama.cpp: version bump b11845 by @dhiltgen in https://github.com/ollama/ollama/pull/19250 * mlxrunner: spell out symbols, numbers and links for Phonon by @jmorganca in https://github.com/ollama/ollama/pull/19234 * voice: add voice catalog for Phonon by @jmorganca in https://github.com/ollama/ollama/pull/19242 ## New Contributors * @SynapShift made their first contribution in https://github.com/ollama/ollama/pull/19173 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.10...v0.40.11-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0</guid>
+            <pubDate>Sat, 24 Oct 2026 00:30:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.10]]></title>
             <description><![CDATA[## NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.9...v0.40.10]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.14.3</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.3</guid>
             <pubDate>Fri, 16 Jan 2026 19:53:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.14.2]]></title>
-            <description><![CDATA[## New models - TranslateGemma: A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages. ## What's Changed * Shift + Enter (or Ctrl + j ) will now enter a newline in Ollama's CLI * Improve /v1/responses API to better confirm to OpenResponses specification ## New Contributors * @yuhongsun96 made their first contribution in https://github.com/ollama/ollama/pull/13135 * @koaning made their first contribution in https://github.com/ollama/ollama/pull/13326 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.14.1...v0.14.2]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.14.2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.2</guid>
-            <pubDate>Fri, 16 Jan 2026 00:50:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
