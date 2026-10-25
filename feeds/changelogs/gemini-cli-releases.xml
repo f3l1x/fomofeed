@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Oct 2026 20:04:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 08:53:09 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 24 Oct 2026 01:15:53 GMT</pubDate>
+        <pubDate>Sun, 25 Oct 2026 01:31:55 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.67.0-nightly.20261025.gcd1b45c2d]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261024.gcd1b45c2d...v0.67.0-nightly.20261025.gcd1b45c2d]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261025.gcd1b45c2d</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261025.gcd1b45c2d</guid>
+            <pubDate>Sun, 25 Oct 2026 01:31:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.67.0-nightly.20261024.gcd1b45c2d]]></title>
             <description><![CDATA[## What's Changed * fix(cli): stop continuation stream processing and auto-nudge after request cancellation by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29868 * fix(cli): correct Thai and Lao SARA AM display width by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29883 * fix(core): resolve relative file paths against active IDE workspace root by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29838 * feat(cli): add models command and --list-models flag for model discovery by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29880 * fix(cli): convert Claude hook timeout from seconds to milliseconds during migration by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29899 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261023.ga713410ab...v0.67.0-nightly.20261024.gcd1b45c2d]]></description>
@@ -694,13 +701,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260808.gcf22ac7e8</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260808.gcf22ac7e8</guid>
             <pubDate>Sat, 08 Aug 2026 01:11:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.55.0-preview.2]]></title>
-            <description><![CDATA[## What's Changed * fix(patch): cherry-pick 2139b12 to release/v0.55.0-preview.1-pr-28716 to patch version v0.55.0-preview.1 and create version 0.55.0-preview.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28719 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-preview.1...v0.55.0-preview.2]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.2</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-preview.2</guid>
-            <pubDate>Fri, 07 Aug 2026 02:50:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Release v0.56.0-nightly.20260807.gd5c9a97dc]]></title>

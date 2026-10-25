@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Blog]]></description>
         <link>https://ollama.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Oct 2026 20:02:49 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 08:51:52 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/ollama-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 18 Oct 2026 22:00:00 GMT</pubDate>
+        <pubDate>Fri, 23 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Speech models in Ollama]]></title>
+            <description><![CDATA[Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon.]]></description>
+            <link>https://ollama.com/blog/speech-models</link>
+            <guid isPermaLink="false">https://ollama.com/blog/speech-models</guid>
+            <pubDate>Fri, 23 Oct 2026 22:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Clef is available on Ollama's cloud]]></title>
             <description><![CDATA[Clef, a 27B multimodal decision model from Cloudflare, is now available on Ollama. Run it locally or on Ollama's cloud.]]></description>

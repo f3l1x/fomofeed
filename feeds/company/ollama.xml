@@ -4,7 +4,7 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Oct 2026 20:04:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 08:53:53 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sat, 24 Oct 2026 00:30:13 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,13 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.40.11</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.11</guid>
             <pubDate>Sat, 24 Oct 2026 00:30:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Speech models in Ollama]]></title>
+            <description><![CDATA[Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon.]]></description>
+            <link>https://ollama.com/blog/speech-models</link>
+            <guid isPermaLink="false">https://ollama.com/blog/speech-models</guid>
+            <pubDate>Fri, 23 Oct 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v0.40.10]]></title>

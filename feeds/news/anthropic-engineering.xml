@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Anthropic Engineering]]></description>
         <link>https://www.anthropic.com/engineering</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Oct 2026 20:03:55 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 08:52:57 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-engineering.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
