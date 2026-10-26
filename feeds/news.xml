@@ -4,18 +4,11 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Oct 2026 09:35:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 19:42:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 08 Dec 2020 10:17:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
-        <item>
-            <title><![CDATA[Claude Cowork and chat come together for Enterprise]]></title>
-            <description><![CDATA[Showing 11 of 293 resources]]></description>
-            <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
-            <guid isPermaLink="false">https://claude.dev/blog/solving-code-review-at-anthropic/</guid>
-            <pubDate>Thu, 29 Oct 2020 11:07:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[Architecting Governed, Self-Evolving AI Agents on Google Cloud]]></title>
             <description><![CDATA[Learn how Project Chrysalis combines Google Cloud's Gemini Enterprise Agent Platform, Agent Development Kit (ADK), BigQuery, and a four-gate defense-in-depth security stack (Model Armor, Cloud KMS, Binary Authorization, and OPA) to build governed, self-evolving AI agents that remediate live production outages in 1.8 seconds.]]></description>
@@ -104,6 +97,12 @@
             <link>https://www.anthropic.com/news/features</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/features</guid>
             <pubDate>Sat, 08 Feb 2020 14:59:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic files S-1 with the SEC for proposed initial public offering]]></title>
+            <link>https://www.anthropic.com/news/s1-sec</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/s1-sec</guid>
+            <pubDate>Sun, 13 Sep 2020 10:32:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Donating Agent Skills to the Agentic AI Foundation]]></title>
@@ -230,12 +229,6 @@
             <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
             <pubDate>Thu, 24 Sep 2020 17:02:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Previewing the Model Hardware Standard]]></title>
-            <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
-            <pubDate>Sat, 29 Aug 2020 10:51:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[An alignment assessment of the UK AISI cybertesting incident]]></title>

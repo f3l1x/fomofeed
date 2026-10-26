@@ -4,14 +4,14 @@
         <description><![CDATA[RSS feed for Dagster Blog]]></description>
         <link>https://dagster.io/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Oct 2026 09:33:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 19:40:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/dagster-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 08:03:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[The Data Plane Is Yours: Dagster+ Hybrid on Kubernetes and Azure]]></title>
-            <description><![CDATA[This article draws on a Dagster+ Hybrid deployment on Kubernetes and Azure at a very large enterprise. It covers the work outside the Helm chart: workload ownership, isolation, networking, identity, sizing, and capacity.]]></description>
+            <title><![CDATA[The Data Plane Is Yours: Dagster Hybrid on Kubernetes and Azure]]></title>
+            <description><![CDATA[This article draws on a Dagster Hybrid deployment on Kubernetes and Azure at a very large enterprise. It covers the work outside the Helm chart: workload ownership, isolation, networking, identity, sizing, and capacity.]]></description>
             <link>https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</link>
             <guid isPermaLink="false">https://dagster.io/blog/the-data-plane-is-yours-dagster-hybrid-on-kubernetes-and-azure</guid>
             <pubDate>Mon, 03 Aug 2020 15:01:00 GMT</pubDate>
@@ -94,8 +94,8 @@
             <pubDate>Wed, 30 Sep 2020 00:42:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Announcing the Dagster+ Terraform Provider]]></title>
-            <description><![CDATA[The Dagster+ Terraform provider lets platform teams manage deployments, access controls, alerting, and more as code. Define entire environments declaratively, review changes through pull requests, and integrate Dagster+ into your existing infrastructure workflows.]]></description>
+            <title><![CDATA[Announcing the Dagster Terraform Provider]]></title>
+            <description><![CDATA[The Dagster Terraform provider lets platform teams manage deployments, access controls, alerting, and more as code. Define entire environments declaratively, review changes through pull requests, and integrate Dagster into your existing infrastructure workflows.]]></description>
             <link>https://dagster.io/blog/announcing-the-dagster-terraform-provider</link>
             <guid isPermaLink="false">https://dagster.io/blog/announcing-the-dagster-terraform-provider</guid>
             <pubDate>Sun, 07 Jun 2020 05:27:00 GMT</pubDate>
@@ -157,8 +157,8 @@
             <pubDate>Tue, 07 Apr 2020 14:42:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[When to Move from Dagster OSS to Dagster+]]></title>
-            <description><![CDATA[Dagster OSS is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster+ and shift your focus back to building data products.]]></description>
+            <title><![CDATA[When to Move from Dagster OSS to a Dagster Paid Plan]]></title>
+            <description><![CDATA[Dagster OSS is built for builders. But as teams grow, the operational burden of running the platform can quietly consume engineering time. This guide explains when it makes sense to move to Dagster and shift your focus back to building data products.]]></description>
             <link>https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</link>
             <guid isPermaLink="false">https://dagster.io/blog/when-to-move-from-dagster-oss-to-dagster</guid>
             <pubDate>Tue, 14 Jan 2020 06:32:00 GMT</pubDate>
@@ -185,8 +185,8 @@
             <pubDate>Fri, 20 Mar 2020 23:58:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Closing the DataOps Loop: Why We Built Compass for Dagster+]]></title>
-            <description><![CDATA[Detection isn't the bottleneck anymore. Understanding is. Compass closes the loop by turning Dagster+ operational data into a conversation.]]></description>
+            <title><![CDATA[Closing the DataOps Loop: Why We Built Compass for Dagster]]></title>
+            <description><![CDATA[Detection isn't the bottleneck anymore. Understanding is. Compass closes the loop by turning Dagster operational data into a conversation.]]></description>
             <link>https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</link>
             <guid isPermaLink="false">https://dagster.io/blog/closing-the-dataops-loop-why-we-built-compass-for-dagster</guid>
             <pubDate>Mon, 30 Nov 2020 17:45:00 GMT</pubDate>
@@ -346,8 +346,8 @@
             <pubDate>Tue, 07 Jul 2020 20:51:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Dagster+ Now Available in the EU]]></title>
-            <description><![CDATA[We're thrilled to announce that Dagster+ has arrived in Europe!]]></description>
+            <title><![CDATA[Dagster Now Available in the EU]]></title>
+            <description><![CDATA[We're thrilled to announce that Dagster has arrived in Europe!]]></description>
             <link>https://dagster.io/blog/dagster-plus-now-available-in-the-eu</link>
             <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-now-available-in-the-eu</guid>
             <pubDate>Wed, 15 Jul 2020 13:24:00 GMT</pubDate>
@@ -367,7 +367,7 @@
             <pubDate>Sat, 12 Dec 2020 00:40:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Introducing the new Dagster+ UI – Your Data Platform’s Command Center]]></title>
+            <title><![CDATA[Introducing the new Dagster UI – Your Data Platform’s Command Center]]></title>
             <description><![CDATA[Featuring a new modern homepage, enhanced asset health and freshness monitoring, customizable dashboards, and real-time insights with cost monitoring.]]></description>
             <link>https://dagster.io/blog/introducing-the-new-dagster-plus-ui</link>
             <guid isPermaLink="false">https://dagster.io/blog/introducing-the-new-dagster-plus-ui</guid>
@@ -521,8 +521,8 @@
             <pubDate>Mon, 14 Dec 2020 20:18:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Observability That Matters with Dagster+ Alerts]]></title>
-            <description><![CDATA[Broken pipelines are unavoidable. Catch problems as soon as they happen with the improved alerting suite in Dagster+.]]></description>
+            <title><![CDATA[Observability That Matters with Dagster Alerts]]></title>
+            <description><![CDATA[Broken pipelines are unavoidable. Catch problems as soon as they happen with the improved alerting suite in Dagster.]]></description>
             <link>https://dagster.io/blog/observability-that-matters-with-dagster-alerts</link>
             <guid isPermaLink="false">https://dagster.io/blog/observability-that-matters-with-dagster-alerts</guid>
             <pubDate>Fri, 07 Feb 2020 02:15:00 GMT</pubDate>
@@ -723,22 +723,22 @@
             <pubDate>Sun, 19 Jan 2020 15:39:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Change Tracking Branch Deployments in Dagster+]]></title>
-            <description><![CDATA[Dagster+ further enhances identification and collaboration around changes to your data pipelines.]]></description>
+            <title><![CDATA[Change Tracking Branch Deployments in Dagster]]></title>
+            <description><![CDATA[Dagster further enhances identification and collaboration around changes to your data pipelines.]]></description>
             <link>https://dagster.io/blog/change-tracking-branch-deployments-in-dagster-plus</link>
             <guid isPermaLink="false">https://dagster.io/blog/change-tracking-branch-deployments-in-dagster-plus</guid>
             <pubDate>Thu, 02 Apr 2020 10:57:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Dagster+ Catalog: A New Built-in Asset Library for All Practitioners]]></title>
+            <title><![CDATA[Dagster Catalog: A New Built-in Asset Library for All Practitioners]]></title>
             <description><![CDATA[Give your data teams a powerful new system of record without the overhead of maintaining a third-party catalog.]]></description>
             <link>https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</link>
             <guid isPermaLink="false">https://dagster.io/blog/dagster-plus-calatog-a-new-built-in-asset-library</guid>
             <pubDate>Wed, 23 Dec 2020 15:35:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Ensuring Reliable Data with Dagster+]]></title>
-            <description><![CDATA[Dagster+ helps you monitor the freshness, quality, and schema of your data.]]></description>
+            <title><![CDATA[Ensuring Reliable Data with Dagster]]></title>
+            <description><![CDATA[Dagster helps you monitor the freshness, quality, and schema of your data.]]></description>
             <link>https://dagster.io/blog/ensuring-reliable-data-dagster-plus</link>
             <guid isPermaLink="false">https://dagster.io/blog/ensuring-reliable-data-dagster-plus</guid>
             <pubDate>Sun, 20 Dec 2020 20:24:00 GMT</pubDate>
@@ -752,7 +752,7 @@
         </item>
         <item>
             <title><![CDATA[Announcing Dagster 1.7: Love Plus One]]></title>
-            <description><![CDATA[A major set of updates to Dagster Core ahead of our Dagster+ launch.]]></description>
+            <description><![CDATA[A major set of updates to Dagster Core ahead of our Dagster launch.]]></description>
             <link>https://dagster.io/blog/dagster-1-7-love-plus-one</link>
             <guid isPermaLink="false">https://dagster.io/blog/dagster-1-7-love-plus-one</guid>
             <pubDate>Sat, 11 Apr 2020 21:22:00 GMT</pubDate>

@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Anthropic News]]></description>
         <link>https://www.anthropic.com/news</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Oct 2026 09:33:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 19:40:43 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 08 Dec 2020 10:17:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -27,6 +27,12 @@
             <link>https://www.anthropic.com/news/features</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/features</guid>
             <pubDate>Sat, 08 Feb 2020 14:59:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic files S-1 with the SEC for proposed initial public offering]]></title>
+            <link>https://www.anthropic.com/news/s1-sec</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/s1-sec</guid>
+            <pubDate>Sun, 13 Sep 2020 10:32:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Donating Agent Skills to the Agentic AI Foundation]]></title>
@@ -153,12 +159,6 @@
             <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
             <pubDate>Thu, 24 Sep 2020 17:02:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Previewing the Model Hardware Standard]]></title>
-            <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
-            <pubDate>Sat, 29 Aug 2020 10:51:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
