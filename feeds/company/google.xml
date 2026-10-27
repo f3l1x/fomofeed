@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Oct 2026 09:32:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Oct 2026 19:11:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 27 Oct 2026 01:15:46 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,6 +710,20 @@
             <pubDate>Sat, 08 Aug 2026 01:11:56 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype]]></title>
+            <description><![CDATA[This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google Developer Studio. The framework helps engineers organize their guides and solutions to effectively share AI-driven conversational interface designs with the developer community.]]></description>
+            <link>https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</guid>
+            <pubDate>Sat, 13 Jun 2020 05:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fast, reliable A2UI, with swappable inference formats]]></title>
+            <description><![CDATA[A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no changes to frontend renderers or component catalogs, offering flexible performance levers for generative UI development across Python, TypeScript, and Dart.]]></description>
+            <link>https://developers.googleblog.com/fast-reliable-a2ui/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/fast-reliable-a2ui/</guid>
+            <pubDate>Wed, 23 Dec 2020 03:31:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Architecting Governed, Self-Evolving AI Agents on Google Cloud]]></title>
             <description><![CDATA[Learn how Project Chrysalis combines Google Cloud's Gemini Enterprise Agent Platform, Agent Development Kit (ADK), BigQuery, and a four-gate defense-in-depth security stack (Model Armor, Cloud KMS, Binary Authorization, and OPA) to build governed, self-evolving AI agents that remediate live production outages in 1.8 seconds.]]></description>
             <link>https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</link>
@@ -764,20 +778,6 @@
             <link>https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</guid>
             <pubDate>Thu, 12 Mar 2020 00:24:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Three layers, one repo: a tour of google/adk-recipes]]></title>
-            <description><![CDATA[The google/adk-recipes repository unifies Agent Development Kit (ADK) resources into three structured layers—core/, plugins/, and contrib/—serving as a single source of truth for building AI agents. Developers can leverage reference patterns, install modular vertical skills (such as retail product search and virtual try-on) directly into their coding assistants, and deploy production-ready services across multiple languages. This cohesive structure streamlines the entire workflow from initial scaffolding to full deployment on Google Cloud infrastructure.]]></description>
-            <link>https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/</guid>
-            <pubDate>Sun, 01 Mar 2020 07:20:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Evaluating AI agents: moving past the vibe check]]></title>
-            <description><![CDATA[A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.]]></description>
-            <link>https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/</guid>
-            <pubDate>Sun, 08 Nov 2020 23:28:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
