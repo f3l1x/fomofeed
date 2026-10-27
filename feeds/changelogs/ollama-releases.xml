@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Oct 2026 19:41:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Oct 2026 09:31:19 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 24 Oct 2026 00:30:13 GMT</pubDate>
+        <pubDate>Tue, 27 Oct 2026 00:07:12 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.12]]></title>
+            <description><![CDATA[## What's Changed * mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in https://github.com/ollama/ollama/pull/19247 * MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in https://github.com/ollama/ollama/pull/19291 * mlx: add DFlash2 support by @dhiltgen in https://github.com/ollama/ollama/pull/19149 * llama.cpp: version bump b11901 by @dhiltgen in https://github.com/ollama/ollama/pull/19311 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.11...v0.40.12-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0</guid>
+            <pubDate>Tue, 27 Oct 2026 00:07:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.11]]></title>
             <description><![CDATA[## Speech Ollama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ## d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2B, 4B, 9B, and 27B sizes. ## New Contributors * @SynapShift made their first contribution in https://github.com/ollama/ollama/pull/19173 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.10...v0.40.11]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.15.0</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.0</guid>
             <pubDate>Wed, 21 Jan 2026 22:40:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.14.3]]></title>
-            <description><![CDATA[* Z-Image Turbo: 6 billion parameter text-to-image model from Alibaba’s Tongyi Lab. It generates high-quality photorealistic images. * Flux.2 Klein: Black Forest Labs’ fastest image-generation models to date. ## New models * GLM-4.7-Flash: As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency. * LFM2.5-1.2B-Thinking: LFM2.5 is a new family of hybrid models designed for on-device deployment. ## What's Changed * Fixed issue where Ollama's macOS app would interrupt system shutdown * Fixed ollama create and ollama show commands for experimental models * The /api/generate API can now be used for image generation * Fixed minor issues in Nemotron-3-Nano tool parsing * Fixed issue where removing an image generation model would cause it to first load * Fixed issue where ollama rm would only stop the first model in the list if it were running **Full Changelog**: https://github.com/ollama/ollama/compare/v0.14.2...v0.14.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.14.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.14.3</guid>
-            <pubDate>Fri, 16 Jan 2026 19:53:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
