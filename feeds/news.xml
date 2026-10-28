@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Oct 2026 19:11:31 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 10:16:27 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 23 Dec 2020 03:31:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -86,14 +86,8 @@
             <pubDate>Tue, 15 Sep 2020 02:34:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Expanding the Cyber Verification Program]]></title>
-            <description><![CDATA[We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.]]></description>
-            <link>https://www.anthropic.com/news/cyber-verification-program</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/cyber-verification-program</guid>
-            <pubDate>Sat, 25 Apr 2020 07:16:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Anthropic files S-1 with the SEC for proposed initial public offering]]></title>
+            <description><![CDATA[Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.]]></description>
             <link>https://www.anthropic.com/news/s1-sec</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/s1-sec</guid>
             <pubDate>Sun, 13 Sep 2020 10:32:00 GMT</pubDate>
@@ -103,6 +97,18 @@
             <link>https://www.anthropic.com/news/features</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/features</guid>
             <pubDate>Sat, 08 Feb 2020 14:59:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Expanding our partnership with GSA to bring Claude to all levels of government]]></title>
+            <link>https://www.anthropic.com/news/expanding-partnership-gsa</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/expanding-partnership-gsa</guid>
+            <pubDate>Thu, 06 Aug 2020 14:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Partnerships]]></title>
+            <link>https://www.anthropic.com/news/partnerships</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/partnerships</guid>
+            <pubDate>Sun, 30 Aug 2020 04:27:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Donating Agent Skills to the Agentic AI Foundation]]></title>
@@ -189,10 +195,10 @@
             <pubDate>Tue, 07 Jan 2020 12:47:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Partnerships]]></title>
-            <link>https://www.anthropic.com/news/partnerships</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/partnerships</guid>
-            <pubDate>Sun, 30 Aug 2020 04:27:00 GMT</pubDate>
+            <title><![CDATA[Expanding the Cyber Verification Program]]></title>
+            <link>https://www.anthropic.com/news/cyber-verification-program</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/cyber-verification-program</guid>
+            <pubDate>Sat, 25 Apr 2020 07:16:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap]]></title>
@@ -219,16 +225,10 @@
             <pubDate>Fri, 10 Jul 2020 18:13:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Developing Enterprise Frontier Safeguards with our customers]]></title>
-            <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
-            <pubDate>Sat, 05 Dec 2020 00:43:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Improving our alignment and security efforts]]></title>
-            <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
-            <guid isPermaLink="false">https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
-            <pubDate>Thu, 24 Sep 2020 17:02:00 GMT</pubDate>
+            <title><![CDATA[Early progress on accelerating drug development with Claude]]></title>
+            <link>https://www.anthropic.com/research/early-progress-drug-development</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/early-progress-drug-development</guid>
+            <pubDate>Sat, 26 Sep 2020 10:46:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How AI agents shape experts’ judgment calls]]></title>
@@ -337,12 +337,6 @@
             <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
             <pubDate>Thu, 17 Sep 2020 19:28:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Reviewing the evidence on worker retraining programs]]></title>
-            <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
-            <pubDate>Tue, 17 Nov 2020 02:29:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

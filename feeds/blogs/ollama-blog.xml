@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Ollama Blog]]></description>
         <link>https://ollama.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Oct 2026 19:09:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 10:14:21 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/ollama-blog.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Fri, 23 Oct 2026 22:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -25,7 +25,7 @@
         </item>
         <item>
             <title><![CDATA[Reflection's Beam is freely available on Ollama for a limited time]]></title>
-            <description><![CDATA[Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.]]></description>
+            <description><![CDATA[Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama's cloud.]]></description>
             <link>https://ollama.com/blog/reflection-beam</link>
             <guid isPermaLink="false">https://ollama.com/blog/reflection-beam</guid>
             <pubDate>Thu, 15 Oct 2026 22:00:00 GMT</pubDate>
