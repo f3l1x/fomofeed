@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Oct 2026 10:40:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Oct 2026 19:24:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 25 Oct 2026 23:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -3695,7 +3695,7 @@
             <pubDate>Fri, 25 Sep 2020 15:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Surge Benchmarks Join the Fireworks Specialized Intelligence Index]]></title>
+            <title><![CDATA[Six Surge Benchmarks Join the Fireworks Specialized Intelligence Index]]></title>
             <description><![CDATA[Six Surge AI benchmarks are now part of the Fireworks Specialized Intelligence Index, measuring how models perform against the demands of real professional work.]]></description>
             <link>https://www.surgehq.ai/blog/fireworks-specialized-intelligence-index</link>
             <guid isPermaLink="false">https://www.surgehq.ai/blog/fireworks-specialized-intelligence-index</guid>
