@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 Oct 2026 19:15:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Oct 2026 10:40:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 27 Oct 2026 00:07:12 GMT</pubDate>
+        <pubDate>Wed, 28 Oct 2026 19:55:04 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.13]]></title>
+            <description><![CDATA[## LFM3 on Linux and Windows Liquid AI's LFM3 models, including text-to-speech in lfm3-audio and lfm3-omni, now run on Linux and Windows as well as Apple silicon. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.13</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.13</guid>
+            <pubDate>Wed, 28 Oct 2026 19:55:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.12]]></title>
             <description><![CDATA[## Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: - lfm3: a 1.7B text model with a 256K-token context window - lfm3-vl: adds image understanding - lfm3-audio: speech recognition, translation, and text-to-speech in 18 languages - lfm3-omni: text, images, and audio in one model ## d1 decision models Liquid AI's d1 models now come in a 2B size, built on LFM3. d1 makes decisions about text and images, and d1-omni adds audio. Note: lfm3 and d1 2b are supported on Apple hardware in this release. Support for Linux/Windows coming soon. ## What's Changed - Faster prompt processing on Apple silicon for Gemma 4, Flint and Laguna models - Speculative decoding now supports DFlash2 draft models on MLX - Gemma 4 keeps more detail in small images - ollama launch now works with OpenCode v2 - Fixed tool-only assistant turns from Kimi CLI - Updated MLX and llama.cpp **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.11...v0.40.12]]></description>
@@ -841,13 +848,6 @@
             <link>https://ollama.com/blog/launch</link>
             <guid isPermaLink="false">https://ollama.com/blog/launch</guid>
             <pubDate>Thu, 22 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.15.0]]></title>
-            <description><![CDATA[## ollama launch A new ollama launch command to use Ollama's models with Claude Code, Codex, OpenCode, and Droid without separate configuration. ## What's Changed * New ollama launch command for Claude Code, Codex, OpenCode, and Droid * Fixed issue where creating multi-line strings with """ would not work when using ollama run * Ctrl + J and Shift + Enter now work for inserting newlines in ollama run * Reduced memory usage for GLM-4.7-Flash models]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.15.0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.0</guid>
-            <pubDate>Wed, 21 Jan 2026 22:40:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Image generation (experimental)]]></title>

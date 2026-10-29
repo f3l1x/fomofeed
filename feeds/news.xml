@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 Oct 2026 19:15:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Oct 2026 10:40:05 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 23 Dec 2020 03:31:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -15,6 +15,13 @@
             <link>https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/</guid>
             <pubDate>Thu, 16 Jan 2020 00:07:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Smaller apps and faster GPU inference with LiteRT in Google Play services]]></title>
+            <description><![CDATA[LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.]]></description>
+            <link>https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
+            <pubDate>Thu, 13 Feb 2020 19:38:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype]]></title>
@@ -73,13 +80,6 @@
             <pubDate>Sat, 05 Sep 2020 22:07:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Native Model Authoring for Edge with LiteRT Tensor API]]></title>
-            <description><![CDATA[Meet the LiteRT Tensor API: giving developers native C++ control over the model graph to unify end-to-end ML computations on heterogeneous edge hardware.]]></description>
-            <link>https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/</guid>
-            <pubDate>Tue, 21 Apr 2020 12:36:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Announcements]]></title>
             <link>https://www.anthropic.com/news/announcements</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/announcements</guid>
@@ -97,6 +97,12 @@
             <link>https://www.anthropic.com/news/features</link>
             <guid isPermaLink="false">https://www.anthropic.com/news/features</guid>
             <pubDate>Sat, 08 Feb 2020 14:59:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI for Science expands to foundations and research institutions]]></title>
+            <link>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</link>
+            <guid isPermaLink="false">https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</guid>
+            <pubDate>Fri, 10 Jul 2020 11:12:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Expanding our partnership with GSA to bring Claude to all levels of government]]></title>
