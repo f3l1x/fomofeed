@@ -4,13 +4,13 @@
         <description><![CDATA[All Cursor feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 30 Oct 2026 10:41:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Oct 2026 18:58:32 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/cursor.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 28 Oct 2026 23:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace]]></title>
+            <title><![CDATA[Security notice — malicious version of Anthropic.claude-code (2.1.312 and 2.1.313) identified in the Cursor VS Code Extension Marketplace]]></title>
             <link>https://cursor.com/blog/claude-code-extension-security-notice</link>
             <guid isPermaLink="false">https://cursor.com/blog/claude-code-extension-security-notice</guid>
             <category><![CDATA[company]]></category>
