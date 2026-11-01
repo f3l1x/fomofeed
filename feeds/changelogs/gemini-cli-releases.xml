@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 31 Oct 2026 18:07:13 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Nov 2026 10:58:15 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 31 Oct 2026 01:19:32 GMT</pubDate>
+        <pubDate>Sun, 01 Nov 2026 01:14:56 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.67.0-nightly.20261101.g6814e00d6]]></title>
+            <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261031.g6814e00d6...v0.67.0-nightly.20261101.g6814e00d6]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261101.g6814e00d6</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261101.g6814e00d6</guid>
+            <pubDate>Sun, 01 Nov 2026 01:14:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.67.0-nightly.20261031.g6814e00d6]]></title>
             <description><![CDATA[## What's Changed * fix(core): honor .git/info/exclude and core.excludesFile in shadow repo by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/30034 * fix(core): flush pending SSE event buffer at stream EOF in CodeAssistServer by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30050 * fix(core): handle Windows libuv zero-device stat reporting in readSecureFileBuffer by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/30044 * fix(cli): serialize concurrent extension installs with per-extension lock (#29036) by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30039 * fix(core): resolve symlinked paths canonically in GlobTool by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/30042 * fix(cli): add missing active and focus keys to custom theme ui schema by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/30032 * fix(core,cli): preserve selected model across transient fallback, cancel, and rewind by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/30059 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261030.gb633c0703...v0.67.0-nightly.20261031.g6814e00d6]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-preview.1</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-preview.1</guid>
             <pubDate>Tue, 11 Aug 2026 19:46:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.56.0-nightly.20260811.geef19f25c]]></title>
-            <description><![CDATA[## What's Changed * fix(core): refresh MCP OAuth tokens with the stored client ID by @ParthivNaresh in https://github.com/google-gemini/gemini-cli/pull/28481 ## New Contributors * @ParthivNaresh made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28481 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260810.gcf22ac7e8...v0.56.0-nightly.20260811.geef19f25c]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260811.geef19f25c</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260811.geef19f25c</guid>
-            <pubDate>Tue, 11 Aug 2026 01:16:16 GMT</pubDate>
         </item>
     </channel>
 </rss>
