@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Nov 2026 11:31:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 20:21:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 23 Dec 2020 03:31:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Cost per task: Using cheap classifiers to route across Gemini models and thinking levels]]></title>
+            <description><![CDATA[Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....]]></description>
+            <link>https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/</guid>
+            <pubDate>Fri, 27 Mar 2020 08:01:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Build Generative UI Apps with A2UI & CopilotKit Agents]]></title>
             <description><![CDATA[See Google A2Ui in action! Learn how to natively render agentic UIs across Langchain, AWS Strands, Microsoft agents, and Google ADK using CopilotKit SDKs for A2UI.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</guid>
             <pubDate>Wed, 10 Jun 2020 12:38:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Announcing New vLLM and SGLang Inference Engines on TPU]]></title>
-            <description><![CDATA[This post announces native PyTorch backends for vLLM and SGLang powered by TorchTPU, enabling developers to run and optimize serving workloads using familiar PyTorch tools. Built in collaboration with open-source project maintainers, these engines include optimized TPU kernel implementations, production-ready features like KV cache management with TPU Sync, and disaggregated serving. Public benchmarks demonstrate state-of-the-art performance and industry-leading cost efficiency on Ironwood TPU across long-context and agentic workloads.]]></description>
-            <link>https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</guid>
-            <pubDate>Tue, 21 Apr 2020 17:56:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
