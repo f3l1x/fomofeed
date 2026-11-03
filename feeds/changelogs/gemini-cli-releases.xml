@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Nov 2026 22:34:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 11:32:46 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 02 Nov 2026 01:22:38 GMT</pubDate>
+        <pubDate>Tue, 03 Nov 2026 01:18:35 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.67.0-nightly.20261103.g0ac57c029]]></title>
+            <description><![CDATA[## What's Changed * fix(core): prevent interrupted Whisper model downloads from being treated as installed by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30058 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261102.g6814e00d6...v0.67.0-nightly.20261103.g0ac57c029]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261103.g0ac57c029</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261103.g0ac57c029</guid>
+            <pubDate>Tue, 03 Nov 2026 01:18:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.67.0-nightly.20261102.g6814e00d6]]></title>
             <description><![CDATA[**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261101.g6814e00d6...v0.67.0-nightly.20261102.g6814e00d6]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260813.g1ac337739</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260813.g1ac337739</guid>
             <pubDate>Thu, 13 Aug 2026 01:19:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.56.0-nightly.20260812.g5024443c7]]></title>
-            <description><![CDATA[## What's Changed * fix(core,cli): resolve false model capacity exhaustion and fix core quota lookup model mapping by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28730 * feat(evals): add local report command and developer documentation by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28369 * fix(core): dynamically resolve Cloud Workstations proxy redirect URI for OAuth flows by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28688 * fix(core): resolve swallowed directory mismatch in IDE connections by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28729 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260811.geef19f25c...v0.56.0-nightly.20260812.g5024443c7]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260812.g5024443c7</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260812.g5024443c7</guid>
-            <pubDate>Wed, 12 Aug 2026 01:18:41 GMT</pubDate>
         </item>
     </channel>
 </rss>

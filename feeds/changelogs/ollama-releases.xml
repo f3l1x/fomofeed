@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Ollama Releases]]></description>
         <link>https://github.com/ollama/ollama/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Nov 2026 22:33:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 11:32:30 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/ollama-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 28 Oct 2026 19:55:04 GMT</pubDate>
+        <pubDate>Tue, 03 Nov 2026 01:40:40 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.14]]></title>
+            <description><![CDATA[## What's Changed * ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap * Cloud web search responses on /api/chat are now decoded correctly, including compressed responses * OpenAI-compatible endpoints no longer override a model's packaged sampler defaults — clients that send no temperature/top_p get the model's own values instead of 1.0, matching /api/chat * /v1/responses now preserves readable input content, including prior assistant refusals, instead of flattening it * Ollama's app can now retry ChatGPT disconnect failures instead of leaving the connection in a broken state * ollama launch codex verifies ChatGPT routing before configuring, and reports a clear error when routing is unavailable * Faster top-k sampling on MLX for large vocabularies **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.13...v0.40.14]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.14</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.14</guid>
+            <pubDate>Tue, 03 Nov 2026 01:40:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.13]]></title>
             <description><![CDATA[## LFM3 on Linux and Windows Liquid AI's LFM3 models, including text-to-speech in lfm3-audio and lfm3-omni, now run on Linux and Windows as well as Apple silicon. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.12...v0.40.13]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.15.2</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.2</guid>
             <pubDate>Tue, 27 Jan 2026 00:52:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.15.1]]></title>
-            <description><![CDATA[## What's Changed * GLM-4.7-Flash performance and correctness improvements, fixing repetitive answers and tool calling quality * Fixed performance issues on macOS and arm64 Linux * Fixed issue where ollama launch would not detect claude and would incorrectly update opencode configurations ## New Contributors * @stillhart made their first contribution in https://github.com/ollama/ollama/pull/13855 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.0...v0.15.1]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.15.1</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.1</guid>
-            <pubDate>Sat, 24 Jan 2026 23:20:52 GMT</pubDate>
         </item>
     </channel>
 </rss>
