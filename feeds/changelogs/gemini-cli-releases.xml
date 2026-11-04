@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Gemini CLI Releases]]></description>
         <link>https://github.com/google-gemini/gemini-cli/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Nov 2026 20:23:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Nov 2026 11:48:24 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gemini-cli-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Nov 2026 01:18:35 GMT</pubDate>
+        <pubDate>Wed, 04 Nov 2026 01:20:49 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Release v0.67.0-nightly.20261104.g89e9d25d6]]></title>
+            <description><![CDATA[## What's Changed * fix(cli): handle stream failures during extension release downloads by @duvanka-prasad in https://github.com/google-gemini/gemini-cli/pull/30100 * fix(core): preserve explicit gemini-2.5-flash model in dynamic model resolution by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/30057 * fix(hooks): support SubagentStop event mapping and merge hook definitions by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30111 * fix(cli): await history replay before responding to ACP session/load by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30112 * fix(sandbox): supply --userns=keep-id for rootless podman by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30118 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261103.g0ac57c029...v0.67.0-nightly.20261104.g89e9d25d6]]></description>
+            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261104.g89e9d25d6</link>
+            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261104.g89e9d25d6</guid>
+            <pubDate>Wed, 04 Nov 2026 01:20:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Release v0.67.0-nightly.20261103.g0ac57c029]]></title>
             <description><![CDATA[## What's Changed * fix(core): prevent interrupted Whisper model downloads from being treated as installed by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30058 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261102.g6814e00d6...v0.67.0-nightly.20261103.g0ac57c029]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260814.gc0d192452</link>
             <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260814.gc0d192452</guid>
             <pubDate>Fri, 14 Aug 2026 01:24:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Release v0.56.0-nightly.20260813.g1ac337739]]></title>
-            <description><![CDATA[## What's Changed * Feat/eval validate by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28344 * feat(evals): add tool call formatter and integrate failure summaries by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28305 * Changelog for v0.55.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28779 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260812.g5024443c7...v0.56.0-nightly.20260813.g1ac337739]]></description>
-            <link>https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260813.g1ac337739</link>
-            <guid isPermaLink="false">https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260813.g1ac337739</guid>
-            <pubDate>Thu, 13 Aug 2026 01:19:22 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Nov 2026 20:23:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Nov 2026 11:48:31 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Nov 2026 01:40:40 GMT</pubDate>
+        <pubDate>Tue, 03 Nov 2026 22:52:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.15]]></title>
+            <description><![CDATA[## What's Changed * mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in https://github.com/ollama/ollama/pull/19433 * model: add MiMo V2.6 model support by @dhiltgen in https://github.com/ollama/ollama/pull/19400 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.14...v0.40.15-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0</guid>
+            <pubDate>Tue, 03 Nov 2026 22:52:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.14]]></title>
             <description><![CDATA[## What's Changed * ollama launch claude now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap * Cloud web search responses on /api/chat are now decoded correctly, including compressed responses * OpenAI-compatible endpoints no longer override a model's packaged sampler defaults — clients that send no temperature/top_p get the model's own values instead of 1.0, matching /api/chat * /v1/responses now preserves readable input content, including prior assistant refusals, instead of flattening it * Ollama's app can now retry ChatGPT disconnect failures instead of leaving the connection in a broken state * ollama launch codex verifies ChatGPT routing before configuring, and reports a clear error when routing is unavailable * Faster top-k sampling on MLX for large vocabularies **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.13...v0.40.14]]></description>
@@ -834,13 +841,6 @@
             <link>https://ollama.com/blog/openclaw</link>
             <guid isPermaLink="false">https://ollama.com/blog/openclaw</guid>
             <pubDate>Sat, 31 Jan 2026 23:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.15.2]]></title>
-            <description><![CDATA[## What's Changed * New ollama launch clawdbot command for launching Clawdbot using Ollama models **Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.1...v0.15.2]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.15.2</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.2</guid>
-            <pubDate>Tue, 27 Jan 2026 00:52:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ollama launch]]></title>
