@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Nov 2026 11:46:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2026 20:55:12 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 27 Dec 2020 10:45:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -94,6 +94,12 @@
             <pubDate>Tue, 15 Sep 2020 11:43:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Project Swap: What happens when agents trade for us?]]></title>
+            <link>https://www.anthropic.com/research/project-swap</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
+            <pubDate>Mon, 27 Jan 2020 23:23:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Claude discovers a novel enzyme system with CRISPR-like repeats]]></title>
             <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
@@ -116,12 +122,6 @@
             <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
             <pubDate>Tue, 07 Jul 2020 07:49:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Automated researchers can reliably mitigate alignment failures]]></title>
-            <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
-            <pubDate>Sun, 12 Apr 2020 12:41:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

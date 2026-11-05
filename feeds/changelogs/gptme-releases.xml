@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for gptme Releases]]></description>
         <link>https://github.com/gptme/gptme/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Nov 2026 11:46:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2026 20:55:49 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/gptme-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 02 Nov 2026 21:26:22 GMT</pubDate>
+        <pubDate>Thu, 05 Nov 2026 19:32:16 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.36.1.dev20261105]]></title>
+            <description><![CDATA[These are the release notes for gptme version v0.36.1.dev20261105. ## Contributors Thanks to everyone who contributed to this release: @erikbjare, @simpleqt, @TimeToBuildBob ## Changelog Changes since 3950aebc88f2a5b20163064d7ff884359a01c509: ## 📦 gptme ### 🐛 Fixes (9) Click to expand - fix: preserve user input after oversized tool output pruning (#4753) (7a656435f) - fix(commands): consume slash-only input instead of crashing on unpacking (#4743) (0b5e0a8c3) - fix: publish attachment snapshots after successful copies (#4661) (7d27e3b16) - fix(cli): wake idle parent on subagent completion (#4761) (8532295f6) - fix(hooks): preserve unrelated commands in mixed entries (#4767) (690cab924) - fix(setup): persist provider updates over local overrides (#4764) (123cb9f5a) - fix(shell): treat special tokens in output as plain text when truncating (#4730) (4eee00458) - fix: label /context retained log separately from provider input (#4759) (fba43ec70) - fix(anthropic): defer notices until tool results are emitted (#4765) (60bdbf665) ### 🔨 Misc (1) - chore: bump version to 0.36.1.dev20261105 (v0.36.1.dev20261105) **Full Changelog**: https://github.com/gptme/gptme/compare/3950aebc88f2a5b20163064d7ff884359a01c509...v0.36.1.dev20261105]]></description>
+            <link>https://github.com/gptme/gptme/releases/tag/v0.36.1.dev20261105</link>
+            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.36.1.dev20261105</guid>
+            <pubDate>Thu, 05 Nov 2026 19:32:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.36.1.dev20261102]]></title>
             <description><![CDATA[These are the release notes for gptme version v0.36.1.dev20261102. ## Contributors Thanks to everyone who contributed to this release: @TimeToBuildBob ## Changelog Changes since 984b0d30ca4d8740cd292e1b53427e14ed9cae83: ## 📦 gptme ### 🐛 Fixes (1) - fix(release): pin CI and publication to selected source ref (#4760) (3950aebc8) ### 🔨 Misc (1) - chore: bump version to 0.36.1.dev20261102 (v0.36.1.dev20261102) **Full Changelog**: https://github.com/gptme/gptme/compare/984b0d30ca4d8740cd292e1b53427e14ed9cae83...v0.36.1.dev20261102]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/gptme/gptme/releases/tag/v0.15.0</link>
             <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.15.0</guid>
             <pubDate>Fri, 06 Sep 2024 15:34:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.14.2]]></title>
-            <description><![CDATA[These are the release notes for gptme version v0.14.2. # Contributors Thanks to everyone who contributed to this release: @erikbjare # Changelog Changes since v0.14.1: ## 📦 gptme ### 🐛 Fixes (4) - fix(eval): fixed bug when writing timeout results, improved gptme-eval defaults (only 3 models + 5 evals) (707d98c) - fix: fixed log selector not opening when running plainly as gptme (5a0c2aa) - fix: removed spammy output in docs/conf.py (f3c02f6) - fix: remove excessive context files in gptme.toml (ac31e48) ### 🔨 Misc (2) - chore: bump version to 0.14.2 (6bb3235) - style: formatting (ad202b0) *(excluded 3 less relevant commits)* **Full Changelog**: https://github.com/ErikBjare/gptme/compare/v0.14.1...v0.14.2]]></description>
-            <link>https://github.com/gptme/gptme/releases/tag/v0.14.2</link>
-            <guid isPermaLink="false">https://github.com/gptme/gptme/releases/tag/v0.14.2</guid>
-            <pubDate>Wed, 28 Aug 2024 12:10:14 GMT</pubDate>
         </item>
     </channel>
 </rss>

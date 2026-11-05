@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for OpenCode Releases]]></description>
         <link>https://github.com/anomalyco/opencode/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Nov 2026 11:46:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2026 20:55:20 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/opencode-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 30 Oct 2026 23:17:23 GMT</pubDate>
+        <pubDate>Thu, 05 Nov 2026 17:39:04 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[process-daemon v0.5.0]]></title>
+            <description><![CDATA[opencode-pty 0.5.0 (protocol 8) from packages/process-daemon, published to npm as @opencode/pty@0.5.0.]]></description>
+            <link>https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.0</link>
+            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.0</guid>
+            <pubDate>Thu, 05 Nov 2026 17:39:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v2.2.5]]></title>
             <description><![CDATA[### Highlights - **Worktree and Shell Mode Shortcuts**: Press ⌘⌥O on macOS or Ctrl+Alt+O on Windows and Linux to choose a worktree, and ⌘⌥B or Ctrl+Alt+B to choose its base branch. ⌘⇧X or Ctrl+Shift+X now toggles shell mode in the composer. (#60713) - **Send Quotes From the Comment Popup**: Hold ⌘ or Ctrl in the quote popup to turn its checkmark into send, or press ⌘Enter or Ctrl+Enter, to send just that quote and comment while leaving the rest of the composer untouched. (#60640) - **Percentage Compaction Buffer**: Set "compaction": { "buffer": "20%" } in opencode.json to keep a share of each model's context window free, so one setting fits models with small and large windows. Token counts still work. (#60647) ### Core #### Improvements - compaction.buffer accepts a percentage of the model's context window, such as "20%", in addition to a token count. (#60647) - When read misses because a folder is missing, the error names that folder and the nearest one that exists. (#60688) - When edit can't find oldString, the error shows the file's closest lines, or says the change is already there. (#60689) - Calls to a tool named bash now run as shell instead of failing, with the same permissions. A plugin tool actually named bash still takes precedence. (#60687) #### Bug fixes - MCP servers that send stdio messages larger than 10 MiB no longer get disconnected, and large messages are read much faster. (#60694) - Idle locations no longer restart their MCP servers right after shutting down. (#60668) - Compaction now caps its prompt at the model's context window when the input limit is larger. (#60660) - LiteLLM context window errors now trigger compaction instead of stopping the session. (#60692) - Reasoning is no longer turned into plain text when you switch models or resume an interrupted response, which caused request errors on some providers. (#60498) ### TUI #### Bug fixes - The connect menu no longer lists MCP servers, which are managed in their own place. (#60675) ### Desktop #### Improvements - Added keyboard shortcuts to choose a worktree and its base branch, shown in tooltips, and a shortcut to toggle shell mode. The worktree path can be selected to copy the full directory. (#60713) - Hold ⌘ or Ctrl in the quote popup to send a quote and its comment directly. (#60640) - Added flat input surfaces and a compact input size. (#60598) #### Bug fixes - The connect menu no longer lists MCP servers. (#60675) - Added the missing top inset to the search field in the recently closed menu. (#60652)]]></description>
@@ -701,13 +708,6 @@
             <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.44</link>
             <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.44</guid>
             <pubDate>Sat, 09 May 2026 19:33:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.14.43]]></title>
-            <description><![CDATA[## Core ### Bugfixes - Keep provider and config API responses working when auth loaders add non-JSON options to providers. - Include tool image attachments in ACP updates and session replays. (@SteffenDE) **Thank you to 1 community contributor:** - @SteffenDE: - fix(acp): include tool image attachments in updates (#25128)]]></description>
-            <link>https://github.com/anomalyco/opencode/releases/tag/v1.14.43</link>
-            <guid isPermaLink="false">https://github.com/anomalyco/opencode/releases/tag/v1.14.43</guid>
-            <pubDate>Sat, 09 May 2026 18:06:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
