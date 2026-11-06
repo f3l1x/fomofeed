@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for LiteLLM Releases]]></description>
         <link>https://github.com/BerriAI/litellm/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Nov 2026 20:55:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 11:44:40 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/litellm-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Nov 2026 02:06:31 GMT</pubDate>
+        <pubDate>Thu, 05 Nov 2026 23:42:04 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.108.1]]></title>
+            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. This release is signed with the key introduced in commit e82a3c6. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the published signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * ci: run the OSV scan and unit tests on stable, rc and lts branches (#50086) [backport lts/1.108.x] by @yuneng-berri in https://github.com/BerriAI/litellm/pull/50088 * test: fix stale unit tests on 1.108 LTS by @yuneng-berri in https://github.com/BerriAI/litellm/pull/50091 * fix(backport): backport 21 main fixes plus 2 prerequisites to lts/1.108.x for v1.108.1 by @kerry-berri in https://github.com/BerriAI/litellm/pull/50136 * fix(passthrough): skip team deployments when picking proxy-wide pass-through credentials on lts/1.108.x by @kerry-berri in https://github.com/BerriAI/litellm/pull/50217 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.108.0...v1.108.1]]></description>
+            <link>https://github.com/BerriAI/litellm/releases/tag/v1.108.1</link>
+            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.108.1</guid>
+            <pubDate>Thu, 05 Nov 2026 23:42:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.107.0-rc.3]]></title>
             <description><![CDATA[## Verify this release This release candidate is built from f9778e9, the reviewed merge of #50129 into rc/1.107.0. It is published as 1.107.0rc3 on PyPI and v1.107.0-rc.3 on Docker After the Oct 21 incident (#47826) we replaced the cosign key that signs our Docker images. These images are signed with the new key from commit e82a3c6 ## Why a new 1.107 release candidate Some users are still running the 1.107 release candidates and needed two GitHub Copilot fixes for per-user credentials. This release brings those fixes to that line. If you are not on a 1.107 release candidate, 1.108.0 is the current stable ## What's new in 1.107.0-rc.3 2 PRs. 1 added, 1 fixed. No action needed to upgrade ### Changes - **Other providers:** Added GitHub Copilot per-user credentials on GHE.com tenants with the new optional github_copilot_host field (#47610) - **Other providers:** Fixed GitHub Copilot per-user connect failing with no Copilot access found when GITHUB_COPILOT_CLIENT_ID is set (#50116) --- Backport #50129 · Full changelog]]></description>
@@ -694,13 +701,6 @@
             <link>https://github.com/BerriAI/litellm/releases/tag/v1.99.0</link>
             <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.99.0</guid>
             <pubDate>Tue, 01 Sep 2026 04:50:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.99.0-rc.2]]></title>
-            <description><![CDATA[## Verify Docker Image Signature All LiteLLM Docker images are signed with cosign. Every release is signed with the same key introduced in commit 0112e53. **Verify using the pinned commit hash (recommended):** A commit hash is cryptographically immutable, so this is the strongest way to ensure you are using the original signing key: **Verify using the release tag (convenience):** Tags are protected in this repository and resolve to the same key. This option is easier to read but relies on tag protection rules: Expected output: --- ## What's Changed * fix(ui): backport the shadcn migration regression fixes onto 1.99.0 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/38821 * fix(e2e): backport the vertex realtime and vision image fixture fixes to rc/1.99.0 by @yuneng-berri in https://github.com/BerriAI/litellm/pull/38848 * fix(ui): drop stray text next to Close in the model connection test dialog by @yuneng-berri in https://github.com/BerriAI/litellm/pull/38854 * [Backport rc/1.99.0] fix(anthropic): translate tool_result document blocks in the /v1/messages bridge by @yuneng-berri in https://github.com/BerriAI/litellm/pull/38855 * test(e2e): backport the select-anchoring and router-fallback spec de-flakes by @yuneng-berri in https://github.com/BerriAI/litellm/pull/38862 **Full Changelog**: https://github.com/BerriAI/litellm/compare/v1.99.0-rc.1...v1.99.0-rc.2]]></description>
-            <link>https://github.com/BerriAI/litellm/releases/tag/v1.99.0-rc.2</link>
-            <guid isPermaLink="false">https://github.com/BerriAI/litellm/releases/tag/v1.99.0-rc.2</guid>
-            <pubDate>Sun, 30 Aug 2026 03:47:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[v1.100.0-rc.1]]></title>
