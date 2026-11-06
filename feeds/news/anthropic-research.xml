@@ -4,11 +4,17 @@
         <description><![CDATA[RSS feed for Anthropic Research]]></description>
         <link>https://www.anthropic.com/research</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Nov 2026 11:43:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 20:21:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/anthropic-research.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 27 Dec 2020 10:45:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Teaching AI to build scientific models]]></title>
+            <link>https://www.anthropic.com/research/teaching-ai-to-build-scientific-models</link>
+            <guid isPermaLink="false">https://www.anthropic.com/research/teaching-ai-to-build-scientific-models</guid>
+            <pubDate>Sun, 01 Mar 2020 15:28:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Progress on provable inference for large language models]]></title>
             <link>https://www.anthropic.com/research/provable-inference</link>
@@ -116,12 +122,6 @@
             <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
             <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
             <pubDate>Sat, 11 Jan 2020 05:10:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Formalizing Fermat's Last Theorem]]></title>
-            <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
-            <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
-            <pubDate>Tue, 07 Jul 2020 07:49:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

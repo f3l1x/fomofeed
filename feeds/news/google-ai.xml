@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Nov 2026 11:42:56 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 20:20:55 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 23 Dec 2020 03:31:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Agent Distraction]]></title>
+            <description><![CDATA[Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more steps, 77% more tokens, and 105% more wait time per session—split between chasing closed tickets (41%) and unauthorized scope creep on open bugs (57%). Higher-capability models show higher distraction rates, highlighting the need for automated cleanup and linters to maintain agent-friendly codebases]]></description>
+            <link>https://developers.googleblog.com/agent-distraction/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/agent-distraction/</guid>
+            <pubDate>Sun, 14 Jun 2020 04:48:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Cost per task: Using cheap classifiers to route across Gemini models and thinking levels]]></title>
             <description><![CDATA[Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</guid>
             <pubDate>Sat, 24 Oct 2020 22:13:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Integrating TorchTPU into TorchTitan and Optimizing Models for TPU]]></title>
-            <description><![CDATA[TorchTPU integrates a native torch.device("tpu") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this with production-grade scaling primitives like SimpleFSDP, Graph Trainer, and custom Pallas kernels that achieve high Model Flops Utilization (MFU) across dense and MoE architectures. Developers can leverage these battle-tested optimization playbooks, recipes, and the Hugging Face modeling backend to efficiently scale their own workloads on TPU infrastructure.]]></description>
-            <link>https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</guid>
-            <pubDate>Wed, 10 Jun 2020 12:38:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
