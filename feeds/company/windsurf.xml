@@ -4,11 +4,18 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Nov 2026 12:26:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2026 23:16:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 04 Nov 2026 23:00:00 GMT</pubDate>
+        <pubDate>Sun, 08 Nov 2026 23:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude Fable 5.2 is now available in Devin]]></title>
+            <description><![CDATA[Claude Fable 5.2 is now live in Devin. It takes the top spot on FrontierCode 2.0 with a score of 49.1%, up from Fable 5.1's 32.4%.]]></description>
+            <link>https://windsurf.com/blog/claude-fable-5-2</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/claude-fable-5-2</guid>
+            <pubDate>Sun, 08 Nov 2026 23:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Devin Review 2.0]]></title>
             <description><![CDATA[Since August, we’ve cut the cost of reviewing a PR by 82%. Devin Review is now cheap and effective enough to run on every PR.]]></description>
@@ -94,13 +101,6 @@
             <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Cognition and MongoDB partner to modernize enterprise infrastructure in months, not years]]></title>
-            <description><![CDATA[Cognition and MongoDB are bringing Devin into MongoDB’s Application Modernization Platform (AMP) to help customers migrate legacy applications to MongoDB Atlas.]]></description>
-            <link>https://windsurf.com/blog/devin-for-mongodb-modernizations</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/devin-for-mongodb-modernizations</guid>
-            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Product]]></title>
             <link>https://windsurf.com/blog/category/product</link>
             <guid isPermaLink="false">https://windsurf.com/blog/category/product</guid>
@@ -123,6 +123,12 @@
             <link>https://windsurf.com/blog/category/company</link>
             <guid isPermaLink="false">https://windsurf.com/blog/category/company</guid>
             <pubDate>Thu, 03 Sep 2020 10:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Partners]]></title>
+            <link>https://windsurf.com/blog/category/partners</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/category/partners</guid>
+            <pubDate>Thu, 12 Nov 2020 05:50:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Industry]]></title>

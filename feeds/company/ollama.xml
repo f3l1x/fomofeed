@@ -4,11 +4,18 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Nov 2026 12:26:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2026 23:16:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Nov 2026 22:52:31 GMT</pubDate>
+        <pubDate>Mon, 09 Nov 2026 18:21:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v0.40.16]]></title>
+            <description><![CDATA[## What's Changed * openai: forward truncation option in responses requests by @marlonferreira1800-hue in https://github.com/ollama/ollama/pull/19501 * openai: return an empty array for /v1/models when no models are installed by @liangliang205 in https://github.com/ollama/ollama/pull/19539 * llama.cpp: version bump b12177 by @dhiltgen in https://github.com/ollama/ollama/pull/19576 * README: add Quock to Mobile community integrations by @matteocelani in https://github.com/ollama/ollama/pull/19361 * windows: add CUDA 13.5 and SM 103 for ARM64 by @dhiltgen in https://github.com/ollama/ollama/pull/19580 * MLX: make Qwen3.8 Flash Next memory efficient by @dhiltgen in https://github.com/ollama/ollama/pull/18078 * launch: fix Claude Code routing and retired model errors by @hoyyeva in https://github.com/ollama/ollama/pull/19587 * Add ripple preview support to the MLX runner by @pdevine in https://github.com/ollama/ollama/pull/19592 ## New Contributors * @marlonferreira1800-hue made their first contribution in https://github.com/ollama/ollama/pull/19501 * @liangliang205 made their first contribution in https://github.com/ollama/ollama/pull/19539 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.15...v0.40.16-rc0]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0</guid>
+            <pubDate>Mon, 09 Nov 2026 18:21:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v0.40.15]]></title>
             <description><![CDATA[## MiMo V2.6 Xiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows, is now supported in Ollama. ## AutoTrust decision models AutoTrust decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read images. Note: autotrust-jev is supported on Apple silicon in this release. ## What's Changed - ollama launch now supports Kimi Code CLI — the successor to kimi-cli — and offers to migrate existing kimi-cli setups - ollama launch now fills in Pi's model list automatically so models can be picked inside Pi, and Claude Desktop's model picker shows Ollama's actual model names - Recurrent and vision GGUF models can now serve more than one request at a time - Qwen3 and Qwen3.5 models using long-context (YaRN) scaling - Running ollama with no arguments opens the welcome launcher **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.14...v0.40.15]]></description>
@@ -827,13 +834,6 @@
             <link>https://github.com/ollama/ollama/releases/tag/v0.15.4</link>
             <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.4</guid>
             <pubDate>Sun, 01 Feb 2026 23:13:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v0.15.3]]></title>
-            <description><![CDATA[## What's Changed * Renamed ollama launch clawdbot to ollama launch openclaw to reflect the project's new name * Improved tool calling for Ministral models * docs: add clawdbot by @ParthSareen in https://github.com/ollama/ollama/pull/13925 * cmd/config: Use envconfig.Host() for base API in launch config packages by @gabe-l-hart in https://github.com/ollama/ollama/pull/13937 * ollama launch will now use the value of OLLAMA_HOST when running it ## New Contributors * @MBerguer made their first contribution in https://github.com/ollama/ollama/pull/13971 * @taronsung made their first contribution in https://github.com/ollama/ollama/pull/13965 * @noureldin-azzab made their first contribution in https://github.com/ollama/ollama/pull/13961 * @dhirajlochib made their first contribution in https://github.com/ollama/ollama/pull/13645 * @ThanhNguyxn made their first contribution in https://github.com/ollama/ollama/pull/13979 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.15.2...v0.15.3]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.15.3</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.15.3</guid>
-            <pubDate>Sun, 01 Feb 2026 01:29:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenClaw]]></title>
