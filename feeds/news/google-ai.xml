@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Nov 2026 12:02:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 20:40:07 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 23 Dec 2020 03:31:00 GMT</pubDate>
+        <pubDate>Wed, 09 Dec 2020 19:02:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery]]></title>
+            <description><![CDATA[Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform open-weight model integration. This local pipeline seamlessly pairs lightweight speech models with on-device small language models like Gemini Nano and Gemma 4 to enable real-time streaming transcription and low-latency synthesis.]]></description>
+            <link>https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</guid>
+            <pubDate>Wed, 09 Dec 2020 19:02:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[From prompt to app: Build with Google Maps in AI Studio]]></title>
             <description><![CDATA[Developers can now build applications powered by Google Maps Platform directly within Google AI Studio by prompting Gemini with real-world geospatial concepts. The integration eliminates traditional configuration hurdles by providing one-click demo keys that generate instantly without requiring Cloud Console redirects or credit cards. This setup grants developers immediate access to core APIs—including Maps, Places, and Routes—supported by daily sandbox quotas for seamless prototyping.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</guid>
             <pubDate>Sat, 13 Jun 2020 05:32:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Fast, reliable A2UI, with swappable inference formats]]></title>
-            <description><![CDATA[A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no changes to frontend renderers or component catalogs, offering flexible performance levers for generative UI development across Python, TypeScript, and Dart.]]></description>
-            <link>https://developers.googleblog.com/fast-reliable-a2ui/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/fast-reliable-a2ui/</guid>
-            <pubDate>Wed, 23 Dec 2020 03:31:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

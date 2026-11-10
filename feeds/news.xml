@@ -4,24 +4,31 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Nov 2026 12:05:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 20:42:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 27 Dec 2020 10:45:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[JPMorganChase expands Claude Code to more employees across the firm]]></title>
-            <description><![CDATA[Showing 11 of 309 resources]]></description>
+            <title><![CDATA[Your apps can now open in Claude, and Claude can work in them]]></title>
+            <description><![CDATA[Showing 11 of 313 resources]]></description>
             <link>https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</link>
             <guid isPermaLink="false">https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</guid>
             <pubDate>Wed, 27 May 2020 23:45:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[JPMorganChase expands Claude Code to more employees across the firm]]></title>
-            <description><![CDATA[Showing 11 of 309 resources]]></description>
+            <title><![CDATA[Your apps can now open in Claude, and Claude can work in them]]></title>
+            <description><![CDATA[Showing 11 of 313 resources]]></description>
             <link>https://claude.dev/blog/which-claude-model-should-you-build-with/</link>
             <guid isPermaLink="false">https://claude.dev/blog/which-claude-model-should-you-build-with/</guid>
             <pubDate>Fri, 10 Apr 2020 13:07:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery]]></title>
+            <description><![CDATA[Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform open-weight model integration. This local pipeline seamlessly pairs lightweight speech models with on-device small language models like Gemini Nano and Gemma 4 to enable real-time streaming transcription and low-latency synthesis.]]></description>
+            <link>https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</guid>
+            <pubDate>Wed, 09 Dec 2020 19:02:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[From prompt to app: Build with Google Maps in AI Studio]]></title>
@@ -85,13 +92,6 @@
             <link>https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</guid>
             <pubDate>Sat, 13 Jun 2020 05:32:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Fast, reliable A2UI, with swappable inference formats]]></title>
-            <description><![CDATA[A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no changes to frontend renderers or component catalogs, offering flexible performance levers for generative UI development across Python, TypeScript, and Dart.]]></description>
-            <link>https://developers.googleblog.com/fast-reliable-a2ui/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/fast-reliable-a2ui/</guid>
-            <pubDate>Wed, 23 Dec 2020 03:31:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcements]]></title>

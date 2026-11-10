@@ -4,11 +4,25 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Nov 2026 12:05:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 20:42:10 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 08 Nov 2026 23:00:00 GMT</pubDate>
+        <pubDate>Tue, 10 Nov 2026 23:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Claude Mythos 5.2 is now available in Devin Security]]></title>
+            <description><![CDATA[Claude Mythos 5.2 is now available in Devin Security for customers with frontier cyber model access through Devin.]]></description>
+            <link>https://windsurf.com/blog/claude-mythos-5-2-security</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/claude-mythos-5-2-security</guid>
+            <pubDate>Tue, 10 Nov 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gemini 4 Carbon is now available in Devin]]></title>
+            <description><![CDATA[Gemini 4 Carbon is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 40.0%, up from Gemini 4 Argon's 26.3%, at a lower cost per task.]]></description>
+            <link>https://windsurf.com/blog/gemini-4-carbon</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gemini-4-carbon</guid>
+            <pubDate>Mon, 09 Nov 2026 23:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude Fable 5.2 is now available in Devin]]></title>
             <description><![CDATA[Claude Fable 5.2 is now live in Devin. It takes the top spot on FrontierCode 2.0 with a score of 49.1%, up from Fable 5.1's 32.4%.]]></description>
@@ -151,20 +165,6 @@
             <description><![CDATA[Ollama now supports decision models, based on TypeSafe's Jev API for fast, typed decisions. Decision models can now be run at no cost with low latency. Based on text, decision models answer yes-or-no questions, choices and scores about it, with a probability for every option.]]></description>
             <link>https://ollama.com/blog/ollama-now-supports-jev-style-decision-models</link>
             <guid isPermaLink="false">https://ollama.com/blog/ollama-now-supports-jev-style-decision-models</guid>
-            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6.1 Sol is now available in Devin]]></title>
-            <description><![CDATA[OpenAI released GPT-6.1 Sol. It is live now in Devin Desktop and Devin CLI. Same $2/$10 list price as GPT-6 Sol, but cache reads are now 95% off, and on FrontierCode 1.1 it matches GPT-6 Sol's score at roughly half the cost per task at every reasoning effort. At low effort it scores 58.1% for $0.21 per task, the best score of any model under $0.30.]]></description>
-            <link>https://windsurf.com/blog/gpt-6-1-sol</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/gpt-6-1-sol</guid>
-            <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Sign in with ChatGPT]]></title>
-            <description><![CDATA[You can now sign in to Devin with ChatGPT and use your eligible ChatGPT Plus or Pro plan for OpenAI model usage across Devin Cloud, Devin Desktop, and Devin CLI.]]></description>
-            <link>https://windsurf.com/blog/sign-in-with-chatgpt</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/sign-in-with-chatgpt</guid>
             <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
