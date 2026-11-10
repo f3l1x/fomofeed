@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Goose Releases]]></description>
         <link>https://github.com/block/goose/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Nov 2026 23:15:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 12:04:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/goose-releases.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 09 Nov 2026 19:07:20 GMT</pubDate>
+        <pubDate>Tue, 10 Nov 2026 04:09:22 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[v1.58.1]]></title>
+            <description><![CDATA[## 🐛 **Bug Fixes** - Reword compaction prompt that Opus 5.5 refuses as distillation #13340 - Refresh Databricks OAuth tokens before they expire #13328]]></description>
+            <link>https://github.com/aaif-goose/goose/releases/tag/v1.58.1</link>
+            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.58.1</guid>
+            <pubDate>Tue, 10 Nov 2026 04:09:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[v1.58.0]]></title>
             <description><![CDATA[## ✨ Features - Opt-in context relevance operation #12589 - Context window report and viewer #10462 - AIHubMix declarative provider #12997 - RouterPlex declarative provider #13068 - Lemonade provider #12920 - Collapse thinking by default with a setting to control it (desktop) #12660 ## 🐛 Bug Fixes - Replace retired Spark X2 with Spark X2.5 in iflytek_astron #12772 - Show current session ID in /status #12607 - Keep session load on its replay fast path when stopped (desktop) #13190 - Replay OpenAI Responses reasoning across tool turns #13222 - Route bare OpenAI GPT IDs to Mantle by ID shape (bedrock) #13211 - Use supports_vision from /model/info (litellm) #13239 - Honor Retry-After on 429s mapped outside handle_status #12986 - Classify typed context_length_exceeded errors as context overflow (openrouter) #13154 - Report failed manual compaction as an error (acp) #13099 - Fall back to default inference for Bedrock provider models without document block support #12932 - Bump zstd to 0.14.3 for RUSTSEC advisories #13162 - Restore Linux window icons (desktop) #13120 - Resolve variant suffixes like :free and :nitro to the base model (openrouter) #12979 - Use catalog_provider_id for vision lookup on custom providers #12993 - Start the agent only once after a fork (desktop) #13139 - Remove jsonwebtoken to avoid ignoring its cargo-deny advisories #13141 - Use recipe settings in scheduled runs (scheduler) #13138 - Use system trust for WebSockets (voice) #13075 - Stop telling the model a screenshot tool exists (computercontroller) #13279 ## 🔧 Improvements - Replace Agent and AgentManager with one StateMachineServices per process #12880 - Drop tool-specific tool call titles (desktop) #13107 - Remove ACP client-delegated developer tools #13144 ## 📚 Documentation - Say that code is not the only way to contribute #13292 - Feature GDK on the main website #13245 - Give GDK its own navigation and developer guides #13165 - Fikra API example for custom OpenAI endpoints #13008]]></description>
@@ -680,13 +687,6 @@
             <link>https://github.com/aaif-goose/goose/releases/tag/v1.0.37</link>
             <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.0.37</guid>
             <pubDate>Wed, 16 Jul 2025 15:53:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[v1.1.0-alpha.4]]></title>
-            <description><![CDATA[This release is for testing the new Ui before merge]]></description>
-            <link>https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha.4</link>
-            <guid isPermaLink="false">https://github.com/aaif-goose/goose/releases/tag/v1.1.0-alpha.4</guid>
-            <pubDate>Tue, 15 Jul 2025 23:46:37 GMT</pubDate>
         </item>
     </channel>
 </rss>

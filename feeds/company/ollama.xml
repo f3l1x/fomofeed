@@ -4,16 +4,16 @@
         <description><![CDATA[All Ollama feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Nov 2026 23:16:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 12:05:00 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/ollama.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 09 Nov 2026 18:21:19 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
             <title><![CDATA[v0.40.16]]></title>
-            <description><![CDATA[## What's Changed * openai: forward truncation option in responses requests by @marlonferreira1800-hue in https://github.com/ollama/ollama/pull/19501 * openai: return an empty array for /v1/models when no models are installed by @liangliang205 in https://github.com/ollama/ollama/pull/19539 * llama.cpp: version bump b12177 by @dhiltgen in https://github.com/ollama/ollama/pull/19576 * README: add Quock to Mobile community integrations by @matteocelani in https://github.com/ollama/ollama/pull/19361 * windows: add CUDA 13.5 and SM 103 for ARM64 by @dhiltgen in https://github.com/ollama/ollama/pull/19580 * MLX: make Qwen3.8 Flash Next memory efficient by @dhiltgen in https://github.com/ollama/ollama/pull/18078 * launch: fix Claude Code routing and retired model errors by @hoyyeva in https://github.com/ollama/ollama/pull/19587 * Add ripple preview support to the MLX runner by @pdevine in https://github.com/ollama/ollama/pull/19592 ## New Contributors * @marlonferreira1800-hue made their first contribution in https://github.com/ollama/ollama/pull/19501 * @liangliang205 made their first contribution in https://github.com/ollama/ollama/pull/19539 **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.15...v0.40.16-rc0]]></description>
-            <link>https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0</link>
-            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0</guid>
+            <description><![CDATA[## Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ## What's Changed - Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon - ollama launch claude always routes Claude Code to the selected model - ollama launch explains when a cloud model has been retired - /v1/responses respects truncation and no longer silently truncates by default - /v1/models returns an empty list instead of null when no models are installed - CUDA 13.5 support for Windows on ARM - Updated llama.cpp **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.15...v0.40.16]]></description>
+            <link>https://github.com/ollama/ollama/releases/tag/v0.40.16</link>
+            <guid isPermaLink="false">https://github.com/ollama/ollama/releases/tag/v0.40.16</guid>
             <pubDate>Mon, 09 Nov 2026 18:21:19 GMT</pubDate>
         </item>
         <item>
