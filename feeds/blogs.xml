@@ -4,7 +4,7 @@
         <description><![CDATA[Aggregated blogs feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/blogs/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Nov 2026 20:42:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 11:39:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 10 Nov 2026 23:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -21,6 +21,13 @@
             <description><![CDATA[Gemini 4 Carbon is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 40.0%, up from Gemini 4 Argon's 26.3%, at a lower cost per task.]]></description>
             <link>https://windsurf.com/blog/gemini-4-carbon</link>
             <guid isPermaLink="false">https://windsurf.com/blog/gemini-4-carbon</guid>
+            <pubDate>Mon, 09 Nov 2026 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cursor Projects is now multiplayer]]></title>
+            <link>https://cursor.com/blog/projects-multiplayer</link>
+            <guid isPermaLink="false">https://cursor.com/blog/projects-multiplayer</guid>
+            <category><![CDATA[product]]></category>
             <pubDate>Mon, 09 Nov 2026 23:00:00 GMT</pubDate>
         </item>
         <item>
@@ -260,13 +267,6 @@
             <link>https://cursor.com/blog/aiuc-1</link>
             <guid isPermaLink="false">https://cursor.com/blog/aiuc-1</guid>
             <category><![CDATA[company]]></category>
-            <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Cloud agents start 3x faster with builds]]></title>
-            <link>https://cursor.com/blog/builds</link>
-            <guid isPermaLink="false">https://cursor.com/blog/builds</guid>
-            <category><![CDATA[product]]></category>
             <pubDate>Wed, 12 Aug 2026 22:00:00 GMT</pubDate>
         </item>
         <item>

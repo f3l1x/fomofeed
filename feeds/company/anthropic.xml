@@ -4,7 +4,7 @@
         <description><![CDATA[All Anthropic feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Nov 2026 20:42:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 11:39:38 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/anthropic.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 10 Nov 2026 02:29:43 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,15 +710,15 @@
             <pubDate>Wed, 08 Jul 2026 21:22:06 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Your apps can now open in Claude, and Claude can work in them]]></title>
-            <description><![CDATA[Showing 11 of 313 resources]]></description>
+            <title><![CDATA[Operate Claude Managed Agents inside your security perimeter]]></title>
+            <description><![CDATA[Showing 11 of 314 resources]]></description>
             <link>https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</link>
             <guid isPermaLink="false">https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</guid>
             <pubDate>Wed, 27 May 2020 23:45:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Your apps can now open in Claude, and Claude can work in them]]></title>
-            <description><![CDATA[Showing 11 of 313 resources]]></description>
+            <title><![CDATA[Operate Claude Managed Agents inside your security perimeter]]></title>
+            <description><![CDATA[Showing 11 of 314 resources]]></description>
             <link>https://claude.dev/blog/which-claude-model-should-you-build-with/</link>
             <guid isPermaLink="false">https://claude.dev/blog/which-claude-model-should-you-build-with/</guid>
             <pubDate>Fri, 10 Apr 2020 13:07:00 GMT</pubDate>
