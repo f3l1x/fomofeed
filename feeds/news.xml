@@ -4,24 +4,31 @@
         <description><![CDATA[Aggregated news feed from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/news/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Nov 2026 11:39:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 21:02:28 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 27 Dec 2020 10:45:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
-            <title><![CDATA[Operate Claude Managed Agents inside your security perimeter]]></title>
-            <description><![CDATA[Showing 11 of 314 resources]]></description>
+            <title><![CDATA[Your apps can now open in Claude, and Claude can work in them]]></title>
+            <description><![CDATA[Showing 11 of 313 resources]]></description>
             <link>https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</link>
             <guid isPermaLink="false">https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</guid>
             <pubDate>Wed, 27 May 2020 23:45:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Operate Claude Managed Agents inside your security perimeter]]></title>
-            <description><![CDATA[Showing 11 of 314 resources]]></description>
+            <title><![CDATA[Your apps can now open in Claude, and Claude can work in them]]></title>
+            <description><![CDATA[Showing 11 of 313 resources]]></description>
             <link>https://claude.dev/blog/which-claude-model-should-you-build-with/</link>
             <guid isPermaLink="false">https://claude.dev/blog/which-claude-model-should-you-build-with/</guid>
             <pubDate>Fri, 10 Apr 2020 13:07:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A2UI 1.0: Build delightful, fast, reliable, agentic experiences]]></title>
+            <description><![CDATA[A2UI 1.0 is an open protocol for generative UI that enables AI agents to render interactive, native screens across web, mobile, and desktop applications. Developers can leverage open-source renderer SDKs—including React, Angular, Lit, Flutter, SwiftUI, and Jetpack Compose—alongside agent SDKs for Python, TypeScript, and Dart. The release introduces bidirectional function calls, swappable inference formats, and secure data binding to help teams seamlessly integrate generative UI into their product stacks.]]></description>
+            <link>https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</guid>
+            <pubDate>Fri, 07 Feb 2020 03:17:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery]]></title>
@@ -85,13 +92,6 @@
             <link>https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
             <pubDate>Thu, 13 Feb 2020 19:38:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype]]></title>
-            <description><![CDATA[This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google Developer Studio. The framework helps engineers organize their guides and solutions to effectively share AI-driven conversational interface designs with the developer community.]]></description>
-            <link>https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</guid>
-            <pubDate>Sat, 13 Jun 2020 05:32:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Announcements]]></title>

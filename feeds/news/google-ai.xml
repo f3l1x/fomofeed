@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Google AI Blog]]></description>
         <link>https://developers.googleblog.com/search/?technology_categories=AI</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Nov 2026 11:37:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 21:00:25 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/news/google-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 09 Dec 2020 19:02:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[A2UI 1.0: Build delightful, fast, reliable, agentic experiences]]></title>
+            <description><![CDATA[A2UI 1.0 is an open protocol for generative UI that enables AI agents to render interactive, native screens across web, mobile, and desktop applications. Developers can leverage open-source renderer SDKs—including React, Angular, Lit, Flutter, SwiftUI, and Jetpack Compose—alongside agent SDKs for Python, TypeScript, and Dart. The release introduces bidirectional function calls, swappable inference formats, and secure data binding to help teams seamlessly integrate generative UI into their product stacks.]]></description>
+            <link>https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</guid>
+            <pubDate>Fri, 07 Feb 2020 03:17:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery]]></title>
             <description><![CDATA[Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform open-weight model integration. This local pipeline seamlessly pairs lightweight speech models with on-device small language models like Gemini Nano and Gemma 4 to enable real-time streaming transcription and low-latency synthesis.]]></description>
@@ -71,13 +78,6 @@
             <link>https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
             <pubDate>Thu, 13 Feb 2020 19:38:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype]]></title>
-            <description><![CDATA[This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google Developer Studio. The framework helps engineers organize their guides and solutions to effectively share AI-driven conversational interface designs with the developer community.]]></description>
-            <link>https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</guid>
-            <pubDate>Sat, 13 Jun 2020 05:32:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
