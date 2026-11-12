@@ -4,7 +4,7 @@
         <description><![CDATA[All Google feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Nov 2026 12:03:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Nov 2026 21:17:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/google.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 10 Nov 2026 21:17:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
@@ -710,6 +710,20 @@
             <pubDate>Tue, 18 Aug 2026 01:00:05 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Catch Go bugs that fuzzing misses with Gemini and a constraint solver]]></title>
+            <description><![CDATA[How pairing Go's surviving compiler bounds-check traps with Gemini 4 Argon and the Z3 constraint solver catches latent out-of-bounds panics in Go code and uncovers a slice-capacity blind spot in go test -fuzz.]]></description>
+            <link>https://developers.googleblog.com/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/</guid>
+            <pubDate>Fri, 15 May 2020 15:20:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Agent Anomaly Detection scores on benchmarks we didn't write]]></title>
+            <description><![CDATA[Agent Anomaly Detection (AAD) provides asynchronous, low-latency monitoring for AI agents by analyzing OpenTelemetry traces and logs to flag goal hijacks and tool misuse. Tested across five public security benchmarks, AAD successfully caught 87% of harmful instructions carried out by agents without adding runtime latency. Developers can integrate AAD alongside semantic governance and strict tool limits as part of a defense-in-depth strategy to secure agentic applications.]]></description>
+            <link>https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/</link>
+            <guid isPermaLink="false">https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/</guid>
+            <pubDate>Wed, 08 Jan 2020 09:32:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[A2UI 1.0: Build delightful, fast, reliable, agentic experiences]]></title>
             <description><![CDATA[A2UI 1.0 is an open protocol for generative UI that enables AI agents to render interactive, native screens across web, mobile, and desktop applications. Developers can leverage open-source renderer SDKs—including React, Angular, Lit, Flutter, SwiftUI, and Jetpack Compose—alongside agent SDKs for Python, TypeScript, and Dart. The release introduces bidirectional function calls, swappable inference formats, and secure data binding to help teams seamlessly integrate generative UI into their product stacks.]]></description>
             <link>https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</link>
@@ -764,20 +778,6 @@
             <link>https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/</link>
             <guid isPermaLink="false">https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/</guid>
             <pubDate>Thu, 13 Feb 2020 21:56:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hill-Climbing Agent Quality with Agents CLI Evaluation]]></title>
-            <description><![CDATA[This post walks through the Agents CLI evaluation loop for systematically improving agent performance through continuous testing and grading. It demonstrates how to catch prompt regressions, evaluate model backend swaps using side-by-side trace comparisons, and automate evaluation passes. Developers will also learn how to integrate nightly scheduled runs with threshold-based alerting to track quality over time.]]></description>
-            <link>https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/</guid>
-            <pubDate>Thu, 16 Jan 2020 00:07:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Smaller apps and faster GPU inference with LiteRT in Google Play services]]></title>
-            <description><![CDATA[LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.]]></description>
-            <link>https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
-            <guid isPermaLink="false">https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
-            <pubDate>Thu, 13 Feb 2020 19:38:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

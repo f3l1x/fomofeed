@@ -4,11 +4,18 @@
         <description><![CDATA[All Windsurf feeds from FomoFeed]]></description>
         <link>https://fomofeed.f3l1x.app/feeds/company/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Nov 2026 12:03:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Nov 2026 21:17:56 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/company/windsurf.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 10 Nov 2026 23:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Gemini 4 Hydrogen is now available in Devin]]></title>
+            <description><![CDATA[Gemini 4 Hydrogen is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 38.2%, within a point of GPT-6.1 Sol, at about 40% less per task than Gemini 4 Carbon.]]></description>
+            <link>https://windsurf.com/blog/gemini-4-hydrogen</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/gemini-4-hydrogen</guid>
+            <pubDate>Tue, 10 Nov 2026 23:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Claude Mythos 5.2 is now available in Devin Security]]></title>
             <description><![CDATA[Claude Mythos 5.2 is now available in Devin Security for customers with frontier cyber model access through Devin.]]></description>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/claude-haiku-5-5</link>
             <guid isPermaLink="false">https://windsurf.com/blog/claude-haiku-5-5</guid>
             <pubDate>Tue, 06 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Memory and dreaming: how Devin learns from working with you]]></title>
-            <description><![CDATA[Memory lets Devin carry useful learnings about the way you like to work across sessions. Dreaming is a daily asynchronous process that improves the index of Devin's memories about you.]]></description>
-            <link>https://windsurf.com/blog/memory-and-dreaming</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/memory-and-dreaming</guid>
-            <pubDate>Sun, 04 Oct 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>
