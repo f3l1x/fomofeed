@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Open WebUI Releases]]></description>
         <link>https://github.com/open-webui/open-webui/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Nov 2026 21:02:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Nov 2026 12:03:35 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/open-webui-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Sun, 08 Nov 2026 23:48:24 GMT</pubDate>
         <language><![CDATA[en]]></language>

@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Goose Releases]]></description>
         <link>https://github.com/block/goose/releases</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Nov 2026 21:01:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Nov 2026 12:03:23 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/changelogs/goose-releases.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Tue, 10 Nov 2026 17:17:02 GMT</pubDate>
         <language><![CDATA[en]]></language>
