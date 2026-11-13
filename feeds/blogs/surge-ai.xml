@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Surge AI Blog]]></description>
         <link>https://www.surgehq.ai/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Nov 2026 11:46:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2026 20:43:13 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/surge-ai.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Wed, 30 Dec 2020 22:46:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[The Smallest Claude Is a Better Software Engineer Than the Biggest GPT]]></title>
+            <description><![CDATA[We benchmarked five frontier coding agents on 60 real software engineering tasks. Every Claude beat every GPT. The biggest difference? Staff-level engineering judgment.]]></description>
+            <link>https://www.surgehq.ai/blog/claude-vs-gpt-software-engineering</link>
+            <guid isPermaLink="false">https://www.surgehq.ai/blog/claude-vs-gpt-software-engineering</guid>
+            <pubDate>Sun, 24 May 2020 23:09:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Surge RL Pushes NVIDIA Nemotron 3.5 Super VL Toward Frontier-Level Performance]]></title>
             <description><![CDATA[We trained NVIDIA's Nemotron 3.5 Super VL open model using reinforcement learning on Surge datasets, powered by Thinking Machines' Tinker. Across twelve benchmarks, the trained checkpoints improved up to 18.6 percentage points, reaching performance competitive with much larger frontier models.]]></description>
