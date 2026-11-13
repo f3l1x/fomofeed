@@ -4,11 +4,18 @@
         <description><![CDATA[RSS feed for Windsurf Blog]]></description>
         <link>https://windsurf.com/blog</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Nov 2026 21:15:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2026 11:47:17 GMT</lastBuildDate>
         <atom:link href="https://fomofeed.f3l1x.app/feeds/blogs/windsurf-blog.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Nov 2026 23:00:00 GMT</pubDate>
+        <pubDate>Wed, 11 Nov 2026 23:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Devin's new Teams plan]]></title>
+            <description><![CDATA[The Devin Teams plan now includes Devin Desktop for every user, free sessions powered by SWE-2, SSO, cost controls, and a standard BAA for Teams customers.]]></description>
+            <link>https://windsurf.com/blog/devin-teams-plan</link>
+            <guid isPermaLink="false">https://windsurf.com/blog/devin-teams-plan</guid>
+            <pubDate>Wed, 11 Nov 2026 23:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Gemini 4 Hydrogen is now available in Devin]]></title>
             <description><![CDATA[Gemini 4 Hydrogen is now live in Devin Desktop and Devin CLI. On FrontierCode 2.0 it scores 38.2%, within a point of GPT-6.1 Sol, at about 40% less per task than Gemini 4 Carbon.]]></description>
@@ -92,13 +99,6 @@
             <link>https://windsurf.com/blog/gemini-4-argon</link>
             <guid isPermaLink="false">https://windsurf.com/blog/gemini-4-argon</guid>
             <pubDate>Mon, 12 Oct 2026 22:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Claude Haiku 5.5 is now available in Devin]]></title>
-            <description><![CDATA[Claude Haiku 5.5 is now live in Devin. On FrontierCode 1.1 it scores 58.4%, ahead of Sonnet 5 at about an eighth of the cost per task, and it joins the sidekick lineup in Devin Fusion.]]></description>
-            <link>https://windsurf.com/blog/claude-haiku-5-5</link>
-            <guid isPermaLink="false">https://windsurf.com/blog/claude-haiku-5-5</guid>
-            <pubDate>Tue, 06 Oct 2026 22:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Product]]></title>
